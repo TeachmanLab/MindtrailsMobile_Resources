@@ -1,0 +1,361 @@
+{
+    "Number": 1,
+    "Name": "Session1_long",
+    "Title": "Week 1: Part 2",
+    "TimeToComplete": "00:05:00",
+    "Domains": [
+        {
+            "Name": "Academics",
+            "Title": "Academics",
+            "Scenarios": [
+                {
+                    "Number": 0,
+                    "Name": "Welcome back!",
+                    "Title": "Welcome back!",
+                    "Description": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. ",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 1,
+                    "Name": "Three Brief Questions",
+                    "Title": "Three Brief Questions",
+                    "Description": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
+                    "Type": "Single",
+                    "Input": {
+                        "Type": "Slider",
+                        "Parameters": {
+                            "Minimum": 0,
+                            "Maximum": 10
+                        }
+                    }
+                },
+                {
+                    "Number": 2,
+                    "Name": "Three Brief Questions",
+                    "Title": "Three Brief Questions",
+                    "Description": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
+                    "Type": "Single",
+                    "Input": {
+                        "Type": "Slider",
+                        "Parameters": {
+                            "Minimum": 0,
+                            "Maximum": 10
+                        }
+                    }
+                },
+                {
+                    "Number": 3,
+                    "Name": "Three Brief Questions",
+                    "Title": "Three Brief Questions",
+                    "Description": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
+                    "Type": "Single",
+                    "Input": {
+                        "Type": "Slider",
+                        "Parameters": {
+                            "Minimum": 0,
+                            "Maximum": 10
+                        }
+                    }
+                },
+                {
+                    "Number": 4,
+                    "Name": "Three Brief Questions",
+                    "Title": "Three Brief Questions",
+                    "Description": "Thank you!",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 5,
+                    "Name": "Lemon Exercsie",
+                    "Title": "Lemon Exercise",
+                    "Description": "The purpose of this quick exercise is to demonstrate what imagination-based thinking is. You will imagine what seeing, touching, and smelling a lemon is like. Please imagine this as if you are really experiencing it.",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/lemon/pic1.jpeg",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 6,
+                    "Name": "Lemon Exercsie",
+                    "Title": "Lemon Exercise",
+                    "Description": "In this exercise\u2014and throughout the training program\u2014please remember to imagine what is happening through your own eyes, similar to the picture on the left. This is more effective than viewing the situation as an outside observer, like the picture on the right.",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/lemon/pic2.jpeg",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 7,
+                    "Name": "Lemon Exercsie",
+                    "Title": "Lemon Exercise",
+                    "Description": "Okay...let's begin! Imagine you are holding the lemon in your right hand, and you can feel its shape and its weight.",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/lemon/pic3.jpeg",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 8,
+                    "Name": "Lemon Exercsie",
+                    "Title": "Lemon Exercise",
+                    "Description": "Now imagine you are shining a light on the lemon, and you can see the waxy and lumpy texture of the yellow skin.",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/lemon/pic4.jpeg",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 9,
+                    "Name": "Lemon Exercsie",
+                    "Title": "Lemon Exercise",
+                    "Description": "Now imagine that you scratch the skin with your fingernail, then you bring the lemon up to your nose, and you can smell the fresh zesty juice from the skin.",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/lemon/pic5.jpeg",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 10,
+                    "Name": "Lemon Exercsie",
+                    "Title": "Lemon Exercise",
+                    "Description": "Now imagine that you cut the lemon in half, and you bring one half of it up for a closer look. You can see the juicy flesh in the shape of segments that look like a wagon wheel.",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/lemon/pic6.jpeg",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 11,
+                    "Name": "Lemon Exercsie",
+                    "Title": "Lemon Exercise",
+                    "Description": "Now imagine that you squeeze the lemon and some of the juice squirts right into your eyes, and it is really stinging, making your eyes water.",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/lemon/pic7.jpeg",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 12,
+                    "Name": "Using Your Imagination",
+                    "Title": "Using Your Imagination",
+                    "Description": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 13,
+                    "Name": "Using Your Imagination",
+                    "Title": "Using Your Imagination",
+                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 14,
+                    "Name": "Using Your Imagination",
+                    "Title": "Using Your Imagination",
+                    "Description": "Please describe the situation in a few words: ",
+                    "Type": "Single",
+                    "Input": {
+                        "Type": "Entry"
+                    }
+                },
+                {
+                    "Number": 15,
+                    "Name": "Using Your Imagination",
+                    "Title": "Using Your Imagination",
+                    "Description": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 16,
+                    "Name": "Using Your Imagination",
+                    "Title": "Using Your Imagination",
+                    "Description": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 17,
+                    "Name": "Using Your Imagination",
+                    "Title": "Using Your Imagination",
+                    "Description": "How vividly did you imagine the situation?",
+                    "Type": "Single",
+                    "Input": {
+                        "Type": "Picker",
+                        "Parameters": {
+                            "Items": [
+                                "Not at all vivid",
+                                "Somewhat vivid",
+                                "Moderately vivid",
+                                "Very vivid",
+                                "Totally vivid",
+                                "Prefer not to answer"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Number": 18,
+                    "Name": "Using Your Imagination",
+                    "Title": "Using Your Imagination",
+                    "Description": "How likely is it that the situation or task will turn out well versus turn out badly?",
+                    "Type": "Single",
+                    "Input": {
+                        "Type": "Picker",
+                        "Parameters": {
+                            "Items": [
+                                "Very likely to turn out well",
+                                "Somewhat likely to turn out well",
+                                "Neutral",
+                                "Somewhat likely to turn out badly",
+                                "Very likely to turn out badly",
+                                "Prefer not to answer"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Number": 19,
+                    "Name": "Using Your Imagination",
+                    "Title": "Using Your Imagination",
+                    "Description": "If this situation did turn out badly, how well or badly would you be able to handle it?",
+                    "Input": {
+                        "Type": "Picker",
+                        "Parameters": {
+                            "Items": [
+                                "Very well",
+                                "Somewhat well",
+                                "Neutral",
+                                "Somewhat badly",
+                                "Very badly",
+                                "Prefer not to answer"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "Number": 1,
+                    "Name": "",
+                    "Title": "",
+                    "Caption": "",
+                    "Image": "https://drive.google.com/file/d/1peJsSeWbW75_7SXUaFUQcsUBkEkp3q7I/view?usp=sharing",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your English teacher calls on you to answer a question about the book you just read. You say your best answer and your peers are quiet."
+                    ],
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "Answering a question",
+                        "My answer was thoughtful. ",
+                        "It was nice to be able to share what I think about the book.",
+                        "My classmates are judging my wrong answer. ",
+                        "My answer sounded dumb because I didn't understand the book, but no one will remember tomorrow.",
+                        "If my English teacher didn't call on me, I wouldn't have made a fool of myself. I'll have a better answer next time. ",
+                        "I'm glad my teacher gave me the opportunity to share my answer. ",
+                        "I'm satisfied with how I said my answer. ",
+                        "I was scared while answering",
+                        "I'm disappointed in myself because I couldn't say what I wanted to say, but I think my teacher understood my point. ",
+                        "I was really anxious while I was answering, but was able to manage my feelings.",
+                        "I think about my answer, smile, and sit back. ",
+                        "I'll review my notes from this book before my test.",
+                        "I won't answer again in class. ",
+                        "I feel like I should crack a joke so my friends forget about my answer, but don't.",
+                        "I want to cry, but I take a moment to calm down and focus on the teacher's next question. "
+                    ],
+                    "Question": "N/A",
+                    "Answer": "N/A"
+                },
+                {
+                    "Number": 2,
+                    "Name": "",
+                    "Title": "",
+                    "Caption": "",
+                    "Image": "https://drive.google.com/file/d/10SQmYfVuHzcGYJjADi5bmTtG4gXr2V9x/view?usp=sharing",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You have a science test next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go."
+                    ],
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "Important test",
+                        "I'm a good student. ",
+                        "I'll do my best on my test next week. ",
+                        "My parents will be upset if I don't do well. ",
+                        "I'm dumb for not understanding this material, but I bet if I study really hard I can learn some of the material.",
+                        "I'll fail this test, but that doesn't mean I'll fail the class. ",
+                        "I'm confident that I can study really hard for the test. ",
+                        "I feel good about how I've done well in the class so far. ",
+                        "I'm scared to take the test. ",
+                        "I'm embarrassed to ask for help, but that feeling will pass. ",
+                        "I'm nervous for my test next week, but I'll be able to handle it. ",
+                        "I'll ask questions in class when I don't understand something this week.",
+                        "I'll ask my teacher for help this week. ",
+                        "I'll avoid studying for the test when I feel anxious. ",
+                        "I want to avoid asking for help, but I reach out to my teacher anyway. ",
+                        "I really don't want to make flash cards, but I will anyway because I know it'll be helpful for the test. "
+                    ],
+                    "Question": "N/A",
+                    "Answer": "N/A"
+                },
+                {
+                    "Number": 3,
+                    "Name": "",
+                    "Title": "",
+                    "Caption": "",
+                    "Image": "https://drive.google.com/file/d/1ilobDwcYGrbmqNzcFd8sPD-t-nwvuy9Y/view?usp=sharing",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You go to your grandparents' home for the first time in a while and notice that your grandfather looks a lot less healthy than you remember. No one in your family mentions it. "
+                    ],
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "Aging grandfather",
+                        "I wonder how my grandfather is feeling. ",
+                        "He's happy to see me. ",
+                        "My grandfather must be dying.",
+                        "I think about how miserable I would be if he passes away, but then remind myself to enjoy my time with him today. ",
+                        "My family must be keeping a secret about his health, but then tell myself that everyone ages. ",
+                        "I feel happy to see my grandfather.",
+                        "I feel excited to catch him up on all the new things that are going on in my life. ",
+                        "I'm worried about how he looks. ",
+                        "I'm scared to lose him, but know that I can handle grief. ",
+                        "I feel anxious about his health, but tolerate the anxiety. ",
+                        "I decide to give him a big hug and smile. ",
+                        "I make a funny joke to get my grandparents laughing. ",
+                        "I make a concerned face at my family. ",
+                        "I want to leave and cry, but decide to stay with the family and engage in conversation. ",
+                        "I gently ask my grandfather how he's doing and accept any answer he gives me."
+                    ],
+                    "Question": "N/A",
+                    "Answer": "N/A"
+                },
+                {
+                    "Number": 20,
+                    "Name": "Quick Thinking",
+                    "Title": "Quick Thinking",
+                    "Description": "On the next screen, you\u2019ll see a situation that might make someone nervous, worried, scared, or anxious. Here\u2019s an example: You\u2019re out with friends and receive this message from your parent saying, \u201cYou need to come home right now.",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 21,
+                    "Name": "Quick Thinking",
+                    "Title": "Quick Thinking",
+                    "Description": "In the text box, please write as many different thoughts that might come to your mind in that moment. You\u2019ll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I\u2019m really tired, so I\u2019m glad to be going home. ",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 22,
+                    "Name": "Quick Thinking",
+                    "Title": "Quick Thinking",
+                    "Description": "You don\u2019t need to write full sentences, and you should push yourself to write as many different thoughts as possible! These can be a mix of positive and negative thoughts. To add another thought, press the \u201cSubmit\u201d button on your screen.",
+                    "Type": "Single"
+                },
+                {
+                    "Number": 23,
+                    "Name": "Quick Thinking",
+                    "Title": "Quick Thinking",
+                    "Description": "As you\u2019re eating breakfast, your parents say there are going to be some changes coming up.",
+                    "Type": "Editor"
+                },
+                {
+                    "Number": 24,
+                    "Description": "How likely is it that the situation or task will turn out well versus turn out badly?",
+                    "Type": "Single"
+                }
+            ]
+        }
+    ]
+}
