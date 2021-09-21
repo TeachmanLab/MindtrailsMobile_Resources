@@ -50,11 +50,7 @@
                     "Description": [ "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours" ],
                     "Type": "Single",
                     "Input": {
-                        "Type": "Slider",
-                        "Parameters": {
-                            "Minimum": 0,
-                            "Maximum": 10
-                        }
+                        "Type": "Slider"
                     }
                 },
                 {
