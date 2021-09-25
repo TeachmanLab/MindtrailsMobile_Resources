@@ -3,88 +3,118 @@
     "Name": "Session3_long",
     "Title": "Week 3: Part 2",
     "TimeToComplete": "00:05:00",
-    "Domains": [
+    "BeforeDomain": [
         {
-            "Name": "Academics",
-            "Title": "Academics",
-            "Scenarios": [
-                {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
+            "Name": "Welcome Back!",
+            "Title": "Welcome Back!",
+            "Description": [
+                "Welcome back to MindTrails! Let's get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. Let's get started!"
+            ],
+            "Type": "Information",
+            "Number": 0
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being. 10 = Most anxious, panicked, or scared I could imagine being."
+            ],
+            "Type": "Information",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": -1
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. (An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all -- I wasn't able to think in different ways to feel better. 10 = Completely-- I was totally able to think in different ways to feel better. "
+            ],
+            "Type": "Information",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": -2
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? (An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared. 10 = If there was something that would make me anxious or scared. "
+            ],
+            "Type": "Information",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": -3
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
+            ],
+            "Type": "Information",
+            "Number": -4
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please describe the situation in a few words:"
+            ],
+            "Type": "Information",
+            "Number": -5
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
+            ],
+            "Type": "Information",
+            "Number": -6
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  0 = Absolutely no anxiety. 10 = Totally anxious."
+            ],
+            "Type": "Information",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": -7
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How vividly did you imagine the situation?"
+            ],
+            "Type": "Information",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
                         "Not at all vivid",
                         "Somewhat vivid",
                         "Moderately vivid",
@@ -92,14 +122,21 @@
                         "Totally vivid",
                         "Prefer not to answer"
                     ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
+                }
+            },
+            "Number": -8
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How likely is it that the situation or task will turn out well versus turn out badly?"
+            ],
+            "Type": "Information",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
                         "Very likely to turn out well",
                         "Somewhat likely to turn out well",
                         "Neutral",
@@ -107,14 +144,21 @@
                         "Very likely to turn out badly",
                         "Prefer not to answer"
                     ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
+                }
+            },
+            "Number": -9
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "If this situation did turn out badly, how well or badly would you be able to handle it?"
+            ],
+            "Type": "Information",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
                         "Very well",
                         "Somewhat well",
                         "Neutral",
@@ -122,13 +166,76 @@
                         "Very badly",
                         "Prefer not to answer"
                     ]
-                },
+                }
+            },
+            "Number": -10
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
+            ],
+            "Type": "Information",
+            "Number": -11
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please take a moment to write one or two sentences to describe the situation. Press next when you are ready to continue."
+            ],
+            "Type": "Information",
+            "Number": -12
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
+            ],
+            "Type": "Information",
+            "Number": -13
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
+            ],
+            "Type": "Information",
+            "Number": -14
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
+            ],
+            "Type": "Information",
+            "Number": -15
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
+            ],
+            "Type": "Information",
+            "Number": -16
+        }
+    ],
+    "Domains": [
+        {
+            "Name": "Academics",
+            "Title": "Academics",
+            "Scenarios": [
                 {
                     "Number": 1,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1Vju0QZFxz9YAnRwbq5VtaZUA8cAek959/view?usp=sharing",
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Caption": "Group discussion",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -138,7 +245,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Group discussion",
                         "I'll make good contributions to the group discussion. ",
                         "People will be happy to work with me. ",
                         "Everyone will pick through group before class and I won't be able to find a group. ",
@@ -160,10 +266,10 @@
                 },
                 {
                     "Number": 2,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1peJsSeWbW75_7SXUaFUQcsUBkEkp3q7I/view?usp=sharing",
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Caption": "Answering a question",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -173,7 +279,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Answering a question",
                         "My answer was intelligent. ",
                         "I'm happy I could speak up in class. ",
                         "Everyone thinks my answer is wrong. ",
@@ -195,10 +300,10 @@
                 },
                 {
                     "Number": 3,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1NvTM1g3vx1Kut8y_4vvBJo79qKHzUztk/view?usp=sharing",
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Caption": "Crush not responding",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -208,7 +313,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Crush not responding",
                         "They're just busy. ",
                         "They're probably not responding to a lot of people right now. ",
                         "They must not like me.",
@@ -227,39 +331,6 @@
                     ],
                     "Question": "N/A",
                     "Answer": "N/A"
-                },
-                {
-                    "Number": 13,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "On the next screen, you\u2019ll see a situation that might make someone nervous, worried, scared, or anxious. Here\u2019s an example: You\u2019re out with friends and receive this message from your parent saying, \u201cYou need to come home right now.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 14,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "In the text box, please write as many different thoughts that might come to your mind in that moment. You\u2019ll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I\u2019m really tired, so I\u2019m glad to be going home. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 15,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "You don\u2019t need to write full sentences, and you should push yourself to write as many different thoughts as possible! These can be a mix of positive and negative thoughts. To add another thought, press the \u201cSubmit\u201d button on your screen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 16,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "As you\u2019re eating breakfast, your parents say there are going to be some changes coming up.",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 17,
-                    "Description": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Information"
                 }
             ]
         },
@@ -268,126 +339,11 @@
             "Title": "Social situations",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. ",
-                    "Type": "Information"
-                },
-                {
                     "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 1,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1fiU4LXhMtwbHsk-TL8j4fPXdxTFpO-rz/view?usp=sharing",
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Caption": "Using the restroom",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -397,7 +353,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Using the restroom",
                         "I looked good in the mirror on my way out of the bathroom. ",
                         "My hair looks great today. ",
                         "I must look silly.",
@@ -419,10 +374,10 @@
                 },
                 {
                     "Number": 2,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1lgjNvuXqVbMqHsO7EIZmc9XR6L6rg8fw/view?usp=sharing",
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Caption": "Sitting on the bus",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -432,7 +387,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Sitting on the bus",
                         "I think about how I enjoy the bus rides.",
                         "Maybe they haven't had a chance to catch up in a while. ",
                         "My friend doesn't consider me their friend. ",
@@ -454,10 +408,10 @@
                 },
                 {
                     "Number": 3,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1KeHog1u5MnwSfzyD9yBj4oIlp2YAyHwf/view?usp=sharing",
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Caption": "Strong opinions",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -467,7 +421,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Strong opinions",
                         "I appreciate having different views than my family. ",
                         "My friend will be interested in hearing what my family has to say.",
                         "My parents are going to say something that makes me upset.",
@@ -486,39 +439,6 @@
                     ],
                     "Question": "N/A",
                     "Answer": "N/A"
-                },
-                {
-                    "Number": 13,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "On the next screen, you\u2019ll see a situation that might make someone nervous, worried, scared, or anxious. Here\u2019s an example: You\u2019re out with friends and receive this message from your parent saying, \u201cYou need to come home right now.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 14,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "In the text box, please write as many different thoughts that might come to your mind in that moment. You\u2019ll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I\u2019m really tired, so I\u2019m glad to be going home. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 15,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "You don\u2019t need to write full sentences, and you should push yourself to write as many different thoughts as possible! These can be a mix of positive and negative thoughts. To add another thought, press the \u201cSubmit\u201d button on your screen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 16,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "As you\u2019re eating breakfast, your parents say there are going to be some changes coming up.",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 17,
-                    "Description": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Information"
                 }
             ]
         },
@@ -527,126 +447,11 @@
             "Title": "Physical health",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. ",
-                    "Type": "Information"
-                },
-                {
                     "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 1,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1K45MgxXqPYoGwF_Ck9c26oX8B4Q6Oafv/view?usp=sharing",
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Caption": "Laughing at a joke",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -656,7 +461,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Laughing at a joke",
                         "That must have been a really funny joke. ",
                         "I have never laughed that hard at a joke my friend has told. ",
                         "I can't breathe!",
@@ -678,10 +482,10 @@
                 },
                 {
                     "Number": 2,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1Ov4_xFiqnjvKNN5Un7xhg3L3BWieCiaz/view?usp=sharing",
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Caption": "Saying hi to friends",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -691,7 +495,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Saying hi to friends",
                         "I am able to keep a good pace on this jog. ",
                         "It is so beautiful out today. ",
                         "My friends will notice I am out of breath. ",
@@ -713,10 +516,10 @@
                 },
                 {
                     "Number": 3,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1U2_8uATTliNhBZDx61INANKTKxk7cpTi/view?usp=sharing",
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Caption": "Snakes in the park",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -726,7 +529,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Snakes in the park",
                         "I'm looking forward to talking to my friend.",
                         "It'll be nice to walk in the park. ",
                         "I'm going to get bitten by a snake!",
@@ -745,39 +547,6 @@
                     ],
                     "Question": "N/A",
                     "Answer": "N/A"
-                },
-                {
-                    "Number": 13,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "On the next screen, you\u2019ll see a situation that might make someone nervous, worried, scared, or anxious. Here\u2019s an example: You\u2019re out with friends and receive this message from your parent saying, \u201cYou need to come home right now.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 14,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "In the text box, please write as many different thoughts that might come to your mind in that moment. You\u2019ll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I\u2019m really tired, so I\u2019m glad to be going home. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 15,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "You don\u2019t need to write full sentences, and you should push yourself to write as many different thoughts as possible! These can be a mix of positive and negative thoughts. To add another thought, press the \u201cSubmit\u201d button on your screen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 16,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "As you\u2019re eating breakfast, your parents say there are going to be some changes coming up.",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 17,
-                    "Description": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Information"
                 }
             ]
         },
@@ -786,126 +555,11 @@
             "Title": "Social media",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. ",
-                    "Type": "Information"
-                },
-                {
                     "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 1,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1NvTM1g3vx1Kut8y_4vvBJo79qKHzUztk/view?usp=sharing",
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Caption": "Crush not responding",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -915,7 +569,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Crush not responding",
                         "They're just busy. ",
                         "They're probably not responding to a lot of people right now. ",
                         "They must not like me.",
@@ -937,10 +590,10 @@
                 },
                 {
                     "Number": 2,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1xJHDDEq_Pcuyo7r3BJ3CX-cr5YI7YkrO/view?usp=sharing",
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Caption": "Hanging out without you",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -950,7 +603,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Hanging out without you",
                         "My friends look really happy. ",
                         "I think about all the wonderful photos I took with my friends. ",
                         "I think they meant to leave me out of the gathering. ",
@@ -972,10 +624,10 @@
                 },
                 {
                     "Number": 3,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1Vju0QZFxz9YAnRwbq5VtaZUA8cAek959/view?usp=sharing",
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Caption": "Group discussion",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -985,7 +637,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Group discussion",
                         "I'll make good contributions to the group discussion. ",
                         "People will be happy to work with me. ",
                         "Everyone will pick through group before class and I won't be able to find a group. ",
@@ -1004,39 +655,6 @@
                     ],
                     "Question": "N/A",
                     "Answer": "N/A"
-                },
-                {
-                    "Number": 13,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "On the next screen, you\u2019ll see a situation that might make someone nervous, worried, scared, or anxious. Here\u2019s an example: You\u2019re out with friends and receive this message from your parent saying, \u201cYou need to come home right now.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 14,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "In the text box, please write as many different thoughts that might come to your mind in that moment. You\u2019ll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I\u2019m really tired, so I\u2019m glad to be going home. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 15,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "You don\u2019t need to write full sentences, and you should push yourself to write as many different thoughts as possible! These can be a mix of positive and negative thoughts. To add another thought, press the \u201cSubmit\u201d button on your screen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 16,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "As you\u2019re eating breakfast, your parents say there are going to be some changes coming up.",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 17,
-                    "Description": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Information"
                 }
             ]
         },
@@ -1045,126 +663,11 @@
             "Title": "Home life",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. ",
-                    "Type": "Information"
-                },
-                {
                     "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 1,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1KeHog1u5MnwSfzyD9yBj4oIlp2YAyHwf/view?usp=sharing",
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Caption": "Strong opinions",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -1174,7 +677,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Strong opinions",
                         "I appreciate having different views than my family. ",
                         "My friend will be interested in hearing what my family has to say.",
                         "My parents are going to say something that makes me upset.",
@@ -1196,10 +698,10 @@
                 },
                 {
                     "Number": 2,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1I4HOF2-6lL6iKdgXECEzDily8_OIvcnT/view?usp=sharing",
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Caption": "Balancing responsibilities",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -1209,7 +711,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Balancing responsibilities",
                         "I think about how great it is to be busy. ",
                         "I'm able to balance a lot.",
                         "I'm not going to be able to do all of this tonight.",
@@ -1231,10 +732,10 @@
                 },
                 {
                     "Number": 3,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1fiU4LXhMtwbHsk-TL8j4fPXdxTFpO-rz/view?usp=sharing",
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Caption": "Using the restroom",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -1244,7 +745,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Using the restroom",
                         "I looked good in the mirror on my way out of the bathroom. ",
                         "My hair looks great today. ",
                         "I must look silly.",
@@ -1263,39 +763,6 @@
                     ],
                     "Question": "N/A",
                     "Answer": "N/A"
-                },
-                {
-                    "Number": 13,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "On the next screen, you\u2019ll see a situation that might make someone nervous, worried, scared, or anxious. Here\u2019s an example: You\u2019re out with friends and receive this message from your parent saying, \u201cYou need to come home right now.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 14,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "In the text box, please write as many different thoughts that might come to your mind in that moment. You\u2019ll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I\u2019m really tired, so I\u2019m glad to be going home. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 15,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "You don\u2019t need to write full sentences, and you should push yourself to write as many different thoughts as possible! These can be a mix of positive and negative thoughts. To add another thought, press the \u201cSubmit\u201d button on your screen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 16,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "As you\u2019re eating breakfast, your parents say there are going to be some changes coming up.",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 17,
-                    "Description": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Information"
                 }
             ]
         },
@@ -1304,126 +771,11 @@
             "Title": "General",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. ",
-                    "Type": "Information"
-                },
-                {
                     "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 1,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1U2_8uATTliNhBZDx61INANKTKxk7cpTi/view?usp=sharing",
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Caption": "Snakes in the park",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -1433,7 +785,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Snakes in the park",
                         "I'm looking forward to talking to my friend.",
                         "It'll be nice to walk in the park. ",
                         "I'm going to get bitten by a snake!",
@@ -1455,10 +806,10 @@
                 },
                 {
                     "Number": 2,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1ilobDwcYGrbmqNzcFd8sPD-t-nwvuy9Y/view?usp=sharing",
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Caption": "Aging grandfather",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -1468,7 +819,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Aging grandfather",
                         "He looks so happy to be with family. ",
                         "My grandfather is glad that I'm visiting. ",
                         "He's probably going to pass away soon. ",
@@ -1490,10 +840,10 @@
                 },
                 {
                     "Number": 3,
-                    "Name": "",
-                    "Title": "",
-                    "Caption": "",
-                    "Image": "https://drive.google.com/file/d/1K45MgxXqPYoGwF_Ck9c26oX8B4Q6Oafv/view?usp=sharing",
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Caption": "Laughing at a joke",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
                     "ImageFromURL": "True",
@@ -1503,7 +853,6 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "Laughing at a joke",
                         "That must have been a really funny joke. ",
                         "I have never laughed that hard at a joke my friend has told. ",
                         "I can't breathe!",
@@ -1522,41 +871,46 @@
                     ],
                     "Question": "N/A",
                     "Answer": "N/A"
-                },
-                {
-                    "Number": 13,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "On the next screen, you\u2019ll see a situation that might make someone nervous, worried, scared, or anxious. Here\u2019s an example: You\u2019re out with friends and receive this message from your parent saying, \u201cYou need to come home right now.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 14,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "In the text box, please write as many different thoughts that might come to your mind in that moment. You\u2019ll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I\u2019m really tired, so I\u2019m glad to be going home. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 15,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "You don\u2019t need to write full sentences, and you should push yourself to write as many different thoughts as possible! These can be a mix of positive and negative thoughts. To add another thought, press the \u201cSubmit\u201d button on your screen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 16,
-                    "Name": "Quick Thinking",
-                    "Title": "Quick Thinking",
-                    "Description": "As you\u2019re eating breakfast, your parents say there are going to be some changes coming up.",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 17,
-                    "Description": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Information"
                 }
             ]
+        }
+    ],
+    "AfterDomain": [
+        {
+            "Name": "Quick Thinking",
+            "Title": "Quick Thinking",
+            "Description": [
+                "On the next screen, you'll see a situation that might make someone nervous, worried, scared, or anxious. Here's an example: You're out with friends and receive this message from your parent saying, \"You need to come home right now.\""
+            ],
+            "Type": "Information",
+            "Number": 100
+        },
+        {
+            "Name": "Quick Thinking",
+            "Title": "Quick Thinking",
+            "Description": [
+                "In the text box, please write as many different thoughts that might come to your mind in that moment. You'll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I'm really tired, so I'm glad to be going home."
+            ],
+            "Type": "Information",
+            "Number": 101
+        },
+        {
+            "Name": "Quick Thinking",
+            "Title": "Quick Thinking",
+            "Description": [
+                "Your stomach starts to hurt as you're about to start a soccer game."
+            ],
+            "Type": "Information",
+            "Number": 102
+        },
+        {
+            "Name": "Wrapping Up",
+            "Title": "Wrapping Up",
+            "Description": [
+                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
+            ],
+            "Type": "Information",
+            "Number": 103
         }
     ]
 }

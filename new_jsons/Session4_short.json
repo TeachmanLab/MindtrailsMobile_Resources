@@ -3,88 +3,125 @@
     "Name": "Session4_short",
     "Title": "Week 4: Part 1",
     "TimeToComplete": "00:05:00",
-    "Domains": [
+    "BeforeDomain": [
         {
-            "Name": "Academics",
-            "Title": "Academics",
-            "Scenarios": [
-                {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let\u2019s get started!",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
+            "Name": "Welcome Back!",
+            "Title": "Welcome Back!",
+            "Description": [
+                "Welcome back to MindTrails! Let's get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let's get started!"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": 0
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being. 10 = Most anxious, panicked, or scared I could imagine being."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": -1
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. (An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all -- I wasn't able to think in different ways to feel better. 10 = Completely-- I was totally able to think in different ways to feel better. "
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": -2
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? (An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared. 10 = If there was something that would make me anxious or scared. "
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": -3
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
+            ],
+            "Type": "Single",
+            "Number": -4
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please describe the situation in a few words:"
+            ],
+            "Type": "Single",
+            "Number": -5
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
+            ],
+            "Type": "Single",
+            "Number": -6
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  0 = Absolutely no anxiety. 10 = Totally anxious."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": "0",
+                    "Maximum": "10"
+                }
+            },
+            "Number": -7
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How vividly did you imagine the situation?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
                         "Not at all vivid",
                         "Somewhat vivid",
                         "Moderately vivid",
@@ -92,14 +129,21 @@
                         "Totally vivid",
                         "Prefer not to answer"
                     ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
+                }
+            },
+            "Number": -8
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How likely is it that the situation or task will turn out well versus turn out badly?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
                         "Very likely to turn out well",
                         "Somewhat likely to turn out well",
                         "Neutral",
@@ -107,14 +151,21 @@
                         "Very likely to turn out badly",
                         "Prefer not to answer"
                     ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
+                }
+            },
+            "Number": -9
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "If this situation did turn out badly, how well or badly would you be able to handle it?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
                         "Very well",
                         "Somewhat well",
                         "Neutral",
@@ -122,13 +173,76 @@
                         "Very badly",
                         "Prefer not to answer"
                     ]
-                },
+                }
+            },
+            "Number": -10
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
+            ],
+            "Type": "Single",
+            "Number": -11
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please take a moment to write one or two sentences to describe the situation. Press next when you are ready to continue."
+            ],
+            "Type": "Single",
+            "Number": -12
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
+            ],
+            "Type": "Single",
+            "Number": -13
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
+            ],
+            "Type": "Single",
+            "Number": -14
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
+            ],
+            "Type": "Single",
+            "Number": -15
+        },
+        {
+            "Name": "Wrapping Up",
+            "Title": "Wrapping Up",
+            "Description": [
+                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
+            ],
+            "Type": "Single",
+            "Number": -16
+        }
+    ],
+    "Domains": [
+        {
+            "Name": "Academics",
+            "Title": "Academics",
+            "Scenarios": [
                 {
-                    "Number": 14,
-                    "Name": "Scenario-5",
-                    "Title": "Scenario -5",
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario -18",
                     "Caption": "History presentation",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -145,11 +259,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 15,
-                    "Name": "Scenario-4",
-                    "Title": "Scenario -4",
+                    "Number": 2,
+                    "Name": "Scenario2",
+                    "Title": "Scenario -17",
                     "Caption": "Running out of time",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -166,11 +280,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 16,
-                    "Name": "Scenario-3",
-                    "Title": "Scenario -3",
+                    "Number": 3,
+                    "Name": "Scenario3",
+                    "Title": "Scenario -16",
                     "Caption": "Late for class",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -187,11 +301,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 17,
-                    "Name": "Scenario-2",
-                    "Title": "Scenario -2",
+                    "Number": 4,
+                    "Name": "Scenario4",
+                    "Title": "Scenario -15",
                     "Caption": "Online test",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic3.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -210,11 +324,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 18,
-                    "Name": "Scenario-1",
-                    "Title": "Scenario -1",
+                    "Number": 5,
+                    "Name": "Scenario5",
+                    "Title": "Scenario -14",
                     "Caption": "Making a mistake",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic4.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -231,11 +345,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 19,
-                    "Name": "Scenario0",
-                    "Title": "Scenario 0",
+                    "Number": 6,
+                    "Name": "Scenario6",
+                    "Title": "Scenario -13",
                     "Caption": "The calculator",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic5.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -252,11 +366,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 20,
-                    "Name": "Scenario1",
-                    "Title": "Scenario 1",
+                    "Number": 7,
+                    "Name": "Scenario7",
+                    "Title": "Scenario -12",
                     "Caption": "The late night",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic0.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic6.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -273,11 +387,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 21,
-                    "Name": "Scenario2",
-                    "Title": "Scenario 2",
+                    "Number": 8,
+                    "Name": "Scenario8",
+                    "Title": "Scenario -11",
                     "Caption": "Class presentation",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic7.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -296,11 +410,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 22,
-                    "Name": "Scenario3",
-                    "Title": "Scenario 3",
+                    "Number": 9,
+                    "Name": "Scenario9",
+                    "Title": "Scenario -10",
                     "Caption": "Study buddy",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic8.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -317,11 +431,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 23,
-                    "Name": "Scenario4",
-                    "Title": "Scenario 4",
+                    "Number": 10,
+                    "Name": "Scenario10",
+                    "Title": "Scenario -9",
                     "Caption": "Group project",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic9.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -338,11 +452,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 24,
-                    "Name": "Scenario5",
-                    "Title": "Scenario 5",
+                    "Number": 11,
+                    "Name": "Scenario11",
+                    "Title": "Scenario -8",
                     "Caption": "",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic10.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -359,11 +473,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 25,
-                    "Name": "Scenario6",
-                    "Title": "Scenario 6",
+                    "Number": 12,
+                    "Name": "Scenario12",
+                    "Title": "Scenario -7",
                     "Caption": "Friends making plans",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic11.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -380,11 +494,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 26,
-                    "Name": "Scenario7",
-                    "Title": "Scenario 7",
+                    "Number": 13,
+                    "Name": "Scenario13",
+                    "Title": "Scenario -6",
                     "Caption": "Your friend hasn't liked your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic12.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -403,11 +517,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 27,
-                    "Name": "Scenario8",
-                    "Title": "Scenario 8",
+                    "Number": 14,
+                    "Name": "Scenario14",
+                    "Title": "Scenario -5",
                     "Caption": "Thoughts at the train station",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic7.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic13.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -424,11 +538,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 28,
-                    "Name": "Scenario9",
-                    "Title": "Scenario 9",
+                    "Number": 15,
+                    "Name": "Scenario15",
+                    "Title": "Scenario -4",
                     "Caption": "Low score on test",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic8.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic14.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -445,11 +559,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 29,
-                    "Name": "Scenario10",
-                    "Title": "Scenario 10",
+                    "Number": 16,
+                    "Name": "Scenario16",
+                    "Title": "Scenario -3",
                     "Caption": "Graduation plans ",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic9.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic15.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -464,51 +578,6 @@
                     ],
                     "Question": "Are you happy with your decision to get a job right after high school?",
                     "Answer": "Yes"
-                },
-                {
-                    "Number": 29,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "On the next screen, you will be asked to write about an event that recently happened. Before pressing NEXT, please think about a situation that happened over the last week when you felt anxious, scared, or worried. This can be a situation that has happened often or one that hasn\u2019t happened a lot. As you think of a memory, try to really see yourself in the situation. Where were you? What day of the week was it? What time was it? Who was around you? What were you doing? How did you feel? After you think of your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 30,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please take a moment to write one or two sentences about the situation. Press next when you are ready to continue. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 31,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please picture yourself in this situation for the next 30 seconds. The screen will change automatically after 30 seconds. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 32,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Now, take the next 90 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 33,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Great job! You remembered the past! Now, if that happens again, you have a lot of different thoughts that could come into your mind. Try to remember some of your thoughts that make you feel less anxious! ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 34,
-                    "Description": "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!",
-                    "Type": "Information"
                 }
             ]
         },
@@ -517,126 +586,11 @@
             "Title": "Social situations",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let\u2019s get started!",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 14,
-                    "Name": "Scenario-5",
-                    "Title": "Scenario -5",
+                    "Number": 17,
+                    "Name": "Scenario17",
+                    "Title": "Scenario -2",
                     "Caption": "Hallway encounter",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic16.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -653,11 +607,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 15,
-                    "Name": "Scenario-4",
-                    "Title": "Scenario -4",
+                    "Number": 18,
+                    "Name": "Scenario18",
+                    "Title": "Scenario -1",
                     "Caption": "Birthday party",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic17.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -676,11 +630,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 16,
-                    "Name": "Scenario-3",
-                    "Title": "Scenario -3",
+                    "Number": 19,
+                    "Name": "Scenario19",
+                    "Title": "Scenario 0",
                     "Caption": "Friends laughing and looking",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic18.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -697,11 +651,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 17,
-                    "Name": "Scenario-2",
-                    "Title": "Scenario -2",
+                    "Number": 20,
+                    "Name": "Scenario20",
+                    "Title": "Scenario 1",
                     "Caption": "Halloween party",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic19.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -718,11 +672,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 18,
-                    "Name": "Scenario-1",
-                    "Title": "Scenario -1",
+                    "Number": 21,
+                    "Name": "Scenario21",
+                    "Title": "Scenario 2",
                     "Caption": "Sending a photo",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic20.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -739,11 +693,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 19,
-                    "Name": "Scenario0",
-                    "Title": "Scenario 0",
+                    "Number": 22,
+                    "Name": "Scenario22",
+                    "Title": "Scenario 3",
                     "Caption": "Alone on the bus",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic21.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -760,11 +714,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 20,
-                    "Name": "Scenario1",
-                    "Title": "Scenario 1",
+                    "Number": 23,
+                    "Name": "Scenario23",
+                    "Title": "Scenario 4",
                     "Caption": "Party behavior",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic0.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic22.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -781,11 +735,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 21,
-                    "Name": "Scenario2",
-                    "Title": "Scenario 2",
+                    "Number": 24,
+                    "Name": "Scenario24",
+                    "Title": "Scenario 5",
                     "Caption": "Added on social media",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic23.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -802,11 +756,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 22,
-                    "Name": "Scenario3",
-                    "Title": "Scenario 3",
+                    "Number": 25,
+                    "Name": "Scenario25",
+                    "Title": "Scenario 6",
                     "Caption": "Crush on the swim team",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic24.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -825,11 +779,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 23,
-                    "Name": "Scenario4",
-                    "Title": "Scenario 4",
+                    "Number": 26,
+                    "Name": "Scenario26",
+                    "Title": "Scenario 7",
                     "Caption": "Trick-or-treating with sibling",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic25.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -846,11 +800,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 24,
-                    "Name": "Scenario5",
-                    "Title": "Scenario 5",
+                    "Number": 27,
+                    "Name": "Scenario27",
+                    "Title": "Scenario 8",
                     "Caption": "",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic26.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -867,11 +821,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 25,
-                    "Name": "Scenario6",
-                    "Title": "Scenario 6",
+                    "Number": 28,
+                    "Name": "Scenario28",
+                    "Title": "Scenario 9",
                     "Caption": "Friends making plans",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic27.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -888,11 +842,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 26,
-                    "Name": "Scenario7",
-                    "Title": "Scenario 7",
+                    "Number": 29,
+                    "Name": "Scenario29",
+                    "Title": "Scenario 10",
                     "Caption": "Your friend hasn't liked your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic28.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -911,11 +865,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 27,
-                    "Name": "Scenario8",
-                    "Title": "Scenario 8",
+                    "Number": 30,
+                    "Name": "Scenario30",
+                    "Title": "Scenario 11",
                     "Caption": "Thoughts at the train station",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic7.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic29.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -932,11 +886,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 28,
-                    "Name": "Scenario9",
-                    "Title": "Scenario 9",
+                    "Number": 31,
+                    "Name": "Scenario31",
+                    "Title": "Scenario 12",
                     "Caption": "Low score on test",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic8.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic30.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -953,11 +907,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 29,
-                    "Name": "Scenario10",
-                    "Title": "Scenario 10",
+                    "Number": 32,
+                    "Name": "Scenario32",
+                    "Title": "Scenario 13",
                     "Caption": "Graduation plans ",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic9.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic31.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -972,51 +926,6 @@
                     ],
                     "Question": "Are you happy with your decision to get a job right after high school?",
                     "Answer": "Yes"
-                },
-                {
-                    "Number": 29,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "On the next screen, you will be asked to write about an event that recently happened. Before pressing NEXT, please think about a situation that happened over the last week when you felt anxious, scared, or worried. This can be a situation that has happened often or one that hasn\u2019t happened a lot. As you think of a memory, try to really see yourself in the situation. Where were you? What day of the week was it? What time was it? Who was around you? What were you doing? How did you feel? After you think of your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 30,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please take a moment to write one or two sentences about the situation. Press next when you are ready to continue. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 31,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please picture yourself in this situation for the next 30 seconds. The screen will change automatically after 30 seconds. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 32,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Now, take the next 90 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 33,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Great job! You remembered the past! Now, if that happens again, you have a lot of different thoughts that could come into your mind. Try to remember some of your thoughts that make you feel less anxious! ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 34,
-                    "Description": "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!",
-                    "Type": "Information"
                 }
             ]
         },
@@ -1025,126 +934,11 @@
             "Title": "Physical health",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let\u2019s get started!",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 14,
-                    "Name": "Scenario-5",
-                    "Title": "Scenario -5",
+                    "Number": 33,
+                    "Name": "Scenario33",
+                    "Title": "Scenario 14",
                     "Caption": "The birthday party",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic32.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1161,11 +955,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 15,
-                    "Name": "Scenario-4",
-                    "Title": "Scenario -4",
+                    "Number": 34,
+                    "Name": "Scenario34",
+                    "Title": "Scenario 15",
                     "Caption": "Making appointment with doctor",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic33.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1184,11 +978,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 16,
-                    "Name": "Scenario-3",
-                    "Title": "Scenario -3",
+                    "Number": 35,
+                    "Name": "Scenario35",
+                    "Title": "Scenario 16",
                     "Caption": "Language class presentation",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic34.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1205,11 +999,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 17,
-                    "Name": "Scenario-2",
-                    "Title": "Scenario -2",
+                    "Number": 36,
+                    "Name": "Scenario36",
+                    "Title": "Scenario 17",
                     "Caption": "Visiting a friend",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic35.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1226,11 +1020,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 18,
-                    "Name": "Scenario-1",
-                    "Title": "Scenario -1",
+                    "Number": 37,
+                    "Name": "Scenario37",
+                    "Title": "Scenario 18",
                     "Caption": "Spicy food for dinner",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic36.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1247,11 +1041,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 19,
-                    "Name": "Scenario0",
-                    "Title": "Scenario 0",
+                    "Number": 38,
+                    "Name": "Scenario38",
+                    "Title": "Scenario 19",
                     "Caption": "Party with music",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic37.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1268,11 +1062,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 20,
-                    "Name": "Scenario1",
-                    "Title": "Scenario 1",
+                    "Number": 39,
+                    "Name": "Scenario39",
+                    "Title": "Scenario 20",
                     "Caption": "Climbing the stairs",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic0.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic38.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1289,11 +1083,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 21,
-                    "Name": "Scenario2",
-                    "Title": "Scenario 2",
+                    "Number": 40,
+                    "Name": "Scenario40",
+                    "Title": "Scenario 21",
                     "Caption": "Elevator is broken",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic39.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1310,11 +1104,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 22,
-                    "Name": "Scenario3",
-                    "Title": "Scenario 3",
+                    "Number": 41,
+                    "Name": "Scenario41",
+                    "Title": "Scenario 22",
                     "Caption": "Walking to clear mind",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic40.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1333,11 +1127,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 23,
-                    "Name": "Scenario4",
-                    "Title": "Scenario 4",
+                    "Number": 42,
+                    "Name": "Scenario42",
+                    "Title": "Scenario 23",
                     "Caption": "Dentist appointment",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic41.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1354,11 +1148,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 24,
-                    "Name": "Scenario5",
-                    "Title": "Scenario 5",
+                    "Number": 43,
+                    "Name": "Scenario43",
+                    "Title": "Scenario 24",
                     "Caption": "",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic42.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1375,11 +1169,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 25,
-                    "Name": "Scenario6",
-                    "Title": "Scenario 6",
+                    "Number": 44,
+                    "Name": "Scenario44",
+                    "Title": "Scenario 25",
                     "Caption": "Friends making plans",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic43.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1396,11 +1190,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 26,
-                    "Name": "Scenario7",
-                    "Title": "Scenario 7",
+                    "Number": 45,
+                    "Name": "Scenario45",
+                    "Title": "Scenario 26",
                     "Caption": "Your friend hasn't liked your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic44.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1419,11 +1213,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 27,
-                    "Name": "Scenario8",
-                    "Title": "Scenario 8",
+                    "Number": 46,
+                    "Name": "Scenario46",
+                    "Title": "Scenario 27",
                     "Caption": "Thoughts at the train station",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic7.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic45.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1440,11 +1234,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 28,
-                    "Name": "Scenario9",
-                    "Title": "Scenario 9",
+                    "Number": 47,
+                    "Name": "Scenario47",
+                    "Title": "Scenario 28",
                     "Caption": "Low score on test",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic8.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic46.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1461,11 +1255,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 29,
-                    "Name": "Scenario10",
-                    "Title": "Scenario 10",
+                    "Number": 48,
+                    "Name": "Scenario48",
+                    "Title": "Scenario 29",
                     "Caption": "Graduation plans ",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic9.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic47.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1480,51 +1274,6 @@
                     ],
                     "Question": "Are you happy with your decision to get a job right after high school?",
                     "Answer": "Yes"
-                },
-                {
-                    "Number": 29,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "On the next screen, you will be asked to write about an event that recently happened. Before pressing NEXT, please think about a situation that happened over the last week when you felt anxious, scared, or worried. This can be a situation that has happened often or one that hasn\u2019t happened a lot. As you think of a memory, try to really see yourself in the situation. Where were you? What day of the week was it? What time was it? Who was around you? What were you doing? How did you feel? After you think of your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 30,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please take a moment to write one or two sentences about the situation. Press next when you are ready to continue. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 31,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please picture yourself in this situation for the next 30 seconds. The screen will change automatically after 30 seconds. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 32,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Now, take the next 90 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 33,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Great job! You remembered the past! Now, if that happens again, you have a lot of different thoughts that could come into your mind. Try to remember some of your thoughts that make you feel less anxious! ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 34,
-                    "Description": "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!",
-                    "Type": "Information"
                 }
             ]
         },
@@ -1533,126 +1282,11 @@
             "Title": "Social media",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let\u2019s get started!",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 14,
-                    "Name": "Scenario-5",
-                    "Title": "Scenario -5",
+                    "Number": 49,
+                    "Name": "Scenario49",
+                    "Title": "Scenario 30",
                     "Caption": "Checking your feed",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic48.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1669,11 +1303,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 15,
-                    "Name": "Scenario-4",
-                    "Title": "Scenario -4",
+                    "Number": 50,
+                    "Name": "Scenario50",
+                    "Title": "Scenario 31",
                     "Caption": "A rude reply",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic49.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1692,11 +1326,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 16,
-                    "Name": "Scenario-3",
-                    "Title": "Scenario -3",
+                    "Number": 51,
+                    "Name": "Scenario51",
+                    "Title": "Scenario 32",
                     "Caption": "Not getting invited",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic50.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1713,11 +1347,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 17,
-                    "Name": "Scenario-2",
-                    "Title": "Scenario -2",
+                    "Number": 52,
+                    "Name": "Scenario52",
+                    "Title": "Scenario 33",
                     "Caption": "Your friends supporting your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic51.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1734,11 +1368,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 18,
-                    "Name": "Scenario-1",
-                    "Title": "Scenario -1",
+                    "Number": 53,
+                    "Name": "Scenario53",
+                    "Title": "Scenario 34",
                     "Caption": "Somone comments something mean",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic52.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1755,11 +1389,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 19,
-                    "Name": "Scenario0",
-                    "Title": "Scenario 0",
+                    "Number": 54,
+                    "Name": "Scenario54",
+                    "Title": "Scenario 35",
                     "Caption": "Not invited to the group video call",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic53.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1776,11 +1410,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 20,
-                    "Name": "Scenario1",
-                    "Title": "Scenario 1",
+                    "Number": 55,
+                    "Name": "Scenario55",
+                    "Title": "Scenario 36",
                     "Caption": "Feeling peer pressure",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic0.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic54.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1799,11 +1433,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 21,
-                    "Name": "Scenario2",
-                    "Title": "Scenario 2",
+                    "Number": 56,
+                    "Name": "Scenario56",
+                    "Title": "Scenario 37",
                     "Caption": "People's thoughts on your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic55.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1820,11 +1454,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 22,
-                    "Name": "Scenario3",
-                    "Title": "Scenario 3",
+                    "Number": 57,
+                    "Name": "Scenario57",
+                    "Title": "Scenario 38",
                     "Caption": "Likes on your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic56.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1841,11 +1475,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 23,
-                    "Name": "Scenario4",
-                    "Title": "Scenario 4",
+                    "Number": 58,
+                    "Name": "Scenario58",
+                    "Title": "Scenario 39",
                     "Caption": "Pressure to be creative",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic57.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1862,11 +1496,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 24,
-                    "Name": "Scenario5",
-                    "Title": "Scenario 5",
+                    "Number": 59,
+                    "Name": "Scenario59",
+                    "Title": "Scenario 40",
                     "Caption": "",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic58.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1883,11 +1517,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 25,
-                    "Name": "Scenario6",
-                    "Title": "Scenario 6",
+                    "Number": 60,
+                    "Name": "Scenario60",
+                    "Title": "Scenario 41",
                     "Caption": "Friends making plans",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic59.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1904,11 +1538,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 26,
-                    "Name": "Scenario7",
-                    "Title": "Scenario 7",
+                    "Number": 61,
+                    "Name": "Scenario61",
+                    "Title": "Scenario 42",
                     "Caption": "Your friend hasn't liked your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic60.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1927,11 +1561,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 27,
-                    "Name": "Scenario8",
-                    "Title": "Scenario 8",
+                    "Number": 62,
+                    "Name": "Scenario62",
+                    "Title": "Scenario 43",
                     "Caption": "Thoughts at the train station",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic7.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic61.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1948,11 +1582,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 28,
-                    "Name": "Scenario9",
-                    "Title": "Scenario 9",
+                    "Number": 63,
+                    "Name": "Scenario63",
+                    "Title": "Scenario 44",
                     "Caption": "Low score on test",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic8.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic62.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1969,11 +1603,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 29,
-                    "Name": "Scenario10",
-                    "Title": "Scenario 10",
+                    "Number": 64,
+                    "Name": "Scenario64",
+                    "Title": "Scenario 45",
                     "Caption": "Graduation plans ",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic9.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic63.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -1988,51 +1622,6 @@
                     ],
                     "Question": "Are you happy with your decision to get a job right after high school?",
                     "Answer": "Yes"
-                },
-                {
-                    "Number": 29,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "On the next screen, you will be asked to write about an event that recently happened. Before pressing NEXT, please think about a situation that happened over the last week when you felt anxious, scared, or worried. This can be a situation that has happened often or one that hasn\u2019t happened a lot. As you think of a memory, try to really see yourself in the situation. Where were you? What day of the week was it? What time was it? Who was around you? What were you doing? How did you feel? After you think of your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 30,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please take a moment to write one or two sentences about the situation. Press next when you are ready to continue. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 31,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please picture yourself in this situation for the next 30 seconds. The screen will change automatically after 30 seconds. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 32,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Now, take the next 90 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 33,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Great job! You remembered the past! Now, if that happens again, you have a lot of different thoughts that could come into your mind. Try to remember some of your thoughts that make you feel less anxious! ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 34,
-                    "Description": "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!",
-                    "Type": "Information"
                 }
             ]
         },
@@ -2041,126 +1630,11 @@
             "Title": "Home life",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let\u2019s get started!",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 14,
-                    "Name": "Scenario-5",
-                    "Title": "Scenario -5",
+                    "Number": 65,
+                    "Name": "Scenario65",
+                    "Title": "Scenario 46",
                     "Caption": "Your friend's house",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic64.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2177,11 +1651,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 15,
-                    "Name": "Scenario-4",
-                    "Title": "Scenario -4",
+                    "Number": 66,
+                    "Name": "Scenario66",
+                    "Title": "Scenario 47",
                     "Caption": "Working on Homework ",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic65.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2198,11 +1672,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 16,
-                    "Name": "Scenario-3",
-                    "Title": "Scenario -3",
+                    "Number": 67,
+                    "Name": "Scenario67",
+                    "Title": "Scenario 48",
                     "Caption": "Loud music",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic66.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2221,11 +1695,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 17,
-                    "Name": "Scenario-2",
-                    "Title": "Scenario -2",
+                    "Number": 68,
+                    "Name": "Scenario68",
+                    "Title": "Scenario 49",
                     "Caption": "Talking about parents",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic67.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2242,11 +1716,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 18,
-                    "Name": "Scenario-1",
-                    "Title": "Scenario -1",
+                    "Number": 69,
+                    "Name": "Scenario69",
+                    "Title": "Scenario 50",
                     "Caption": "Meeting someone new",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic68.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2263,11 +1737,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 19,
-                    "Name": "Scenario0",
-                    "Title": "Scenario 0",
+                    "Number": 70,
+                    "Name": "Scenario70",
+                    "Title": "Scenario 51",
                     "Caption": "Internet access at home",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic69.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2284,11 +1758,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 20,
-                    "Name": "Scenario1",
-                    "Title": "Scenario 1",
+                    "Number": 71,
+                    "Name": "Scenario71",
+                    "Title": "Scenario 52",
                     "Caption": "Embarrassing stories",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic0.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic70.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2305,11 +1779,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 21,
-                    "Name": "Scenario2",
-                    "Title": "Scenario 2",
+                    "Number": 72,
+                    "Name": "Scenario72",
+                    "Title": "Scenario 53",
                     "Caption": "Report card",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic71.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2328,11 +1802,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 22,
-                    "Name": "Scenario3",
-                    "Title": "Scenario 3",
+                    "Number": 73,
+                    "Name": "Scenario73",
+                    "Title": "Scenario 54",
                     "Caption": "Parents at your game",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic72.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2349,11 +1823,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 23,
-                    "Name": "Scenario4",
-                    "Title": "Scenario 4",
+                    "Number": 74,
+                    "Name": "Scenario74",
+                    "Title": "Scenario 55",
                     "Caption": "Asking questions",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic73.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2370,11 +1844,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 24,
-                    "Name": "Scenario5",
-                    "Title": "Scenario 5",
+                    "Number": 75,
+                    "Name": "Scenario75",
+                    "Title": "Scenario 56",
                     "Caption": "",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic74.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2391,11 +1865,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 25,
-                    "Name": "Scenario6",
-                    "Title": "Scenario 6",
+                    "Number": 76,
+                    "Name": "Scenario76",
+                    "Title": "Scenario 57",
                     "Caption": "Friends making plans",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic75.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2412,11 +1886,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 26,
-                    "Name": "Scenario7",
-                    "Title": "Scenario 7",
+                    "Number": 77,
+                    "Name": "Scenario77",
+                    "Title": "Scenario 58",
                     "Caption": "Your friend hasn't liked your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic76.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2435,11 +1909,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 27,
-                    "Name": "Scenario8",
-                    "Title": "Scenario 8",
+                    "Number": 78,
+                    "Name": "Scenario78",
+                    "Title": "Scenario 59",
                     "Caption": "Thoughts at the train station",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic7.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic77.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2456,11 +1930,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 28,
-                    "Name": "Scenario9",
-                    "Title": "Scenario 9",
+                    "Number": 79,
+                    "Name": "Scenario79",
+                    "Title": "Scenario 60",
                     "Caption": "Low score on test",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic8.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic78.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2477,11 +1951,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 29,
-                    "Name": "Scenario10",
-                    "Title": "Scenario 10",
+                    "Number": 80,
+                    "Name": "Scenario80",
+                    "Title": "Scenario 61",
                     "Caption": "Graduation plans ",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic9.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic79.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2496,51 +1970,6 @@
                     ],
                     "Question": "Are you happy with your decision to get a job right after high school?",
                     "Answer": "Yes"
-                },
-                {
-                    "Number": 29,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "On the next screen, you will be asked to write about an event that recently happened. Before pressing NEXT, please think about a situation that happened over the last week when you felt anxious, scared, or worried. This can be a situation that has happened often or one that hasn\u2019t happened a lot. As you think of a memory, try to really see yourself in the situation. Where were you? What day of the week was it? What time was it? Who was around you? What were you doing? How did you feel? After you think of your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 30,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please take a moment to write one or two sentences about the situation. Press next when you are ready to continue. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 31,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please picture yourself in this situation for the next 30 seconds. The screen will change automatically after 30 seconds. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 32,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Now, take the next 90 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 33,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Great job! You remembered the past! Now, if that happens again, you have a lot of different thoughts that could come into your mind. Try to remember some of your thoughts that make you feel less anxious! ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 34,
-                    "Description": "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!",
-                    "Type": "Information"
                 }
             ]
         },
@@ -2549,126 +1978,11 @@
             "Title": "General",
             "Scenarios": [
                 {
-                    "Number": 0,
-                    "Name": "Welcome back!",
-                    "Title": "Welcome back!",
-                    "Question": "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let\u2019s get started!",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 1,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being 10 = Most anxious, panicked, or scared I could imagine being",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 2,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better.(An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all \u2013 I wasn\u2019t able to think in different ways to feel better 10 = Completely\u2013 I was totally able to think in different ways to feel better I didn\u2019t want/need to change how I was feeling I\u2019m not sure, or I wasn\u2019t paying attention to my feeling",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 3,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared?(An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won\u2019t draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared 10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway I didn\u2019t have anything that would make me anxious or scared in the last 24 hours",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 4,
-                    "Name": "Three Brief Questions",
-                    "Title": "Three Brief Questions",
-                    "Question": "Thank you!",
-                    "Type": "Survey"
-                },
-                {
-                    "Number": 5,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 6,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 7,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please describe the situation in a few words: ",
-                    "Type": "Editor"
-                },
-                {
-                    "Number": 8,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "Please imagine the situation as vividly as possible (i.e., so that it feels very real).Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds.",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 9,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. ",
-                    "Type": "Slider"
-                },
-                {
-                    "Number": 10,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How vividly did you imagine the situation?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Not at all vivid",
-                        "Somewhat vivid",
-                        "Moderately vivid",
-                        "Very vivid",
-                        "Totally vivid",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 11,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "How likely is it that the situation or task will turn out well versus turn out badly?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very likely to turn out well",
-                        "Somewhat likely to turn out well",
-                        "Neutral",
-                        "Somewhat likely to turn out badly",
-                        "Very likely to turn out badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 12,
-                    "Name": "Using Your Imagination",
-                    "Title": "Using Your Imagination",
-                    "Question": "If this situation did turn out badly, how well or badly would you be able to handle it?",
-                    "Type": "Survey",
-                    "Words": [
-                        "Very well",
-                        "Somewhat well",
-                        "Neutral",
-                        "Somewhat badly",
-                        "Very badly",
-                        "Prefer not to answer"
-                    ]
-                },
-                {
-                    "Number": 14,
-                    "Name": "Scenario-5",
-                    "Title": "Scenario -5",
+                    "Number": 81,
+                    "Name": "Scenario81",
+                    "Title": "Scenario 62",
                     "Caption": "Aging grandmother",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic80.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2685,11 +1999,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 15,
-                    "Name": "Scenario-4",
-                    "Title": "Scenario -4",
+                    "Number": 82,
+                    "Name": "Scenario82",
+                    "Title": "Scenario 63",
                     "Caption": "Listening to the news",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic81.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2708,11 +2022,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 16,
-                    "Name": "Scenario-3",
-                    "Title": "Scenario -3",
+                    "Number": 83,
+                    "Name": "Scenario83",
+                    "Title": "Scenario 64",
                     "Caption": "First time ice skating",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic82.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2729,11 +2043,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 17,
-                    "Name": "Scenario-2",
-                    "Title": "Scenario -2",
+                    "Number": 84,
+                    "Name": "Scenario84",
+                    "Title": "Scenario 65",
                     "Caption": "Bouncing on a trampoline",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic83.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2750,11 +2064,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 18,
-                    "Name": "Scenario-1",
-                    "Title": "Scenario -1",
+                    "Number": 85,
+                    "Name": "Scenario85",
+                    "Title": "Scenario 66",
                     "Caption": "Sleepover",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic84.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2773,11 +2087,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 19,
-                    "Name": "Scenario0",
-                    "Title": "Scenario 0",
+                    "Number": 86,
+                    "Name": "Scenario86",
+                    "Title": "Scenario 67",
                     "Caption": "Calling your grandmother",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic-1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic85.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2795,11 +2109,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 20,
-                    "Name": "Scenario1",
-                    "Title": "Scenario 1",
+                    "Number": 87,
+                    "Name": "Scenario87",
+                    "Title": "Scenario 68",
                     "Caption": "Thinking about flying",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic0.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic86.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2816,11 +2130,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 21,
-                    "Name": "Scenario2",
-                    "Title": "Scenario 2",
+                    "Number": 88,
+                    "Name": "Scenario88",
+                    "Title": "Scenario 69",
                     "Caption": "Field trip",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic1.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic87.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2837,11 +2151,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 22,
-                    "Name": "Scenario3",
-                    "Title": "Scenario 3",
+                    "Number": 89,
+                    "Name": "Scenario89",
+                    "Title": "Scenario 70",
                     "Caption": "Absent neighbor",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic2.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic88.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2858,11 +2172,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 23,
-                    "Name": "Scenario4",
-                    "Title": "Scenario 4",
+                    "Number": 90,
+                    "Name": "Scenario90",
+                    "Title": "Scenario 71",
                     "Caption": "Missing necklace",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic3.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic89.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2879,11 +2193,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 24,
-                    "Name": "Scenario5",
-                    "Title": "Scenario 5",
+                    "Number": 91,
+                    "Name": "Scenario91",
+                    "Title": "Scenario 72",
                     "Caption": "",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic4.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic90.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2900,11 +2214,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 25,
-                    "Name": "Scenario6",
-                    "Title": "Scenario 6",
+                    "Number": 92,
+                    "Name": "Scenario92",
+                    "Title": "Scenario 73",
                     "Caption": "Friends making plans",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic5.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic91.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2921,11 +2235,11 @@
                     "Answer": "No"
                 },
                 {
-                    "Number": 26,
-                    "Name": "Scenario7",
-                    "Title": "Scenario 7",
+                    "Number": 93,
+                    "Name": "Scenario93",
+                    "Title": "Scenario 74",
                     "Caption": "Your friend hasn't liked your post",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic6.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic92.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2944,11 +2258,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 27,
-                    "Name": "Scenario8",
-                    "Title": "Scenario 8",
+                    "Number": 94,
+                    "Name": "Scenario94",
+                    "Title": "Scenario 75",
                     "Caption": "Thoughts at the train station",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic7.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic93.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2965,11 +2279,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 28,
-                    "Name": "Scenario9",
-                    "Title": "Scenario 9",
+                    "Number": 95,
+                    "Name": "Scenario95",
+                    "Title": "Scenario 76",
                     "Caption": "Low score on test",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic8.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic94.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -2986,11 +2300,11 @@
                     "Answer": "Yes"
                 },
                 {
-                    "Number": 29,
-                    "Name": "Scenario10",
-                    "Title": "Scenario 10",
+                    "Number": 96,
+                    "Name": "Scenario96",
+                    "Title": "Scenario 77",
                     "Caption": "Graduation plans ",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/images/Session4_short/pic9.jpeg",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_short/pic95.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
@@ -3005,53 +2319,64 @@
                     ],
                     "Question": "Are you happy with your decision to get a job right after high school?",
                     "Answer": "Yes"
-                },
-                {
-                    "Number": 29,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "On the next screen, you will be asked to write about an event that recently happened. Before pressing NEXT, please think about a situation that happened over the last week when you felt anxious, scared, or worried. This can be a situation that has happened often or one that hasn\u2019t happened a lot. As you think of a memory, try to really see yourself in the situation. Where were you? What day of the week was it? What time was it? Who was around you? What were you doing? How did you feel? After you think of your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 30,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please take a moment to write one or two sentences about the situation. Press next when you are ready to continue. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 31,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Please picture yourself in this situation for the next 30 seconds. The screen will change automatically after 30 seconds. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 32,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Now, take the next 90 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future. ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 33,
-                    "Name": "Remember the Past",
-                    "Title": "Remember the Past",
-                    "Caption": "",
-                    "Description": "Great job! You remembered the past! Now, if that happens again, you have a lot of different thoughts that could come into your mind. Try to remember some of your thoughts that make you feel less anxious! ",
-                    "Type": "Information"
-                },
-                {
-                    "Number": 34,
-                    "Description": "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!",
-                    "Type": "Information"
                 }
             ]
+        }
+    ],
+    "AfterDomain": [
+        {
+            "Name": "Remember the Past",
+            "Title": "Remember the Past",
+            "Description": [
+                "On the next screen, you will be asked to write about an event that recently happened. Before pressing NEXT, please think about a situation that happened over the last week when you felt anxious, scared, or worried. This can be a situation that has happened often or one that hasn't happened a lot. As you think of a memory, try to really see yourself in the situation. Where were you? What day of the week was it? What time was it? Who was around you? What were you doing? How did you feel? After you think of your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
+            ],
+            "Type": "Single",
+            "Number": 100
+        },
+        {
+            "Name": "Remember the Past",
+            "Title": "Remember the Past",
+            "Description": [
+                "Please take a moment to write one or two sentences about the situation. Press next when you are ready to continue."
+            ],
+            "Type": "Single",
+            "Number": 101
+        },
+        {
+            "Name": "Remember the Past",
+            "Title": "Remember the Past",
+            "Description": [
+                "Please picture yourself in this situation for the next 30 seconds. The screen will change automatically after 30 seconds."
+            ],
+            "Type": "Single",
+            "Number": 102
+        },
+        {
+            "Name": "Remember the Past",
+            "Title": "Remember the Past",
+            "Description": [
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future."
+            ],
+            "Type": "Single",
+            "Number": 103
+        },
+        {
+            "Name": "Remember the Past",
+            "Title": "Remember the Past",
+            "Description": [
+                "Great job! You remembered the past! Now, if that happens again, you have a lot of different thoughts that could come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
+            ],
+            "Type": "Single",
+            "Number": 104
+        },
+        {
+            "Name": "Wrapping Up",
+            "Title": "Wrapping Up",
+            "Description": [
+                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
+            ],
+            "Type": "Single",
+            "Number": 105
         }
     ]
 }
