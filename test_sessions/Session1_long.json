@@ -215,7 +215,38 @@
         {
             "Name": "Academics",
             "Title": "Academics",
-            "Scenarios": []
+            "Scenarios": [
+                {
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Caption": "Answering a question",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic0.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your English teacher calls on you to answer a question about the book you just read. You say your best answer and your peers are quiet."
+                    ],
+                    "Words": [
+                        "My answer was thoughtful. ",
+                        "It was nice to be able to share what I think about the book.",
+                        "My classmates are judging my wrong answer. ",
+                        "My answer sounded dumb because I didn't understand the book, but no one will remember tomorrow.",
+                        "If my English teacher didn't call on me, I wouldn't have made a fool of myself. I'll have a better answer next time. ",
+                        "I'm glad my teacher gave me the opportunity to share my answer. ",
+                        "I'm satisfied with how I said my answer. ",
+                        "I was scared while answering",
+                        "I'm disappointed in myself because I couldn't say what I wanted to say, but I think my teacher understood my point. ",
+                        "I was really anxious while I was answering, but was able to manage my feelings.",
+                        "I think about my answer, smile, and sit back. ",
+                        "I'll review my notes from this book before my test.",
+                        "I won't answer again in class. ",
+                        "I feel like I should crack a joke so my friends forget about my answer, but don't.",
+                        "I want to cry, but I take a moment to calm down and focus on the teacher's next question. "
+                    ]
+                }
+            ]
         }
     ],
     "AfterDomain": [
