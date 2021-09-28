@@ -8,10 +8,20 @@
             "Name": "Welcome to MindTrails!",
             "Title": "Welcome to MindTrails!",
             "Description": [
-                "Welcome to MindTrails! Let's get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let's get started!"
+                "Welcome to the first session of MindTrails! Today you'll complete 10 short training scenarios from the domain that you just selected. Next, you'll do 5 training scenarios that are from different domains. This will help you learn to apply your flexible thinking skills to lots of different types of situations. Last, you'll complete a brief exercise. "
             ],
             "Type": "Single",
             "Number": 0
+        },
+        {
+            "Name": "Welcome to MindTrails!",
+            "Title": "Welcome to MindTrails!",
+            "Description": [
+                "Before you start training, please watch this brief video about how MindTrails works to help reduce anxiety."
+            ],
+            "Type": "Single",
+            "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/mindtrails.mov",
+            "Number": -1
         },
         {
             "Name": "Three Brief Questions",
@@ -27,7 +37,7 @@
                     "Maximum": "10"
                 }
             },
-            "Number": -1
+            "Number": -2
         },
         {
             "Name": "Three Brief Questions",
@@ -43,7 +53,7 @@
                     "Maximum": "10"
                 }
             },
-            "Number": -2
+            "Number": -3
         },
         {
             "Name": "Three Brief Questions",
@@ -59,7 +69,7 @@
                     "Maximum": "10"
                 }
             },
-            "Number": -3
+            "Number": -4
         },
         {
             "Name": "Lemon Exercise",
@@ -68,7 +78,7 @@
                 "The purpose of this quick exercise is to demonstrate what imagination-based thinking is. You will imagine what seeing, touching, and smelling a lemon is like. Please imagine this as if you are really experiencing it."
             ],
             "Type": "Single",
-            "Number": -4
+            "Number": -5
         },
         {
             "Name": "Lemon Exercise",
@@ -78,7 +88,7 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic1.jpeg",
-            "Number": -5
+            "Number": -6
         },
         {
             "Name": "Lemon Exercise",
@@ -88,7 +98,7 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic2.jpeg",
-            "Number": -6
+            "Number": -7
         },
         {
             "Name": "Lemon Exercise",
@@ -98,7 +108,7 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic3.jpeg",
-            "Number": -7
+            "Number": -8
         },
         {
             "Name": "Lemon Exercise",
@@ -108,7 +118,7 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic4.jpeg",
-            "Number": -8
+            "Number": -9
         },
         {
             "Name": "Lemon Exercise",
@@ -118,7 +128,7 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic5.jpeg",
-            "Number": -9
+            "Number": -10
         },
         {
             "Name": "Lemon Exercise",
@@ -128,7 +138,7 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic6.jpeg",
-            "Number": -10
+            "Number": -11
         },
         {
             "Name": "Lemon Exercise",
@@ -138,7 +148,7 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic7.jpeg",
-            "Number": -11
+            "Number": -12
         },
         {
             "Name": "Using Your Imagination",
@@ -147,7 +157,7 @@
                 "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
             ],
             "Type": "Single",
-            "Number": -12
+            "Number": -13
         },
         {
             "Name": "Using Your Imagination",
@@ -159,7 +169,7 @@
             "Input": {
                 "Type": "Entry"
             },
-            "Number": -13
+            "Number": -14
         },
         {
             "Name": "Using Your Imagination",
@@ -168,7 +178,7 @@
                 "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
             ],
             "Type": "Single",
-            "Number": -14
+            "Number": -15
         },
         {
             "Name": "Using Your Imagination",
@@ -184,7 +194,7 @@
                     "Maximum": "10"
                 }
             },
-            "Number": -15
+            "Number": -16
         },
         {
             "Name": "Using Your Imagination",
@@ -206,7 +216,7 @@
                     ]
                 }
             },
-            "Number": -16
+            "Number": -17
         },
         {
             "Name": "Using Your Imagination",
@@ -228,7 +238,7 @@
                     ]
                 }
             },
-            "Number": -17
+            "Number": -18
         },
         {
             "Name": "Using Your Imagination",
@@ -250,7 +260,7 @@
                     ]
                 }
             },
-            "Number": -18
+            "Number": -19
         },
         {
             "Name": "Using Your Imagination",
@@ -259,7 +269,7 @@
                 "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
             ],
             "Type": "Single",
-            "Number": -19
+            "Number": -20
         },
         {
             "Name": "Using Your Imagination",
@@ -271,7 +281,7 @@
             "Input": {
                 "Type": "Entry"
             },
-            "Number": -20
+            "Number": -21
         },
         {
             "Name": "Using Your Imagination",
@@ -280,7 +290,7 @@
                 "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
             ],
             "Type": "Single",
-            "Number": -21
+            "Number": -22
         },
         {
             "Name": "Using Your Imagination",
@@ -292,7 +302,7 @@
             "Input": {
                 "Type": "Entry"
             },
-            "Number": -22
+            "Number": -23
         },
         {
             "Name": "Using Your Imagination",
@@ -301,7 +311,7 @@
                 "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
             ],
             "Type": "Single",
-            "Number": -23
+            "Number": -24
         },
         {
             "Name": "Wrapping Up",
@@ -310,7 +320,7 @@
                 "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
             "Type": "Single",
-            "Number": -24
+            "Number": -25
         }
     ],
     "Domains": [
