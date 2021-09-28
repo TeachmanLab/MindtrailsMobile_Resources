@@ -9,7 +9,13 @@
             "Name": "Welcome back!",
             "Title": "Welcome back!",
             "Description": [ "Welcome back to MindTrails! Let\u2019s get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. " ],
-            "Type": "Single"
+            "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters":{
+                    "Duration": 30
+                }
+            }
         },
         {
             "Number": 1,
@@ -133,7 +139,10 @@
             "Description": [ "Please describe the situation in a few words: " ],
             "Type": "Single",
             "Input": {
-                "Type": "Entry"
+                "Type": "Entry",
+                "Parameters":{
+                    "Duration": 30
+                }
             }
         },
         {
@@ -245,7 +254,13 @@
                         "I won't answer again in class. ",
                         "I feel like I should crack a joke so my friends forget about my answer, but don't.",
                         "I want to cry, but I take a moment to calm down and focus on the teacher's next question. "
-                    ]
+                    ],
+                    "Input": {
+                        "Type": "TimeText",
+                        "Parameters":{
+                            "Duration": 30
+                        }
+                    }
                 }
             ]
         }
@@ -282,7 +297,11 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": 0,
-                    "Maximum": 10
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "I don't need to",
+                        "I prefer not to answer"
+                    ]
                 }
             }
         },
@@ -380,7 +399,10 @@
             "Description": [ "Please describe the situation in a few words: " ],
             "Type": "Single",
             "Input": {
-                "Type": "Entry"
+                "Type": "Entry",
+                "Parameters":{
+                    "Duration": 30
+                }
             }
         },
         {
