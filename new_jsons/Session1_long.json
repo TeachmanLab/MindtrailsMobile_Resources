@@ -10,7 +10,7 @@
             "Description": [
                 "Welcome back to MindTrails! Let's get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. Let's get started!"
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": 0
         },
         {
@@ -19,7 +19,7 @@
             "Description": [
                 "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being. 10 = Most anxious, panicked, or scared I could imagine being."
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Input": {
                 "Type": "Slider",
                 "Parameters": {
@@ -35,7 +35,7 @@
             "Description": [
                 "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. (An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all -- I wasn't able to think in different ways to feel better. 10 = Completely-- I was totally able to think in different ways to feel better. "
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Input": {
                 "Type": "Slider",
                 "Parameters": {
@@ -51,7 +51,7 @@
             "Description": [
                 "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? (An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared. 10 = If there was something that would make me anxious or scared. "
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Input": {
                 "Type": "Slider",
                 "Parameters": {
@@ -67,7 +67,7 @@
             "Description": [
                 "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": -4
         },
         {
@@ -76,7 +76,10 @@
             "Description": [
                 "Please describe the situation in a few words:"
             ],
-            "Type": "Information",
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
             "Number": -5
         },
         {
@@ -85,7 +88,7 @@
             "Description": [
                 "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": -6
         },
         {
@@ -94,7 +97,7 @@
             "Description": [
                 "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  0 = Absolutely no anxiety. 10 = Totally anxious."
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Input": {
                 "Type": "Slider",
                 "Parameters": {
@@ -110,7 +113,7 @@
             "Description": [
                 "How vividly did you imagine the situation?"
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Input": {
                 "Type": "Picker",
                 "Parameters": {
@@ -132,7 +135,7 @@
             "Description": [
                 "How likely is it that the situation or task will turn out well versus turn out badly?"
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Input": {
                 "Type": "Picker",
                 "Parameters": {
@@ -154,7 +157,7 @@
             "Description": [
                 "If this situation did turn out badly, how well or badly would you be able to handle it?"
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Input": {
                 "Type": "Picker",
                 "Parameters": {
@@ -176,7 +179,7 @@
             "Description": [
                 "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": -11
         },
         {
@@ -185,7 +188,10 @@
             "Description": [
                 "Please take a moment to write one or two sentences to describe the situation. Press next when you are ready to continue."
             ],
-            "Type": "Information",
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
             "Number": -12
         },
         {
@@ -194,7 +200,7 @@
             "Description": [
                 "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": -13
         },
         {
@@ -203,7 +209,10 @@
             "Description": [
                 "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
             ],
-            "Type": "Information",
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
             "Number": -14
         },
         {
@@ -212,7 +221,7 @@
             "Description": [
                 "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": -15
         },
         {
@@ -221,7 +230,7 @@
             "Description": [
                 "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": -16
         }
     ],
@@ -242,8 +251,6 @@
                     "Description": [
                         "Your English teacher calls on you to answer a question about the book you just read. You say your best answer and your peers are quiet."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "My answer was thoughtful. ",
                         "It was nice to be able to share what I think about the book.",
@@ -261,8 +268,12 @@
                         "I feel like I should crack a joke so my friends forget about my answer, but don't.",
                         "I want to cry, but I take a moment to calm down and focus on the teacher's next question. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 2,
@@ -276,8 +287,6 @@
                     "Description": [
                         "You have a science test next week that's going to count for a lot of your grade. You haven't understood this unit's course material that well and you wonder how the test is going to go."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I'm a good student. ",
                         "I'll do my best on my test next week. ",
@@ -295,8 +304,12 @@
                         "I want to avoid asking for help, but I reach out to my teacher anyway. ",
                         "I really don't want to make flash cards, but I will anyway because I know it'll be helpful for the test. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 3,
@@ -310,8 +323,6 @@
                     "Description": [
                         "You go to your grandparents' home for the first time in a while and notice that your grandfather looks a lot less healthy than you remember. No one in your family mentions it. "
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I wonder how my grandfather is feeling. ",
                         "He's happy to see me. ",
@@ -329,8 +340,12 @@
                         "I want to leave and cry, but decide to stay with the family and engage in conversation. ",
                         "I gently ask my grandfather how he's doing and accept any answer he gives me."
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 }
             ]
         },
@@ -350,8 +365,6 @@
                     "Description": [
                         "You are sitting on the bus and see your friend get on. They walk past you and sit with another friend."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I'm able to sit here alone for the rest of the ride. ",
                         "My friend probably had something to talk about with the other friend. ",
@@ -369,8 +382,12 @@
                         "I'll want to ignore my friend the rest of the day, but I'll be nice since that's the right thing to do. ",
                         "I want to put my head between my knees and disappear, but I take a deep breath and smile. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 2,
@@ -384,8 +401,6 @@
                     "Description": [
                         "You and your friends are shopping at the mall. You go to the food court and get slushies, and accidentally spill your red slushie down the front of your new white shirt."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I think about how this is a common accident. ",
                         "I think about how it will be a funny story. ",
@@ -403,8 +418,12 @@
                         "I want to leave immediately, but know that I'll forget about the stain soon. ",
                         "I want to throw away the slushie, but decide to keep eating it. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 3,
@@ -418,8 +437,6 @@
                     "Description": [
                         "Your English teacher calls on you to answer a question about the book you just read. You say your best answer and your peers are quiet."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "My answer was thoughtful. ",
                         "It was nice to be able to share what I think about the book.",
@@ -437,8 +454,12 @@
                         "I feel like I should crack a joke so my friends forget about my answer, but don't.",
                         "I want to cry, but I take a moment to calm down and focus on the teacher's next question. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 }
             ]
         },
@@ -458,8 +479,6 @@
                     "Description": [
                         "You are outside on a cool day and see your friends down the street. You decide to jog over to say hi. When you get to your friends, you feel out of breath."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "It is a nice day for a jog. ",
                         "That was a good jog. ",
@@ -477,8 +496,12 @@
                         "I want to sit on the ground and avoid my friends, but I acknowledge my feelings and catch my breath. ",
                         "I think about calling my parent to make sure I'm not dying, but know that I'm actually ok. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 2,
@@ -492,8 +515,6 @@
                     "Description": [
                         "You are meeting with your teacher. To make it on-time, you just walked up two flights of stairs quickly, and feel your heart beating very rapidly."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I am happy to be on time. ",
                         "I feel like that was an impressive mini workout. ",
@@ -511,8 +532,12 @@
                         "I feel the urge to look up my symptoms online, but remind myself that feeling this way is normal after going up a lot of stairs. ",
                         "I remind myself to take a few slow breaths to recenter my thoughts after I feel the urge to cry. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 3,
@@ -526,8 +551,6 @@
                     "Description": [
                         "You are sitting on the bus and see your friend get on. They walk past you and sit with another friend."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I'm able to sit here alone for the rest of the ride. ",
                         "My friend probably had something to talk about with the other friend. ",
@@ -545,8 +568,12 @@
                         "I'll want to ignore my friend the rest of the day, but I'll be nice since that's the right thing to do. ",
                         "I want to put my head between my knees and disappear, but I take a deep breath and smile. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 }
             ]
         },
@@ -566,8 +593,6 @@
                     "Description": [
                         "You are looking through your social media app and see a number of your friends have posted to their stories. As you look through their photos, you realize that a few of your close friends were all hanging out without you. "
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "The picture looks nice.",
                         "It seems like they are having a fun time. ",
@@ -585,8 +610,12 @@
                         "I really want to ask my friends why I wasn't invited, but decide that I don't need to ask. ",
                         "I want to cry, but remind myself that I've hung out with some of those friends without everyone there. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 2,
@@ -600,8 +629,6 @@
                     "Description": [
                         "You met a cute peer in one of your classes. After school, you notice that they started following you."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "They must have liked my profile and decided to follow me.",
                         "I think about how they may want to be friends. ",
@@ -619,8 +646,12 @@
                         "I want to deactivate my account, but decide to keep it up. ",
                         "I want to change some of my pictures, but keep them the same. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 3,
@@ -634,8 +665,6 @@
                     "Description": [
                         "You are outside on a cool day and see your friends down the street. You decide to jog over to say hi. When you get to your friends, you feel out of breath."
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "It is a nice day for a jog. ",
                         "That was a good jog. ",
@@ -653,8 +682,12 @@
                         "I want to sit on the ground and avoid my friends, but I acknowledge my feelings and catch my breath. ",
                         "I think about calling my parent to make sure I'm not dying, but know that I'm actually ok. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 }
             ]
         },
@@ -674,8 +707,6 @@
                     "Description": [
                         "You have a lot of chores that you have to do tonight, and you also have a big project that's due tomorrow. Both have to get done, and you think about how you'll handle it all. "
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I can manage both tasks.",
                         "I think this will help me organize thoughtfully in the future. ",
@@ -693,8 +724,12 @@
                         "I just want to be lazy and take a nap, but decide to start with one task. ",
                         "I want to avoid all of the tasks, but decide to make a schedule to help organize my time. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 2,
@@ -708,8 +743,6 @@
                     "Description": [
                         "Your friend is having a huge birthday party and most of the people in your grade will be there. You know you can't afford a gift for your friend. "
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I think my friend will be happy to see me. ",
                         "I'm looking forward to celebrating with friends. ",
@@ -727,8 +760,12 @@
                         "I want to leave before the presents are opened, but decide to stay. ",
                         "I think about lying that I forgot the gift at home, but remember that I should always tell the truth."
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 3,
@@ -742,8 +779,6 @@
                     "Description": [
                         "You are looking through your social media app and see a number of your friends have posted to their stories. As you look through their photos, you realize that a few of your close friends were all hanging out without you. "
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "The picture looks nice.",
                         "It seems like they are having a fun time. ",
@@ -761,8 +796,12 @@
                         "I really want to ask my friends why I wasn't invited, but decide that I don't need to ask. ",
                         "I want to cry, but remind myself that I've hung out with some of those friends without everyone there. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 }
             ]
         },
@@ -782,8 +821,6 @@
                     "Description": [
                         "You go to your grandparents' home for the first time in a while and notice that your grandfather looks a lot less healthy than you remember. No one in your family mentions it. "
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I wonder how my grandfather is feeling. ",
                         "He's happy to see me. ",
@@ -801,8 +838,12 @@
                         "I want to leave and cry, but decide to stay with the family and engage in conversation. ",
                         "I gently ask my grandfather how he's doing and accept any answer he gives me."
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 2,
@@ -816,8 +857,6 @@
                     "Description": [
                         "As you're getting into the shower, you see a huge spider on the wall. You turn away for a second and look back and realize it's gone. "
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "It's probably not coming back.",
                         "I think it was afraid of me. ",
@@ -835,8 +874,12 @@
                         "I want to run away, but know I can face my fear. ",
                         "I want to scream, but tell myself the spider is harmless. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 },
                 {
                     "Number": 3,
@@ -850,8 +893,6 @@
                     "Description": [
                         "You have a lot of chores that you have to do tonight, and you also have a big project that's due tomorrow. Both have to get done, and you think about how you'll handle it all. "
                     ],
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "I can manage both tasks.",
                         "I think this will help me organize thoughtfully in the future. ",
@@ -869,8 +910,12 @@
                         "I just want to be lazy and take a nap, but decide to start with one task. ",
                         "I want to avoid all of the tasks, but decide to make a schedule to help organize my time. "
                     ],
-                    "Question": "N/A",
-                    "Answer": "N/A"
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    }
                 }
             ]
         }
@@ -882,7 +927,7 @@
             "Description": [
                 "On the next screen, you'll see a situation that might make someone nervous, worried, scared, or anxious. Here's an example: You're out with friends and receive this message from your parent saying, \"You need to come home right now.\""
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": 100
         },
         {
@@ -891,7 +936,7 @@
             "Description": [
                 "In the text box, please write as many different thoughts that might come to your mind in that moment. You'll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I'm really tired, so I'm glad to be going home."
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": 101
         },
         {
@@ -900,7 +945,7 @@
             "Description": [
                 "You don't need to write full sentences, and you should push yourself to write as many different thoughts as possible! These can be a mix of positive and negative thoughts. To add another thought, press the Submit button on your screen."
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": 102
         },
         {
@@ -909,7 +954,13 @@
             "Description": [
                 "Your teacher is about to hand back graded tests from last week, and you remember how hard the test was."
             ],
-            "Type": "Information",
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
+            "Image": [
+                "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic1.jpeg"
+            ],
             "Number": 103
         },
         {
@@ -918,7 +969,7 @@
             "Description": [
                 "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
-            "Type": "Information",
+            "Type": "Single",
             "Number": 104
         }
     ]

@@ -84,6 +84,9 @@
                 "Please describe the situation in a few words:"
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
             "Number": -5
         },
         {
@@ -193,6 +196,9 @@
                 "Please take a moment to write one or two sentences to describe the situation. Press next when you are ready to continue."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
             "Number": -12
         },
         {
@@ -211,6 +217,9 @@
                 "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
             "Number": -14
         },
         {
