@@ -209,6 +209,12 @@
                 "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 30
+                }
+            },
             "Number": -13
         },
         {
@@ -219,7 +225,10 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Entry"
+                "Type": "Entry",
+                "Parameters": {
+                    "Duration": 90
+                }
             },
             "Number": -14
         },
@@ -2361,6 +2370,12 @@
                 "Please picture yourself in this situation for the next 30 seconds. The screen will change automatically after 30 seconds."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 30
+                }
+            },
             "Number": 102
         },
         {
@@ -2371,7 +2386,10 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Entry"
+                "Type": "Entry",
+                "Parameters": {
+                    "Duration": 90
+                }
             },
             "Number": 103
         },
