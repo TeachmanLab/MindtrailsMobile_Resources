@@ -291,6 +291,12 @@
                 "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 30
+                }
+            },
             "Number": -22
         },
         {
