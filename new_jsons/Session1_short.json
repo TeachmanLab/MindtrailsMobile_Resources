@@ -21,7 +21,7 @@
                 "Before you start training, please watch this brief video about how MindTrails works to help reduce anxiety."
             ],
             "Type": "Single",
-            "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/mindtrails.mp4",
+            "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/mindtrails.mov",
             "Number": -1
         },
         {
@@ -178,7 +178,7 @@
             "Description": [
                 "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
             ],
-            "Type": "Single",
+            "Type": "TimedText",
             "Input": {
                 "Type": "None",
                 "Parameters": {
@@ -296,7 +296,7 @@
             "Description": [
                 "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
             ],
-            "Type": "Single",
+            "Type": "TimedText",
             "Input": {
                 "Type": "None",
                 "Parameters": {
@@ -353,7 +353,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "A friend suggests that you take the creative writing class as your elective next semester. He tells you that your classmates will read and critique your writing. As you listen to your friend, the thought of other people looking at your writing makes you feel"
                     ],
@@ -374,7 +374,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your teacher asks to collect your homework at the beginning of class. Your homework isn't in your bag where you put it last night. Your homework must be",
                         "You take a deep breath and decide to tell your teacher your homework is missing. You feel"
@@ -383,8 +383,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "lost",
-                        "fine",
-                        "lost; fine"
+                        "fine"
                     ],
                     "Question": "Are you anxious because you couldn't find your homework?",
                     "Answer": "No"
@@ -398,7 +397,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You get free and reduced lunch at school so you always eat the cafeteria food. When you eat with your friends, you notice that they all bring homemade lunches. You realize that you have a different situation than your friends and that's"
                     ],
@@ -419,7 +418,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're called to the stage to receive an award at your school's award ceremony. You stumble as you get up from your chair to go to the stage. When you think about everyone seeing you stumble, you feel"
                     ],
@@ -440,7 +439,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "A new teacher is hired for your science class, and you hear that he is a tough grader. You meet him for the first time and talk about the class. Getting up to leave at the end of your meeting, you think that he found you to be"
                     ],
@@ -461,7 +460,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Today, you will receive an important email. It will tell you whether you got accepted to or rejected from the college you really want to go to. As you think about waiting for the email, you feel"
                     ],
@@ -482,7 +481,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "This year, you've decied to take an AP level class. This is your first AP class and you've heard from your classmates that it's a lot of work. When you think about the class, you think that you will be able to do"
                     ],
@@ -503,7 +502,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your teacher calls on you to answer a question about the book you just read. You don't know what to say. Your mind goes",
                         "You give yourself a moment to collect your thoughts and then answer the question. When you think about the answer you gave, you feel"
@@ -512,8 +511,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "blank",
-                        "good",
-                        "blank; good"
+                        "good"
                     ],
                     "Question": "Are you able to answer the question?",
                     "Answer": "Yes"
@@ -527,7 +525,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your caregiver wants you to go to a specific college. You would rather go to a different college but your caregiver has made it clear they are not on board with the school choice. When you think about talking with your caregiver about your choice, you feel"
                     ],
@@ -548,7 +546,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
                     ],
@@ -569,7 +567,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Information",
+                    "Type": "Single",
                     "Description": [
                         "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
                     ],
@@ -590,7 +588,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
                         "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
@@ -599,8 +597,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "test",
-                        "pass",
-                        "test; pass"
+                        "pass"
                     ],
                     "Question": "Will you fail the class?",
                     "Answer": "No"
@@ -614,7 +611,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
                     ],
@@ -635,7 +632,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ],
@@ -656,7 +653,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
                     ],
@@ -677,7 +674,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
                     ],
@@ -704,7 +701,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You run into someone you don't know well in the hallway who you think is really cool. You ask them how they are doing and they continue to keep walking. This acquaintance probably thinks you are"
                     ],
@@ -725,7 +722,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "A group of your friends are whispering and looking in your direction. Some of them are laughing really hard. You don't have time to go say hi, and you think they were probably laughing at a"
                     ],
@@ -746,7 +743,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're invited to a Halloween party and you'll only know a couple of people there. You decide to wear a really elaborate costume. When you arrive, everyone looks at you and probably think that you are"
                     ],
@@ -767,7 +764,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "The person you have a crush on starts sending you funny pictures on social media. Today you notice they opened your last picture and didn't respond. They must have"
                     ],
@@ -788,7 +785,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are sitting on the bus on your way in to school and see your friend get on. They walk past you and sit with another friend. They must have been"
                     ],
@@ -809,7 +806,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You go on a date. You and your date have a really good conversation and they ask you some questions that make you feel vulnerable. If they get to know the 'real you' you think they will be",
                         "You decide to open up and share, and they do the same. As you talk, you feel"
@@ -818,8 +815,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "judgemental",
-                        "understood",
-                        "judgemental; understood"
+                        "understood"
                     ],
                     "Question": "Did your date judge you negatively?",
                     "Answer": "No"
@@ -833,7 +829,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're at a party late at night with some friends and some of them are doing things you're uncomfortable with. You decide not to participate. Your friends think that you are"
                     ],
@@ -854,7 +850,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You meet a cute person your age and they ask for your social media name. You notice they added you, and now they can see that you don't have many followers. They will think that this is"
                     ],
@@ -875,7 +871,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your mom wants you to take your younger sibling trick-or-treating. You wear a costume and run into some kids from your school who aren't dressed up. They think your costume is"
                     ],
@@ -896,7 +892,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your friends are making a video for social media. You would have liked to have joined in, but your friends didn't include you. You feel",
                         "You open your account and realize you can make your own video. You feel"
@@ -905,8 +901,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "insecure",
-                        "confident",
-                        "insecure; confident"
+                        "confident"
                     ],
                     "Question": "Are you worried about making a social media video on your own?",
                     "Answer": "No"
@@ -920,7 +915,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Information",
+                    "Type": "Single",
                     "Description": [
                         "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
                     ],
@@ -941,7 +936,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
                         "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
@@ -950,8 +945,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "test",
-                        "pass",
-                        "test; pass"
+                        "pass"
                     ],
                     "Question": "Will you fail the class?",
                     "Answer": "No"
@@ -965,7 +959,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
                     ],
@@ -986,7 +980,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ],
@@ -1007,7 +1001,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
                     ],
@@ -1028,7 +1022,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
                     ],
@@ -1055,7 +1049,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "It's your birthday and when it's time for the cake, people gather around you and start singing. You feel your heart start to beat more quickly and your armpits starting to sweat. Your friends and family will not"
                     ],
@@ -1076,7 +1070,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "As you wake up in the morning, you sit up quickly. Your vision goes blurry, and then goes black for a moment. Your vision comes back after a moment, and you tell yourself that you are going",
                         "You take a deep breath and realize that your vision is completely back. Then you remember that sometimes this happens when you sit up too"
@@ -1085,8 +1079,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "blind",
-                        "quickly",
-                        "blind; quickly"
+                        "quickly"
                     ],
                     "Question": "Does your momentary blurry vision mean that you are going blind?",
                     "Answer": "No"
@@ -1100,7 +1093,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You have to give a presentation in your international language class today. When you stand up in front of the class, you feel your cheeks get hot and your hands start to tremble. You think that these sensations will be"
                     ],
@@ -1121,7 +1114,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You go to the hospital to visit a friend. Someone behind you coughs a few times while you are in the waiting room. The chance that you will get sick is"
                     ],
@@ -1142,7 +1135,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "It's a chilly spring day, and you are out walking outside in the park, hitting the soccer ball around. As you pass by the trees, you feel increasingly stuffy and sore. You start feeling",
                         "Looking around, you see all the pollen flying in the air. You realize that you usually get a stuffy nose with seasonal allergies and are probably tired from playing soccer for the last hour. You feel"
@@ -1151,8 +1144,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "scared",
-                        "relieved",
-                        "scared; relieved"
+                        "relieved"
                     ],
                     "Question": "Does your rapid heartrate mean something bad is happening?",
                     "Answer": "No"
@@ -1166,7 +1158,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're at a friend's house and their mom makes some very spicy food for dinner. After eating some, your face begins to sweat, and you can feel your heart beating in your chest. You decide to focus on the conversation, and you experience the rest of dinner as"
                     ],
@@ -1187,7 +1179,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
                     ],
@@ -1208,7 +1200,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are at a party and start to dance with your friends. You start to feel dizzy as the beat gets faster. You think that this feeling is a sign of"
                     ],
@@ -1229,7 +1221,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are lying in your bed and about to go to sleep. You start to feel a heaviness in your chest as you try to sleep. You think about this pressure and feel"
                     ],
@@ -1250,7 +1242,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are walking to an important meeting with your teacher. Suddenly your mind goes blank as you reach for the doorknob to her office. You think about your mind going blank and think that this is"
                     ],
@@ -1271,7 +1263,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Information",
+                    "Type": "Single",
                     "Description": [
                         "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
                     ],
@@ -1292,7 +1284,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
                         "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
@@ -1301,8 +1293,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "test",
-                        "pass",
-                        "test; pass"
+                        "pass"
                     ],
                     "Question": "Will you fail the class?",
                     "Answer": "No"
@@ -1316,7 +1307,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
                     ],
@@ -1337,7 +1328,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ],
@@ -1358,7 +1349,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
                     ],
@@ -1379,7 +1370,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
                     ],
@@ -1406,7 +1397,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You meet a cute classmate in one of your classes. After school, they request to follow you on social media. Before you let them follow you, you look over your own feed and feel"
                     ],
@@ -1427,7 +1418,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You see from social media stories that a group of your friends are hanging out together. You weren't invited and it looks like they're having a great time. Your friends probably didn't invite you because they",
                         "You are sad that you weren't invited to hang out with your friends. You realize being sad about the situation is"
@@ -1436,8 +1427,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "forgot",
-                        "normal",
-                        "forgot; normal"
+                        "normal"
                     ],
                     "Question": "Did your friends exclude you on purpose?",
                     "Answer": "No"
@@ -1451,7 +1441,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "As you scroll through your social media, you see that your friends hung out without you last night. You didn't get an invite to hang out with them. You realize that sometimes your friends hang out without you and that next time you can"
                     ],
@@ -1472,7 +1462,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
                         "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
@@ -1481,8 +1471,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "bad",
-                        "better",
-                        "bad; better"
+                        "better"
                     ],
                     "Question": "Do you feel worried about having enough likes?",
                     "Answer": "No"
@@ -1496,7 +1485,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You posted a new picture a few hours ago. You check to see who's liked it and notice that your best friend hasn't liked it yet. You think about how your best friend doesn't check their feed often and you feel"
                     ],
@@ -1517,7 +1506,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You and your friend took some pictures together. You look through your feed and see that they tagged you in a post and you really don't like how you look. But, you know that in the long run it won't"
                     ],
@@ -1538,7 +1527,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You decide to create a post promoting something important to you. Someone leaves a mean comment because they misinterpreted what you wrote. You wonder what this person thinks about you, and feel"
                     ],
@@ -1559,7 +1548,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You post a short video. Your best friend comments something really embarassing. Your followers will think that you and your friend are"
                     ],
@@ -1580,7 +1569,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You take a picture of your friend that is really great. You are about to post it but remember that you just posted yesterday. If you post again, you think people won't"
                     ],
@@ -1601,7 +1590,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because they are"
                     ],
@@ -1622,7 +1611,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Information",
+                    "Type": "Single",
                     "Description": [
                         "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
                     ],
@@ -1643,7 +1632,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
                         "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
@@ -1652,8 +1641,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "test",
-                        "pass",
-                        "test; pass"
+                        "pass"
                     ],
                     "Question": "Will you fail the class?",
                     "Answer": "No"
@@ -1667,7 +1655,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
                     ],
@@ -1688,7 +1676,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ],
@@ -1709,7 +1697,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
                     ],
@@ -1730,7 +1718,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
                     ],
@@ -1757,7 +1745,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your family doesn't do sit-down dinners together. When you're at your friend's house, her parents sit down at the table with you and start to ask questions about your day. You're not sure how to respond, but after you say something, you feel"
                     ],
@@ -1778,7 +1766,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You don't have internet access at home. You found out that you're required to do a big research project online by next week. As you wonder how you'll be able to complete the assignment, you feel"
                     ],
@@ -1799,7 +1787,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your sibling is currently playing music really loudly and you need to study. You don't want your sibling to think you're a nerd if you ask them to turn down the music so that you can study. You knock on their door and feel",
                         "You take a deep breath and your sibling answers. You ask them to turn down the music and they"
@@ -1808,8 +1796,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "nervous",
-                        "apologize",
-                        "nervous; apologize"
+                        "apologize"
                     ],
                     "Question": "Was your sibling upset when you asked them to turn down the music?",
                     "Answer": "No"
@@ -1823,7 +1810,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're in your room working on homework when you hear your parents arguing downstairs. Their voices start to rise and you hear them say your name. You don't like to hear yelling, and also realize that it is not your"
                     ],
@@ -1844,7 +1831,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are at your friend's house for dinner and their parents ask you about your parents. You're not sure how to answer because your parents are divorced, and you haven't seen your mother for a long time. You think about what you'll say, and feel"
                     ],
@@ -1865,7 +1852,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You've never met your caregiver's new partner. They have just told you they are inviting them over for dinner tonight. When you think about meeting this new person, your anxiety is"
                     ],
@@ -1886,7 +1873,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "At home there are a lot of chores that your parents said you have to finish today. You have a big project to work on that will take a lot of time. Balancing your home life and school life is",
                         "You look for a good artist to listen to while you do your chores. As you start to tackle your to-do list, you feel"
@@ -1895,8 +1882,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "stressful",
-                        "confident",
-                        "stressful; confident"
+                        "confident"
                     ],
                     "Question": "Are you overwhelmed by what you need to accomplish?",
                     "Answer": "No"
@@ -1910,7 +1896,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
                     ],
@@ -1931,7 +1917,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your friend is having a huge birthday party with all of your friends attending. You know you can't afford a gift for your friend. You show up with a homemade card, your friend is"
                     ],
@@ -1952,7 +1938,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your guardian is dropping you off at your sports practice. As they drop you off, they are really loud and make you feel embarrassed. As you get out of the car, you feel"
                     ],
@@ -1973,7 +1959,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Information",
+                    "Type": "Single",
                     "Description": [
                         "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
                     ],
@@ -1994,7 +1980,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
                         "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
@@ -2003,8 +1989,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "test",
-                        "pass",
-                        "test; pass"
+                        "pass"
                     ],
                     "Question": "Will you fail the class?",
                     "Answer": "No"
@@ -2018,7 +2003,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
                     ],
@@ -2039,7 +2024,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ],
@@ -2060,7 +2045,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
                     ],
@@ -2081,7 +2066,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
                     ],
@@ -2108,7 +2093,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are at home alone watching TV at night. You must have been dozing, because you suddenly wake up after hearing a loud noise. You look outside and see a"
                     ],
@@ -2129,7 +2114,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You leave your house and get on the bus to go to school. About 10 minutes into the ride, you wonder whether you remembered to lock the door on your way out. As you get closer to school, you feel"
                     ],
@@ -2150,7 +2135,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are afraid of the dark and usually sleep with a light on in your bedroom. This weekend, you are going to stay at a friend's house and you know there won't be a nightlight. As you think about the upcoming sleepover, you feel",
                         "You think about the sleepover a little more and realize that you will probably be having too much fun to be scared. You feel"
@@ -2159,8 +2144,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "scared",
-                        "calmer",
-                        "scared; calmer"
+                        "calmer"
                     ],
                     "Question": "Will the sleepover be miserable?",
                     "Answer": "No"
@@ -2174,7 +2158,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are at a metro stop waiting for a train. Standing by the edge, you realize you've never thought about how far a drop it is to the rails below. You are"
                     ],
@@ -2195,7 +2179,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You go home to your grandparents' home for the holidays and notice that your grandmother looks frail. You find yourself wondering about her health and whether she's sick. You think her health will probably be"
                     ],
@@ -2216,7 +2200,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You are auditioning for a play. You say most of your lines correctly but mess up on one or two.\u00a0You think the audition went"
                     ],
@@ -2237,7 +2221,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Your friend enjoys ice skating and convinces you to try it out. At the rink you put on the skates and step on the ice. You glide forward slowly at first, then faster, and think your chances of getting injured are"
                     ],
@@ -2258,7 +2242,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You and your friends have decided to go on a tour of a cave, even though you feel nervous about being in such an enclosed space. You walk deeper and deeper into the cool cave. You think the chances you will get trapped are",
                         "You look around and see lots of similing faces. You decide that you are probably"
@@ -2281,7 +2265,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're bouncing on your friend's trampoline. You have fun with your friends but also think about whether you'll get hurt. While bouncing up and down on the trampoline, you feel"
                     ],
@@ -2302,7 +2286,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "Every Monday you call your grandmother to say hello. Today is Monday, and she did not pick up the phone when you called, which is unusual. Your grandmother probably did not answer the phone because she is"
                     ],
@@ -2323,7 +2307,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Information",
+                    "Type": "Single",
                     "Description": [
                         "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
                     ],
@@ -2344,7 +2328,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
                         "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
@@ -2353,8 +2337,7 @@
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "test",
-                        "pass",
-                        "test; pass"
+                        "pass"
                     ],
                     "Question": "Will you fail the class?",
                     "Answer": "No"
@@ -2368,7 +2351,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
                     ],
@@ -2389,7 +2372,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ],
@@ -2410,7 +2393,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
                     ],
@@ -2431,7 +2414,7 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
                     "Description": [
                         "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
                     ],
