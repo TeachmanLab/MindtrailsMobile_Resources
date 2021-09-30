@@ -26,7 +26,7 @@
                     "Minimum": "0",
                     "Maximum": "10",
                     "OtherChoices": [
-                        "Prefer not to answer"
+                        "Prefer not to answer."
                     ]
                 }
             },
@@ -47,7 +47,7 @@
                     "OtherChoices": [
                         "I didn't want/need to change how I was feeling",
                         "I'm not sure, or I wasn't paying attention to my feeling.",
-                        "Prefer not to answer"
+                        "Prefer not to answer."
                     ]
                 }
             },
@@ -67,7 +67,7 @@
                     "Maximum": "10",
                     "OtherChoices": [
                         "I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours.",
-                        "Prefer not to answer"
+                        "Prefer not to answer."
                     ]
                 }
             },
@@ -107,7 +107,7 @@
                     "Minimum": "0",
                     "Maximum": "10",
                     "OtherChoices": [
-                        "Prefer not to answer"
+                        "Prefer not to answer."
                     ]
                 }
             },
@@ -258,7 +258,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Answering a question",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -289,13 +288,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Answering a question"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Important test",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -326,13 +325,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Important test"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Aging grandfather",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -363,7 +362,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Aging grandfather"
                 }
             ]
         },
@@ -375,7 +375,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Sitting on the bus",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -406,13 +405,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Sitting on the bus"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Spilled slushie",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -443,13 +442,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Spilled slushie"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Answering a question",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -480,7 +479,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Answering a question"
                 }
             ]
         },
@@ -492,7 +492,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Saying hi to friends",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -523,13 +522,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Saying hi to friends"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Walking up stairs",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -560,13 +559,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Walking up stairs"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Sitting on the bus",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -597,7 +596,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Sitting on the bus"
                 }
             ]
         },
@@ -609,7 +609,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Hanging out without you",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -640,13 +639,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Hanging out without you"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Cute peer on social media",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -677,13 +676,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Cute peer on social media"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Saying hi to friends",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -714,7 +713,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Saying hi to friends"
                 }
             ]
         },
@@ -726,7 +726,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Balancing responsibilities",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -757,13 +756,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Balancing responsibilities"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Can't afford a gift",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -794,13 +793,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Can't afford a gift"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Hanging out without you",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -831,7 +830,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Hanging out without you"
                 }
             ]
         },
@@ -843,7 +843,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Aging grandfather",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -874,13 +873,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Aging grandfather"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Missing spider",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -911,13 +910,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Missing spider"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Balancing responsibilities",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -948,7 +947,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Balancing responsibilities"
                 }
             ]
         }
