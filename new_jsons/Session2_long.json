@@ -24,7 +24,10 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "Prefer not to answer"
+                    ]
                 }
             },
             "Number": -1
@@ -43,7 +46,8 @@
                     "Maximum": "10",
                     "OtherChoices": [
                         "I didn't want/need to change how I was feeling",
-                        "I'm not sure, or I wasn't paying attention to my feeling."
+                        "I'm not sure, or I wasn't paying attention to my feeling.",
+                        "Prefer not to answer"
                     ]
                 }
             },
@@ -62,7 +66,8 @@
                     "Minimum": "0",
                     "Maximum": "10",
                     "OtherChoices": [
-                        "I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours."
+                        "I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours.",
+                        "Prefer not to answer"
                     ]
                 }
             },
@@ -100,7 +105,10 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "Prefer not to answer"
+                    ]
                 }
             },
             "Number": -6
@@ -200,7 +208,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Single",
+                "Type": "None",
                 "Parameters": {
                     "Duration": "30"
                 }
@@ -963,7 +971,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Single",
+                "Type": "None",
                 "Parameters": {
                     "Duration": "60"
                 }

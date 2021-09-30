@@ -38,7 +38,10 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "Prefer not to answer"
+                    ]
                 }
             },
             "Number": -2
@@ -57,7 +60,8 @@
                     "Maximum": "10",
                     "OtherChoices": [
                         "I didn't want/need to change how I was feeling",
-                        " I'm not sure, or I wasn't paying attention to my feeling."
+                        " I'm not sure, or I wasn't paying attention to my feeling.",
+                        "Prefer not to answer"
                     ]
                 }
             },
@@ -76,7 +80,8 @@
                     "Minimum": "0",
                     "Maximum": "10",
                     "OtherChoices": [
-                        "I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours."
+                        "I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours.",
+                        "Prefer not to answer"
                     ]
                 }
             },
@@ -218,9 +223,9 @@
             "Description": [
                 "Play this situation in your head for the next 20 seconds."
             ],
-            "Type": "TimedText",
+            "Type": "Single",
             "Input": {
-                "Type": "Single",
+                "Type": "None",
                 "Parameters": {
                     "Duration": "20"
                 }
@@ -238,7 +243,10 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "Prefer not to answer"
+                    ]
                 }
             },
             "Number": -17
@@ -336,9 +344,9 @@
             "Description": [
                 "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
             ],
-            "Type": "TimedText",
+            "Type": "Single",
             "Input": {
-                "Type": "Single",
+                "Type": "None",
                 "Parameters": {
                     "Duration": "30"
                 }
@@ -393,9 +401,9 @@
             "Description": [
                 "Play this situation in your head for the next 20 seconds."
             ],
-            "Type": "TimedText",
+            "Type": "Single",
             "Input": {
-                "Type": "Single",
+                "Type": "None",
                 "Parameters": {
                     "Duration": "20"
                 }
@@ -2521,9 +2529,9 @@
             "Description": [
                 "For the next 30 seconds, please picture yourself in the situation you just described. When you are finished, the screen will change automatically. "
             ],
-            "Type": "TimedText",
+            "Type": "Single",
             "Input": {
-                "Type": "Single",
+                "Type": "None",
                 "Parameters": {
                     "Duration": "30"
                 }
