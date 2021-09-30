@@ -3,7 +3,6 @@
     "Name": "Session2_long",
     "Title": "Week 2: Part 2",
     "TimeToComplete": "00:05:00",
-    "Description": "Welcome! The domains listed here are some areas that may cause teens to feel anxious. Please select the one that you'd like to work on during today's training.",
     "BeforeDomain": [
         {
             "Name": "Welcome Back!",
@@ -25,7 +24,10 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "Prefer not to answer."
+                    ]
                 }
             },
             "Number": -1
@@ -41,7 +43,12 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "I didn't want/need to change how I was feeling",
+                        "I'm not sure, or I wasn't paying attention to my feeling.",
+                        "Prefer not to answer."
+                    ]
                 }
             },
             "Number": -2
@@ -57,7 +64,11 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours.",
+                        "Prefer not to answer."
+                    ]
                 }
             },
             "Number": -3
@@ -87,21 +98,6 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "None",
-                "Parameters": {
-                    "Duration": "20"
-                }
-            },
-            "Number": -6
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
                 "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  0 = Absolutely no anxiety. 10 = Totally anxious."
             ],
             "Type": "Single",
@@ -109,10 +105,13 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "Prefer not to answer."
+                    ]
                 }
             },
-            "Number": -7
+            "Number": -6
         },
         {
             "Name": "Using Your Imagination",
@@ -134,7 +133,7 @@
                     ]
                 }
             },
-            "Number": -8
+            "Number": -7
         },
         {
             "Name": "Using Your Imagination",
@@ -156,7 +155,7 @@
                     ]
                 }
             },
-            "Number": -9
+            "Number": -8
         },
         {
             "Name": "Using Your Imagination",
@@ -178,7 +177,7 @@
                     ]
                 }
             },
-            "Number": -10
+            "Number": -9
         },
         {
             "Name": "Using Your Imagination",
@@ -187,7 +186,7 @@
                 "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
             ],
             "Type": "Single",
-            "Number": -11
+            "Number": -10
         },
         {
             "Name": "Using Your Imagination",
@@ -199,7 +198,7 @@
             "Input": {
                 "Type": "Entry"
             },
-            "Number": -12
+            "Number": -11
         },
         {
             "Name": "Using Your Imagination",
@@ -214,7 +213,7 @@
                     "Duration": "30"
                 }
             },
-            "Number": -13
+            "Number": -12
         },
         {
             "Name": "Using Your Imagination",
@@ -229,7 +228,7 @@
                     "Duration": "90"
                 }
             },
-            "Number": -14
+            "Number": -13
         },
         {
             "Name": "Using Your Imagination",
@@ -238,7 +237,7 @@
                 "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
             ],
             "Type": "Single",
-            "Number": -15
+            "Number": -14
         },
         {
             "Name": "Using Your Imagination",
@@ -247,7 +246,7 @@
                 "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
             "Type": "Single",
-            "Number": -16
+            "Number": -15
         }
     ],
     "Domains": [
@@ -259,7 +258,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Not doing well in math",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -290,13 +288,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Not doing well in math"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Friends cheating",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -327,13 +325,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Friends cheating"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Upset parents",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -364,7 +362,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Upset parents"
                 }
             ]
         },
@@ -376,7 +375,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Shattered glass",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -407,13 +405,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Shattered glass"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Halloween party",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -444,13 +442,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Halloween party"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Turned off appliances",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -481,7 +479,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Turned off appliances"
                 }
             ]
         },
@@ -493,7 +492,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Presentation in class",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -524,13 +522,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Presentation in class"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "New grocery store",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -561,13 +559,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "New grocery store"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Not doing well in math",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -598,7 +596,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Not doing well in math"
                 }
             ]
         },
@@ -610,7 +609,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Not a lot of likes",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -641,13 +639,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Not a lot of likes"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Tagged in a photo",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -678,13 +676,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Tagged in a photo"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Shattered glass",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -715,7 +713,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Shattered glass"
                 }
             ]
         },
@@ -727,7 +726,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Upset parents",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -758,13 +756,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Upset parents"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Loud guardian",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -795,13 +793,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Loud guardian"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Presentation in class",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -832,7 +830,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Presentation in class"
                 }
             ]
         },
@@ -844,7 +843,6 @@
                     "Number": 1,
                     "Name": "Scenario1",
                     "Title": "Scenario 1",
-                    "Caption": "Turned off appliances",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic0.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -875,13 +873,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Turned off appliances"
                 },
                 {
                     "Number": 2,
                     "Name": "Scenario2",
                     "Title": "Scenario 2",
-                    "Caption": "Babysitting",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic1.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -912,13 +910,13 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Babysitting"
                 },
                 {
                     "Number": 3,
                     "Name": "Scenario3",
                     "Title": "Scenario 3",
-                    "Caption": "Not a lot of likes",
                     "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session2_long/pic2.jpeg",
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "True",
@@ -949,7 +947,8 @@
                         "Parameters": {
                             "Duration": 45
                         }
-                    }
+                    },
+                    "Caption": "Not a lot of likes"
                 }
             ]
         }
@@ -985,14 +984,14 @@
             "Description": [
                 "You ask a new student at your school for their name on social media, and they don't respond."
             ],
-            "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic2.jpeg",
-            "ImageType": "image/jpeg",
-            "ImageEmbedded": "True",
-            "ImageFromURL": "True",
             "Type": "Single",
             "Input": {
                 "Type": "Entry"
             },
+            "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic2.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": 102
         },
         {
