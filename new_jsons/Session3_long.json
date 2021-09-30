@@ -86,21 +86,6 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please play this situation in your head for the next 20 seconds."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "Single",
-                "Parameters": {
-                    "Duration": "20"
-                }
-            },
-            "Number": -6
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
                 "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  0 = Absolutely no anxiety. 10 = Totally anxious."
             ],
             "Type": "Single",
@@ -111,7 +96,7 @@
                     "Maximum": "10"
                 }
             },
-            "Number": -7
+            "Number": -6
         },
         {
             "Name": "Using Your Imagination",
@@ -133,7 +118,7 @@
                     ]
                 }
             },
-            "Number": -8
+            "Number": -7
         },
         {
             "Name": "Using Your Imagination",
@@ -155,7 +140,7 @@
                     ]
                 }
             },
-            "Number": -9
+            "Number": -8
         },
         {
             "Name": "Using Your Imagination",
@@ -177,7 +162,7 @@
                     ]
                 }
             },
-            "Number": -10
+            "Number": -9
         },
         {
             "Name": "Using Your Imagination",
@@ -186,7 +171,7 @@
                 "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
             ],
             "Type": "Single",
-            "Number": -11
+            "Number": -10
         },
         {
             "Name": "Using Your Imagination",
@@ -198,7 +183,7 @@
             "Input": {
                 "Type": "Entry"
             },
-            "Number": -12
+            "Number": -11
         },
         {
             "Name": "Using Your Imagination",
@@ -213,7 +198,7 @@
                     "Duration": "30"
                 }
             },
-            "Number": -13
+            "Number": -12
         },
         {
             "Name": "Using Your Imagination",
@@ -228,7 +213,7 @@
                     "Duration": "90"
                 }
             },
-            "Number": -14
+            "Number": -13
         },
         {
             "Name": "Using Your Imagination",
@@ -237,7 +222,7 @@
                 "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
             ],
             "Type": "Single",
-            "Number": -15
+            "Number": -14
         },
         {
             "Name": "Using Your Imagination",
@@ -246,7 +231,7 @@
                 "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
             "Type": "Single",
-            "Number": -16
+            "Number": -15
         }
     ],
     "Domains": [
