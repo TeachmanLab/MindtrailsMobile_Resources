@@ -22,6 +22,9 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/mindtrails.mp4",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": -1
         },
         {
@@ -89,6 +92,9 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic1.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": -6
         },
         {
@@ -99,6 +105,9 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic2.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": -7
         },
         {
@@ -109,6 +118,9 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic3.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": -8
         },
         {
@@ -119,6 +131,9 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic4.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": -9
         },
         {
@@ -129,6 +144,9 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic5.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": -10
         },
         {
@@ -139,6 +157,9 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic6.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": -11
         },
         {
@@ -149,6 +170,9 @@
             ],
             "Type": "Single",
             "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic7.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
             "Number": -12
         },
         {
@@ -176,16 +200,25 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
+                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there."
+            ],
+            "Type": "Single",
+            "Number": -15
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Play this situation in your head for the next 20 seconds."
             ],
             "Type": "TimedText",
             "Input": {
-                "Type": "None",
+                "Type": "Single",
                 "Parameters": {
                     "Duration": "20"
                 }
             },
-            "Number": -15
+            "Number": -16
         },
         {
             "Name": "Using Your Imagination",
@@ -201,7 +234,7 @@
                     "Maximum": "10"
                 }
             },
-            "Number": -16
+            "Number": -17
         },
         {
             "Name": "Using Your Imagination",
@@ -223,7 +256,7 @@
                     ]
                 }
             },
-            "Number": -17
+            "Number": -18
         },
         {
             "Name": "Using Your Imagination",
@@ -245,7 +278,7 @@
                     ]
                 }
             },
-            "Number": -18
+            "Number": -19
         },
         {
             "Name": "Using Your Imagination",
@@ -267,7 +300,7 @@
                     ]
                 }
             },
-            "Number": -19
+            "Number": -20
         },
         {
             "Name": "Using Your Imagination",
@@ -276,7 +309,7 @@
                 "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
             ],
             "Type": "Single",
-            "Number": -20
+            "Number": -21
         },
         {
             "Name": "Using Your Imagination",
@@ -288,7 +321,7 @@
             "Input": {
                 "Type": "Entry"
             },
-            "Number": -21
+            "Number": -22
         },
         {
             "Name": "Using Your Imagination",
@@ -298,12 +331,12 @@
             ],
             "Type": "TimedText",
             "Input": {
-                "Type": "None",
+                "Type": "Single",
                 "Parameters": {
                     "Duration": "30"
                 }
             },
-            "Number": -22
+            "Number": -23
         },
         {
             "Name": "Using Your Imagination",
@@ -318,7 +351,7 @@
                     "Duration": "90"
                 }
             },
-            "Number": -23
+            "Number": -24
         },
         {
             "Name": "Using Your Imagination",
@@ -327,7 +360,7 @@
                 "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
             ],
             "Type": "Single",
-            "Number": -24
+            "Number": -25
         },
         {
             "Name": "Wrapping Up",
@@ -336,7 +369,7 @@
                 "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
             "Type": "Single",
-            "Number": -25
+            "Number": -26
         }
     ],
     "Domains": [
@@ -2431,13 +2464,73 @@
     ],
     "AfterDomain": [
         {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. \n \nAs you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? \n \nAfter you come up with your situation, please press NEXT. \n \nExamples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious. "
+            ],
+            "Type": "Single",
+            "Number": 100
+        },
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "Please take a moment to write one or two sentences to describe the situation.\n \nPress next when you are ready to continue. "
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
+            "Number": 101
+        },
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "For the next 30 seconds, please picture yourself in the situation you just described. When you are finished, the screen will change automatically. "
+            ],
+            "Type": "TimedText",
+            "Input": {
+                "Type": "Single",
+                "Parameters": {
+                    "Duration": "30"
+                }
+            },
+            "Number": 102
+        },
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry",
+                "Parameters": {
+                    "Duration": "90"
+                }
+            },
+            "Number": 103
+        },
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious! "
+            ],
+            "Type": "Single",
+            "Number": 104
+        },
+        {
             "Name": "Wrapping Up",
             "Title": "Wrapping Up",
             "Description": [
                 "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
             "Type": "Single",
-            "Number": 100
+            "Number": 105
         }
     ]
 }
