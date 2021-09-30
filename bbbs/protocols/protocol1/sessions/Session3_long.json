@@ -90,6 +90,12 @@
                 "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": "20"
+                }
+            },
             "Number": -6
         },
         {
@@ -205,7 +211,7 @@
             "Input": {
                 "Type": "None",
                 "Parameters": {
-                    "Duration": 30
+                    "Duration": "30"
                 }
             },
             "Number": -13
@@ -220,7 +226,7 @@
             "Input": {
                 "Type": "Entry",
                 "Parameters": {
-                    "Duration": 90
+                    "Duration": "90"
                 }
             },
             "Number": -14
@@ -278,6 +284,7 @@
                         "I'll want to skip class, but I'll go anyway and cope with feeling anxious. ",
                         "I'll ask others to be in their group, even if I really don't want to. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -314,6 +321,7 @@
                         "I want to apologize for my poor answer, but do not.",
                         "I want to cover my face, but decide to look at the teacher. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -350,6 +358,7 @@
                         "I want to get reassurance from my friends, but decide to calm myself down. ",
                         "I want to spend my day focused on my phone, but instead do hobbies I enjoy. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -392,6 +401,7 @@
                         "I want to go back into the bathroom forever, but I'll face my friends. ",
                         "I want to leave immediately, but I'll go back to my friends. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -428,6 +438,7 @@
                         "I want to get mad and bring up the subject as soon as we get off of the bus, but I know that isn't right so I give my friend some time. ",
                         "I want to talk about this with my other friends at school, but decide to keep this to myself. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -464,6 +475,7 @@
                         "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
                         "I want to change the topic of conversation to something less serious, but I let the conversation go."
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -506,6 +518,7 @@
                         "Even though it's hard, I tell myself that this feeling will pass. ",
                         "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -542,6 +555,7 @@
                         "I want to go see a doctor because I'm worried about how tight my chest is, but know that this feeling is normal after a quick jog. ",
                         "I want to walk away quickly from my friends so they don't see how out of breath I am, but I know that this is normal and they won't judge me. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -578,6 +592,7 @@
                         "I want to tell my friend that I can't go, but push myself to go into the park anyway. ",
                         "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park."
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -620,6 +635,7 @@
                         "I want to get reassurance from my friends, but decide to calm myself down. ",
                         "I want to spend my day focused on my phone, but instead do hobbies I enjoy. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -656,6 +672,7 @@
                         "I want to ignore them for not inviting me, but remind myself that would be childish. ",
                         "I want to gossip about how awful it was that I wasn't invited, but decide that would not be nice. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -692,6 +709,7 @@
                         "I'll want to skip class, but I'll go anyway and cope with feeling anxious. ",
                         "I'll ask others to be in their group, even if I really don't want to. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -734,6 +752,7 @@
                         "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
                         "I want to change the topic of conversation to something less serious, but I let the conversation go."
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -770,6 +789,7 @@
                         "I sit back and think about how I can avoid both my chores and project, but decide to do the right thing and get the tasks done.",
                         "I want to procrastinate until the end of the day, but decide not to. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -806,6 +826,7 @@
                         "I want to go back into the bathroom forever, but I'll face my friends. ",
                         "I want to leave immediately, but I'll go back to my friends. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -848,6 +869,7 @@
                         "I want to tell my friend that I can't go, but push myself to go into the park anyway. ",
                         "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park."
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -884,6 +906,7 @@
                         "I want to question the family on his health, but decide to enjoy the gathering. ",
                         "I feel the urge to worry a lot about his health, but take a deep breath and enjoy the moments I have with my grandfather. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -920,6 +943,7 @@
                         "Even though it's hard, I tell myself that this feeling will pass. ",
                         "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -947,6 +971,12 @@
                 "In the text box, please write as many different thoughts that might come to your mind in that moment. You'll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I'm really tired, so I'm glad to be going home."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": "60"
+                }
+            },
             "Number": 101
         },
         {

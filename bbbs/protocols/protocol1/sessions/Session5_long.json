@@ -90,6 +90,12 @@
                 "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there. Please click the NEXT button and play this situation in your head for the next 20 seconds."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": "20"
+                }
+            },
             "Number": -6
         },
         {
@@ -205,7 +211,7 @@
             "Input": {
                 "Type": "None",
                 "Parameters": {
-                    "Duration": 30
+                    "Duration": "30"
                 }
             },
             "Number": -13
@@ -220,7 +226,7 @@
             "Input": {
                 "Type": "Entry",
                 "Parameters": {
-                    "Duration": 90
+                    "Duration": "90"
                 }
             },
             "Number": -14
@@ -278,6 +284,7 @@
                         "I want to cheat so that this assignment is done, but keep trying anyway. ",
                         "I am tempted to ask them what it said online, but decide not to. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -314,6 +321,7 @@
                         "I'll want to say I want to work alone, but give the group a try. ",
                         "I want to stay quiet, but decide to contribute. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -350,6 +358,7 @@
                         "I want to start crying, but then remind myself I did a great job on this costume. ",
                         "I want to ask someone if my costume is too much, but decide not to ask for opinions. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -392,6 +401,7 @@
                         "I want to start crying, but then remind myself I did a great job on this costume. ",
                         "I want to ask someone if my costume is too much, but decide not to ask for opinions. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -428,6 +438,7 @@
                         "I want to head home early, but decide to stay as long as everyone else. ",
                         "I'll want to text on my phone to avoid talking to them, but remain engaged with my friends. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -464,6 +475,7 @@
                         "I notice my pounding heart and remind myself that this feeling doesn't necessarily mean anything is wrong with me. ",
                         "I can ask my parent about my beating heart if it happens again in the future. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -506,6 +518,7 @@
                         "I notice my pounding heart and remind myself that this feeling doesn't necessarily mean anything is wrong with me. ",
                         "I can ask my parent about my beating heart if it happens again in the future. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -542,6 +555,7 @@
                         "Even though it isn't easy, I tell myself that this tight feeling will go away. ",
                         "I want to go be alone and figure out why I'm feeling so bad, but remind myself that this tightness is probably from laughing and it will go away. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -578,6 +592,7 @@
                         "I want to pretend the picture doesn't exist, but decide it is fine. ",
                         "I want to ask my friends if they think I look okay, but decide I look fine on my own."
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -620,6 +635,7 @@
                         "I want to pretend the picture doesn't exist, but decide it is fine. ",
                         "I want to ask my friends if they think I look okay, but decide I look fine on my own."
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -656,6 +672,7 @@
                         "I want to remove them from my phone, but realize that would be dramatic. ",
                         "I want to send a bunch of messages to this person, but instead call my friends to hang out. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -692,6 +709,7 @@
                         "I feel the urge to pretend I'm sick so I don't have to face my friends, but then push myself to face my fears and go to practice. ",
                         "I want to run away, but know that my teammates are counting on me to be at practice. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -734,6 +752,7 @@
                         "I feel the urge to pretend I'm sick so I don't have to face my friends, but then push myself to face my fears and go to practice. ",
                         "I want to run away, but know that my teammates are counting on me to be at practice. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -770,6 +789,7 @@
                         "I want to tell my parents not to say anything embarrassing in front of my friend, but take a deep breath instead. ",
                         "I want to tell my friend that my parents might say something that I don't agree with, but remind myself that my friend will be nice to me no matter what my parents say. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -806,6 +826,7 @@
                         "I feel the urge to cover myself with a blanket, but tell myself that it was probably nothing outside.",
                         "I want to call the parents to have them come home soon, but tell myself that I can face my fear and that the anxiety will go away."
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -848,6 +869,7 @@
                         "I feel the urge to cover myself with a blanket, but tell myself that it was probably nothing outside.",
                         "I want to call the parents to have them come home soon, but tell myself that I can face my fear and that the anxiety will go away."
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -884,6 +906,7 @@
                         "I want to avoid going to the park, but challenge myself to go. ",
                         "I consider bailing on my friend, but push myself to go on the walk anyway. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -920,6 +943,7 @@
                         "I want to cheat so that this assignment is done, but keep trying anyway. ",
                         "I am tempted to ask them what it said online, but decide not to. "
                     ],
+                    "Type": "TimedText",
                     "Input": {
                         "Type": "TimedText",
                         "Parameters": {
@@ -947,6 +971,12 @@
                 "In the text box, please write as many different thoughts that might come to your mind in that moment. You'll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I'm really tired, so I'm glad to be going home."
             ],
             "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": "60"
+                }
+            },
             "Number": 101
         },
         {
