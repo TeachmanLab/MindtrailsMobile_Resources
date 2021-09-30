@@ -23,8 +23,8 @@
             "Input": {
                 "Type": "Slider",
                 "Parameters": {
-                    "Minimum": "0",
-                    "Maximum": "10",
+                    "Minimum": 0,
+                    "Maximum": 10,
                     "OtherChoices": [
                         "Prefer not to answer."
                     ]
@@ -42,8 +42,8 @@
             "Input": {
                 "Type": "Slider",
                 "Parameters": {
-                    "Minimum": "0",
-                    "Maximum": "10",
+                    "Minimum": 0,
+                    "Maximum": 10,
                     "OtherChoices": [
                         "I didn't want/need to change how I was feeling",
                         "I'm not sure, or I wasn't paying attention to my feeling.",
@@ -63,8 +63,8 @@
             "Input": {
                 "Type": "Slider",
                 "Parameters": {
-                    "Minimum": "0",
-                    "Maximum": "10",
+                    "Minimum": 0,
+                    "Maximum": 10,
                     "OtherChoices": [
                         "I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours.",
                         "Prefer not to answer."
@@ -104,8 +104,8 @@
             "Input": {
                 "Type": "Slider",
                 "Parameters": {
-                    "Minimum": "0",
-                    "Maximum": "10",
+                    "Minimum": 0,
+                    "Maximum": 10,
                     "OtherChoices": [
                         "Prefer not to answer."
                     ]
@@ -210,7 +210,7 @@
             "Input": {
                 "Type": "None",
                 "Parameters": {
-                    "Duration": "30"
+                    "Duration": 30
                 }
             },
             "Number": -12
@@ -225,7 +225,7 @@
             "Input": {
                 "Type": "Entry",
                 "Parameters": {
-                    "Duration": "90"
+                    "Duration": 90
                 }
             },
             "Number": -13
@@ -973,7 +973,7 @@
             "Input": {
                 "Type": "None",
                 "Parameters": {
-                    "Duration": "60"
+                    "Duration": 60
                 }
             },
             "Number": 101
