@@ -48,7 +48,11 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "[I didn't want/need to change how I was feeling",
+                        " I'm not sure, or I wasn't paying attention to my feeling.]"
+                    ]
                 }
             },
             "Number": -2
@@ -64,7 +68,10 @@
                 "Type": "Slider",
                 "Parameters": {
                     "Minimum": "0",
-                    "Maximum": "10"
+                    "Maximum": "10",
+                    "OtherChoices": [
+                        "[I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours.]"
+                    ]
                 }
             },
             "Number": -3
