@@ -318,10 +318,10 @@
             "Number": -20
         },
         {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
+            "Name": "Wrapping Up",
+            "Title": "Wrapping Up",
             "Description": [
-                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
+                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
             "Type": "Single",
             "Number": -21
@@ -330,70 +330,10 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "Please take a moment to write one or two sentences to describe the situation. Press next when you are ready to continue."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "Entry"
-            },
-            "Number": -22
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "None",
-                "Parameters": {
-                    "Duration": 30
-                }
-            },
-            "Number": -23
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "Entry",
-                "Parameters": {
-                    "Duration": 90
-                }
-            },
-            "Number": -24
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
-            ],
-            "Type": "Single",
-            "Number": -25
-        },
-        {
-            "Name": "Wrapping Up",
-            "Title": "Wrapping Up",
-            "Description": [
-                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
-            ],
-            "Type": "Single",
-            "Number": -26
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
                 "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there."
             ],
             "Type": "Single",
-            "Number": -27
+            "Number": -22
         },
         {
             "Name": "Using Your Imagination",
@@ -408,7 +348,7 @@
                     "Duration": 20
                 }
             },
-            "Number": -28
+            "Number": -23
         }
     ],
     "Domains": [
