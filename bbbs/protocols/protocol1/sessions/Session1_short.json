@@ -2,7 +2,8 @@
     "Number": 1,
     "Name": "Session1_short",
     "Title": "Week 1: Part 1",
-    "TimeToComplete": "00:05:00",
+    "TimeToComplete": "00:15:00",
+    "ImageHeight": 200,
     "Description": "Welcome! The domains listed here are some areas that may cause teens to feel anxious. Please select the one that you'd like to work on during today's training.",
     "BeforeDomain": [
         {
@@ -31,7 +32,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how anxious have you felt? 0 = Most calm I could imagine being. 10 = Most anxious, panicked, or scared I could imagine being."
+                "Thinking about the last 24 hours, how anxious have you felt? \\n\\n0 = Most calm I could imagine being. \\n10 = Most anxious, panicked, or scared I could imagine being."
             ],
             "Type": "Single",
             "Input": {
@@ -50,7 +51,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. (An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) 0 = Not at all -- I wasn't able to think in different ways to feel better. 10 = Completely-- I was totally able to think in different ways to feel better. "
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. (An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) \\n\\n0 = Not at all -- I wasn't able to think in different ways to feel better. \\n10 = Completely-- I was totally able to think in different ways to feel better. "
             ],
             "Type": "Single",
             "Input": {
@@ -71,7 +72,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? (An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself?) 0 = I tried to stay away from doing anything and everything that would make me anxious or scared. 10 = If there was something that would make me anxious or scared. "
+                "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? (An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself?) \\n\\n0 = I tried to stay away from doing anything and everything that would make me anxious or scared. \\n10 = If there was something that would make me anxious or scared. "
             ],
             "Type": "Single",
             "Input": {
@@ -236,7 +237,7 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  0 = Absolutely no anxiety. 10 = Totally anxious."
+                "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  \\n\\n0 = Absolutely no anxiety. \\n10 = Totally anxious."
             ],
             "Type": "Single",
             "Input": {
@@ -318,97 +319,13 @@
             "Number": -20
         },
         {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
-            ],
-            "Type": "Single",
-            "Number": -21
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "Please take a moment to write one or two sentences to describe the situation. Press next when you are ready to continue."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "Entry"
-            },
-            "Number": -22
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "None",
-                "Parameters": {
-                    "Duration": 30
-                }
-            },
-            "Number": -23
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "Entry",
-                "Parameters": {
-                    "Duration": 90
-                }
-            },
-            "Number": -24
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
-            ],
-            "Type": "Single",
-            "Number": -25
-        },
-        {
             "Name": "Wrapping Up",
             "Title": "Wrapping Up",
             "Description": [
                 "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
             ],
             "Type": "Single",
-            "Number": -26
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there."
-            ],
-            "Type": "Single",
-            "Number": -27
-        },
-        {
-            "Name": "Using Your Imagination",
-            "Title": "Using Your Imagination",
-            "Description": [
-                "Play this situation in your head for the next 20 seconds."
-            ],
-            "Type": "Single",
-            "Input": {
-                "Type": "None",
-                "Parameters": {
-                    "Duration": 20
-                }
-            },
-            "Number": -28
+            "Number": -21
         }
     ],
     "Domains": [
@@ -425,9 +342,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "A friend suggests that you take the creative writing class as your elective next semester. He tells you that your classmates will read and critique your writing. As you listen to your friend, the thought of other people looking at your writing makes you feel"
-                    ],
                     "Caption": "Creative writing class",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -435,7 +349,10 @@
                         "enthusiatic"
                     ],
                     "Question": "Do you expect to feel uncomfortable if others look at your work?",
-                    "Answer": "No"
+                    "Answer": "No",
+                    "Description": [
+                        "A friend suggests that you take the creative writing class as your elective next semester. He tells you that your classmates will read and critique your writing. As you listen to your friend, the thought of other people looking at your writing makes you feel"
+                    ]
                 },
                 {
                     "Number": 2,
@@ -446,10 +363,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your teacher asks to collect your homework at the beginning of class. Your homework isn't in your bag where you put it last night. Your homework must be",
-                        "You take a deep breath and decide to tell your teacher your homework is missing. You feel"
-                    ],
                     "Caption": "Missing homework",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -458,7 +371,11 @@
                         "fine"
                     ],
                     "Question": "Are you anxious because you couldn't find your homework?",
-                    "Answer": "No"
+                    "Answer": "No",
+                    "Description": [
+                        "Your teacher asks to collect your homework at the beginning of class. Your homework isn't in your bag where you put it last night. Your homework must be",
+                        "You take a deep breath and decide to tell your teacher your homework is missing. You feel"
+                    ]
                 },
                 {
                     "Number": 3,
@@ -469,9 +386,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You get free and reduced lunch at school so you always eat the cafeteria food. When you eat with your friends, you notice that they all bring homemade lunches. You realize that you have a different situation than your friends and that's"
-                    ],
                     "Caption": "Lunch time",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -479,7 +393,10 @@
                         "alright"
                     ],
                     "Question": "Are you hard on yourself because you don't bring lunch like your friends?",
-                    "Answer": "No"
+                    "Answer": "No",
+                    "Description": [
+                        "You get free and reduced lunch at school so you always eat the cafeteria food. When you eat with your friends, you notice that they all bring homemade lunches. You realize that you have a different situation than your friends and that's"
+                    ]
                 },
                 {
                     "Number": 4,
@@ -490,9 +407,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're called to the stage to receive an award at your school's award ceremony. You stumble as you get up from your chair to go to the stage. When you think about everyone seeing you stumble, you feel"
-                    ],
                     "Caption": "Accepting an award",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -500,7 +414,10 @@
                         "embarrassed"
                     ],
                     "Question": "Are you okay with people seeing you stumble?",
-                    "Answer": "No"
+                    "Answer": "No",
+                    "Description": [
+                        "You're called to the stage to receive an award at your school's award ceremony. You stumble as you get up from your chair to go to the stage. When you think about everyone seeing you stumble, you feel"
+                    ]
                 },
                 {
                     "Number": 5,
@@ -511,9 +428,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "A new teacher is hired for your science class, and you hear that he is a tough grader. You meet him for the first time and talk about the class. Getting up to leave at the end of your meeting, you think that he found you to be"
-                    ],
                     "Caption": "New teacher ",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -521,7 +435,10 @@
                         "intelligent"
                     ],
                     "Question": "Does your new teacher have a good opinion of you?",
-                    "Answer": "Yes"
+                    "Answer": "Yes",
+                    "Description": [
+                        "A new teacher is hired for your science class, and you hear that he is a tough grader. You meet him for the first time and talk about the class. Getting up to leave at the end of your meeting, you think that he found you to be"
+                    ]
                 },
                 {
                     "Number": 6,
@@ -532,9 +449,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Today, you will receive an important email. It will tell you whether you got accepted to or rejected from the college you really want to go to. As you think about waiting for the email, you feel"
-                    ],
                     "Caption": "Important email",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -542,7 +456,10 @@
                         "excited"
                     ],
                     "Question": "Are you miserable waiting for the important email?",
-                    "Answer": "No"
+                    "Answer": "No",
+                    "Description": [
+                        "Today, you will receive an important email. It will tell you whether you got accepted to or rejected from the college you really want to go to. As you think about waiting for the email, you feel"
+                    ]
                 },
                 {
                     "Number": 7,
@@ -553,9 +470,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "This year, you've decied to take an AP level class. This is your first AP class and you've heard from your classmates that it's a lot of work. When you think about the class, you think that you will be able to do"
-                    ],
                     "Caption": "Taking an AP class",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -563,7 +477,10 @@
                         "well"
                     ],
                     "Question": "Will you succeed in your first AP level class?",
-                    "Answer": "Yes"
+                    "Answer": "Yes",
+                    "Description": [
+                        "This year, you've decied to take an AP level class. This is your first AP class and you've heard from your classmates that it's a lot of work. When you think about the class, you think that you will be able to do"
+                    ]
                 },
                 {
                     "Number": 8,
@@ -574,10 +491,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your teacher calls on you to answer a question about the book you just read. You don't know what to say. Your mind goes",
-                        "You give yourself a moment to collect your thoughts and then answer the question. When you think about the answer you gave, you feel"
-                    ],
                     "Caption": "Answering a question",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -586,7 +499,11 @@
                         "good"
                     ],
                     "Question": "Are you able to answer the question?",
-                    "Answer": "Yes"
+                    "Answer": "Yes",
+                    "Description": [
+                        "Your teacher calls on you to answer a question about the book you just read. You don't know what to say. Your mind goes",
+                        "You give yourself a moment to collect your thoughts and then answer the question. When you think about the answer you gave, you feel"
+                    ]
                 },
                 {
                     "Number": 9,
@@ -597,9 +514,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your caregiver wants you to go to a specific college. You would rather go to a different college but your caregiver has made it clear they are not on board with the school choice. When you think about talking with your caregiver about your choice, you feel"
-                    ],
                     "Caption": "College decision",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -607,7 +521,10 @@
                         "prepared"
                     ],
                     "Question": "Can you handle talking to your caregiver about your college choice?",
-                    "Answer": "Yes"
+                    "Answer": "Yes",
+                    "Description": [
+                        "Your caregiver wants you to go to a specific college. You would rather go to a different college but your caregiver has made it clear they are not on board with the school choice. When you think about talking with your caregiver about your choice, you feel"
+                    ]
                 },
                 {
                     "Number": 10,
@@ -618,9 +535,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
-                    ],
                     "Caption": "Breakout rooms",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -628,7 +542,19 @@
                         "ready"
                     ],
                     "Question": "Are the others in the class judging you?",
-                    "Answer": "No"
+                    "Answer": "No",
+                    "Description": [
+                        "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
+                    ]
+                },
+                {
+                    "Number": 10.5,
+                    "Name": "Scenario11",
+                    "Title": "Scenario 11",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
                 },
                 {
                     "Number": 11,
@@ -638,9 +564,19 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
+                    "Caption": "Test grade",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "test",
+                        "pass"
+                    ],
+                    "Question": "Will you fail the class?",
+                    "Answer": "No",
                     "Description": [
-                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
+                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
                     ]
                 },
                 {
@@ -652,19 +588,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
-                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
-                    ],
-                    "Caption": "Test grade",
+                    "Caption": "Online class",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "test",
-                        "pass"
+                        "okay"
                     ],
-                    "Question": "Will you fail the class?",
-                    "Answer": "No"
+                    "Question": "Is it bad that you feel different from everyone else?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
+                    ]
                 },
                 {
                     "Number": 13,
@@ -675,17 +609,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
-                    ],
-                    "Caption": "Online class",
+                    "Caption": "Tooth ache",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "okay"
+                        "calm"
                     ],
-                    "Question": "Is it bad that you feel different from everyone else?",
-                    "Answer": "No"
+                    "Question": "Can you handle going to the dentist?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                    ]
                 },
                 {
                     "Number": 14,
@@ -696,17 +630,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
-                    ],
-                    "Caption": "Tooth ache",
+                    "Caption": "Your friend has a new friend",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "calm"
+                        "worried"
                     ],
-                    "Question": "Can you handle going to the dentist?",
-                    "Answer": "Yes"
+                    "Question": "Are you are upset that your friends were together without you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
+                    ]
                 },
                 {
                     "Number": 15,
@@ -717,18 +651,24 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
-                    ],
-                    "Caption": "Your friend has a new friend",
+                    "Caption": "Talking about the future",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "worried"
+                        "encouraging"
                     ],
-                    "Question": "Are you are upset that your friends were together without you?",
-                    "Answer": "Yes"
-                },
+                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
+                    "Answer": "No",
+                    "Description": [
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Social situations",
+            "Title": "Social situations",
+            "Scenarios": [
                 {
                     "Number": 16,
                     "Name": "Scenario16",
@@ -738,24 +678,18 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
-                    ],
-                    "Caption": "Talking about the future",
+                    "Caption": "Hallway encounter",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "encouraging"
+                        "nice"
                     ],
-                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
-                    "Answer": "No"
-                }
-            ]
-        },
-        {
-            "Name": "Social situations",
-            "Title": "Social situations",
-            "Scenarios": [
+                    "Question": "Do this other student dislike you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You run into someone you don't know well in the hallway who you think is really cool. You ask them how they are doing and they continue to keep walking. This acquaintance probably thinks you are"
+                    ]
+                },
                 {
                     "Number": 17,
                     "Name": "Scenario17",
@@ -765,17 +699,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You run into someone you don't know well in the hallway who you think is really cool. You ask them how they are doing and they continue to keep walking. This acquaintance probably thinks you are"
-                    ],
-                    "Caption": "Hallway encounter",
+                    "Caption": "Friends laughing and looking",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "nice"
+                        "joke"
                     ],
-                    "Question": "Do this other student dislike you?",
-                    "Answer": "No"
+                    "Question": "Were they laughing at you?",
+                    "Answer": "No",
+                    "Description": [
+                        "A group of your friends are whispering and looking in your direction. Some of them are laughing really hard. You don't have time to go say hi, and you think they were probably laughing at a"
+                    ]
                 },
                 {
                     "Number": 18,
@@ -786,17 +720,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "A group of your friends are whispering and looking in your direction. Some of them are laughing really hard. You don't have time to go say hi, and you think they were probably laughing at a"
-                    ],
-                    "Caption": "Friends laughing and looking",
+                    "Caption": "Halloween party",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "joke"
+                        "creative"
                     ],
-                    "Question": "Were they laughing at you?",
-                    "Answer": "No"
+                    "Question": "Will people negatively judge your costume?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're invited to a Halloween party and you'll only know a couple of people there. You decide to wear a really elaborate costume. When you arrive, everyone looks at you and probably think that you are"
+                    ]
                 },
                 {
                     "Number": 19,
@@ -807,17 +741,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're invited to a Halloween party and you'll only know a couple of people there. You decide to wear a really elaborate costume. When you arrive, everyone looks at you and probably think that you are"
-                    ],
-                    "Caption": "Halloween party",
+                    "Caption": "Sending a photo",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "creative"
+                        "forgotten"
                     ],
-                    "Question": "Will people negatively judge your costume?",
-                    "Answer": "No"
+                    "Question": "Did your crush forget to respond to you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "The person you have a crush on starts sending you funny pictures on social media. Today you notice they opened your last picture and didn't respond. They must have"
+                    ]
                 },
                 {
                     "Number": 20,
@@ -828,17 +762,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "The person you have a crush on starts sending you funny pictures on social media. Today you notice they opened your last picture and didn't respond. They must have"
-                    ],
-                    "Caption": "Sending a photo",
+                    "Caption": "Alone on the bus",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "forgotten"
+                        "distracted"
                     ],
-                    "Question": "Did your crush forget to respond to you?",
-                    "Answer": "Yes"
+                    "Question": "Is your friend upset with you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are sitting on the bus on your way in to school and see your friend get on. They walk past you and sit with another friend. They must have been"
+                    ]
                 },
                 {
                     "Number": 21,
@@ -849,17 +783,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are sitting on the bus on your way in to school and see your friend get on. They walk past you and sit with another friend. They must have been"
-                    ],
-                    "Caption": "Alone on the bus",
+                    "Caption": "Vulnerable date",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "distracted"
+                        "judgemental",
+                        "understood"
                     ],
-                    "Question": "Is your friend upset with you?",
-                    "Answer": "No"
+                    "Question": "Did your date judge you negatively?",
+                    "Answer": "No",
+                    "Description": [
+                        "You go on a date. You and your date have a really good conversation and they ask you some questions that make you feel vulnerable. If they get to know the 'real you' you think they will be",
+                        "You decide to open up and share, and they do the same. As you talk, you feel"
+                    ]
                 },
                 {
                     "Number": 22,
@@ -870,19 +806,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You go on a date. You and your date have a really good conversation and they ask you some questions that make you feel vulnerable. If they get to know the 'real you' you think they will be",
-                        "You decide to open up and share, and they do the same. As you talk, you feel"
-                    ],
-                    "Caption": "Vulnerable date",
+                    "Caption": "Party behavior",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "judgemental",
-                        "understood"
+                        "normal"
                     ],
-                    "Question": "Did your date judge you negatively?",
-                    "Answer": "No"
+                    "Question": "Do your friends think you're uncool for not participating?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're at a party late at night with some friends and some of them are doing things you're uncomfortable with. You decide not to participate. Your friends think that you are"
+                    ]
                 },
                 {
                     "Number": 23,
@@ -893,17 +827,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're at a party late at night with some friends and some of them are doing things you're uncomfortable with. You decide not to participate. Your friends think that you are"
-                    ],
-                    "Caption": "Party behavior",
+                    "Caption": "Added on social media",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "normal"
+                        "typical"
                     ],
-                    "Question": "Do your friends think you're uncool for not participating?",
-                    "Answer": "No"
+                    "Question": "Does this cute person your age think you're weird for having only a few followers?",
+                    "Answer": "No",
+                    "Description": [
+                        "You meet a cute person your age and they ask for your social media name. You notice they added you, and now they can see that you don't have many followers. They will think that this is"
+                    ]
                 },
                 {
                     "Number": 24,
@@ -914,17 +848,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You meet a cute person your age and they ask for your social media name. You notice they added you, and now they can see that you don't have many followers. They will think that this is"
-                    ],
-                    "Caption": "Added on social media",
+                    "Caption": "Trick-or-treating with sibling",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "typical"
+                        "awesome"
                     ],
-                    "Question": "Does this cute person your age think you're weird for having only a few followers?",
-                    "Answer": "No"
+                    "Question": "Do the kids from school think you're lame for going trick-or-treating?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your mom wants you to take your younger sibling trick-or-treating. You wear a costume and run into some kids from your school who aren't dressed up. They think your costume is"
+                    ]
                 },
                 {
                     "Number": 25,
@@ -935,17 +869,28 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your mom wants you to take your younger sibling trick-or-treating. You wear a costume and run into some kids from your school who aren't dressed up. They think your costume is"
-                    ],
-                    "Caption": "Trick-or-treating with sibling",
+                    "Caption": "Social media video",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "awesome"
+                        "insecure",
+                        "confident"
                     ],
-                    "Question": "Do the kids from school think you're lame for going trick-or-treating?",
-                    "Answer": "No"
+                    "Question": "Are you worried about making a social media video on your own?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your friends are making a video for social media. You would have liked to have joined in, but your friends didn't include you. You feel",
+                        "You open your account and realize you can make your own video. You feel"
+                    ]
+                },
+                {
+                    "Number": 25.5,
+                    "Name": "Scenario26",
+                    "Title": "Scenario 26",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
                 },
                 {
                     "Number": 26,
@@ -956,19 +901,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your friends are making a video for social media. You would have liked to have joined in, but your friends didn't include you. You feel",
-                        "You open your account and realize you can make your own video. You feel"
-                    ],
-                    "Caption": "Social media video",
+                    "Caption": "Test grade",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "insecure",
-                        "confident"
+                        "test",
+                        "pass"
                     ],
-                    "Question": "Are you worried about making a social media video on your own?",
-                    "Answer": "No"
+                    "Question": "Will you fail the class?",
+                    "Answer": "No",
+                    "Description": [
+                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
+                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
+                    ]
                 },
                 {
                     "Number": 27,
@@ -978,9 +923,17 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
+                    "Caption": "Online class",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "okay"
+                    ],
+                    "Question": "Is it bad that you feel different from everyone else?",
+                    "Answer": "No",
                     "Description": [
-                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
                     ]
                 },
                 {
@@ -992,19 +945,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
-                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
-                    ],
-                    "Caption": "Test grade",
+                    "Caption": "Tooth ache",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "test",
-                        "pass"
+                        "calm"
                     ],
-                    "Question": "Will you fail the class?",
-                    "Answer": "No"
+                    "Question": "Can you handle going to the dentist?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                    ]
                 },
                 {
                     "Number": 29,
@@ -1015,17 +966,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
-                    ],
-                    "Caption": "Online class",
+                    "Caption": "Your friend has a new friend",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "okay"
+                        "worried"
                     ],
-                    "Question": "Is it bad that you feel different from everyone else?",
-                    "Answer": "No"
+                    "Question": "Are you are upset that your friends were together without you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
+                    ]
                 },
                 {
                     "Number": 30,
@@ -1036,18 +987,24 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
-                    ],
-                    "Caption": "Tooth ache",
+                    "Caption": "Talking about the future",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "calm"
+                        "encouraging"
                     ],
-                    "Question": "Can you handle going to the dentist?",
-                    "Answer": "Yes"
-                },
+                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
+                    "Answer": "No",
+                    "Description": [
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Physical health",
+            "Title": "Physical health",
+            "Scenarios": [
                 {
                     "Number": 31,
                     "Name": "Scenario31",
@@ -1057,17 +1014,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
-                    ],
-                    "Caption": "Your friend has a new friend",
+                    "Caption": "The birthday party",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "worried"
+                        "notice"
                     ],
-                    "Question": "Are you are upset that your friends were together without you?",
-                    "Answer": "Yes"
+                    "Question": "Do your friends and family notice how anxious you feel?",
+                    "Answer": "No",
+                    "Description": [
+                        "It's your birthday and when it's time for the cake, people gather around you and start singing. You feel your heart start to beat more quickly and your armpits starting to sweat. Your friends and family will not"
+                    ]
                 },
                 {
                     "Number": 32,
@@ -1078,24 +1035,20 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
-                    ],
-                    "Caption": "Talking about the future",
+                    "Caption": "Getting up quickly",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "encouraging"
+                        "blind",
+                        "quickly"
                     ],
-                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
-                    "Answer": "No"
-                }
-            ]
-        },
-        {
-            "Name": "Physical health",
-            "Title": "Physical health",
-            "Scenarios": [
+                    "Question": "Does your momentary blurry vision mean that you are going blind?",
+                    "Answer": "No",
+                    "Description": [
+                        "As you wake up in the morning, you sit up quickly. Your vision goes blurry, and then goes black for a moment. Your vision comes back after a moment, and you tell yourself that you are going",
+                        "You take a deep breath and realize that your vision is completely back. Then you remember that sometimes this happens when you sit up too"
+                    ]
+                },
                 {
                     "Number": 33,
                     "Name": "Scenario33",
@@ -1105,17 +1058,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "It's your birthday and when it's time for the cake, people gather around you and start singing. You feel your heart start to beat more quickly and your armpits starting to sweat. Your friends and family will not"
-                    ],
-                    "Caption": "The birthday party",
+                    "Caption": "Language class presentation",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "notice"
+                        "manageable"
                     ],
-                    "Question": "Do your friends and family notice how anxious you feel?",
-                    "Answer": "No"
+                    "Question": "Can you handle your anxiety symptoms while you give your presentation?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You have to give a presentation in your international language class today. When you stand up in front of the class, you feel your cheeks get hot and your hands start to tremble. You think that these sensations will be"
+                    ]
                 },
                 {
                     "Number": 34,
@@ -1126,19 +1079,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "As you wake up in the morning, you sit up quickly. Your vision goes blurry, and then goes black for a moment. Your vision comes back after a moment, and you tell yourself that you are going",
-                        "You take a deep breath and realize that your vision is completely back. Then you remember that sometimes this happens when you sit up too"
-                    ],
-                    "Caption": "Getting up quickly",
+                    "Caption": "Visiting a friend",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "blind",
-                        "quickly"
+                        "low"
                     ],
-                    "Question": "Does your momentary blurry vision mean that you are going blind?",
-                    "Answer": "No"
+                    "Question": "Is it likely that you will become ill?",
+                    "Answer": "No",
+                    "Description": [
+                        "You go to the hospital to visit a friend. Someone behind you coughs a few times while you are in the waiting room. The chance that you will get sick is"
+                    ]
                 },
                 {
                     "Number": 35,
@@ -1149,17 +1100,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You have to give a presentation in your international language class today. When you stand up in front of the class, you feel your cheeks get hot and your hands start to tremble. You think that these sensations will be"
-                    ],
-                    "Caption": "Language class presentation",
+                    "Caption": "Allergies during walk",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "manageable"
+                        "scared",
+                        "relieved"
                     ],
-                    "Question": "Can you handle your anxiety symptoms while you give your presentation?",
-                    "Answer": "Yes"
+                    "Question": "Does your rapid heartrate mean something bad is happening?",
+                    "Answer": "No",
+                    "Description": [
+                        "It's a chilly spring day, and you are out walking outside in the park, hitting the soccer ball around. As you pass by the trees, you feel increasingly stuffy and sore. You start feeling",
+                        "Looking around, you see all the pollen flying in the air. You realize that you usually get a stuffy nose with seasonal allergies and are probably tired from playing soccer for the last hour. You feel"
+                    ]
                 },
                 {
                     "Number": 36,
@@ -1170,17 +1123,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You go to the hospital to visit a friend. Someone behind you coughs a few times while you are in the waiting room. The chance that you will get sick is"
-                    ],
-                    "Caption": "Visiting a friend",
+                    "Caption": "Spicy food for dinner",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "low"
+                        "enjoyable"
                     ],
-                    "Question": "Is it likely that you will become ill?",
-                    "Answer": "No"
+                    "Question": "Are you able to tolerate your face sweating after eating spicy food?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You're at a friend's house and their mom makes some very spicy food for dinner. After eating some, your face begins to sweat, and you can feel your heart beating in your chest. You decide to focus on the conversation, and you experience the rest of dinner as"
+                    ]
                 },
                 {
                     "Number": 37,
@@ -1191,19 +1144,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "It's a chilly spring day, and you are out walking outside in the park, hitting the soccer ball around. As you pass by the trees, you feel increasingly stuffy and sore. You start feeling",
-                        "Looking around, you see all the pollen flying in the air. You realize that you usually get a stuffy nose with seasonal allergies and are probably tired from playing soccer for the last hour. You feel"
-                    ],
-                    "Caption": "Allergies during walk",
+                    "Caption": "Cold day jog",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "scared",
-                        "relieved"
+                        "scary"
                     ],
-                    "Question": "Does your rapid heartrate mean something bad is happening?",
-                    "Answer": "No"
+                    "Question": "Is your rapid heartbeat scary?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
+                    ]
                 },
                 {
                     "Number": 38,
@@ -1214,17 +1165,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're at a friend's house and their mom makes some very spicy food for dinner. After eating some, your face begins to sweat, and you can feel your heart beating in your chest. You decide to focus on the conversation, and you experience the rest of dinner as"
-                    ],
-                    "Caption": "Spicy food for dinner",
+                    "Caption": "Party with music",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "enjoyable"
+                        "excitement"
                     ],
-                    "Question": "Are you able to tolerate your face sweating after eating spicy food?",
-                    "Answer": "Yes"
+                    "Question": "Are you worried about feeling dizzy?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are at a party and start to dance with your friends. You start to feel dizzy as the beat gets faster. You think that this feeling is a sign of"
+                    ]
                 },
                 {
                     "Number": 39,
@@ -1235,17 +1186,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
-                    ],
-                    "Caption": "Cold day jog",
+                    "Caption": "Heaviness in chest",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "scary"
+                        "tired"
                     ],
-                    "Question": "Is your rapid heartbeat scary?",
-                    "Answer": "Yes"
+                    "Question": "Are you worried about the heaviness in your chest as you fall asleep?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are lying in your bed and about to go to sleep. You start to feel a heaviness in your chest as you try to sleep. You think about this pressure and feel"
+                    ]
                 },
                 {
                     "Number": 40,
@@ -1256,17 +1207,26 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are at a party and start to dance with your friends. You start to feel dizzy as the beat gets faster. You think that this feeling is a sign of"
-                    ],
-                    "Caption": "Party with music",
+                    "Caption": "Meeting with teacher",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "excitement"
+                        "normal"
                     ],
-                    "Question": "Are you worried about feeling dizzy?",
-                    "Answer": "No"
+                    "Question": "Is it scary that your mind went blank right before your meeting?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are walking to an important meeting with your teacher. Suddenly your mind goes blank as you reach for the doorknob to her office. You think about your mind going blank and think that this is"
+                    ]
+                },
+                {
+                    "Number": 40.5,
+                    "Name": "Scenario41",
+                    "Title": "Scenario 41",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
                 },
                 {
                     "Number": 41,
@@ -1277,17 +1237,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are lying in your bed and about to go to sleep. You start to feel a heaviness in your chest as you try to sleep. You think about this pressure and feel"
-                    ],
-                    "Caption": "Heaviness in chest",
+                    "Caption": "Test grade",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "tired"
+                        "test",
+                        "pass"
                     ],
-                    "Question": "Are you worried about the heaviness in your chest as you fall asleep?",
-                    "Answer": "No"
+                    "Question": "Will you fail the class?",
+                    "Answer": "No",
+                    "Description": [
+                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
+                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
+                    ]
                 },
                 {
                     "Number": 42,
@@ -1298,17 +1260,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are walking to an important meeting with your teacher. Suddenly your mind goes blank as you reach for the doorknob to her office. You think about your mind going blank and think that this is"
-                    ],
-                    "Caption": "Meeting with teacher",
+                    "Caption": "Online class",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "normal"
+                        "okay"
                     ],
-                    "Question": "Is it scary that your mind went blank right before your meeting?",
-                    "Answer": "No"
+                    "Question": "Is it bad that you feel different from everyone else?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
+                    ]
                 },
                 {
                     "Number": 43,
@@ -1318,9 +1280,17 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
+                    "Caption": "Tooth ache",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "calm"
+                    ],
+                    "Question": "Can you handle going to the dentist?",
+                    "Answer": "Yes",
                     "Description": [
-                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ]
                 },
                 {
@@ -1332,19 +1302,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
-                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
-                    ],
-                    "Caption": "Test grade",
+                    "Caption": "Your friend has a new friend",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "test",
-                        "pass"
+                        "worried"
                     ],
-                    "Question": "Will you fail the class?",
-                    "Answer": "No"
+                    "Question": "Are you are upset that your friends were together without you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
+                    ]
                 },
                 {
                     "Number": 45,
@@ -1355,18 +1323,24 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
-                    ],
-                    "Caption": "Online class",
+                    "Caption": "Talking about the future",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "okay"
+                        "encouraging"
                     ],
-                    "Question": "Is it bad that you feel different from everyone else?",
-                    "Answer": "No"
-                },
+                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
+                    "Answer": "No",
+                    "Description": [
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Social media",
+            "Title": "Social media",
+            "Scenarios": [
                 {
                     "Number": 46,
                     "Name": "Scenario46",
@@ -1376,17 +1350,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
-                    ],
-                    "Caption": "Tooth ache",
+                    "Caption": "Checking your feed",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "calm"
+                        "confident"
                     ],
-                    "Question": "Can you handle going to the dentist?",
-                    "Answer": "Yes"
+                    "Question": "Are you worried about what the other person thinks of your feed?",
+                    "Answer": "No",
+                    "Description": [
+                        "You meet a cute classmate in one of your classes. After school, they request to follow you on social media. Before you let them follow you, you look over your own feed and feel"
+                    ]
                 },
                 {
                     "Number": 47,
@@ -1397,17 +1371,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
-                    ],
-                    "Caption": "Your friend has a new friend",
+                    "Caption": "Invitations to hang with friends",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "worried"
+                        "forgot",
+                        "normal"
                     ],
-                    "Question": "Are you are upset that your friends were together without you?",
-                    "Answer": "Yes"
+                    "Question": "Did your friends exclude you on purpose?",
+                    "Answer": "No",
+                    "Description": [
+                        "You see from social media stories that a group of your friends are hanging out together. You weren't invited and it looks like they're having a great time. Your friends probably didn't invite you because they",
+                        "You are sad that you weren't invited to hang out with your friends. You realize being sad about the situation is"
+                    ]
                 },
                 {
                     "Number": 48,
@@ -1418,24 +1394,18 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
-                    ],
-                    "Caption": "Talking about the future",
+                    "Caption": "Not getting invited",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "encouraging"
+                        "initiate"
                     ],
-                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
-                    "Answer": "No"
-                }
-            ]
-        },
-        {
-            "Name": "Social media",
-            "Title": "Social media",
-            "Scenarios": [
+                    "Question": "Will you reach out to your friends to hang out next time?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "As you scroll through your social media, you see that your friends hung out without you last night. You didn't get an invite to hang out with them. You realize that sometimes your friends hang out without you and that next time you can"
+                    ]
+                },
                 {
                     "Number": 49,
                     "Name": "Scenario49",
@@ -1445,17 +1415,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You meet a cute classmate in one of your classes. After school, they request to follow you on social media. Before you let them follow you, you look over your own feed and feel"
-                    ],
-                    "Caption": "Checking your feed",
+                    "Caption": "Number of likes on your post",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "confident"
+                        "bad",
+                        "better"
                     ],
-                    "Question": "Are you worried about what the other person thinks of your feed?",
-                    "Answer": "No"
+                    "Question": "Do you feel worried about having enough likes?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
+                        "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
+                    ]
                 },
                 {
                     "Number": 50,
@@ -1466,19 +1438,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You see from social media stories that a group of your friends are hanging out together. You weren't invited and it looks like they're having a great time. Your friends probably didn't invite you because they",
-                        "You are sad that you weren't invited to hang out with your friends. You realize being sad about the situation is"
-                    ],
-                    "Caption": "Invitations to hang with friends",
+                    "Caption": "Your friends supporting your post",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "forgot",
-                        "normal"
+                        "better"
                     ],
-                    "Question": "Did your friends exclude you on purpose?",
-                    "Answer": "No"
+                    "Question": "Is it okay that your bestfriend hasn't liked your post yet?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You posted a new picture a few hours ago. You check to see who's liked it and notice that your best friend hasn't liked it yet. You think about how your best friend doesn't check their feed often and you feel"
+                    ]
                 },
                 {
                     "Number": 51,
@@ -1489,17 +1459,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "As you scroll through your social media, you see that your friends hung out without you last night. You didn't get an invite to hang out with them. You realize that sometimes your friends hang out without you and that next time you can"
-                    ],
-                    "Caption": "Not getting invited",
+                    "Caption": "Tagged pictures",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "initiate"
+                        "matter"
                     ],
-                    "Question": "Will you reach out to your friends to hang out next time?",
-                    "Answer": "Yes"
+                    "Question": "Are you worried about your appearence in the posted picture?",
+                    "Answer": "No",
+                    "Description": [
+                        "You and your friend took some pictures together. You look through your feed and see that they tagged you in a post and you really don't like how you look. But, you know that in the long run it won't"
+                    ]
                 },
                 {
                     "Number": 52,
@@ -1510,19 +1480,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
-                        "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
-                    ],
-                    "Caption": "Number of likes on your post",
+                    "Caption": "Somone comments something mean",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "bad",
-                        "better"
+                        "worried"
                     ],
-                    "Question": "Do you feel worried about having enough likes?",
-                    "Answer": "No"
+                    "Question": "Are you anxious about what the person thinks about you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You decide to create a post promoting something important to you. Someone leaves a mean comment because they misinterpreted what you wrote. You wonder what this person thinks about you, and feel"
+                    ]
                 },
                 {
                     "Number": 53,
@@ -1533,17 +1501,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You posted a new picture a few hours ago. You check to see who's liked it and notice that your best friend hasn't liked it yet. You think about how your best friend doesn't check their feed often and you feel"
-                    ],
-                    "Caption": "Your friends supporting your post",
+                    "Caption": "Embarassing comments",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "better"
+                        "close"
                     ],
-                    "Question": "Is it okay that your bestfriend hasn't liked your post yet?",
-                    "Answer": "Yes"
+                    "Question": "Do others judge you for your friend's comment on your post?",
+                    "Answer": "No",
+                    "Description": [
+                        "You post a short video. Your best friend comments something really embarassing. Your followers will think that you and your friend are"
+                    ]
                 },
                 {
                     "Number": 54,
@@ -1554,17 +1522,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You and your friend took some pictures together. You look through your feed and see that they tagged you in a post and you really don't like how you look. But, you know that in the long run it won't"
-                    ],
-                    "Caption": "Tagged pictures",
+                    "Caption": "Posting multiple times",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "matter"
+                        "notice"
                     ],
-                    "Question": "Are you worried about your appearence in the posted picture?",
-                    "Answer": "No"
+                    "Question": "Do your followers think it's strange that you posted two days in a row?",
+                    "Answer": "No",
+                    "Description": [
+                        "You take a picture of your friend that is really great. You are about to post it but remember that you just posted yesterday. If you post again, you think people won't"
+                    ]
                 },
                 {
                     "Number": 55,
@@ -1575,17 +1543,26 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You decide to create a post promoting something important to you. Someone leaves a mean comment because they misinterpreted what you wrote. You wonder what this person thinks about you, and feel"
-                    ],
-                    "Caption": "Somone comments something mean",
+                    "Caption": "Your likes on your post",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "worried"
+                        "busy"
                     ],
-                    "Question": "Are you anxious about what the person thinks about you?",
-                    "Answer": "Yes"
+                    "Question": "Are people not reacting to your post because they think you look bad?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because they are"
+                    ]
+                },
+                {
+                    "Number": 55.5,
+                    "Name": "Scenario56",
+                    "Title": "Scenario 56",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
                 },
                 {
                     "Number": 56,
@@ -1596,17 +1573,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You post a short video. Your best friend comments something really embarassing. Your followers will think that you and your friend are"
-                    ],
-                    "Caption": "Embarassing comments",
+                    "Caption": "Test grade",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "close"
+                        "test",
+                        "pass"
                     ],
-                    "Question": "Do others judge you for your friend's comment on your post?",
-                    "Answer": "No"
+                    "Question": "Will you fail the class?",
+                    "Answer": "No",
+                    "Description": [
+                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
+                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
+                    ]
                 },
                 {
                     "Number": 57,
@@ -1617,17 +1596,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You take a picture of your friend that is really great. You are about to post it but remember that you just posted yesterday. If you post again, you think people won't"
-                    ],
-                    "Caption": "Posting multiple times",
+                    "Caption": "Online class",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "notice"
+                        "okay"
                     ],
-                    "Question": "Do your followers think it's strange that you posted two days in a row?",
-                    "Answer": "No"
+                    "Question": "Is it bad that you feel different from everyone else?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
+                    ]
                 },
                 {
                     "Number": 58,
@@ -1638,17 +1617,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because they are"
-                    ],
-                    "Caption": "Your likes on your post",
+                    "Caption": "Tooth ache",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "busy"
+                        "calm"
                     ],
-                    "Question": "Are people not reacting to your post because they think you look bad?",
-                    "Answer": "No"
+                    "Question": "Can you handle going to the dentist?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                    ]
                 },
                 {
                     "Number": 59,
@@ -1658,9 +1637,17 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
+                    "Caption": "Your friend has a new friend",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "worried"
+                    ],
+                    "Question": "Are you are upset that your friends were together without you?",
+                    "Answer": "Yes",
                     "Description": [
-                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
                     ]
                 },
                 {
@@ -1672,20 +1659,24 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
-                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
-                    ],
-                    "Caption": "Test grade",
+                    "Caption": "Talking about the future",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "test",
-                        "pass"
+                        "encouraging"
                     ],
-                    "Question": "Will you fail the class?",
-                    "Answer": "No"
-                },
+                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
+                    "Answer": "No",
+                    "Description": [
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Home life",
+            "Title": "Home life",
+            "Scenarios": [
                 {
                     "Number": 61,
                     "Name": "Scenario61",
@@ -1695,17 +1686,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
-                    ],
-                    "Caption": "Online class",
+                    "Caption": "Your friend's house",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "okay"
+                        "calm"
                     ],
-                    "Question": "Is it bad that you feel different from everyone else?",
-                    "Answer": "No"
+                    "Question": "Are you able to stay calm even though you don't know what to say?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "Your family doesn't do sit-down dinners together. When you're at your friend's house, her parents sit down at the table with you and start to ask questions about your day. You're not sure how to respond, but after you say something, you feel"
+                    ]
                 },
                 {
                     "Number": 62,
@@ -1716,17 +1707,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
-                    ],
-                    "Caption": "Tooth ache",
+                    "Caption": "Internet access at home",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "calm"
+                        "stressed"
                     ],
-                    "Question": "Can you handle going to the dentist?",
-                    "Answer": "Yes"
+                    "Question": "Are you worried about doing the assignment?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You don't have internet access at home. You found out that you're required to do a big research project online by next week. As you wonder how you'll be able to complete the assignment, you feel"
+                    ]
                 },
                 {
                     "Number": 63,
@@ -1737,17 +1728,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
-                    ],
-                    "Caption": "Your friend has a new friend",
+                    "Caption": "Loud music",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "worried"
+                        "nervous",
+                        "apologize"
                     ],
-                    "Question": "Are you are upset that your friends were together without you?",
-                    "Answer": "Yes"
+                    "Question": "Was your sibling upset when you asked them to turn down the music?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your sibling is currently playing music really loudly and you need to study. You don't want your sibling to think you're a nerd if you ask them to turn down the music so that you can study. You knock on their door and feel",
+                        "You take a deep breath and your sibling answers. You ask them to turn down the music and they"
+                    ]
                 },
                 {
                     "Number": 64,
@@ -1758,24 +1751,18 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
-                    ],
-                    "Caption": "Talking about the future",
+                    "Caption": "Working on Homework ",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "encouraging"
+                        "fault"
                     ],
-                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
-                    "Answer": "No"
-                }
-            ]
-        },
-        {
-            "Name": "Home life",
-            "Title": "Home life",
-            "Scenarios": [
+                    "Question": "Is it your fault that your parents are fighting?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're in your room working on homework when you hear your parents arguing downstairs. Their voices start to rise and you hear them say your name. You don't like to hear yelling, and also realize that it is not your"
+                    ]
+                },
                 {
                     "Number": 65,
                     "Name": "Scenario65",
@@ -1785,17 +1772,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your family doesn't do sit-down dinners together. When you're at your friend's house, her parents sit down at the table with you and start to ask questions about your day. You're not sure how to respond, but after you say something, you feel"
-                    ],
-                    "Caption": "Your friend's house",
+                    "Caption": "Talking about parents",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "calm"
+                        "confident"
                     ],
-                    "Question": "Are you able to stay calm even though you don't know what to say?",
-                    "Answer": "Yes"
+                    "Question": "Are you able to talk about your divorced parents?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You are at your friend's house for dinner and their parents ask you about your parents. You're not sure how to answer because your parents are divorced, and you haven't seen your mother for a long time. You think about what you'll say, and feel"
+                    ]
                 },
                 {
                     "Number": 66,
@@ -1806,17 +1793,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You don't have internet access at home. You found out that you're required to do a big research project online by next week. As you wonder how you'll be able to complete the assignment, you feel"
-                    ],
-                    "Caption": "Internet access at home",
+                    "Caption": "Meeting someone new",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "stressed"
+                        "tolerable"
                     ],
-                    "Question": "Are you worried about doing the assignment?",
-                    "Answer": "Yes"
+                    "Question": "Are you able to tolerate your anxiety?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You've never met your caregiver's new partner. They have just told you they are inviting them over for dinner tonight. When you think about meeting this new person, your anxiety is"
+                    ]
                 },
                 {
                     "Number": 67,
@@ -1827,19 +1814,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your sibling is currently playing music really loudly and you need to study. You don't want your sibling to think you're a nerd if you ask them to turn down the music so that you can study. You knock on their door and feel",
-                        "You take a deep breath and your sibling answers. You ask them to turn down the music and they"
-                    ],
-                    "Caption": "Loud music",
+                    "Caption": "Lots of chores",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "nervous",
-                        "apologize"
+                        "stressful",
+                        "confident"
                     ],
-                    "Question": "Was your sibling upset when you asked them to turn down the music?",
-                    "Answer": "No"
+                    "Question": "Are you overwhelmed by what you need to accomplish?",
+                    "Answer": "No",
+                    "Description": [
+                        "At home there are a lot of chores that your parents said you have to finish today. You have a big project to work on that will take a lot of time. Balancing your home life and school life is",
+                        "You look for a good artist to listen to while you do your chores. As you start to tackle your to-do list, you feel"
+                    ]
                 },
                 {
                     "Number": 68,
@@ -1850,17 +1837,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're in your room working on homework when you hear your parents arguing downstairs. Their voices start to rise and you hear them say your name. You don't like to hear yelling, and also realize that it is not your"
-                    ],
-                    "Caption": "Working on Homework ",
+                    "Caption": "Upset parents ",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "fault"
+                        "you"
                     ],
-                    "Question": "Is it your fault that your parents are fighting?",
-                    "Answer": "No"
+                    "Question": "Are they upset with you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
+                    ]
                 },
                 {
                     "Number": 69,
@@ -1871,17 +1858,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are at your friend's house for dinner and their parents ask you about your parents. You're not sure how to answer because your parents are divorced, and you haven't seen your mother for a long time. You think about what you'll say, and feel"
-                    ],
-                    "Caption": "Talking about parents",
+                    "Caption": "Birthday present ",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "confident"
+                        "thankful"
                     ],
-                    "Question": "Are you able to talk about your divorced parents?",
-                    "Answer": "Yes"
+                    "Question": "Is your friend sad you did not bring a present?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your friend is having a huge birthday party with all of your friends attending. You know you can't afford a gift for your friend. You show up with a homemade card, your friend is"
+                    ]
                 },
                 {
                     "Number": 70,
@@ -1892,17 +1879,26 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You've never met your caregiver's new partner. They have just told you they are inviting them over for dinner tonight. When you think about meeting this new person, your anxiety is"
-                    ],
-                    "Caption": "Meeting someone new",
+                    "Caption": "Loud guardian ",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "tolerable"
+                        "fine"
                     ],
-                    "Question": "Are you able to tolerate your anxiety?",
-                    "Answer": "Yes"
+                    "Question": "Are you able to tolerate your guardian embarrassing you while being dropped off?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "Your guardian is dropping you off at your sports practice. As they drop you off, they are really loud and make you feel embarrassed. As you get out of the car, you feel"
+                    ]
+                },
+                {
+                    "Number": 70.5,
+                    "Name": "Scenario71",
+                    "Title": "Scenario 71",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
                 },
                 {
                     "Number": 71,
@@ -1913,19 +1909,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "At home there are a lot of chores that your parents said you have to finish today. You have a big project to work on that will take a lot of time. Balancing your home life and school life is",
-                        "You look for a good artist to listen to while you do your chores. As you start to tackle your to-do list, you feel"
-                    ],
-                    "Caption": "Lots of chores",
+                    "Caption": "Test grade",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "stressful",
-                        "confident"
+                        "test",
+                        "pass"
                     ],
-                    "Question": "Are you overwhelmed by what you need to accomplish?",
-                    "Answer": "No"
+                    "Question": "Will you fail the class?",
+                    "Answer": "No",
+                    "Description": [
+                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
+                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
+                    ]
                 },
                 {
                     "Number": 72,
@@ -1936,17 +1932,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
-                    ],
-                    "Caption": "Upset parents ",
+                    "Caption": "Online class",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "you"
+                        "okay"
                     ],
-                    "Question": "Are they upset with you?",
-                    "Answer": "No"
+                    "Question": "Is it bad that you feel different from everyone else?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
+                    ]
                 },
                 {
                     "Number": 73,
@@ -1957,17 +1953,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your friend is having a huge birthday party with all of your friends attending. You know you can't afford a gift for your friend. You show up with a homemade card, your friend is"
-                    ],
-                    "Caption": "Birthday present ",
+                    "Caption": "Tooth ache",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "thankful"
+                        "calm"
                     ],
-                    "Question": "Is your friend sad you did not bring a present?",
-                    "Answer": "No"
+                    "Question": "Can you handle going to the dentist?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                    ]
                 },
                 {
                     "Number": 74,
@@ -1978,17 +1974,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your guardian is dropping you off at your sports practice. As they drop you off, they are really loud and make you feel embarrassed. As you get out of the car, you feel"
-                    ],
-                    "Caption": "Loud guardian ",
+                    "Caption": "Your friend has a new friend",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "fine"
+                        "worried"
                     ],
-                    "Question": "Are you able to tolerate your guardian embarrassing you while being dropped off?",
-                    "Answer": "Yes"
+                    "Question": "Are you are upset that your friends were together without you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
+                    ]
                 },
                 {
                     "Number": 75,
@@ -1998,11 +1994,25 @@
                     "ImageType": "image/jpeg",
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
-                    "Type": "Single",
+                    "Type": "Scenario",
+                    "Caption": "Talking about the future",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "encouraging"
+                    ],
+                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
+                    "Answer": "No",
                     "Description": [
-                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
                     ]
-                },
+                }
+            ]
+        },
+        {
+            "Name": "General",
+            "Title": "General",
+            "Scenarios": [
                 {
                     "Number": 76,
                     "Name": "Scenario76",
@@ -2012,19 +2022,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
-                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
-                    ],
-                    "Caption": "Test grade",
+                    "Caption": "A loud sound",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "test",
-                        "pass"
+                        "squirrel"
                     ],
-                    "Question": "Will you fail the class?",
-                    "Answer": "No"
+                    "Question": "Should you be frightened when you hear a noise at night?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are at home alone watching TV at night. You must have been dozing, because you suddenly wake up after hearing a loud noise. You look outside and see a"
+                    ]
                 },
                 {
                     "Number": 77,
@@ -2035,17 +2043,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
-                    ],
-                    "Caption": "Online class",
+                    "Caption": "Going to school",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "okay"
+                        "relaxed"
                     ],
-                    "Question": "Is it bad that you feel different from everyone else?",
-                    "Answer": "No"
+                    "Question": "Are you very worried thinking about the front door?",
+                    "Answer": "No",
+                    "Description": [
+                        "You leave your house and get on the bus to go to school. About 10 minutes into the ride, you wonder whether you remembered to lock the door on your way out. As you get closer to school, you feel"
+                    ]
                 },
                 {
                     "Number": 78,
@@ -2056,17 +2064,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
-                    ],
-                    "Caption": "Tooth ache",
+                    "Caption": "Sleepover",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "calm"
+                        "scared",
+                        "calmer"
                     ],
-                    "Question": "Can you handle going to the dentist?",
-                    "Answer": "Yes"
+                    "Question": "Will the sleepover be miserable?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are afraid of the dark and usually sleep with a light on in your bedroom. This weekend, you are going to stay at a friend's house and you know there won't be a nightlight. As you think about the upcoming sleepover, you feel",
+                        "You think about the sleepover a little more and realize that you will probably be having too much fun to be scared. You feel"
+                    ]
                 },
                 {
                     "Number": 79,
@@ -2077,17 +2087,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
-                    ],
-                    "Caption": "Your friend has a new friend",
+                    "Caption": "Thoughts at the train station",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "worried"
+                        "fascinated"
                     ],
-                    "Question": "Are you are upset that your friends were together without you?",
-                    "Answer": "Yes"
+                    "Question": "Are you calm as you look at the rails below?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You are at a metro stop waiting for a train. Standing by the edge, you realize you've never thought about how far a drop it is to the rails below. You are"
+                    ]
                 },
                 {
                     "Number": 80,
@@ -2098,24 +2108,18 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
-                    ],
-                    "Caption": "Talking about the future",
+                    "Caption": "Aging grandmother",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "encouraging"
+                        "good"
                     ],
-                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
-                    "Answer": "No"
-                }
-            ]
-        },
-        {
-            "Name": "General",
-            "Title": "General",
-            "Scenarios": [
+                    "Question": "Is your grandmother's health going to quickly decline?",
+                    "Answer": "No",
+                    "Description": [
+                        "You go home to your grandparents' home for the holidays and notice that your grandmother looks frail. You find yourself wondering about her health and whether she's sick. You think her health will probably be"
+                    ]
+                },
                 {
                     "Number": 81,
                     "Name": "Scenario81",
@@ -2125,17 +2129,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are at home alone watching TV at night. You must have been dozing, because you suddenly wake up after hearing a loud noise. You look outside and see a"
-                    ],
-                    "Caption": "A loud sound",
+                    "Caption": "The audition",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "squirrel"
+                        "poorly"
                     ],
-                    "Question": "Should you be frightened when you hear a noise at night?",
-                    "Answer": "No"
+                    "Question": "Do you feel good about the audition?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are auditioning for a play. You say most of your lines correctly but mess up on one or two.\u00a0You think the audition went"
+                    ]
                 },
                 {
                     "Number": 82,
@@ -2146,17 +2150,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You leave your house and get on the bus to go to school. About 10 minutes into the ride, you wonder whether you remembered to lock the door on your way out. As you get closer to school, you feel"
-                    ],
-                    "Caption": "Going to school",
+                    "Caption": "First time ice skating",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "relaxed"
+                        "minimal"
                     ],
-                    "Question": "Are you very worried thinking about the front door?",
-                    "Answer": "No"
+                    "Question": "Are you excited to try ice skating?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "Your friend enjoys ice skating and convinces you to try it out. At the rink you put on the skates and step on the ice. You glide forward slowly at first, then faster, and think your chances of getting injured are"
+                    ]
                 },
                 {
                     "Number": 83,
@@ -2167,19 +2171,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are afraid of the dark and usually sleep with a light on in your bedroom. This weekend, you are going to stay at a friend's house and you know there won't be a nightlight. As you think about the upcoming sleepover, you feel",
-                        "You think about the sleepover a little more and realize that you will probably be having too much fun to be scared. You feel"
-                    ],
-                    "Caption": "Sleepover",
+                    "Caption": "Exploring a narrow cave",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "scared",
-                        "calmer"
+                        "large",
+                        "safe"
                     ],
-                    "Question": "Will the sleepover be miserable?",
-                    "Answer": "No"
+                    "Question": "Are you probably going to be safe in the cave?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You and your friends have decided to go on a tour of a cave, even though you feel nervous about being in such an enclosed space. You walk deeper and deeper into the cool cave. You think the chances you will get trapped are",
+                        "You look around and see lots of similing faces. You decide that you are probably"
+                    ]
                 },
                 {
                     "Number": 84,
@@ -2190,17 +2194,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are at a metro stop waiting for a train. Standing by the edge, you realize you've never thought about how far a drop it is to the rails below. You are"
-                    ],
-                    "Caption": "Thoughts at the train station",
+                    "Caption": "Bouncing on a trampoline",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "fascinated"
+                        "safe"
                     ],
-                    "Question": "Are you calm as you look at the rails below?",
-                    "Answer": "Yes"
+                    "Question": "Do you feel ok while bouncing on the trampoline?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You're bouncing on your friend's trampoline. You have fun with your friends but also think about whether you'll get hurt. While bouncing up and down on the trampoline, you feel"
+                    ]
                 },
                 {
                     "Number": 85,
@@ -2211,17 +2215,26 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You go home to your grandparents' home for the holidays and notice that your grandmother looks frail. You find yourself wondering about her health and whether she's sick. You think her health will probably be"
-                    ],
-                    "Caption": "Aging grandmother",
+                    "Caption": "Calling your grandmother",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "good"
+                        "busy"
                     ],
-                    "Question": "Is your grandmother's health going to quickly decline?",
-                    "Answer": "No"
+                    "Question": "Is your grandmother unable to talk because she is ill?",
+                    "Answer": "No",
+                    "Description": [
+                        "Every Monday you call your grandmother to say hello. Today is Monday, and she did not pick up the phone when you called, which is unusual. Your grandmother probably did not answer the phone because she is"
+                    ]
+                },
+                {
+                    "Number": 85.5,
+                    "Name": "Scenario86",
+                    "Title": "Scenario 86",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
                 },
                 {
                     "Number": 86,
@@ -2232,17 +2245,19 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You are auditioning for a play. You say most of your lines correctly but mess up on one or two.\u00a0You think the audition went"
-                    ],
-                    "Caption": "The audition",
+                    "Caption": "Test grade",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "poorly"
+                        "test",
+                        "pass"
                     ],
-                    "Question": "Do you feel good about the audition?",
-                    "Answer": "No"
+                    "Question": "Will you fail the class?",
+                    "Answer": "No",
+                    "Description": [
+                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
+                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
+                    ]
                 },
                 {
                     "Number": 87,
@@ -2253,17 +2268,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Your friend enjoys ice skating and convinces you to try it out. At the rink you put on the skates and step on the ice. You glide forward slowly at first, then faster, and think your chances of getting injured are"
-                    ],
-                    "Caption": "First time ice skating",
+                    "Caption": "Online class",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "minimal"
+                        "okay"
                     ],
-                    "Question": "Are you excited to try ice skating?",
-                    "Answer": "Yes"
+                    "Question": "Is it bad that you feel different from everyone else?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
+                    ]
                 },
                 {
                     "Number": 88,
@@ -2274,19 +2289,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You and your friends have decided to go on a tour of a cave, even though you feel nervous about being in such an enclosed space. You walk deeper and deeper into the cool cave. You think the chances you will get trapped are",
-                        "You look around and see lots of similing faces. You decide that you are probably"
-                    ],
-                    "Caption": "Exploring a narrow cave",
+                    "Caption": "Tooth ache",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "large",
-                        "safe"
+                        "calm"
                     ],
-                    "Question": "Are you probably going to be safe in the cave?",
-                    "Answer": "Yes"
+                    "Question": "Can you handle going to the dentist?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                    ]
                 },
                 {
                     "Number": 89,
@@ -2297,17 +2310,17 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "You're bouncing on your friend's trampoline. You have fun with your friends but also think about whether you'll get hurt. While bouncing up and down on the trampoline, you feel"
-                    ],
-                    "Caption": "Bouncing on a trampoline",
+                    "Caption": "Your friend has a new friend",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "safe"
+                        "worried"
                     ],
-                    "Question": "Do you feel ok while bouncing on the trampoline?",
-                    "Answer": "Yes"
+                    "Question": "Are you are upset that your friends were together without you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
+                    ]
                 },
                 {
                     "Number": 90,
@@ -2318,129 +2331,6 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Description": [
-                        "Every Monday you call your grandmother to say hello. Today is Monday, and she did not pick up the phone when you called, which is unusual. Your grandmother probably did not answer the phone because she is"
-                    ],
-                    "Caption": "Calling your grandmother",
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-                    "Words": [
-                        "busy"
-                    ],
-                    "Question": "Is your grandmother unable to talk because she is ill?",
-                    "Answer": "No"
-                },
-                {
-                    "Number": 91,
-                    "Name": "Scenario91",
-                    "Title": "Scenario 91",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_short/pic90.jpeg",
-                    "ImageType": "image/jpeg",
-                    "ImageEmbedded": "true",
-                    "ImageFromUrl": "true",
-                    "Type": "Single",
-                    "Description": [
-                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
-                    ]
-                },
-                {
-                    "Number": 92,
-                    "Name": "Scenario92",
-                    "Title": "Scenario 92",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_short/pic91.jpeg",
-                    "ImageType": "image/jpeg",
-                    "ImageEmbedded": "true",
-                    "ImageFromUrl": "true",
-                    "Type": "Scenario",
-                    "Description": [
-                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
-                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
-                    ],
-                    "Caption": "Test grade",
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-                    "Words": [
-                        "test",
-                        "pass"
-                    ],
-                    "Question": "Will you fail the class?",
-                    "Answer": "No"
-                },
-                {
-                    "Number": 93,
-                    "Name": "Scenario93",
-                    "Title": "Scenario 93",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_short/pic92.jpeg",
-                    "ImageType": "image/jpeg",
-                    "ImageEmbedded": "true",
-                    "ImageFromUrl": "true",
-                    "Type": "Scenario",
-                    "Description": [
-                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
-                    ],
-                    "Caption": "Online class",
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-                    "Words": [
-                        "okay"
-                    ],
-                    "Question": "Is it bad that you feel different from everyone else?",
-                    "Answer": "No"
-                },
-                {
-                    "Number": 94,
-                    "Name": "Scenario94",
-                    "Title": "Scenario 94",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_short/pic93.jpeg",
-                    "ImageType": "image/jpeg",
-                    "ImageEmbedded": "true",
-                    "ImageFromUrl": "true",
-                    "Type": "Scenario",
-                    "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
-                    ],
-                    "Caption": "Tooth ache",
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-                    "Words": [
-                        "calm"
-                    ],
-                    "Question": "Can you handle going to the dentist?",
-                    "Answer": "Yes"
-                },
-                {
-                    "Number": 95,
-                    "Name": "Scenario95",
-                    "Title": "Scenario 95",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_short/pic94.jpeg",
-                    "ImageType": "image/jpeg",
-                    "ImageEmbedded": "true",
-                    "ImageFromUrl": "true",
-                    "Type": "Scenario",
-                    "Description": [
-                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
-                    ],
-                    "Caption": "Your friend has a new friend",
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
-                    "Words": [
-                        "worried"
-                    ],
-                    "Question": "Are you are upset that your friends were together without you?",
-                    "Answer": "Yes"
-                },
-                {
-                    "Number": 96,
-                    "Name": "Scenario96",
-                    "Title": "Scenario 96",
-                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session1_short/pic95.jpeg",
-                    "ImageType": "image/jpeg",
-                    "ImageEmbedded": "true",
-                    "ImageFromUrl": "true",
-                    "Type": "Scenario",
-                    "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
-                    ],
                     "Caption": "Talking about the future",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
@@ -2448,7 +2338,10 @@
                         "encouraging"
                     ],
                     "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
-                    "Answer": "No"
+                    "Answer": "No",
+                    "Description": [
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                    ]
                 }
             ]
         }
