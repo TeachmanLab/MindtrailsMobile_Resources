@@ -60,8 +60,8 @@
                     "Minimum": 0,
                     "Maximum": 10,
                     "OtherChoices": [
-                        "I didn't want/need to change how I was feeling",
-                        " I'm not sure, or I wasn't paying attention to my feeling.",
+                        "I didn't want/need to change my feelings",
+                        " I'm not sure",
                         "Prefer not to answer."
                     ]
                 }
@@ -81,7 +81,7 @@
                     "Minimum": 0,
                     "Maximum": 10,
                     "OtherChoices": [
-                        "I pushed myself to do it anyway or I didn't have anything that would make me anxious or scared in the last 24 hours.",
+                        "Nothing happened that made me anxious",
                         "Prefer not to answer."
                     ]
                 }
@@ -324,15 +324,6 @@
                 }
             },
             "Number": -20
-        },
-        {
-            "Name": "Wrapping Up",
-            "Title": "Wrapping Up",
-            "Description": [
-                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
-            ],
-            "Type": "Single",
-            "Number": -21
         }
     ],
     "Domains": [
@@ -353,7 +344,7 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "enthusiastic"
+                        "enthusiatic"
                     ],
                     "Question": "Do you expect to feel uncomfortable if others look at your work?",
                     "Answer": "No",
