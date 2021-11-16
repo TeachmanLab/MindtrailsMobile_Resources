@@ -9,7 +9,7 @@
             "Name": "Welcome Back!",
             "Title": "Welcome Back!",
             "Description": [
-                "Welcome back to MindTrails! Let's get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. Let's get started! As a reminder, this is your last training session! Great job making it this far."
+                "Welcome back to MindTrails! Let's get started with practicing flexible thinking. \n\nToday, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. \n\nLet's get started! As a reminder, this is your last training session! Great job making it this far."
             ],
             "Type": "Single",
             "Number": 0
@@ -18,7 +18,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n10 = Most anxious, panicked, or scared I could imagine being."
+                "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being."
             ],
             "Type": "Single",
             "Input": {
@@ -37,7 +37,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. (An example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried?) \n\n0 = Not at all -- I wasn't able to think in different ways to feel better. \n10 = Completely-- I was totally able to think in different ways to feel better. "
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried? \n\n0 = Not at all -- I wasn't able to think in different ways to feel better. \n\n10 = Completely -- I was totally able to think in different ways to feel better. "
             ],
             "Type": "Single",
             "Input": {
@@ -46,7 +46,7 @@
                     "Minimum": 0,
                     "Maximum": 10,
                     "OtherChoices": [
-                        "I didn't want/need to change my feelings",
+                        "I didn't want\\need to change my feelings",
                         " I'm not sure",
                         "Prefer not to answer."
                     ]
@@ -58,7 +58,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? (An example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself?) \n\n0 = I tried to stay away from doing anything and everything that would make me anxious or scared. \n10 = If there was something that would make me anxious or scared. "
+                "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? \n\nAn example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself? \n\n0 = I tried to stay away from doing anything and everything that would make me anxious or scared. \n\n10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway."
             ],
             "Type": "Single",
             "Input": {
@@ -123,7 +123,7 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  \n\n0 = Absolutely no anxiety. \n10 = Totally anxious."
+                "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  \n\n0 = Absolutely no anxiety. \n\n10 = Totally anxious."
             ],
             "Type": "Single",
             "Input": {
@@ -208,7 +208,7 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. As you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? After you come up with your situation, please press NEXT. Examples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
+                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. \n\nAs you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel?  \n\nAfter you come up with your situation, please press NEXT.  \n\nExamples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
             ],
             "Type": "Single",
             "Number": -12
