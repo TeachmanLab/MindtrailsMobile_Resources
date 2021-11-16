@@ -1,0 +1,2308 @@
+{
+    "Number": 3,
+    "Name": "Session3_short",
+    "Title": "Week 3: Part 1",
+    "TimeToComplete": "00:10:00",
+    "ImageHeight": 200,
+    "Description": "Welcome! The domains listed here are some areas that may cause teens to feel anxious. Please select the one that you'd like to work on during today's training.",
+    "BeforeDomain": [
+        {
+            "Name": "Welcome Back!",
+            "Title": "Welcome Back!",
+            "Description": [
+                "Welcome back to MindTrails! Let's get started with practicing flexible thinking. Today, you will: answer a few questions about your anxiety, practice 15 brief flexible thinking scenarios, and wrap-up with an exercise using your own anxiety-provoking situation Let's get started!"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": 0
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": -1
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried? \n\n0 = Not at all -- I wasn't able to think in different ways to feel better. \n\n10 = Completely -- I was totally able to think in different ways to feel better. "
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "I didn't want\\need to change my feelings",
+                        " I'm not sure",
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": -2
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? \n\nAn example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself? \n\n0 = I tried to stay away from doing anything and everything that would make me anxious or scared. \n\n10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "Nothing happened that made me anxious",
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": -3
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
+            ],
+            "Type": "Single",
+            "Number": -4
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please describe the situation in a few words:"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
+            "Number": -5
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there."
+            ],
+            "Type": "Single",
+            "Number": -6
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Play this situation in your head for the next 20 seconds."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 20
+                }
+            },
+            "Number": -7
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  \n\n0 = Absolutely no anxiety. \n\n10 = Totally anxious."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": -8
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How vividly did you imagine the situation?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
+                        "Not at all vivid",
+                        "Somewhat vivid",
+                        "Moderately vivid",
+                        "Very vivid",
+                        "Totally vivid",
+                        "Prefer not to answer"
+                    ]
+                }
+            },
+            "Number": -9
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How likely is it that the situation or task will turn out well versus turn out badly?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
+                        "Very likely to turn out well",
+                        "Somewhat likely to turn out well",
+                        "Neutral",
+                        "Somewhat likely to turn out badly",
+                        "Very likely to turn out badly",
+                        "Prefer not to answer"
+                    ]
+                }
+            },
+            "Number": -10
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "If this situation did turn out badly, how well or badly would you be able to handle it?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
+                        "Very well",
+                        "Somewhat well",
+                        "Neutral",
+                        "Somewhat badly",
+                        "Very badly",
+                        "Prefer not to answer"
+                    ]
+                }
+            },
+            "Number": -11
+        }
+    ],
+    "Domains": [
+        {
+            "Name": "Academics",
+            "Title": "Academics",
+            "Scenarios": [
+                {
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic0.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Paper due ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "capable"
+                    ],
+                    "Question": "Are you worried about turning in your paper on time?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a paper due in your history class next week. You haven't started it yet because you're unsure how to answer the prompt. When you think about the turning in the paper on time, you feel"
+                    ]
+                },
+                {
+                    "Number": 2,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic1.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Lots of homework",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "ready"
+                    ],
+                    "Question": "Are you going to complete your homework?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You have a lot of homework due tomorrow. You've been procrastinating getting it done because it is going to be hard. When you think doing your homework tonight, you are"
+                    ]
+                },
+                {
+                    "Number": 3,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic2.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Test grade",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "test",
+                        "pass"
+                    ],
+                    "Question": "Will you fail the class?",
+                    "Answer": "No",
+                    "Description": [
+                        "You studied hard for an important test. You see that you got a lower score than you expected. You think about whether you will be able to pull your grade up with the next test, and realize this was the last",
+                        "Right now you aren't happy, but you think about your overall course grade. You realize that you will"
+                    ]
+                },
+                {
+                    "Number": 4,
+                    "Name": "Scenario4",
+                    "Title": "Scenario 4",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic3.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "The science fair",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "excited"
+                    ],
+                    "Question": "Are you looking forward to participating in the science fair?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "The science fair is next week and you've been working hard on your project. You overheard your classmates joking that only \"nerds\" participate. You think about the fun you've had preparing your project, and feel"
+                    ]
+                },
+                {
+                    "Number": 5,
+                    "Name": "Scenario5",
+                    "Title": "Scenario 5",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic4.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Picture day",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "embarrassed"
+                    ],
+                    "Question": "Are others going to judge you when they see your picture in the yearbook?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "Today is picture day and you got a new haircut for it. It didn't turn out the way you wanted it to. When you think about others seeing your new haircut in the yearbook, you feel"
+                    ]
+                },
+                {
+                    "Number": 6,
+                    "Name": "Scenario6",
+                    "Title": "Scenario 6",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic5.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Raising your hand",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "confident"
+                    ],
+                    "Question": "Are you embarrassed that you raised your hand?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your teacher is talking about your favorite book in class and she asks if anyone has read it. In front of everyone you quickly raise your hand and the class turns to you. You realize that you feel"
+                    ]
+                },
+                {
+                    "Number": 7,
+                    "Name": "Scenario7",
+                    "Title": "Scenario 7",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic6.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Community college",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "right"
+                    ],
+                    "Question": "Are you satisfied with your decision to go to community college?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You've decided to go to community college after high school. You don't know anyone who is going to community college, and all of your friends are going to 4-year colleges. When you think about your decision, you feel like it's"
+                    ]
+                },
+                {
+                    "Number": 8,
+                    "Name": "Scenario8",
+                    "Title": "Scenario 8",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic7.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "The college recruiter",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "defeated",
+                        "remember"
+                    ],
+                    "Question": "Is it okay that you made a mistake in front of the college recruiter?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "A college recruiter is at your soccer game today. During the soccer game, you accidentally pass the ball to the other team. You feel",
+                        "While you feel upset, you realize that it's natural to make mistakes. You think that the college recruiter won't"
+                    ]
+                },
+                {
+                    "Number": 9,
+                    "Name": "Scenario9",
+                    "Title": "Scenario 9",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic8.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "The math problem",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "joke"
+                    ],
+                    "Question": "Are your classmates laughing at you?",
+                    "Answer": "No",
+                    "Description": [
+                        "The teacher calls you to the board to complete a math problem. As you are working on the problem you hear a loud burst of laughter behind you. Your classmates are laughing at a"
+                    ]
+                },
+                {
+                    "Number": 10,
+                    "Name": "Scenario10",
+                    "Title": "Scenario 10",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic9.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Report card ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "understanding"
+                    ],
+                    "Question": "Will your friends judge you for getting lower grades than them?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You got your report card today and you got a couple lower grades than you expected. Your friends are talking about their grades, and they said they got straight As. If you tell your friends your grades, they will be"
+                    ]
+                },
+                {
+                    "Number": 10.5,
+                    "Name": "Scenario11",
+                    "Title": "Scenario 11",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
+                },
+                {
+                    "Number": 11,
+                    "Name": "Scenario12",
+                    "Title": "Scenario 12",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic10.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Breakout rooms",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "ready"
+                    ],
+                    "Question": "Are the others in the class judging you?",
+                    "Answer": "No",
+                    "Description": [
+                        "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
+                    ]
+                },
+                {
+                    "Number": 12,
+                    "Name": "Scenario13",
+                    "Title": "Scenario 13",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic11.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Number of likes on your post",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "bad",
+                        "better"
+                    ],
+                    "Question": "Do you feel worried about having enough likes?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
+                        "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
+                    ]
+                },
+                {
+                    "Number": 13,
+                    "Name": "Scenario14",
+                    "Title": "Scenario 14",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic12.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Upset parents ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "you"
+                    ],
+                    "Question": "Are they upset with you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
+                    ]
+                },
+                {
+                    "Number": 14,
+                    "Name": "Scenario15",
+                    "Title": "Scenario 15",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic13.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Cold day jog",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "scary"
+                    ],
+                    "Question": "Is your rapid heartbeat scary?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
+                    ]
+                },
+                {
+                    "Number": 15,
+                    "Name": "Scenario16",
+                    "Title": "Scenario 16",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic14.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Noise outside",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "cat"
+                    ],
+                    "Question": "Was there something scary outside in the dark?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are babysitting a younger kid in your neighborhood and they just went to sleep. It's dark out and you suddenly hear noises outside. You peek out the window and see a"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Social situations",
+            "Title": "Social situations",
+            "Scenarios": [
+                {
+                    "Number": 16,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic15.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Spending time with friends",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "honest"
+                    ],
+                    "Question": "Are your friends judging you for not drinking?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your friends are talking about drinking and ask if you've drank before. You haven't. If you tell them the truth they will think that you are"
+                    ]
+                },
+                {
+                    "Number": 17,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic16.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Friends making plans",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "hurt",
+                        "better"
+                    ],
+                    "Question": "Was your friend trying to hurt your feelings by not inviting you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are hanging out with some friends. One of them invites another one to come over to their house on a different day without you. You think about it and realize you feel",
+                        "You remember that friends sometimes hang out separately. This makes you feel"
+                    ]
+                },
+                {
+                    "Number": 18,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic17.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Not invited",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "busy"
+                    ],
+                    "Question": "Were you not invited because you were busy?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "Your friend is having a get together tonight. You weren't invited, but most of your other friends were. When you think about it, you realize it's because you are"
+                    ]
+                },
+                {
+                    "Number": 19,
+                    "Name": "Scenario4",
+                    "Title": "Scenario 4",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic18.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Online class",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "okay"
+                    ],
+                    "Question": "Is it bad that you feel different from everyone else?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're in your online class and look at everyone's video. You notice that among the others, you look different from everyone else. You think about this and realize it is"
+                    ]
+                },
+                {
+                    "Number": 20,
+                    "Name": "Scenario5",
+                    "Title": "Scenario 5",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic19.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Unflattering picture",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "awful"
+                    ],
+                    "Question": "Does your friend think you look good?",
+                    "Answer": "No",
+                    "Description": [
+                        "You send an intentionally bad picture of yourself to your friend through social media. You get a notification that they took a screenshot. Your friend probably thinks that you look"
+                    ]
+                },
+                {
+                    "Number": 21,
+                    "Name": "Scenario6",
+                    "Title": "Scenario 6",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic20.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Pool party",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "nice"
+                    ],
+                    "Question": "Does the host of the party think you look bad?",
+                    "Answer": "No",
+                    "Description": [
+                        "You get invited to a pool party and you decide to wear a suit you got last year. You arrive and everyone else seems to have a swimsuit that is brand new. As you walk around, the host comes up to you and says you look"
+                    ]
+                },
+                {
+                    "Number": 22,
+                    "Name": "Scenario7",
+                    "Title": "Scenario 7",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic21.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Friends at the grocery store",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "embarrassed",
+                        "better"
+                    ],
+                    "Question": "Do you feel anxious after seeing your friends?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are working at the grocery store bagging groceries and notice two friends. They are buying drinks and snacks, and they say hi as they're checking out. You feel",
+                        "You realize that they might have jobs, too. This makes you feel"
+                    ]
+                },
+                {
+                    "Number": 23,
+                    "Name": "Scenario8",
+                    "Title": "Scenario 8",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic22.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Loud door",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "surprised"
+                    ],
+                    "Question": "Are your classmates annoyed that you disturbed them?",
+                    "Answer": "No",
+                    "Description": [
+                        "You walk into a quiet classroom a few minutes late. The door squeaks really loudly as you enter and classmates look in your direction. They are probably feeling"
+                    ]
+                },
+                {
+                    "Number": 24,
+                    "Name": "Scenario9",
+                    "Title": "Scenario 9",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic23.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Birthday party",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "excited"
+                    ],
+                    "Question": "Are you excited about having people there to celebrate your birthday?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "Your grandmother is organizing a birthday party for you at her home. She invited a lot of people who will all be there for you. When you think about all of the people coming, you feel"
+                    ]
+                },
+                {
+                    "Number": 25,
+                    "Name": "Scenario10",
+                    "Title": "Scenario 10",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic24.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "New friends",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "friendly"
+                    ],
+                    "Question": "Do the people in the new group think you're nice?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You're hanging out with a new group of people. You tell a funny joke that you think goes along with the topic of conversation, and no one laughs. The new friends will find you"
+                    ]
+                },
+                {
+                    "Number": 25.5,
+                    "Name": "Scenario11",
+                    "Title": "Scenario 11",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
+                },
+                {
+                    "Number": 26,
+                    "Name": "Scenario12",
+                    "Title": "Scenario 12",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic25.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Breakout rooms",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "ready"
+                    ],
+                    "Question": "Are the others in the class judging you?",
+                    "Answer": "No",
+                    "Description": [
+                        "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
+                    ]
+                },
+                {
+                    "Number": 27,
+                    "Name": "Scenario13",
+                    "Title": "Scenario 13",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic26.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Number of likes on your post",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "bad",
+                        "better"
+                    ],
+                    "Question": "Do you feel worried about having enough likes?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
+                        "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
+                    ]
+                },
+                {
+                    "Number": 28,
+                    "Name": "Scenario14",
+                    "Title": "Scenario 14",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic27.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Upset parents ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "you"
+                    ],
+                    "Question": "Are they upset with you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
+                    ]
+                },
+                {
+                    "Number": 29,
+                    "Name": "Scenario15",
+                    "Title": "Scenario 15",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic28.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Cold day jog",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "scary"
+                    ],
+                    "Question": "Is your rapid heartbeat scary?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
+                    ]
+                },
+                {
+                    "Number": 30,
+                    "Name": "Scenario16",
+                    "Title": "Scenario 16",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic29.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Noise outside",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "cat"
+                    ],
+                    "Question": "Was there something scary outside in the dark?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are babysitting a younger kid in your neighborhood and they just went to sleep. It's dark out and you suddenly hear noises outside. You peek out the window and see a"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Physical health",
+            "Title": "Physical health",
+            "Scenarios": [
+                {
+                    "Number": 31,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic30.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Tooth ache",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "calm"
+                    ],
+                    "Question": "Can you handle going to the dentist?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                    ]
+                },
+                {
+                    "Number": 32,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic31.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Mile run in gym ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "normal"
+                    ],
+                    "Question": "Is it bad that your heart is racing after the run?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're doing a mile run in gym class and you want to get a good time. You notice that your heart is racing more quickly than usual after you stop. You think that this is"
+                    ]
+                },
+                {
+                    "Number": 33,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic32.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Upcoming test",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "anxiety"
+                    ],
+                    "Question": "Is the stomach ache from anxiety?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You have been anxious about an upcoming test for class. The day of the test, you notice that your stomach is aching. You think that the stomach ache must be from"
+                    ]
+                },
+                {
+                    "Number": 34,
+                    "Name": "Scenario4",
+                    "Title": "Scenario 4",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic33.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Doctor's office tests",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "healthy"
+                    ],
+                    "Question": "Are you likely ill?",
+                    "Answer": "No",
+                    "Description": [
+                        "At your routine doctor's appointment, your doctor decides to run a few tests to evaluate your health. Your results will be ready within a week. While waiting for your results, you think you are likely"
+                    ]
+                },
+                {
+                    "Number": 35,
+                    "Name": "Scenario5",
+                    "Title": "Scenario 5",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic34.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Dry mouth ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "low"
+                    ],
+                    "Question": "Does your dry mouth signal that you are ill?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have experienced a dry mouth for a few days. This is something you haven't felt before. The likelihood that dry mouth means a serious health problem is"
+                    ]
+                },
+                {
+                    "Number": 36,
+                    "Name": "Scenario6",
+                    "Title": "Scenario 6",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic35.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Seeing old friend",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "excited"
+                    ],
+                    "Question": "Are you worried about your heart skipping a beat?",
+                    "Answer": "No",
+                    "Description": [
+                        "You see an old friend you haven't spoken to in years. Your heart skips a beat. You feel"
+                    ]
+                },
+                {
+                    "Number": 37,
+                    "Name": "Scenario7",
+                    "Title": "Scenario 7",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic36.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Tingling in the fingers",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "fine"
+                    ],
+                    "Question": "Does the tingling in your fingers mean that you are sick?",
+                    "Answer": "No",
+                    "Description": [
+                        "You're walking with some friends after lunch and suddenly feel tingling in your finger tips. This is something that you haven't really experienced before. This probably means that you are"
+                    ]
+                },
+                {
+                    "Number": 38,
+                    "Name": "Scenario8",
+                    "Title": "Scenario 8",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic37.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Presentation on research",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "noticed",
+                        "manageable"
+                    ],
+                    "Question": "Are you able to handle your anxiety during your presentation?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You are giving a presentation to your class about your research project. You feel that your hands are shaking a little. Wondering if it is obvious, you look around and see that a few classmates have",
+                        "You realize that your classmates are more interested in your presentation than your hands. You continue your presentation and as time passes you realize that your nerves are"
+                    ]
+                },
+                {
+                    "Number": 39,
+                    "Name": "Scenario9",
+                    "Title": "Scenario 9",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic38.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Jogging to a friend",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "quickly"
+                    ],
+                    "Question": "Are you scared by feeling slightly disoriented after your short jog?",
+                    "Answer": "No",
+                    "Description": [
+                        "You see your friends across the street and jog over to them. You feel a little disoriented and dizzy as you reach them. You consider what this means, and realize that it probably means that you ran"
+                    ]
+                },
+                {
+                    "Number": 40,
+                    "Name": "Scenario10",
+                    "Title": "Scenario 10",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic39.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Spinning in office chair",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "faint",
+                        "better"
+                    ],
+                    "Question": "Are you worried about fainting?",
+                    "Answer": "No",
+                    "Description": [
+                        "You decide to spin yourself really quickly on an office chair. You feel butterflies in your stomach and your head get dizzy as the chair slows down from spinning. These feelings probably mean that you are going to",
+                        "Instead of panicking, you decide to take a deep breathe. Slowly, your dizziness disapears and your stomach feels"
+                    ]
+                },
+                {
+                    "Number": 40.5,
+                    "Name": "Scenario11",
+                    "Title": "Scenario 11",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
+                },
+                {
+                    "Number": 41,
+                    "Name": "Scenario12",
+                    "Title": "Scenario 12",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic40.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Breakout rooms",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "ready"
+                    ],
+                    "Question": "Are the others in the class judging you?",
+                    "Answer": "No",
+                    "Description": [
+                        "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
+                    ]
+                },
+                {
+                    "Number": 42,
+                    "Name": "Scenario13",
+                    "Title": "Scenario 13",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic41.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Number of likes on your post",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "bad",
+                        "better"
+                    ],
+                    "Question": "Do you feel worried about having enough likes?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
+                        "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
+                    ]
+                },
+                {
+                    "Number": 43,
+                    "Name": "Scenario14",
+                    "Title": "Scenario 14",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic42.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Upset parents ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "you"
+                    ],
+                    "Question": "Are they upset with you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
+                    ]
+                },
+                {
+                    "Number": 44,
+                    "Name": "Scenario15",
+                    "Title": "Scenario 15",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic43.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Cold day jog",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "scary"
+                    ],
+                    "Question": "Is your rapid heartbeat scary?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
+                    ]
+                },
+                {
+                    "Number": 45,
+                    "Name": "Scenario16",
+                    "Title": "Scenario 16",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic44.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Noise outside",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "cat"
+                    ],
+                    "Question": "Was there something scary outside in the dark?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are babysitting a younger kid in your neighborhood and they just went to sleep. It's dark out and you suddenly hear noises outside. You peek out the window and see a"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Social media",
+            "Title": "Social media",
+            "Scenarios": [
+                {
+                    "Number": 46,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic45.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Family on social media",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "genuine"
+                    ],
+                    "Question": "Do others think you're uncool for posting a picture with your parent?",
+                    "Answer": "No",
+                    "Description": [
+                        "You look through your social media feed. You notice you posted a picture with your parents and none of your other friends have posted pictures with their family. Your followers must think that you're"
+                    ]
+                },
+                {
+                    "Number": 47,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic46.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Not getting invited",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "excluded",
+                        "feeling"
+                    ],
+                    "Question": "Can you handle that sometimes your friends hang out without you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "As you scroll through your social media, you see that your friends hung out without you last night. You didn't get an invite to hang out with them. You realize that sometimes your friends hang out without you and you feel",
+                        "You don't like being left out. But, you decide that you can tolerate this"
+                    ]
+                },
+                {
+                    "Number": 48,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic47.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Comparing yourself to influencers",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "confident"
+                    ],
+                    "Question": "Do you hold back from posting a video because you do not feel as attractive as the people you see in other videos?",
+                    "Answer": "No",
+                    "Description": [
+                        "You notice there are a lot of attractive people posting videos. You are a little uncomfortable posting a video, but post anyway. You feel"
+                    ]
+                },
+                {
+                    "Number": 49,
+                    "Name": "Scenario4",
+                    "Title": "Scenario 4",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic48.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Your friend has a new friend",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "worried"
+                    ],
+                    "Question": "Are you are upset that your friends were together without you?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
+                    ]
+                },
+                {
+                    "Number": 50,
+                    "Name": "Scenario5",
+                    "Title": "Scenario 5",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic49.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Your posted photo",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "seen"
+                    ],
+                    "Question": "Is your best friend ignoring your posts?",
+                    "Answer": "No",
+                    "Description": [
+                        "You posted a selfie on social media a few hours ago. Your best friend hasn't commented on it yet, even though they usually comment on your posts immediately and they just posted a photo of their own. You think that the post probably wasn't"
+                    ]
+                },
+                {
+                    "Number": 51,
+                    "Name": "Scenario6",
+                    "Title": "Scenario 6",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic50.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Having a high score",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "unbothered"
+                    ],
+                    "Question": "Do you care that people know you use this app a lot?",
+                    "Answer": "No",
+                    "Description": [
+                        "You check your score on a social media app. Your score is getting really high. If your score gets much higher, people will think that you use the app a lot and this makes you feel"
+                    ]
+                },
+                {
+                    "Number": 52,
+                    "Name": "Scenario7",
+                    "Title": "Scenario 7",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic51.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Thinking of a funny caption",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "funny"
+                    ],
+                    "Question": "Are you worried what your followers will think of your caption?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are trying come up with a caption for a new post. You come up with a risky joke that your closest friends will love. Your followers will think it's"
+                    ]
+                },
+                {
+                    "Number": 53,
+                    "Name": "Scenario8",
+                    "Title": "Scenario 8",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic52.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Your social media aesthetic",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "overwhelmed",
+                        "reactions"
+                    ],
+                    "Question": "Are you worried about posting an aesthetically pleasing photo to your feed?",
+                    "Answer": "No",
+                    "Description": [
+                        "You go to post a story to your feed. As you arrange the post you wonder about the aesthetic of the story. You see all of the font and design options and feel",
+                        "You decide to continue to create your story and post it once you are happy with how it looks. You look forward to people's"
+                    ]
+                },
+                {
+                    "Number": 54,
+                    "Name": "Scenario9",
+                    "Title": "Scenario 9",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic53.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Innapropriate messages",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "relaxed"
+                    ],
+                    "Question": "Do you get anxious about the message you received?",
+                    "Answer": "No",
+                    "Description": [
+                        "On your social media account, you have a lot of direct messages (DMs). When you check your inbox you notice an explicit message from an account you don't know. You decide to report it and feel more"
+                    ]
+                },
+                {
+                    "Number": 55,
+                    "Name": "Scenario10",
+                    "Title": "Scenario 10",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic54.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Interacting with someone new",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "happy"
+                    ],
+                    "Question": "Did your classmate get quiet because they were judging you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You meet a new classmate in your online class and they ask for your name on social media. When you tell them that you don't have that app, they grow quiet. They could be brainstorming other ways to contact you, which makes you feel"
+                    ]
+                },
+                {
+                    "Number": 55.5,
+                    "Name": "Scenario11",
+                    "Title": "Scenario 11",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
+                },
+                {
+                    "Number": 56,
+                    "Name": "Scenario12",
+                    "Title": "Scenario 12",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic55.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Breakout rooms",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "ready"
+                    ],
+                    "Question": "Are the others in the class judging you?",
+                    "Answer": "No",
+                    "Description": [
+                        "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
+                    ]
+                },
+                {
+                    "Number": 57,
+                    "Name": "Scenario13",
+                    "Title": "Scenario 13",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic56.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Number of likes on your post",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "bad",
+                        "better"
+                    ],
+                    "Question": "Do you feel worried about having enough likes?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
+                        "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
+                    ]
+                },
+                {
+                    "Number": 58,
+                    "Name": "Scenario14",
+                    "Title": "Scenario 14",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic57.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Upset parents ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "you"
+                    ],
+                    "Question": "Are they upset with you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
+                    ]
+                },
+                {
+                    "Number": 59,
+                    "Name": "Scenario15",
+                    "Title": "Scenario 15",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic58.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Cold day jog",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "scary"
+                    ],
+                    "Question": "Is your rapid heartbeat scary?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
+                    ]
+                },
+                {
+                    "Number": 60,
+                    "Name": "Scenario16",
+                    "Title": "Scenario 16",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic59.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Noise outside",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "cat"
+                    ],
+                    "Question": "Was there something scary outside in the dark?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are babysitting a younger kid in your neighborhood and they just went to sleep. It's dark out and you suddenly hear noises outside. You peek out the window and see a"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Home life",
+            "Title": "Home life",
+            "Scenarios": [
+                {
+                    "Number": 61,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic60.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Smelly lunch",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "proud"
+                    ],
+                    "Question": "Are you embarrassed by your lunch?",
+                    "Answer": "No",
+                    "Description": [
+                        "You get out your lunch at school in front of your friends. It smells very strong, as you notice your friends make faces. You tell your friends about what you're eating, and you feel"
+                    ]
+                },
+                {
+                    "Number": 62,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic61.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Parents at your game",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "parents",
+                        "behavior"
+                    ],
+                    "Question": "Are you able to concentrate on the game?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You have a sports game after school today and both your parents are attending. They're divorced and sometimes cause an embarrassing scene in public. During the game, you think about your",
+                        "You take a deep breath and re-focus on the game. You decide that you can't control your parents'"
+                    ]
+                },
+                {
+                    "Number": 63,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic62.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Talking about the future",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "encouraging"
+                    ],
+                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
+                    "Answer": "No",
+                    "Description": [
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                    ]
+                },
+                {
+                    "Number": 64,
+                    "Name": "Scenario4",
+                    "Title": "Scenario 4",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic63.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Hand-me-downs",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "confident"
+                    ],
+                    "Question": "Are you worried about what others will think of your hand-me-down outfit?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are invited to a school dance by your crush. You can't afford something new to wear, so have to wear your older sibling's outfit. When thinking about everyone's opinion on you wearing hand-me-downs, you know you'll feel"
+                    ]
+                },
+                {
+                    "Number": 65,
+                    "Name": "Scenario5",
+                    "Title": "Scenario 5",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic64.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Loud home",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "worried"
+                    ],
+                    "Question": "Are you calm about your friend coming over this afternoon?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your parent runs a daycare out of your home, so it is always loud when you get home from school. Your friend is coming over after school today to work on a group project. You think about how your friend is going to react to the noise, and you get"
+                    ]
+                },
+                {
+                    "Number": 66,
+                    "Name": "Scenario6",
+                    "Title": "Scenario 6",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic65.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Mentor ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "happy"
+                    ],
+                    "Question": "Are you happy to have your mentor come to your school event?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You invite your mentor to a school event this weekend. You're the only one of your friends with a mentor and are unsure of how others will percieve you. As you get ready for the event, you feel"
+                    ]
+                },
+                {
+                    "Number": 67,
+                    "Name": "Scenario7",
+                    "Title": "Scenario 7",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic66.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Unable to Attend ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "insecure",
+                        "understanding"
+                    ],
+                    "Question": "Will your friends be upset that you can't go to the amusement park?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your friends ask you to go to an amusement park with them this weekend. It is really expensive and you know you won't be able to afford it. When you picture yourself telling your friends that you can't go, you feel",
+                        "You think about it a little more, and realize that you have really nice friends. When you tell them, they will be"
+                    ]
+                },
+                {
+                    "Number": 68,
+                    "Name": "Scenario8",
+                    "Title": "Scenario 8",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic67.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "The new recipe ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "proud"
+                    ],
+                    "Question": "Are you worried about what your family will think of your cooking?",
+                    "Answer": "No",
+                    "Description": [
+                        "You get an idea for a new recipe that involve ingredients you have never used before. You make it for your family. As everyone starts to eat, you feel"
+                    ]
+                },
+                {
+                    "Number": 69,
+                    "Name": "Scenario9",
+                    "Title": "Scenario 9",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic68.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Family traditions",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "enthusiastic"
+                    ],
+                    "Question": "Are you scared to talk about your family's traditions at school?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your family has traditions that your friends don't share. Today at school, everyone is sharing about their families' important traditions. As you prepare to speak, you feel"
+                    ]
+                },
+                {
+                    "Number": 70,
+                    "Name": "Scenario10",
+                    "Title": "Scenario 10",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic69.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Sharing the computer",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "confident"
+                    ],
+                    "Question": "Will you get your assignment done in time?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You and your sibling share a computer. You have an assignment due tonight but they're using the computer. When you think about completing your homework on time, you feel"
+                    ]
+                },
+                {
+                    "Number": 70.5,
+                    "Name": "Scenario11",
+                    "Title": "Scenario 11",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
+                },
+                {
+                    "Number": 71,
+                    "Name": "Scenario12",
+                    "Title": "Scenario 12",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic70.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Breakout rooms",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "ready"
+                    ],
+                    "Question": "Are the others in the class judging you?",
+                    "Answer": "No",
+                    "Description": [
+                        "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
+                    ]
+                },
+                {
+                    "Number": 72,
+                    "Name": "Scenario13",
+                    "Title": "Scenario 13",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic71.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Number of likes on your post",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "bad",
+                        "better"
+                    ],
+                    "Question": "Do you feel worried about having enough likes?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
+                        "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
+                    ]
+                },
+                {
+                    "Number": 73,
+                    "Name": "Scenario14",
+                    "Title": "Scenario 14",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic72.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Upset parents ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "you"
+                    ],
+                    "Question": "Are they upset with you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
+                    ]
+                },
+                {
+                    "Number": 74,
+                    "Name": "Scenario15",
+                    "Title": "Scenario 15",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic73.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Cold day jog",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "scary"
+                    ],
+                    "Question": "Is your rapid heartbeat scary?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
+                    ]
+                },
+                {
+                    "Number": 75,
+                    "Name": "Scenario16",
+                    "Title": "Scenario 16",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic74.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Noise outside",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "cat"
+                    ],
+                    "Question": "Was there something scary outside in the dark?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are babysitting a younger kid in your neighborhood and they just went to sleep. It's dark out and you suddenly hear noises outside. You peek out the window and see a"
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "General",
+            "Title": "General",
+            "Scenarios": [
+                {
+                    "Number": 76,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic75.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "A loud sound",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "squirrel"
+                    ],
+                    "Question": "Should you be frightened when you hear a noise at night?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are at home alone watching TV at night. You must have been dozing, because you suddenly wake up after hearing a loud noise. You look outside and see a"
+                    ]
+                },
+                {
+                    "Number": 77,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic76.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Long car ride",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "miserable",
+                        "better"
+                    ],
+                    "Question": "Will the car ride be ok without your phone?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You're going on a long car ride with your family to visit family in another part of the state. After an hour, you notice your phone battery is almost dead and you don't have a charger. You think about the rest of the car ride and feel like you will be",
+                        "After worrying about it for a few minutes, you realize that you can use this time to talk to your family. You feel"
+                    ]
+                },
+                {
+                    "Number": 78,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic77.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Going to school",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "relaxed"
+                    ],
+                    "Question": "Are you very worried thinking about the front door?",
+                    "Answer": "No",
+                    "Description": [
+                        "You leave your house and get on the bus to go to school. About 10 minutes into the ride, you wonder whether you remembered to lock the door on your way out. As you get closer to school, you feel"
+                    ]
+                },
+                {
+                    "Number": 79,
+                    "Name": "Scenario4",
+                    "Title": "Scenario 4",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic78.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Thoughts at the train station",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "fascinated"
+                    ],
+                    "Question": "Are you calm as you look at the rails below?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You are at a metro stop waiting for a train. Standing by the edge, you realize you've never thought about how far a drop it is to the rails below. You are"
+                    ]
+                },
+                {
+                    "Number": 80,
+                    "Name": "Scenario5",
+                    "Title": "Scenario 5",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic79.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Switched off appliances",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "nervous"
+                    ],
+                    "Question": "Are you worried about whether you turned off everything in the house?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You and your family are heading out of town for a few days. Your mom asks you to double-check that all the appliances in your house are turned off. As you close the door to your house, you feel"
+                    ]
+                },
+                {
+                    "Number": 81,
+                    "Name": "Scenario6",
+                    "Title": "Scenario 6",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic80.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "The audition",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "well"
+                    ],
+                    "Question": "Do you feel good about the audition?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You are auditioning for a play. You say most of your lines correctly but mess up on one or two.\u00a0You think the audition went"
+                    ]
+                },
+                {
+                    "Number": 82,
+                    "Name": "Scenario7",
+                    "Title": "Scenario 7",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic81.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Missed goal",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "success"
+                    ],
+                    "Question": "Reflecting on the soccer game, do you think you played well?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You are on your way home after a soccer game that your team won. As your mind wanders, you think about the one goal that you missed. Overall, you consider your performance a"
+                    ]
+                },
+                {
+                    "Number": 83,
+                    "Name": "Scenario8",
+                    "Title": "Scenario 8",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic82.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Exploring a narrow cave",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "large",
+                        "safe"
+                    ],
+                    "Question": "Are you probably going to be safe in the cave?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You and your friends have decided to go on a tour of a cave, even though you feel nervous about being in such an enclosed space. You walk deeper and deeper into the cool cave. You think the chances you will get trapped are",
+                        "You look around and see lots of similing faces. You decide that you are probably"
+                    ]
+                },
+                {
+                    "Number": 84,
+                    "Name": "Scenario9",
+                    "Title": "Scenario 9",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic83.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Friend at the hospital ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "calm"
+                    ],
+                    "Question": "Will your friend probably be OK?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "You get a text from a friend that they are in the hospital, but they don't tell you why. You start to worry about whether they're going to be OK. As you think about your friend, you feel"
+                    ]
+                },
+                {
+                    "Number": 85,
+                    "Name": "Scenario10",
+                    "Title": "Scenario 10",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic84.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Driving in the rain",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "small"
+                    ],
+                    "Question": "Are you likely to get into an accident?",
+                    "Answer": "No",
+                    "Description": [
+                        "Your parent is a good driver, but today it is raining heavily. You wonder whether you should your parent to slow down, but you decide not to. The chances that you will get in an accident are"
+                    ]
+                },
+                {
+                    "Number": 85.5,
+                    "Name": "Scenario11",
+                    "Title": "Scenario 11",
+                    "Type": "Single",
+                    "Description": [
+                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                    ]
+                },
+                {
+                    "Number": 86,
+                    "Name": "Scenario12",
+                    "Title": "Scenario 12",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic85.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Breakout rooms",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "ready"
+                    ],
+                    "Question": "Are the others in the class judging you?",
+                    "Answer": "No",
+                    "Description": [
+                        "During your English class over Zoom, you're placed into breakout rooms. When you start the discussion, your camera is on but everyone else leaves their cameras off and their mics muted. You think that the others will think that you are"
+                    ]
+                },
+                {
+                    "Number": 87,
+                    "Name": "Scenario13",
+                    "Title": "Scenario 13",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic86.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Number of likes on your post",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "bad",
+                        "better"
+                    ],
+                    "Question": "Do you feel worried about having enough likes?",
+                    "Answer": "No",
+                    "Description": [
+                        "You have a lot of followers on social media. Your photo has only a few likes after a few hours, and usually by now you'd have a lot more reactions. You wonder if people aren't liking your post because you look",
+                        "You remember why you posted your picture in the first place. After you think about it, you look at your picture you feel"
+                    ]
+                },
+                {
+                    "Number": 88,
+                    "Name": "Scenario14",
+                    "Title": "Scenario 14",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic87.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Upset parents ",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "you"
+                    ],
+                    "Question": "Are they upset with you?",
+                    "Answer": "No",
+                    "Description": [
+                        "You notice your parents are upset but you don't know what's wrong. They give you a short answer when you try to talk with them at dinner. You consider why they're mad, and realize that it is not"
+                    ]
+                },
+                {
+                    "Number": 89,
+                    "Name": "Scenario15",
+                    "Title": "Scenario 15",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic88.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Cold day jog",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "scary"
+                    ],
+                    "Question": "Is your rapid heartbeat scary?",
+                    "Answer": "Yes",
+                    "Description": [
+                        "It's a cold day, and you are outside jogging. Your heart starts to beat quickly a few minutes in. You decide that this feeling is"
+                    ]
+                },
+                {
+                    "Number": 90,
+                    "Name": "Scenario16",
+                    "Title": "Scenario 16",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_short/pic89.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "true",
+                    "ImageFromUrl": "true",
+                    "Type": "Scenario",
+                    "Caption": "Noise outside",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                    "Words": [
+                        "cat"
+                    ],
+                    "Question": "Was there something scary outside in the dark?",
+                    "Answer": "No",
+                    "Description": [
+                        "You are babysitting a younger kid in your neighborhood and they just went to sleep. It's dark out and you suddenly hear noises outside. You peek out the window and see a"
+                    ]
+                }
+            ]
+        }
+    ],
+    "AfterDomain": [
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. \n \nAs you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel? \n \nAfter you come up with your situation, please press NEXT. \n \nExamples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious. "
+            ],
+            "Type": "Single",
+            "Number": 100
+        },
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "Please take a moment to write one or two sentences to describe the situation.\n \nPress next when you are ready to continue. "
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
+            "Number": 101
+        },
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "For the next 30 seconds, please picture yourself in the situation you just described. When you are finished, the screen will change automatically. "
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 30
+                }
+            },
+            "Number": 102
+        },
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry",
+                "Parameters": {
+                    "Duration": 90
+                }
+            },
+            "Number": 103
+        },
+        {
+            "Name": "Predict the Future",
+            "Title": "Predict the Future",
+            "Description": [
+                "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious! "
+            ],
+            "Type": "Single",
+            "Number": 104
+        },
+        {
+            "Name": "Wrapping Up",
+            "Title": "Wrapping Up",
+            "Description": [
+                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
+            ],
+            "Type": "Single",
+            "Number": 105
+        }
+    ]
+}

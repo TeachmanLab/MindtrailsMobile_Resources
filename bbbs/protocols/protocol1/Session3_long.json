@@ -1,0 +1,1032 @@
+{
+    "Number": 3,
+    "Name": "Session3_long",
+    "Title": "Week 3: Part 2",
+    "TimeToComplete": "00:10:00",
+    "ImageHeight": 200,
+    "BeforeDomain": [
+        {
+            "Name": "Welcome Back!",
+            "Title": "Welcome Back!",
+            "Description": [
+                "Welcome back to MindTrails! Let's get started with practicing flexible thinking. \n\nToday, you will: answer a few questions about your anxiety, complete 3 scenarios that challenge you to come up with thoughts, feelings, and behaviors, and wrap-up with a Quick Thinking exercise. \n\nLet's get started!"
+            ],
+            "Type": "Single",
+            "Number": 0
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": -1
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried? \n\n0 = Not at all -- I wasn't able to think in different ways to feel better. \n\n10 = Completely -- I was totally able to think in different ways to feel better. "
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "I didn't want\\need to change my feelings",
+                        " I'm not sure",
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": -2
+        },
+        {
+            "Name": "Three Brief Questions",
+            "Title": "Three Brief Questions",
+            "Description": [
+                "Thinking about the last 24 hours, how much did you try to stay away from or be less involved in situations that would make you anxious or scared? \n\nAn example might be: If your teacher asked a question to the class and you knew the answer, do you not answer so you won't draw attention to yourself? \n\n0 = I tried to stay away from doing anything and everything that would make me anxious or scared. \n\n10 = If there was something that would make me anxious or scared, I pushed myself to do it anyway."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "Nothing happened that made me anxious",
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": -3
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
+            ],
+            "Type": "Single",
+            "Number": -4
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please describe the situation in a few words:"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
+            "Number": -5
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there."
+            ],
+            "Type": "Single",
+            "Number": -6
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Play this situation in your head for the next 20 seconds."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 20
+                }
+            },
+            "Number": -7
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  \n\n0 = Absolutely no anxiety. \n\n10 = Totally anxious."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Slider",
+                "Parameters": {
+                    "Minimum": 0,
+                    "Maximum": 10,
+                    "OtherChoices": [
+                        "Prefer not to answer."
+                    ]
+                }
+            },
+            "Number": -8
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How vividly did you imagine the situation?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
+                        "Not at all vivid",
+                        "Somewhat vivid",
+                        "Moderately vivid",
+                        "Very vivid",
+                        "Totally vivid",
+                        "Prefer not to answer"
+                    ]
+                }
+            },
+            "Number": -9
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "How likely is it that the situation or task will turn out well versus turn out badly?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
+                        "Very likely to turn out well",
+                        "Somewhat likely to turn out well",
+                        "Neutral",
+                        "Somewhat likely to turn out badly",
+                        "Very likely to turn out badly",
+                        "Prefer not to answer"
+                    ]
+                }
+            },
+            "Number": -10
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "If this situation did turn out badly, how well or badly would you be able to handle it?"
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Picker",
+                "Parameters": {
+                    "Items": [
+                        "Very well",
+                        "Somewhat well",
+                        "Neutral",
+                        "Somewhat badly",
+                        "Very badly",
+                        "Prefer not to answer"
+                    ]
+                }
+            },
+            "Number": -11
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "On the next screen, you will be asked to write about a possible upcoming event in your life, or something that you are worried might happen. Before pressing NEXT, please think about a situation that might happen over the next week when you will feel anxious, scared, or worried. This can be a situation that makes you anxious a lot, or something that doesn't happen a lot. \n\nAs you think of an event, try to really see yourself in the situation. Where are you? What day of the week is it? What time is it? Who is around you? What are you doing? How do you feel?  \n\nAfter you come up with your situation, please press NEXT.  \n\nExamples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
+            ],
+            "Type": "Single",
+            "Number": -12
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Please take a moment to write one or two sentences to describe the situation. Press next when you are ready to continue."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
+            "Number": -13
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "For the next 30 seconds, please picture yourself in this situation. When you are finished, the screen will change automatically."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 30
+                }
+            },
+            "Number": -14
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry",
+                "Parameters": {
+                    "Duration": 90
+                }
+            },
+            "Number": -15
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Great job! You predicted the future! Now, if your situation happens over the next week, you can have a lot of different thoughts come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
+            ],
+            "Type": "Single",
+            "Number": -16
+        },
+        {
+            "Name": "Using Your Imagination",
+            "Title": "Using Your Imagination",
+            "Description": [
+                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
+            ],
+            "Type": "Single",
+            "Number": -17
+        }
+    ],
+    "Domains": [
+        {
+            "Name": "Academics",
+            "Title": "Academics",
+            "Scenarios": [
+                {
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. "
+                    ],
+                    "Words": [
+                        "I'll make good contributions to the group discussion. ",
+                        "People will be happy to work with me. ",
+                        "Everyone will pick through group before class and I won't be able to find a group. ",
+                        "If the other kids say I can't be in their group, I'll just ask another group. ",
+                        "What if I make a comment that the group thinks is dumb? They'll probably forget what I said after class. ",
+                        "I'm excited to work with new classmates. ",
+                        "I'm curious if I'll make new friends. ",
+                        "I'm worried that I won't get into a good group. ",
+                        "I feel anxious about not knowing who is going to be in my group, but everything will be OK tomorrow. ",
+                        "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. ",
+                        "I'll make sure that I understand what's going on in the book before tomorrow's class. ",
+                        "During class, I'll do my best to include everyone in our group conversation. ",
+                        "I'll pretend to be sick and just won't go to school. ",
+                        "I'll want to skip class, but I'll go anyway and cope with feeling anxious. ",
+                        "I'll ask others to be in their group, even if I really don't want to. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Group discussion"
+                },
+                {
+                    "Number": 2,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your English teacher calls on you to answer a question about the book you just read. You say your best answer and your peers are quiet."
+                    ],
+                    "Words": [
+                        "My answer was intelligent. ",
+                        "I'm happy I could speak up in class. ",
+                        "Everyone thinks my answer is wrong. ",
+                        "My answer was not correct, but that is okay. ",
+                        "What I said wasn't perfect, but that's OK. ",
+                        "I am happy the students can hear my answer.",
+                        "I am feeling smart about how I navigated the question.",
+                        "I felt self conscious while answering. ",
+                        "I am embarrassed that my answer sounded wrong, but everyone has moments like that. ",
+                        "I was sad that I couldn't provide a better answer, but there is always next time. ",
+                        "I take notes on my teacher's comments after my answer. ",
+                        "I relax after saying my answer. ",
+                        "I leave the class and go to the bathroom to avoid the other students.",
+                        "I want to apologize for my poor answer, but do not.",
+                        "I want to cover my face, but decide to look at the teacher. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Answering a question"
+                },
+                {
+                    "Number": 3,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You've been talking to your crush on social media and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. "
+                    ],
+                    "Words": [
+                        "They're just busy. ",
+                        "They're probably not responding to a lot of people right now. ",
+                        "They must not like me.",
+                        "I think what I said may have not been interesting enough, but don't know that for sure. ",
+                        "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. ",
+                        "I'm happy with who I am whether they respond or not. ",
+                        "I feel okay with the message I sent. ",
+                        "I'm embarrassed that they might not like me.",
+                        "I feel bad about not getting a quick reply, but remember I don't need to try and control the situation. ",
+                        "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent.",
+                        "I keep going with my day.",
+                        "I call a friend and ask them about their day. ",
+                        "I send a bunch of messages back to back to see if they respond. ",
+                        "I want to get reassurance from my friends, but decide to calm myself down. ",
+                        "I want to spend my day focused on my phone, but instead do hobbies I enjoy. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Crush not responding"
+                }
+            ]
+        },
+        {
+            "Name": "Social situations",
+            "Title": "Social situations",
+            "Scenarios": [
+                {
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You are hanging out at your friend's house and go to use the restroom. When you reenter the room your friends are in, they stop their conversation and it's silent. "
+                    ],
+                    "Words": [
+                        "I looked good in the mirror on my way out of the bathroom. ",
+                        "My hair looks great today. ",
+                        "I must look silly.",
+                        "Could they hear me going to the bathroom? That's really unlikely. ",
+                        "They've been talking about me. Even if that's the case, it doesn't mean it was bad. ",
+                        "I'm so happy to be spending this time with this group. ",
+                        "I'm feeling excited about hearing what they were talking about",
+                        "I feel targeted because everyone is looking at me. ",
+                        "I'm worried that they were talking about be. But, realistically they probably weren't. ",
+                        "I'm anxious about what they were saying. However, they're probably quiet because I startled them. ",
+                        "I'll make a joke with my friends. ",
+                        "I'll ask what they were talking about in a nice way. ",
+                        "I ask them defensively why they are so quiet. ",
+                        "I want to go back into the bathroom forever, but I'll face my friends. ",
+                        "I want to leave immediately, but I'll go back to my friends. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Using the restroom"
+                },
+                {
+                    "Number": 2,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You are sitting on the bus and see your friend get on. They walk past you and sit with another friend."
+                    ],
+                    "Words": [
+                        "I think about how I enjoy the bus rides.",
+                        "Maybe they haven't had a chance to catch up in a while. ",
+                        "My friend doesn't consider me their friend. ",
+                        "I feel left out, but I know there are times that not everyone can be included. ",
+                        "I would rather have my friend next to me on this bus ride, but that's not always possible. ",
+                        "I am courageous for sitting on my own.",
+                        "I am happy that my friends are happy. ",
+                        "I feel mad at my friend for not sitting with me. ",
+                        "I am annoyed that I don't have my friends wanting to sit with me, but I know that this situation will pass.",
+                        "I am guessing my friend is mad at me, but I know I should not assume the worst. ",
+                        "I say hello to my friend as they pass. ",
+                        "I start to journal in my notebook. ",
+                        "I get flustered and move further away from my friend. ",
+                        "I want to get mad and bring up the subject as soon as we get off of the bus, but I know that isn't right so I give my friend some time. ",
+                        "I want to talk about this with my other friends at school, but decide to keep this to myself. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Sitting on the bus"
+                },
+                {
+                    "Number": 3,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. "
+                    ],
+                    "Words": [
+                        "I appreciate having different views than my family. ",
+                        "My friend will be interested in hearing what my family has to say.",
+                        "My parents are going to say something that makes me upset.",
+                        "If my parents say something that I don't agree with, my friend and I can always talk about it later. ",
+                        "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me.",
+                        "I'm calm sitting at dinner with my parents and my friend.",
+                        "I'm excited to watch a movie with my friend after we eat.",
+                        "I'm anxious about what my parents might say.",
+                        "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what.",
+                        "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs.",
+                        "I remind myself that everyone has different opinions.",
+                        "I listen to my friend while they talk to my parents.",
+                        "I zone out and stop paying attention to what people are saying.",
+                        "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
+                        "I want to change the topic of conversation to something less serious, but I let the conversation go."
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Strong opinions"
+                }
+            ]
+        },
+        {
+            "Name": "Physical health",
+            "Title": "Physical health",
+            "Scenarios": [
+                {
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "A friend tells a funny joke and you start to laugh really hard. While you're laughing, you feel an uncomfortable tightness in your chest that you've never felt before.  "
+                    ],
+                    "Words": [
+                        "That must have been a really funny joke. ",
+                        "I have never laughed that hard at a joke my friend has told. ",
+                        "I can't breathe!",
+                        "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. ",
+                        "I really don't like this feeling, but I can tolerate it. ",
+                        "I'm happy that my friends are so funny. ",
+                        "I'm so surprised by that joke!",
+                        "I'm terrified by the tightness in my chest. ",
+                        "I'm worried about the tightness in my chest, but I think it will go away soon. ",
+                        "I'm anxious about this feeling in my chest, but I know it's just from laughing really hard. ",
+                        "I take a deep breath and tell my friend that was a good joke. ",
+                        "I notice the feeling in my chest and take a sip of water. ",
+                        "I start to panic that I'm having a heart attack. ",
+                        "Even though it's hard, I tell myself that this feeling will pass. ",
+                        "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Laughing at a joke"
+                },
+                {
+                    "Number": 2,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You are outside on a cool day and see your friends down the street. You decide to jog over to say hi. When you get to your friends, you feel out of breath."
+                    ],
+                    "Words": [
+                        "I am able to keep a good pace on this jog. ",
+                        "It is so beautiful out today. ",
+                        "My friends will notice I am out of breath. ",
+                        "I feel like I'm going to die from being out of breath, but I know I won't. ",
+                        "My friends might judge me for gasping a little when I get to them, but they probably won't. ",
+                        "I'm really excited to see these friends who I haven't seen in a while. ",
+                        "I'm happy to be able to stretch out my legs. ",
+                        "I'm embarrassed that I have to catch my breath when I see my friends. ",
+                        "I'm worried that I'm sick because of this feeling in my chest, but realistically I know I'm fine and it was just the jog. ",
+                        "Even though I'm feeling miserable, I know this feeling will pass. ",
+                        "I take a second to catch my breath when I get to my friends. ",
+                        "I crack a joke when I see my friends. ",
+                        "I try to cover up that my breathing is heavy. ",
+                        "I want to go see a doctor because I'm worried about how tight my chest is, but know that this feeling is normal after a quick jog. ",
+                        "I want to walk away quickly from my friends so they don't see how out of breath I am, but I know that this is normal and they won't judge me. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Saying hi to friends"
+                },
+                {
+                    "Number": 3,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park."
+                    ],
+                    "Words": [
+                        "I'm looking forward to talking to my friend.",
+                        "It'll be nice to walk in the park. ",
+                        "I'm going to get bitten by a snake!",
+                        "Even though I've heard there are snakes in the park, I think I can avoid them.",
+                        "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety.",
+                        "I'm happy my friend asked me to go on a walk. ",
+                        "I'm calm thinking about going to the park.",
+                        "I'm terrified that something bad is going to happen to me.",
+                        "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen.",
+                        "I'm worried about what we'll see in the park, but know that I can handle feeling a little worried.",
+                        "I tell my friend I'm ready to go.",
+                        "I put on a jacket and go outside. ",
+                        "I call my friend and say that I'm busy all of a sudden.",
+                        "I want to tell my friend that I can't go, but push myself to go into the park anyway. ",
+                        "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park."
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Snakes in the park"
+                }
+            ]
+        },
+        {
+            "Name": "Social media",
+            "Title": "Social media",
+            "Scenarios": [
+                {
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You've been talking to your crush on social media and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. "
+                    ],
+                    "Words": [
+                        "They're just busy. ",
+                        "They're probably not responding to a lot of people right now. ",
+                        "They must not like me.",
+                        "I think what I said may have not been interesting enough, but don't know that for sure. ",
+                        "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. ",
+                        "I'm happy with who I am whether they respond or not. ",
+                        "I feel okay with the message I sent. ",
+                        "I'm embarrassed that they might not like me.",
+                        "I feel bad about not getting a quick reply, but remember I don't need to try and control the situation. ",
+                        "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent.",
+                        "I keep going with my day.",
+                        "I call a friend and ask them about their day. ",
+                        "I send a bunch of messages back to back to see if they respond. ",
+                        "I want to get reassurance from my friends, but decide to calm myself down. ",
+                        "I want to spend my day focused on my phone, but instead do hobbies I enjoy. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Crush not responding"
+                },
+                {
+                    "Number": 2,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You are looking through your social media app and see a number of your friends have posted to their stories. As you look through their photos, you realize that a few of your close friends were all hanging out without you. "
+                    ],
+                    "Words": [
+                        "My friends look really happy. ",
+                        "I think about all the wonderful photos I took with my friends. ",
+                        "I think they meant to leave me out of the gathering. ",
+                        "Others might wonder if I was excluded intentionally, but I doubt that will actually happen. ",
+                        "My friends must not actually like me. But, I know that's not the case; we have a lot of fun together. ",
+                        "I'm calm seeing the pictures that they posted. ",
+                        "I'm glad that I have such cool friends. ",
+                        "I'm sad that they forgot about me. ",
+                        "I worry that they left me out on purpose, but remember all of the times I have been included. ",
+                        "I'm feeling sad, but decide to think of the good times I have had with my friends.",
+                        "I text my friends and say hi. ",
+                        "I'll ask my friends to hang out later this week. ",
+                        "I cry and look at other pictures that I'm not in. ",
+                        "I want to ignore them for not inviting me, but remind myself that would be childish. ",
+                        "I want to gossip about how awful it was that I wasn't invited, but decide that would not be nice. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Hanging out without you"
+                },
+                {
+                    "Number": 3,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. "
+                    ],
+                    "Words": [
+                        "I'll make good contributions to the group discussion. ",
+                        "People will be happy to work with me. ",
+                        "Everyone will pick through group before class and I won't be able to find a group. ",
+                        "If the other kids say I can't be in their group, I'll just ask another group. ",
+                        "What if I make a comment that the group thinks is dumb? They'll probably forget what I said after class. ",
+                        "I'm excited to work with new classmates. ",
+                        "I'm curious if I'll make new friends. ",
+                        "I'm worried that I won't get into a good group. ",
+                        "I feel anxious about not knowing who is going to be in my group, but everything will be OK tomorrow. ",
+                        "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. ",
+                        "I'll make sure that I understand what's going on in the book before tomorrow's class. ",
+                        "During class, I'll do my best to include everyone in our group conversation. ",
+                        "I'll pretend to be sick and just won't go to school. ",
+                        "I'll want to skip class, but I'll go anyway and cope with feeling anxious. ",
+                        "I'll ask others to be in their group, even if I really don't want to. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Group discussion"
+                }
+            ]
+        },
+        {
+            "Name": "Home life",
+            "Title": "Home life",
+            "Scenarios": [
+                {
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. "
+                    ],
+                    "Words": [
+                        "I appreciate having different views than my family. ",
+                        "My friend will be interested in hearing what my family has to say.",
+                        "My parents are going to say something that makes me upset.",
+                        "If my parents say something that I don't agree with, my friend and I can always talk about it later. ",
+                        "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me.",
+                        "I'm calm sitting at dinner with my parents and my friend.",
+                        "I'm excited to watch a movie with my friend after we eat.",
+                        "I'm anxious about what my parents might say.",
+                        "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what.",
+                        "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs.",
+                        "I remind myself that everyone has different opinions.",
+                        "I listen to my friend while they talk to my parents.",
+                        "I zone out and stop paying attention to what people are saying.",
+                        "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
+                        "I want to change the topic of conversation to something less serious, but I let the conversation go."
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Strong opinions"
+                },
+                {
+                    "Number": 2,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You have a lot of chores that you have to do tonight, and you also have a big project that's due tomorrow. Both have to get done, and you think about how you'll handle it all. "
+                    ],
+                    "Words": [
+                        "I think about how great it is to be busy. ",
+                        "I'm able to balance a lot.",
+                        "I'm not going to be able to do all of this tonight.",
+                        "It feels overwhelming having so much to do, but I'll do my best. ",
+                        "I don't know how I'm going to fit all of this in tonight, but I'll be able to figure it out. ",
+                        "I'm calm as I figure out how to get everything done tonight. ",
+                        "I'm excited to discover new music while I'm doing my chores. ",
+                        "My stomach is in knots because I don't know if I'll get my work done. ",
+                        "I feel like I want to do nothing, but know that it will feel so great to have these tasks accomplished. ",
+                        "I feel frustrated with the time crunch, but know that once I get started it will all start to flow. ",
+                        "I outline a schedule for me to follow. ",
+                        "I eat a snack and then get working on the chores first. ",
+                        "I complain about how much I have to do. ",
+                        "I sit back and think about how I can avoid both my chores and project, but decide to do the right thing and get the tasks done.",
+                        "I want to procrastinate until the end of the day, but decide not to. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Balancing responsibilities"
+                },
+                {
+                    "Number": 3,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You are hanging out at your friend's house and go to use the restroom. When you reenter the room your friends are in, they stop their conversation and it's silent. "
+                    ],
+                    "Words": [
+                        "I looked good in the mirror on my way out of the bathroom. ",
+                        "My hair looks great today. ",
+                        "I must look silly.",
+                        "Could they hear me going to the bathroom? That's really unlikely. ",
+                        "They've been talking about me. Even if that's the case, it doesn't mean it was bad. ",
+                        "I'm so happy to be spending this time with this group. ",
+                        "I'm feeling excited about hearing what they were talking about",
+                        "I feel targeted because everyone is looking at me. ",
+                        "I'm worried that they were talking about be. But, realistically they probably weren't. ",
+                        "I'm anxious about what they were saying. However, they're probably quiet because I startled them. ",
+                        "I'll make a joke with my friends. ",
+                        "I'll ask what they were talking about in a nice way. ",
+                        "I ask them defensively why they are so quiet. ",
+                        "I want to go back into the bathroom forever, but I'll face my friends. ",
+                        "I want to leave immediately, but I'll go back to my friends. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Using the restroom"
+                }
+            ]
+        },
+        {
+            "Name": "General",
+            "Title": "General",
+            "Scenarios": [
+                {
+                    "Number": 1,
+                    "Name": "Scenario1",
+                    "Title": "Scenario 1",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic0.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park."
+                    ],
+                    "Words": [
+                        "I'm looking forward to talking to my friend.",
+                        "It'll be nice to walk in the park. ",
+                        "I'm going to get bitten by a snake!",
+                        "Even though I've heard there are snakes in the park, I think I can avoid them.",
+                        "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety.",
+                        "I'm happy my friend asked me to go on a walk. ",
+                        "I'm calm thinking about going to the park.",
+                        "I'm terrified that something bad is going to happen to me.",
+                        "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen.",
+                        "I'm worried about what we'll see in the park, but know that I can handle feeling a little worried.",
+                        "I tell my friend I'm ready to go.",
+                        "I put on a jacket and go outside. ",
+                        "I call my friend and say that I'm busy all of a sudden.",
+                        "I want to tell my friend that I can't go, but push myself to go into the park anyway. ",
+                        "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park."
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Snakes in the park"
+                },
+                {
+                    "Number": 2,
+                    "Name": "Scenario2",
+                    "Title": "Scenario 2",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic1.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "You go to your grandparents' home for the first time in a while and notice that your grandfather looks a lot less healthy than you remember. No one in your family mentions it. "
+                    ],
+                    "Words": [
+                        "He looks so happy to be with family. ",
+                        "My grandfather is glad that I'm visiting. ",
+                        "He's probably going to pass away soon. ",
+                        "I wonder what is going on, but decide to be in the moment with him. ",
+                        "I think about whether my family is keeping something from me, but tell myself that I can't control my grandfather's health. ",
+                        "I am grateful to be able to spend time with my grandfather.",
+                        "I feel thrilled that my grandfather is engaging in conversation. ",
+                        "I'm uneasy about my grandfather's appearance. ",
+                        "I start to feel angry about how he is getting older, but know that this is a part of life. ",
+                        "I feel anxious and start to overthink what could be wrong, but remember I can't control his health.",
+                        "I start to make conversation with my family. ",
+                        "I laugh at something silly my grandfather said. ",
+                        "I avoid thinking about his health.",
+                        "I want to question the family on his health, but decide to enjoy the gathering. ",
+                        "I feel the urge to worry a lot about his health, but take a deep breath and enjoy the moments I have with my grandfather. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Aging grandfather"
+                },
+                {
+                    "Number": 3,
+                    "Name": "Scenario3",
+                    "Title": "Scenario 3",
+                    "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session3_long/pic2.jpeg",
+                    "ImageType": "image/jpeg",
+                    "ImageEmbedded": "True",
+                    "ImageFromURL": "True",
+                    "Description": [
+                        "A friend tells a funny joke and you start to laugh really hard. While you're laughing, you feel an uncomfortable tightness in your chest that you've never felt before.  "
+                    ],
+                    "Words": [
+                        "That must have been a really funny joke. ",
+                        "I have never laughed that hard at a joke my friend has told. ",
+                        "I can't breathe!",
+                        "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. ",
+                        "I really don't like this feeling, but I can tolerate it. ",
+                        "I'm happy that my friends are so funny. ",
+                        "I'm so surprised by that joke!",
+                        "I'm terrified by the tightness in my chest. ",
+                        "I'm worried about the tightness in my chest, but I think it will go away soon. ",
+                        "I'm anxious about this feeling in my chest, but I know it's just from laughing really hard. ",
+                        "I take a deep breath and tell my friend that was a good joke. ",
+                        "I notice the feeling in my chest and take a sip of water. ",
+                        "I start to panic that I'm having a heart attack. ",
+                        "Even though it's hard, I tell myself that this feeling will pass. ",
+                        "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. "
+                    ],
+                    "Type": "TimedText",
+                    "Input": {
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Duration": 45
+                        }
+                    },
+                    "Caption": "Laughing at a joke"
+                }
+            ]
+        }
+    ],
+    "AfterDomain": [
+        {
+            "Name": "Quick Thinking",
+            "Title": "Quick Thinking",
+            "Description": [
+                "On the next screen, you'll see a situation that might make someone nervous, worried, scared, or anxious. Here's an example: You're out with friends and receive this message from your parent saying, \"You need to come home right now.\""
+            ],
+            "Type": "Single",
+            "Number": 100
+        },
+        {
+            "Name": "Quick Thinking",
+            "Title": "Quick Thinking",
+            "Description": [
+                "In the text box, please write as many different thoughts that might come to your mind in that moment. You'll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I'm really tired, so I'm glad to be going home."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 60
+                }
+            },
+            "Number": 101
+        },
+        {
+            "Name": "Quick Thinking",
+            "Title": "Quick Thinking",
+            "Description": [
+                "Your stomach starts to hurt as you're about to start a soccer game."
+            ],
+            "Type": "Single",
+            "Input": {
+                "Type": "Entry"
+            },
+            "Image": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic3.jpeg",
+            "ImageType": "image/jpeg",
+            "ImageEmbedded": "true",
+            "ImageFromUrl": "true",
+            "Number": 102
+        },
+        {
+            "Name": "Wrapping Up",
+            "Title": "Wrapping Up",
+            "Description": [
+                "Great job practicing flexible thinking today. Remember, try to use your new flexible thinking skills before your next training session!"
+            ],
+            "Type": "Single",
+            "Number": 103
+        }
+    ]
+}
