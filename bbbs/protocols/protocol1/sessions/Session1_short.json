@@ -4,13 +4,13 @@
     "Title": "Week 1: Part 1",
     "TimeToComplete": "00:15:00",
     "ImageHeight": 200,
-    "Description": "Welcome! The domains listed here are some areas that may cause teens to feel anxious. Please select the one that you'd like to work on during today's training.",
+    "Description": "The domains listed here are some areas that may cause teens to feel anxious. Please select the one that you'd like to work on during today's training.",
     "BeforeDomain": [
         {
             "Name": "Welcome to MindTrails!",
             "Title": "Welcome to MindTrails!",
             "Description": [
-                "Welcome to the first session of MindTrails! Today you'll complete 10 short training scenarios from the domain that you just selected. Next, you'll do 5 training scenarios that are from different domains. This will help you learn to apply your flexible thinking skills to lots of different types of situations. Last, you'll complete a brief exercise. "
+                "Welcome to the first session of MindTrails! Today you'll complete 10 short training scenarios from a domain that you'll select in a few minutes. Next, you'll do 5 training scenarios that are from different domains. This will help you learn to apply your flexible thinking skills to lots of different types of situations. Last, you'll complete a brief exercise. "
             ],
             "Type": "Single",
             "Number": 0
@@ -51,7 +51,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried? \n\n0 = Not at all -- I wasn't able to think in different ways to feel better. \n\n10 = Completely -- I was totally able to think in different ways to feel better. "
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better? \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to remind yourself that you studied a lot and were prepared? \n\n0 = Not at all - I wasn't able to think in different ways to feel better. \n\n10 = Completely - I was totally able to think in different ways to feel better. "
             ],
             "Type": "Single",
             "Input": {
@@ -109,6 +109,13 @@
             "ImageEmbedded": "true",
             "ImageFromUrl": "true",
             "ImageFramed": "true",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 3,
+                    "UserNavigation": "true"
+                }
+            },
             "Number": -6
         },
         {
@@ -123,6 +130,13 @@
             "ImageEmbedded": "true",
             "ImageFromUrl": "true",
             "ImageFramed": "true",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 3,
+                    "UserNavigation": "true"
+                }
+            },
             "Number": -7
         },
         {
@@ -137,6 +151,13 @@
             "ImageEmbedded": "true",
             "ImageFromUrl": "true",
             "ImageFramed": "true",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 3,
+                    "UserNavigation": "true"
+                }
+            },
             "Number": -8
         },
         {
@@ -151,6 +172,13 @@
             "ImageEmbedded": "true",
             "ImageFromUrl": "true",
             "ImageFramed": "true",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 3,
+                    "UserNavigation": "true"
+                }
+            },
             "Number": -9
         },
         {
@@ -165,6 +193,13 @@
             "ImageEmbedded": "true",
             "ImageFromUrl": "true",
             "ImageFramed": "true",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 3,
+                    "UserNavigation": "true"
+                }
+            },
             "Number": -10
         },
         {
@@ -179,6 +214,13 @@
             "ImageEmbedded": "true",
             "ImageFromUrl": "true",
             "ImageFramed": "true",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 3,
+                    "UserNavigation": "true"
+                }
+            },
             "Number": -11
         },
         {
@@ -193,6 +235,13 @@
             "ImageEmbedded": "true",
             "ImageFromUrl": "true",
             "ImageFramed": "true",
+            "Input": {
+                "Type": "None",
+                "Parameters": {
+                    "Duration": 3,
+                    "UserNavigation": "true"
+                }
+            },
             "Number": -12
         },
         {
@@ -229,7 +278,7 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "Play this situation in your head for the next 20 seconds."
+                "Play this situation in your head for the next 20 seconds. \n\n The screen will change in 20 seconds. "
             ],
             "Type": "Single",
             "Input": {
@@ -267,7 +316,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Not at all vivid",
@@ -289,7 +338,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Very likely to turn out well",
@@ -311,7 +360,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Very well",
@@ -344,7 +393,7 @@
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
-                        "enthusiatic"
+                        "enthusiastic"
                     ],
                     "Question": "Do you expect to feel uncomfortable if others look at your work?",
                     "Answer": "No",
@@ -551,7 +600,7 @@
                     "Title": "Scenario 11",
                     "Type": "Single",
                     "Description": [
-                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                        "Great job with those scenarios! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
                     ]
                 },
                 {
@@ -616,7 +665,7 @@
                     "Question": "Can you handle going to the dentist?",
                     "Answer": "Yes",
                     "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                        "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ]
                 },
                 {
@@ -634,7 +683,7 @@
                     "Words": [
                         "worried"
                     ],
-                    "Question": "Are you are upset that your friends were together without you?",
+                    "Question": "Are you upset that your friends were together without you?",
                     "Answer": "Yes",
                     "Description": [
                         "As you scroll through your social media accounts, you see that your closest friend is hanging out with someone you don't know. You wonder who this person is, and why you haven't heard about them. When you think about your friendship with this friend, you feel"
@@ -658,7 +707,7 @@
                     "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
                     "Answer": "No",
                     "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be"
                     ]
                 }
             ]
@@ -676,7 +725,7 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Caption": "Hallway encounter",
+                    "Caption": "Does this other student dislike you?",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
@@ -949,10 +998,10 @@
                     "Words": [
                         "calm"
                     ],
-                    "Question": "Can you handle going to the dentist?",
+                    "Question": "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel",
                     "Answer": "Yes",
                     "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                        "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ]
                 },
                 {
@@ -991,10 +1040,10 @@
                     "Words": [
                         "encouraging"
                     ],
-                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
+                    "Question": "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be",
                     "Answer": "No",
                     "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be"
                     ]
                 }
             ]
@@ -1288,7 +1337,7 @@
                     "Question": "Can you handle going to the dentist?",
                     "Answer": "Yes",
                     "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                        "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ]
                 },
                 {
@@ -1330,7 +1379,7 @@
                     "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
                     "Answer": "No",
                     "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be"
                     ]
                 }
             ]
@@ -1624,7 +1673,7 @@
                     "Question": "Can you handle going to the dentist?",
                     "Answer": "Yes",
                     "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                        "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ]
                 },
                 {
@@ -1666,7 +1715,7 @@
                     "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
                     "Answer": "No",
                     "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be"
                     ]
                 }
             ]
@@ -1960,7 +2009,7 @@
                     "Question": "Can you handle going to the dentist?",
                     "Answer": "Yes",
                     "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                        "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ]
                 },
                 {
@@ -2002,7 +2051,7 @@
                     "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
                     "Answer": "No",
                     "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be"
                     ]
                 }
             ]
@@ -2296,7 +2345,7 @@
                     "Question": "Can you handle going to the dentist?",
                     "Answer": "Yes",
                     "Description": [
-                        "You tell your caregiver that your tooth has been hurting recently, so they make you a dentist appointment. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
+                        "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
                     ]
                 },
                 {
@@ -2338,7 +2387,7 @@
                     "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
                     "Answer": "No",
                     "Description": [
-                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never ask them for advice before. When you think about their reaction, you think they will probably be"
+                        "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be"
                     ]
                 }
             ]
@@ -2370,7 +2419,7 @@
             "Name": "Predict the Future",
             "Title": "Predict the Future",
             "Description": [
-                "For the next 30 seconds, please picture yourself in the situation you just described. When you are finished, the screen will change automatically. "
+                "For the next 30 seconds, please picture yourself in the situation you just described. The screen will change automatically in 30 seconds. "
             ],
             "Type": "Single",
             "Input": {
@@ -2385,7 +2434,7 @@
             "Name": "Predict the Future",
             "Title": "Predict the Future",
             "Description": [
-                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious. \n\n Please type each of the thoughts in the box below. You can put each thought on a new line. \n\n The screen will change after 90 seconds. "
             ],
             "Type": "Single",
             "Input": {

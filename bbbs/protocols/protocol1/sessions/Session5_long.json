@@ -3,6 +3,7 @@
     "Name": "Session5_long",
     "Title": "Week 5: Part 2",
     "TimeToComplete": "00:10:00",
+    "Description": "The domains listed here are some areas that may cause teens to feel anxious. Please select the one that you'd like to work on during today's training.",
     "ImageHeight": 200,
     "BeforeDomain": [
         {
@@ -37,7 +38,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried? \n\n0 = Not at all -- I wasn't able to think in different ways to feel better. \n\n10 = Completely -- I was totally able to think in different ways to feel better. "
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to remind yourself that you studied a lot and were prepared? \n\n0 = Not at all - I wasn't able to think in different ways to feel better. \n\n10 = Completely - I was totally able to think in different ways to feel better. "
             ],
             "Type": "Single",
             "Input": {
@@ -108,7 +109,7 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "Play this situation in your head for the next 20 seconds."
+                "Play this situation in your head for the next 20 seconds. The screen will change automatically after 20 seconds"
             ],
             "Type": "Single",
             "Input": {
@@ -146,7 +147,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Not at all vivid",
@@ -168,7 +169,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Very likely to turn out well",
@@ -190,7 +191,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Very well",
@@ -244,7 +245,7 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious.  \n\n Please type each of the thoughts in the box below. You can put each thought on a new line. \n\n The screen will change after 90 seconds. "
             ],
             "Type": "Single",
             "Input": {
@@ -656,7 +657,7 @@
                     "Number": 2.33,
                     "Type": "Single",
                     "Description": [
-                        "Way to go! Now you just have one training exercise left. You\u2019re going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
+                        "Way to go! Now you just have one training exercise left. You're going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
                     ]
                 },
                 {
@@ -836,7 +837,7 @@
                     "Number": 3.33,
                     "Type": "Single",
                     "Description": [
-                        "Excellent work! Now you'll do a Quick Thinking exercise and then you\u2019ll be done for today. "
+                        "Excellent work! Now you'll do a Quick Thinking exercise and then you'll be done for today. "
                     ]
                 }
             ]
@@ -1222,7 +1223,7 @@
                     "Number": 2.33,
                     "Type": "Single",
                     "Description": [
-                        "Way to go! Now you just have one training exercise left. You\u2019re going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
+                        "Way to go! Now you just have one training exercise left. You're going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
                     ]
                 },
                 {
@@ -1402,7 +1403,7 @@
                     "Number": 3.33,
                     "Type": "Single",
                     "Description": [
-                        "Excellent work! Now you'll do a Quick Thinking exercise and then you\u2019ll be done for today. "
+                        "Excellent work! Now you'll do a Quick Thinking exercise and then you'll be done for today. "
                     ]
                 }
             ]
@@ -1788,7 +1789,7 @@
                     "Number": 2.33,
                     "Type": "Single",
                     "Description": [
-                        "Way to go! Now you just have one training exercise left. You\u2019re going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
+                        "Way to go! Now you just have one training exercise left. You're going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
                     ]
                 },
                 {
@@ -1968,7 +1969,7 @@
                     "Number": 3.33,
                     "Type": "Single",
                     "Description": [
-                        "Excellent work! Now you'll do a Quick Thinking exercise and then you\u2019ll be done for today. "
+                        "Excellent work! Now you'll do a Quick Thinking exercise and then you'll be done for today. "
                     ]
                 }
             ]
@@ -2354,7 +2355,7 @@
                     "Number": 2.33,
                     "Type": "Single",
                     "Description": [
-                        "Way to go! Now you just have one training exercise left. You\u2019re going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
+                        "Way to go! Now you just have one training exercise left. You're going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
                     ]
                 },
                 {
@@ -2534,7 +2535,7 @@
                     "Number": 3.33,
                     "Type": "Single",
                     "Description": [
-                        "Excellent work! Now you'll do a Quick Thinking exercise and then you\u2019ll be done for today. "
+                        "Excellent work! Now you'll do a Quick Thinking exercise and then you'll be done for today. "
                     ]
                 }
             ]
@@ -2920,7 +2921,7 @@
                     "Number": 2.33,
                     "Type": "Single",
                     "Description": [
-                        "Way to go! Now you just have one training exercise left. You\u2019re going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
+                        "Way to go! Now you just have one training exercise left. You're going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
                     ]
                 },
                 {
@@ -3100,7 +3101,7 @@
                     "Number": 3.33,
                     "Type": "Single",
                     "Description": [
-                        "Excellent work! Now you'll do a Quick Thinking exercise and then you\u2019ll be done for today. "
+                        "Excellent work! Now you'll do a Quick Thinking exercise and then you'll be done for today. "
                     ]
                 }
             ]
@@ -3486,7 +3487,7 @@
                     "Number": 2.33,
                     "Type": "Single",
                     "Description": [
-                        "Way to go! Now you just have one training exercise left. You\u2019re going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
+                        "Way to go! Now you just have one training exercise left. You're going to practice coming up with thoughts, feelings, and behaviors one more time, and this time the story is going to be from a different topic than the first two you just did. This is to help your brain practice this kind of thinking in lots of different types of situations. "
                     ]
                 },
                 {
@@ -3666,7 +3667,7 @@
                     "Number": 3.33,
                     "Type": "Single",
                     "Description": [
-                        "Excellent work! Now you'll do a Quick Thinking exercise and then you\u2019ll be done for today. "
+                        "Excellent work! Now you'll do a Quick Thinking exercise and then you'll be done for today. "
                     ]
                 }
             ]
@@ -3686,7 +3687,7 @@
             "Name": "Quick Thinking",
             "Title": "Quick Thinking",
             "Description": [
-                "In the text box, please write as many different thoughts that might come to your mind in that moment. You'll have 60 seconds to do this. For this example, you might write: What did I do wrong? My parent has something really important to tell me. I'm really tired, so I'm glad to be going home."
+                "In the text box, please write as many different thoughts that might come to your mind in that moment. You can add each thought to a new line. You'll have 60 seconds to do this. \n\n For this example, you might write: \n What did I do wrong? \n My parent has something really important to tell me. \n I'm really tired, so I'm glad to be going home. \n\n The screen will automatically change after 60 seconds. "
             ],
             "Type": "Single",
             "Input": {

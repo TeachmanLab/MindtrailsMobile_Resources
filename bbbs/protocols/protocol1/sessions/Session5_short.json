@@ -4,7 +4,7 @@
     "Title": "Week 5: Part 1",
     "TimeToComplete": "00:10:00",
     "ImageHeight": 200,
-    "Description": "Welcome! The domains listed here are some areas that may cause teens to feel anxious. Please select the one that you'd like to work on during today's training.",
+    "Description": "The domains listed here are some areas that may cause teens to feel anxious. Please select the one that you'd like to work on during today's training.",
     "BeforeDomain": [
         {
             "Name": "Welcome Back!",
@@ -48,7 +48,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better. \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to think about how much you studied, so that you felt less worried? \n\n0 = Not at all -- I wasn't able to think in different ways to feel better. \n\n10 = Completely -- I was totally able to think in different ways to feel better. "
+                "Thinking about the last 24 hours, how much were you able to change the way you thought about things when you wanted to feel better? \n\nAn example might be: If you were feeling worried about an upcoming test, were you able to remind yourself that you studied a lot and were prepared? \n\n0 = Not at all - I wasn't able to think in different ways to feel better. \n\n10 = Completely - I was totally able to think in different ways to feel better. "
             ],
             "Type": "Single",
             "Input": {
@@ -119,7 +119,7 @@
             "Name": "Using Your Imagination",
             "Title": "Using Your Imagination",
             "Description": [
-                "Play this situation in your head for the next 20 seconds."
+                "Play this situation in your head for the next 20 seconds. \n\n The screen will change in 20 seconds. "
             ],
             "Type": "Single",
             "Input": {
@@ -157,7 +157,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Not at all vivid",
@@ -179,7 +179,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Very likely to turn out well",
@@ -201,7 +201,7 @@
             ],
             "Type": "Single",
             "Input": {
-                "Type": "Picker",
+                "Type": "Buttons",
                 "Parameters": {
                     "Items": [
                         "Very well",
@@ -441,7 +441,7 @@
                     "Title": "Scenario 11",
                     "Type": "Single",
                     "Description": [
-                        "Great job with those scenarios in your domain! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
+                        "Great job with those scenarios! Now you'll get to practice a few more scenarios that are from other domains. This will help you apply your flexible thinking skills to lots of different types of situations!"
                     ]
                 },
                 {
@@ -2260,7 +2260,7 @@
             "Name": "Predict the Future",
             "Title": "Predict the Future",
             "Description": [
-                "For the next 30 seconds, please picture yourself in the situation you just described. When you are finished, the screen will change automatically. "
+                "For the next 30 seconds, please picture yourself in the situation you just described. The screen will change automatically in 30 seconds. "
             ],
             "Type": "Single",
             "Input": {
@@ -2275,7 +2275,7 @@
             "Name": "Predict the Future",
             "Title": "Predict the Future",
             "Description": [
-                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious."
+                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious. \n\n Please type each of the thoughts in the box below. You can put each thought on a new line. \n\n The screen will change after 90 seconds. "
             ],
             "Type": "Single",
             "Input": {
