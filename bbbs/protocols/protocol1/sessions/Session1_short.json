@@ -725,13 +725,13 @@
                     "ImageEmbedded": "true",
                     "ImageFromUrl": "true",
                     "Type": "Scenario",
-                    "Caption": "Does this other student dislike you?",
+                    "Caption": "Hallway Encounter",
                     "CorrectFeedback": "Correct!",
                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                     "Words": [
                         "nice"
                     ],
-                    "Question": "Does other student dislike you?",
+                    "Question": "Does this other student dislike you?",
                     "Answer": "No",
                     "Description": [
                         "You run into someone you don't know well in the hallway who you think is really cool. You ask them how they are doing and they continue to keep walking. This acquaintance probably thinks you are"
@@ -998,7 +998,7 @@
                     "Words": [
                         "calm"
                     ],
-                    "Question": "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel",
+                    "Question": "Can you handle going to the dentist?",
                     "Answer": "Yes",
                     "Description": [
                         "You tell your caregiver that your tooth has been hurting recently, so they schedule a dentist appointment for you. You think about the pain in your tooth and what it might be from. As you wait for your appointment, you will feel"
@@ -1040,7 +1040,7 @@
                     "Words": [
                         "encouraging"
                     ],
-                    "Question": "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be",
+                    "Question": "Do you feel worried about talking to your mentor about your plans for the future?",
                     "Answer": "No",
                     "Description": [
                         "You want to talk to someone about your plans for the future, but you don't think your parents will understand what you're worried about. You consider going to your mentor for advice, but you've never asked them for advice before. When you think about their reaction, you think they will probably be"
