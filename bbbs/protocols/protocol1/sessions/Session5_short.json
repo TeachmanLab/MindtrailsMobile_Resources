@@ -29,7 +29,7 @@
             "Name": "Three Brief Questions",
             "Title": "Three Brief Questions",
             "Description": [
-                "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being."
+                "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being.\n\nPlease touch the sliding bar to select your response, or press 'More options...'"
             ],
             "Type": "Single",
             "Input": {
@@ -2275,13 +2275,13 @@
             "Name": "Predict the Future",
             "Title": "Predict the Future",
             "Description": [
-                "Now, take the next 90 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious. \n\nPlease type each of the thoughts in the box below. You can put each thought on a new line. \n\nThe screen will change after 90 seconds. "
+                "Now, take the next 60 seconds to think of as many different thoughts that you could have in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have while you're in the situation that makes you anxious, especially thoughts that would help you feel less anxious. \n\nPlease type each of the thoughts in the box below. You can put each thought on a new line. \n\nThe screen will change after 60 seconds. "
             ],
             "Type": "Single",
             "Input": {
                 "Type": "Entry",
                 "Parameters": {
-                    "Duration": 90
+                    "Duration": 60
                 }
             },
             "Number": 103
