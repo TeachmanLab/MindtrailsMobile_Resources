@@ -111,6 +111,7 @@
         {
             "Name": "LemonExercise",
             "Title": "Lemon Exercise",
+            "Type": "LemonExercise",
             "Pages": [
                 {
                     "Inputs": [
@@ -267,6 +268,7 @@
         {
             "Name": "UsingYourImagination",
             "Title": "Using Your Imagination",
+            "Type": "UsingYourImagination",
             "Pages": [
                 {
                     "Inputs": [
@@ -439,18 +441,20 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CauseNavigation": true,
                                     "Parameters": {
                                         "Words": [
                                             "enthusiastic"
-                                        ],
-                                        "CorrectFeedback": "Correct!",
-                                        "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again."
+                                        ]
                                     }
                                 }
                             ]
                         },
                         {
                             "Name": "Question",
+                            "ShowButtons": "WhenCorrect",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -459,11 +463,12 @@
                                     }
                                 },
                                 {
-                                    "Type": "YesNo",
+                                    "Type": "Buttons",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "Parameters": {
-                                        "Answer": "No",
-                                        "CorrectFeedback": "Correct!",
-                                        "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again."
+                                        "Buttons": [ "Yes", "No" ],
+                                        "Answer": "No"
                                     }
                                 }
                             ]
