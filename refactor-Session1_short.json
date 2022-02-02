@@ -449,14 +449,14 @@
                                             "Type": "WordPuzzle",
                                             "CorrectFeedback": "Correct!",
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                            "CorrectScore": 0.5,
+                                            "CorrectDelay": 1000,
+                                            "IncorrectDelay": 5000,
                                             "CauseNavigation": true,
                                             "Parameters": {
                                                 "Words": [
                                                     "enthusiastic"
-                                                ],
-                                                "CorrectScore": 0.5,
-                                                "CorrectDelay": 1000,
-                                                "IncorrectDelay": 5000
+                                                ]
                                             }
                                         }
                                     ]
@@ -475,15 +475,15 @@
                                             "Type": "Buttons",
                                             "CorrectFeedback": "Correct!",
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                            "CorrectScore": 0.5,
+                                            "CorrectDelay": 1000,
+                                            "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
                                                     "Yes",
                                                     "No"
                                                 ],
-                                                "Answer": "No",
-                                                "CorrectScore": 0.5,
-                                                "CorrectDelay": 1000,
-                                                "IncorrectDelay": 5000
+                                                "Answer": "No"
                                             }
                                         }
                                     ]
