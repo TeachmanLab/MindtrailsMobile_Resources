@@ -481,6 +481,29 @@
                                             }
                                         }
                                     ]
+                                },
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Your English teacher calls on you to answer a question about the book you just read. You say your best answer and your peers are quiet.\n\nHere are some thoughts that might pop into mind: "
+                                            }
+                                        },
+                                        {
+                                            "Type": "TimedText",
+                                            "Parameters": {
+                                                "Text": [
+                                                    "My answer was thoughtful. ",
+                                                    "It was nice to be able to share what I think about the book.",
+                                                    "My classmates are judging my wrong answer. ",
+                                                    "My answer sounded dumb because I didn't understand the book, but no one will remember tomorrow.",
+                                                    "If my English teacher didn't call on me, I wouldn't have made a fool of myself. I'll have a better answer next time. "
+                                                ],
+                                                "Duration": 45
+                                            }
+                                        }
+                                    ]
                                 }
                             ]
                         }
