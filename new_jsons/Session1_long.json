@@ -173,7 +173,12 @@
                                     "Type": "Buttons",
                                     "Parameters": {
                                         "Items": [
-                                            "Not at all vivid;Somewhat vivid;Moderately vivid;Very vivid;Totally vivid;Prefer not to answer"
+                                            "Not at all vivid",
+                                            "Somewhat vivid",
+                                            "Moderately vivid",
+                                            "Very vivid",
+                                            "Totally vivid",
+                                            "Prefer not to answer"
                                         ]
                                     }
                                 }
@@ -191,7 +196,11 @@
                                     "Type": "Buttons",
                                     "Parameters": {
                                         "Items": [
-                                            "Very likely to turn out well;Somewhat likely to turn out well;Neutral;Somewhat likely to turn out badly;Very likely to turn out badly;Prefer not to answer"
+                                            "Very likely to turn out well",
+                                            "Somewhat likely to turn out well",
+                                            "Neutral",
+                                            "Somewhat likely to turn out badly;Very likely to turn out badly",
+                                            "Prefer not to answer"
                                         ]
                                     }
                                 }
@@ -209,7 +218,12 @@
                                     "Type": "Buttons",
                                     "Parameters": {
                                         "Items": [
-                                            "Very well;Somewhat well;Neutral;Somewhat badly;Very badly;Prefer not to answer"
+                                            "Very well",
+                                            "Somewhat well",
+                                            "Neutral",
+                                            "Somewhat badly",
+                                            "Very badly",
+                                            "Prefer not to answer"
                                         ]
                                     }
                                 }
