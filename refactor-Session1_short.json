@@ -355,7 +355,8 @@
                                             "Very vivid",
                                             "Totally vivid",
                                             "Prefer not to answer"
-                                        ]
+                                        ],
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -378,7 +379,8 @@
                                             "Somewhat likely to turn out badly",
                                             "Very likely to turn out badly",
                                             "Prefer not to answer"
-                                        ]
+                                        ],
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -401,7 +403,8 @@
                                             "Somewhat badly",
                                             "Very badly",
                                             "Prefer not to answer"
-                                        ]
+                                        ],
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -484,7 +487,6 @@
                                                     "No"
                                                 ],
                                                 "ColumnCount": 2,
-                                                "Selectable": true,
                                                 "Answer": "No"
                                             }
                                         }
