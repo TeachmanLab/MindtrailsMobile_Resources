@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:MindTrailsHome.CustomControls"
+    x:Class="MindTrailsHome.MainPage"
+    BackgroundImageSource="back2.png">
+       <Shell.TitleView
+           Shell.NavBarHasShadow="False">
+       <Grid
+           BackgroundColor="#CAFFFF"
+           Opacity="40"
+           Margin="-40, 30, 0, 0"
+            HeightRequest="150">
+            <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+            <Image x:Name="Logo"
+                    Source="blacklogo.png"
+                   Margin="-5, 15, 0, 0"
+                    HeightRequest="20"
+                    Grid.Column="0"/>
+           <!--<Label Text="Welcome, Leigh!"
+                    TextColor="Black"
+                   Margin="0, 0, 0, 2.5"
+                   VerticalTextAlignment="End"
+                    Padding="0,0,0,2.5"
+                   FontAttributes="Bold"
+                  Grid.Column="1"
+                    FontSize="28"/>-->
+           <StackLayout
+               Grid.Column="1">
+            <Label Text="MindTrails"
+                    TextColor="#393939"
+                   Margin="0, 0, 0, 2.5"
+                   VerticalOptions="End"
+                   VerticalTextAlignment="End"
+                    Padding="0,0,0,0"
+                   FontFamily="Source Sans Pro"
+                   FontAttributes="Bold"
+                    FontSize="28"/>
+           <Label Text="Understand your thinking."
+                    TextColor="#393939"
+                  FontFamily="Source Sans Pro"
+                  FontAttributes="Bold"
+                  VerticalOptions="End"
+                   Margin="0, -2, 0, 0"
+                   VerticalTextAlignment="End"
+                    Padding="0,0,0,0"
+                    FontSize="14"/>
+           <Label Text="Feel less anxious."
+                    TextColor="#393939"
+                  FontFamily="Source Sans Pro"
+                   Margin="0, -0.5, 0, 2.5"
+                   VerticalTextAlignment="End"
+                  VerticalOptions="End"
+                    Padding="0,0,0,2.5"
+                   FontAttributes="Bold"
+                    FontSize="14"/>
+            </StackLayout>
+        </Grid>
+    </Shell.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <AbsoluteLayout Margin="0">
+                <BoxView BackgroundColor="#CAFFFF"
+                       AbsoluteLayout.LayoutBounds="0, -50, 395, 100"
+                         CornerRadius="0"/>
+                <!--<Grid AbsoluteLayout.LayoutBounds="0, 0, 395, 40">
+                    <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="7*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="Logo"
+                            Source="Logo.png"
+                            HeightRequest="20"
+                            Grid.Column="0"/>
+                    <Label Text="Welcome, Leigh!"
+                           TextColor="White"
+                           VerticalTextAlignment="Center"
+                    Padding="10,0,0,0"
+                            Grid.Column="1"
+                           HorizontalTextAlignment="Start"
+                           FontAttributes="Bold"
+                           FontSize="20" />
+                </Grid>-->
+                <Frame BackgroundColor="White"
+                       BorderColor="LightGray"
+                         CornerRadius="10"
+                         HeightRequest="120"
+                         Margin="10, 0, 2.5, 0"
+                         AbsoluteLayout.LayoutBounds="0, 0, 195, 160" >
+                    <AbsoluteLayout
+                        Margin="0"
+                        Padding="0">
+                        <Image Source="blue_blob.png"
+                               AbsoluteLayout.LayoutBounds="-20, 20, 195, 160"/>
+                        <StackLayout
+                            Margin="0"
+                            AbsoluteLayout.LayoutBounds="0, 0"
+                            Padding="0">
+                            <!--<Label Text="4"
+                                   TextColor="#707070"
+                                   FontSize="75"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="CenterAndExpand"/>-->
+                            <Image Source="trophy.png"
+                                   VerticalOptions="CenterAndExpand"
+                                   HeightRequest="80"/>
+                            <Label Text="4 sessions completed"
+                                   TextColor="#424242"
+                                   HorizontalTextAlignment="Center"
+                                   HorizontalOptions="Center"/>
+                            <Label Text="View completed sessions"
+                                   TextColor="DarkGray"
+                                   FontSize="12"
+                                   HorizontalTextAlignment="Center"
+                                   HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </AbsoluteLayout>
+                </Frame>
+                
+                <Frame BackgroundColor="White"
+                       BorderColor="LightGray"
+                         CornerRadius="10"
+                         HeightRequest="120"
+                         Margin="2.5, 0, 10, 0"
+                         AbsoluteLayout.LayoutBounds="200, 0, 195, 160">
+
+                    <AbsoluteLayout
+                        Margin="0"
+                        Padding="0">
+                        <Image Source="purple_blob.png"
+                               AbsoluteLayout.LayoutBounds="-20, -60, 195, 160"/>
+                        <StackLayout
+                            Margin="0"
+                            AbsoluteLayout.LayoutBounds="0, 0, 140, 115"
+                            Padding="0">
+                            <!--<Label Text="1"
+                                   TextColor="#707070"
+                                   FontSize="75"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="Center"
+                                   VerticalOptions="CenterAndExpand"/>-->
+                            <Image Source="unlocked.png"
+                                   VerticalOptions="CenterAndExpand"
+                                   HeightRequest="80"/>
+                            <Label Text="1 new session"
+                                    TextColor="#424242"
+                                   HorizontalTextAlignment="Center"
+                                    HorizontalOptions="Center"/>
+                            <Label Text="Tap to start session"
+                                   TextColor="DarkGray"
+                                   FontSize="12"
+                                   HorizontalTextAlignment="Center"
+                                   HorizontalOptions="Center"/>
+                        </StackLayout>
+                    </AbsoluteLayout>
+                </Frame>
+            </AbsoluteLayout>
+           
+            <Grid
+                VerticalOptions="EndAndExpand"
+                Margin="0,0,0,60"
+                RowSpacing="0"
+                ColumnSpacing="0"
+                Padding="2.5">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <controls:MyButton
+                    Grid.Row="0"
+                    Grid.Column="0"
+                    Margin="0,0,1.75,1.75"
+                    Opacity="13"
+                    FrameBackgroundColor="#21206AFF"
+                    Image="Logo.png"
+                    TextColor="#838384"
+                    Text="What is MindTrails?">
+                </controls:MyButton>
+                
+                <controls:MyButton
+                    Grid.Row="0"
+                    Margin="1.75, 0, 0,1.75"
+                    Grid.Column="1"
+                    FrameBackgroundColor="#1A0053D0"
+                    TextColor="#838384"
+                    Image="instructions_multi.png"
+                    Text="Instructions">
+                </controls:MyButton>
+                <controls:MyButton
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="0, 1.75, 1.75,0"
+                    FrameBackgroundColor="#1A5C2FDA"
+                    TextColor="#838384"
+                    Image="resources_multi.png"
+                    Text="Resources">
+                </controls:MyButton>
+                <controls:MyButton
+                    Grid.Row="1"
+                    Grid.Column="0"
+                    Margin="1.75, 1.75, 0,0"
+                    TextColor="#838384"
+                    FrameBackgroundColor="#1A00C2FF"
+                    Image="anxiety_multi.png"
+                    Text="What is Anxiety?">
+                </controls:MyButton>
+           </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

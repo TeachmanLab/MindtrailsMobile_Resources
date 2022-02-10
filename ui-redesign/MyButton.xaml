@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MindTrailsHome.CustomControls.MyButton">
+    <ContentView.Content>
+        <Frame CornerRadius="5"
+               Opacity="14"
+               x:Name="myFrame">
+            <StackLayout Orientation="Vertical"
+                         x:Name="stack"
+                         BackgroundColor="Transparent">
+                <Image x:Name="btnIcon"
+                       HeightRequest="90"
+                       HorizontalOptions="CenterAndExpand"
+                       VerticalOptions="Center"
+                       BackgroundColor="Transparent"/>
+                <Label x:Name="btnText"
+                       HorizontalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       VerticalOptions="End"
+                       TextColor="White"
+                       FontAttributes="Bold"
+                       BackgroundColor="Transparent"
+                       FontSize="18"/>
+            </StackLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

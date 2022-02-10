@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Shell xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+                xmlns:local="clr-namespace:MindTrailsHome"
+             mc:Ignorable="d"
+             x:Class="MindTrailsHome.Menu"
+       BackgroundColor="#CAFFFF"
+       NavBarHasShadow="False"
+       Title="Welcome to MindTrails!"
+       FlyoutBackgroundColor="Black"
+       Padding="0">
+    <FlyoutItem
+        Title="Hi"
+        FlyoutIcon="hamburger_icon.png"
+        Shell.TabBarIsVisible="False"
+        FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent Title="Home Page"
+                Icon="homeMenu.png"
+                ContentTemplate="{DataTemplate local:MainPage}"
+                IsTabStop="True"/>
+        <ShellContent Title="What is MindTrails?"
+                Icon="logoMenu.png"
+                ContentTemplate="{DataTemplate local:WhatisMindTrails}"
+                IsTabStop="True"/>
+        <ShellContent Title="Instructions"
+                      Icon="instructionsMenu.png"
+                      ContentTemplate="{DataTemplate local:Instructions}"
+                      IsTabStop="True"/>
+        <ShellContent Title="What is Anxiety?"
+                      Icon="anxietyMenu.png"
+                      ContentTemplate="{DataTemplate local:WhatisAnxiety}"
+                      IsTabStop="True"/>
+        <ShellContent Title="My Favorites"
+                      Icon="starMenu.png"
+                      ContentTemplate="{DataTemplate local:MainPage}"
+                      IsTabStop="True"/>
+        <ShellContent Title="Resources"
+                Icon="resourcesMenu.png"
+                ContentTemplate="{DataTemplate local:MainPage}" />
+        <!--<ShellContent Title="About MindTrails"/>-->
+    </FlyoutItem>
+    <ShellContent Title="Pause Training"
+                  Icon="pause.png"
+                ContentTemplate="{DataTemplate local:MainPage}" />
+    <ShellContent Title="Cancel Training"
+                  Icon="cancel.png"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+    <ShellContent Title="Log Out"
+                  Icon="logout.png"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+    <ShellContent Title="Unenroll in this study"
+                  Icon="unenroll.png"
+            ContentTemplate="{DataTemplate local:MainPage}" />
+</Shell>
