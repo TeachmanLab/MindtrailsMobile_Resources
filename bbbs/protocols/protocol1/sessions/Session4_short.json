@@ -267,6 +267,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -280,7 +281,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "excited"
@@ -338,6 +338,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -351,7 +352,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "doubtful"
@@ -409,6 +409,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -422,7 +423,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "calm"
@@ -480,6 +480,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -493,7 +494,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "nauseous"
@@ -504,6 +504,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -517,7 +518,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "confident"
@@ -575,6 +575,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -588,7 +589,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "smart"
@@ -646,6 +646,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -659,7 +660,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "understand"
@@ -717,6 +717,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -730,7 +731,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "confident"
@@ -788,6 +788,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -801,7 +802,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "nervous"
@@ -812,6 +812,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -825,7 +826,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "prepared"
@@ -883,6 +883,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -896,7 +897,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "coming"
@@ -954,6 +954,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -967,7 +968,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "project"
@@ -1042,6 +1042,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1055,7 +1056,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "alright"
@@ -1113,6 +1113,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1126,7 +1127,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sad"
@@ -1137,6 +1137,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1150,7 +1151,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "accepting"
@@ -1208,6 +1208,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1221,7 +1222,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "fascinated"
@@ -1279,6 +1279,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1292,7 +1293,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "disappointed"
@@ -1350,6 +1350,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1363,7 +1364,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "satisfied"
@@ -1427,6 +1427,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1440,7 +1441,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "nice"
@@ -1498,6 +1498,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1511,7 +1512,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "nervous"
@@ -1522,6 +1522,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1535,7 +1536,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "excited"
@@ -1593,6 +1593,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1606,7 +1607,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "joke"
@@ -1664,6 +1664,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1677,7 +1678,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "creative"
@@ -1735,6 +1735,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1748,7 +1749,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "forgotten"
@@ -1806,6 +1806,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1819,7 +1820,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "distracted"
@@ -1877,6 +1877,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1890,7 +1891,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "normal"
@@ -1948,6 +1948,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1961,7 +1962,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "typical"
@@ -2019,6 +2019,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2032,7 +2033,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "insecure"
@@ -2043,6 +2043,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2056,7 +2057,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "comforted"
@@ -2114,6 +2114,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2127,7 +2128,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "awesome"
@@ -2202,6 +2202,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2215,7 +2216,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "alright"
@@ -2273,6 +2273,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2286,7 +2287,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sad"
@@ -2297,6 +2297,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2310,7 +2311,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "accepting"
@@ -2368,6 +2368,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2381,7 +2382,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "fascinated"
@@ -2439,6 +2439,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2452,7 +2453,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "disappointed"
@@ -2510,6 +2510,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2523,7 +2524,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "satisfied"
@@ -2587,6 +2587,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2600,7 +2601,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "notice"
@@ -2658,6 +2658,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2671,7 +2672,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sick"
@@ -2682,6 +2682,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2695,7 +2696,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "normal"
@@ -2753,6 +2753,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2766,7 +2767,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "manageable"
@@ -2824,6 +2824,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2837,7 +2838,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "low"
@@ -2895,6 +2895,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2908,7 +2909,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "enjoyable"
@@ -2966,6 +2966,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2979,7 +2980,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "excitement"
@@ -3037,6 +3037,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3050,7 +3051,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "worried"
@@ -3108,6 +3108,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3121,7 +3122,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "invigorated"
@@ -3179,6 +3179,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3192,7 +3193,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "scary"
@@ -3203,6 +3203,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3216,7 +3217,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "hill"
@@ -3274,6 +3274,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3287,7 +3288,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "healthy"
@@ -3362,6 +3362,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3375,7 +3376,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "alright"
@@ -3433,6 +3433,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3446,7 +3447,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sad"
@@ -3457,6 +3457,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3470,7 +3471,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "accepting"
@@ -3528,6 +3528,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3541,7 +3542,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "fascinated"
@@ -3599,6 +3599,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3612,7 +3613,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "disappointed"
@@ -3670,6 +3670,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3683,7 +3684,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "satisfied"
@@ -3747,6 +3747,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3760,7 +3761,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "confident"
@@ -3818,6 +3818,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3831,7 +3832,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "worried"
@@ -3842,6 +3842,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3855,7 +3856,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "you"
@@ -3913,6 +3913,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3926,7 +3927,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "initiate"
@@ -3984,6 +3984,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3997,7 +3998,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "better"
@@ -4055,6 +4055,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4068,7 +4069,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "worried"
@@ -4126,6 +4126,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4139,7 +4140,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "cope"
@@ -4197,6 +4197,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4210,7 +4211,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sad"
@@ -4221,6 +4221,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4234,7 +4235,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "unique"
@@ -4292,6 +4292,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4305,7 +4306,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "cool"
@@ -4363,6 +4363,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4376,7 +4377,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sleeping"
@@ -4434,6 +4434,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4447,7 +4448,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "excited"
@@ -4522,6 +4522,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4535,7 +4536,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "alright"
@@ -4593,6 +4593,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4606,7 +4607,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sad"
@@ -4617,6 +4617,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4630,7 +4631,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "accepting"
@@ -4688,6 +4688,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4701,7 +4702,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "fascinated"
@@ -4759,6 +4759,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4772,7 +4773,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "disappointed"
@@ -4830,6 +4830,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4843,7 +4844,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "satisfied"
@@ -4907,6 +4907,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4920,7 +4921,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "calm"
@@ -4978,6 +4978,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4991,7 +4992,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "fault"
@@ -5049,6 +5049,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5062,7 +5063,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "nervous"
@@ -5073,6 +5073,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5086,7 +5087,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "apologize"
@@ -5144,6 +5144,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5157,7 +5158,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "confident"
@@ -5215,6 +5215,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5228,7 +5229,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "tolerable"
@@ -5286,6 +5286,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5299,7 +5300,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "stressed"
@@ -5357,6 +5357,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5370,7 +5371,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "calm"
@@ -5428,6 +5428,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5441,7 +5442,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "upset"
@@ -5452,6 +5452,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5465,7 +5466,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "better"
@@ -5523,6 +5523,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5536,7 +5537,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "playing"
@@ -5594,6 +5594,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5607,7 +5608,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "ready"
@@ -5682,6 +5682,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5695,7 +5696,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "alright"
@@ -5753,6 +5753,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5766,7 +5767,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sad"
@@ -5777,6 +5777,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5790,7 +5791,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "accepting"
@@ -5848,6 +5848,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5861,7 +5862,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "fascinated"
@@ -5919,6 +5919,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -5932,7 +5933,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "disappointed"
@@ -5990,6 +5990,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6003,7 +6004,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "satisfied"
@@ -6067,6 +6067,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6080,7 +6081,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "good"
@@ -6138,6 +6138,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6151,7 +6152,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "scared"
@@ -6162,6 +6162,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6175,7 +6176,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "alright"
@@ -6233,6 +6233,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6246,7 +6247,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "minimal"
@@ -6304,6 +6304,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6317,7 +6318,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "safe"
@@ -6375,6 +6375,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6388,7 +6389,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "scared"
@@ -6399,6 +6399,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6412,7 +6413,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "calmer"
@@ -6470,6 +6470,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6483,7 +6484,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "busy"
@@ -6541,6 +6541,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6554,7 +6555,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "successfully"
@@ -6612,6 +6612,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6625,7 +6626,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "uneasy"
@@ -6683,6 +6683,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6696,7 +6697,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "fine"
@@ -6754,6 +6754,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6767,7 +6768,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "enjoyable"
@@ -6842,6 +6842,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6855,7 +6856,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "alright"
@@ -6913,6 +6913,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6926,7 +6927,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "sad"
@@ -6937,6 +6937,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -6950,7 +6951,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "accepting"
@@ -7008,6 +7008,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -7021,7 +7022,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "fascinated"
@@ -7079,6 +7079,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -7092,7 +7093,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "disappointed"
@@ -7150,6 +7150,7 @@
                                 },
                                 {
                                     "Name": "Puzzle",
+                                    "ShowButtons": "WhenCorrect",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -7163,7 +7164,6 @@
                                             "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                             "CorrectScore": 0.5,
                                             "IncorrectDelay": 5000,
-                                            "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Words": [
                                                     "satisfied"
