@@ -291,7 +291,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 1 ",
+                                    "Name": "Important test",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic0.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -315,11 +317,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "This test will go well. ",
-                                                    "This class is so hard to keep up in, but decide to try a little harder.",
+                                                    "I can ask for help to study for this test. ",
                                                     "My teacher will think I'm dumb if I do not do well. ",
                                                     "I think that I may never catch on, but know that if I try, I'll be able to.",
-                                                    "I can ask for help to study for this test. "
+                                                    "This test will go well. ",
+                                                    "This class is so hard to keep up in, but decide to try a little harder."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -378,10 +380,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I am scared about failing, but know that trying is what matters. ",
                                                     "I feel ready to get going with studying. ",
-                                                    "I feel excited to prove myself wrong. ",
                                                     "I am worried about taking this test and failing.",
+                                                    "I feel excited to prove myself wrong. ",
+                                                    "I am scared about failing, but know that trying is what matters. ",
                                                     "I'm worried about asking for help to study, but know that it'll help me get a better grade. "
                                                 ],
                                                 "Duration": 15
@@ -441,11 +443,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'll pretend to be sick on the day of the class so I don't have to take the test. ",
-                                                    "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways. ",
-                                                    "I'll study really hard and ask my teacher for help if I need to.",
+                                                    "I'll ask my friends in the class questions if I don't understand something. ",
                                                     "I really don't want to study, but I know it will pay off on the test. ",
-                                                    "I'll ask my friends in the class questions if I don't understand something. "
+                                                    "I'll pretend to be sick on the day of the class so I don't have to take the test. ",
+                                                    "I'll study really hard and ask my teacher for help if I need to.",
+                                                    "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -509,7 +511,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 2",
+                                    "Name": "Not doing well in math",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic1.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -534,10 +538,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "My parents will think I need some extra help, and I am okay with that. ",
-                                                    "My guardian may be upset, but that is something that I can understand. ",
-                                                    "My teacher will tell my parents I am not doing well. ",
                                                     "I have been trying really hard in that class. ",
-                                                    "My guardian will be proud of me that I'm trying hard. "
+                                                    "My guardian may be upset, but that is something that I can understand. ",
+                                                    "My guardian will be proud of me that I'm trying hard. ",
+                                                    "My teacher will tell my parents I am not doing well. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -596,11 +600,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I feel bad that I am a bit behind, but realize these things happen. ",
+                                                    "I feel embarrassed that my guardian will learn about my lack of progress, but decide it is best for them to know. ",
                                                     "I am nervous that my guardian will be let down by my progress. ",
                                                     "I feel happy that my guardian gets to learn about my progress. ",
-                                                    "I feel embarrassed that my guardian will learn about my lack of progress, but decide it is best for them to know. ",
-                                                    "I'm feeling calm knowing that my guardian will accept me no matter what. ",
-                                                    "I feel bad that I am a bit behind, but realize these things happen. "
+                                                    "I'm feeling calm knowing that my guardian will accept me no matter what. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -660,9 +664,9 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I will want to get upset, but decide to keep calm when my guardian gets home.",
-                                                    "I may want to give up on math, but decide to keep trying because I need to pass this class.",
-                                                    "I take some deep breaths while my guardian is talking to my teacher. ",
                                                     "I'll ask my guardian for advice. ",
+                                                    "I take some deep breaths while my guardian is talking to my teacher. ",
+                                                    "I may want to give up on math, but decide to keep trying because I need to pass this class.",
                                                     "I'll blame my grades on my teacher. "
                                                 ],
                                                 "Duration": 15
@@ -727,7 +731,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 3",
+                                    "Name": "Walking up stairs",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic2.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -752,10 +758,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I wonder if my teacher will notice how out of breath I am, but decide it is okay if she does notice. ",
-                                                    "Am I having a heart attack? ",
                                                     "I made it up those stairs really quickly. ",
                                                     "I am excited for the meeting. ",
-                                                    "I wonder about all the reasons I could be so out of breath, but decide it is normal when rushing to a meeting. "
+                                                    "I wonder about all the reasons I could be so out of breath, but decide it is normal when rushing to a meeting. ",
+                                                    "Am I having a heart attack? "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -814,11 +820,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm worried that there's something really wrong with me. ",
                                                     "I'm panicking a little about whether I'm going to be ok, but remind myself that it's normal to feel out of breath after walking up a bunch of stairs. ",
-                                                    "I feel embarrassed about being out of breath, but decide to listen to what my teacher has to say. ",
                                                     "I'm happy I made the meeting on time. ",
-                                                    "I'm feeling excited now that my blood is pumping. ",
-                                                    "I'm worried that there's something really wrong with me. "
+                                                    "I feel embarrassed about being out of breath, but decide to listen to what my teacher has to say. ",
+                                                    "I'm feeling excited now that my blood is pumping. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -877,11 +883,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I tell myself that I'm so nervous about this meeting that my heart is beating quickly, but remind myself that it's actually just my body's reaction to coming up the stairs quickly. ",
                                                     "I take a few deep breaths. ",
-                                                    "I take a few sips from my water bottle. ",
+                                                    "I tell myself that I'm so nervous about this meeting that my heart is beating quickly, but remind myself that it's actually just my body's reaction to coming up the stairs quickly. ",
                                                     "I feel the urge to tell my teacher that something's really wrong with me, but remind myself that I'm actually OK. ",
-                                                    "I start looking up symptoms of a heart attack online to see if I'm dying. "
+                                                    "I start looking up symptoms of a heart attack online to see if I'm dying. ",
+                                                    "I take a few sips from my water bottle. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -980,7 +986,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 1 ",
+                                    "Name": "Spilled slushie",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic3.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1004,10 +1012,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think about how many people this has probably happened to. ",
                                                     "It feels like my friends are judging me, but decide they probably don't really care. ",
-                                                    "I think I will look sloppy in front of my friends. ",
                                                     "I think about how my parents will get a kick out of this.",
+                                                    "I think about how many people this has probably happened to. ",
+                                                    "I think I will look sloppy in front of my friends. ",
                                                     "I am getting a lot of stares, but it could be that they think the slushie looks good."
                                                 ],
                                                 "Duration": 15
@@ -1068,9 +1076,9 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel like a fool and want to say sorry. ",
-                                                    "I feel lucky I didn't drop the whole slushie. ",
                                                     "I'm mad that I wasted my money, but know that I'll be ok. ",
                                                     "I'm confident my parent will be able to get the stain out.",
+                                                    "I feel lucky I didn't drop the whole slushie. ",
                                                     "I'm embarrassed that I have this huge stain on my white shirt, but probably no one else cares. "
                                                 ],
                                                 "Duration": 15
@@ -1130,10 +1138,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I stay silent the rest of the time we're shopping. ",
-                                                    "I feel like crying, but take a deep breath and keep shopping with my friends. ",
-                                                    "I clean up and keep shopping. ",
                                                     "I want to go home, but stay at the mall. ",
+                                                    "I stay silent the rest of the time we're shopping. ",
+                                                    "I clean up and keep shopping. ",
+                                                    "I feel like crying, but take a deep breath and keep shopping with my friends. ",
                                                     "I laugh with my friends about my spill. "
                                                 ],
                                                 "Duration": 15
@@ -1198,7 +1206,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 2",
+                                    "Name": "Shattered glass",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic4.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1222,11 +1232,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think about how everyone sometimes has clumsy moments. ",
-                                                    "The waiter will be irritated, but I'll apologize and offer to help clean up.",
                                                     "People in my family have dropped stuff at restaurants in the past. ",
-                                                    "I have to be an embarrassment. ",
-                                                    "I think about how my family may be annoyed, but I can handle that. "
+                                                    "I think about how everyone sometimes has clumsy moments. ",
+                                                    "I think about how my family may be annoyed, but I can handle that. ",
+                                                    "The waiter will be irritated, but I'll apologize and offer to help clean up.",
+                                                    "I have to be an embarrassment. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1285,11 +1295,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel bad, but remind myself that I'll forget about this in a few days. ",
+                                                    "I have a knot in my stomach after the whole restaurant looked at me. ",
                                                     "I'm happy that the waiter doesn't seem to mind that much. ",
                                                     "I'm embarrassed that I dropped the glass, but know that people drop things all of the time. ",
-                                                    "I have a knot in my stomach after the whole restaurant looked at me. ",
-                                                    "I'm able to stay calm. "
+                                                    "I'm able to stay calm. ",
+                                                    "I feel bad, but remind myself that I'll forget about this in a few days. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1348,11 +1358,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to never come back to the restaurant, but will say yes to coming back if my family wants to come back. ",
-                                                    "I offer to leave extra money for the tip. ",
                                                     "I cry because I feel terrible. ",
                                                     "I want to cry, but decide that would not be helpful. ",
-                                                    "I offer to do extra chores at home, so money can be left to replace the glass. "
+                                                    "I offer to leave extra money for the tip. ",
+                                                    "I offer to do extra chores at home, so money can be left to replace the glass. ",
+                                                    "I want to never come back to the restaurant, but will say yes to coming back if my family wants to come back. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1416,7 +1426,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 3",
+                                    "Name": "Cute peer on social media",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic5.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1440,11 +1452,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think they want to get to know me.",
-                                                    "I think they may not like my profile, but decide they probably won't put that much thought into it. ",
                                                     "I bet they'll stop following me after they see what I post. But, they probably won't actually unfollow me.",
                                                     "They're probably making fun of my pictures. ",
-                                                    "I think it's flattering."
+                                                    "I think it's flattering.",
+                                                    "I think they may not like my profile, but decide they probably won't put that much thought into it. ",
+                                                    "I think they want to get to know me."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1504,9 +1516,9 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel energized by the add. ",
-                                                    "I feel flattered that they wanted to follow me. ",
                                                     "I feel curious about the reason they added me, but realize it is just because they wanted to. ",
                                                     "I feel worried about what they think of me, but know that I can deal with not knowing. ",
+                                                    "I feel flattered that they wanted to follow me. ",
                                                     "I wonder if the add was an accident. "
                                                 ],
                                                 "Duration": 15
@@ -1566,11 +1578,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I talk to my mom about how excited I am.",
+                                                    "I unfollow the people that they might not like. ",
                                                     "I add more fun pictures. ",
+                                                    "I talk to my mom about how excited I am.",
                                                     "I want to message them and ask about the add, but decide to not put much thought into the add.",
-                                                    "I want to gossip about the add to my friends, but decide to stay modest. ",
-                                                    "I unfollow the people that they might not like. "
+                                                    "I want to gossip about the add to my friends, but decide to stay modest. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1669,7 +1681,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 1 ",
+                                    "Name": "Walking up stairs",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic6.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1695,9 +1709,9 @@
                                                 "Text": [
                                                     "I wonder if my teacher will notice how out of breath I am, but decide it is okay if she does notice. ",
                                                     "I wonder about all the reasons I could be so out of breath, but decide it is normal when rushing to a meeting. ",
-                                                    "Am I having a heart attack? ",
+                                                    "I made it up those stairs really quickly. ",
                                                     "I am excited for the meeting. ",
-                                                    "I made it up those stairs really quickly. "
+                                                    "Am I having a heart attack? "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1756,11 +1770,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm happy I made the meeting on time. ",
-                                                    "I'm feeling excited now that my blood is pumping. ",
-                                                    "I'm worried that there's something really wrong with me. ",
                                                     "I feel embarrassed about being out of breath, but decide to listen to what my teacher has to say. ",
-                                                    "I'm panicking a little about whether I'm going to be ok, but remind myself that it's normal to feel out of breath after walking up a bunch of stairs. "
+                                                    "I'm worried that there's something really wrong with me. ",
+                                                    "I'm panicking a little about whether I'm going to be ok, but remind myself that it's normal to feel out of breath after walking up a bunch of stairs. ",
+                                                    "I'm happy I made the meeting on time. ",
+                                                    "I'm feeling excited now that my blood is pumping. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1819,11 +1833,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I take a few sips from my water bottle. ",
-                                                    "I take a few deep breaths. ",
                                                     "I start looking up symptoms of a heart attack online to see if I'm dying. ",
                                                     "I feel the urge to tell my teacher that something's really wrong with me, but remind myself that I'm actually OK. ",
-                                                    "I tell myself that I'm so nervous about this meeting that my heart is beating quickly, but remind myself that it's actually just my body's reaction to coming up the stairs quickly. "
+                                                    "I tell myself that I'm so nervous about this meeting that my heart is beating quickly, but remind myself that it's actually just my body's reaction to coming up the stairs quickly. ",
+                                                    "I take a few deep breaths. ",
+                                                    "I take a few sips from my water bottle. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1887,7 +1901,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 2",
+                                    "Name": "Presentation in class",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic7.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -1911,11 +1927,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "Everyone will see that my hands are shaking. ",
                                                     "It's normal to feel a little warm when you're anxious about presenting. ",
-                                                    "I've done everything I can to prepare for this presentation. ",
                                                     "I want to sit back down, but instead go forward with the presentation. ",
                                                     "I want to cover my face, but stand up tall and present anyway.",
-                                                    "Everyone will see that my hands are shaking. "
+                                                    "I've done everything I can to prepare for this presentation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1974,11 +1990,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm worried that I'm going to pass out. ",
-                                                    "I'm nervous that people can see my hands shaking, but they probably won't be able to see from where they're sitting. ",
                                                     "I'm scared that my cheeks feeling hot means that I'm going to faint, but I'll probably be OK and this feeling will pass. ",
-                                                    "I'm happy with how much I've prepared for this presentation. ",
-                                                    "I'm relieved to get this presentation over with. "
+                                                    "I'm relieved to get this presentation over with. ",
+                                                    "I'm nervous that people can see my hands shaking, but they probably won't be able to see from where they're sitting. ",
+                                                    "I'm worried that I'm going to pass out. ",
+                                                    "I'm happy with how much I've prepared for this presentation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2038,10 +2054,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I smile at the class and start my presentation. ",
-                                                    "I speak with a strong tone.",
-                                                    "I ask the teacher if I can present another day. ",
                                                     "I want to go to the bathroom and splash my face with water, but decide to power through. ",
-                                                    "I consider pretending that I'm sick so I don't have to present, but challenge myself to give the presentation anyway. "
+                                                    "I consider pretending that I'm sick so I don't have to present, but challenge myself to give the presentation anyway. ",
+                                                    "I speak with a strong tone.",
+                                                    "I ask the teacher if I can present another day. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2105,7 +2121,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 3",
+                                    "Name": "Can't afford a gift",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic8.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2129,11 +2147,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think about how I should've brought a gift, but know that my friend is glad I'm there.",
-                                                    "If people judge me for not bringing a gift, I'll still have a good time at the party. ",
-                                                    "It'll be good to see lots of the people in my grade. ",
                                                     "My friend will be embarrassed to have me because I don't have a gift. ",
-                                                    "My friend will be happy that I'm able to go. "
+                                                    "My friend will be happy that I'm able to go. ",
+                                                    "I think about how I should've brought a gift, but know that my friend is glad I'm there.",
+                                                    "It'll be good to see lots of the people in my grade. ",
+                                                    "If people judge me for not bringing a gift, I'll still have a good time at the party. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2192,11 +2210,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel happy to be around all of my friends. ",
-                                                    "I feel guilty for not bringing a present. ",
                                                     "I feel bad, but decide the party will go on.",
                                                     "I'm a little sick to my stomach thinking about not being able to afford a gift, but remind myself that my friend won't judge me. ",
-                                                    "I feel enthusiastic about sharing my good energy. "
+                                                    "I feel enthusiastic about sharing my good energy. ",
+                                                    "I feel guilty for not bringing a present. ",
+                                                    "I feel happy to be around all of my friends. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2255,11 +2273,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I try to sneak by my friend so they don't notice I don't have a gift when I walk in. ",
-                                                    "I want to skip the party so I don't have to think about not being able to afford the present, but decide to push myself to go anyway. I know I'll have a good time.",
+                                                    "I have fun dancing at the party. ",
                                                     "I'm tempted to leave before the presents are opened, but remind myself that I'm actually having fun.",
                                                     "I smile at all of my friends. ",
-                                                    "I have fun dancing at the party. "
+                                                    "I try to sneak by my friend so they don't notice I don't have a gift when I walk in. ",
+                                                    "I want to skip the party so I don't have to think about not being able to afford the present, but decide to push myself to go anyway. I know I'll have a good time."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2358,7 +2376,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 1 ",
+                                    "Name": "Cute peer on social media",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic9.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2382,11 +2402,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think they want to get to know me.",
-                                                    "I bet they'll stop following me after they see what I post. But, they probably won't actually unfollow me.",
-                                                    "I think they may not like my profile, but decide they probably won't put that much thought into it. ",
+                                                    "I think it's flattering.",
                                                     "They're probably making fun of my pictures. ",
-                                                    "I think it's flattering."
+                                                    "I think they may not like my profile, but decide they probably won't put that much thought into it. ",
+                                                    "I think they want to get to know me.",
+                                                    "I bet they'll stop following me after they see what I post. But, they probably won't actually unfollow me."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2446,10 +2466,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel worried about what they think of me, but know that I can deal with not knowing. ",
-                                                    "I feel energized by the add. ",
+                                                    "I feel flattered that they wanted to follow me. ",
                                                     "I feel curious about the reason they added me, but realize it is just because they wanted to. ",
                                                     "I wonder if the add was an accident. ",
-                                                    "I feel flattered that they wanted to follow me. "
+                                                    "I feel energized by the add. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2508,11 +2528,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to message them and ask about the add, but decide to not put much thought into the add.",
                                                     "I want to gossip about the add to my friends, but decide to stay modest. ",
                                                     "I add more fun pictures. ",
-                                                    "I talk to my mom about how excited I am.",
-                                                    "I unfollow the people that they might not like. "
+                                                    "I want to message them and ask about the add, but decide to not put much thought into the add.",
+                                                    "I unfollow the people that they might not like. ",
+                                                    "I talk to my mom about how excited I am."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2576,7 +2596,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 2",
+                                    "Name": "Not a lot of likes",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic10.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2601,10 +2623,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "Even if no one likes what I posted, I do, and that's what's important. ",
-                                                    "Others may not like my new post, but I do and that's what counts.",
+                                                    "People think my post is dumb. ",
                                                     "People must not be online right now. ",
                                                     "My followers may be waiting to see what I post next. ",
-                                                    "People think my post is dumb. "
+                                                    "Others may not like my new post, but I do and that's what counts."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2663,11 +2685,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel sad that I didn't get more likes, but am able to accept that. ",
-                                                    "I'm confident that others will eventually like the new post. ",
-                                                    "I feel uncomfortable not knowing why I didn't receive a lot of likes, but am okay not knowing. ",
                                                     "I'll never try different styles of posts again. ",
-                                                    "I feel good about my the post. "
+                                                    "I'm confident that others will eventually like the new post. ",
+                                                    "I feel sad that I didn't get more likes, but am able to accept that. ",
+                                                    "I feel good about my the post. ",
+                                                    "I feel uncomfortable not knowing why I didn't receive a lot of likes, but am okay not knowing. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2726,11 +2748,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I get frustrated and take down my post. ",
-                                                    "I keep posting things I want to post. ",
-                                                    "I feel like taking down my account for a while, but keep it up instead. ",
+                                                    "I decide to stay in a good mood about my post. ",
                                                     "I want to ask my friends why they think I didn't get more likes, but decide to move on. ",
-                                                    "I decide to stay in a good mood about my post. "
+                                                    "I feel like taking down my account for a while, but keep it up instead. ",
+                                                    "I get frustrated and take down my post. ",
+                                                    "I keep posting things I want to post. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2794,7 +2816,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 3",
+                                    "Name": "Missing spider",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic11.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -2818,10 +2842,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think about how it could bite me, but decide it probably won't.",
-                                                    "I'm glad it's gone. ",
-                                                    "It's going to crawl on me!",
                                                     "I think it went back to it's home.",
+                                                    "It's going to crawl on me!",
+                                                    "I'm glad it's gone. ",
+                                                    "I think about how it could bite me, but decide it probably won't.",
                                                     "I think about how it could be venomous, but realize the chances of that are slim. "
                                                 ],
                                                 "Duration": 15
@@ -2881,11 +2905,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm curious where it went. ",
-                                                    "I'm calm as I get into the shower. ",
                                                     "I'm scared the spider will show up when I least expect it. ",
-                                                    "I'm anxious about getting into the shower, but know I can overcome my fear. ",
-                                                    "I'm grossed out, but remind myself that the spider probably can't hurt me. "
+                                                    "I'm grossed out, but remind myself that the spider probably can't hurt me. ",
+                                                    "I'm calm as I get into the shower. ",
+                                                    "I'm curious where it went. ",
+                                                    "I'm anxious about getting into the shower, but know I can overcome my fear. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2945,9 +2969,9 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I want to spray bug spray everywhere, but decide to go about my bathroom routine.",
+                                                    "I scream and run away. ",
                                                     "I start to play some music. ",
                                                     "I want to call someone to help me find the spider, but decide to just take my shower. ",
-                                                    "I scream and run away. ",
                                                     "I decide to turn the water on. "
                                                 ],
                                                 "Duration": 15
@@ -3047,7 +3071,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 1 ",
+                                    "Name": "Can't afford a gift",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic12.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3071,11 +3097,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "My friend will be happy that I'm able to go. ",
                                                     "It'll be good to see lots of the people in my grade. ",
-                                                    "I think about how I should've brought a gift, but know that my friend is glad I'm there.",
-                                                    "My friend will be embarrassed to have me because I don't have a gift. ",
                                                     "If people judge me for not bringing a gift, I'll still have a good time at the party. ",
-                                                    "My friend will be happy that I'm able to go. "
+                                                    "I think about how I should've brought a gift, but know that my friend is glad I'm there.",
+                                                    "My friend will be embarrassed to have me because I don't have a gift. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3135,10 +3161,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel bad, but decide the party will go on.",
-                                                    "I feel happy to be around all of my friends. ",
-                                                    "I'm a little sick to my stomach thinking about not being able to afford a gift, but remind myself that my friend won't judge me. ",
+                                                    "I feel enthusiastic about sharing my good energy. ",
                                                     "I feel guilty for not bringing a present. ",
-                                                    "I feel enthusiastic about sharing my good energy. "
+                                                    "I feel happy to be around all of my friends. ",
+                                                    "I'm a little sick to my stomach thinking about not being able to afford a gift, but remind myself that my friend won't judge me. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3197,11 +3223,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I smile at all of my friends. ",
+                                                    "I try to sneak by my friend so they don't notice I don't have a gift when I walk in. ",
                                                     "I have fun dancing at the party. ",
                                                     "I'm tempted to leave before the presents are opened, but remind myself that I'm actually having fun.",
-                                                    "I want to skip the party so I don't have to think about not being able to afford the present, but decide to push myself to go anyway. I know I'll have a good time.",
-                                                    "I try to sneak by my friend so they don't notice I don't have a gift when I walk in. "
+                                                    "I smile at all of my friends. ",
+                                                    "I want to skip the party so I don't have to think about not being able to afford the present, but decide to push myself to go anyway. I know I'll have a good time."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3265,7 +3291,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 2",
+                                    "Name": "Upset parents",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic13.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3289,10 +3317,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I immediately blame myself for their fight.",
-                                                    "I wonder how long this argument will last, and remind myself that I can't control what they do.",
-                                                    "They'll be over this in a few days.",
                                                     "I think about how they might continue to get more upset, then I think about how they will calm down with time.",
+                                                    "I immediately blame myself for their fight.",
+                                                    "They'll be over this in a few days.",
+                                                    "I wonder how long this argument will last, and remind myself that I can't control what they do.",
                                                     "I think about how they will be in a better mood later. "
                                                 ],
                                                 "Duration": 15
@@ -3352,11 +3380,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel calm even though they're a little upset. ",
-                                                    "I feel guilty, but realize that I did nothing wrong.",
-                                                    "I feel worried about my parents, but remind myself that I don't have to help them get along. ",
                                                     "I'm glad that I don't have to help them feel better in this moment. ",
-                                                    "I'm anxious about the tension between them. "
+                                                    "I'm anxious about the tension between them. ",
+                                                    "I feel guilty, but realize that I did nothing wrong.",
+                                                    "I feel calm even though they're a little upset. ",
+                                                    "I feel worried about my parents, but remind myself that I don't have to help them get along. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3415,11 +3443,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I tell them that they're being selfish. ",
-                                                    "I go for a walk outside and remind myself that they'll be OK soon. ",
                                                     "I go do something that distracts me from the situation. ",
+                                                    "I call my friends and we talk about what happened in school. ",
                                                     "I want to mention that I feel they are making me feel bad, but I write about it instead. ",
-                                                    "I call my friends and we talk about what happened in school. "
+                                                    "I go for a walk outside and remind myself that they'll be OK soon. ",
+                                                    "I tell them that they're being selfish. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3483,7 +3511,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 3",
+                                    "Name": "Important test",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic14.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3507,11 +3537,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think that I may never catch on, but know that if I try, I'll be able to.",
                                                     "This class is so hard to keep up in, but decide to try a little harder.",
-                                                    "My teacher will think I'm dumb if I do not do well. ",
                                                     "This test will go well. ",
-                                                    "I can ask for help to study for this test. "
+                                                    "I can ask for help to study for this test. ",
+                                                    "I think that I may never catch on, but know that if I try, I'll be able to.",
+                                                    "My teacher will think I'm dumb if I do not do well. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3570,10 +3600,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel excited to prove myself wrong. ",
-                                                    "I am scared about failing, but know that trying is what matters. ",
-                                                    "I feel ready to get going with studying. ",
                                                     "I'm worried about asking for help to study, but know that it'll help me get a better grade. ",
+                                                    "I am scared about failing, but know that trying is what matters. ",
+                                                    "I feel excited to prove myself wrong. ",
+                                                    "I feel ready to get going with studying. ",
                                                     "I am worried about taking this test and failing."
                                                 ],
                                                 "Duration": 15
@@ -3633,10 +3663,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'll ask my friends in the class questions if I don't understand something. ",
                                                     "I'll study really hard and ask my teacher for help if I need to.",
                                                     "I'll pretend to be sick on the day of the class so I don't have to take the test. ",
                                                     "I really don't want to study, but I know it will pay off on the test. ",
-                                                    "I'll ask my friends in the class questions if I don't understand something. ",
                                                     "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways. "
                                                 ],
                                                 "Duration": 15
@@ -3736,7 +3766,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 1 ",
+                                    "Name": "Missing spider",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic15.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3760,11 +3792,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm glad it's gone. ",
-                                                    "I think about how it could bite me, but decide it probably won't.",
-                                                    "I think it went back to it's home.",
                                                     "It's going to crawl on me!",
-                                                    "I think about how it could be venomous, but realize the chances of that are slim. "
+                                                    "I'm glad it's gone. ",
+                                                    "I think about how it could be venomous, but realize the chances of that are slim. ",
+                                                    "I think about how it could bite me, but decide it probably won't.",
+                                                    "I think it went back to it's home."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3823,11 +3855,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm anxious about getting into the shower, but know I can overcome my fear. ",
+                                                    "I'm calm as I get into the shower. ",
                                                     "I'm curious where it went. ",
                                                     "I'm scared the spider will show up when I least expect it. ",
                                                     "I'm grossed out, but remind myself that the spider probably can't hurt me. ",
-                                                    "I'm calm as I get into the shower. "
+                                                    "I'm anxious about getting into the shower, but know I can overcome my fear. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3886,11 +3918,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I decide to turn the water on. ",
-                                                    "I want to call someone to help me find the spider, but decide to just take my shower. ",
                                                     "I want to spray bug spray everywhere, but decide to go about my bathroom routine.",
+                                                    "I scream and run away. ",
+                                                    "I want to call someone to help me find the spider, but decide to just take my shower. ",
                                                     "I start to play some music. ",
-                                                    "I scream and run away. "
+                                                    "I decide to turn the water on. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3954,7 +3986,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 2",
+                                    "Name": "Turned off appliances",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic16.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -3978,11 +4012,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I think about how everything is fine.",
                                                     "I think about how upset my family will be with me, but know that they will understand. ",
                                                     "Our house is really safe, and our fire alarm would alert any neighbors if there was actually a problem. ",
-                                                    "I think about how something bad may happen because I didn't get to check the appliances properly. ",
-                                                    "I think about how everything is fine.",
-                                                    "I think about how I could mention the situation to my family and all will be okay. "
+                                                    "I think about how I could mention the situation to my family and all will be okay. ",
+                                                    "I think about how something bad may happen because I didn't get to check the appliances properly. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4042,10 +4076,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'm miserable worrying about whether everything is off, but remind myself to focus on the present and take a deep breath.",
+                                                    "I feel calm now that I'm in the car and on my way out of town with my family. ",
                                                     "I am satisfied that I checked the appliances that I could on my way out. ",
-                                                    "I feel worried about the house burning down, but know that I can tolerate this feeling and it will pass. ",
                                                     "I'm scared that our house is going to burn down. ",
-                                                    "I feel calm now that I'm in the car and on my way out of town with my family. "
+                                                    "I feel worried about the house burning down, but know that I can tolerate this feeling and it will pass. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4104,11 +4138,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to ask my family to turn around so I can go double-check all of the appliances. But, I know that I can tolerate the feelings of anxiety and these feelings will pass. ",
-                                                    "I'll remember that I don't have to check all of the appliances multiple times before we leave. ",
+                                                    "I want to be upset about the situation, but decide to chat with my family. ",
                                                     "I focus on everything that could go wrong because I didn't have time to check.",
-                                                    "I'll remember to ask for help to check the appliances in the future if I am running out of time before we need to go. ",
-                                                    "I want to be upset about the situation, but decide to chat with my family. "
+                                                    "I'll remember that I don't have to check all of the appliances multiple times before we leave. ",
+                                                    "I want to ask my family to turn around so I can go double-check all of the appliances. But, I know that I can tolerate the feelings of anxiety and these feelings will pass. ",
+                                                    "I'll remember to ask for help to check the appliances in the future if I am running out of time before we need to go. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4172,7 +4206,9 @@
                                     ]
                                 },
                                 {
-                                    "Name": "Scenario 3",
+                                    "Name": "Spilled slushie",
+                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Session4_long/pic17.jpeg",
+                                    "ImageType": "image/jpeg",
                                     "Inputs": [
                                         {
                                             "Type": "Text",
@@ -4197,10 +4233,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I think about how my parents will get a kick out of this.",
+                                                    "I am getting a lot of stares, but it could be that they think the slushie looks good.",
                                                     "I think I will look sloppy in front of my friends. ",
-                                                    "It feels like my friends are judging me, but decide they probably don't really care. ",
                                                     "I think about how many people this has probably happened to. ",
-                                                    "I am getting a lot of stares, but it could be that they think the slushie looks good."
+                                                    "It feels like my friends are judging me, but decide they probably don't really care. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4259,10 +4295,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm embarrassed that I have this huge stain on my white shirt, but probably no one else cares. ",
+                                                    "I'm confident my parent will be able to get the stain out.",
                                                     "I feel like a fool and want to say sorry. ",
                                                     "I'm mad that I wasted my money, but know that I'll be ok. ",
-                                                    "I'm confident my parent will be able to get the stain out.",
-                                                    "I'm embarrassed that I have this huge stain on my white shirt, but probably no one else cares. ",
                                                     "I feel lucky I didn't drop the whole slushie. "
                                                 ],
                                                 "Duration": 15
@@ -4323,10 +4359,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel like crying, but take a deep breath and keep shopping with my friends. ",
-                                                    "I laugh with my friends about my spill. ",
-                                                    "I stay silent the rest of the time we're shopping. ",
+                                                    "I clean up and keep shopping. ",
                                                     "I want to go home, but stay at the mall. ",
-                                                    "I clean up and keep shopping. "
+                                                    "I laugh with my friends about my spill. ",
+                                                    "I stay silent the rest of the time we're shopping. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4397,7 +4433,8 @@
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic0.jpeg",
-                                        "ImageType": "image/jpeg"
+                                        "ImageType": "image/jpeg",
+                                        "ImageFramed": "true"
                                     }
                                 }
                             ]
@@ -4426,7 +4463,8 @@
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic4.jpeg",
-                                        "ImageType": "image/jpeg"
+                                        "ImageType": "image/jpeg",
+                                        "ImageFramed": "true"
                                     }
                                 },
                                 {
