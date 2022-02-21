@@ -275,8 +275,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario1",
-                            "Title": "Scenario1",
+                            "Name": "Scenario 1",
+                            "Title": "Scenario 1",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -317,11 +317,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "If my English teacher didn't call on me, I wouldn't have made a fool of myself. I'll have a better answer next time. ",
-                                                    "My answer sounded dumb because I didn't understand the book, but no one will remember tomorrow.",
                                                     "My answer was thoughtful. ",
-                                                    "My classmates are judging my wrong answer. ",
-                                                    "It was nice to be able to share what I think about the book."
+                                                    "It was nice to be able to share what I think about the book.",
+                                                    "My answer sounded dumb because I didn't understand the book, but no one will remember tomorrow.",
+                                                    "If my English teacher didn't call on me, I wouldn't have made a fool of myself. I'll have a better answer next time. ",
+                                                    "My classmates are judging my wrong answer. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -380,11 +380,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I was scared while answering",
-                                                    "I'm disappointed in myself because I couldn't say what I wanted to say, but I think my teacher understood my point. ",
-                                                    "I'm glad my teacher gave me the opportunity to share my answer. ",
+                                                    "I was really anxious while I was answering, but was able to manage my feelings.",
                                                     "I'm satisfied with how I said my answer. ",
-                                                    "I was really anxious while I was answering, but was able to manage my feelings."
+                                                    "I'm glad my teacher gave me the opportunity to share my answer. ",
+                                                    "I was scared while answering",
+                                                    "I'm disappointed in myself because I couldn't say what I wanted to say, but I think my teacher understood my point. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -443,11 +443,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel like I should crack a joke so my friends forget about my answer, but don't.",
-                                                    "I want to cry, but I take a moment to calm down and focus on the teacher's next question. ",
                                                     "I won't answer again in class. ",
-                                                    "I'll review my notes from this book before my test.",
-                                                    "I think about my answer, smile, and sit back. "
+                                                    "I want to cry, but I take a moment to calm down and focus on the teacher's next question. ",
+                                                    "I feel like I should crack a joke so my friends forget about my answer, but don't.",
+                                                    "I think about my answer, smile, and sit back. ",
+                                                    "I'll review my notes from this book before my test."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -495,8 +495,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario2",
-                            "Title": "Scenario2",
+                            "Name": "Scenario 2",
+                            "Title": "Scenario 2",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -539,9 +539,9 @@
                                                 "Text": [
                                                     "My parents will be upset if I don't do well. ",
                                                     "I'll do my best on my test next week. ",
+                                                    "I'm a good student. ",
                                                     "I'm dumb for not understanding this material, but I bet if I study really hard I can learn some of the material.",
-                                                    "I'll fail this test, but that doesn't mean I'll fail the class. ",
-                                                    "I'm a good student. "
+                                                    "I'll fail this test, but that doesn't mean I'll fail the class. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -600,9 +600,9 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm confident that I can study really hard for the test. ",
                                                     "I'm nervous for my test next week, but I'll be able to handle it. ",
                                                     "I'm embarrassed to ask for help, but that feeling will pass. ",
-                                                    "I'm confident that I can study really hard for the test. ",
                                                     "I feel good about how I've done well in the class so far. ",
                                                     "I'm scared to take the test. "
                                                 ],
@@ -663,11 +663,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I really don't want to make flash cards, but I will anyway because I know it'll be helpful for the test. ",
                                                     "I'll ask questions in class when I don't understand something this week.",
+                                                    "I really don't want to make flash cards, but I will anyway because I know it'll be helpful for the test. ",
+                                                    "I want to avoid asking for help, but I reach out to my teacher anyway. ",
                                                     "I'll ask my teacher for help this week. ",
-                                                    "I'll avoid studying for the test when I feel anxious. ",
-                                                    "I want to avoid asking for help, but I reach out to my teacher anyway. "
+                                                    "I'll avoid studying for the test when I feel anxious. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -715,8 +715,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario3",
-                            "Title": "Scenario3",
+                            "Name": "Scenario 3",
+                            "Title": "Scenario 3",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -757,11 +757,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I wonder how my grandfather is feeling. ",
-                                                    "He's happy to see me. ",
-                                                    "My grandfather must be dying.",
                                                     "My family must be keeping a secret about his health, but then tell myself that everyone ages. ",
-                                                    "I think about how miserable I would be if he passes away, but then remind myself to enjoy my time with him today. "
+                                                    "I think about how miserable I would be if he passes away, but then remind myself to enjoy my time with him today. ",
+                                                    "He's happy to see me. ",
+                                                    "I wonder how my grandfather is feeling. ",
+                                                    "My grandfather must be dying."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -821,10 +821,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel happy to see my grandfather.",
-                                                    "I feel anxious about his health, but tolerate the anxiety. ",
                                                     "I'm worried about how he looks. ",
-                                                    "I'm scared to lose him, but know that I can handle grief. ",
-                                                    "I feel excited to catch him up on all the new things that are going on in my life. "
+                                                    "I feel anxious about his health, but tolerate the anxiety. ",
+                                                    "I feel excited to catch him up on all the new things that are going on in my life. ",
+                                                    "I'm scared to lose him, but know that I can handle grief. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -883,11 +883,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I gently ask my grandfather how he's doing and accept any answer he gives me.",
-                                                    "I decide to give him a big hug and smile. ",
+                                                    "I make a funny joke to get my grandparents laughing. ",
                                                     "I want to leave and cry, but decide to stay with the family and engage in conversation. ",
+                                                    "I decide to give him a big hug and smile. ",
                                                     "I make a concerned face at my family. ",
-                                                    "I make a funny joke to get my grandparents laughing. "
+                                                    "I gently ask my grandfather how he's doing and accept any answer he gives me."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -970,8 +970,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario1",
-                            "Title": "Scenario1",
+                            "Name": "Scenario 1",
+                            "Title": "Scenario 1",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -1012,11 +1012,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My friend walked past me on purpose. ",
-                                                    "I'm able to sit here alone for the rest of the ride. ",
-                                                    "My friend probably had something to talk about with the other friend. ",
                                                     "I really don't like sitting alone, but I know I can handle this short bus ride. ",
-                                                    "It feels like my friend is mad at me, but they would have said something. "
+                                                    "My friend probably had something to talk about with the other friend. ",
+                                                    "My friend walked past me on purpose. ",
+                                                    "It feels like my friend is mad at me, but they would have said something. ",
+                                                    "I'm able to sit here alone for the rest of the ride. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1075,11 +1075,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm excited to see my other friends at school today. ",
-                                                    "I'm annoyed with my friend right now. ",
-                                                    "I am anxious about why my friend walked past me, but I can ask them about it later.",
+                                                    "I'm glad that this is a short bus ride. ",
                                                     "I'm scared that people will judge me, but I can turn and talk to the people around me.",
-                                                    "I'm glad that this is a short bus ride. "
+                                                    "I am anxious about why my friend walked past me, but I can ask them about it later.",
+                                                    "I'm excited to see my other friends at school today. ",
+                                                    "I'm annoyed with my friend right now. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1138,11 +1138,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I start to cry. ",
+                                                    "I call out to my friend and smile. ",
                                                     "I'll want to ignore my friend the rest of the day, but I'll be nice since that's the right thing to do. ",
                                                     "I turn to the seat behind me and start to make a joke. ",
-                                                    "I want to put my head between my knees and disappear, but I take a deep breath and smile. ",
-                                                    "I call out to my friend and smile. ",
-                                                    "I start to cry. "
+                                                    "I want to put my head between my knees and disappear, but I take a deep breath and smile. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1190,8 +1190,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario2",
-                            "Title": "Scenario2",
+                            "Name": "Scenario 2",
+                            "Title": "Scenario 2",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -1232,10 +1232,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm causing a scene, but the other people here don't know me or care about this situation. ",
                                                     "I think about how this is a common accident. ",
-                                                    "I think about how it will be a funny story. ",
+                                                    "I'm causing a scene, but the other people here don't know me or care about this situation. ",
                                                     "I'm annoying to my friends right now, but they will understand that accidents happen.",
+                                                    "I think about how it will be a funny story. ",
                                                     "I think I will look silly in front of everyone. "
                                                 ],
                                                 "Duration": 15
@@ -1296,10 +1296,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'm so annoyed with myself, but am able to get past this feeling. ",
-                                                    "I'm glad that this is an old shirt. ",
-                                                    "I'm self-conscious with this stain, but no one else will care. ",
                                                     "I feel embarrassed and it's making me want to leave the mall. ",
-                                                    "I'm feeling silly and decide to chuckle about it. "
+                                                    "I'm glad that this is an old shirt. ",
+                                                    "I'm feeling silly and decide to chuckle about it. ",
+                                                    "I'm self-conscious with this stain, but no one else will care. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1358,10 +1358,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to leave immediately, but know that I'll forget about the stain soon. ",
-                                                    "I wipe up the slushie, smile, and keep shopping with my friends. ",
                                                     "I want to throw away the slushie, but decide to keep eating it. ",
+                                                    "I want to leave immediately, but know that I'll forget about the stain soon. ",
                                                     "I'll cry and leave the mall. ",
+                                                    "I wipe up the slushie, smile, and keep shopping with my friends. ",
                                                     "I laugh and buy another slushie. "
                                                 ],
                                                 "Duration": 15
@@ -1410,8 +1410,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario3",
-                            "Title": "Scenario3",
+                            "Name": "Scenario 3",
+                            "Title": "Scenario 3",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -1452,11 +1452,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "If my English teacher didn't call on me, I wouldn't have made a fool of myself. I'll have a better answer next time. ",
-                                                    "My classmates are judging my wrong answer. ",
-                                                    "My answer was thoughtful. ",
                                                     "It was nice to be able to share what I think about the book.",
-                                                    "My answer sounded dumb because I didn't understand the book, but no one will remember tomorrow."
+                                                    "If my English teacher didn't call on me, I wouldn't have made a fool of myself. I'll have a better answer next time. ",
+                                                    "My answer sounded dumb because I didn't understand the book, but no one will remember tomorrow.",
+                                                    "My classmates are judging my wrong answer. ",
+                                                    "My answer was thoughtful. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1515,11 +1515,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm disappointed in myself because I couldn't say what I wanted to say, but I think my teacher understood my point. ",
-                                                    "I was scared while answering",
+                                                    "I was really anxious while I was answering, but was able to manage my feelings.",
                                                     "I'm satisfied with how I said my answer. ",
-                                                    "I'm glad my teacher gave me the opportunity to share my answer. ",
-                                                    "I was really anxious while I was answering, but was able to manage my feelings."
+                                                    "I was scared while answering",
+                                                    "I'm disappointed in myself because I couldn't say what I wanted to say, but I think my teacher understood my point. ",
+                                                    "I'm glad my teacher gave me the opportunity to share my answer. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1578,11 +1578,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I won't answer again in class. ",
-                                                    "I want to cry, but I take a moment to calm down and focus on the teacher's next question. ",
-                                                    "I think about my answer, smile, and sit back. ",
                                                     "I'll review my notes from this book before my test.",
-                                                    "I feel like I should crack a joke so my friends forget about my answer, but don't."
+                                                    "I think about my answer, smile, and sit back. ",
+                                                    "I want to cry, but I take a moment to calm down and focus on the teacher's next question. ",
+                                                    "I feel like I should crack a joke so my friends forget about my answer, but don't.",
+                                                    "I won't answer again in class. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1665,8 +1665,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario1",
-                            "Title": "Scenario1",
+                            "Name": "Scenario 1",
+                            "Title": "Scenario 1",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -1709,9 +1709,9 @@
                                                 "Text": [
                                                     "That was a good jog. ",
                                                     "I feel like I'm going to die. ",
-                                                    "I think I'm being judged by my friends for being out of breath, but they probably don't even notice. ",
+                                                    "The tightness in my chest is really uncomfortable, but I know it'll go away soon. ",
                                                     "It is a nice day for a jog. ",
-                                                    "The tightness in my chest is really uncomfortable, but I know it'll go away soon. "
+                                                    "I think I'm being judged by my friends for being out of breath, but they probably don't even notice. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1770,11 +1770,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm feel happy to see my friends. ",
-                                                    "Feeling out of breath reminds me of how I feel when I'm a little anxious, which is interesting to notice. ",
                                                     "I'm worried I'm really sick because of the tightness in my chest. ",
+                                                    "I feel invigorated. ",
                                                     "Even though I'm a little embarrassed that I'm out of breath when I see my friends, I know that they aren't judging me. ",
-                                                    "I feel invigorated. "
+                                                    "I'm feel happy to see my friends. ",
+                                                    "Feeling out of breath reminds me of how I feel when I'm a little anxious, which is interesting to notice. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1834,10 +1834,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I smile when I see my friends. ",
-                                                    "I tell my friends that I can't breath because of a health condition. ",
                                                     "I want to sit on the ground and avoid my friends, but I acknowledge my feelings and catch my breath. ",
-                                                    "I ask how my friends are doing after I catch my breath. ",
-                                                    "I think about calling my parent to make sure I'm not dying, but know that I'm actually ok. "
+                                                    "I think about calling my parent to make sure I'm not dying, but know that I'm actually ok. ",
+                                                    "I tell my friends that I can't breath because of a health condition. ",
+                                                    "I ask how my friends are doing after I catch my breath. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1885,8 +1885,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario2",
-                            "Title": "Scenario2",
+                            "Name": "Scenario 2",
+                            "Title": "Scenario 2",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -1928,10 +1928,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I think about my heartbeat, and decide that is normal for how fast I was just going. ",
+                                                    "I want to think about how this could be an underlying condition, but tolerate the negative thoughts. ",
                                                     "I feel like that was an impressive mini workout. ",
-                                                    "I'm so out of shape. ",
                                                     "I am happy to be on time. ",
-                                                    "I want to think about how this could be an underlying condition, but tolerate the negative thoughts. "
+                                                    "I'm so out of shape. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1990,11 +1990,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm glad that I was able to make it up the stairs so quickly.",
-                                                    "I want to feel concerned about this situation, but shift my attention to the meeting. ",
-                                                    "I'm panicking that I'm going to die. ",
                                                     "Although I am worried about my health, I decide to focus on the moment with my teacher. ",
-                                                    "I'm proud of myself for making myself a little uncomfortable. "
+                                                    "I'm glad that I was able to make it up the stairs so quickly.",
+                                                    "I'm proud of myself for making myself a little uncomfortable. ",
+                                                    "I'm panicking that I'm going to die. ",
+                                                    "I want to feel concerned about this situation, but shift my attention to the meeting. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2053,11 +2053,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel the urge to look up my symptoms online, but remind myself that feeling this way is normal after going up a lot of stairs. ",
-                                                    "I breathe deeply and focus on calming myself. ",
                                                     "I smile at the teacher once I make it to the meeting. ",
+                                                    "I ask my teacher if I could be having a heart attack. ",
+                                                    "I breathe deeply and focus on calming myself. ",
                                                     "I remind myself to take a few slow breaths to recenter my thoughts after I feel the urge to cry. ",
-                                                    "I ask my teacher if I could be having a heart attack. "
+                                                    "I feel the urge to look up my symptoms online, but remind myself that feeling this way is normal after going up a lot of stairs. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2105,8 +2105,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario3",
-                            "Title": "Scenario3",
+                            "Name": "Scenario 3",
+                            "Title": "Scenario 3",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -2147,11 +2147,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "It feels like my friend is mad at me, but they would have said something. ",
-                                                    "I really don't like sitting alone, but I know I can handle this short bus ride. ",
                                                     "I'm able to sit here alone for the rest of the ride. ",
+                                                    "My friend walked past me on purpose. ",
+                                                    "I really don't like sitting alone, but I know I can handle this short bus ride. ",
                                                     "My friend probably had something to talk about with the other friend. ",
-                                                    "My friend walked past me on purpose. "
+                                                    "It feels like my friend is mad at me, but they would have said something. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2210,10 +2210,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm annoyed with my friend right now. ",
-                                                    "I'm scared that people will judge me, but I can turn and talk to the people around me.",
-                                                    "I am anxious about why my friend walked past me, but I can ask them about it later.",
                                                     "I'm glad that this is a short bus ride. ",
+                                                    "I am anxious about why my friend walked past me, but I can ask them about it later.",
+                                                    "I'm scared that people will judge me, but I can turn and talk to the people around me.",
+                                                    "I'm annoyed with my friend right now. ",
                                                     "I'm excited to see my other friends at school today. "
                                                 ],
                                                 "Duration": 15
@@ -2273,11 +2273,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I start to cry. ",
                                                     "I'll want to ignore my friend the rest of the day, but I'll be nice since that's the right thing to do. ",
+                                                    "I want to put my head between my knees and disappear, but I take a deep breath and smile. ",
                                                     "I turn to the seat behind me and start to make a joke. ",
                                                     "I call out to my friend and smile. ",
-                                                    "I want to put my head between my knees and disappear, but I take a deep breath and smile. "
+                                                    "I start to cry. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2360,8 +2360,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario1",
-                            "Title": "Scenario1",
+                            "Name": "Scenario 1",
+                            "Title": "Scenario 1",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -2402,11 +2402,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I wonder if my friends actually don't like me, but then challenge myself to think of times when we've all had fun together. ",
+                                                    "I think they may have forgotten about me, but next time they'll remember. ",
                                                     "The picture looks nice.",
                                                     "It seems like they are having a fun time. ",
-                                                    "I wonder if I wasn't invited because they think I'm boring.",
-                                                    "I think they may have forgotten about me, but next time they'll remember. ",
-                                                    "I wonder if my friends actually don't like me, but then challenge myself to think of times when we've all had fun together. "
+                                                    "I wonder if I wasn't invited because they think I'm boring."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2465,11 +2465,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel happy they are all together. ",
                                                     "I feel embarrassed that I wasn't invited. ",
-                                                    "I'm worried that I've lost all of my friends, but the remind myself that's not realistic. ",
+                                                    "I'm sad that they forgot about me, but then tell myself that they probably didn't mean to be mean.",
+                                                    "I feel happy they are all together. ",
                                                     "I feel excited to hear about the fun that they had. ",
-                                                    "I'm sad that they forgot about me, but then tell myself that they probably didn't mean to be mean."
+                                                    "I'm worried that I've lost all of my friends, but the remind myself that's not realistic. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2528,11 +2528,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I really want to ask my friends why I wasn't invited, but decide that I don't need to ask. ",
-                                                    "I post a nice comment on the picture. ",
                                                     "I message my friend and let them know I would love to hang out with them next time.",
                                                     "I decide to block my friends' accounts. ",
-                                                    "I want to cry, but remind myself that I've hung out with some of those friends without everyone there. "
+                                                    "I really want to ask my friends why I wasn't invited, but decide that I don't need to ask. ",
+                                                    "I want to cry, but remind myself that I've hung out with some of those friends without everyone there. ",
+                                                    "I post a nice comment on the picture. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2580,8 +2580,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario2",
-                            "Title": "Scenario2",
+                            "Name": "Scenario 2",
+                            "Title": "Scenario 2",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -2622,11 +2622,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I think about how they may want to be friends. ",
                                                     "I wonder if they thought my posts were dumb.",
                                                     "They must have liked my profile and decided to follow me.",
                                                     "I think about whether they think my photos are silly, but then remind myself that I'm proud of my profile. ",
-                                                    "I wonder if they think I am attractive, but remind myself that looks aren't everything. ",
-                                                    "I think about how they may want to be friends. "
+                                                    "I wonder if they think I am attractive, but remind myself that looks aren't everything. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2686,10 +2686,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel shy about them adding me, but decide to be excited about the add.",
-                                                    "I feel like they might unfollow me. ",
                                                     "I feel excited I have a new friend. ",
-                                                    "I feel happy that they followed me. ",
-                                                    "I feel embarrassed by some pictures I have up, but decide to feel confident about them. "
+                                                    "I feel embarrassed by some pictures I have up, but decide to feel confident about them. ",
+                                                    "I feel like they might unfollow me. ",
+                                                    "I feel happy that they followed me. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2748,11 +2748,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I delete all of the pictures that might be embarrassing",
-                                                    "I comment on their photo. ",
+                                                    "I want to deactivate my account, but decide to keep it up. ",
                                                     "I tell my friend about how someone new added me. ",
+                                                    "I delete all of the pictures that might be embarrassing",
                                                     "I want to change some of my pictures, but keep them the same. ",
-                                                    "I want to deactivate my account, but decide to keep it up. "
+                                                    "I comment on their photo. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2800,8 +2800,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario3",
-                            "Title": "Scenario3",
+                            "Name": "Scenario 3",
+                            "Title": "Scenario 3",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -2843,10 +2843,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I think I'm being judged by my friends for being out of breath, but they probably don't even notice. ",
-                                                    "I feel like I'm going to die. ",
-                                                    "That was a good jog. ",
                                                     "The tightness in my chest is really uncomfortable, but I know it'll go away soon. ",
-                                                    "It is a nice day for a jog. "
+                                                    "That was a good jog. ",
+                                                    "It is a nice day for a jog. ",
+                                                    "I feel like I'm going to die. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2905,11 +2905,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Feeling out of breath reminds me of how I feel when I'm a little anxious, which is interesting to notice. ",
-                                                    "I'm feel happy to see my friends. ",
-                                                    "Even though I'm a little embarrassed that I'm out of breath when I see my friends, I know that they aren't judging me. ",
                                                     "I feel invigorated. ",
-                                                    "I'm worried I'm really sick because of the tightness in my chest. "
+                                                    "I'm worried I'm really sick because of the tightness in my chest. ",
+                                                    "I'm feel happy to see my friends. ",
+                                                    "Feeling out of breath reminds me of how I feel when I'm a little anxious, which is interesting to notice. ",
+                                                    "Even though I'm a little embarrassed that I'm out of breath when I see my friends, I know that they aren't judging me. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2968,11 +2968,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I smile when I see my friends. ",
-                                                    "I think about calling my parent to make sure I'm not dying, but know that I'm actually ok. ",
+                                                    "I want to sit on the ground and avoid my friends, but I acknowledge my feelings and catch my breath. ",
                                                     "I tell my friends that I can't breath because of a health condition. ",
-                                                    "I ask how my friends are doing after I catch my breath. ",
-                                                    "I want to sit on the ground and avoid my friends, but I acknowledge my feelings and catch my breath. "
+                                                    "I think about calling my parent to make sure I'm not dying, but know that I'm actually ok. ",
+                                                    "I smile when I see my friends. ",
+                                                    "I ask how my friends are doing after I catch my breath. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3055,8 +3055,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario1",
-                            "Title": "Scenario1",
+                            "Name": "Scenario 1",
+                            "Title": "Scenario 1",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -3097,10 +3097,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think this will help me organize thoughtfully in the future. ",
-                                                    "I hate feeling like I have so much to do, but I'll do my best to get it all done. ",
                                                     "I don't think I can manage all of these tasks. ",
+                                                    "I hate feeling like I have so much to do, but I'll do my best to get it all done. ",
                                                     "I think this is too much work, but decide to think positively about the outcome.",
+                                                    "I think this will help me organize thoughtfully in the future. ",
                                                     "I can manage both tasks."
                                                 ],
                                                 "Duration": 15
@@ -3161,10 +3161,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "Although I feel overwhelmed, I try and feel grateful for being in school and for the home that I live in.",
-                                                    "I'm excited to listen to my favorite artist while I do my chores.",
-                                                    "I'm calm as I prioritize my chores and school work. ",
                                                     "I feel upset about all I have to do, but I imagine how it will feel to have it all accomplished. ",
-                                                    "I'm anxious about being able to get everything done. "
+                                                    "I'm excited to listen to my favorite artist while I do my chores.",
+                                                    "I'm anxious about being able to get everything done. ",
+                                                    "I'm calm as I prioritize my chores and school work. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3223,11 +3223,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I just want to be lazy and take a nap, but decide to start with one task. ",
                                                     "I decide to start on the school project first.",
                                                     "I decide to sit and do nothing. ",
+                                                    "I want to avoid all of the tasks, but decide to make a schedule to help organize my time. ",
                                                     "I decide to get started on the chores. ",
-                                                    "I want to avoid all of the tasks, but decide to make a schedule to help organize my time. "
+                                                    "I just want to be lazy and take a nap, but decide to start with one task. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3275,8 +3275,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario2",
-                            "Title": "Scenario2",
+                            "Name": "Scenario 2",
+                            "Title": "Scenario 2",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -3317,11 +3317,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think my friend will be happy to see me. ",
-                                                    "My friend will notice that I'm not able to bring a gift. ",
+                                                    "I'm looking forward to celebrating with friends. ",
                                                     "I think I am a bad friend, but know showing up is what counts. ",
-                                                    "I assume everyone brought a gift, but I don't actually know if that's true.",
-                                                    "I'm looking forward to celebrating with friends. "
+                                                    "My friend will notice that I'm not able to bring a gift. ",
+                                                    "I think my friend will be happy to see me. ",
+                                                    "I assume everyone brought a gift, but I don't actually know if that's true."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3380,10 +3380,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel ashamed, but decide that material things are not as important as friendship. ",
                                                     "I feel sad that I didn't bring a gift.",
-                                                    "I feel grateful to be invited. ",
                                                     "I feel guilty about coming empty-handed, but remind myself that my friend probably won't notice. ",
+                                                    "I feel grateful to be invited. ",
+                                                    "I feel ashamed, but decide that material things are not as important as friendship. ",
                                                     "I feel excited to get the party started. "
                                                 ],
                                                 "Duration": 15
@@ -3443,11 +3443,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I decide to stay for an hour and leave. ",
                                                     "I stay at the party. ",
-                                                    "I think about lying that I forgot the gift at home, but remember that I should always tell the truth.",
                                                     "I want to leave before the presents are opened, but decide to stay. ",
-                                                    "I walk in and hug my friend. ",
-                                                    "I decide to stay for an hour and leave. "
+                                                    "I think about lying that I forgot the gift at home, but remember that I should always tell the truth.",
+                                                    "I walk in and hug my friend. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3495,8 +3495,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario3",
-                            "Title": "Scenario3",
+                            "Name": "Scenario 3",
+                            "Title": "Scenario 3",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -3537,8 +3537,8 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "The picture looks nice.",
                                                     "I wonder if I wasn't invited because they think I'm boring.",
+                                                    "The picture looks nice.",
                                                     "It seems like they are having a fun time. ",
                                                     "I wonder if my friends actually don't like me, but then challenge myself to think of times when we've all had fun together. ",
                                                     "I think they may have forgotten about me, but next time they'll remember. "
@@ -3600,11 +3600,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm sad that they forgot about me, but then tell myself that they probably didn't mean to be mean.",
-                                                    "I feel happy they are all together. ",
                                                     "I feel embarrassed that I wasn't invited. ",
                                                     "I feel excited to hear about the fun that they had. ",
-                                                    "I'm worried that I've lost all of my friends, but the remind myself that's not realistic. "
+                                                    "I'm worried that I've lost all of my friends, but the remind myself that's not realistic. ",
+                                                    "I'm sad that they forgot about me, but then tell myself that they probably didn't mean to be mean.",
+                                                    "I feel happy they are all together. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3663,11 +3663,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I message my friend and let them know I would love to hang out with them next time.",
                                                     "I post a nice comment on the picture. ",
                                                     "I want to cry, but remind myself that I've hung out with some of those friends without everyone there. ",
-                                                    "I really want to ask my friends why I wasn't invited, but decide that I don't need to ask. ",
-                                                    "I message my friend and let them know I would love to hang out with them next time.",
-                                                    "I decide to block my friends' accounts. "
+                                                    "I decide to block my friends' accounts. ",
+                                                    "I really want to ask my friends why I wasn't invited, but decide that I don't need to ask. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3750,8 +3750,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario1",
-                            "Title": "Scenario1",
+                            "Name": "Scenario 1",
+                            "Title": "Scenario 1",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -3792,11 +3792,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "My grandfather must be dying.",
                                                     "I think about how miserable I would be if he passes away, but then remind myself to enjoy my time with him today. ",
-                                                    "He's happy to see me. ",
                                                     "My family must be keeping a secret about his health, but then tell myself that everyone ages. ",
-                                                    "I wonder how my grandfather is feeling. ",
-                                                    "My grandfather must be dying."
+                                                    "He's happy to see me. ",
+                                                    "I wonder how my grandfather is feeling. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3855,11 +3855,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm scared to lose him, but know that I can handle grief. ",
-                                                    "I feel anxious about his health, but tolerate the anxiety. ",
                                                     "I feel happy to see my grandfather.",
+                                                    "I'm scared to lose him, but know that I can handle grief. ",
+                                                    "I'm worried about how he looks. ",
                                                     "I feel excited to catch him up on all the new things that are going on in my life. ",
-                                                    "I'm worried about how he looks. "
+                                                    "I feel anxious about his health, but tolerate the anxiety. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3918,11 +3918,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I make a concerned face at my family. ",
-                                                    "I want to leave and cry, but decide to stay with the family and engage in conversation. ",
                                                     "I decide to give him a big hug and smile. ",
-                                                    "I make a funny joke to get my grandparents laughing. ",
-                                                    "I gently ask my grandfather how he's doing and accept any answer he gives me."
+                                                    "I want to leave and cry, but decide to stay with the family and engage in conversation. ",
+                                                    "I make a concerned face at my family. ",
+                                                    "I gently ask my grandfather how he's doing and accept any answer he gives me.",
+                                                    "I make a funny joke to get my grandparents laughing. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3970,8 +3970,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario2",
-                            "Title": "Scenario2",
+                            "Name": "Scenario 2",
+                            "Title": "Scenario 2",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -4012,11 +4012,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I think about how scary the spider looked, but realized how small it really was. ",
                                                     "I think it was afraid of me. ",
-                                                    "I think about all of the places the spider could be, but decide it doesn't matter. ",
-                                                    "It's probably not coming back.",
                                                     "It's probably on me!",
-                                                    "I think about how scary the spider looked, but realized how small it really was. "
+                                                    "It's probably not coming back.",
+                                                    "I think about all of the places the spider could be, but decide it doesn't matter. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4075,11 +4075,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm eager to get my shower over with. ",
-                                                    "I feel worried about where the spider may be crawling. ",
+                                                    "I'm nervous about the spider, but remind myself that it probably is more scared of me.",
                                                     "I feel freaked out, but know that I'm brave enough to take my shower anyway. ",
+                                                    "I feel worried about where the spider may be crawling. ",
                                                     "I'm happy the spider is gone.",
-                                                    "I'm nervous about the spider, but remind myself that it probably is more scared of me."
+                                                    "I'm eager to get my shower over with. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4138,11 +4138,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I take a shower. ",
                                                     "I want to scream, but tell myself the spider is harmless. ",
-                                                    "I leave the bathroom and do not take a shower. ",
                                                     "I go on with my bathroom routine. ",
-                                                    "I want to run away, but know I can face my fear. "
+                                                    "I take a shower. ",
+                                                    "I want to run away, but know I can face my fear. ",
+                                                    "I leave the bathroom and do not take a shower. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4190,8 +4190,8 @@
                             ]
                         },
                         {
-                            "Name": "Scenario3",
-                            "Title": "Scenario3",
+                            "Name": "Scenario 3",
+                            "Title": "Scenario 3",
                             "Type": "Scenario",
                             "Pages": [
                                 {
@@ -4232,10 +4232,10 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I think this will help me organize thoughtfully in the future. ",
                                                     "I can manage both tasks.",
                                                     "I hate feeling like I have so much to do, but I'll do my best to get it all done. ",
                                                     "I think this is too much work, but decide to think positively about the outcome.",
-                                                    "I think this will help me organize thoughtfully in the future. ",
                                                     "I don't think I can manage all of these tasks. "
                                                 ],
                                                 "Duration": 15
@@ -4295,11 +4295,11 @@
                                             "CauseNavigation": "true",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Although I feel overwhelmed, I try and feel grateful for being in school and for the home that I live in.",
-                                                    "I feel upset about all I have to do, but I imagine how it will feel to have it all accomplished. ",
-                                                    "I'm excited to listen to my favorite artist while I do my chores.",
                                                     "I'm anxious about being able to get everything done. ",
-                                                    "I'm calm as I prioritize my chores and school work. "
+                                                    "I'm excited to listen to my favorite artist while I do my chores.",
+                                                    "Although I feel overwhelmed, I try and feel grateful for being in school and for the home that I live in.",
+                                                    "I'm calm as I prioritize my chores and school work. ",
+                                                    "I feel upset about all I have to do, but I imagine how it will feel to have it all accomplished. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4360,9 +4360,9 @@
                                                 "Text": [
                                                     "I decide to sit and do nothing. ",
                                                     "I decide to start on the school project first.",
+                                                    "I just want to be lazy and take a nap, but decide to start with one task. ",
                                                     "I want to avoid all of the tasks, but decide to make a schedule to help organize my time. ",
-                                                    "I decide to get started on the chores. ",
-                                                    "I just want to be lazy and take a nap, but decide to start with one task. "
+                                                    "I decide to get started on the chores. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4433,9 +4433,9 @@
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic0.jpeg",
-                                        "ImageType": "image/jpeg",
-                                        "ImageFramed": "true"
-                                    }
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": "true"
                                 }
                             ]
                         },
@@ -4471,9 +4471,9 @@
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic1.jpeg",
-                                        "ImageType": "image/jpeg",
-                                        "ImageFramed": "true"
-                                    }
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": "true"
                                 },
                                 {
                                     "Type": "Entry"
