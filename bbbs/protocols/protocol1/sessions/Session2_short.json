@@ -182,7 +182,7 @@
                                             "Totally vivid",
                                             "Prefer not to answer"
                                         ],
-                                        "Selectable": "true"
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -206,7 +206,7 @@
                                             "Very likely to turn out badly",
                                             "Prefer not to answer"
                                         ],
-                                        "Selectable": "true"
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -230,7 +230,7 @@
                                             "Very badly",
                                             "Prefer not to answer"
                                         ],
-                                        "Selectable": "true"
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -260,7 +260,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Important call",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -331,7 +331,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Election debate",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -402,7 +402,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Breaking a rule",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -497,7 +497,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Graduation plans ",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -568,7 +568,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "College email ",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -639,7 +639,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "The first day",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -710,7 +710,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Parent-teacher conferences",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -781,7 +781,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Report card ",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -852,7 +852,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Spelling test grade",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -923,7 +923,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Family expectations",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1035,7 +1035,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Embarrassing stories",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1106,7 +1106,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Crush on the swim team",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1201,7 +1201,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Dentist appointment",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1272,7 +1272,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Running out of time",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1343,7 +1343,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "First time ice skating",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1420,7 +1420,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Comparing homes",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1491,7 +1491,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Conflicting plans",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1586,7 +1586,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Friends at the grocery store",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1657,7 +1657,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Sharing opinions",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1728,7 +1728,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Friends making plans",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1799,7 +1799,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Sweat marks",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1870,7 +1870,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Shopping with parent",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -1941,7 +1941,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "First date",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2012,7 +2012,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "New school",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2107,7 +2107,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Joke at lunch",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2195,7 +2195,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Embarrassing stories",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2266,7 +2266,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Crush on the swim team",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2361,7 +2361,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Dentist appointment",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2432,7 +2432,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Running out of time",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2503,7 +2503,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "First time ice skating",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2580,7 +2580,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Spinning in office chair",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2651,7 +2651,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Vision in the morning",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2722,7 +2722,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Long run for gym",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2817,7 +2817,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Birthday party ",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2888,7 +2888,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Catching the bus",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -2983,7 +2983,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Dance class",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3054,7 +3054,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Driving speed limit",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3125,7 +3125,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Audition time",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3196,7 +3196,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Talking about school ",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3267,7 +3267,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Armpit sweat marks",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3355,7 +3355,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Embarrassing stories",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3426,7 +3426,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Crush on the swim team",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3521,7 +3521,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Dentist appointment",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3592,7 +3592,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Running out of time",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3663,7 +3663,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "First time ice skating",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3740,7 +3740,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Not having social media",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3811,7 +3811,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Checking your account",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3882,7 +3882,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Being left on open",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -3953,7 +3953,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Comparing scores",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4048,7 +4048,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Someone thinks your different",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4119,7 +4119,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Friends and participation",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4190,7 +4190,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Bad comments",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4261,7 +4261,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Your friend hasn't liked your post",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4356,7 +4356,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Finding a good caption",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4427,7 +4427,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Seeing friends on social media",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4515,7 +4515,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Embarrassing stories",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4586,7 +4586,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Crush on the swim team",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4681,7 +4681,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Dentist appointment",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4752,7 +4752,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Running out of time",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4823,7 +4823,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "First time ice skating",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4900,7 +4900,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Different opinions",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -4971,7 +4971,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Lots of family members",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5066,7 +5066,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Smelly food",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5137,7 +5137,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Cultural celebration",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5208,7 +5208,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Dent on the car ",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5303,7 +5303,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Differences",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5374,7 +5374,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Bilingual family",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5445,7 +5445,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Low score on test",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5516,7 +5516,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Reading a poem",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5587,7 +5587,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Sleepless night",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5675,7 +5675,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Embarrassing stories",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5746,7 +5746,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Crush on the swim team",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5841,7 +5841,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Dentist appointment",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5912,7 +5912,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Running out of time",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -5983,7 +5983,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "First time ice skating",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6060,7 +6060,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Thinking about flying",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6131,7 +6131,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "The slide",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6226,7 +6226,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Absent neighbor",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6297,7 +6297,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Missing watch",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6368,7 +6368,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Fruit slice",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6439,7 +6439,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Field trip",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6510,7 +6510,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Helping your neighbor",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6581,7 +6581,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Noise outside",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6652,7 +6652,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Listening to the news",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6747,7 +6747,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Walk in the park ",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6835,7 +6835,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Embarrassing stories",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -6906,7 +6906,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Crush on the swim team",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -7001,7 +7001,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Dentist appointment",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -7072,7 +7072,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "Running out of time",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
@@ -7143,7 +7143,7 @@
                                             "Type": "Label",
                                             "Parameters": {
                                                 "Text": "First time ice skating",
-                                                "Framed": "true"
+                                                "Framed": true
                                             }
                                         }
                                     ]
