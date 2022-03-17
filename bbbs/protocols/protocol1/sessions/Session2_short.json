@@ -33,7 +33,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being.\n\nPlease touch the sliding bar to select your response, or press 'More options...'"
+                                        "Text": "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being.\n\nPlease touch the sliding bar to select your response, or press 'More choices...'"
                                     }
                                 },
                                 {
@@ -129,7 +129,9 @@
                                         "Text": "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there."
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -161,7 +163,9 @@
                                         ]
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -185,7 +189,9 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -209,7 +215,9 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -233,7 +241,9 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         }
                     ]
                 }
@@ -7221,7 +7231,9 @@
                                         "Text": "On the next screen, you will be asked to write about an event that recently happened. Before pressing NEXT, please think about a situation that happened over the last week when you felt anxious, scared, or worried. This can be a situation that happens often or one that doesn't happen a lot. \n\nAs you think of a memory, try to really see yourself in the situation. Where were you? What day of the week was it? What time was it? Who was around you? What were you doing? How did you feel? \n\nAfter you think of your situation, please press NEXT. \n\nExamples could include taking a test, talking to strangers, using social media, dealing with family or friends, or whatever makes you feel anxious."
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -7234,7 +7246,9 @@
                                 {
                                     "Type": "Entry"
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -7253,7 +7267,17 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Now, take the next 60 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future.  \n\nPlease type each of the thoughts in the box below. You can put each thought on a new line. \n\nThe screen will change after 60 seconds. "
+                                        "Text": "On the next page, you will take 60 seconds to think of as many different thoughts that you could have had in the situation as you can. These thoughts can be negative or positive. Be as creative as possible with all of the different thoughts you could have had while you were in the situation that made you anxious, especially thoughts that would help you feel less anxious in this situation in the future."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Please type each of the thoughts in the box below. You can put each thought on a new line. \n\nThe screen will change after 60 seconds."
                                     }
                                 },
                                 {
@@ -7271,7 +7295,9 @@
                                         "Text": "Great job! You remembered the past! Now, if that happens again, you have a lot of different thoughts that could come into your mind. Try to remember some of your thoughts that make you feel less anxious!"
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         }
                     ]
                 },

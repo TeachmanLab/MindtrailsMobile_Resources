@@ -33,7 +33,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being.\n\nPlease touch the sliding bar to select your response, or press 'More options...'"
+                                        "Text": "Thinking about the last 24 hours, how anxious have you felt? \n\n0 = Most calm I could imagine being. \n\n10 = Most anxious, panicked, or scared I could imagine being.\n\nPlease touch the sliding bar to select your response, or press 'More choices...'"
                                     }
                                 },
                                 {
@@ -104,7 +104,9 @@
                                         "Text": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -117,7 +119,9 @@
                                 {
                                     "Type": "Entry"
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -127,7 +131,9 @@
                                         "Text": "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there."
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -159,7 +165,9 @@
                                         ]
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -183,14 +191,16 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "How likely is it that the situation; how likely is it that the task will turn out well versus turn out badly?"
+                                        "Text": "How likely is it that the situation or task will turn out well versus turn out badly?"
                                     }
                                 },
                                 {
@@ -207,7 +217,9 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -231,7 +243,9 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         }
                     ]
                 }
@@ -316,11 +330,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I can ask for help to study for this test. ",
                                                     "This class is so hard to keep up in, but decide to try a little harder.",
-                                                    "I think that I may never catch on, but know that if I try, I'll be able to.",
                                                     "This test will go well. ",
                                                     "My teacher will think I'm dumb if I do not do well. ",
-                                                    "I can ask for help to study for this test. "
+                                                    "I think that I may never catch on, but know that if I try, I'll be able to."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -379,11 +393,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I am worried about taking this test and failing.",
-                                                    "I feel ready to get going with studying. ",
+                                                    "I feel excited to prove myself wrong. ",
                                                     "I'm worried about asking for help to study, but know that it'll help me get a better grade. ",
-                                                    "I am scared about failing, but know that trying is what matters. ",
-                                                    "I feel excited to prove myself wrong. "
+                                                    "I feel ready to get going with studying. ",
+                                                    "I am worried about taking this test and failing.",
+                                                    "I am scared about failing, but know that trying is what matters. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -442,11 +456,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'll pretend to be sick on the day of the class so I don't have to take the test. ",
-                                                    "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways. ",
                                                     "I'll ask my friends in the class questions if I don't understand something. ",
+                                                    "I'll pretend to be sick on the day of the class so I don't have to take the test. ",
                                                     "I really don't want to study, but I know it will pay off on the test. ",
-                                                    "I'll study really hard and ask my teacher for help if I need to."
+                                                    "I'll study really hard and ask my teacher for help if I need to.",
+                                                    "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -536,11 +550,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My guardian will be proud of me that I'm trying hard. ",
-                                                    "My teacher will tell my parents I am not doing well. ",
-                                                    "I have been trying really hard in that class. ",
                                                     "My guardian may be upset, but that is something that I can understand. ",
-                                                    "My parents will think I need some extra help, and I am okay with that. "
+                                                    "I have been trying really hard in that class. ",
+                                                    "My parents will think I need some extra help, and I am okay with that. ",
+                                                    "My teacher will tell my parents I am not doing well. ",
+                                                    "My guardian will be proud of me that I'm trying hard. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -599,10 +613,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel happy that my guardian gets to learn about my progress. ",
+                                                    "I feel bad that I am a bit behind, but realize these things happen. ",
                                                     "I feel embarrassed that my guardian will learn about my lack of progress, but decide it is best for them to know. ",
                                                     "I am nervous that my guardian will be let down by my progress. ",
-                                                    "I feel bad that I am a bit behind, but realize these things happen. ",
+                                                    "I feel happy that my guardian gets to learn about my progress. ",
                                                     "I'm feeling calm knowing that my guardian will accept me no matter what. "
                                                 ],
                                                 "Duration": 15
@@ -662,11 +676,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'll blame my grades on my teacher. ",
-                                                    "I may want to give up on math, but decide to keep trying because I need to pass this class.",
                                                     "I take some deep breaths while my guardian is talking to my teacher. ",
+                                                    "I may want to give up on math, but decide to keep trying because I need to pass this class.",
+                                                    "I will want to get upset, but decide to keep calm when my guardian gets home.",
                                                     "I'll ask my guardian for advice. ",
-                                                    "I will want to get upset, but decide to keep calm when my guardian gets home."
+                                                    "I'll blame my grades on my teacher. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -756,11 +770,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I wonder about all the reasons I could be so out of breath, but decide it is normal when rushing to a meeting. ",
                                                     "I made it up those stairs really quickly. ",
-                                                    "I wonder if my teacher will notice how out of breath I am, but decide it is okay if she does notice. ",
                                                     "Am I having a heart attack? ",
-                                                    "I am excited for the meeting. "
+                                                    "I wonder about all the reasons I could be so out of breath, but decide it is normal when rushing to a meeting. ",
+                                                    "I am excited for the meeting. ",
+                                                    "I wonder if my teacher will notice how out of breath I am, but decide it is okay if she does notice. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -819,10 +833,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm worried that there's something really wrong with me. ",
-                                                    "I'm panicking a little about whether I'm going to be ok, but remind myself that it's normal to feel out of breath after walking up a bunch of stairs. ",
                                                     "I'm happy I made the meeting on time. ",
                                                     "I'm feeling excited now that my blood is pumping. ",
+                                                    "I'm worried that there's something really wrong with me. ",
+                                                    "I'm panicking a little about whether I'm going to be ok, but remind myself that it's normal to feel out of breath after walking up a bunch of stairs. ",
                                                     "I feel embarrassed about being out of breath, but decide to listen to what my teacher has to say. "
                                                 ],
                                                 "Duration": 15
@@ -882,11 +896,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I start looking up symptoms of a heart attack online to see if I'm dying. ",
-                                                    "I take a few deep breaths. ",
                                                     "I take a few sips from my water bottle. ",
                                                     "I feel the urge to tell my teacher that something's really wrong with me, but remind myself that I'm actually OK. ",
-                                                    "I tell myself that I'm so nervous about this meeting that my heart is beating quickly, but remind myself that it's actually just my body's reaction to coming up the stairs quickly. "
+                                                    "I take a few deep breaths. ",
+                                                    "I tell myself that I'm so nervous about this meeting that my heart is beating quickly, but remind myself that it's actually just my body's reaction to coming up the stairs quickly. ",
+                                                    "I start looking up symptoms of a heart attack online to see if I'm dying. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1011,11 +1025,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I am getting a lot of stares, but it could be that they think the slushie looks good.",
-                                                    "I think about how my parents will get a kick out of this.",
-                                                    "It feels like my friends are judging me, but decide they probably don't really care. ",
                                                     "I think I will look sloppy in front of my friends. ",
-                                                    "I think about how many people this has probably happened to. "
+                                                    "I am getting a lot of stares, but it could be that they think the slushie looks good.",
+                                                    "I think about how many people this has probably happened to. ",
+                                                    "I think about how my parents will get a kick out of this.",
+                                                    "It feels like my friends are judging me, but decide they probably don't really care. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1076,8 +1090,8 @@
                                                 "Text": [
                                                     "I'm confident my parent will be able to get the stain out.",
                                                     "I'm embarrassed that I have this huge stain on my white shirt, but probably no one else cares. ",
-                                                    "I feel lucky I didn't drop the whole slushie. ",
                                                     "I'm mad that I wasted my money, but know that I'll be ok. ",
+                                                    "I feel lucky I didn't drop the whole slushie. ",
                                                     "I feel like a fool and want to say sorry. "
                                                 ],
                                                 "Duration": 15
@@ -1137,11 +1151,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I stay silent the rest of the time we're shopping. ",
-                                                    "I laugh with my friends about my spill. ",
                                                     "I clean up and keep shopping. ",
-                                                    "I feel like crying, but take a deep breath and keep shopping with my friends. ",
-                                                    "I want to go home, but stay at the mall. "
+                                                    "I laugh with my friends about my spill. ",
+                                                    "I want to go home, but stay at the mall. ",
+                                                    "I stay silent the rest of the time we're shopping. ",
+                                                    "I feel like crying, but take a deep breath and keep shopping with my friends. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1231,11 +1245,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I think about how everyone sometimes has clumsy moments. ",
                                                     "I think about how my family may be annoyed, but I can handle that. ",
-                                                    "I have to be an embarrassment. ",
-                                                    "The waiter will be irritated, but I'll apologize and offer to help clean up.",
                                                     "People in my family have dropped stuff at restaurants in the past. ",
-                                                    "I think about how everyone sometimes has clumsy moments. "
+                                                    "The waiter will be irritated, but I'll apologize and offer to help clean up.",
+                                                    "I have to be an embarrassment. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1295,10 +1309,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'm happy that the waiter doesn't seem to mind that much. ",
+                                                    "I'm able to stay calm. ",
                                                     "I'm embarrassed that I dropped the glass, but know that people drop things all of the time. ",
                                                     "I feel bad, but remind myself that I'll forget about this in a few days. ",
-                                                    "I have a knot in my stomach after the whole restaurant looked at me. ",
-                                                    "I'm able to stay calm. "
+                                                    "I have a knot in my stomach after the whole restaurant looked at me. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1357,11 +1371,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to cry, but decide that would not be helpful. ",
                                                     "I want to never come back to the restaurant, but will say yes to coming back if my family wants to come back. ",
-                                                    "I offer to do extra chores at home, so money can be left to replace the glass. ",
                                                     "I cry because I feel terrible. ",
-                                                    "I offer to leave extra money for the tip. "
+                                                    "I offer to leave extra money for the tip. ",
+                                                    "I want to cry, but decide that would not be helpful. ",
+                                                    "I offer to do extra chores at home, so money can be left to replace the glass. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1453,9 +1467,9 @@
                                                 "Text": [
                                                     "I think they may not like my profile, but decide they probably won't put that much thought into it. ",
                                                     "I bet they'll stop following me after they see what I post. But, they probably won't actually unfollow me.",
-                                                    "I think it's flattering.",
                                                     "They're probably making fun of my pictures. ",
-                                                    "I think they want to get to know me."
+                                                    "I think they want to get to know me.",
+                                                    "I think it's flattering."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1514,11 +1528,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel flattered that they wanted to follow me. ",
-                                                    "I wonder if the add was an accident. ",
                                                     "I feel curious about the reason they added me, but realize it is just because they wanted to. ",
-                                                    "I feel energized by the add. ",
-                                                    "I feel worried about what they think of me, but know that I can deal with not knowing. "
+                                                    "I wonder if the add was an accident. ",
+                                                    "I feel worried about what they think of me, but know that I can deal with not knowing. ",
+                                                    "I feel flattered that they wanted to follow me. ",
+                                                    "I feel energized by the add. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1577,11 +1591,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I want to gossip about the add to my friends, but decide to stay modest. ",
+                                                    "I unfollow the people that they might not like. ",
                                                     "I talk to my mom about how excited I am.",
                                                     "I add more fun pictures. ",
-                                                    "I want to gossip about the add to my friends, but decide to stay modest. ",
-                                                    "I want to message them and ask about the add, but decide to not put much thought into the add.",
-                                                    "I unfollow the people that they might not like. "
+                                                    "I want to message them and ask about the add, but decide to not put much thought into the add."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1709,8 +1723,8 @@
                                                     "I am excited for the meeting. ",
                                                     "Am I having a heart attack? ",
                                                     "I made it up those stairs really quickly. ",
-                                                    "I wonder if my teacher will notice how out of breath I am, but decide it is okay if she does notice. ",
-                                                    "I wonder about all the reasons I could be so out of breath, but decide it is normal when rushing to a meeting. "
+                                                    "I wonder about all the reasons I could be so out of breath, but decide it is normal when rushing to a meeting. ",
+                                                    "I wonder if my teacher will notice how out of breath I am, but decide it is okay if she does notice. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1770,10 +1784,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel embarrassed about being out of breath, but decide to listen to what my teacher has to say. ",
-                                                    "I'm feeling excited now that my blood is pumping. ",
-                                                    "I'm happy I made the meeting on time. ",
                                                     "I'm worried that there's something really wrong with me. ",
-                                                    "I'm panicking a little about whether I'm going to be ok, but remind myself that it's normal to feel out of breath after walking up a bunch of stairs. "
+                                                    "I'm feeling excited now that my blood is pumping. ",
+                                                    "I'm panicking a little about whether I'm going to be ok, but remind myself that it's normal to feel out of breath after walking up a bunch of stairs. ",
+                                                    "I'm happy I made the meeting on time. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1834,9 +1848,9 @@
                                                 "Text": [
                                                     "I feel the urge to tell my teacher that something's really wrong with me, but remind myself that I'm actually OK. ",
                                                     "I tell myself that I'm so nervous about this meeting that my heart is beating quickly, but remind myself that it's actually just my body's reaction to coming up the stairs quickly. ",
+                                                    "I start looking up symptoms of a heart attack online to see if I'm dying. ",
                                                     "I take a few sips from my water bottle. ",
-                                                    "I take a few deep breaths. ",
-                                                    "I start looking up symptoms of a heart attack online to see if I'm dying. "
+                                                    "I take a few deep breaths. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1926,11 +1940,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Everyone will see that my hands are shaking. ",
-                                                    "I've done everything I can to prepare for this presentation. ",
-                                                    "It's normal to feel a little warm when you're anxious about presenting. ",
                                                     "I want to cover my face, but stand up tall and present anyway.",
-                                                    "I want to sit back down, but instead go forward with the presentation. "
+                                                    "It's normal to feel a little warm when you're anxious about presenting. ",
+                                                    "Everyone will see that my hands are shaking. ",
+                                                    "I want to sit back down, but instead go forward with the presentation. ",
+                                                    "I've done everything I can to prepare for this presentation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1989,11 +2003,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm nervous that people can see my hands shaking, but they probably won't be able to see from where they're sitting. ",
-                                                    "I'm happy with how much I've prepared for this presentation. ",
+                                                    "I'm scared that my cheeks feeling hot means that I'm going to faint, but I'll probably be OK and this feeling will pass. ",
                                                     "I'm relieved to get this presentation over with. ",
                                                     "I'm worried that I'm going to pass out. ",
-                                                    "I'm scared that my cheeks feeling hot means that I'm going to faint, but I'll probably be OK and this feeling will pass. "
+                                                    "I'm nervous that people can see my hands shaking, but they probably won't be able to see from where they're sitting. ",
+                                                    "I'm happy with how much I've prepared for this presentation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2053,10 +2067,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I speak with a strong tone.",
-                                                    "I want to go to the bathroom and splash my face with water, but decide to power through. ",
-                                                    "I consider pretending that I'm sick so I don't have to present, but challenge myself to give the presentation anyway. ",
                                                     "I ask the teacher if I can present another day. ",
-                                                    "I smile at the class and start my presentation. "
+                                                    "I smile at the class and start my presentation. ",
+                                                    "I want to go to the bathroom and splash my face with water, but decide to power through. ",
+                                                    "I consider pretending that I'm sick so I don't have to present, but challenge myself to give the presentation anyway. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2146,11 +2160,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "It'll be good to see lots of the people in my grade. ",
                                                     "My friend will be happy that I'm able to go. ",
+                                                    "It'll be good to see lots of the people in my grade. ",
                                                     "My friend will be embarrassed to have me because I don't have a gift. ",
-                                                    "If people judge me for not bringing a gift, I'll still have a good time at the party. ",
-                                                    "I think about how I should've brought a gift, but know that my friend is glad I'm there."
+                                                    "I think about how I should've brought a gift, but know that my friend is glad I'm there.",
+                                                    "If people judge me for not bringing a gift, I'll still have a good time at the party. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2209,11 +2223,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel happy to be around all of my friends. ",
-                                                    "I'm a little sick to my stomach thinking about not being able to afford a gift, but remind myself that my friend won't judge me. ",
                                                     "I feel guilty for not bringing a present. ",
                                                     "I feel bad, but decide the party will go on.",
-                                                    "I feel enthusiastic about sharing my good energy. "
+                                                    "I'm a little sick to my stomach thinking about not being able to afford a gift, but remind myself that my friend won't judge me. ",
+                                                    "I feel enthusiastic about sharing my good energy. ",
+                                                    "I feel happy to be around all of my friends. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2272,10 +2286,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to skip the party so I don't have to think about not being able to afford the present, but decide to push myself to go anyway. I know I'll have a good time.",
                                                     "I smile at all of my friends. ",
-                                                    "I try to sneak by my friend so they don't notice I don't have a gift when I walk in. ",
                                                     "I'm tempted to leave before the presents are opened, but remind myself that I'm actually having fun.",
+                                                    "I try to sneak by my friend so they don't notice I don't have a gift when I walk in. ",
+                                                    "I want to skip the party so I don't have to think about not being able to afford the present, but decide to push myself to go anyway. I know I'll have a good time.",
                                                     "I have fun dancing at the party. "
                                                 ],
                                                 "Duration": 15
@@ -2401,11 +2415,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I bet they'll stop following me after they see what I post. But, they probably won't actually unfollow me.",
-                                                    "They're probably making fun of my pictures. ",
                                                     "I think they may not like my profile, but decide they probably won't put that much thought into it. ",
-                                                    "I think it's flattering.",
-                                                    "I think they want to get to know me."
+                                                    "They're probably making fun of my pictures. ",
+                                                    "I bet they'll stop following me after they see what I post. But, they probably won't actually unfollow me.",
+                                                    "I think they want to get to know me.",
+                                                    "I think it's flattering."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2464,11 +2478,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I wonder if the add was an accident. ",
-                                                    "I feel worried about what they think of me, but know that I can deal with not knowing. ",
                                                     "I feel flattered that they wanted to follow me. ",
+                                                    "I feel curious about the reason they added me, but realize it is just because they wanted to. ",
                                                     "I feel energized by the add. ",
-                                                    "I feel curious about the reason they added me, but realize it is just because they wanted to. "
+                                                    "I feel worried about what they think of me, but know that I can deal with not knowing. ",
+                                                    "I wonder if the add was an accident. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2528,8 +2542,8 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I add more fun pictures. ",
-                                                    "I want to message them and ask about the add, but decide to not put much thought into the add.",
                                                     "I want to gossip about the add to my friends, but decide to stay modest. ",
+                                                    "I want to message them and ask about the add, but decide to not put much thought into the add.",
                                                     "I talk to my mom about how excited I am.",
                                                     "I unfollow the people that they might not like. "
                                                 ],
@@ -2621,11 +2635,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Others may not like my new post, but I do and that's what counts.",
                                                     "People must not be online right now. ",
-                                                    "People think my post is dumb. ",
+                                                    "My followers may be waiting to see what I post next. ",
+                                                    "Others may not like my new post, but I do and that's what counts.",
                                                     "Even if no one likes what I posted, I do, and that's what's important. ",
-                                                    "My followers may be waiting to see what I post next. "
+                                                    "People think my post is dumb. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2684,11 +2698,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel uncomfortable not knowing why I didn't receive a lot of likes, but am okay not knowing. ",
-                                                    "I'm confident that others will eventually like the new post. ",
-                                                    "I'll never try different styles of posts again. ",
                                                     "I feel good about my the post. ",
-                                                    "I feel sad that I didn't get more likes, but am able to accept that. "
+                                                    "I feel uncomfortable not knowing why I didn't receive a lot of likes, but am okay not knowing. ",
+                                                    "I feel sad that I didn't get more likes, but am able to accept that. ",
+                                                    "I'm confident that others will eventually like the new post. ",
+                                                    "I'll never try different styles of posts again. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2747,11 +2761,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I keep posting things I want to post. ",
-                                                    "I decide to stay in a good mood about my post. ",
-                                                    "I get frustrated and take down my post. ",
                                                     "I feel like taking down my account for a while, but keep it up instead. ",
-                                                    "I want to ask my friends why they think I didn't get more likes, but decide to move on. "
+                                                    "I get frustrated and take down my post. ",
+                                                    "I want to ask my friends why they think I didn't get more likes, but decide to move on. ",
+                                                    "I keep posting things I want to post. ",
+                                                    "I decide to stay in a good mood about my post. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2841,11 +2855,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm glad it's gone. ",
-                                                    "I think about how it could bite me, but decide it probably won't.",
-                                                    "I think it went back to it's home.",
                                                     "It's going to crawl on me!",
-                                                    "I think about how it could be venomous, but realize the chances of that are slim. "
+                                                    "I think it went back to it's home.",
+                                                    "I think about how it could bite me, but decide it probably won't.",
+                                                    "I think about how it could be venomous, but realize the chances of that are slim. ",
+                                                    "I'm glad it's gone. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2904,11 +2918,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm scared the spider will show up when I least expect it. ",
-                                                    "I'm anxious about getting into the shower, but know I can overcome my fear. ",
-                                                    "I'm curious where it went. ",
                                                     "I'm grossed out, but remind myself that the spider probably can't hurt me. ",
-                                                    "I'm calm as I get into the shower. "
+                                                    "I'm anxious about getting into the shower, but know I can overcome my fear. ",
+                                                    "I'm calm as I get into the shower. ",
+                                                    "I'm scared the spider will show up when I least expect it. ",
+                                                    "I'm curious where it went. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2967,11 +2981,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I scream and run away. ",
-                                                    "I decide to turn the water on. ",
                                                     "I start to play some music. ",
-                                                    "I want to call someone to help me find the spider, but decide to just take my shower. ",
-                                                    "I want to spray bug spray everywhere, but decide to go about my bathroom routine."
+                                                    "I decide to turn the water on. ",
+                                                    "I want to spray bug spray everywhere, but decide to go about my bathroom routine.",
+                                                    "I scream and run away. ",
+                                                    "I want to call someone to help me find the spider, but decide to just take my shower. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3096,11 +3110,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My friend will be happy that I'm able to go. ",
-                                                    "My friend will be embarrassed to have me because I don't have a gift. ",
-                                                    "If people judge me for not bringing a gift, I'll still have a good time at the party. ",
                                                     "I think about how I should've brought a gift, but know that my friend is glad I'm there.",
-                                                    "It'll be good to see lots of the people in my grade. "
+                                                    "If people judge me for not bringing a gift, I'll still have a good time at the party. ",
+                                                    "My friend will be happy that I'm able to go. ",
+                                                    "It'll be good to see lots of the people in my grade. ",
+                                                    "My friend will be embarrassed to have me because I don't have a gift. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3159,11 +3173,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel bad, but decide the party will go on.",
-                                                    "I feel enthusiastic about sharing my good energy. ",
+                                                    "I feel guilty for not bringing a present. ",
                                                     "I'm a little sick to my stomach thinking about not being able to afford a gift, but remind myself that my friend won't judge me. ",
                                                     "I feel happy to be around all of my friends. ",
-                                                    "I feel guilty for not bringing a present. "
+                                                    "I feel enthusiastic about sharing my good energy. ",
+                                                    "I feel bad, but decide the party will go on."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3222,11 +3236,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I smile at all of my friends. ",
                                                     "I have fun dancing at the party. ",
                                                     "I'm tempted to leave before the presents are opened, but remind myself that I'm actually having fun.",
-                                                    "I try to sneak by my friend so they don't notice I don't have a gift when I walk in. ",
-                                                    "I smile at all of my friends. ",
-                                                    "I want to skip the party so I don't have to think about not being able to afford the present, but decide to push myself to go anyway. I know I'll have a good time."
+                                                    "I want to skip the party so I don't have to think about not being able to afford the present, but decide to push myself to go anyway. I know I'll have a good time.",
+                                                    "I try to sneak by my friend so they don't notice I don't have a gift when I walk in. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3316,11 +3330,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think about how they will be in a better mood later. ",
                                                     "They'll be over this in a few days.",
+                                                    "I immediately blame myself for their fight.",
                                                     "I think about how they might continue to get more upset, then I think about how they will calm down with time.",
-                                                    "I wonder how long this argument will last, and remind myself that I can't control what they do.",
-                                                    "I immediately blame myself for their fight."
+                                                    "I think about how they will be in a better mood later. ",
+                                                    "I wonder how long this argument will last, and remind myself that I can't control what they do."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3379,11 +3393,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm glad that I don't have to help them feel better in this moment. ",
-                                                    "I feel worried about my parents, but remind myself that I don't have to help them get along. ",
                                                     "I feel guilty, but realize that I did nothing wrong.",
+                                                    "I feel calm even though they're a little upset. ",
+                                                    "I'm glad that I don't have to help them feel better in this moment. ",
                                                     "I'm anxious about the tension between them. ",
-                                                    "I feel calm even though they're a little upset. "
+                                                    "I feel worried about my parents, but remind myself that I don't have to help them get along. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3442,10 +3456,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I tell them that they're being selfish. ",
-                                                    "I go for a walk outside and remind myself that they'll be OK soon. ",
-                                                    "I call my friends and we talk about what happened in school. ",
                                                     "I want to mention that I feel they are making me feel bad, but I write about it instead. ",
+                                                    "I tell them that they're being selfish. ",
+                                                    "I call my friends and we talk about what happened in school. ",
+                                                    "I go for a walk outside and remind myself that they'll be OK soon. ",
                                                     "I go do something that distracts me from the situation. "
                                                 ],
                                                 "Duration": 15
@@ -3536,11 +3550,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My teacher will think I'm dumb if I do not do well. ",
                                                     "This class is so hard to keep up in, but decide to try a little harder.",
+                                                    "My teacher will think I'm dumb if I do not do well. ",
                                                     "I think that I may never catch on, but know that if I try, I'll be able to.",
-                                                    "This test will go well. ",
-                                                    "I can ask for help to study for this test. "
+                                                    "I can ask for help to study for this test. ",
+                                                    "This test will go well. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3599,11 +3613,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel ready to get going with studying. ",
-                                                    "I am worried about taking this test and failing.",
-                                                    "I feel excited to prove myself wrong. ",
                                                     "I'm worried about asking for help to study, but know that it'll help me get a better grade. ",
-                                                    "I am scared about failing, but know that trying is what matters. "
+                                                    "I am worried about taking this test and failing.",
+                                                    "I feel ready to get going with studying. ",
+                                                    "I am scared about failing, but know that trying is what matters. ",
+                                                    "I feel excited to prove myself wrong. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3663,10 +3677,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I really don't want to study, but I know it will pay off on the test. ",
-                                                    "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways. ",
                                                     "I'll study really hard and ask my teacher for help if I need to.",
-                                                    "I'll pretend to be sick on the day of the class so I don't have to take the test. ",
-                                                    "I'll ask my friends in the class questions if I don't understand something. "
+                                                    "I don't want to tell my parents about how difficult this class is, but decide to tell them anyways. ",
+                                                    "I'll ask my friends in the class questions if I don't understand something. ",
+                                                    "I'll pretend to be sick on the day of the class so I don't have to take the test. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3791,10 +3805,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think it went back to it's home.",
+                                                    "It's going to crawl on me!",
                                                     "I think about how it could be venomous, but realize the chances of that are slim. ",
                                                     "I think about how it could bite me, but decide it probably won't.",
-                                                    "It's going to crawl on me!",
+                                                    "I think it went back to it's home.",
                                                     "I'm glad it's gone. "
                                                 ],
                                                 "Duration": 15
@@ -3854,11 +3868,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm grossed out, but remind myself that the spider probably can't hurt me. ",
                                                     "I'm calm as I get into the shower. ",
+                                                    "I'm curious where it went. ",
                                                     "I'm anxious about getting into the shower, but know I can overcome my fear. ",
                                                     "I'm scared the spider will show up when I least expect it. ",
-                                                    "I'm curious where it went. "
+                                                    "I'm grossed out, but remind myself that the spider probably can't hurt me. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3917,11 +3931,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to spray bug spray everywhere, but decide to go about my bathroom routine.",
                                                     "I start to play some music. ",
+                                                    "I want to spray bug spray everywhere, but decide to go about my bathroom routine.",
                                                     "I want to call someone to help me find the spider, but decide to just take my shower. ",
-                                                    "I decide to turn the water on. ",
-                                                    "I scream and run away. "
+                                                    "I scream and run away. ",
+                                                    "I decide to turn the water on. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4012,10 +4026,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I think about how upset my family will be with me, but know that they will understand. ",
-                                                    "Our house is really safe, and our fire alarm would alert any neighbors if there was actually a problem. ",
-                                                    "I think about how something bad may happen because I didn't get to check the appliances properly. ",
+                                                    "I think about how I could mention the situation to my family and all will be okay. ",
                                                     "I think about how everything is fine.",
-                                                    "I think about how I could mention the situation to my family and all will be okay. "
+                                                    "I think about how something bad may happen because I didn't get to check the appliances properly. ",
+                                                    "Our house is really safe, and our fire alarm would alert any neighbors if there was actually a problem. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4074,11 +4088,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm miserable worrying about whether everything is off, but remind myself to focus on the present and take a deep breath.",
-                                                    "I feel worried about the house burning down, but know that I can tolerate this feeling and it will pass. ",
-                                                    "I feel calm now that I'm in the car and on my way out of town with my family. ",
+                                                    "I'm scared that our house is going to burn down. ",
                                                     "I am satisfied that I checked the appliances that I could on my way out. ",
-                                                    "I'm scared that our house is going to burn down. "
+                                                    "I feel worried about the house burning down, but know that I can tolerate this feeling and it will pass. ",
+                                                    "I'm miserable worrying about whether everything is off, but remind myself to focus on the present and take a deep breath.",
+                                                    "I feel calm now that I'm in the car and on my way out of town with my family. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4137,10 +4151,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to ask my family to turn around so I can go double-check all of the appliances. But, I know that I can tolerate the feelings of anxiety and these feelings will pass. ",
                                                     "I'll remember that I don't have to check all of the appliances multiple times before we leave. ",
                                                     "I want to be upset about the situation, but decide to chat with my family. ",
                                                     "I focus on everything that could go wrong because I didn't have time to check.",
+                                                    "I want to ask my family to turn around so I can go double-check all of the appliances. But, I know that I can tolerate the feelings of anxiety and these feelings will pass. ",
                                                     "I'll remember to ask for help to check the appliances in the future if I am running out of time before we need to go. "
                                                 ],
                                                 "Duration": 15
@@ -4231,11 +4245,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think I will look sloppy in front of my friends. ",
-                                                    "It feels like my friends are judging me, but decide they probably don't really care. ",
                                                     "I am getting a lot of stares, but it could be that they think the slushie looks good.",
+                                                    "I think about how many people this has probably happened to. ",
                                                     "I think about how my parents will get a kick out of this.",
-                                                    "I think about how many people this has probably happened to. "
+                                                    "It feels like my friends are judging me, but decide they probably don't really care. ",
+                                                    "I think I will look sloppy in front of my friends. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4295,10 +4309,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel like a fool and want to say sorry. ",
-                                                    "I feel lucky I didn't drop the whole slushie. ",
                                                     "I'm confident my parent will be able to get the stain out.",
+                                                    "I'm mad that I wasted my money, but know that I'll be ok. ",
                                                     "I'm embarrassed that I have this huge stain on my white shirt, but probably no one else cares. ",
-                                                    "I'm mad that I wasted my money, but know that I'll be ok. "
+                                                    "I feel lucky I didn't drop the whole slushie. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4357,11 +4371,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I stay silent the rest of the time we're shopping. ",
-                                                    "I want to go home, but stay at the mall. ",
+                                                    "I laugh with my friends about my spill. ",
                                                     "I clean up and keep shopping. ",
                                                     "I feel like crying, but take a deep breath and keep shopping with my friends. ",
-                                                    "I laugh with my friends about my spill. "
+                                                    "I want to go home, but stay at the mall. ",
+                                                    "I stay silent the rest of the time we're shopping. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4454,7 +4468,19 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Imagine yourself in the following situation. Please write as many different thoughts that might come to mind in that moment. The screen will change automatically after 30 seconds. You can press \"enter\" or \"return\" on your keyboard between thoughts. \n\nYou overhear some classmates talking about a party tonight that you didn't know about."
+                                        "Text": "Imagine yourself in the following situation. On the next page, you will have 30 seconds to write as many different thoughts that might come to mind in that moment. \n\nYou overhear some classmates talking about a party tonight that you didn't know about."
+                                    }
+                                }
+                            ],
+                            "Timeout": 30,
+                            "ShowButtons": "Never"
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You overhear some classmates talking about a party tonight that you didn't know about.\n\nThe screen will change automatically after 30 seconds. You can press \"enter\" or \"return\" on your keyboard between thoughts."
                                     }
                                 },
                                 {
@@ -4462,15 +4488,12 @@
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/quickthinking/pic4.jpeg",
                                         "ImageType": "image/jpeg"
-                                    },
-                                    "Frame": true
+                                    }
                                 },
                                 {
                                     "Type": "Entry"
                                 }
-                            ],
-                            "Timeout": 30,
-                            "ShowButtons": "Never"
+                            ]
                         }
                     ]
                 },
