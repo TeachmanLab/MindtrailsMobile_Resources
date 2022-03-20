@@ -152,7 +152,10 @@
                             "Conditions": [
                                 {
                                     "VariableName": "StressLevel",
-                                    "Value": "[6, 7]"
+                                    "Value": [
+                                        6,
+                                        7
+                                    ]
                                 }
                             ],
                             "Inputs": [
@@ -168,7 +171,10 @@
                             "Conditions": [
                                 {
                                     "VariableName": "StressLevel",
-                                    "Value": "[6, 7]"
+                                    "Value": [
+                                        6,
+                                        7
+                                    ]
                                 }
                             ],
                             "Inputs": [
@@ -187,7 +193,10 @@
                             "Conditions": [
                                 {
                                     "VariableName": "StressLevel",
-                                    "Value": "[6, 7]"
+                                    "Value": [
+                                        6,
+                                        7
+                                    ]
                                 }
                             ],
                             "Inputs": [
@@ -205,7 +214,10 @@
                             "Conditions": [
                                 {
                                     "VariableName": "StressLevel",
-                                    "Value": "[6, 7]"
+                                    "Value": [
+                                        6,
+                                        7
+                                    ]
                                 }
                             ],
                             "Inputs": [
@@ -223,7 +235,10 @@
                             "Conditions": [
                                 {
                                     "VariableName": "StressLevel",
-                                    "Value": "[6, 7]"
+                                    "Value": [
+                                        6,
+                                        7
+                                    ]
                                 }
                             ],
                             "Inputs": [
@@ -251,7 +266,10 @@
                             "Conditions": [
                                 {
                                     "VariableName": "StressLevel",
-                                    "Value": "[6, 7]"
+                                    "Value": [
+                                        6,
+                                        7
+                                    ]
                                 }
                             ],
                             "Inputs": [
@@ -283,7 +301,10 @@
                             "Conditions": [
                                 {
                                     "VariableName": "StressLevel",
-                                    "Value": "[6, 7]"
+                                    "Value": [
+                                        6,
+                                        7
+                                    ]
                                 }
                             ],
                             "Inputs": [
@@ -315,7 +336,10 @@
                             "Conditions": [
                                 {
                                     "VariableName": "StressLevel",
-                                    "Value": "[6, 7]"
+                                    "Value": [
+                                        6,
+                                        7
+                                    ]
                                 }
                             ],
                             "Inputs": [
@@ -581,8 +605,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Effective",
-                                                    "Unprepared and lacking. "
+                                                    "Unprepared and lacking. ",
+                                                    "Effective"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Unprepared and lacking. "
@@ -721,8 +745,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "That they want to help you with the fundraiser.  ",
-                                                    "That they don't want to help you with the fundraiser.  "
+                                                    "That they don't want to help you with the fundraiser.  ",
+                                                    "That they want to help you with the fundraiser.  "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "That they don't want to help you with the fundraiser.  "
@@ -791,8 +815,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Learn new skills. ",
-                                                    "Lose your job. "
+                                                    "Lose your job. ",
+                                                    "Learn new skills. "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Learn new skills. "
@@ -861,8 +885,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -931,8 +955,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -1071,8 +1095,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "They were bored by your presentation.",
-                                                    "They were engaged by your presentation."
+                                                    "They were engaged by your presentation.",
+                                                    "They were bored by your presentation."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "They were engaged by your presentation."
@@ -1351,8 +1375,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Give you a good score.",
-                                                    "Give you a bad score."
+                                                    "Give you a bad score.",
+                                                    "Give you a good score."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Give you a good score."
@@ -1491,8 +1515,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Planning on demoting someone else.",
-                                                    "Planning on demoting you."
+                                                    "Planning on demoting you.",
+                                                    "Planning on demoting someone else."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Planning on demoting someone else."
@@ -1561,8 +1585,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -1631,8 +1655,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Be unable to support yourself. ",
-                                                    "Find a new job that you enjoy. "
+                                                    "Find a new job that you enjoy. ",
+                                                    "Be unable to support yourself. "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Find a new job that you enjoy. "
@@ -1723,8 +1747,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You will be ready for one next year.",
-                                                    "You will never be capable."
+                                                    "You will never be capable.",
+                                                    "You will be ready for one next year."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You will be ready for one next year."
@@ -1793,8 +1817,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You are ready to take on challenges.",
-                                                    "You are a clumsy person."
+                                                    "You are a clumsy person.",
+                                                    "You are ready to take on challenges."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You are ready to take on challenges."
@@ -1863,8 +1887,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -2025,8 +2049,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You have great potential.",
-                                                    "You are incapable."
+                                                    "You are incapable.",
+                                                    "You have great potential."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You have great potential."
@@ -2187,8 +2211,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -2327,8 +2351,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -2397,8 +2421,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -2467,8 +2491,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -2699,8 +2723,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -2769,8 +2793,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -2839,8 +2863,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -3093,8 +3117,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -3163,8 +3187,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -3395,8 +3419,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -3465,8 +3489,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -3605,8 +3629,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -3745,8 +3769,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -3837,8 +3861,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Not bothered.",
-                                                    "Annoyed."
+                                                    "Annoyed.",
+                                                    "Not bothered."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Not bothered."
@@ -4021,8 +4045,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -4091,8 +4115,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -4393,8 +4417,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -4555,8 +4579,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -4625,8 +4649,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -4695,8 +4719,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -4765,8 +4789,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -4835,8 +4859,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -5325,8 +5349,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -5395,8 +5419,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -5605,8 +5629,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -5767,8 +5791,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -5837,8 +5861,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -5907,8 +5931,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -6069,8 +6093,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -6139,8 +6163,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -6463,8 +6487,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -6673,8 +6697,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -6743,8 +6767,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -6883,8 +6907,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -7023,8 +7047,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -7255,8 +7279,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -7557,8 +7581,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No "
+                                                    "No ",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No "
@@ -7789,8 +7813,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes ",
-                                                    "No"
+                                                    "No",
+                                                    "Yes "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes "
@@ -7859,8 +7883,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -8161,8 +8185,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -8301,8 +8325,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -8393,8 +8417,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -8463,8 +8487,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -8533,8 +8557,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -8695,8 +8719,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -11533,8 +11557,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Effective",
-                                                    "Unprepared and lacking. "
+                                                    "Unprepared and lacking. ",
+                                                    "Effective"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Unprepared and lacking. "
@@ -11673,8 +11697,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "That they want to help you with the fundraiser.  ",
-                                                    "That they don't want to help you with the fundraiser.  "
+                                                    "That they don't want to help you with the fundraiser.  ",
+                                                    "That they want to help you with the fundraiser.  "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "That they don't want to help you with the fundraiser.  "
@@ -11883,8 +11907,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Missed and loved.",
-                                                    "Like you can't catch your breath."
+                                                    "Like you can't catch your breath.",
+                                                    "Missed and loved."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Missed and loved."
@@ -11953,8 +11977,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Exhausted from a busy week",
-                                                    "Mad at you."
+                                                    "Mad at you.",
+                                                    "Exhausted from a busy week"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Exhausted from a busy week"
@@ -12163,8 +12187,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "They were bored by your presentation.",
-                                                    "They were engaged by your presentation."
+                                                    "They were engaged by your presentation.",
+                                                    "They were bored by your presentation."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "They were engaged by your presentation."
@@ -12303,8 +12327,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Give you a good score.",
-                                                    "Give you a bad score."
+                                                    "Give you a bad score.",
+                                                    "Give you a good score."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Give you a good score."
@@ -12373,8 +12397,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -12583,8 +12607,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Something you should be worried about.",
-                                                    "Temporary and nothing you should be worried about."
+                                                    "Temporary and nothing you should be worried about.",
+                                                    "Something you should be worried about."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Temporary and nothing you should be worried about."
@@ -12653,8 +12677,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You planned it poorly.",
-                                                    "The weather was unpleasant."
+                                                    "The weather was unpleasant.",
+                                                    "You planned it poorly."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "The weather was unpleasant."
@@ -12933,8 +12957,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -13003,8 +13027,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Other members will be excited to hear your valuable contributions.",
-                                                    "Other members will exclude you because of your opinions."
+                                                    "Other members will exclude you because of your opinions.",
+                                                    "Other members will be excited to hear your valuable contributions."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Other members will be excited to hear your valuable contributions."
@@ -13165,8 +13189,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -13235,8 +13259,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Talking poorly about you.",
-                                                    "Giving you a compliment."
+                                                    "Giving you a compliment.",
+                                                    "Talking poorly about you."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Giving you a compliment."
@@ -13305,8 +13329,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -13375,8 +13399,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -13515,8 +13539,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -13607,8 +13631,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Avoid speaking with you. ",
-                                                    "Start up a conversation."
+                                                    "Start up a conversation.",
+                                                    "Avoid speaking with you. "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Start up a conversation."
@@ -13699,8 +13723,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -13839,8 +13863,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Say yes if you suggest meeting again",
-                                                    "Say no if you suggest meeting again."
+                                                    "Say no if you suggest meeting again.",
+                                                    "Say yes if you suggest meeting again"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Say yes if you suggest meeting again"
@@ -13909,8 +13933,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -13979,8 +14003,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -14211,8 +14235,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You have great potential.",
-                                                    "You are incapable."
+                                                    "You are incapable.",
+                                                    "You have great potential."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You have great potential."
@@ -14303,8 +14327,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Offensive.",
-                                                    "Interesting."
+                                                    "Interesting.",
+                                                    "Offensive."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Interesting."
@@ -14395,8 +14419,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -14535,8 +14559,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -14605,8 +14629,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -14745,8 +14769,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "They are mad at you because of your previous disagreement.",
-                                                    "They remembered they had an important meeting at work at the same time."
+                                                    "They remembered they had an important meeting at work at the same time.",
+                                                    "They are mad at you because of your previous disagreement."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "They remembered they had an important meeting at work at the same time."
@@ -14815,8 +14839,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -14907,8 +14931,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -14999,8 +15023,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Are impressed by your determination.",
-                                                    "Think you are bad at trivia."
+                                                    "Think you are bad at trivia.",
+                                                    "Are impressed by your determination."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Are impressed by your determination."
@@ -15091,8 +15115,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -15161,8 +15185,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -15673,8 +15697,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -15743,8 +15767,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You are great company.",
-                                                    "You have poor table manners."
+                                                    "You have poor table manners.",
+                                                    "You are great company."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You are great company."
@@ -16089,8 +16113,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -16229,8 +16253,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Stressful situation, because the person might have found you uninteresting.",
-                                                    "Low-pressure and pleasant chance to meet a new person."
+                                                    "Low-pressure and pleasant chance to meet a new person.",
+                                                    "Stressful situation, because the person might have found you uninteresting."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Low-pressure and pleasant chance to meet a new person."
@@ -16299,8 +16323,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -16369,8 +16393,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -16531,8 +16555,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -16623,8 +16647,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "They were annoyed by someone else.",
-                                                    "They think you are annoying."
+                                                    "They think you are annoying.",
+                                                    "They were annoyed by someone else."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "They were annoyed by someone else."
@@ -16693,8 +16717,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Get anxious about feeling disoriented.",
-                                                    "Simply observe and accept the feelings."
+                                                    "Simply observe and accept the feelings.",
+                                                    "Get anxious about feeling disoriented."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Simply observe and accept the feelings."
@@ -16855,8 +16879,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -16925,8 +16949,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -17087,8 +17111,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Annoyed by the loud sound.",
-                                                    "Relieved that no one was injured."
+                                                    "Relieved that no one was injured.",
+                                                    "Annoyed by the loud sound."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Relieved that no one was injured."
@@ -17179,8 +17203,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -17433,8 +17457,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Not bothered.",
-                                                    "Annoyed."
+                                                    "Annoyed.",
+                                                    "Not bothered."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Not bothered."
@@ -17757,8 +17781,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -17827,8 +17851,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -18059,8 +18083,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -18221,8 +18245,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -18313,8 +18337,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -18475,8 +18499,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -18615,8 +18639,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -18685,8 +18709,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -18825,8 +18849,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -18895,8 +18919,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -19057,8 +19081,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -19197,8 +19221,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -19337,8 +19361,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -19407,8 +19431,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -19499,8 +19523,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -19569,8 +19593,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -19731,8 +19755,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -19941,8 +19965,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -20011,8 +20035,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -20221,8 +20245,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -20291,8 +20315,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -20361,8 +20385,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -20431,8 +20455,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -20711,8 +20735,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -20851,8 +20875,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -21013,8 +21037,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -21359,8 +21383,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -21499,8 +21523,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -21591,8 +21615,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -21731,8 +21755,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -21893,8 +21917,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -22405,8 +22429,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -22475,8 +22499,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -22545,8 +22569,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -22987,8 +23011,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -23127,8 +23151,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -23337,8 +23361,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -23477,8 +23501,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -23661,8 +23685,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -23731,8 +23755,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -23823,8 +23847,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -24033,8 +24057,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -24265,8 +24289,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -24335,8 +24359,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -24405,8 +24429,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -24475,8 +24499,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -24637,8 +24661,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -24707,8 +24731,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -24777,8 +24801,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -25009,8 +25033,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -25079,8 +25103,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -25289,8 +25313,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -25359,8 +25383,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -25429,8 +25453,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -25521,8 +25545,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -25613,8 +25637,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -25823,8 +25847,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -25963,8 +25987,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -26125,8 +26149,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -26335,8 +26359,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -32052,8 +32076,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -32122,8 +32146,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Become infected.",
-                                                    "Heal quickly."
+                                                    "Heal quickly.",
+                                                    "Become infected."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Heal quickly."
@@ -32192,8 +32216,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Make an emergency call because this is a sign of something serious.",
-                                                    "Grab a bottle of water and a post-workout snack"
+                                                    "Grab a bottle of water and a post-workout snack",
+                                                    "Make an emergency call because this is a sign of something serious."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Grab a bottle of water and a post-workout snack"
@@ -32262,8 +32286,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -32472,8 +32496,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -32612,8 +32636,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Your body needs rest after a long day of work.",
-                                                    "You are not getting enough oxygen and will pass out."
+                                                    "You are not getting enough oxygen and will pass out.",
+                                                    "Your body needs rest after a long day of work."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Your body needs rest after a long day of work."
@@ -32682,8 +32706,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -32822,8 +32846,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -33032,8 +33056,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Learn exciting things.",
-                                                    "Not be able to find your way out. "
+                                                    "Not be able to find your way out. ",
+                                                    "Learn exciting things."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Learn exciting things."
@@ -33102,8 +33126,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Something you should be worried about.",
-                                                    "Temporary and nothing you should be worried about."
+                                                    "Temporary and nothing you should be worried about.",
+                                                    "Something you should be worried about."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Temporary and nothing you should be worried about."
@@ -33312,8 +33336,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -33452,8 +33476,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -33522,8 +33546,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -33592,8 +33616,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -33662,8 +33686,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -33802,8 +33826,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Get sick. ",
-                                                    "Not get sick. "
+                                                    "Not get sick. ",
+                                                    "Get sick. "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Get sick. "
@@ -33872,8 +33896,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Get sicker in the future.",
-                                                    "Remain healthy in the future."
+                                                    "Remain healthy in the future.",
+                                                    "Get sicker in the future."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Remain healthy in the future."
@@ -34012,8 +34036,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -34082,8 +34106,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -34152,8 +34176,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "A serious illness.",
-                                                    "A new medication."
+                                                    "A new medication.",
+                                                    "A serious illness."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "A new medication."
@@ -34222,8 +34246,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Temporary.",
-                                                    "A sign of serious injury. "
+                                                    "A sign of serious injury. ",
+                                                    "Temporary."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Temporary."
@@ -34362,8 +34386,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You are safe standing above the tracks.",
-                                                    "You are in danger of falling over the edge."
+                                                    "You are in danger of falling over the edge.",
+                                                    "You are safe standing above the tracks."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You are safe standing above the tracks."
@@ -34432,8 +34456,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You are coming down with the flu.",
-                                                    "You only had one glass of water today."
+                                                    "You only had one glass of water today.",
+                                                    "You are coming down with the flu."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You only had one glass of water today."
@@ -34502,8 +34526,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -34852,8 +34876,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -35132,8 +35156,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Clear it and continue skiing downhill.",
-                                                    "Fall down."
+                                                    "Fall down.",
+                                                    "Clear it and continue skiing downhill."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Clear it and continue skiing downhill."
@@ -35202,8 +35226,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Enjoy seeing them have fun.",
-                                                    "Worry they will hurt themselves."
+                                                    "Worry they will hurt themselves.",
+                                                    "Enjoy seeing them have fun."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Enjoy seeing them have fun."
@@ -35342,8 +35366,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -35412,8 +35436,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -35622,8 +35646,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Panicking about the sensations and calling an ambulance.",
-                                                    "Observing the sensations without doing anything."
+                                                    "Observing the sensations without doing anything.",
+                                                    "Panicking about the sensations and calling an ambulance."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Observing the sensations without doing anything."
@@ -35762,8 +35786,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -35972,8 +35996,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You managed your anxiety, and stayed.",
-                                                    "You stopped dancing, because of your anxiety."
+                                                    "You stopped dancing, because of your anxiety.",
+                                                    "You managed your anxiety, and stayed."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You managed your anxiety, and stayed."
@@ -36182,8 +36206,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -36252,8 +36276,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -36322,8 +36346,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -36392,8 +36416,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -36462,8 +36486,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -36926,8 +36950,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -36996,8 +37020,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -37066,8 +37090,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -37206,8 +37230,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -37508,8 +37532,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -37740,8 +37764,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -37880,8 +37904,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -37972,8 +37996,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -38042,8 +38066,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -38344,8 +38368,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -38436,8 +38460,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -38528,8 +38552,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -38598,8 +38622,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -38668,8 +38692,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -38760,8 +38784,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -38830,8 +38854,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -41233,8 +41257,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Exhausted from a busy week",
-                                                    "Mad at you."
+                                                    "Mad at you.",
+                                                    "Exhausted from a busy week"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Exhausted from a busy week"
@@ -41443,8 +41467,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "At ease as you get to work.",
-                                                    "Worried that you left the door to your home unlocked."
+                                                    "Worried that you left the door to your home unlocked.",
+                                                    "At ease as you get to work."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "At ease as you get to work."
@@ -41513,8 +41537,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Get sicker in the future.",
-                                                    "Remain healthy in the future."
+                                                    "Remain healthy in the future.",
+                                                    "Get sicker in the future."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Remain healthy in the future."
@@ -41723,8 +41747,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Find that your house feels like home. ",
-                                                    "Regret your decision. "
+                                                    "Regret your decision. ",
+                                                    "Find that your house feels like home. "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Find that your house feels like home. "
@@ -41933,8 +41957,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -42003,8 +42027,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -42073,8 +42097,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -42327,8 +42351,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -42397,8 +42421,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -42467,8 +42491,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -42537,8 +42561,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -42607,8 +42631,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -42677,8 +42701,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -43351,8 +43375,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -43513,8 +43537,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -43675,8 +43699,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -43885,8 +43909,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -44047,8 +44071,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -44257,8 +44281,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -44349,8 +44373,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -44419,8 +44443,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -44743,8 +44767,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -44813,8 +44837,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -46142,8 +46166,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Manageable.",
-                                                    "Out of control."
+                                                    "Out of control.",
+                                                    "Manageable."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Manageable."
@@ -46514,8 +46538,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "They were annoyed by someone else.",
-                                                    "They think you are annoying."
+                                                    "They think you are annoying.",
+                                                    "They were annoyed by someone else."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "They were annoyed by someone else."
@@ -46584,8 +46608,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -46864,8 +46888,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -46956,8 +46980,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -47048,8 +47072,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -47622,8 +47646,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "At ease as you get to work.",
-                                                    "Worried that you left the door to your home unlocked."
+                                                    "Worried that you left the door to your home unlocked.",
+                                                    "At ease as you get to work."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "At ease as you get to work."
@@ -47924,8 +47948,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Is not a big deal at all.",
-                                                    "Means you are clumsy and careless."
+                                                    "Means you are clumsy and careless.",
+                                                    "Is not a big deal at all."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Is not a big deal at all."
@@ -47994,8 +48018,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -48064,8 +48088,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -48134,8 +48158,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -48344,8 +48368,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Get anxious about feeling disoriented.",
-                                                    "Simply observe and accept the feelings."
+                                                    "Simply observe and accept the feelings.",
+                                                    "Get anxious about feeling disoriented."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Simply observe and accept the feelings."
@@ -48436,8 +48460,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -48528,8 +48552,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -48668,8 +48692,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Panicking about the sensations and calling an ambulance.",
-                                                    "Observing the sensations without doing anything."
+                                                    "Observing the sensations without doing anything.",
+                                                    "Panicking about the sensations and calling an ambulance."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Observing the sensations without doing anything."
@@ -48808,8 +48832,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -48878,8 +48902,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -48948,8 +48972,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -49088,8 +49112,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "You managed your anxiety, and stayed.",
-                                                    "You stopped dancing, because of your anxiety."
+                                                    "You stopped dancing, because of your anxiety.",
+                                                    "You managed your anxiety, and stayed."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "You managed your anxiety, and stayed."
@@ -49228,8 +49252,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -49320,8 +49344,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -49460,8 +49484,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -49530,8 +49554,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -50042,8 +50066,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -50694,8 +50718,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -50834,8 +50858,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No "
+                                                    "No ",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No "
@@ -51066,8 +51090,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes ",
-                                                    "No"
+                                                    "No",
+                                                    "Yes "
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes "
@@ -51390,8 +51414,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -51482,8 +51506,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -51574,8 +51598,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -51828,8 +51852,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -51968,8 +51992,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -52038,8 +52062,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -52108,8 +52132,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -52248,8 +52272,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -53678,8 +53702,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -53840,8 +53864,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Is not a big deal at all.",
-                                                    "Means you are clumsy and careless."
+                                                    "Means you are clumsy and careless.",
+                                                    "Is not a big deal at all."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Is not a big deal at all."
@@ -54094,8 +54118,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -54466,8 +54490,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -54900,8 +54924,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -55040,8 +55064,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -55180,8 +55204,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Clear it and continue skiing downhill.",
-                                                    "Fall down."
+                                                    "Fall down.",
+                                                    "Clear it and continue skiing downhill."
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Clear it and continue skiing downhill."
@@ -55320,8 +55344,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -55552,8 +55576,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -55622,8 +55646,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -55714,8 +55738,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -55806,8 +55830,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -55968,8 +55992,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "Yes"
@@ -56038,8 +56062,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "No",
-                                                    "Yes"
+                                                    "Yes",
+                                                    "No"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
@@ -56108,8 +56132,8 @@
                                             "IncorrectDelay": 5000,
                                             "Parameters": {
                                                 "Buttons": [
-                                                    "Yes",
-                                                    "No"
+                                                    "No",
+                                                    "Yes"
                                                 ],
                                                 "ColumnCount": 2,
                                                 "Answer": "No"
