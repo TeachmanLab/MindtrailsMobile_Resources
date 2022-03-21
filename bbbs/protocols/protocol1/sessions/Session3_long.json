@@ -330,17 +330,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "People will be happy to work with me. ",
                                                     "What if I make a comment that the group thinks is dumb? They'll probably forget what I said after class. ",
-                                                    "I'll make good contributions to the group discussion. ",
-                                                    "If the other kids say I can't be in their group, I'll just ask another group. ",
                                                     "Everyone will pick through group before class and I won't be able to find a group. ",
-                                                    "People will be happy to work with me. "
+                                                    "I'll make good contributions to the group discussion. ",
+                                                    "If the other kids say I can't be in their group, I'll just ask another group. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 1",
@@ -394,16 +394,16 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel anxious about not knowing who is going to be in my group, but everything will be OK tomorrow. ",
-                                                    "I'm curious if I'll make new friends. ",
                                                     "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. ",
-                                                    "I'm worried that I won't get into a good group. ",
-                                                    "I'm excited to work with new classmates. "
+                                                    "I'm excited to work with new classmates. ",
+                                                    "I'm curious if I'll make new friends. ",
+                                                    "I'm worried that I won't get into a good group. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 1",
@@ -457,16 +457,16 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'll pretend to be sick and just won't go to school. ",
-                                                    "During class, I'll do my best to include everyone in our group conversation. ",
-                                                    "I'll make sure that I understand what's going on in the book before tomorrow's class. ",
                                                     "I'll want to skip class, but I'll go anyway and cope with feeling anxious. ",
-                                                    "I'll ask others to be in their group, even if I really don't want to. "
+                                                    "During class, I'll do my best to include everyone in our group conversation. ",
+                                                    "I'll ask others to be in their group, even if I really don't want to. ",
+                                                    "I'll make sure that I understand what's going on in the book before tomorrow's class. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 1 Behaviors",
@@ -550,17 +550,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My answer was not correct, but that is okay. ",
                                                     "Everyone thinks my answer is wrong. ",
+                                                    "My answer was not correct, but that is okay. ",
                                                     "I'm happy I could speak up in class. ",
-                                                    "What I said wasn't perfect, but that's OK. ",
-                                                    "My answer was intelligent. "
+                                                    "My answer was intelligent. ",
+                                                    "What I said wasn't perfect, but that's OK. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 2",
@@ -613,17 +613,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I felt self conscious while answering. ",
-                                                    "I am happy the students can hear my answer.",
                                                     "I am embarrassed that my answer sounded wrong, but everyone has moments like that. ",
                                                     "I was sad that I couldn't provide a better answer, but there is always next time. ",
-                                                    "I am feeling smart about how I navigated the question."
+                                                    "I am happy the students can hear my answer.",
+                                                    "I am feeling smart about how I navigated the question.",
+                                                    "I felt self conscious while answering. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 2",
@@ -676,17 +676,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I relax after saying my answer. ",
-                                                    "I take notes on my teacher's comments after my answer. ",
                                                     "I leave the class and go to the bathroom to avoid the other students.",
+                                                    "I want to apologize for my poor answer, but do not.",
                                                     "I want to cover my face, but decide to look at the teacher. ",
-                                                    "I want to apologize for my poor answer, but do not."
+                                                    "I relax after saying my answer. ",
+                                                    "I take notes on my teacher's comments after my answer. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 2 Behaviors",
@@ -770,17 +770,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "They're probably not responding to a lot of people right now. ",
                                                     "They're just busy. ",
-                                                    "They must not like me.",
+                                                    "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. ",
                                                     "I think what I said may have not been interesting enough, but don't know that for sure. ",
-                                                    "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. "
+                                                    "They're probably not responding to a lot of people right now. ",
+                                                    "They must not like me."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 3",
@@ -833,17 +833,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm happy with who I am whether they respond or not. ",
-                                                    "I feel bad about not getting a quick reply, but remember I don't need to try and control the situation. ",
                                                     "I feel okay with the message I sent. ",
                                                     "I'm embarrassed that they might not like me.",
-                                                    "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent."
+                                                    "I feel bad about not getting a quick reply, but remember I don't need to try and control the situation. ",
+                                                    "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent.",
+                                                    "I'm happy with who I am whether they respond or not. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 3",
@@ -862,7 +862,7 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You've been talking to your crush on social media and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
@@ -896,17 +896,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to get reassurance from my friends, but decide to calm myself down. ",
                                                     "I send a bunch of messages back to back to see if they respond. ",
                                                     "I want to spend my day focused on my phone, but instead do hobbies I enjoy. ",
+                                                    "I keep going with my day.",
                                                     "I call a friend and ask them about their day. ",
-                                                    "I keep going with my day."
+                                                    "I want to get reassurance from my friends, but decide to calm myself down. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scneario 3 Behaviors",
@@ -1025,17 +1025,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I looked good in the mirror on my way out of the bathroom. ",
                                                     "They've been talking about me. Even if that's the case, it doesn't mean it was bad. ",
-                                                    "Could they hear me going to the bathroom? That's really unlikely. ",
                                                     "I must look silly.",
                                                     "My hair looks great today. ",
-                                                    "I looked good in the mirror on my way out of the bathroom. "
+                                                    "Could they hear me going to the bathroom? That's really unlikely. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 1",
@@ -1088,17 +1088,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm worried that they were talking about be. But, realistically they probably weren't. ",
+                                                    "I'm so happy to be spending this time with this group. ",
                                                     "I'm feeling excited about hearing what they were talking about",
-                                                    "I feel targeted because everyone is looking at me. ",
                                                     "I'm anxious about what they were saying. However, they're probably quiet because I startled them. ",
-                                                    "I'm so happy to be spending this time with this group. "
+                                                    "I feel targeted because everyone is looking at me. ",
+                                                    "I'm worried that they were talking about be. But, realistically they probably weren't. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 1",
@@ -1152,16 +1152,16 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I ask them defensively why they are so quiet. ",
-                                                    "I'll make a joke with my friends. ",
-                                                    "I want to leave immediately, but I'll go back to my friends. ",
                                                     "I want to go back into the bathroom forever, but I'll face my friends. ",
-                                                    "I'll ask what they were talking about in a nice way. "
+                                                    "I want to leave immediately, but I'll go back to my friends. ",
+                                                    "I'll ask what they were talking about in a nice way. ",
+                                                    "I'll make a joke with my friends. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 1 Behaviors",
@@ -1246,16 +1246,16 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I would rather have my friend next to me on this bus ride, but that's not always possible. ",
-                                                    "I feel left out, but I know there are times that not everyone can be included. ",
-                                                    "I think about how I enjoy the bus rides.",
+                                                    "Maybe they haven't had a chance to catch up in a while. ",
                                                     "My friend doesn't consider me their friend. ",
-                                                    "Maybe they haven't had a chance to catch up in a while. "
+                                                    "I feel left out, but I know there are times that not everyone can be included. ",
+                                                    "I think about how I enjoy the bus rides."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 2",
@@ -1308,17 +1308,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I am annoyed that I don't have my friends wanting to sit with me, but I know that this situation will pass.",
                                                     "I am guessing my friend is mad at me, but I know I should not assume the worst. ",
-                                                    "I am happy that my friends are happy. ",
                                                     "I feel mad at my friend for not sitting with me. ",
-                                                    "I am courageous for sitting on my own.",
-                                                    "I am annoyed that I don't have my friends wanting to sit with me, but I know that this situation will pass."
+                                                    "I am happy that my friends are happy. ",
+                                                    "I am courageous for sitting on my own."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 2",
@@ -1371,17 +1371,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I say hello to my friend as they pass. ",
                                                     "I want to get mad and bring up the subject as soon as we get off of the bus, but I know that isn't right so I give my friend some time. ",
+                                                    "I say hello to my friend as they pass. ",
                                                     "I want to talk about this with my other friends at school, but decide to keep this to myself. ",
-                                                    "I get flustered and move further away from my friend. ",
-                                                    "I start to journal in my notebook. "
+                                                    "I start to journal in my notebook. ",
+                                                    "I get flustered and move further away from my friend. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 2 Behaviors",
@@ -1465,17 +1465,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me.",
                                                     "My parents are going to say something that makes me upset.",
-                                                    "If my parents say something that I don't agree with, my friend and I can always talk about it later. ",
-                                                    "I appreciate having different views than my family. ",
                                                     "My friend will be interested in hearing what my family has to say.",
-                                                    "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me."
+                                                    "I appreciate having different views than my family. ",
+                                                    "If my parents say something that I don't agree with, my friend and I can always talk about it later. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 3",
@@ -1528,17 +1528,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm calm sitting at dinner with my parents and my friend.",
-                                                    "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what.",
                                                     "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs.",
                                                     "I'm excited to watch a movie with my friend after we eat.",
-                                                    "I'm anxious about what my parents might say."
+                                                    "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what.",
+                                                    "I'm anxious about what my parents might say.",
+                                                    "I'm calm sitting at dinner with my parents and my friend."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 3",
@@ -1557,7 +1557,7 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You are hanging out at your friend's house and go to use the restroom. When you reenter the room your friends are in, they stop their conversation and it's silent. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
@@ -1591,17 +1591,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I listen to my friend while they talk to my parents.",
+                                                    "I zone out and stop paying attention to what people are saying.",
+                                                    "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
                                                     "I remind myself that everyone has different opinions.",
                                                     "I want to change the topic of conversation to something less serious, but I let the conversation go.",
-                                                    "I zone out and stop paying attention to what people are saying.",
-                                                    "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation."
+                                                    "I listen to my friend while they talk to my parents."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scneario 3 Behaviors",
@@ -1720,17 +1720,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. ",
                                                     "That must have been a really funny joke. ",
+                                                    "I really don't like this feeling, but I can tolerate it. ",
                                                     "I have never laughed that hard at a joke my friend has told. ",
                                                     "I can't breathe!",
-                                                    "I really don't like this feeling, but I can tolerate it. "
+                                                    "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 1",
@@ -1783,17 +1783,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm happy that my friends are so funny. ",
                                                     "I'm anxious about this feeling in my chest, but I know it's just from laughing really hard. ",
                                                     "I'm so surprised by that joke!",
-                                                    "I'm happy that my friends are so funny. ",
-                                                    "I'm terrified by the tightness in my chest. ",
-                                                    "I'm worried about the tightness in my chest, but I think it will go away soon. "
+                                                    "I'm worried about the tightness in my chest, but I think it will go away soon. ",
+                                                    "I'm terrified by the tightness in my chest. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 1",
@@ -1846,17 +1846,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I notice the feeling in my chest and take a sip of water. ",
-                                                    "I take a deep breath and tell my friend that was a good joke. ",
-                                                    "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. ",
                                                     "I start to panic that I'm having a heart attack. ",
-                                                    "Even though it's hard, I tell myself that this feeling will pass. "
+                                                    "I notice the feeling in my chest and take a sip of water. ",
+                                                    "Even though it's hard, I tell myself that this feeling will pass. ",
+                                                    "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. ",
+                                                    "I take a deep breath and tell my friend that was a good joke. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 1 Behaviors",
@@ -1940,17 +1940,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My friends might judge me for gasping a little when I get to them, but they probably won't. ",
-                                                    "It is so beautiful out today. ",
                                                     "I feel like I'm going to die from being out of breath, but I know I won't. ",
                                                     "My friends will notice I am out of breath. ",
+                                                    "My friends might judge me for gasping a little when I get to them, but they probably won't. ",
+                                                    "It is so beautiful out today. ",
                                                     "I am able to keep a good pace on this jog. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 2",
@@ -2003,17 +2003,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm embarrassed that I have to catch my breath when I see my friends. ",
+                                                    "I'm worried that I'm sick because of this feeling in my chest, but realistically I know I'm fine and it was just the jog. ",
                                                     "I'm happy to be able to stretch out my legs. ",
                                                     "Even though I'm feeling miserable, I know this feeling will pass. ",
-                                                    "I'm worried that I'm sick because of this feeling in my chest, but realistically I know I'm fine and it was just the jog. ",
-                                                    "I'm embarrassed that I have to catch my breath when I see my friends. ",
                                                     "I'm really excited to see these friends who I haven't seen in a while. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 2",
@@ -2066,17 +2066,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I try to cover up that my breathing is heavy. ",
-                                                    "I want to go see a doctor because I'm worried about how tight my chest is, but know that this feeling is normal after a quick jog. ",
-                                                    "I take a second to catch my breath when I get to my friends. ",
+                                                    "I crack a joke when I see my friends. ",
                                                     "I want to walk away quickly from my friends so they don't see how out of breath I am, but I know that this is normal and they won't judge me. ",
-                                                    "I crack a joke when I see my friends. "
+                                                    "I want to go see a doctor because I'm worried about how tight my chest is, but know that this feeling is normal after a quick jog. ",
+                                                    "I try to cover up that my breathing is heavy. ",
+                                                    "I take a second to catch my breath when I get to my friends. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 2 Behaviors",
@@ -2160,17 +2160,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Even though I've heard there are snakes in the park, I think I can avoid them.",
-                                                    "I'm going to get bitten by a snake!",
-                                                    "It'll be nice to walk in the park. ",
+                                                    "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety.",
                                                     "I'm looking forward to talking to my friend.",
-                                                    "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety."
+                                                    "It'll be nice to walk in the park. ",
+                                                    "Even though I've heard there are snakes in the park, I think I can avoid them.",
+                                                    "I'm going to get bitten by a snake!"
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 3",
@@ -2223,17 +2223,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm happy my friend asked me to go on a walk. ",
                                                     "I'm terrified that something bad is going to happen to me.",
                                                     "I'm worried about what we'll see in the park, but know that I can handle feeling a little worried.",
-                                                    "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen.",
                                                     "I'm calm thinking about going to the park.",
-                                                    "I'm happy my friend asked me to go on a walk. "
+                                                    "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 3",
@@ -2252,7 +2252,7 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "A friend tells a funny joke and you start to laugh really hard. While you're laughing, you feel an uncomfortable tightness in your chest that you've never felt before.  \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
@@ -2286,9 +2286,9 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park.",
                                                     "I call my friend and say that I'm busy all of a sudden.",
                                                     "I want to tell my friend that I can't go, but push myself to go into the park anyway. ",
+                                                    "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park.",
                                                     "I put on a jacket and go outside. ",
                                                     "I tell my friend I'm ready to go."
                                                 ],
@@ -2296,7 +2296,7 @@
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scneario 3 Behaviors",
@@ -2415,17 +2415,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "They're just busy. ",
-                                                    "They're probably not responding to a lot of people right now. ",
-                                                    "They must not like me.",
+                                                    "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. ",
                                                     "I think what I said may have not been interesting enough, but don't know that for sure. ",
-                                                    "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. "
+                                                    "They're probably not responding to a lot of people right now. ",
+                                                    "They're just busy. ",
+                                                    "They must not like me."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 1",
@@ -2478,9 +2478,9 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent.",
                                                     "I'm happy with who I am whether they respond or not. ",
                                                     "I feel bad about not getting a quick reply, but remember I don't need to try and control the situation. ",
+                                                    "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent.",
                                                     "I feel okay with the message I sent. ",
                                                     "I'm embarrassed that they might not like me."
                                                 ],
@@ -2488,7 +2488,7 @@
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 1",
@@ -2541,17 +2541,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to spend my day focused on my phone, but instead do hobbies I enjoy. ",
-                                                    "I keep going with my day.",
-                                                    "I call a friend and ask them about their day. ",
                                                     "I send a bunch of messages back to back to see if they respond. ",
-                                                    "I want to get reassurance from my friends, but decide to calm myself down. "
+                                                    "I call a friend and ask them about their day. ",
+                                                    "I want to get reassurance from my friends, but decide to calm myself down. ",
+                                                    "I want to spend my day focused on my phone, but instead do hobbies I enjoy. ",
+                                                    "I keep going with my day."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 1 Behaviors",
@@ -2635,17 +2635,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My friends look really happy. ",
-                                                    "Others might wonder if I was excluded intentionally, but I doubt that will actually happen. ",
-                                                    "I think they meant to leave me out of the gathering. ",
                                                     "My friends must not actually like me. But, I know that's not the case; we have a lot of fun together. ",
-                                                    "I think about all the wonderful photos I took with my friends. "
+                                                    "My friends look really happy. ",
+                                                    "I think they meant to leave me out of the gathering. ",
+                                                    "I think about all the wonderful photos I took with my friends. ",
+                                                    "Others might wonder if I was excluded intentionally, but I doubt that will actually happen. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 2",
@@ -2698,17 +2698,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm sad that they forgot about me. ",
-                                                    "I worry that they left me out on purpose, but remember all of the times I have been included. ",
-                                                    "I'm glad that I have such cool friends. ",
                                                     "I'm feeling sad, but decide to think of the good times I have had with my friends.",
-                                                    "I'm calm seeing the pictures that they posted. "
+                                                    "I'm calm seeing the pictures that they posted. ",
+                                                    "I'm glad that I have such cool friends. ",
+                                                    "I'm sad that they forgot about me. ",
+                                                    "I worry that they left me out on purpose, but remember all of the times I have been included. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 2",
@@ -2761,9 +2761,9 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'll ask my friends to hang out later this week. ",
-                                                    "I want to ignore them for not inviting me, but remind myself that would be childish. ",
                                                     "I text my friends and say hi. ",
+                                                    "I want to ignore them for not inviting me, but remind myself that would be childish. ",
+                                                    "I'll ask my friends to hang out later this week. ",
                                                     "I cry and look at other pictures that I'm not in. ",
                                                     "I want to gossip about how awful it was that I wasn't invited, but decide that would not be nice. "
                                                 ],
@@ -2771,7 +2771,7 @@
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 2 Behaviors",
@@ -2855,17 +2855,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'll make good contributions to the group discussion. ",
-                                                    "What if I make a comment that the group thinks is dumb? They'll probably forget what I said after class. ",
                                                     "People will be happy to work with me. ",
+                                                    "Everyone will pick through group before class and I won't be able to find a group. ",
                                                     "If the other kids say I can't be in their group, I'll just ask another group. ",
-                                                    "Everyone will pick through group before class and I won't be able to find a group. "
+                                                    "I'll make good contributions to the group discussion. ",
+                                                    "What if I make a comment that the group thinks is dumb? They'll probably forget what I said after class. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 3",
@@ -2918,17 +2918,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. ",
                                                     "I'm excited to work with new classmates. ",
-                                                    "I'm worried that I won't get into a good group. ",
-                                                    "I feel anxious about not knowing who is going to be in my group, but everything will be OK tomorrow. ",
                                                     "I'm curious if I'll make new friends. ",
-                                                    "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. "
+                                                    "I'm worried that I won't get into a good group. ",
+                                                    "I feel anxious about not knowing who is going to be in my group, but everything will be OK tomorrow. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 3",
@@ -2947,7 +2947,7 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You've been talking to your crush on social media and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
@@ -2981,17 +2981,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'll make sure that I understand what's going on in the book before tomorrow's class. ",
                                                     "I'll ask others to be in their group, even if I really don't want to. ",
-                                                    "I'll pretend to be sick and just won't go to school. ",
+                                                    "I'll make sure that I understand what's going on in the book before tomorrow's class. ",
                                                     "During class, I'll do my best to include everyone in our group conversation. ",
-                                                    "I'll want to skip class, but I'll go anyway and cope with feeling anxious. "
+                                                    "I'll want to skip class, but I'll go anyway and cope with feeling anxious. ",
+                                                    "I'll pretend to be sick and just won't go to school. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scneario 3 Behaviors",
@@ -3112,15 +3112,15 @@
                                                 "Text": [
                                                     "My parents are going to say something that makes me upset.",
                                                     "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me.",
-                                                    "My friend will be interested in hearing what my family has to say.",
+                                                    "I appreciate having different views than my family. ",
                                                     "If my parents say something that I don't agree with, my friend and I can always talk about it later. ",
-                                                    "I appreciate having different views than my family. "
+                                                    "My friend will be interested in hearing what my family has to say."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 1",
@@ -3173,17 +3173,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what.",
-                                                    "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs.",
-                                                    "I'm anxious about what my parents might say.",
                                                     "I'm excited to watch a movie with my friend after we eat.",
-                                                    "I'm calm sitting at dinner with my parents and my friend."
+                                                    "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs.",
+                                                    "I'm calm sitting at dinner with my parents and my friend.",
+                                                    "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what.",
+                                                    "I'm anxious about what my parents might say."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 1",
@@ -3236,17 +3236,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I listen to my friend while they talk to my parents.",
                                                     "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
                                                     "I want to change the topic of conversation to something less serious, but I let the conversation go.",
-                                                    "I remind myself that everyone has different opinions.",
-                                                    "I listen to my friend while they talk to my parents.",
-                                                    "I zone out and stop paying attention to what people are saying."
+                                                    "I zone out and stop paying attention to what people are saying.",
+                                                    "I remind myself that everyone has different opinions."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 1 Behaviors",
@@ -3330,17 +3330,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think about how great it is to be busy. ",
-                                                    "I'm able to balance a lot.",
-                                                    "I don't know how I'm going to fit all of this in tonight, but I'll be able to figure it out. ",
                                                     "It feels overwhelming having so much to do, but I'll do my best. ",
-                                                    "I'm not going to be able to do all of this tonight."
+                                                    "I don't know how I'm going to fit all of this in tonight, but I'll be able to figure it out. ",
+                                                    "I'm not going to be able to do all of this tonight.",
+                                                    "I'm able to balance a lot.",
+                                                    "I think about how great it is to be busy. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 2",
@@ -3393,8 +3393,8 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm excited to discover new music while I'm doing my chores. ",
                                                     "My stomach is in knots because I don't know if I'll get my work done. ",
+                                                    "I'm excited to discover new music while I'm doing my chores. ",
                                                     "I feel like I want to do nothing, but know that it will feel so great to have these tasks accomplished. ",
                                                     "I'm calm as I figure out how to get everything done tonight. ",
                                                     "I feel frustrated with the time crunch, but know that once I get started it will all start to flow. "
@@ -3403,7 +3403,7 @@
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 2",
@@ -3457,16 +3457,16 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I complain about how much I have to do. ",
-                                                    "I eat a snack and then get working on the chores first. ",
+                                                    "I want to procrastinate until the end of the day, but decide not to. ",
                                                     "I outline a schedule for me to follow. ",
                                                     "I sit back and think about how I can avoid both my chores and project, but decide to do the right thing and get the tasks done.",
-                                                    "I want to procrastinate until the end of the day, but decide not to. "
+                                                    "I eat a snack and then get working on the chores first. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 2 Behaviors",
@@ -3550,17 +3550,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My hair looks great today. ",
                                                     "Could they hear me going to the bathroom? That's really unlikely. ",
-                                                    "They've been talking about me. Even if that's the case, it doesn't mean it was bad. ",
+                                                    "I must look silly.",
                                                     "I looked good in the mirror on my way out of the bathroom. ",
-                                                    "I must look silly."
+                                                    "They've been talking about me. Even if that's the case, it doesn't mean it was bad. ",
+                                                    "My hair looks great today. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 3",
@@ -3613,17 +3613,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm anxious about what they were saying. However, they're probably quiet because I startled them. ",
-                                                    "I'm feeling excited about hearing what they were talking about",
-                                                    "I'm worried that they were talking about be. But, realistically they probably weren't. ",
                                                     "I'm so happy to be spending this time with this group. ",
-                                                    "I feel targeted because everyone is looking at me. "
+                                                    "I'm worried that they were talking about be. But, realistically they probably weren't. ",
+                                                    "I'm anxious about what they were saying. However, they're probably quiet because I startled them. ",
+                                                    "I feel targeted because everyone is looking at me. ",
+                                                    "I'm feeling excited about hearing what they were talking about"
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 3",
@@ -3642,7 +3642,7 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You are hanging out at your friend's house and go to use the restroom. When you reenter the room your friends are in, they stop their conversation and it's silent. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
@@ -3676,17 +3676,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to leave immediately, but I'll go back to my friends. ",
-                                                    "I'll ask what they were talking about in a nice way. ",
-                                                    "I want to go back into the bathroom forever, but I'll face my friends. ",
                                                     "I'll make a joke with my friends. ",
-                                                    "I ask them defensively why they are so quiet. "
+                                                    "I want to go back into the bathroom forever, but I'll face my friends. ",
+                                                    "I want to leave immediately, but I'll go back to my friends. ",
+                                                    "I ask them defensively why they are so quiet. ",
+                                                    "I'll ask what they were talking about in a nice way. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scneario 3 Behaviors",
@@ -3805,17 +3805,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Even though I've heard there are snakes in the park, I think I can avoid them.",
+                                                    "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety.",
                                                     "I'm looking forward to talking to my friend.",
                                                     "I'm going to get bitten by a snake!",
-                                                    "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety.",
-                                                    "It'll be nice to walk in the park. "
+                                                    "It'll be nice to walk in the park. ",
+                                                    "Even though I've heard there are snakes in the park, I think I can avoid them."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 1",
@@ -3868,17 +3868,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen.",
-                                                    "I'm happy my friend asked me to go on a walk. ",
                                                     "I'm terrified that something bad is going to happen to me.",
+                                                    "I'm happy my friend asked me to go on a walk. ",
+                                                    "I'm calm thinking about going to the park.",
                                                     "I'm worried about what we'll see in the park, but know that I can handle feeling a little worried.",
-                                                    "I'm calm thinking about going to the park."
+                                                    "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen."
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 1",
@@ -3931,17 +3931,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I tell my friend I'm ready to go.",
+                                                    "I call my friend and say that I'm busy all of a sudden.",
                                                     "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park.",
                                                     "I put on a jacket and go outside. ",
-                                                    "I want to tell my friend that I can't go, but push myself to go into the park anyway. ",
-                                                    "I call my friend and say that I'm busy all of a sudden.",
-                                                    "I tell my friend I'm ready to go."
+                                                    "I want to tell my friend that I can't go, but push myself to go into the park anyway. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 1 Behaviors",
@@ -4025,17 +4025,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "He looks so happy to be with family. ",
-                                                    "He's probably going to pass away soon. ",
                                                     "I wonder what is going on, but decide to be in the moment with him. ",
                                                     "I think about whether my family is keeping something from me, but tell myself that I can't control my grandfather's health. ",
+                                                    "He looks so happy to be with family. ",
+                                                    "He's probably going to pass away soon. ",
                                                     "My grandfather is glad that I'm visiting. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 2",
@@ -4088,17 +4088,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I start to feel angry about how he is getting older, but know that this is a part of life. ",
+                                                    "I feel anxious and start to overthink what could be wrong, but remember I can't control his health.",
                                                     "I'm uneasy about my grandfather's appearance. ",
+                                                    "I start to feel angry about how he is getting older, but know that this is a part of life. ",
                                                     "I am grateful to be able to spend time with my grandfather.",
-                                                    "I feel thrilled that my grandfather is engaging in conversation. ",
-                                                    "I feel anxious and start to overthink what could be wrong, but remember I can't control his health."
+                                                    "I feel thrilled that my grandfather is engaging in conversation. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 2",
@@ -4151,17 +4151,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I laugh at something silly my grandfather said. ",
                                                     "I feel the urge to worry a lot about his health, but take a deep breath and enjoy the moments I have with my grandfather. ",
+                                                    "I avoid thinking about his health.",
                                                     "I want to question the family on his health, but decide to enjoy the gathering. ",
-                                                    "I start to make conversation with my family. ",
-                                                    "I avoid thinking about his health."
+                                                    "I laugh at something silly my grandfather said. ",
+                                                    "I start to make conversation with my family. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scenario 2 Behaviors",
@@ -4245,17 +4245,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I can't breathe!",
                                                     "I have never laughed that hard at a joke my friend has told. ",
-                                                    "I really don't like this feeling, but I can tolerate it. ",
                                                     "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. ",
-                                                    "That must have been a really funny joke. "
+                                                    "I can't breathe!",
+                                                    "That must have been a really funny joke. ",
+                                                    "I really don't like this feeling, but I can tolerate it. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Thoughts 3",
@@ -4308,9 +4308,9 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm happy that my friends are so funny. ",
                                                     "I'm so surprised by that joke!",
                                                     "I'm terrified by the tightness in my chest. ",
-                                                    "I'm happy that my friends are so funny. ",
                                                     "I'm anxious about this feeling in my chest, but I know it's just from laughing really hard. ",
                                                     "I'm worried about the tightness in my chest, but I think it will go away soon. "
                                                 ],
@@ -4318,7 +4318,7 @@
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Write Some Feelings 3",
@@ -4337,7 +4337,7 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "A friend tells a funny joke and you start to laugh really hard. While you're laughing, you feel an uncomfortable tightness in your chest that you've never felt before.  \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
@@ -4371,17 +4371,17 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "Even though it's hard, I tell myself that this feeling will pass. ",
                                                     "I notice the feeling in my chest and take a sip of water. ",
-                                                    "I take a deep breath and tell my friend that was a good joke. ",
-                                                    "I start to panic that I'm having a heart attack. ",
                                                     "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. ",
-                                                    "Even though it's hard, I tell myself that this feeling will pass. "
+                                                    "I take a deep breath and tell my friend that was a good joke. ",
+                                                    "I start to panic that I'm having a heart attack. "
                                                 ],
                                                 "Duration": 15
                                             }
                                         }
                                     ],
-                                    "ShowButtons": "AfterCorrect"
+                                    "ShowButtons": "WhenCorrect"
                                 },
                                 {
                                     "Name": "Scneario 3 Behaviors",
