@@ -106,7 +106,9 @@
                                         "Text": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
                                     }
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
@@ -119,7 +121,9 @@
                                 {
                                     "Type": "Entry"
                                 }
-                            ]
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
                         },
                         {
                             "Inputs": [
