@@ -72,6 +72,682 @@
                                     "Parameters": {
                                         "Text": "You are encouraged to complete 2 short Hoos Think Calmly programs tomorrow. Thinking ahead to your day tomorrow, are there specific times you would like to receive a notification to complete a ~5 minute program to help manage a stressful or upsetting situation?"
                                     }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "OASIS",
+                    "Title": "OASIS",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how often have you felt anxious?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No anxiety",
+                                            "Infrequent anxiety",
+                                            "Occasional anxiety",
+                                            "Frequent anxiety",
+                                            "Constant anxiety",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, when you have felt anxious, how intense or severe was your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Little or None",
+                                            "Mild",
+                                            "Moderate",
+                                            "Severe",
+                                            "Extreme",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how often did you avoid situations, places, objects, or activities because of anxiety or fear?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Infrequently",
+                                            "Occasionally",
+                                            "Frequently",
+                                            "All the time",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your ability to do the things you needed to do at work, at school, or at home?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Mildly",
+                                            "Moderately",
+                                            "Severely",
+                                            "Extremely",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your social life and relationships?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Mildly",
+                                            "Moderately",
+                                            "Severely",
+                                            "Extremely",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "PHQ-2",
+                    "Title": "PHQ-2",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nLittle interest or pleasure in doing things."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nFeeling down, depressed, or hopeless."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "PSS-4",
+                    "Title": "PSS-4",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The questions on the next pages will ask you about your feelings and thoughts during THE LAST MONTH. In each case, please indicate your response by choosing HOW OFTEN you felt or thought a certain way."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that you were unable to control the important things in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that things were going your way?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In this brief exercise, you will read several short stories.\n\nPlease read each one carefully and try to imagine yourself in the situation.\n\nThe last word of each story is incomplete. Click on the missing letter to complete the word.\n\nAfter you correctly complete the word, you will be asked a question about the story. Answer the question based on the information in the story."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are in the lobby of your friend's new apartment building.  You press the button to the elevator to go up. The building looks old.  As you get on the elevator you think about its..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you think about the elevator's safety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Your friend asks you to give a speech at her wedding reception. You prepare some remarks and when the time comes, get to your feet. As you speak, you notice some people in the audience start to..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Does the audience laugh when you speak?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are currently working as a contractor for a company. Once this job is finished, you will be without employment until you can find your next job. You think about not having an income for a few weeks and about your future..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Will you be without an income soon?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are woken up in the middle of the night by a loud noise. You are not sure what caused the noise and leave your bedroom to see what happened. You walk..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Have you been woken up in the middle of the night?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the street you bump into an old friend you haven't seen for a long time. She is too busy to stop, so you arrange to meet later in a bar. You arrive a little late but the bar is empty and a few minutes later she is still not..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did your friend stop?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are eating lunch with a friend. As you start eating your salad, you describe your plans for the weekend. You accidentally drop a piece of lettuce, and your friend looks at..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do you have salad for lunch?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are playing basketball with some friends. While running toward the ball, you trip and scrape your knee. The scrape hurts a bit, but does not..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you playing soccer with your friend?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at the mall with your friend. While you shop, she tells you how several of her friends have recently come down with a strange illness. You think about your recent health, and wonder if you will get..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you shopping alone?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at a routine doctor's appointment. At the appointment, the doctor decides to run a few blood tests to check your health. The doctor says he will call you in a few weeks, and you will find out your test results at that..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you take blood test?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
                                 }
                             ]
                         }

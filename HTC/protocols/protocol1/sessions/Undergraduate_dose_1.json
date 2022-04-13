@@ -265,7 +265,7 @@
                                             "A friend or colleague",
                                             "Mental health professional recommended it",
                                             "Prefer not to answer",
-                                            "Other::"
+                                            "Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -317,7 +317,7 @@
                                             "Eating disorder",
                                             "Personality disorder",
                                             "I am not struggling with a mental disorder",
-                                            "Prefer not to answer, Other::"
+                                            "Prefer not to answer, Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -337,13 +337,14 @@
                                     "Type": "Buttons",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Therapy:Therapy (talking with a trained professional)/n/nExamples:: Psychologist, licensed mental health practitioner (LMHC), school counselor, social worker, marriage and family therapist, group therapist",
-                                            "Prescription: Prescription medications/n/nExamples:: Psychiatrist, medical doctor",
-                                            "Social:Seeking social support (talking with non-professionals)/n/nExamples:: Teacher, family member, friend, religious leader, coach",
-                                            "SelfHelp:Self-guided help/n/nExamples:: Self-help book, blogs, online intervention (other than MindTrails), mobile applications",
-                                            "OTC:Over-the-counter medications and/or supplements",
-                                            "None:I am not receiving help",
-                                            "NoAnswer:Prefer not to answer, Other:Other::"
+                                            "Therapy::Therapy (talking with a trained professional)/n/nExamples: Psychologist, licensed mental health practitioner (LMHC), school counselor, social worker, marriage and family therapist, group therapist",
+                                            "Prescription:: Prescription medications/n/nExamples: Psychiatrist, medical doctor",
+                                            "Social::Seeking social support (talking with non-professionals)/n/nExamples: Teacher, family member, friend, religious leader, coach",
+                                            "SelfHelp::Self-guided help/n/nExamples: Self-help book, blogs, online intervention (other than MindTrails), mobile applications",
+                                            "OTC::Over-the-counter medications and/or supplements",
+                                            "None::I am not receiving help",
+                                            "NoAnswer::Prefer not to answer",
+                                            "Other::Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -518,7 +519,7 @@
                                             "I don't have time",
                                             "I had treatment previously and didn't find it helpful",
                                             "Prefer not to anwer",
-                                            "Other::"
+                                            "Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -545,7 +546,7 @@
                                             "I started a prescription medication I stopped a prescription medication",
                                             "I haven't had any changes",
                                             "Prefer not to answer",
-                                            "Other::"
+                                            "Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
