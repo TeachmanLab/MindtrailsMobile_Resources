@@ -38,6 +38,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "anxiety",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -58,6 +59,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "change_thoughts",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -79,6 +81,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "avoid",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -117,7 +120,8 @@
                                     }
                                 },
                                 {
-                                    "Type": "Entry"
+                                    "Type": "Entry",
+                                    "Name": "imagination_upcomingsituation"
                                 }
                             ],
                             "Timeout": 2,
@@ -157,6 +161,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "imagination_anxious",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -179,6 +184,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagination_vividly",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all vivid",
@@ -205,6 +211,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagination_well",
                                     "Parameters": {
                                         "Buttons": [
                                             "Very likely to turn out well",
@@ -231,6 +238,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagination_handle",
                                     "Parameters": {
                                         "Buttons": [
                                             "Very well",
@@ -330,11 +338,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "People will be happy to work with me. ",
+                                                    "What if I make a comment that the group thinks is dumb? They'll probably forget what I said after class. ",
                                                     "I'll make good contributions to the group discussion. ",
-                                                    "If the other kids say I can't be in their group, I'll just ask another group. ",
+                                                    "People will be happy to work with me. ",
                                                     "Everyone will pick through group before class and I won't be able to find a group. ",
-                                                    "What if I make a comment that the group thinks is dumb? They'll probably forget what I said after class. "
+                                                    "If the other kids say I can't be in their group, I'll just ask another group. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -363,6 +371,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_5a_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -393,11 +402,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. ",
                                                     "I'm excited to work with new classmates. ",
-                                                    "I feel anxious about not knowing who is going to be in my group, but everything will be OK tomorrow. ",
                                                     "I'm worried that I won't get into a good group. ",
-                                                    "I'm curious if I'll make new friends. "
+                                                    "I'm curious if I'll make new friends. ",
+                                                    "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. ",
+                                                    "I feel anxious about not knowing who is going to be in my group, but everything will be OK tomorrow. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -426,6 +435,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_5a_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -456,11 +466,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'll pretend to be sick and just won't go to school. ",
+                                                    "I'll want to skip class, but I'll go anyway and cope with feeling anxious. ",
                                                     "I'll ask others to be in their group, even if I really don't want to. ",
                                                     "During class, I'll do my best to include everyone in our group conversation. ",
-                                                    "I'll pretend to be sick and just won't go to school. ",
-                                                    "I'll make sure that I understand what's going on in the book before tomorrow's class. ",
-                                                    "I'll want to skip class, but I'll go anyway and cope with feeling anxious. "
+                                                    "I'll make sure that I understand what's going on in the book before tomorrow's class. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -489,6 +499,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_5a_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -550,10 +561,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My answer was intelligent. ",
                                                     "I'm happy I could speak up in class. ",
                                                     "Everyone thinks my answer is wrong. ",
                                                     "My answer was not correct, but that is okay. ",
+                                                    "My answer was intelligent. ",
                                                     "What I said wasn't perfect, but that's OK. "
                                                 ],
                                                 "Duration": 15
@@ -583,6 +594,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_1b_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -613,11 +625,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I felt self conscious while answering. ",
                                                     "I am embarrassed that my answer sounded wrong, but everyone has moments like that. ",
-                                                    "I was sad that I couldn't provide a better answer, but there is always next time. ",
+                                                    "I am feeling smart about how I navigated the question.",
+                                                    "I felt self conscious while answering. ",
                                                     "I am happy the students can hear my answer.",
-                                                    "I am feeling smart about how I navigated the question."
+                                                    "I was sad that I couldn't provide a better answer, but there is always next time. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -642,10 +654,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "Your teacher tells your class that tomorrow you'll divide into small groups to discuss the book you're reading. She also says that you'll have to pick your group, but you realize you don't have any close friends in the class. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "Your English teacher calls on you to answer a question about the book you just read. You say your best answer and your peers are quiet.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_1b_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -676,11 +689,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to cover my face, but decide to look at the teacher. ",
                                                     "I leave the class and go to the bathroom to avoid the other students.",
                                                     "I take notes on my teacher's comments after my answer. ",
-                                                    "I relax after saying my answer. ",
-                                                    "I want to apologize for my poor answer, but do not."
+                                                    "I want to cover my face, but decide to look at the teacher. ",
+                                                    "I want to apologize for my poor answer, but do not.",
+                                                    "I relax after saying my answer. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -709,6 +722,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_1b_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -770,10 +784,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. ",
+                                                    "I think what I said may have not been interesting enough, but don't know that for sure. ",
                                                     "They must not like me.",
                                                     "They're probably not responding to a lot of people right now. ",
-                                                    "I think what I said may have not been interesting enough, but don't know that for sure. ",
+                                                    "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. ",
                                                     "They're just busy. "
                                                 ],
                                                 "Duration": 15
@@ -803,6 +817,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_5a_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -833,11 +848,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm embarrassed that they might not like me.",
+                                                    "I'm happy with who I am whether they respond or not. ",
+                                                    "I feel okay with the message I sent. ",
                                                     "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent.",
                                                     "I feel bad about not getting a quick reply, but remember I don't need to try and control the situation. ",
-                                                    "I'm happy with who I am whether they respond or not. ",
-                                                    "I feel okay with the message I sent. "
+                                                    "I'm embarrassed that they might not like me."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -866,6 +881,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_5a_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -898,9 +914,9 @@
                                                 "Text": [
                                                     "I call a friend and ask them about their day. ",
                                                     "I want to get reassurance from my friends, but decide to calm myself down. ",
+                                                    "I send a bunch of messages back to back to see if they respond. ",
                                                     "I keep going with my day.",
-                                                    "I want to spend my day focused on my phone, but instead do hobbies I enjoy. ",
-                                                    "I send a bunch of messages back to back to see if they respond. "
+                                                    "I want to spend my day focused on my phone, but instead do hobbies I enjoy. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -929,6 +945,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_5a_Session3_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1025,11 +1042,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I looked good in the mirror on my way out of the bathroom. ",
                                                     "They've been talking about me. Even if that's the case, it doesn't mean it was bad. ",
-                                                    "My hair looks great today. ",
+                                                    "I looked good in the mirror on my way out of the bathroom. ",
+                                                    "Could they hear me going to the bathroom? That's really unlikely. ",
                                                     "I must look silly.",
-                                                    "Could they hear me going to the bathroom? That's really unlikely. "
+                                                    "My hair looks great today. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1058,6 +1075,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_5a_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1088,11 +1106,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel targeted because everyone is looking at me. ",
                                                     "I'm anxious about what they were saying. However, they're probably quiet because I startled them. ",
                                                     "I'm worried that they were talking about be. But, realistically they probably weren't. ",
                                                     "I'm feeling excited about hearing what they were talking about",
-                                                    "I'm so happy to be spending this time with this group. "
+                                                    "I'm so happy to be spending this time with this group. ",
+                                                    "I feel targeted because everyone is looking at me. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1121,6 +1139,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_5a_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1153,8 +1172,8 @@
                                                 "Text": [
                                                     "I ask them defensively why they are so quiet. ",
                                                     "I want to go back into the bathroom forever, but I'll face my friends. ",
-                                                    "I want to leave immediately, but I'll go back to my friends. ",
                                                     "I'll make a joke with my friends. ",
+                                                    "I want to leave immediately, but I'll go back to my friends. ",
                                                     "I'll ask what they were talking about in a nice way. "
                                                 ],
                                                 "Duration": 15
@@ -1184,6 +1203,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_5a_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1245,11 +1265,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I would rather have my friend next to me on this bus ride, but that's not always possible. ",
+                                                    "I feel left out, but I know there are times that not everyone can be included. ",
                                                     "My friend doesn't consider me their friend. ",
                                                     "Maybe they haven't had a chance to catch up in a while. ",
-                                                    "I would rather have my friend next to me on this bus ride, but that's not always possible. ",
-                                                    "I think about how I enjoy the bus rides.",
-                                                    "I feel left out, but I know there are times that not everyone can be included. "
+                                                    "I think about how I enjoy the bus rides."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1278,6 +1298,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_1b_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1308,10 +1329,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel mad at my friend for not sitting with me. ",
                                                     "I am courageous for sitting on my own.",
-                                                    "I am guessing my friend is mad at me, but I know I should not assume the worst. ",
+                                                    "I feel mad at my friend for not sitting with me. ",
                                                     "I am happy that my friends are happy. ",
+                                                    "I am guessing my friend is mad at me, but I know I should not assume the worst. ",
                                                     "I am annoyed that I don't have my friends wanting to sit with me, but I know that this situation will pass."
                                                 ],
                                                 "Duration": 15
@@ -1337,10 +1358,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You are hanging out at your friend's house and go to use the restroom. When you reenter the room your friends are in, they stop their conversation and it's silent. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You are sitting on the bus and see your friend get on. They walk past you and sit with another friend.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_1b_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1371,11 +1393,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I start to journal in my notebook. ",
                                                     "I say hello to my friend as they pass. ",
+                                                    "I get flustered and move further away from my friend. ",
                                                     "I want to get mad and bring up the subject as soon as we get off of the bus, but I know that isn't right so I give my friend some time. ",
                                                     "I want to talk about this with my other friends at school, but decide to keep this to myself. ",
-                                                    "I get flustered and move further away from my friend. "
+                                                    "I start to journal in my notebook. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1404,6 +1426,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_1b_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1465,11 +1488,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I appreciate having different views than my family. ",
                                                     "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me.",
                                                     "My friend will be interested in hearing what my family has to say.",
+                                                    "My parents are going to say something that makes me upset.",
                                                     "If my parents say something that I don't agree with, my friend and I can always talk about it later. ",
-                                                    "My parents are going to say something that makes me upset."
+                                                    "I appreciate having different views than my family. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1498,6 +1521,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_5a_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1528,11 +1552,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm calm sitting at dinner with my parents and my friend.",
                                                     "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what.",
-                                                    "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs.",
                                                     "I'm excited to watch a movie with my friend after we eat.",
-                                                    "I'm anxious about what my parents might say."
+                                                    "I'm calm sitting at dinner with my parents and my friend.",
+                                                    "I'm anxious about what my parents might say.",
+                                                    "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1561,6 +1585,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_5a_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1591,11 +1616,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I listen to my friend while they talk to my parents.",
                                                     "I remind myself that everyone has different opinions.",
+                                                    "I listen to my friend while they talk to my parents.",
+                                                    "I zone out and stop paying attention to what people are saying.",
                                                     "I want to change the topic of conversation to something less serious, but I let the conversation go.",
-                                                    "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
-                                                    "I zone out and stop paying attention to what people are saying."
+                                                    "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1624,6 +1649,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_5a_Session3_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1721,10 +1747,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I really don't like this feeling, but I can tolerate it. ",
-                                                    "That must have been a really funny joke. ",
-                                                    "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. ",
                                                     "I can't breathe!",
-                                                    "I have never laughed that hard at a joke my friend has told. "
+                                                    "That must have been a really funny joke. ",
+                                                    "I have never laughed that hard at a joke my friend has told. ",
+                                                    "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1753,6 +1779,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_5a_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1784,9 +1811,9 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'm happy that my friends are so funny. ",
+                                                    "I'm so surprised by that joke!",
                                                     "I'm anxious about this feeling in my chest, but I know it's just from laughing really hard. ",
                                                     "I'm terrified by the tightness in my chest. ",
-                                                    "I'm so surprised by that joke!",
                                                     "I'm worried about the tightness in my chest, but I think it will go away soon. "
                                                 ],
                                                 "Duration": 15
@@ -1816,6 +1843,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_5a_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1846,8 +1874,8 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Even though it's hard, I tell myself that this feeling will pass. ",
                                                     "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. ",
+                                                    "Even though it's hard, I tell myself that this feeling will pass. ",
                                                     "I take a deep breath and tell my friend that was a good joke. ",
                                                     "I start to panic that I'm having a heart attack. ",
                                                     "I notice the feeling in my chest and take a sip of water. "
@@ -1879,6 +1907,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_5a_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1940,11 +1969,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My friends will notice I am out of breath. ",
-                                                    "My friends might judge me for gasping a little when I get to them, but they probably won't. ",
                                                     "It is so beautiful out today. ",
                                                     "I feel like I'm going to die from being out of breath, but I know I won't. ",
-                                                    "I am able to keep a good pace on this jog. "
+                                                    "My friends will notice I am out of breath. ",
+                                                    "I am able to keep a good pace on this jog. ",
+                                                    "My friends might judge me for gasping a little when I get to them, but they probably won't. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1973,6 +2002,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_1b_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2003,11 +2033,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm worried that I'm sick because of this feeling in my chest, but realistically I know I'm fine and it was just the jog. ",
-                                                    "I'm happy to be able to stretch out my legs. ",
-                                                    "I'm embarrassed that I have to catch my breath when I see my friends. ",
                                                     "Even though I'm feeling miserable, I know this feeling will pass. ",
-                                                    "I'm really excited to see these friends who I haven't seen in a while. "
+                                                    "I'm really excited to see these friends who I haven't seen in a while. ",
+                                                    "I'm embarrassed that I have to catch my breath when I see my friends. ",
+                                                    "I'm worried that I'm sick because of this feeling in my chest, but realistically I know I'm fine and it was just the jog. ",
+                                                    "I'm happy to be able to stretch out my legs. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2032,10 +2062,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "A friend tells a funny joke and you start to laugh really hard. While you're laughing, you feel an uncomfortable tightness in your chest that you've never felt before.  \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You are outside on a cool day and see your friends down the street. You decide to jog over to say hi. When you get to your friends, you feel out of breath.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_1b_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2066,11 +2097,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to go see a doctor because I'm worried about how tight my chest is, but know that this feeling is normal after a quick jog. ",
-                                                    "I crack a joke when I see my friends. ",
-                                                    "I try to cover up that my breathing is heavy. ",
                                                     "I take a second to catch my breath when I get to my friends. ",
-                                                    "I want to walk away quickly from my friends so they don't see how out of breath I am, but I know that this is normal and they won't judge me. "
+                                                    "I want to walk away quickly from my friends so they don't see how out of breath I am, but I know that this is normal and they won't judge me. ",
+                                                    "I want to go see a doctor because I'm worried about how tight my chest is, but know that this feeling is normal after a quick jog. ",
+                                                    "I try to cover up that my breathing is heavy. ",
+                                                    "I crack a joke when I see my friends. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2099,6 +2130,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_1b_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2160,11 +2192,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Even though I've heard there are snakes in the park, I think I can avoid them.",
-                                                    "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety.",
-                                                    "I'm going to get bitten by a snake!",
+                                                    "It'll be nice to walk in the park. ",
                                                     "I'm looking forward to talking to my friend.",
-                                                    "It'll be nice to walk in the park. "
+                                                    "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety.",
+                                                    "Even though I've heard there are snakes in the park, I think I can avoid them.",
+                                                    "I'm going to get bitten by a snake!"
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2193,6 +2225,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_5a_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2223,11 +2256,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm worried about what we'll see in the park, but know that I can handle feeling a little worried.",
                                                     "I'm terrified that something bad is going to happen to me.",
                                                     "I'm calm thinking about going to the park.",
+                                                    "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen.",
                                                     "I'm happy my friend asked me to go on a walk. ",
-                                                    "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen."
+                                                    "I'm worried about what we'll see in the park, but know that I can handle feeling a little worried."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2256,6 +2289,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_5a_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2286,11 +2320,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I put on a jacket and go outside. ",
                                                     "I want to tell my friend that I can't go, but push myself to go into the park anyway. ",
                                                     "I tell my friend I'm ready to go.",
-                                                    "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park.",
                                                     "I call my friend and say that I'm busy all of a sudden.",
-                                                    "I put on a jacket and go outside. "
+                                                    "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2319,6 +2353,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_5a_Session3_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2415,11 +2450,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "They're probably not responding to a lot of people right now. ",
-                                                    "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. ",
                                                     "I think what I said may have not been interesting enough, but don't know that for sure. ",
                                                     "They're just busy. ",
-                                                    "They must not like me."
+                                                    "They must not like me.",
+                                                    "I think they do not like me as much as I like them, but remind myself to not to jump to conclusions. ",
+                                                    "They're probably not responding to a lot of people right now. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2448,6 +2483,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_5a_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2479,10 +2515,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'm happy with who I am whether they respond or not. ",
-                                                    "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent.",
-                                                    "I feel bad about not getting a quick reply, but remember I don't need to try and control the situation. ",
                                                     "I feel okay with the message I sent. ",
-                                                    "I'm embarrassed that they might not like me."
+                                                    "I feel bad about not getting a quick reply, but remember I don't need to try and control the situation. ",
+                                                    "I'm embarrassed that they might not like me.",
+                                                    "I'm anxious that I haven't heard back, but realize that I don't need to hear back immediately about what I sent."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2511,6 +2547,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_5a_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2541,11 +2578,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I call a friend and ask them about their day. ",
+                                                    "I want to get reassurance from my friends, but decide to calm myself down. ",
+                                                    "I want to spend my day focused on my phone, but instead do hobbies I enjoy. ",
                                                     "I send a bunch of messages back to back to see if they respond. ",
                                                     "I keep going with my day.",
-                                                    "I want to spend my day focused on my phone, but instead do hobbies I enjoy. ",
-                                                    "I want to get reassurance from my friends, but decide to calm myself down. "
+                                                    "I call a friend and ask them about their day. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2574,6 +2611,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_5a_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2635,11 +2673,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Others might wonder if I was excluded intentionally, but I doubt that will actually happen. ",
                                                     "I think about all the wonderful photos I took with my friends. ",
-                                                    "My friends look really happy. ",
                                                     "My friends must not actually like me. But, I know that's not the case; we have a lot of fun together. ",
-                                                    "I think they meant to leave me out of the gathering. "
+                                                    "My friends look really happy. ",
+                                                    "I think they meant to leave me out of the gathering. ",
+                                                    "Others might wonder if I was excluded intentionally, but I doubt that will actually happen. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2668,6 +2706,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_1b_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2698,11 +2737,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I worry that they left me out on purpose, but remember all of the times I have been included. ",
-                                                    "I'm glad that I have such cool friends. ",
                                                     "I'm sad that they forgot about me. ",
                                                     "I'm calm seeing the pictures that they posted. ",
-                                                    "I'm feeling sad, but decide to think of the good times I have had with my friends."
+                                                    "I'm feeling sad, but decide to think of the good times I have had with my friends.",
+                                                    "I worry that they left me out on purpose, but remember all of the times I have been included. ",
+                                                    "I'm glad that I have such cool friends. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2727,10 +2766,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You've been talking to your crush on social media and they're usually quick to respond. You see that they opened your message a couple of hours ago and did not respond. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You are looking through your social media app and see a number of your friends have posted to their stories. As you look through their photos, you realize that a few of your close friends were all hanging out without you. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_1b_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2761,11 +2801,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'll ask my friends to hang out later this week. ",
                                                     "I want to gossip about how awful it was that I wasn't invited, but decide that would not be nice. ",
-                                                    "I text my friends and say hi. ",
-                                                    "I cry and look at other pictures that I'm not in. ",
                                                     "I want to ignore them for not inviting me, but remind myself that would be childish. ",
-                                                    "I'll ask my friends to hang out later this week. "
+                                                    "I text my friends and say hi. ",
+                                                    "I cry and look at other pictures that I'm not in. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2794,6 +2834,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_1b_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2855,11 +2896,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Everyone will pick through group before class and I won't be able to find a group. ",
                                                     "If the other kids say I can't be in their group, I'll just ask another group. ",
                                                     "What if I make a comment that the group thinks is dumb? They'll probably forget what I said after class. ",
+                                                    "People will be happy to work with me. ",
                                                     "I'll make good contributions to the group discussion. ",
-                                                    "People will be happy to work with me. "
+                                                    "Everyone will pick through group before class and I won't be able to find a group. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2888,6 +2929,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_5a_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2918,11 +2960,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. ",
-                                                    "I'm excited to work with new classmates. ",
-                                                    "I'm worried that I won't get into a good group. ",
                                                     "I feel anxious about not knowing who is going to be in my group, but everything will be OK tomorrow. ",
-                                                    "I'm curious if I'll make new friends. "
+                                                    "I'm worried that I won't get into a good group. ",
+                                                    "I'm excited to work with new classmates. ",
+                                                    "I'm curious if I'll make new friends. ",
+                                                    "I'm nervous about talking about this book with the other students, but I know that those feelings will eventually go away. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2951,6 +2993,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_5a_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2981,10 +3024,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "During class, I'll do my best to include everyone in our group conversation. ",
-                                                    "I'll pretend to be sick and just won't go to school. ",
                                                     "I'll make sure that I understand what's going on in the book before tomorrow's class. ",
                                                     "I'll ask others to be in their group, even if I really don't want to. ",
+                                                    "During class, I'll do my best to include everyone in our group conversation. ",
+                                                    "I'll pretend to be sick and just won't go to school. ",
                                                     "I'll want to skip class, but I'll go anyway and cope with feeling anxious. "
                                                 ],
                                                 "Duration": 15
@@ -3014,6 +3057,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_5a_Session3_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3110,10 +3154,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I appreciate having different views than my family. ",
-                                                    "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me.",
                                                     "My parents are going to say something that makes me upset.",
                                                     "My friend will be interested in hearing what my family has to say.",
+                                                    "If my friend doesn't agree with my parents' point of view, they'll still want to be friends with me.",
+                                                    "I appreciate having different views than my family. ",
                                                     "If my parents say something that I don't agree with, my friend and I can always talk about it later. "
                                                 ],
                                                 "Duration": 15
@@ -3143,6 +3187,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_5a_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3173,11 +3218,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs.",
                                                     "I'm excited to watch a movie with my friend after we eat.",
                                                     "I'm anxious about what my parents might say.",
-                                                    "I'm calm sitting at dinner with my parents and my friend.",
-                                                    "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what."
+                                                    "I'm embarrassed that my parents have such a different point of view than me, but remind myself that everyone has different beliefs.",
+                                                    "I'm worried that my parents will say something that will make my friend dislike me, but I know that my friend will be nice to me no matter what.",
+                                                    "I'm calm sitting at dinner with my parents and my friend."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3206,6 +3251,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_5a_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3236,10 +3282,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
-                                                    "I zone out and stop paying attention to what people are saying.",
                                                     "I remind myself that everyone has different opinions.",
+                                                    "I want to think of something else as everyone talks, but remind myself that I can handle my feelings and tune back into the conversation.",
                                                     "I want to change the topic of conversation to something less serious, but I let the conversation go.",
+                                                    "I zone out and stop paying attention to what people are saying.",
                                                     "I listen to my friend while they talk to my parents."
                                                 ],
                                                 "Duration": 15
@@ -3269,6 +3315,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_5a_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3330,11 +3377,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "It feels overwhelming having so much to do, but I'll do my best. ",
                                                     "I'm able to balance a lot.",
-                                                    "I think about how great it is to be busy. ",
+                                                    "It feels overwhelming having so much to do, but I'll do my best. ",
+                                                    "I don't know how I'm going to fit all of this in tonight, but I'll be able to figure it out. ",
                                                     "I'm not going to be able to do all of this tonight.",
-                                                    "I don't know how I'm going to fit all of this in tonight, but I'll be able to figure it out. "
+                                                    "I think about how great it is to be busy. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3363,6 +3410,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_1b_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3393,11 +3441,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "My stomach is in knots because I don't know if I'll get my work done. ",
+                                                    "I feel like I want to do nothing, but know that it will feel so great to have these tasks accomplished. ",
                                                     "I'm excited to discover new music while I'm doing my chores. ",
                                                     "I feel frustrated with the time crunch, but know that once I get started it will all start to flow. ",
-                                                    "I'm calm as I figure out how to get everything done tonight. ",
-                                                    "My stomach is in knots because I don't know if I'll get my work done. ",
-                                                    "I feel like I want to do nothing, but know that it will feel so great to have these tasks accomplished. "
+                                                    "I'm calm as I figure out how to get everything done tonight. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3422,10 +3470,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "Your family members have some strong opinions and you don't always agree with them. One evening, you invite a friend over for dinner. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You have a lot of chores that you have to do tonight, and you also have a big project that's due tomorrow. Both have to get done, and you think about how you'll handle it all. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "home_long_1b_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3489,6 +3538,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_1b_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3550,11 +3600,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I must look silly.",
-                                                    "My hair looks great today. ",
-                                                    "Could they hear me going to the bathroom? That's really unlikely. ",
                                                     "They've been talking about me. Even if that's the case, it doesn't mean it was bad. ",
-                                                    "I looked good in the mirror on my way out of the bathroom. "
+                                                    "Could they hear me going to the bathroom? That's really unlikely. ",
+                                                    "I must look silly.",
+                                                    "I looked good in the mirror on my way out of the bathroom. ",
+                                                    "My hair looks great today. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3583,6 +3633,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_5a_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3614,10 +3665,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'm anxious about what they were saying. However, they're probably quiet because I startled them. ",
-                                                    "I'm worried that they were talking about be. But, realistically they probably weren't. ",
                                                     "I'm so happy to be spending this time with this group. ",
                                                     "I feel targeted because everyone is looking at me. ",
-                                                    "I'm feeling excited about hearing what they were talking about"
+                                                    "I'm feeling excited about hearing what they were talking about",
+                                                    "I'm worried that they were talking about be. But, realistically they probably weren't. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3646,6 +3697,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_5a_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3677,10 +3729,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I want to leave immediately, but I'll go back to my friends. ",
-                                                    "I want to go back into the bathroom forever, but I'll face my friends. ",
+                                                    "I ask them defensively why they are so quiet. ",
                                                     "I'll ask what they were talking about in a nice way. ",
                                                     "I'll make a joke with my friends. ",
-                                                    "I ask them defensively why they are so quiet. "
+                                                    "I want to go back into the bathroom forever, but I'll face my friends. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3709,6 +3761,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_5a_Session3_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3805,11 +3858,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "It'll be nice to walk in the park. ",
+                                                    "I'm looking forward to talking to my friend.",
                                                     "I'm really not looking forward to going into the park that might have snakes, but I know that I can tolerate my feelings of anxiety.",
-                                                    "I'm going to get bitten by a snake!",
                                                     "Even though I've heard there are snakes in the park, I think I can avoid them.",
-                                                    "I'm looking forward to talking to my friend."
+                                                    "I'm going to get bitten by a snake!",
+                                                    "It'll be nice to walk in the park. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3838,6 +3891,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_5a_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3868,11 +3922,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen.",
-                                                    "I'm calm thinking about going to the park.",
-                                                    "I'm happy my friend asked me to go on a walk. ",
                                                     "I'm terrified that something bad is going to happen to me.",
-                                                    "I'm worried about what we'll see in the park, but know that I can handle feeling a little worried."
+                                                    "I'm happy my friend asked me to go on a walk. ",
+                                                    "I'm worried about what we'll see in the park, but know that I can handle feeling a little worried.",
+                                                    "I'm calm thinking about going to the park.",
+                                                    "I'm anxious about getting bitten, but remind myself that's the worst case scenario and it probably won't happen."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3901,6 +3955,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_5a_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3932,10 +3987,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I tell my friend I'm ready to go.",
-                                                    "I call my friend and say that I'm busy all of a sudden.",
-                                                    "I want to tell my friend that I can't go, but push myself to go into the park anyway. ",
+                                                    "I put on a jacket and go outside. ",
                                                     "I think about telling my friend that we should go on a walk somewhere else, but decide that it'll be OK if we walk in the park.",
-                                                    "I put on a jacket and go outside. "
+                                                    "I call my friend and say that I'm busy all of a sudden.",
+                                                    "I want to tell my friend that I can't go, but push myself to go into the park anyway. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3964,6 +4019,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_5a_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4025,9 +4081,9 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I wonder what is going on, but decide to be in the moment with him. ",
                                                     "I think about whether my family is keeping something from me, but tell myself that I can't control my grandfather's health. ",
                                                     "He's probably going to pass away soon. ",
+                                                    "I wonder what is going on, but decide to be in the moment with him. ",
                                                     "My grandfather is glad that I'm visiting. ",
                                                     "He looks so happy to be with family. "
                                                 ],
@@ -4058,6 +4114,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_1b_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4089,10 +4146,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I am grateful to be able to spend time with my grandfather.",
-                                                    "I'm uneasy about my grandfather's appearance. ",
-                                                    "I feel thrilled that my grandfather is engaging in conversation. ",
+                                                    "I start to feel angry about how he is getting older, but know that this is a part of life. ",
                                                     "I feel anxious and start to overthink what could be wrong, but remember I can't control his health.",
-                                                    "I start to feel angry about how he is getting older, but know that this is a part of life. "
+                                                    "I feel thrilled that my grandfather is engaging in conversation. ",
+                                                    "I'm uneasy about my grandfather's appearance. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4117,10 +4174,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "Your friend convinces you to go on a walk through a local park. You have heard that there are poisonous snakes in that park.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You go to your grandparents' home for the first time in a while and notice that your grandfather looks a lot less healthy than you remember. No one in your family mentions it. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_1b_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4151,11 +4209,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I avoid thinking about his health.",
                                                     "I laugh at something silly my grandfather said. ",
-                                                    "I feel the urge to worry a lot about his health, but take a deep breath and enjoy the moments I have with my grandfather. ",
                                                     "I want to question the family on his health, but decide to enjoy the gathering. ",
-                                                    "I start to make conversation with my family. "
+                                                    "I avoid thinking about his health.",
+                                                    "I start to make conversation with my family. ",
+                                                    "I feel the urge to worry a lot about his health, but take a deep breath and enjoy the moments I have with my grandfather. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4184,6 +4242,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_1b_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4245,11 +4304,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "That must have been a really funny joke. ",
-                                                    "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. ",
                                                     "I can't breathe!",
+                                                    "I really don't like this feeling, but I can tolerate it. ",
                                                     "I have never laughed that hard at a joke my friend has told. ",
-                                                    "I really don't like this feeling, but I can tolerate it. "
+                                                    "That must have been a really funny joke. ",
+                                                    "This tightness is kind of scary, but it must be from laughing really hard. It will go away soon. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4278,6 +4337,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_5a_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4308,11 +4368,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm happy that my friends are so funny. ",
                                                     "I'm terrified by the tightness in my chest. ",
-                                                    "I'm anxious about this feeling in my chest, but I know it's just from laughing really hard. ",
                                                     "I'm so surprised by that joke!",
-                                                    "I'm worried about the tightness in my chest, but I think it will go away soon. "
+                                                    "I'm worried about the tightness in my chest, but I think it will go away soon. ",
+                                                    "I'm anxious about this feeling in my chest, but I know it's just from laughing really hard. ",
+                                                    "I'm happy that my friends are so funny. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4341,6 +4401,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_5a_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4371,10 +4432,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. ",
                                                     "Even though it's hard, I tell myself that this feeling will pass. ",
-                                                    "I take a deep breath and tell my friend that was a good joke. ",
                                                     "I notice the feeling in my chest and take a sip of water. ",
+                                                    "I take a deep breath and tell my friend that was a good joke. ",
+                                                    "I want to yell at my friends to be quiet so that I can focus on the tightness in my chest, but decide not to and tell myself that I'll be OK. ",
                                                     "I start to panic that I'm having a heart attack. "
                                                 ],
                                                 "Duration": 15
@@ -4404,6 +4465,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_5a_Session3_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4491,7 +4553,8 @@
                                     }
                                 },
                                 {
-                                    "Type": "Entry"
+                                    "Type": "Entry",
+                                    "Name": "qt_stomach"
                                 }
                             ]
                         }

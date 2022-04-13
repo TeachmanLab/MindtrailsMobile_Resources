@@ -38,6 +38,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "anxiety",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -58,6 +59,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "change_thoughts",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -79,6 +81,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "avoid",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -117,7 +120,8 @@
                                     }
                                 },
                                 {
-                                    "Type": "Entry"
+                                    "Type": "Entry",
+                                    "Name": "imagination_upcomingsituation"
                                 }
                             ],
                             "Timeout": 2,
@@ -157,6 +161,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "imagination_anxious",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -179,6 +184,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagination_vividly",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all vivid",
@@ -205,6 +211,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagination_well",
                                     "Parameters": {
                                         "Buttons": [
                                             "Very likely to turn out well",
@@ -231,6 +238,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagination_handle",
                                     "Parameters": {
                                         "Buttons": [
                                             "Very well",
@@ -331,10 +339,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "My teacher will tell my guardian how I'm doing in the class, and I'll be OK with that. ",
+                                                    "My guardian may ground me for doing badly in math, but I can handle it. ",
                                                     "My teacher will say good things about me trying hard to learn. ",
-                                                    "I'm going to be in big trouble. ",
                                                     "I am a good student, and my teacher will tell my guardian that. ",
-                                                    "My guardian may ground me for doing badly in math, but I can handle it. "
+                                                    "I'm going to be in big trouble. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -363,6 +371,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_3a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -393,11 +402,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm glad my guardian cares enough to go talk to my teacher. ",
                                                     "I'm uneasy right now, but this feeling won't last forever. ",
-                                                    "I feel calm knowing that my guardian will love me no matter what my grade is. ",
-                                                    "I'm worried about what my teacher will say to my guardian. ",
                                                     "I feel anxious thinking about the conversation, but I can focus on my homework until my guardian gets home. ",
-                                                    "I'm glad my guardian cares enough to go talk to my teacher. "
+                                                    "I feel calm knowing that my guardian will love me no matter what my grade is. ",
+                                                    "I'm worried about what my teacher will say to my guardian. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -426,6 +435,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_3a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -456,11 +466,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'll skip math tomorrow. ",
-                                                    "I'll ask my teacher how to bring up my grade. ",
-                                                    "I don't want to ask my teacher for help, but I know that if I do, that'll be best in the long run. ",
                                                     "I won't hide in my room when my guardian gets home. ",
-                                                    "I want to avoid talking to my guardian, but know it's better to get it out of the way when they get home. "
+                                                    "I want to avoid talking to my guardian, but know it's better to get it out of the way when they get home. ",
+                                                    "I'll skip math tomorrow. ",
+                                                    "I don't want to ask my teacher for help, but I know that if I do, that'll be best in the long run. ",
+                                                    "I'll ask my teacher how to bring up my grade. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -489,6 +499,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_3a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -550,11 +561,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My friends are going to laugh at me for saying I don't want to cheat. ",
-                                                    "I hate homework, but at least it will be over soon. ",
+                                                    "My friends will make fun of me for saying I don't want to cheat, but I know I'll feel worse if I do look up the answers online. ",
                                                     "I want to do this homework without cheating. ",
+                                                    "My friends are going to laugh at me for saying I don't want to cheat. ",
                                                     "If I cheat, I actually won't learn the material for the test. ",
-                                                    "My friends will make fun of me for saying I don't want to cheat, but I know I'll feel worse if I do look up the answers online. "
+                                                    "I hate homework, but at least it will be over soon. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -583,6 +594,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_4a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -613,11 +625,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm anxious that my friends will make fun of me, but if they do, I can handle it. ",
-                                                    "I'm kind of frustrated that my friend say we should just cheat. ",
-                                                    "I'm worried about my grade on the homework, but I know I'm trying my best. ",
                                                     "I'll be relieved when this homework is done. ",
-                                                    "I'm happier doing homework with my friends than when I'm alone."
+                                                    "I'm anxious that my friends will make fun of me, but if they do, I can handle it. ",
+                                                    "I'm happier doing homework with my friends than when I'm alone.",
+                                                    "I'm kind of frustrated that my friend say we should just cheat. ",
+                                                    "I'm worried about my grade on the homework, but I know I'm trying my best. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -642,10 +654,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "During tonight's parent-teacher conference, your guardian is going to talk to your math teacher. You're not doing well in math, and you haven't told your guardian this yet. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You're working on your math homework with a few friends and get stuck on a problem. Your friend suggests that you find the answer online, but that's considered cheating on the assignment. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_4a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -677,10 +690,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I kind of want to cheat so that my friends don't judge me, but I decide not to. ",
-                                                    "I decide that I won't cheat on this homework. ",
-                                                    "I feel myself wanting to cheat, but know that I really value being honest and not cheating. ",
                                                     "I cheat to feel cool in front of my friends. ",
-                                                    "I encourage my friends to try a little longer to work on this problem. "
+                                                    "I encourage my friends to try a little longer to work on this problem. ",
+                                                    "I decide that I won't cheat on this homework. ",
+                                                    "I feel myself wanting to cheat, but know that I really value being honest and not cheating. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -709,6 +722,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_4a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -770,11 +784,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I wonder if they're arguing over my grades, but then remember that it isn't my fault if they're not getting along.",
+                                                    "I ask myself if I did something wrong.",
                                                     "I think about how it has nothing to do with me. ",
                                                     "I think about doing something nice for them. ",
-                                                    "I ask myself if I did something wrong.",
-                                                    "I think I am the reason that they are fighting, but remind myself that I'm probably not the real reason. ",
-                                                    "I wonder if they're arguing over my grades, but then remember that it isn't my fault if they're not getting along."
+                                                    "I think I am the reason that they are fighting, but remind myself that I'm probably not the real reason. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -803,6 +817,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_3a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -833,11 +848,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I'm sad that they're arguing a lot, but know that I'm not the reason for it.",
+                                                    "I feel anxious thinking about my parents not getting along, but remember that I can't do anything about it.",
                                                     "I'm angry that they're always arguing.",
                                                     "I feel confident that this will blow over fairly quickly. ",
-                                                    "I'm glad I am able to remove myself from the situation. ",
-                                                    "I feel anxious thinking about my parents not getting along, but remember that I can't do anything about it.",
-                                                    "I'm sad that they're arguing a lot, but know that I'm not the reason for it."
+                                                    "I'm glad I am able to remove myself from the situation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -866,6 +881,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_3a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -896,11 +912,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I yell at them to answer my question.",
+                                                    "I go do my homework. ",
                                                     "I give them some space and let my sad feelings pass. ",
-                                                    "I walk away. ",
                                                     "I want to storm off, but walk away calmly. ",
-                                                    "I go do my homework. "
+                                                    "I walk away. ",
+                                                    "I yell at them to answer my question."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -929,6 +945,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_3a_Session2_long_Academics",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1025,11 +1042,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "My parents might be embarrassed by me, but I know that it really isn't a big deal. ",
-                                                    "I'm sure this has happened to other people.",
-                                                    "I think about how I will help clean this up. ",
                                                     "I think the waitress will be annoyed, but think about how this moment will pass. ",
-                                                    "I think I must be the most clumsy person on the planet. "
+                                                    "I'm sure this has happened to other people.",
+                                                    "I think I must be the most clumsy person on the planet. ",
+                                                    "My parents might be embarrassed by me, but I know that it really isn't a big deal. ",
+                                                    "I think about how I will help clean this up. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1058,6 +1075,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_3a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1089,10 +1107,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'm embarrassed that I drew attention to myself. ",
-                                                    "I'm happy to be eating with my family. ",
                                                     "I feel guilty about having broken a glass, but know that I didn't do it on purpose. ",
+                                                    "I'm confident that the waitress will accept my apology.",
                                                     "I'm annoyed at myself, but know that people will forget about the broken glass. ",
-                                                    "I'm confident that the waitress will accept my apology."
+                                                    "I'm happy to be eating with my family. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1121,6 +1139,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_3a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1151,11 +1170,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I apologize to the wait staff and thank them for their help. ",
                                                     "I ask if I can help clean up.",
-                                                    "I want to leave the restaurant, but stay and have a good time. ",
+                                                    "I run to the bathroom so I don't have to talk to the waiter. ",
+                                                    "I apologize to the wait staff and thank them for their help. ",
                                                     "I want to cry, but take a deep breath and remind myself that this happens. ",
-                                                    "I run to the bathroom so I don't have to talk to the waiter. "
+                                                    "I want to leave the restaurant, but stay and have a good time. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1184,6 +1203,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_3a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1246,8 +1266,8 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I really stand out, but I think that's OK tonight. ",
-                                                    "I think that I made a huge mistake by wearing this, but realize that it's OK to wear what I want. ",
                                                     "I'm enjoying wearing this. ",
+                                                    "I think that I made a huge mistake by wearing this, but realize that it's OK to wear what I want. ",
                                                     "This is the best costume I've ever worn. ",
                                                     "The other kids are judging me for wearing this costume. "
                                                 ],
@@ -1278,6 +1298,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_4a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1308,11 +1329,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm worried that others are making fun of me, but if they are, that's their fault for judging me. ",
-                                                    "I'm proud of myself for wearing something that I love. ",
                                                     "I'm really anxious, but this feeling will pass. ",
                                                     "I'm excited to show off this costume. ",
-                                                    "I feel really awkward while everyone stares at me. "
+                                                    "I feel really awkward while everyone stares at me. ",
+                                                    "I'm worried that others are making fun of me, but if they are, that's their fault for judging me. ",
+                                                    "I'm proud of myself for wearing something that I love. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1337,10 +1358,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You are at a quiet restaurant with a lot of your family members for dinner. While taking a drink of your water, you accidentally drop the glass on the floor and it shatters.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You are invited to a Halloween party and you will only know a couple of people there. You decide to wear a really elaborate costume. When you arrive, everyone looks at you. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_4a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1371,11 +1393,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'll post a picture of myself in this costume because I look great. ",
-                                                    "I walk up to some friends and start a conversation. ",
-                                                    "I want to throw this costume away and never think of tonight again, but then remember that my friend complimented me earlier on it. ",
+                                                    "I want to change into something else, but decide to wear what I came in. ",
                                                     "I'll leave the party immediately. ",
-                                                    "I want to change into something else, but decide to wear what I came in. "
+                                                    "I'll post a picture of myself in this costume because I look great. ",
+                                                    "I want to throw this costume away and never think of tonight again, but then remember that my friend complimented me earlier on it. ",
+                                                    "I walk up to some friends and start a conversation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1404,6 +1426,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_4a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1466,10 +1489,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I think everything is turned off. ",
-                                                    "I think I missed something that may have been left on.",
-                                                    "I think about how I noticed during the first check everything was turned off. ",
+                                                    "I think I may be responsible for a disaster, but realize I am overthinking. ",
                                                     "Even though I didn't get to fully check a second time before we all left, I'm pretty sure everything is off. ",
-                                                    "I think I may be responsible for a disaster, but realize I am overthinking. "
+                                                    "I think about how I noticed during the first check everything was turned off. ",
+                                                    "I think I missed something that may have been left on."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1498,6 +1521,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_3a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1528,11 +1552,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel scared that I missed something, and then gently focus on what's going on in the car. ",
                                                     "I feel confident everything was shut off. ",
-                                                    "I feel guilty about not fully checking everything, but remind myself that everything will probably be ok and the guilty feelings will pass. ",
+                                                    "I feel scared that I missed something, and then gently focus on what's going on in the car. ",
                                                     "I feel excited about the trip. ",
-                                                    "I'm worried that an appliance was left on. "
+                                                    "I'm worried that an appliance was left on. ",
+                                                    "I feel guilty about not fully checking everything, but remind myself that everything will probably be ok and the guilty feelings will pass. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1561,6 +1585,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_3a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1591,11 +1616,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think about all of the horrible things that could happen in the house.",
-                                                    "I want to ask to go back to the house to check everything, but know that will make my anxiety worse in the future.",
                                                     "I focus on what's going on in the car. ",
-                                                    "I want to cry thinking about how anxious I feel, but know that my anxiety will eventually go away.",
-                                                    "I decide to tell my parents I did not get to do a thorough second check. "
+                                                    "I want to ask to go back to the house to check everything, but know that will make my anxiety worse in the future.",
+                                                    "I decide to tell my parents I did not get to do a thorough second check. ",
+                                                    "I think about all of the horrible things that could happen in the house.",
+                                                    "I want to cry thinking about how anxious I feel, but know that my anxiety will eventually go away."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1624,6 +1649,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_3a_Session2_long_Social Situations",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1721,10 +1747,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I think everyone will notice my red cheeks. ",
-                                                    "Even if I'm a little shaky, I've prepared for this presentation. ",
-                                                    "These feelings are normal and they'll go away soon. ",
                                                     "It's possible that I'll completely forget what I was going to say, but I decide to get started and do my best. ",
-                                                    "I don't like how my cheeks feel, but I can tolerate it and will try my best. "
+                                                    "These feelings are normal and they'll go away soon. ",
+                                                    "I don't like how my cheeks feel, but I can tolerate it and will try my best. ",
+                                                    "Even if I'm a little shaky, I've prepared for this presentation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1753,6 +1779,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_3a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1784,10 +1811,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I'm terrified that I'm going to stop breathing part-way through the presentation.",
-                                                    "I'm curious how I'll do on the presentation. ",
+                                                    "I'm excited to do my presentation. ",
                                                     "I'm embarrassed that my cheeks feel hot, but I doubt anyone will actually notice. ",
                                                     "I'm worried that I'm going to have a panic attack, but remind myself that it's normal to feel a little anxious while presenting. ",
-                                                    "I'm excited to do my presentation. "
+                                                    "I'm curious how I'll do on the presentation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1816,6 +1843,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_3a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1846,11 +1874,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I hold a confident posture. ",
-                                                    "I want to excuse myself, but decide to take a sip of water and carry on. ",
                                                     "I take a step outside of the room, and decide not to come back. ",
-                                                    "I begin my presentation with a good opening line. ",
-                                                    "I feel the urge to cover my face, but realize that no one probably cares if my cheeks are red. "
+                                                    "I want to excuse myself, but decide to take a sip of water and carry on. ",
+                                                    "I feel the urge to cover my face, but realize that no one probably cares if my cheeks are red. ",
+                                                    "I hold a confident posture. ",
+                                                    "I begin my presentation with a good opening line. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -1879,6 +1907,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_3a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -1940,10 +1969,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I wonder if there's something wrong with my heart, but then tell myself that I'm probably fine. ",
                                                     "Even if this feeling in my chest is really uncomfortable, I know it will going away soon. ",
-                                                    "My heart must be pounding because I'm excited about this new store. ",
+                                                    "I wonder if there's something wrong with my heart, but then tell myself that I'm probably fine. ",
                                                     "I'm going to have a heart attack!",
+                                                    "My heart must be pounding because I'm excited about this new store. ",
                                                     "This store is really different from the one we usually go to. "
                                                 ],
                                                 "Duration": 15
@@ -1973,6 +2002,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_4a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2003,11 +2033,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm excited to be in a new store. ",
-                                                    "I'm worried about my heart, but then remind myself that it's going to be OK. ",
                                                     "I'm nervous about my health, but realize that my heart is probably beating because I'm excited to be somewhere new. ",
+                                                    "I'm scared that my heart beating like this means something bad. ",
                                                     "I'm happy trying finding our favorite foods in a new place.",
-                                                    "I'm scared that my heart beating like this means something bad. "
+                                                    "I'm worried about my heart, but then remind myself that it's going to be OK. ",
+                                                    "I'm excited to be in a new store. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2032,10 +2062,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You have to give a presentation in your international language class today. When you stand up in front of the class, you feel your cheeks get hot and your hands start to tremble.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You're at a new grocery store with your parent and you're looking for bread. Suddenly you notice that your heart is beating quickly and pounding. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_4a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2066,8 +2097,8 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I notice my beating heart and remind myself that I'm going to be ok. ",
                                                     "I stop walking around and start to cry. ",
+                                                    "I notice my beating heart and remind myself that I'm going to be ok. ",
                                                     "I tell myself that if this happens again, I'll ask my parent about it. ",
                                                     "I ask an employee where the bread is. ",
                                                     "I notice the feeling in my chest and keep looking for the bread. "
@@ -2099,6 +2130,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_4a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2161,10 +2193,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "My teacher will say good things about me trying hard to learn. ",
-                                                    "I am a good student, and my teacher will tell my guardian that. ",
-                                                    "My guardian may ground me for doing badly in math, but I can handle it. ",
+                                                    "My teacher will tell my guardian how I'm doing in the class, and I'll be OK with that. ",
                                                     "I'm going to be in big trouble. ",
-                                                    "My teacher will tell my guardian how I'm doing in the class, and I'll be OK with that. "
+                                                    "My guardian may ground me for doing badly in math, but I can handle it. ",
+                                                    "I am a good student, and my teacher will tell my guardian that. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2193,6 +2225,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_3a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2224,10 +2257,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I feel anxious thinking about the conversation, but I can focus on my homework until my guardian gets home. ",
-                                                    "I'm uneasy right now, but this feeling won't last forever. ",
                                                     "I'm glad my guardian cares enough to go talk to my teacher. ",
-                                                    "I feel calm knowing that my guardian will love me no matter what my grade is. ",
-                                                    "I'm worried about what my teacher will say to my guardian. "
+                                                    "I'm uneasy right now, but this feeling won't last forever. ",
+                                                    "I'm worried about what my teacher will say to my guardian. ",
+                                                    "I feel calm knowing that my guardian will love me no matter what my grade is. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2256,6 +2289,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_3a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2286,10 +2320,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to avoid talking to my guardian, but know it's better to get it out of the way when they get home. ",
-                                                    "I'll skip math tomorrow. ",
-                                                    "I don't want to ask my teacher for help, but I know that if I do, that'll be best in the long run. ",
                                                     "I won't hide in my room when my guardian gets home. ",
+                                                    "I'll skip math tomorrow. ",
+                                                    "I want to avoid talking to my guardian, but know it's better to get it out of the way when they get home. ",
+                                                    "I don't want to ask my teacher for help, but I know that if I do, that'll be best in the long run. ",
                                                     "I'll ask my teacher how to bring up my grade. "
                                                 ],
                                                 "Duration": 15
@@ -2319,6 +2353,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "aca_long_3a_Session2_long_Physical Health",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2417,9 +2452,9 @@
                                                 "Text": [
                                                     "Everyone must be really busy. ",
                                                     "I think everyone thought that post was boring, but I can sit with that. ",
-                                                    "I think everyone is tired of my posts. ",
+                                                    "I think people think it's a dumb post, but decide not to give that a second thought. ",
                                                     "I am impressed with my post.",
-                                                    "I think people think it's a dumb post, but decide not to give that a second thought. "
+                                                    "I think everyone is tired of my posts. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2448,6 +2483,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_3a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2478,9 +2514,9 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel like no one likes my creative post, but I'm able to tolerate it. ",
                                                     "I'm embarrassed that no one liked what I posted, but then remember that the number of likes I get doesn't really matter. ",
                                                     "I'll never post anything again. ",
+                                                    "I feel like no one likes my creative post, but I'm able to tolerate it. ",
                                                     "I feel happy to be trying new things. ",
                                                     "I'm amused with my post. "
                                                 ],
@@ -2511,6 +2547,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_3a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2541,10 +2578,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to delete my post, but remind myself that it doesn't really matter how many likes it gets. ",
                                                     "I post another unique post the next day. ",
                                                     "I sit and check the number of likes, but decide to go out and enjoy the day. ",
                                                     "I don't let the number of likes get me down and go about my day. ",
+                                                    "I want to delete my post, but remind myself that it doesn't really matter how many likes it gets. ",
                                                     "I dwell on the post and sulk. "
                                                 ],
                                                 "Duration": 15
@@ -2574,6 +2611,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_3a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2635,10 +2673,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I really don't like how I look in this picture, but it doesn't really make a difference if there's one bad picture of me online.",
-                                                    "People may see the picture of me, but I can't control what my friend posts. ",
                                                     "I'm happy with the memories we made.",
                                                     "My friends enjoy hanging out with me. ",
+                                                    "People may see the picture of me, but I can't control what my friend posts. ",
+                                                    "I really don't like how I look in this picture, but it doesn't really make a difference if there's one bad picture of me online.",
                                                     "People are going to make fun of my face. "
                                                 ],
                                                 "Duration": 15
@@ -2668,6 +2706,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_4a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2698,11 +2737,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm confident in my friendships. ",
                                                     "I'm annoyed that this isn't a flattering picture of me.",
                                                     "I feel angry at my friend, but know that she didn't know how I feel about the picture. ",
+                                                    "I'm happy thinking about that memory.",
                                                     "I'm mad that I look so bad in the picture, and then remember that no one looks good all of the time. ",
-                                                    "I'm happy thinking about that memory."
+                                                    "I'm confident in my friendships. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2727,10 +2766,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You post something different from what you normally post. After a couple of hours, you only have about half the number of likes on your post compared to what you normally have. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You and your friends took some pictures together. You look through your feed and see that they tagged you in a post. You don't like how you look in the picture.\n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_4a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2761,11 +2801,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I comment on the picture. ",
-                                                    "I want to have the picture removed, but decide to let my friend keep it up. ",
-                                                    "I want to get off of social media, but stay on and post new pictures. ",
                                                     "I keep scrolling on my feed.",
-                                                    "I call my friend and tell her how upset I am. "
+                                                    "I call my friend and tell her how upset I am. ",
+                                                    "I want to get off of social media, but stay on and post new pictures. ",
+                                                    "I comment on the picture. ",
+                                                    "I want to have the picture removed, but decide to let my friend keep it up. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2794,6 +2834,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_4a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2856,10 +2897,10 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I think I must be the most clumsy person on the planet. ",
-                                                    "I'm sure this has happened to other people.",
-                                                    "I think the waitress will be annoyed, but think about how this moment will pass. ",
+                                                    "I think about how I will help clean this up. ",
                                                     "My parents might be embarrassed by me, but I know that it really isn't a big deal. ",
-                                                    "I think about how I will help clean this up. "
+                                                    "I think the waitress will be annoyed, but think about how this moment will pass. ",
+                                                    "I'm sure this has happened to other people."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2888,6 +2929,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_3a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2918,11 +2960,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm confident that the waitress will accept my apology.",
                                                     "I'm embarrassed that I drew attention to myself. ",
                                                     "I feel guilty about having broken a glass, but know that I didn't do it on purpose. ",
-                                                    "I'm annoyed at myself, but know that people will forget about the broken glass. ",
-                                                    "I'm happy to be eating with my family. "
+                                                    "I'm confident that the waitress will accept my apology.",
+                                                    "I'm happy to be eating with my family. ",
+                                                    "I'm annoyed at myself, but know that people will forget about the broken glass. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -2951,6 +2993,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_3a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -2981,11 +3024,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I want to leave the restaurant, but stay and have a good time. ",
                                                     "I ask if I can help clean up.",
-                                                    "I run to the bathroom so I don't have to talk to the waiter. ",
+                                                    "I want to leave the restaurant, but stay and have a good time. ",
+                                                    "I apologize to the wait staff and thank them for their help. ",
                                                     "I want to cry, but take a deep breath and remind myself that this happens. ",
-                                                    "I apologize to the wait staff and thank them for their help. "
+                                                    "I run to the bathroom so I don't have to talk to the waiter. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3014,6 +3057,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "soc_long_3a_Session2_long_Social Media",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3111,9 +3155,9 @@
                                             "Parameters": {
                                                 "Text": [
                                                     "I wonder if they're arguing over my grades, but then remember that it isn't my fault if they're not getting along.",
-                                                    "I think about doing something nice for them. ",
                                                     "I think about how it has nothing to do with me. ",
                                                     "I think I am the reason that they are fighting, but remind myself that I'm probably not the real reason. ",
+                                                    "I think about doing something nice for them. ",
                                                     "I ask myself if I did something wrong."
                                                 ],
                                                 "Duration": 15
@@ -3143,6 +3187,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_3a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3173,11 +3218,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm glad I am able to remove myself from the situation. ",
                                                     "I feel confident that this will blow over fairly quickly. ",
                                                     "I'm angry that they're always arguing.",
                                                     "I feel anxious thinking about my parents not getting along, but remember that I can't do anything about it.",
-                                                    "I'm sad that they're arguing a lot, but know that I'm not the reason for it."
+                                                    "I'm sad that they're arguing a lot, but know that I'm not the reason for it.",
+                                                    "I'm glad I am able to remove myself from the situation. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3206,6 +3251,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_3a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3236,11 +3282,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I give them some space and let my sad feelings pass. ",
-                                                    "I walk away. ",
                                                     "I want to storm off, but walk away calmly. ",
-                                                    "I go do my homework. ",
-                                                    "I yell at them to answer my question."
+                                                    "I give them some space and let my sad feelings pass. ",
+                                                    "I yell at them to answer my question.",
+                                                    "I walk away. ",
+                                                    "I go do my homework. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3269,6 +3315,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_3a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3330,11 +3377,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm lucky to have a guardian who takes me to sports practice.",
                                                     "I'm looking forward to practice today. ",
                                                     "My friends on the team are going to judge me.",
-                                                    "My friends don't want me on the team because of my guardian. But then I realize that thought isn't realistic. ",
-                                                    "My immediate thought is that my teammates will hate me, but I remind myself that I don't judge my friends for what their parents do."
+                                                    "My immediate thought is that my teammates will hate me, but I remind myself that I don't judge my friends for what their parents do.",
+                                                    "I'm lucky to have a guardian who takes me to sports practice.",
+                                                    "My friends don't want me on the team because of my guardian. But then I realize that thought isn't realistic. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3363,6 +3410,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_4a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3393,11 +3441,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm excited about practice. ",
-                                                    "I'm nervous while thinking about what my friends might say, but remember that I have really great friends. ",
                                                     "I'm so embarrassed by my guardian.",
+                                                    "I'm nervous while thinking about what my friends might say, but remember that I have really great friends. ",
                                                     "I'm instantly feeling ashamed of my loud guardian, but remind myself that I can't control what my guardian does. ",
-                                                    "I'm eager to get on the field with my friends. "
+                                                    "I'm eager to get on the field with my friends. ",
+                                                    "I'm excited about practice. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3422,10 +3470,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You notice your parents are upset with each other. They give you a short answer when you try to talk with them. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "Your guardian is dropping you off at your sports practice. As they drop you off, they are really loud and everyone on your team looks at you. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "home_long_4a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3456,11 +3505,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm want to avoid everyone around me since I'm afraid of what they're thinking, but remind myself that I can push myself to be friendly. ",
+                                                    "I run to the bathroom and hope my friends didn't see my guardian drop me off. ",
                                                     "I grab a ball and get ready for practice.",
-                                                    "I feel the urge to skip practice because I'm embarrassed, but know that my teammates need me. ",
                                                     "I run over to my teammates and start warming up. ",
-                                                    "I run to the bathroom and hope my friends didn't see my guardian drop me off. "
+                                                    "I'm want to avoid everyone around me since I'm afraid of what they're thinking, but remind myself that I can push myself to be friendly. ",
+                                                    "I feel the urge to skip practice because I'm embarrassed, but know that my teammates need me. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3489,6 +3538,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "home_long_4a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3550,11 +3600,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I don't like how my cheeks feel, but I can tolerate it and will try my best. ",
                                                     "It's possible that I'll completely forget what I was going to say, but I decide to get started and do my best. ",
-                                                    "I think everyone will notice my red cheeks. ",
+                                                    "I don't like how my cheeks feel, but I can tolerate it and will try my best. ",
                                                     "Even if I'm a little shaky, I've prepared for this presentation. ",
-                                                    "These feelings are normal and they'll go away soon. "
+                                                    "These feelings are normal and they'll go away soon. ",
+                                                    "I think everyone will notice my red cheeks. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3583,6 +3633,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_3a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3613,10 +3664,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm excited to do my presentation. ",
-                                                    "I'm terrified that I'm going to stop breathing part-way through the presentation.",
                                                     "I'm worried that I'm going to have a panic attack, but remind myself that it's normal to feel a little anxious while presenting. ",
                                                     "I'm embarrassed that my cheeks feel hot, but I doubt anyone will actually notice. ",
+                                                    "I'm terrified that I'm going to stop breathing part-way through the presentation.",
+                                                    "I'm excited to do my presentation. ",
                                                     "I'm curious how I'll do on the presentation. "
                                                 ],
                                                 "Duration": 15
@@ -3646,6 +3697,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_3a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3676,11 +3728,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I take a step outside of the room, and decide not to come back. ",
                                                     "I feel the urge to cover my face, but realize that no one probably cares if my cheeks are red. ",
                                                     "I want to excuse myself, but decide to take a sip of water and carry on. ",
-                                                    "I hold a confident posture. ",
-                                                    "I begin my presentation with a good opening line. "
+                                                    "I begin my presentation with a good opening line. ",
+                                                    "I take a step outside of the room, and decide not to come back. ",
+                                                    "I hold a confident posture. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3709,6 +3761,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "phys_long_3a_Session2_long_Home Life",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3805,11 +3858,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I think I missed something that may have been left on.",
                                                     "I think everything is turned off. ",
+                                                    "Even though I didn't get to fully check a second time before we all left, I'm pretty sure everything is off. ",
+                                                    "I think I missed something that may have been left on.",
                                                     "I think about how I noticed during the first check everything was turned off. ",
-                                                    "I think I may be responsible for a disaster, but realize I am overthinking. ",
-                                                    "Even though I didn't get to fully check a second time before we all left, I'm pretty sure everything is off. "
+                                                    "I think I may be responsible for a disaster, but realize I am overthinking. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -3838,6 +3891,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_3a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3868,10 +3922,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I'm worried that an appliance was left on. ",
                                                     "I feel confident everything was shut off. ",
                                                     "I feel excited about the trip. ",
                                                     "I feel guilty about not fully checking everything, but remind myself that everything will probably be ok and the guilty feelings will pass. ",
+                                                    "I'm worried that an appliance was left on. ",
                                                     "I feel scared that I missed something, and then gently focus on what's going on in the car. "
                                                 ],
                                                 "Duration": 15
@@ -3901,6 +3955,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_3a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -3931,10 +3986,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I decide to tell my parents I did not get to do a thorough second check. ",
-                                                    "I want to cry thinking about how anxious I feel, but know that my anxiety will eventually go away.",
                                                     "I think about all of the horrible things that could happen in the house.",
+                                                    "I decide to tell my parents I did not get to do a thorough second check. ",
                                                     "I want to ask to go back to the house to check everything, but know that will make my anxiety worse in the future.",
+                                                    "I want to cry thinking about how anxious I feel, but know that my anxiety will eventually go away.",
                                                     "I focus on what's going on in the car. "
                                                 ],
                                                 "Duration": 15
@@ -3964,6 +4019,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_3a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4025,11 +4081,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I notice that I'm assuming the worst is going to happen, and remember that everything will actually be OK. ",
-                                                    "Even though my brain automatically goes to the worst case scenario, I remind myself that I'm probably safe.",
-                                                    "I think about how there are lots of animals outside at this time.",
+                                                    "I think about how someone could be trying to break in. ",
                                                     "I think it must be the wind.",
-                                                    "I think about how someone could be trying to break in. "
+                                                    "I think about how there are lots of animals outside at this time.",
+                                                    "I notice that I'm assuming the worst is going to happen, and remember that everything will actually be OK. ",
+                                                    "Even though my brain automatically goes to the worst case scenario, I remind myself that I'm probably safe."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4058,6 +4114,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_4a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4091,8 +4148,8 @@
                                                     "I'm tired and am looking forward to going to bed.",
                                                     "I feel scared that I don't know what made that noise.",
                                                     "I feel terrified, but realize my brain is being very imaginative.",
-                                                    "I'm excited to make money while I'm babysitting.",
-                                                    "I'm worried about what's outside, but remind myself that it was probably the wind."
+                                                    "I'm worried about what's outside, but remind myself that it was probably the wind.",
+                                                    "I'm excited to make money while I'm babysitting."
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4117,10 +4174,11 @@
                                         {
                                             "Type": "Text",
                                             "Parameters": {
-                                                "Text": "You and your family are heading out of town for a few days and your parent asks you to double-check that all the appliances in your house are turned off before you leave. You had to rush to pack so didn't get to check everything. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
+                                                "Text": "You are babysitting a younger kid in your neighborhood and you're watching TV while they sleep. It's dark outside and you suddenly hear noises against the window. \n\nPlease take 30 seconds to write different feelings. The next button will appear automatically. \n\nFeelings in the moment and how you'd handle any negative feelings:"
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_4a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4151,11 +4209,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I make sure to turn extra lights on and a funny movie. ",
-                                                    "I call the family to come home immediately. ",
-                                                    "I want to leave the house, but decide to stay. ",
                                                     "I check that the doors have been locked. ",
-                                                    "I want to wake up the child and ask if they hear anything, but instead let my anxiety pass. "
+                                                    "I want to wake up the child and ask if they hear anything, but instead let my anxiety pass. ",
+                                                    "I call the family to come home immediately. ",
+                                                    "I make sure to turn extra lights on and a funny movie. ",
+                                                    "I want to leave the house, but decide to stay. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4184,6 +4242,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "gen_long_4a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4245,11 +4304,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "Everyone must be really busy. ",
                                                     "I think people think it's a dumb post, but decide not to give that a second thought. ",
-                                                    "I think everyone is tired of my posts. ",
+                                                    "I think everyone thought that post was boring, but I can sit with that. ",
                                                     "I am impressed with my post.",
-                                                    "I think everyone thought that post was boring, but I can sit with that. "
+                                                    "I think everyone is tired of my posts. ",
+                                                    "Everyone must be really busy. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4278,6 +4337,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_3a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4308,10 +4368,10 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
-                                                    "I feel like no one likes my creative post, but I'm able to tolerate it. ",
-                                                    "I'm embarrassed that no one liked what I posted, but then remember that the number of likes I get doesn't really matter. ",
-                                                    "I'm amused with my post. ",
                                                     "I'll never post anything again. ",
+                                                    "I'm embarrassed that no one liked what I posted, but then remember that the number of likes I get doesn't really matter. ",
+                                                    "I feel like no one likes my creative post, but I'm able to tolerate it. ",
+                                                    "I'm amused with my post. ",
                                                     "I feel happy to be trying new things. "
                                                 ],
                                                 "Duration": 15
@@ -4341,6 +4401,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_3a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4371,11 +4432,11 @@
                                             "Type": "TimedText",
                                             "Parameters": {
                                                 "Text": [
+                                                    "I want to delete my post, but remind myself that it doesn't really matter how many likes it gets. ",
+                                                    "I don't let the number of likes get me down and go about my day. ",
                                                     "I sit and check the number of likes, but decide to go out and enjoy the day. ",
                                                     "I post another unique post the next day. ",
-                                                    "I dwell on the post and sulk. ",
-                                                    "I don't let the number of likes get me down and go about my day. ",
-                                                    "I want to delete my post, but remind myself that it doesn't really matter how many likes it gets. "
+                                                    "I dwell on the post and sulk. "
                                                 ],
                                                 "Duration": 15
                                             }
@@ -4404,6 +4465,7 @@
                                             }
                                         },
                                         {
+                                            "Name": "sm_long_3a_Session2_long_General",
                                             "Type": "Entry"
                                         }
                                     ],
@@ -4491,7 +4553,8 @@
                                     }
                                 },
                                 {
-                                    "Type": "Entry"
+                                    "Type": "Entry",
+                                    "Name": "qt_socialmedia"
                                 }
                             ]
                         }
