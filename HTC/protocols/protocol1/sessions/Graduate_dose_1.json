@@ -24,13 +24,14 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "gender",
                                     "Parameters": {
                                         "Buttons": [
                                             "Female",
                                             "Male",
                                             "Transgender Female",
                                             "Transgender Male",
-                                            "Other",
+                                            "!Other",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -65,6 +66,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "race",
                                     "Parameters": {
                                         "Buttons": [
                                             "American Indian/Alaska Native East Asian",
@@ -72,7 +74,7 @@
                                             "Native Hawaiian/Pacific Islander",
                                             "Black/African origin",
                                             "White/European origin",
-                                            "Other or Unknown",
+                                            "!Other or Unknown",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true,
@@ -91,6 +93,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "ethnicity",
                                     "Parameters": {
                                         "Buttons": [
                                             "Hispanic or Latino",
@@ -113,6 +116,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "ethnicity",
                                     "Parameters": {
                                         "Buttons": [
                                             "Hispanic or Latino",
@@ -135,6 +139,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "education",
                                     "Parameters": {
                                         "Buttons": [
                                             "Elementary School",
@@ -150,7 +155,7 @@
                                             "J.D.",
                                             "M.D.",
                                             "Ph.D.",
-                                            "Other Advanced Degree",
+                                            "!Other Advanced Degree",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -168,6 +173,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "relationship",
                                     "Parameters": {
                                         "Buttons": [
                                             "Single",
@@ -179,7 +185,7 @@
                                             "Separated",
                                             "Divorced",
                                             "Widow/widower",
-                                            "Other",
+                                            "!Other",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -197,6 +203,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "employment",
                                     "Parameters": {
                                         "Buttons": [
                                             "Working full-time",
@@ -206,7 +213,7 @@
                                             "Homemaker/keeping house or raising children full-time",
                                             "Retired",
                                             "Student",
-                                            "Other",
+                                            "!Other",
                                             "Unknown",
                                             "Prefer not to answer"
                                         ],
@@ -225,6 +232,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "income",
                                     "Parameters": {
                                         "Buttons": [
                                             "Less than $5,000",
@@ -257,6 +265,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "learn_abt_HTC",
                                     "Parameters": {
                                         "Buttons": [
                                             "From the website of a UVA community resource (e.g., Counseling and Psychological Services)",
@@ -265,7 +274,7 @@
                                             "A friend or colleague",
                                             "Mental health professional recommended it",
                                             "Prefer not to answer",
-                                            "Other:"
+                                            "!Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -300,6 +309,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "mental_health_disorders",
                                     "Parameters": {
                                         "Buttons": [
                                             "Generalized anxiety disorder (GAD)",
@@ -317,7 +327,8 @@
                                             "Eating disorder",
                                             "Personality disorder",
                                             "I am not struggling with a mental disorder",
-                                            "Prefer not to answer, Other:"
+                                            "Prefer not to answer",
+                                            "!Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -335,6 +346,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "help",
                                     "Parameters": {
                                         "Buttons": [
                                             "Therapy::Therapy (talking with a trained professional)/n/nExamples: Psychologist, licensed mental health practitioner (LMHC), school counselor, social worker, marriage and family therapist, group therapist",
@@ -344,7 +356,7 @@
                                             "OTC::Over-the-counter medications and/or supplements",
                                             "None::I am not receiving help",
                                             "NoAnswer::Prefer not to answer",
-                                            "Other::Other:"
+                                            "!Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -507,6 +519,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "reasons_not_receiving_help",
                                     "Parameters": {
                                         "Buttons": [
                                             "I don't think a prescription medication would help me",
@@ -519,7 +532,7 @@
                                             "I don't have time",
                                             "I had treatment previously and didn't find it helpful",
                                             "Prefer not to anwer",
-                                            "Other:"
+                                            "!Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -537,6 +550,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "changes_treatment",
                                     "Parameters": {
                                         "Buttons": [
                                             "I started therapy",
@@ -546,7 +560,7 @@
                                             "I started a prescription medication I stopped a prescription medication",
                                             "I haven't had any changes",
                                             "Prefer not to answer",
-                                            "Other:"
+                                            "!Other:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -564,6 +578,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "length_anxiety_symptoms",
                                     "Parameters": {
                                         "Buttons": [
                                             "One week",
@@ -591,6 +606,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "UVA_resources",
                                     "Parameters": {
                                         "Buttons": [
                                             "Clubs and Organizations (e.g., cultural groups, volunteering)",
@@ -616,7 +632,7 @@
                                             "UVA Women's Center",
                                             "UVA Writing Center",
                                             "WahooWell",
-                                            "Other, please describe:"
+                                            "!Other, please describe:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -651,6 +667,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "UVA_resources",
                                     "Parameters": {
                                         "Buttons": [
                                             "Clubs and Organizations (e.g., cultural groups, volunteering)",
@@ -676,7 +693,7 @@
                                             "UVA Women's Center",
                                             "UVA Writing Center",
                                             "WahooWell",
-                                            "Other, please describe:"
+                                            "!Other, please describe:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -694,6 +711,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_elevator",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -714,6 +732,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_elevator",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -734,6 +753,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_wedding",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -754,6 +774,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_wedding",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -774,6 +795,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_job",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -794,6 +816,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_job",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -814,6 +837,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_noise",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -834,6 +858,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_noise",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -854,6 +879,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_friend",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -874,6 +900,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_friend",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -894,6 +921,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_lunch",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -914,6 +942,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_lunch",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -934,6 +963,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_scrape",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -954,6 +984,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_scrape",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -974,6 +1005,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_shopping",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -994,6 +1026,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_shopping",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -1014,6 +1047,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "IBM_blood",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -1041,6 +1075,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "OASIS_frequency_anxious",
                                     "Parameters": {
                                         "Buttons": [
                                             "No anxiety",
@@ -1065,6 +1100,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "OASIS_intensity_anxiety",
                                     "Parameters": {
                                         "Buttons": [
                                             "Little or None",
@@ -1089,6 +1125,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "OASIS_avoid",
                                     "Parameters": {
                                         "Buttons": [
                                             "Never",
@@ -1113,6 +1150,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "OASIS_work",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1137,6 +1175,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "OASIS_social",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1168,6 +1207,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "OASIS_little_interest",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1191,6 +1231,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "OASIS_depressed",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1231,6 +1272,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "PSS-4_control",
                                     "Parameters": {
                                         "Buttons": [
                                             "Never",
@@ -1254,6 +1296,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "PSS-4_confident",
                                     "Parameters": {
                                         "Buttons": [
                                             "Never",
@@ -1277,6 +1320,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "PSS-4_your_way",
                                     "Parameters": {
                                         "Buttons": [
                                             "Never",
@@ -1300,6 +1344,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "PSS-4_difficulties",
                                     "Parameters": {
                                         "Buttons": [
                                             "Never",
@@ -1494,7 +1539,8 @@
                                     }
                                 },
                                 {
-                                    "Type": "Entry"
+                                    "Type": "Entry",
+                                    "Name": ""
                                 }
                             ]
                         },
@@ -1554,6 +1600,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagery_vivid",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all vivid",
@@ -1580,6 +1627,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagery_well",
                                     "Parameters": {
                                         "Buttons": [
                                             "Very likely to turn out well",
@@ -1606,6 +1654,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "imagery_handling",
                                     "Parameters": {
                                         "Buttons": [
                                             "Very well",
@@ -1639,6 +1688,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
+                                    "Name": "gain_from_HTC",
                                     "Parameters": {
                                         "Buttons": [
                                             "I want to think more flexibly and less negatively.",
@@ -1649,7 +1699,7 @@
                                             "I want to maintain the gains",
                                             "I've made during mental health treatment.",
                                             "I want to avoid a return of anxiety and/or stress I've experienced in the past.",
-                                            "Other, please describe: ________________"
+                                            "!Other, please describe:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
