@@ -408,17 +408,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "biweekly_difficulties",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Elevator",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Never",
-                                            "Almost Never",
-                                            "Sometimes",
-                                            "Fairly Often",
-                                            "Very Often"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "safety"
+                                        ]
                                     }
                                 }
                             ]
@@ -453,14 +453,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "IBM_elevator",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Wedding Reception",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Yes",
-                                            "No"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "laugh"
+                                        ]
                                     }
                                 }
                             ]
@@ -495,14 +498,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "IBM_wedding",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Job",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Yes",
-                                            "No"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "finances"
+                                        ]
                                     }
                                 }
                             ]
@@ -537,14 +543,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "IBM_job",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Loud Noise",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Yes",
-                                            "No"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "downstairs"
+                                        ]
                                     }
                                 }
                             ]
@@ -579,14 +588,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "IBM_noise",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresMeeting a Friend",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Yes",
-                                            "No"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "there"
+                                        ]
                                     }
                                 }
                             ]
@@ -621,14 +633,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "IBM_friend",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Lunch",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Yes",
-                                            "No"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "you"
+                                        ]
                                     }
                                 }
                             ]
@@ -663,14 +678,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "IBM_lunch",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Scrape",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Yes",
-                                            "No"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "bleed"
+                                        ]
                                     }
                                 }
                             ]
@@ -705,14 +723,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "IBM_scrape",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Shopping Trip",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Yes",
-                                            "No"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "sick"
+                                        ]
                                     }
                                 }
                             ]
@@ -747,14 +768,17 @@
                                     }
                                 },
                                 {
-                                    "Type": "Buttons",
-                                    "Name": "IBM_shopping",
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Blood Test",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
                                     "Parameters": {
-                                        "Buttons": [
-                                            "Yes",
-                                            "No"
-                                        ],
-                                        "Selectable": true
+                                        "Words": [
+                                            "time"
+                                        ]
                                     }
                                 }
                             ]
