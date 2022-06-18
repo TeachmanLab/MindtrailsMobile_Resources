@@ -1,0 +1,849 @@
+{
+    "Name": "Reasons for Ending",
+    "Title": "Hoos Think Calmly",
+    "TimeToComplete": "00:5:00",
+    "Sections": [
+        {
+            "Name": "Reasons For Ending",
+            "Doses": [
+                1
+            ],
+            "PageGroups": [
+                {
+                    "Name": "Reasons for Ending",
+                    "Title": "Reasons for Ending",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "We are interested in improving Hoos Think Calmly and would like to learn about why you decided to stop the program. We appreciate your feedback!"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Why did you decide to end the program? Please check all that apply."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "I did not have enough time to complete the program",
+                                            "I did not find the program helpful for reducing my anxiety",
+                                            "I did not find the program interesting",
+                                            "I did not believe a program like this could work",
+                                            "I found the program frustrating to use",
+                                            "I no longer needed the program (i.e., I no longer felt anxious)",
+                                            "I believe I was assigned to the control condition (i.e., the condition that was not expected to change anxiety)",
+                                            "!Other",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "To the extent you completed the program..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            ""
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How helpful did you find Hoos Think Calmly for reducing your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much did Hoos Think Calmly keep your interest and attention?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much could you relate to the stories presented during training sessions?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How believable did you find the stories' endings in terms of those outcomes happening in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much did you like the way Hoos Think Calmly looked?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How easy was Hoos Think Calmly to use?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "I found the training sessions to be:"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Way too short",
+                                            "Somewhat too short",
+                                            "The right length",
+                                            "Somewhat too long",
+                                            "Way too long",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How useful did you find the nightly survey that enabled you to choose when to complete training the next day?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How worried were you about your privacy in using Hoos Think Calmly?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How tiring did you find the training sessions?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How tiring did you find the assessments?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much did you like the \"favorites\" feature of the app?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How useful did you find the strategies and tips provided by the app?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How likely would you be to recommend Hoos Think Calmly to others with similar anxiety \ndifficulties?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do you have moderate-to-severe anxiety or depression symptoms?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes::Yes",
+                                            "No::No",
+                                            "Unsure::Unsure"
+                                        ],
+                                        "Selectable": true
+                                    },
+                                    "VariableName": "RFE_anxiety_depression"
+                                }
+                            ]
+                        },
+                        {
+                            "Conditions": [
+                                {
+                                    "VariableName": "RFE_anxiety_depression",
+                                    "Value": "Yes"
+                                }
+                            ],
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Conditions": [
+                                {
+                                    "VariableName": "RFE_anxiety_depression",
+                                    "Value": "Unsure"
+                                }
+                            ],
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How useful did you find the resources and referrals provided in the app? "
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you contact any of the following resources or referrals at any point since you started using Hoos Think Calmly? Please select all that apply."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Clubs and Organizations (e.g., cultural groups, volunteering)",
+                                            "Counseling and Psychological Services (CAPS)",
+                                            "Faculty and Employee Assistance Program (FEAP)",
+                                            "HELP Line",
+                                            "HoosWell",
+                                            "Multicultural Student Centers (e.g., Interfaith, Latinx, LGBTQ)",
+                                            "Office for Equal Opportunity and Civil Rights (EOCR)",
+                                            "Office of African-American Affairs (OAAA)",
+                                            "Office of Graduate and Postdoctoral Affairs",
+                                            "Office of the Dean of Students (ODOS)",
+                                            " PhD Plus",
+                                            "Student Disability Access Center (SDAC)",
+                                            "Student Financial Services",
+                                            "Student Health and Wellness",
+                                            "TimelyCare",
+                                            "UVA Career Center",
+                                            "UVA Human Resources (HR)",
+                                            "UVA Women's Center",
+                                            "UVA Writing Center",
+                                            "WahooWell",
+                                            "!Other",
+                                            "I did not contact any of these resources/referrals since starting this program"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Some people have problems when trying to use a mobile application. Please read the following statements and tell us how much of a problem you had when trying to use the app."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Technical problems with the mobile app (e.g., app crashing or freezing) made it difficult\nto use."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "I just forgot to open the app."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Personal issues stopped me from using the app."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The app was too hard to navigate."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The app was too hard to understand."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The app did not seem very useful."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "I thought the program was going to take too long."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The app had too many words."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The screen was hard to read (e.g., words were too small)."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "During this program, did you change any dose of medication, therapy, or other intervention to help your mental health? Please check all that apply."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "I seek in-person therapy more now",
+                                            "I seek in-person therapy less now",
+                                            "I use prescription medication more now",
+                                            "I use prescription medication less now",
+                                            "I use online computer programs or mobile apps (other than Hoos Think Calmly more now",
+                                            "I use online computer programs or mobile apps (other than Hoos Think Calmly less now",
+                                            "!Other",
+                                            "I did not change my intervention habits",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
