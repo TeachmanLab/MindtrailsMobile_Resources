@@ -19,7 +19,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Welcome to Hoos Think Calmly! This initial session will be a bit longer than future sessions. You'll first be asked to complete some surveys about your mental health and thinking patterns. Then, we'll give you some more information about the rationale for this program and explain how to get the most out of the app. You'll have the opportunity to set up a meeting with the research team at the end of this session if you have any questions or concerns. Ready to get started? Hit the Next button below!  "
+                                        "Text": "Welcome to Hoos Think Calmly! This initial session will be a bit longer than future sessions. You'll first be asked to complete some surveys about your mental health and thinking patterns. Then, we'll give you some more information about the rationale for this program and explain how to get the most out of the app. You'll have the opportunity to set up a meeting with the research team at the end of this session if you have any questions or concerns. Ready to get started? Hit the Next button below to begin filling out questionnaires."
                                     }
                                 }
                             ]
@@ -1039,7 +1039,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are in the lobby of your friend's new apartment building.  You press the button to the elevator to go up. The building looks old.  As you get on the elevator you think about its..."
+                                        "Text": "You are in the lobby of your friend's new apartment building.  You press the button to the elevator to go up. The building looks old. As you get on the elevator you think about its..."
                                     }
                                 },
                                 {
@@ -1423,7 +1423,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Did you take blood test?"
+                                        "Text": "Did you take blood tests?"
                                     }
                                 },
                                 {
@@ -1742,6 +1742,23 @@
                     ]
                 },
                 {
+                    "Name": "Your First Session",
+                    "Title": "Your First Session",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Hoos Think Calmly is designed to help you change the way you think about common but potentially stressful situations in order to reduce anxiety and stress. When you complete sessions in the app, you will be asked to read brief stories about situations that often produce anxiety and fill in missing letters to complete words, fill in entire words, or come up with new stories that are personally relevant to you. To help familiarize you with the program and help you get the most out of this experience, we would like you to watch a few brief videos explaining how Hoos Think Calmly works. You will also be presented with three example stories so that you can begin to get the hang of the training. Click next to get started!"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "Name": "Lemon Exercise",
                     "Title": "Lemon Exercise",
                     "Type": "Survey",
@@ -1921,7 +1938,7 @@
                                 },
                                 {
                                     "Type": "Entry",
-                                    "Name": ""
+                                    "Name": "entry_anxious_imagery"
                                 }
                             ]
                         },
@@ -2055,8 +2072,8 @@
                     ]
                 },
                 {
-                    "Name": "Comprehension / Engagement",
-                    "Title": "Comprehension / Engagement",
+                    "Name": "Make it your own! ",
+                    "Title": "Make it your own! ",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -2064,25 +2081,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "What are you hoping to get out of the Hoos Think Calmly program? (Select all that Apply)"
-                                    }
-                                },
-                                {
-                                    "Type": "Buttons",
-                                    "Name": "gain_from_HTC",
-                                    "Parameters": {
-                                        "Buttons": [
-                                            "I want to think more flexibly and less negatively.",
-                                            "I want to be able to manage stressful situations more effectively.",
-                                            "I want to reduce my stress and/or anxiety.",
-                                            "I want to practice skills",
-                                            "I've learned or am currently learning from a mental healthcare provider.",
-                                            "I want to maintain the gains I've made during mental health treatment.",
-                                            "I want to avoid a return of anxiety and/or stress I've experienced in the past.",
-                                            "!Other, please describe:"
-                                        ],
-                                        "Selectable": true,
-                                        "AllowMultipleSelections": true
+                                        "Text": "We want Hoos Think Calmly to meet your needs. When you complete training sessions in the app or browse resources in the on-demand resource library, you'll notice a button that looks like a star on the top right-hand corner of your screen. By clicking on the star, you can add the info you find most helpful (e.g., short stories, tips for managing stress) to your own personal Favorites page. You can then revisit your favorite parts of the app whenever you'd like by choosing the Favorites tile from the Hoos Think Calmly homepage!"
                                     }
                                 }
                             ]
@@ -2090,9 +2089,22 @@
                     ]
                 },
                 {
+                    "Name": "Video 1",
+                    "Pages": [
+                        {
+                            "Type": "Media",
+                            "Parameters": {
+                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/Faculty/video0.mp4",
+                                "ImageType": "video/mp4"
+                            },
+                            "Frame": true
+                        }
+                    ]
+                },
+                {
                     "Name": "Contributing to a discussion",
                     "Type": "Scenario",
-                    "DoseSize": 10,
+                    "DoseSize": 11,
                     "Pages": [
                         {
                             "Name": "Contributing to a discussion",
@@ -2150,8 +2162,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Support your ideas.",
-                                            "Dislike your ideas. "
+                                            "Dislike your ideas. ",
+                                            "Support your ideas."
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Support your ideas."
@@ -2163,9 +2175,22 @@
                     "CanBeFavorited": true
                 },
                 {
+                    "Name": "Video 2",
+                    "Pages": [
+                        {
+                            "Type": "Media",
+                            "Parameters": {
+                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/Faculty/video1.mp4",
+                                "ImageType": "video/mp4"
+                            },
+                            "Frame": true
+                        }
+                    ]
+                },
+                {
                     "Name": "Attention in store",
                     "Type": "Scenario",
-                    "DoseSize": 10,
+                    "DoseSize": 11,
                     "Pages": [
                         {
                             "Name": "Attention in store",
@@ -2246,8 +2271,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Awkward and uncoordinated.",
-                                            "Considerate for apologizing."
+                                            "Considerate for apologizing.",
+                                            "Awkward and uncoordinated."
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Considerate for apologizing."
@@ -2259,9 +2284,22 @@
                     "CanBeFavorited": true
                 },
                 {
+                    "Name": "Video 3",
+                    "Pages": [
+                        {
+                            "Type": "Media",
+                            "Parameters": {
+                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/Faculty/video2.mp4",
+                                "ImageType": "video/mp4"
+                            },
+                            "Frame": true
+                        }
+                    ]
+                },
+                {
                     "Name": "A birthday cake",
                     "Type": "Scenario",
-                    "DoseSize": 10,
+                    "DoseSize": 11,
                     "Pages": [
                         {
                             "Name": "A birthday cake",
@@ -2319,8 +2357,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not get sick. ",
-                                            "Get sick. "
+                                            "Get sick. ",
+                                            "Not get sick. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Get sick. "
@@ -2330,6 +2368,41 @@
                         }
                     ],
                     "CanBeFavorited": true
+                },
+                {
+                    "Name": "Comprehension / Engagement",
+                    "Title": "Comprehension / Engagement",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "What are you hoping to get out of the Hoos Think Calmly program? (Select all that Apply)"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "gain_from_HTC",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "I want to think more flexibly and less negatively.",
+                                            "I want to be able to manage stressful situations more effectively.",
+                                            "I want to reduce my stress and/or anxiety.",
+                                            "I want to practice skills",
+                                            "I've learned or am currently learning from a mental healthcare provider.",
+                                            "I want to maintain the gains I've made during mental health treatment.",
+                                            "I want to avoid a return of anxiety and/or stress I've experienced in the past.",
+                                            "!Other, please describe:"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         }

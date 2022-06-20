@@ -1,17 +1,17 @@
 {
-    "Name": "Staff",
+    "Name": "Biweekly Survey",
     "Title": "Hoos Think Calmly",
     "TimeToComplete": "00:5:00",
     "Sections": [
         {
-            "Name": "EOD",
+            "Name": "Biweekly Survey",
             "Doses": [
                 1
             ],
             "PageGroups": [
                 {
-                    "Name": "EOD",
-                    "Title": "EOD",
+                    "Name": "OASIS",
+                    "Title": "OASIS",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -19,14 +19,22 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Overall, today I felt...\n\n1 = Very bad/negative\n\n7 = Very good/positive"
+                                        "Text": "In the past week, how often have you felt anxious?"
                                     }
                                 },
                                 {
-                                    "Type": "Slider",
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_days_anxious",
                                     "Parameters": {
-                                        "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Buttons": [
+                                            "No anxiety",
+                                            "Infrequent anxiety",
+                                            "Occasional anxiety",
+                                            "Frequent anxiety",
+                                            "Constant anxiety",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -36,14 +44,22 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "I was able to think about stressful or upsetting situations in a new or different way today.\n\n1 = Not at all true\n\n7 = Very true"
+                                        "Text": "In the past week, when you have felt anxious, how intense or severe was your anxiety?"
                                     }
                                 },
                                 {
-                                    "Type": "Slider",
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_intensity_anxiety",
                                     "Parameters": {
-                                        "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Buttons": [
+                                            "Little or None",
+                                            "Mild",
+                                            "Moderate",
+                                            "Severe",
+                                            "Extreme",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -53,14 +69,22 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "I was able to manage my emotions today.\n\n1 = Not at all effectively\n\n7 = Very effectively"
+                                        "Text": "In the past week, how often did you avoid situations, places, objects, or activities because of anxiety or fear?"
                                     }
                                 },
                                 {
-                                    "Type": "Slider",
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_avoid",
                                     "Parameters": {
-                                        "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Buttons": [
+                                            "Never",
+                                            "Infrequently",
+                                            "Occasionally",
+                                            "Frequently",
+                                            "All the time",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
                                     }
                                 }
                             ]
@@ -70,10 +94,1530 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are encouraged to complete 2 short Hoos Think Calmly programs tomorrow. Thinking ahead to your day tomorrow, are there specific times you would like to receive a notification to complete a ~5 minute program to help manage a stressful or upsetting situation?"
+                                        "Text": "In the past week, how much did your anxiety interfere with your ability to do the things you needed to do at work, at school, or at home?"
                                     }
                                 },
-                                {}
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interfere_work",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Mildly",
+                                            "Moderately",
+                                            "Severely",
+                                            "Extremely",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your social life and relationships?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interfere_social",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Mildly",
+                                            "Moderately",
+                                            "Severely",
+                                            "Extremely",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "PHQ-2",
+                    "Title": "PHQ-2",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nLittle interest or pleasure in doing things."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nFeeling down, depressed, or hopeless."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_depressed",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "PSS-4",
+                    "Title": "PSS-4",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The questions on the next pages will ask you about your feelings and thoughts during THE LAST MONTH. In each case, please indicate your response by choosing HOW OFTEN you felt or thought a certain way."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that you were unable to control the important things in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_control",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_personal",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that things were going your way?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_way",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_difficulties",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In this brief exercise, you will read several short stories.\n\nPlease read each one carefully and try to imagine yourself in the situation.\n\nThe last word of each story is incomplete. Click on the missing letter to complete the word.\n\nAfter you correctly complete the word, you will be asked a question about the story. Answer the question based on the information in the story."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are in the lobby of your friend's new apartment building.  You press the button to the elevator to go up. The building looks old. As you get on the elevator you think about its..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Elevator",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "safety"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you think about the elevator's safety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Your friend asks you to give a speech at her wedding reception. You prepare some remarks and when the time comes, get to your feet. As you speak, you notice some people in the audience start to..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Wedding Reception",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "laugh"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Does the audience laugh when you speak?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are currently working as a contractor for a company. Once this job is finished, you will be without employment until you can find your next job. You think about not having an income for a few weeks and about your future..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Job",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "finances"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Will you be without an income soon?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are woken up in the middle of the night by a loud noise. You are not sure what caused the noise and leave your bedroom to see what happened. You walk..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Loud Noise",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "downstairs"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Have you been woken up in the middle of the night?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_noise",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the street you bump into an old friend you haven't seen for a long time. She is too busy to stop, so you arrange to meet later in a bar. You arrive a little late but the bar is empty and a few minutes later she is still not..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresMeeting a Friend",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "there"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did your friend stop?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are eating lunch with a friend. As you start eating your salad, you describe your plans for the weekend. You accidentally drop a piece of lettuce, and your friend looks at..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Lunch",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "you"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do you have salad for lunch?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are playing basketball with some friends. While running toward the ball, you trip and scrape your knee. The scrape hurts a bit, but does not..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Scrape",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "bleed"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you playing soccer with your friend?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at the mall with your friend. While you shop, she tells you how several of her friends have recently come down with a strange illness. You think about your recent health, and wonder if you will get..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Shopping Trip",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "sick"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you shopping alone?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at a routine doctor's appointment. At the appointment, the doctor decides to run a few blood tests to check your health. The doctor says he will call you in a few weeks, and you will find out your test results at that..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Blood Test",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "time"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you take blood tests?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Biweekly Survey - Week 2",
+                    "Title": "Biweekly Survey - Week 2",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How helpful do you find Hoos Think Calmly for reducing your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much does Hoos Think Calmly keep your interest and attention? "
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much could you relate to the stories presented during training sessions?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How believable did you find the stories' endings in terms of those outcomes happening in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much do you like the way Hoos Think Calmly looks?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How easy is Hoos Think Calmly to use?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "I find the training sessions to be:"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Way too short",
+                                            "Somewhat too short",
+                                            "The right length",
+                                            "Somewhat too long",
+                                            "Way too long",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How useful do you find the nightly survey that enables you to choose when to complete \ntraining the next day? "
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Biweekly Survey - Week 4",
+                    "Title": "Biweekly Survey - Week 4",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How helpful do you find Hoos Think Calmly for reducing your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much does Hoos Think Calmly keep your interest and attention?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much could you relate to the stories presented during training sessions?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How believable did you find the stories' endings in terms of those outcomes happening in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How worried are you about your privacy in using Hoos Think Calmly?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How tiring do you find the training sessions?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How tiring do you find the assessments?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much do you like the \"favorites\" feature of the app?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How useful do you find the strategies and tips provided by the app?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Biweekly Survey - Week 6",
+                    "Title": "Biweekly Survey - Week 6",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How helpful did you find Hoos Think Calmly for reducing your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much did Hoos Think Calmly keep your interest and attention?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How much could you relate to the stories presented during training sessions?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How believable did you find the stories' endings in terms of those outcomes happening in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How likely would you be to recommend Hoos Think Calmly to others with similar anxiety \ndifficulties?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do you have moderate-to-severe anxiety or depression symptoms?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes::Yes",
+                                            "No::No",
+                                            "Unsure::Unsure"
+                                        ],
+                                        "Selectable": true
+                                    },
+                                    "VariableName": "AnxietyDepressionSymptoms"
+                                }
+                            ]
+                        },
+                        {
+                            "Conditions": [
+                                {
+                                    "VariableName": "AnxietyDepressionSymptoms",
+                                    "Value": "Yes"
+                                }
+                            ],
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Conditions": [
+                                {
+                                    "VariableName": "AnxietyDepressionSymptoms",
+                                    "Value": "Unsure"
+                                }
+                            ],
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How useful did you find the resources and referrals provided in the app?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Would you like to provide feedback about your experience using Hoos Think Calmly (e.g., ways the program has been helpful or ways we can improve the program)?"
+                                    }
+                                },
+                                {
+                                    "Type": "Entry",
+                                    "Name": ""
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do we have your permission to use all or part of the feedback you provided as a de-identified participant testimonial (e.g., as part of the Hoos Think Calmly program, or in newsletters or other promotional materials)? If so, neither your name nor any other identifying information would be used. "
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Biweekly Survey - Week 8",
+                    "Title": "Biweekly Survey - Week 8",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How helpful did you find Hoos Think Calmly for reducing your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How likely would you be to recommend Hoos Think Calmly to others with similar anxiety difficulties?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Slightly",
+                                            "Somewhat",
+                                            "Mostly",
+                                            "Very",
+                                            "^Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do you have moderate-to-severe anxiety or depression symptoms?"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Conditions": [
+                                {
+                                    "VariableName": "AnxietyDepressionSymptoms",
+                                    "Value": "Yes"
+                                }
+                            ],
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Conditions": [
+                                {
+                                    "VariableName": "AnxietyDepressionSymptoms",
+                                    "Value": "Unsure"
+                                }
+                            ],
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you contact any of the following resources or referrals at any point since you started using Hoos Think Calmly? Please select all that apply."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Clubs and Organizations (e.g., cultural groups, volunteering)",
+                                            "Counseling and Psychological Services (CAPS)",
+                                            "Faculty and Employee Assistance Program (FEAP)",
+                                            "HELP Line",
+                                            "HoosWell",
+                                            "Multicultural Student Centers (e.g., Interfaith, Latinx, LGBTQ)",
+                                            "Office for Equal Opportunity and Civil Rights (EOCR)",
+                                            "Office of African-American Affairs (OAAA)",
+                                            "Office of Graduate and Postdoctoral Affairs",
+                                            "Office of the Dean of Students (ODOS)",
+                                            " PhD Plus",
+                                            "Student Disability Access Center (SDAC)",
+                                            "Student Financial Services",
+                                            "Student Health and Wellness",
+                                            "TimelyCare",
+                                            "UVA Career Center",
+                                            "UVA Human Resources (HR)",
+                                            "UVA Women's Center",
+                                            "UVA Writing Center",
+                                            "WahooWell",
+                                            "!Other",
+                                            "I did not contact any of these resources/referrals since starting this program"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
                             ]
                         }
                     ]
