@@ -663,7 +663,7 @@
                                             "SelfHelp::Self-guided help/n/nExamples: Self-help book, blogs, online intervention (other than Hoos Think Calmly), mobile applications",
                                             "OTC::Over-the-counter medications and/or supplements",
                                             "None::I am not receiving help",
-                                            "^NoAnswer::Prefer not to answer",
+                                            "^Prefer not to answer",
                                             "!Other::Other:"
                                         ],
                                         "Selectable": true,
@@ -2094,7 +2094,7 @@
                         {
                             "Type": "Media",
                             "Parameters": {
-                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/Faculty/video0.mp4",
+                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video0.mp4",
                                 "ImageType": "video/mp4"
                             },
                             "Frame": true
@@ -2108,7 +2108,7 @@
                     "Pages": [
                         {
                             "Name": "Contributing to a discussion",
-                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Faculty/pic-1.jpeg",
+                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/Contributing to a discussion.jpeg",
                             "ImageType": "image/jpeg",
                             "Inputs": [
                                 {
@@ -2162,8 +2162,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Dislike your ideas. ",
-                                            "Support your ideas."
+                                            "Support your ideas.",
+                                            "Dislike your ideas. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Support your ideas."
@@ -2180,7 +2180,7 @@
                         {
                             "Type": "Media",
                             "Parameters": {
-                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/Faculty/video1.mp4",
+                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video1.mp4",
                                 "ImageType": "video/mp4"
                             },
                             "Frame": true
@@ -2194,7 +2194,7 @@
                     "Pages": [
                         {
                             "Name": "Attention in store",
-                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Faculty/pic0.jpeg",
+                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/Attention in store.jpeg",
                             "ImageType": "image/jpeg",
                             "Inputs": [
                                 {
@@ -2289,7 +2289,7 @@
                         {
                             "Type": "Media",
                             "Parameters": {
-                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/videos/Faculty/video2.mp4",
+                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video2.mp4",
                                 "ImageType": "video/mp4"
                             },
                             "Frame": true
@@ -2303,7 +2303,7 @@
                     "Pages": [
                         {
                             "Name": "A birthday cake",
-                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/Faculty/pic1.jpeg",
+                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/A birthday cake.jpeg",
                             "ImageType": "image/jpeg",
                             "Inputs": [
                                 {
@@ -2357,8 +2357,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Get sick. ",
-                                            "Not get sick. "
+                                            "Not get sick. ",
+                                            "Get sick. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Get sick. "

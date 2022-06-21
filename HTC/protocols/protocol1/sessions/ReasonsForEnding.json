@@ -5,9 +5,6 @@
     "Sections": [
         {
             "Name": "Reasons For Ending",
-            "Doses": [
-                1
-            ],
             "PageGroups": [
                 {
                     "Name": "Reasons for Ending",
@@ -833,7 +830,7 @@
                                             "I use online computer programs or mobile apps (other than Hoos Think Calmly less now",
                                             "!Other",
                                             "I did not change my intervention habits",
-                                            "Prefer not to answer"
+                                            "^Prefer not to answer"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true

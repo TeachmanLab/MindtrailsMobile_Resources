@@ -1,13 +1,11 @@
 {
-    "Name": "End of Day Survey",
+    "Name": "Nightly Survey",
     "Title": "Hoos Think Calmly",
     "TimeToComplete": "00:5:00",
+    "DoseMethod": "OnRun",
     "Sections": [
         {
-            "Name": "End of Day Survey",
-            "Doses": [
-                1
-            ],
+            "Name": "Nightly Survey",
             "PageGroups": [
                 {
                     "Name": "EOD",
