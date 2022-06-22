@@ -2,6 +2,7 @@
     "Name": "Faculty",
     "Title": "Hoos Think Calmly",
     "TimeToComplete": "00:10:00",
+    "DoseSize": 11,
     "Sections": [
         {
             "Name": "BeforeDomain_1",
@@ -44,12 +45,12 @@
                                     "Name": "gender",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Female",
-                                            "Male",
-                                            "Transgender Female",
-                                            "Transgender Male",
-                                            "!Other",
-                                            "Prefer not to answer"
+                                            "Woman",
+                                            "Man",
+                                            "Transgender Woman",
+                                            "Transgender Man",
+                                            "!Another identity",
+                                            "^Prefer not to answer"
                                         ],
                                         "Selectable": true
                                     }
@@ -168,7 +169,8 @@
                                             "2007",
                                             "2008",
                                             "2009",
-                                            "2010"
+                                            "2010",
+                                            "^Prefer not to answer"
                                         ]
                                     }
                                 }
@@ -187,7 +189,8 @@
                                     "Name": "race",
                                     "Parameters": {
                                         "Buttons": [
-                                            "American Indian/Alaska Native East Asian",
+                                            "American Indian/Alaska Native",
+                                            "East Asian",
                                             "South Asian",
                                             "Native Hawaiian/Pacific Islander",
                                             "Black/African origin",
@@ -217,222 +220,9 @@
                                             "Hispanic or Latino",
                                             "Not Hispanic or Latino",
                                             "Unknown",
-                                            "Prefer not to answer"
+                                            "^Prefer not to answer"
                                         ],
                                         "Selectable": true
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "Inputs": [
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "What is your country of residence? "
-                                    }
-                                },
-                                {
-                                    "Type": "Picker",
-                                    "Parameters": {
-                                        "Items": [
-                                            "Afghanistan",
-                                            "Albania",
-                                            "Algeria",
-                                            "Andorra",
-                                            "Angola",
-                                            "Antigua and Barbuda",
-                                            "Argentina",
-                                            "Armenia",
-                                            "Australia",
-                                            "Austria",
-                                            "Azerbaijan",
-                                            "The Bahamas",
-                                            "Bahrain",
-                                            "Bangladesh",
-                                            "Barbados",
-                                            "Belarus",
-                                            "Belgium",
-                                            "Belize",
-                                            "Benin",
-                                            "Bhutan",
-                                            "Bolivia",
-                                            "Bosnia and Herzegovina",
-                                            "Botswana",
-                                            "Brazil",
-                                            "Brunei",
-                                            "Bulgaria",
-                                            "Burkina Faso",
-                                            "Burundi",
-                                            "Cabo Verde",
-                                            "Cambodia",
-                                            "Cameroon",
-                                            "Canada",
-                                            "Central African Republic",
-                                            "Chad",
-                                            "Chile",
-                                            "China",
-                                            "Colombia",
-                                            "Comoros",
-                                            "Congo",
-                                            "Congo",
-                                            "Costa Rica",
-                                            "C\u00f4te d'Ivoire",
-                                            "Croatia",
-                                            "Cuba",
-                                            "Cyprus",
-                                            "Czech Republic",
-                                            "Denmark",
-                                            "Djibouti",
-                                            "Dominica",
-                                            "Dominican Republic",
-                                            "East Timor (Timor-Leste)",
-                                            "Ecuador",
-                                            "Egypt",
-                                            "El Salvador",
-                                            "Equatorial Guinea",
-                                            "Eritrea",
-                                            "Estonia",
-                                            "Eswatini",
-                                            "Ethiopia",
-                                            "Fiji",
-                                            "Finland",
-                                            "France",
-                                            "Gabon",
-                                            "The Gambia",
-                                            "Georgia",
-                                            "Germany",
-                                            "Ghana",
-                                            "Greece",
-                                            "Grenada",
-                                            "Guatemala",
-                                            "Guinea",
-                                            "Guinea-Bissau",
-                                            "Guyana",
-                                            "Haiti",
-                                            "Honduras",
-                                            "Hungary",
-                                            "Iceland",
-                                            "India",
-                                            "Indonesia",
-                                            "Iran",
-                                            "Iraq",
-                                            "Ireland",
-                                            "Israel",
-                                            "Italy",
-                                            "Jamaica",
-                                            "Japan",
-                                            "Jordan",
-                                            "Kazakhstan",
-                                            "Kenya",
-                                            "Kiribati",
-                                            "Korea",
-                                            "Korea",
-                                            "Kosovo",
-                                            "Kuwait",
-                                            "Kyrgyzstan",
-                                            "Laos",
-                                            "Latvia",
-                                            "Lebanon",
-                                            "Lesotho",
-                                            "Liberia",
-                                            "Libya",
-                                            "Liechtenstein",
-                                            "Lithuania",
-                                            "Luxembourg",
-                                            "Madagascar",
-                                            "Malawi",
-                                            "Malaysia",
-                                            "Maldives",
-                                            "Mali",
-                                            "Malta",
-                                            "Marshall Islands",
-                                            "Mauritania",
-                                            "Mauritius",
-                                            "Mexico",
-                                            "Micronesia",
-                                            "Moldova",
-                                            "Monaco",
-                                            "Mongolia",
-                                            "Montenegro",
-                                            "Morocco",
-                                            "Mozambique",
-                                            "Myanmar (Burma)",
-                                            "Namibia",
-                                            "Nauru",
-                                            "Nepal",
-                                            "Netherlands",
-                                            "New Zealand",
-                                            "Nicaragua",
-                                            "Niger",
-                                            "Nigeria",
-                                            "North Macedonia",
-                                            "Norway",
-                                            "Oman",
-                                            "Pakistan",
-                                            "Palau",
-                                            "Panama",
-                                            "Papua New Guinea",
-                                            "Paraguay",
-                                            "Peru",
-                                            "Philippines",
-                                            "Poland",
-                                            "Portugal",
-                                            "Qatar",
-                                            "Romania",
-                                            "Russia",
-                                            "Rwanda",
-                                            "Saint Kitts and Nevis",
-                                            "Saint Lucia",
-                                            "Saint Vincent and the Grenadines",
-                                            "Samoa",
-                                            "San Marino",
-                                            "Sao Tome and Principe",
-                                            "Saudi Arabia",
-                                            "Senegal",
-                                            "Serbia",
-                                            "Seychelles",
-                                            "Sierra Leone",
-                                            "Singapore",
-                                            "Slovakia",
-                                            "Slovenia",
-                                            "Solomon Islands",
-                                            "Somalia",
-                                            "South Africa",
-                                            "Spain",
-                                            "Sri Lanka",
-                                            "Sudan",
-                                            "Sudan",
-                                            "Suriname",
-                                            "Sweden",
-                                            "Switzerland",
-                                            "Syria",
-                                            "Taiwan",
-                                            "Tajikistan",
-                                            "Tanzania",
-                                            "Thailand",
-                                            "Togo",
-                                            "Tonga",
-                                            "Trinidad and Tobago",
-                                            "Tunisia",
-                                            "Turkey",
-                                            "Turkmenistan",
-                                            "Tuvalu",
-                                            "Uganda",
-                                            "Ukraine",
-                                            "United Arab Emirates",
-                                            "United Kingdom",
-                                            "United States",
-                                            "Uruguay",
-                                            "Uzbekistan",
-                                            "Vanuatu",
-                                            "Vatican City",
-                                            "Venezuela",
-                                            "Vietnam",
-                                            "Yemen",
-                                            "Zambia",
-                                            "Zimbabwe"
-                                        ]
                                     }
                                 }
                             ]
@@ -464,7 +254,7 @@
                                             "M.D.",
                                             "Ph.D.",
                                             "!Other Advanced Degree",
-                                            "Prefer not to answer"
+                                            "^Prefer not to answer"
                                         ],
                                         "Selectable": true
                                     }
@@ -691,7 +481,8 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": ""
                                     }
                                 }
                             ]
@@ -714,7 +505,8 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": ""
                                     }
                                 }
                             ]
@@ -737,7 +529,8 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": ""
                                     }
                                 }
                             ]
@@ -760,7 +553,8 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": ""
                                     }
                                 }
                             ]
@@ -783,7 +577,8 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": ""
                                     }
                                 }
                             ]
@@ -806,7 +601,8 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": ""
                                     }
                                 }
                             ]
@@ -842,7 +638,6 @@
                                             "I don't want to talk about my feelings",
                                             "I don't have time",
                                             "I had treatment previously and didn't find it helpful",
-                                            "I'm not struggling with a mental health program that is serious enough to need treatment",
                                             "^Prefer not to anwer",
                                             "!Other:"
                                         ],
@@ -869,7 +664,8 @@
                                             "I ended therapy",
                                             "I changed therapists",
                                             "My prescriber changed my prescription dose",
-                                            "I started a prescription medication I stopped a prescription medication",
+                                            "I started a prescription medication",
+                                            "I stopped a prescription medication",
                                             "I haven't had any changes",
                                             "^Prefer not to answer",
                                             "!Other:"
@@ -931,7 +727,6 @@
                                             "Between 2-5 years",
                                             "Between 5-10 years",
                                             "More than 10 years",
-                                            "I'm not experiencing moderate-to-severe anxiety",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -1459,12 +1254,11 @@
                                     "Name": "OASIS_frequency_anxious",
                                     "Parameters": {
                                         "Buttons": [
-                                            "No anxiety",
-                                            "Infrequent anxiety",
-                                            "Occasional anxiety",
-                                            "Frequent anxiety",
-                                            "Constant anxiety",
-                                            "Prefer not to answer"
+                                            "No anxiety in the past week",
+                                            "Infrequent anxiety. Felt anxious a few times.",
+                                            "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
+                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Constant anxiety. Felt anxious all of the time and never really relaxed."
                                         ],
                                         "Selectable": true
                                     }
@@ -1484,12 +1278,11 @@
                                     "Name": "OASIS_intensity_anxiety",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Little or None",
-                                            "Mild",
-                                            "Moderate",
-                                            "Severe",
-                                            "Extreme",
-                                            "Prefer not to answer"
+                                            "Little or None: Anxiety was absent or barely noticeable.",
+                                            "Mild: Anxiety was at a low level. It was possible to relax when I tried. Physical symptoms were only slightly uncomfortable.",
+                                            "Moderate: Anxiety was distressing at times. It was hard to relax or concentrate, but I could do it if I tried. Physical symptoms were uncomfortable.",
+                                            "Severe: Anxiety was intense much of the time. It was very difficult to relax or focus on anything else. Physical symptoms were uncomfortable.",
+                                            "Extreme: Anxiety was overwhelming. It was impossible to relax at all. Physical symptoms were unbearable."
                                         ],
                                         "Selectable": true
                                     }
@@ -1509,12 +1302,11 @@
                                     "Name": "OASIS_avoid",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Never",
-                                            "Infrequently",
-                                            "Occasionally",
-                                            "Frequently",
-                                            "All the time",
-                                            "Prefer not to answer"
+                                            "None: I do not avoid places, situations, activities, or things because of fear.",
+                                            "Infrequent: I avoid something once in a while, but will usually face the situation or confront the object. My lifestyle is not affected.",
+                                            "Occasional: I have some fear of certain situations, places, or objects, but it is still manageable. My lifestyle has only changed in minor ways. I always or almost always avoid the things I fear when I'm alone, but can handle them if someone comes with me.",
+                                            "Frequent: I have considerable fear and really try to avoid the things that frighten me. I have made significant changes in my lifestyle to avoid the object, situation, activity, or place.",
+                                            "All the time: Avoiding objects, situations, or places has taken over my life. My lifestyle has been extensively affected and I no longer do the things that I used to enjoy."
                                         ],
                                         "Selectable": true
                                     }
@@ -1534,12 +1326,11 @@
                                     "Name": "OASIS_work",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not at all",
-                                            "Mildly",
-                                            "Moderately",
-                                            "Severely",
-                                            "Extremely",
-                                            "Prefer not to answer"
+                                            "None: No intererence at work/home/school from anxiety",
+                                            "Mild: My anxiety has caused some interference at work/home/school. Things are more difficult, but everything that needs  to be done is still getting done.",
+                                            "Moderate: My anxiety definitely interferes with tasks. Most things are still getting done, but few things are being done as  well as in the past.",
+                                            "Severe: My anxiety has really changed by ability to get things done. Some tasks are still being done, but many things are  not. My performance has definitely suffered.",
+                                            "Extreme: My anxiety has become incapacitating. I am unable to complete tasks and have had to leave school, have quit or  been fired from my job, or have been unable to complete tasks at home and have faced consequences like bill collectors,  eviction, etc."
                                         ],
                                         "Selectable": true
                                     }
@@ -1551,7 +1342,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past week, how much did your anxiety interfere with your social life and relationships?"
+                                        "Text": "In the past week, how much has anxiety interfered with your social life and relationships?"
                                     }
                                 },
                                 {
@@ -1559,12 +1350,11 @@
                                     "Name": "OASIS_social",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not at all",
-                                            "Mildly",
-                                            "Moderately",
-                                            "Severely",
-                                            "Extremely",
-                                            "Prefer not to answer"
+                                            "None: My anxiety doesn't affect my relationships.",
+                                            "Mild: My anxiety slightly interferes with my relationships. Some of my friendships and other relationships have suffered,  but, overall, my social life is still fulfilling.",
+                                            "Moderate: I have experienced some interference with my social life, but I still have a few close relationships. I don't spend  as much time with others as in the past, but I still socialize sometimes.",
+                                            "Severe: My friendships and other relationships have suffered a lot because of anxiety. I do not enjoy social activities. I socialize very little.",
+                                            "Extreme: My anxiety has completely disrupted my social activities. All of my relationships have suffered or ended. My family life is extremely strained."
                                         ],
                                         "Selectable": true
                                     }
@@ -1574,8 +1364,8 @@
                     ]
                 },
                 {
-                    "Name": "Patient Health Questionnaire\u20102",
-                    "Title": "Patient Health Questionnaire\u20102",
+                    "Name": "Sadness Scale",
+                    "Title": "Sadness Scale",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -1594,8 +1384,7 @@
                                             "Not at all",
                                             "Several days",
                                             "More than half the days",
-                                            "Nearly every day",
-                                            "Prefer not to answer"
+                                            "Nearly every day"
                                         ],
                                         "Selectable": true
                                     }
@@ -1618,8 +1407,7 @@
                                             "Not at all",
                                             "Several days",
                                             "More than half the days",
-                                            "Nearly every day",
-                                            "Prefer not to answer"
+                                            "Nearly every day"
                                         ],
                                         "Selectable": true
                                     }
@@ -1629,8 +1417,8 @@
                     ]
                 },
                 {
-                    "Name": "PSS-4",
-                    "Title": "PSS-4",
+                    "Name": "Stress Scale",
+                    "Title": "Stress Scale",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -1638,7 +1426,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "The questions on the next pages will ask you about your feelings and thoughts during THE LAST MONTH. In each case, please indicate your response by choosing HOW OFTEN you felt or thought a certain way."
+                                        "Text": "The questions in this scale will ask you about your feelings and thoughts during THE LAST MONTH. In each case, please indicate your response by placing an \"X\" over the circle representing HOW OFTEN you felt or thought a certain way."
                                     }
                                 }
                             ]
@@ -1923,7 +1711,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or that you expect will bring on feelings of anxiety (like racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
+                                        "Text": "In this exercise, please think of an UPCOMING situation that you expect will make you feel anxious, worried, or scared. Pick a situation that you worry might go badly, or or that you expect will evoke symptoms related to anxiety (e.g., racing heart, sweating). Any situation that will make you feel quite anxious or scared will work, as long as it is a situation that is likely to actually happen."
                                     }
                                 }
                             ]
@@ -1971,7 +1759,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task?  \n\n0 = Absolutely no anxiety. \n\n10 = Totally anxious."
+                                        "Text": "How anxious did you feel (at the highest level of anxiety) as you completed the imagery task? Press on the bar to see the slider. \n\n0 = Absolutely no anxiety. \n\n10 = Totally anxious."
                                     }
                                 },
                                 {
@@ -2092,19 +1880,23 @@
                     "Name": "Video 1",
                     "Pages": [
                         {
-                            "Type": "Media",
-                            "Parameters": {
-                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video0.mp4",
-                                "ImageType": "video/mp4"
-                            },
-                            "Frame": true
+                            "Inputs": [
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video0.mp4",
+                                        "ImageType": "video/mp4"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "Name": "Contributing to a discussion",
                     "Type": "Scenario",
-                    "DoseSize": 11,
+                    "DoseSize": 1,
                     "Pages": [
                         {
                             "Name": "Contributing to a discussion",
@@ -2178,19 +1970,23 @@
                     "Name": "Video 2",
                     "Pages": [
                         {
-                            "Type": "Media",
-                            "Parameters": {
-                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video1.mp4",
-                                "ImageType": "video/mp4"
-                            },
-                            "Frame": true
+                            "Inputs": [
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video1.mp4",
+                                        "ImageType": "video/mp4"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "Name": "Attention in store",
                     "Type": "Scenario",
-                    "DoseSize": 11,
+                    "DoseSize": 1,
                     "Pages": [
                         {
                             "Name": "Attention in store",
@@ -2271,8 +2067,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Considerate for apologizing.",
-                                            "Awkward and uncoordinated."
+                                            "Awkward and uncoordinated.",
+                                            "Considerate for apologizing."
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Considerate for apologizing."
@@ -2287,19 +2083,23 @@
                     "Name": "Video 3",
                     "Pages": [
                         {
-                            "Type": "Media",
-                            "Parameters": {
-                                "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video2.mp4",
-                                "ImageType": "video/mp4"
-                            },
-                            "Frame": true
+                            "Inputs": [
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video2.mp4",
+                                        "ImageType": "video/mp4"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
                         }
                     ]
                 },
                 {
                     "Name": "A birthday cake",
                     "Type": "Scenario",
-                    "DoseSize": 11,
+                    "DoseSize": 1,
                     "Pages": [
                         {
                             "Name": "A birthday cake",
@@ -2357,8 +2157,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not get sick. ",
-                                            "Get sick. "
+                                            "Get sick. ",
+                                            "Not get sick. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Get sick. "
@@ -2379,7 +2179,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "What are you hoping to get out of the Hoos Think Calmly program? (Select all that Apply)"
+                                        "Text": "What are you hoping to get out of the Hoos Think Calmly program? (Multiple choice: Select all that Apply)"
                                     }
                                 },
                                 {

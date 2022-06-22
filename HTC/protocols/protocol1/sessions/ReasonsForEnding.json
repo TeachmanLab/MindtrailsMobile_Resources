@@ -1,6 +1,6 @@
 {
     "Name": "Reasons for Ending",
-    "Title": "Hoos Think Calmly",
+    "Title": "Reasons for Ending",
     "TimeToComplete": "00:5:00",
     "Sections": [
         {
@@ -31,7 +31,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "reasons_for_ending",
                                     "Parameters": {
                                         "Buttons": [
                                             "I did not have enough time to complete the program",
@@ -57,16 +57,6 @@
                                     "Parameters": {
                                         "Text": "To the extent you completed the program..."
                                     }
-                                },
-                                {
-                                    "Type": "Buttons",
-                                    "Name": "",
-                                    "Parameters": {
-                                        "Buttons": [
-                                            ""
-                                        ],
-                                        "Selectable": true
-                                    }
                                 }
                             ]
                         },
@@ -80,7 +70,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "reduce_anxiety",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -105,7 +95,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "keep_interest",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -130,7 +120,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "relate_scenarios",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -155,7 +145,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "believable_scenarios",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -180,7 +170,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "UI",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -205,7 +195,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "easy_to_use",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -230,7 +220,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "find_sessions",
                                     "Parameters": {
                                         "Buttons": [
                                             "Way too short",
@@ -255,7 +245,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "nightly_survey_use",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -280,7 +270,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "privacy",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -305,7 +295,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "tiring_training",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -330,7 +320,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "tiring_assessments",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -355,7 +345,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "favorites",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -380,7 +370,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "tips_use",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -400,12 +390,12 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "How likely would you be to recommend Hoos Think Calmly to others with similar anxiety \ndifficulties?"
+                                        "Text": "How likely would you be to recommend Hoos Think Calmly to others with similar anxiety difficulties?"
                                     }
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "recommend",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -430,7 +420,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "anxiety_or_depression",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes::Yes",
@@ -459,7 +449,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "interest_in_therapy",
                                     "Parameters": {
                                         "Buttons": [
                                             "Much more likely",
@@ -467,7 +457,7 @@
                                             "Equally likely",
                                             "A little less likely",
                                             "Much less likely",
-                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -491,7 +481,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "interest_in_therapy",
                                     "Parameters": {
                                         "Buttons": [
                                             "Much more likely",
@@ -499,7 +489,7 @@
                                             "Equally likely",
                                             "A little less likely",
                                             "Much less likely",
-                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -517,7 +507,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "resources_use",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -542,7 +532,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "resources_contacted",
                                     "Parameters": {
                                         "Buttons": [
                                             "Clubs and Organizations (e.g., cultural groups, volunteering)",
@@ -594,7 +584,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "tech_problems",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -619,7 +609,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "forgot",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -644,7 +634,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "personal_issues",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -669,7 +659,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "navigate",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -694,7 +684,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "hard_to_understand",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -719,7 +709,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "not_useful",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -744,7 +734,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "too_long",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -769,7 +759,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "too_many_words",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -794,7 +784,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "difficult_to_read",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -819,15 +809,15 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "change_mental_health",
                                     "Parameters": {
                                         "Buttons": [
                                             "I seek in-person therapy more now",
                                             "I seek in-person therapy less now",
                                             "I use prescription medication more now",
                                             "I use prescription medication less now",
-                                            "I use online computer programs or mobile apps (other than Hoos Think Calmly more now",
-                                            "I use online computer programs or mobile apps (other than Hoos Think Calmly less now",
+                                            "I use online computer programs or mobile apps (other than Hoos Think Calmly) more now",
+                                            "I use online computer programs or mobile apps (other than Hoos Think Calmly) less now",
                                             "!Other",
                                             "I did not change my intervention habits",
                                             "^Prefer not to answer"

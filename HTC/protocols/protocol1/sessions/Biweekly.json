@@ -1,15 +1,16 @@
 {
     "Name": "Track Your Progress",
-    "Title": "Hoos Think Calmly",
+    "Title": "Track Your Progress",
     "TimeToComplete": "00:5:00",
     "DoseMethod": "OnRun",
+    "DoseBySection": true,
     "Sections": [
         {
-            "Name": "Track Your Progress",
+            "Name": "Track Your Progress - Week 2",
             "PageGroups": [
                 {
-                    "Name": "OASIS",
-                    "Title": "OASIS",
+                    "Name": "Anxiety Scale",
+                    "Title": "Anxiety Scale",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -25,12 +26,11 @@
                                     "Name": "biweekly_days_anxious",
                                     "Parameters": {
                                         "Buttons": [
-                                            "No anxiety",
-                                            "Infrequent anxiety",
-                                            "Occasional anxiety",
-                                            "Frequent anxiety",
-                                            "Constant anxiety",
-                                            "Prefer not to answer"
+                                            "No anxiety in the past week",
+                                            "Infrequent anxiety. Felt anxious a few times.",
+                                            "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
+                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Constant anxiety. Felt anxious all of the time and never really relaxed."
                                         ],
                                         "Selectable": true
                                     }
@@ -50,12 +50,11 @@
                                     "Name": "biweekly_intensity_anxiety",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Little or None",
-                                            "Mild",
-                                            "Moderate",
-                                            "Severe",
-                                            "Extreme",
-                                            "Prefer not to answer"
+                                            "Little or None: Anxiety was absent or barely noticeable.",
+                                            "Mild: Anxiety was at a low level. It was possible to relax when I tried. Physical symptoms were only slightly uncomfortable.",
+                                            "Moderate: Anxiety was distressing at times. It was hard to relax or concentrate, but I could do it if I tried. Physical symptoms were uncomfortable.",
+                                            "Severe: Anxiety was intense much of the time. It was very difficult to relax or focus on anything else. Physical symptoms were uncomfortable.",
+                                            "Extreme: Anxiety was overwhelming. It was impossible to relax at all. Physical symptoms were unbearable."
                                         ],
                                         "Selectable": true
                                     }
@@ -75,12 +74,11 @@
                                     "Name": "biweekly_avoid",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Never",
-                                            "Infrequently",
-                                            "Occasionally",
-                                            "Frequently",
-                                            "All the time",
-                                            "Prefer not to answer"
+                                            "None: I do not avoid places, situations, activities, or things because of fear.",
+                                            "Infrequent: I avoid something once in a while, but will usually face the situation or confront the object. My lifestyle is not affected.",
+                                            "Occasional: I have some fear of certain situations, places, or objects, but it is still manageable. My lifestyle has only changed in minor ways. I always or almost always avoid the things I fear when I'm alone, but can handle them if someone comes with me.",
+                                            "Frequent: I have considerable fear and really try to avoid the things that frighten me. I have made significant changes in my lifestyle to avoid the object, situation, activity, or place.",
+                                            "All the time: Avoiding objects, situations, or places has taken over my life. My lifestyle has been extensively affected and I no longer do the things that I used to enjoy."
                                         ],
                                         "Selectable": true
                                     }
@@ -100,12 +98,11 @@
                                     "Name": "biweekly_interfere_work",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not at all",
-                                            "Mildly",
-                                            "Moderately",
-                                            "Severely",
-                                            "Extremely",
-                                            "Prefer not to answer"
+                                            "None: No intererence at work/home/school from anxiety",
+                                            "Mild: My anxiety has caused some interference at work/home/school. Things are more difficult, but everything that needs  to be done is still getting done.",
+                                            "Moderate: My anxiety definitely interferes with tasks. Most things are still getting done, but few things are being done as  well as in the past.",
+                                            "Severe: My anxiety has really changed by ability to get things done. Some tasks are still being done, but many things are  not. My performance has definitely suffered.",
+                                            "Extreme: My anxiety has become incapacitating. I am unable to complete tasks and have had to leave school, have quit or  been fired from my job, or have been unable to complete tasks at home and have faced consequences like bill collectors,  eviction, etc."
                                         ],
                                         "Selectable": true
                                     }
@@ -125,12 +122,11 @@
                                     "Name": "biweekly_interfere_social",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not at all",
-                                            "Mildly",
-                                            "Moderately",
-                                            "Severely",
-                                            "Extremely",
-                                            "Prefer not to answer"
+                                            "None: My anxiety doesn't affect my relationships.",
+                                            "Mild: My anxiety slightly interferes with my relationships. Some of my friendships and other relationships have suffered,  but, overall, my social life is still fulfilling.",
+                                            "Moderate: I have experienced some interference with my social life, but I still have a few close relationships. I don't spend  as much time with others as in the past, but I still socialize sometimes.",
+                                            "Severe: My friendships and other relationships have suffered a lot because of anxiety. I do not enjoy social activities. I socialize very little.",
+                                            "Extreme: My anxiety has completely disrupted my social activities. All of my relationships have suffered or ended. My family life is extremely strained."
                                         ],
                                         "Selectable": true
                                     }
@@ -140,8 +136,8 @@
                     ]
                 },
                 {
-                    "Name": "PHQ-2",
-                    "Title": "PHQ-2",
+                    "Name": "Sadness scale",
+                    "Title": "Sadness scale",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -160,8 +156,7 @@
                                             "Not at all",
                                             "Several days",
                                             "More than half the days",
-                                            "Nearly every day",
-                                            "Prefer not to answer"
+                                            "Nearly every day"
                                         ],
                                         "Selectable": true
                                     }
@@ -184,8 +179,7 @@
                                             "Not at all",
                                             "Several days",
                                             "More than half the days",
-                                            "Nearly every day",
-                                            "Prefer not to answer"
+                                            "Nearly every day"
                                         ],
                                         "Selectable": true
                                     }
@@ -195,8 +189,8 @@
                     ]
                 },
                 {
-                    "Name": "PSS-4",
-                    "Title": "PSS-4",
+                    "Name": "Stress scale",
+                    "Title": "Stress scale",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -730,8 +724,8 @@
                     ]
                 },
                 {
-                    "Name": "Biweekly Survey - Week 2",
-                    "Title": "Biweekly Survey - Week 2",
+                    "Name": "Track Your Progress",
+                    "Title": "Track Your Progress",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -744,7 +738,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "reduce_anxiety",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -769,7 +763,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "keep_interest",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -794,7 +788,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "relate_scenarios",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -819,7 +813,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "believable_scenarios",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -844,7 +838,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "UI",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -869,7 +863,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "easy_to_use",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -894,7 +888,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "find_sessions",
                                     "Parameters": {
                                         "Buttons": [
                                             "Way too short",
@@ -914,12 +908,12 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "How useful do you find the nightly survey that enables you to choose when to complete \ntraining the next day? "
+                                        "Text": "How useful do you find the nightly survey that enables you to choose when to complete training the next day?"
                                     }
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "nightly_survey_use",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -935,10 +929,730 @@
                             ]
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "Name": "Track Your Progress - Week 4",
+            "PageGroups": [
+                {
+                    "Name": "Anxiety Scale",
+                    "Title": "Anxiety Scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how often have you felt anxious?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_days_anxious",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No anxiety in the past week",
+                                            "Infrequent anxiety. Felt anxious a few times.",
+                                            "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
+                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Constant anxiety. Felt anxious all of the time and never really relaxed."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, when you have felt anxious, how intense or severe was your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_intensity_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Little or None: Anxiety was absent or barely noticeable.",
+                                            "Mild: Anxiety was at a low level. It was possible to relax when I tried. Physical symptoms were only slightly uncomfortable.",
+                                            "Moderate: Anxiety was distressing at times. It was hard to relax or concentrate, but I could do it if I tried. Physical symptoms were uncomfortable.",
+                                            "Severe: Anxiety was intense much of the time. It was very difficult to relax or focus on anything else. Physical symptoms were uncomfortable.",
+                                            "Extreme: Anxiety was overwhelming. It was impossible to relax at all. Physical symptoms were unbearable."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how often did you avoid situations, places, objects, or activities because of anxiety or fear?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_avoid",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: I do not avoid places, situations, activities, or things because of fear.",
+                                            "Infrequent: I avoid something once in a while, but will usually face the situation or confront the object. My lifestyle is not affected.",
+                                            "Occasional: I have some fear of certain situations, places, or objects, but it is still manageable. My lifestyle has only changed in minor ways. I always or almost always avoid the things I fear when I'm alone, but can handle them if someone comes with me.",
+                                            "Frequent: I have considerable fear and really try to avoid the things that frighten me. I have made significant changes in my lifestyle to avoid the object, situation, activity, or place.",
+                                            "All the time: Avoiding objects, situations, or places has taken over my life. My lifestyle has been extensively affected and I no longer do the things that I used to enjoy."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your ability to do the things you needed to do at work, at school, or at home?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interfere_work",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: No intererence at work/home/school from anxiety",
+                                            "Mild: My anxiety has caused some interference at work/home/school. Things are more difficult, but everything that needs  to be done is still getting done.",
+                                            "Moderate: My anxiety definitely interferes with tasks. Most things are still getting done, but few things are being done as  well as in the past.",
+                                            "Severe: My anxiety has really changed by ability to get things done. Some tasks are still being done, but many things are  not. My performance has definitely suffered.",
+                                            "Extreme: My anxiety has become incapacitating. I am unable to complete tasks and have had to leave school, have quit or  been fired from my job, or have been unable to complete tasks at home and have faced consequences like bill collectors,  eviction, etc."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your social life and relationships?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interfere_social",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: My anxiety doesn't affect my relationships.",
+                                            "Mild: My anxiety slightly interferes with my relationships. Some of my friendships and other relationships have suffered,  but, overall, my social life is still fulfilling.",
+                                            "Moderate: I have experienced some interference with my social life, but I still have a few close relationships. I don't spend  as much time with others as in the past, but I still socialize sometimes.",
+                                            "Severe: My friendships and other relationships have suffered a lot because of anxiety. I do not enjoy social activities. I socialize very little.",
+                                            "Extreme: My anxiety has completely disrupted my social activities. All of my relationships have suffered or ended. My family life is extremely strained."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "Name": "Biweekly Survey - Week 4",
-                    "Title": "Biweekly Survey - Week 4",
+                    "Name": "Sadness scale",
+                    "Title": "Sadness scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nLittle interest or pleasure in doing things."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nFeeling down, depressed, or hopeless."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_depressed",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Stress scale",
+                    "Title": "Stress scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The questions on the next pages will ask you about your feelings and thoughts during THE LAST MONTH. In each case, please indicate your response by choosing HOW OFTEN you felt or thought a certain way."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that you were unable to control the important things in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_control",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_personal",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that things were going your way?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_way",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_difficulties",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In this brief exercise, you will read several short stories.\n\nPlease read each one carefully and try to imagine yourself in the situation.\n\nThe last word of each story is incomplete. Click on the missing letter to complete the word.\n\nAfter you correctly complete the word, you will be asked a question about the story. Answer the question based on the information in the story."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are in the lobby of your friend's new apartment building.  You press the button to the elevator to go up. The building looks old. As you get on the elevator you think about its..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Elevator",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "safety"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you think about the elevator's safety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Your friend asks you to give a speech at her wedding reception. You prepare some remarks and when the time comes, get to your feet. As you speak, you notice some people in the audience start to..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Wedding Reception",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "laugh"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Does the audience laugh when you speak?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are currently working as a contractor for a company. Once this job is finished, you will be without employment until you can find your next job. You think about not having an income for a few weeks and about your future..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Job",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "finances"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Will you be without an income soon?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are woken up in the middle of the night by a loud noise. You are not sure what caused the noise and leave your bedroom to see what happened. You walk..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Loud Noise",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "downstairs"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Have you been woken up in the middle of the night?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_noise",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the street you bump into an old friend you haven't seen for a long time. She is too busy to stop, so you arrange to meet later in a bar. You arrive a little late but the bar is empty and a few minutes later she is still not..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresMeeting a Friend",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "there"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did your friend stop?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are eating lunch with a friend. As you start eating your salad, you describe your plans for the weekend. You accidentally drop a piece of lettuce, and your friend looks at..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Lunch",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "you"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do you have salad for lunch?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are playing basketball with some friends. While running toward the ball, you trip and scrape your knee. The scrape hurts a bit, but does not..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Scrape",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "bleed"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you playing soccer with your friend?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at the mall with your friend. While you shop, she tells you how several of her friends have recently come down with a strange illness. You think about your recent health, and wonder if you will get..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Shopping Trip",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "sick"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you shopping alone?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at a routine doctor's appointment. At the appointment, the doctor decides to run a few blood tests to check your health. The doctor says he will call you in a few weeks, and you will find out your test results at that..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Blood Test",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "time"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you take blood tests?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Track Your Progress",
+                    "Title": "Track Your Progress",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -951,7 +1665,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "reduce_anxiety",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -976,7 +1690,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "keep_interest",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1001,7 +1715,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "relate_scenarios",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1026,7 +1740,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "believable_scenarios",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1051,7 +1765,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "privacy",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1076,7 +1790,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "tiring_training",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1101,7 +1815,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "tiring_assessments",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1126,7 +1840,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "favorites",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1151,7 +1865,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "tips_use",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1167,10 +1881,730 @@
                             ]
                         }
                     ]
+                }
+            ]
+        },
+        {
+            "Name": "Track Your Progress - Week 6",
+            "PageGroups": [
+                {
+                    "Name": "Anxiety Scale",
+                    "Title": "Anxiety Scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how often have you felt anxious?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_days_anxious",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No anxiety in the past week",
+                                            "Infrequent anxiety. Felt anxious a few times.",
+                                            "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
+                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Constant anxiety. Felt anxious all of the time and never really relaxed."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, when you have felt anxious, how intense or severe was your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_intensity_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Little or None: Anxiety was absent or barely noticeable.",
+                                            "Mild: Anxiety was at a low level. It was possible to relax when I tried. Physical symptoms were only slightly uncomfortable.",
+                                            "Moderate: Anxiety was distressing at times. It was hard to relax or concentrate, but I could do it if I tried. Physical symptoms were uncomfortable.",
+                                            "Severe: Anxiety was intense much of the time. It was very difficult to relax or focus on anything else. Physical symptoms were uncomfortable.",
+                                            "Extreme: Anxiety was overwhelming. It was impossible to relax at all. Physical symptoms were unbearable."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how often did you avoid situations, places, objects, or activities because of anxiety or fear?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_avoid",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: I do not avoid places, situations, activities, or things because of fear.",
+                                            "Infrequent: I avoid something once in a while, but will usually face the situation or confront the object. My lifestyle is not affected.",
+                                            "Occasional: I have some fear of certain situations, places, or objects, but it is still manageable. My lifestyle has only changed in minor ways. I always or almost always avoid the things I fear when I'm alone, but can handle them if someone comes with me.",
+                                            "Frequent: I have considerable fear and really try to avoid the things that frighten me. I have made significant changes in my lifestyle to avoid the object, situation, activity, or place.",
+                                            "All the time: Avoiding objects, situations, or places has taken over my life. My lifestyle has been extensively affected and I no longer do the things that I used to enjoy."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your ability to do the things you needed to do at work, at school, or at home?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interfere_work",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: No intererence at work/home/school from anxiety",
+                                            "Mild: My anxiety has caused some interference at work/home/school. Things are more difficult, but everything that needs  to be done is still getting done.",
+                                            "Moderate: My anxiety definitely interferes with tasks. Most things are still getting done, but few things are being done as  well as in the past.",
+                                            "Severe: My anxiety has really changed by ability to get things done. Some tasks are still being done, but many things are  not. My performance has definitely suffered.",
+                                            "Extreme: My anxiety has become incapacitating. I am unable to complete tasks and have had to leave school, have quit or  been fired from my job, or have been unable to complete tasks at home and have faced consequences like bill collectors,  eviction, etc."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your social life and relationships?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interfere_social",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: My anxiety doesn't affect my relationships.",
+                                            "Mild: My anxiety slightly interferes with my relationships. Some of my friendships and other relationships have suffered,  but, overall, my social life is still fulfilling.",
+                                            "Moderate: I have experienced some interference with my social life, but I still have a few close relationships. I don't spend  as much time with others as in the past, but I still socialize sometimes.",
+                                            "Severe: My friendships and other relationships have suffered a lot because of anxiety. I do not enjoy social activities. I socialize very little.",
+                                            "Extreme: My anxiety has completely disrupted my social activities. All of my relationships have suffered or ended. My family life is extremely strained."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
                 },
                 {
-                    "Name": "Biweekly Survey - Week 6",
-                    "Title": "Biweekly Survey - Week 6",
+                    "Name": "Sadness scale",
+                    "Title": "Sadness scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nLittle interest or pleasure in doing things."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nFeeling down, depressed, or hopeless."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_depressed",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Stress scale",
+                    "Title": "Stress scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The questions on the next pages will ask you about your feelings and thoughts during THE LAST MONTH. In each case, please indicate your response by choosing HOW OFTEN you felt or thought a certain way."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that you were unable to control the important things in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_control",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_personal",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that things were going your way?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_way",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_difficulties",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In this brief exercise, you will read several short stories.\n\nPlease read each one carefully and try to imagine yourself in the situation.\n\nThe last word of each story is incomplete. Click on the missing letter to complete the word.\n\nAfter you correctly complete the word, you will be asked a question about the story. Answer the question based on the information in the story."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are in the lobby of your friend's new apartment building.  You press the button to the elevator to go up. The building looks old. As you get on the elevator you think about its..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Elevator",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "safety"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you think about the elevator's safety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Your friend asks you to give a speech at her wedding reception. You prepare some remarks and when the time comes, get to your feet. As you speak, you notice some people in the audience start to..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Wedding Reception",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "laugh"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Does the audience laugh when you speak?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are currently working as a contractor for a company. Once this job is finished, you will be without employment until you can find your next job. You think about not having an income for a few weeks and about your future..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Job",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "finances"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Will you be without an income soon?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are woken up in the middle of the night by a loud noise. You are not sure what caused the noise and leave your bedroom to see what happened. You walk..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Loud Noise",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "downstairs"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Have you been woken up in the middle of the night?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_noise",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the street you bump into an old friend you haven't seen for a long time. She is too busy to stop, so you arrange to meet later in a bar. You arrive a little late but the bar is empty and a few minutes later she is still not..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresMeeting a Friend",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "there"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did your friend stop?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are eating lunch with a friend. As you start eating your salad, you describe your plans for the weekend. You accidentally drop a piece of lettuce, and your friend looks at..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Lunch",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "you"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do you have salad for lunch?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are playing basketball with some friends. While running toward the ball, you trip and scrape your knee. The scrape hurts a bit, but does not..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Scrape",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "bleed"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you playing soccer with your friend?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at the mall with your friend. While you shop, she tells you how several of her friends have recently come down with a strange illness. You think about your recent health, and wonder if you will get..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Shopping Trip",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "sick"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you shopping alone?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at a routine doctor's appointment. At the appointment, the doctor decides to run a few blood tests to check your health. The doctor says he will call you in a few weeks, and you will find out your test results at that..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Blood Test",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "time"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you take blood tests?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Track Your Progress",
+                    "Title": "Track Your Progress",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -1183,7 +2617,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "reduce_anxiety",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1208,7 +2642,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "keep_interest",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1233,7 +2667,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "relate_scenarios",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1258,7 +2692,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "believable_scenarios",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1278,12 +2712,12 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "How likely would you be to recommend Hoos Think Calmly to others with similar anxiety \ndifficulties?"
+                                        "Text": "How likely would you be to recommend Hoos Think Calmly to others with similar anxiety difficulties?"
                                     }
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "recommend",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1308,7 +2742,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "anxiety_or_depression",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes::Yes",
@@ -1337,7 +2771,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "interest_in_therapy",
                                     "Parameters": {
                                         "Buttons": [
                                             "Much more likely",
@@ -1345,7 +2779,7 @@
                                             "Equally likely",
                                             "A little less likely",
                                             "Much less likely",
-                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -1369,7 +2803,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "interest_in_therapy",
                                     "Parameters": {
                                         "Buttons": [
                                             "Much more likely",
@@ -1377,7 +2811,7 @@
                                             "Equally likely",
                                             "A little less likely",
                                             "Much less likely",
-                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -1395,7 +2829,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "resources_use",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1420,7 +2854,7 @@
                                 },
                                 {
                                     "Type": "Entry",
-                                    "Name": ""
+                                    "Name": "feedback"
                                 }
                             ]
                         },
@@ -1434,7 +2868,727 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "permission",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Track Your Progress - Week 8",
+            "PageGroups": [
+                {
+                    "Name": "Anxiety Scale",
+                    "Title": "Anxiety Scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how often have you felt anxious?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_days_anxious",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No anxiety in the past week",
+                                            "Infrequent anxiety. Felt anxious a few times.",
+                                            "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
+                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Constant anxiety. Felt anxious all of the time and never really relaxed."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, when you have felt anxious, how intense or severe was your anxiety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_intensity_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Little or None: Anxiety was absent or barely noticeable.",
+                                            "Mild: Anxiety was at a low level. It was possible to relax when I tried. Physical symptoms were only slightly uncomfortable.",
+                                            "Moderate: Anxiety was distressing at times. It was hard to relax or concentrate, but I could do it if I tried. Physical symptoms were uncomfortable.",
+                                            "Severe: Anxiety was intense much of the time. It was very difficult to relax or focus on anything else. Physical symptoms were uncomfortable.",
+                                            "Extreme: Anxiety was overwhelming. It was impossible to relax at all. Physical symptoms were unbearable."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how often did you avoid situations, places, objects, or activities because of anxiety or fear?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_avoid",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: I do not avoid places, situations, activities, or things because of fear.",
+                                            "Infrequent: I avoid something once in a while, but will usually face the situation or confront the object. My lifestyle is not affected.",
+                                            "Occasional: I have some fear of certain situations, places, or objects, but it is still manageable. My lifestyle has only changed in minor ways. I always or almost always avoid the things I fear when I'm alone, but can handle them if someone comes with me.",
+                                            "Frequent: I have considerable fear and really try to avoid the things that frighten me. I have made significant changes in my lifestyle to avoid the object, situation, activity, or place.",
+                                            "All the time: Avoiding objects, situations, or places has taken over my life. My lifestyle has been extensively affected and I no longer do the things that I used to enjoy."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your ability to do the things you needed to do at work, at school, or at home?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interfere_work",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: No intererence at work/home/school from anxiety",
+                                            "Mild: My anxiety has caused some interference at work/home/school. Things are more difficult, but everything that needs  to be done is still getting done.",
+                                            "Moderate: My anxiety definitely interferes with tasks. Most things are still getting done, but few things are being done as  well as in the past.",
+                                            "Severe: My anxiety has really changed by ability to get things done. Some tasks are still being done, but many things are  not. My performance has definitely suffered.",
+                                            "Extreme: My anxiety has become incapacitating. I am unable to complete tasks and have had to leave school, have quit or  been fired from my job, or have been unable to complete tasks at home and have faced consequences like bill collectors,  eviction, etc."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the past week, how much did your anxiety interfere with your social life and relationships?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interfere_social",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "None: My anxiety doesn't affect my relationships.",
+                                            "Mild: My anxiety slightly interferes with my relationships. Some of my friendships and other relationships have suffered,  but, overall, my social life is still fulfilling.",
+                                            "Moderate: I have experienced some interference with my social life, but I still have a few close relationships. I don't spend  as much time with others as in the past, but I still socialize sometimes.",
+                                            "Severe: My friendships and other relationships have suffered a lot because of anxiety. I do not enjoy social activities. I socialize very little.",
+                                            "Extreme: My anxiety has completely disrupted my social activities. All of my relationships have suffered or ended. My family life is extremely strained."
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Sadness scale",
+                    "Title": "Sadness scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nLittle interest or pleasure in doing things."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Over the past 2 weeks, how often have you been bothered by any of the following problems:\n\nFeeling down, depressed, or hopeless."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_depressed",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Not at all",
+                                            "Several days",
+                                            "More than half the days",
+                                            "Nearly every day"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Stress scale",
+                    "Title": "Stress scale",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "The questions on the next pages will ask you about your feelings and thoughts during THE LAST MONTH. In each case, please indicate your response by choosing HOW OFTEN you felt or thought a certain way."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that you were unable to control the important things in your life?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_control",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt confident about your ability to handle your personal problems?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_personal",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt that things were going your way?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_way",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the last month, how often have you felt difficulties were piling up so high that you could not overcome them?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "biweekly_difficulties",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Never",
+                                            "Almost Never",
+                                            "Sometimes",
+                                            "Fairly Often",
+                                            "Very Often"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In this brief exercise, you will read several short stories.\n\nPlease read each one carefully and try to imagine yourself in the situation.\n\nThe last word of each story is incomplete. Click on the missing letter to complete the word.\n\nAfter you correctly complete the word, you will be asked a question about the story. Answer the question based on the information in the story."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are in the lobby of your friend's new apartment building.  You press the button to the elevator to go up. The building looks old. As you get on the elevator you think about its..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Elevator",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "safety"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you think about the elevator's safety?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Your friend asks you to give a speech at her wedding reception. You prepare some remarks and when the time comes, get to your feet. As you speak, you notice some people in the audience start to..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Wedding Reception",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "laugh"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Does the audience laugh when you speak?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are currently working as a contractor for a company. Once this job is finished, you will be without employment until you can find your next job. You think about not having an income for a few weeks and about your future..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Job",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "finances"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Will you be without an income soon?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are woken up in the middle of the night by a loud noise. You are not sure what caused the noise and leave your bedroom to see what happened. You walk..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Loud Noise",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "downstairs"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Have you been woken up in the middle of the night?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_noise",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "In the street you bump into an old friend you haven't seen for a long time. She is too busy to stop, so you arrange to meet later in a bar. You arrive a little late but the bar is empty and a few minutes later she is still not..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresMeeting a Friend",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "there"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did your friend stop?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are eating lunch with a friend. As you start eating your salad, you describe your plans for the weekend. You accidentally drop a piece of lettuce, and your friend looks at..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Lunch",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "you"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Do you have salad for lunch?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are playing basketball with some friends. While running toward the ball, you trip and scrape your knee. The scrape hurts a bit, but does not..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Scrape",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "bleed"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you playing soccer with your friend?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at the mall with your friend. While you shop, she tells you how several of her friends have recently come down with a strange illness. You think about your recent health, and wonder if you will get..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Shopping Trip",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "sick"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Are you shopping alone?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Yes",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are at a routine doctor's appointment. At the appointment, the doctor decides to run a few blood tests to check your health. The doctor says he will call you in a few weeks, and you will find out your test results at that..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Interpretation Bias MeasuresThe Blood Test",
+                                    "CorrectFeedback": "Correct!",
+                                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "time"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Did you take blood tests?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood",
                                     "Parameters": {
                                         "Buttons": [
                                             "Yes",
@@ -1448,8 +3602,8 @@
                     ]
                 },
                 {
-                    "Name": "Biweekly Survey - Week 8",
-                    "Title": "Biweekly Survey - Week 8",
+                    "Name": "Track Your Progress",
+                    "Title": "Track Your Progress",
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -1462,7 +3616,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "reduce_anxiety",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1487,7 +3641,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "recommend",
                                     "Parameters": {
                                         "Buttons": [
                                             "Not at all",
@@ -1528,7 +3682,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "interest_in_therapy",
                                     "Parameters": {
                                         "Buttons": [
                                             "Much more likely",
@@ -1536,7 +3690,7 @@
                                             "Equally likely",
                                             "A little less likely",
                                             "Much less likely",
-                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -1560,7 +3714,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "interest_in_therapy",
                                     "Parameters": {
                                         "Buttons": [
                                             "Much more likely",
@@ -1568,7 +3722,7 @@
                                             "Equally likely",
                                             "A little less likely",
                                             "Much less likely",
-                                            "Not appicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -1586,7 +3740,7 @@
                                 },
                                 {
                                     "Type": "Buttons",
-                                    "Name": "",
+                                    "Name": "resources_contacted",
                                     "Parameters": {
                                         "Buttons": [
                                             "Clubs and Organizations (e.g., cultural groups, volunteering)",
