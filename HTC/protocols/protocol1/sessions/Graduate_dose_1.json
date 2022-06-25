@@ -1572,7 +1572,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic1.jpeg",
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic1.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -1592,7 +1592,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic2.jpeg",
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic2.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -1612,7 +1612,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic3.jpeg",
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/HTC/main/bbbs/protocols/protocol1/media/images/lemon/pic3.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -1632,7 +1632,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic4.jpeg",
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic4.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -1652,7 +1652,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic5.jpeg",
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic5.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -1672,7 +1672,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic6.jpeg",
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic6.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -1692,7 +1692,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/bbbs/protocols/protocol1/media/images/lemon/pic7.jpeg",
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic7.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -1954,8 +1954,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Dislike your ideas. ",
-                                            "Support your ideas."
+                                            "Support your ideas.",
+                                            "Dislike your ideas. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Support your ideas."
@@ -2157,8 +2157,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Get sick. ",
-                                            "Not get sick. "
+                                            "Not get sick. ",
+                                            "Get sick. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Get sick. "
