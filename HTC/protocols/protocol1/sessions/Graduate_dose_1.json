@@ -481,8 +481,7 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7",
-                                        "OtherChoices": ""
+                                        "Maximum": "7"
                                     }
                                 }
                             ]
@@ -505,8 +504,7 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7",
-                                        "OtherChoices": ""
+                                        "Maximum": "7"
                                     }
                                 }
                             ]
@@ -529,8 +527,7 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7",
-                                        "OtherChoices": ""
+                                        "Maximum": "7"
                                     }
                                 }
                             ]
@@ -553,8 +550,7 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7",
-                                        "OtherChoices": ""
+                                        "Maximum": "7"
                                     }
                                 }
                             ]
@@ -577,8 +573,7 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7",
-                                        "OtherChoices": ""
+                                        "Maximum": "7"
                                     }
                                 }
                             ]
@@ -601,8 +596,7 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7",
-                                        "OtherChoices": ""
+                                        "Maximum": "7"
                                     }
                                 }
                             ]
@@ -1930,7 +1924,9 @@
                                     "IncorrectDelay": 5000,
                                     "CauseNavigation": true,
                                     "Parameters": {
-                                        "Words": "exciting"
+                                        "Words": [
+                                            "exciting"
+                                        ]
                                     }
                                 }
                             ]
@@ -2020,7 +2016,9 @@
                                     "IncorrectDelay": 5000,
                                     "CauseNavigation": true,
                                     "Parameters": {
-                                        "Words": "frowning"
+                                        "Words": [
+                                            "frowning"
+                                        ]
                                     }
                                 }
                             ]
@@ -2043,7 +2041,9 @@
                                     "IncorrectDelay": 5000,
                                     "CauseNavigation": true,
                                     "Parameters": {
-                                        "Words": "calm"
+                                        "Words": [
+                                            "calm"
+                                        ]
                                     }
                                 }
                             ]
@@ -2067,8 +2067,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Awkward and uncoordinated.",
-                                            "Considerate for apologizing."
+                                            "Considerate for apologizing.",
+                                            "Awkward and uncoordinated."
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Considerate for apologizing."
@@ -2133,7 +2133,9 @@
                                     "IncorrectDelay": 5000,
                                     "CauseNavigation": true,
                                     "Parameters": {
-                                        "Words": "high"
+                                        "Words": [
+                                            "high"
+                                        ]
                                     }
                                 }
                             ]
@@ -2157,8 +2159,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not get sick. ",
-                                            "Get sick. "
+                                            "Get sick. ",
+                                            "Not get sick. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Get sick. "
