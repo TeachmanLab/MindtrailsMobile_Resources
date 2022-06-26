@@ -109,6 +109,7 @@ for session in sessions.keys():
                         for i in range(times):  # basically if both = slider
                             page_dict["Inputs"].append(
                                 {"Type": "Slider",
+                                 "Name": row[14],
                                  "Parameters": {
                                      "Minimum": row[7],
                                      "Maximum": row[8],
@@ -119,12 +120,14 @@ for session in sessions.keys():
                     if input_1 == "Entry" or input_2 == "Entry":
                         for i in range(times):
                             page_dict["Inputs"].append(
-                                {"Type": "Entry"}
+                                {"Type": "Entry",
+                                 "Name": row[14]}
                             )
                     if input_1 == "Buttons" or input_2 == "Buttons":
                         for i in range(times):
                             page_dict["Inputs"].append(
                                 {"Type": "Buttons",
+                                 "Name": row[14],
                                  "Parameters": {
                                      "Buttons": items_list,
                                      "Selectable": True
@@ -210,6 +213,7 @@ for session in sessions.keys():
             for row in reader:
                 label = row[0]  # scenario name
                 domain = row[9]
+                unique_name = row[4] + "_" + session + "_" + domain
                 if domain not in (None, "") and domain != "Domain":  # if there is a domain
                     if domain not in domains_dict.keys():
                         domains_dict[domain] = {
@@ -274,6 +278,7 @@ for session in sessions.keys():
                                                              "and try again.",
                                         "CorrectScore": 0.5,
                                         "IncorrectDelay": 5000,
+                                        "Name": unique_name + "_puzzle",
                                         "Parameters": {
                                             "Words": [word_lst[0]]
                                         }
@@ -291,6 +296,7 @@ for session in sessions.keys():
                                          {
                                              "Type": "WordPuzzle",
                                              "CorrectFeedback": "Correct!",
+                                             "Name": unique_name + "_puzzle2",
                                              "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a "
                                                                   "moment and try again.",
                                              "CorrectScore": 0.5,
@@ -313,6 +319,7 @@ for session in sessions.keys():
                                     },
                                     {
                                         "Type": "Buttons",
+                                        "Name": unique_name + "_question",
                                         "CorrectFeedback": "Correct!",
                                         "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and "
                                                              "try again.",
@@ -405,6 +412,10 @@ for session in sessions.keys():
                         scenario_1 = row[2]
                         scenario_2 = row[3]
                         scenario_3 = row[4]
+                    if domain_var and row_num == 2:
+                        unique_name_1 = row[2] + "_" + session + "_" + domain
+                        unique_name_2 = row[3] + "_" + session + "_" + domain
+                        unique_name_3 = row[4] + "_" + session + "_" + domain
                     if domain_var and row_num == 3:
                         label_1 = row[2]
                         label_2 = row[3]
@@ -471,14 +482,17 @@ for session in sessions.keys():
                         image_bool = True
                         image = image_link_1
                         label = label_1
+                        unique_name = unique_name_1
                     if "Scenario 2" in row[0] and row[10] == "TRUE":
                         image_bool = True
                         image = image_link_2
                         label = label_2
+                        unique_name = unique_name_2
                     if "Scenario 3" in row[0] and row[10] == "TRUE":
                         image_bool = True
                         image = image_link_3
                         label = label_3
+                        unique_name = unique_name_3
                     if page_group not in page_groups:
                         # print("Creating page group", page_group, session)
                         scenario_dict = {"Name": page_group,
@@ -537,15 +551,17 @@ for session in sessions.keys():
                         "3": behaviors_3
                     }
 
+
                     if input_1 == "Entry":
                         page["Inputs"].append({
+                            "Name": unique_name,
                             "Type": "Entry"
                         })
                     if input_1 == "TimedText":
+                        page["ShowButtons"] = "WhenCorrect"
                         if "feelings" in text:
                             page["Inputs"].append({
                                 "Type": "TimedText",
-                                "CauseNavigation": True,
                                 "Parameters": {
                                     "Text": feelings_lookup[page_group[-1:]],
                                     "Duration": 15
@@ -554,7 +570,6 @@ for session in sessions.keys():
                         if "thoughts" in text:
                             page["Inputs"].append({
                                 "Type": "TimedText",
-                                "CauseNavigation": True,
                                 "Parameters": {
                                     "Text": thoughts_lookup[page_group[-1:]],
                                     "Duration": 15
@@ -563,7 +578,6 @@ for session in sessions.keys():
                         if "behaviors" in text:
                             page["Inputs"].append({
                                 "Type": "TimedText",
-                                "CauseNavigation": True,
                                 "Parameters": {
                                     "Text": behaviors_lookup[page_group[-1:]],
                                     "Duration": 15
