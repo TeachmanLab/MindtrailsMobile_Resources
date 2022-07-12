@@ -70,7 +70,12 @@
                                         "Text": "You are encouraged to complete 2 short Hoos Think Calmly programs tomorrow. Thinking ahead to your day tomorrow, are there specific times you would like to receive a notification to complete a ~5 minute program to help manage a stressful or upsetting situation?"
                                     }
                                 },
-                                {}
+                                {
+                                    "Type": "Scheduler"
+                                },
+                                {
+                                    "Type": "Scheduler"
+                                }
                             ]
                         }
                     ]
