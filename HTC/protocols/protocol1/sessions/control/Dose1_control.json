@@ -630,6 +630,7 @@
                                             "I don't want to talk about my feelings",
                                             "I don't have time",
                                             "I had treatment previously and didn't find it helpful",
+                                            "I don't need help at this time",
                                             "^Prefer not to anwer",
                                             "!Other:"
                                         ],
@@ -861,7 +862,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -906,7 +908,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -951,7 +954,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -996,7 +1000,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1041,7 +1046,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1086,7 +1092,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1131,7 +1138,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1176,7 +1184,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1221,7 +1230,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1249,7 +1259,7 @@
                                             "No anxiety in the past week",
                                             "Infrequent anxiety. Felt anxious a few times.",
                                             "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
-                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Frequent anxiety. Felt anxious most of the time. It was very difficult to relax.",
                                             "Constant anxiety. Felt anxious all of the time and never really relaxed."
                                         ],
                                         "Selectable": true
