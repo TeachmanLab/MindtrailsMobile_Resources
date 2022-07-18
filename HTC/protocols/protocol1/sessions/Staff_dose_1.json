@@ -864,7 +864,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -909,7 +910,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -954,7 +956,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -999,7 +1002,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1044,7 +1048,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1089,7 +1094,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1134,7 +1140,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1179,7 +1186,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -1224,7 +1232,8 @@
                                             "Yes",
                                             "No"
                                         ],
-                                        "Selectable": true
+                                        "Selectable": true,
+                                        "ColumnCount": 2
                                     }
                                 }
                             ]
@@ -2160,8 +2169,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not get sick. ",
-                                            "Get sick. "
+                                            "Get sick. ",
+                                            "Not get sick. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Get sick. "
