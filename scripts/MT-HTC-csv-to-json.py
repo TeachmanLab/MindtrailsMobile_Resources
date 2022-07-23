@@ -111,7 +111,8 @@ tip_lst = get_tips("/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/ti
 
 # adds a scenario page group to scenario_list (which is passed in)
 def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1, word_1, comp_question,
-                               answers_lst, correct_answer, unique_image, word_2=None, puzzle_text_2=None, can_be_favorited=False,
+                               answers_lst, correct_answer, unique_image, word_2=None, puzzle_text_2=None,
+                               can_be_favorited=False,
                                letters_missing=1, lessons_learned=False, lessons_learned_dict=None):
     # to go within pages of the scenario page group
     if lessons_learned == True:
@@ -121,9 +122,9 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
                 "Type": "Text",
                 "Parameters": {
                     "Text": lessons_learned_dict[domain].replace("\u2019", "'").replace(
-                    "\u2013", "--").replace("\u2014", "--").replace(
-                    "\u201c", '"').replace("\u201d", '"').replace("\\", "/").replace("\u00f4", "ô"). \
-                    strip()
+                        "\u2013", "--").replace("\u2014", "--").replace(
+                        "\u201c", '"').replace("\u201d", '"').replace("\\", "/").replace("\u00f4", "ô"). \
+                        strip()
                 }
 
             }, {
@@ -149,7 +150,7 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
                     "media/images/" + label.strip().replace(" ", "_") + "_" + group_name + ".jpeg"
     else:
         image_url = "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/" \
-                "media/images/" + label.strip().replace(" ", "_") + ".jpeg"
+                    "media/images/" + label.strip().replace(" ", "_") + ".jpeg"
 
     scenario_list.append({
         "Name": label,
@@ -384,6 +385,7 @@ def create_discrimination_page(conditions_lst, text, items_lst, input_1,
 
     return page_dict
 
+
 # changed show_buttons to none 6/21
 def create_survey_page(text=None, media=None, image_framed=None, other_choices=None, input_1=None, input_2=None,
                        variable_name=None, title=None, page_group=None, input_name=None, minimum=None, maximum=None,
@@ -506,6 +508,8 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
                            "Buttons": items_list,
                            "Selectable": True
                        }}
+                if items_list == ["Yes", "No"]:
+                    add["Parameters"]["ColumnCount"] = 2
             new_items_list = []
             for each in items_list:
                 if "Other" in each:
@@ -514,7 +518,7 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
                 else:
                     new_items_list.append(each)
             add["Parameters"]["Buttons"] = new_items_list
-        if input_1 == "ScriptScheduler":
+        if input_1 == "Scheduler":
             add = {
                 "Type": "Scheduler"
             }
@@ -542,6 +546,8 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
             add["VariableName"] = variable_name
         if add not in (None, ""):
             page_dict["Inputs"].append(add)
+            if input_1 == "Scheduler":
+                page_dict["Inputs"].append(add)
 
     return page_dict
 
@@ -634,7 +640,7 @@ for group in groups.keys():
                             "media/images/" + label.strip().replace(" ", "_") + "_" + group_name + ".jpeg"
             else:
                 image_url = "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/" \
-                        "media/images/" + label.strip().replace(" ", "_") + ".jpeg"
+                            "media/images/" + label.strip().replace(" ", "_") + ".jpeg"
             if label not in (None, ""):
                 # each row corresponds to one page group
                 page_group = {"Name": "Long Scenario: " + label.strip(),
@@ -761,12 +767,14 @@ for group in groups.keys():
         biweekly_6 = {}
         biweekly_8 = {}
         reasons = {}
+        control_1 = {}
 
         # parse before after
         lookup = {"BeforeDomain_1": before_domains_dicts_1,
                   "BeforeDomain_All": before_domains_dicts,
                   "AfterDomain_1": after_domains_dicts_1,
                   "AfterDomain_All": after_domains_dicts,
+                  "BeforeDomain_1 Control": control_1,
                   "EOD_EOD": end_of_day,
                   "Biweekly_Biweekly": biweekly,
                   "Biweekly_Week 2": biweekly_2,
@@ -789,15 +797,15 @@ for group in groups.keys():
                             "Name": "Video " + str(scenario_num + 1),
                             "Pages": [{
                                 "Inputs": [{
-                                "Type": "Media",
-                                "Parameters": {
-                                    "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw"
-                                                "/main/HTC/protocols/protocol1/media/videos/" + group + "/video" +
-                                                str(scenario_num + 1) + ".mp4",
-                                    "ImageType": "video/mp4"
-                                },
-                                "Frame": True
-                            }]}]
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw"
+                                                    "/main/HTC/protocols/protocol1/media/videos/" + group + "/video" +
+                                                    str(scenario_num + 1) + ".mp4",
+                                        "ImageType": "video/mp4"
+                                    },
+                                    "Frame": True
+                                }]}]
                         }
 
                         label = row_1[3]
@@ -830,7 +838,6 @@ for group in groups.keys():
                         np.random.shuffle(answers_lst)
                         correct_answer = row_1[i + 3]
                         # get list of words
-
 
                         # then create scenario page group for the practice
                         page_group = create_scenario_page_group(domain=domain, label=label, scenario_num=scenario_num,
@@ -1136,12 +1143,12 @@ for group in groups.keys():
                             domains_dict[domain]["PageGroups"].append(page_group)
                 elif "Write Your Own" in label:
                     page_group = {"Name": "Write Your Own",
-                                     "Title": "Write Your Own",
-                                     "Type": "Survey",
-                                     "DoseSize": 11,
-                                     "Pages": [
+                                  "Title": "Write Your Own",
+                                  "Type": "Survey",
+                                  "DoseSize": 11,
+                                  "Pages": [
 
-                                     ]}
+                                  ]}
                     with open("/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/write_your_own.csv") \
                             as read_obj_wyo:
                         wyo_reader = csv.reader(read_obj_wyo)
@@ -1150,8 +1157,10 @@ for group in groups.keys():
                             name = wyo_row[0]
                             title = wyo_row[1]
                             if text not in (None, ""):
-                                text = wyo_row[4].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                                replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u2026", "...")
+                                text = wyo_row[4].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014",
+                                                                                                          " - "). \
+                                    replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u2026",
+                                                                                                               "...")
                                 input = wyo_row[5]
                                 input_name = wyo_row[18]
                                 print(input_name, "; input name")
@@ -1273,6 +1282,41 @@ json_dict_biweekly = {"Name": "Track Your Progress",
 json_file = "HTC/json_files/Biweekly.json"
 with open(json_file, 'w') as outfile:
     json.dump(json_dict_biweekly, outfile, indent=4)  # data instead of json_dict
+
+# to do: make each biweekly survey a different section
+json_dict_biweekly_control = {"Name": "Track Your Progress",
+                              "Title": "Track Your Progress",
+                              "TimeToComplete": "00:5:00",
+                              "DoseMethod": "OnRun",
+                              "DoseBySection": True,
+                              "Sections": [
+                                  {
+                                      "Name": "Track Your Progress - Week 2",
+                                      "PageGroups": list(biweekly.values())
+                                  }
+                              ]}
+
+json_file = "HTC/json_files/Control/Biweekly_control.json"
+with open(json_file, 'w') as outfile:
+    json.dump(json_dict_biweekly, outfile, indent=4)  # data instead of json_dict
+
+
+json_dict_dose1_control = {"Name": "Dose 1",
+                      "Title": "Dose 1",
+                      "TimeToComplete": "00:5:00",
+                      "DoseMethod": "OnRun",
+                      "DoseBySection": True,
+                      "Sections": [
+                          {
+                              "Name": "Dose 1",
+                              "PageGroups": list(control_1.values())
+                          }
+                      ]}
+
+json_file = "HTC/json_files/Control/Dose1_control.json"
+with open(json_file, 'w') as outfile:
+    json.dump(json_dict_dose1_control, outfile, indent=4)  # data instead of json_dict
+
 
 json_dict_R4E = {"Name": "Reasons for Ending",
                  "Title": "Reasons for Ending",
