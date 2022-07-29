@@ -1,5 +1,5 @@
 {
-    "Name": "Staff",
+    "Name": "Faculty",
     "Title": "Hoos Think Calmly Resources",
     "Sections": [
         {
@@ -19,8 +19,8 @@
                                     "VariableName": "subdomain_chosen",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Setting_and_Achieving_Goals::Setting and Achieving Goals",
-                                            "Career_Development::Career Development",
+                                            "Workshops_and_Retreats_::Workshops and Retreats ",
+                                            "Mentorship_and_Professional_Development::Mentorship and Professional Development",
                                             "Workplace_Issues_and_Conflict_Management::Workplace Issues and Conflict Management"
                                         ]
                                     }
@@ -28,42 +28,42 @@
                             ]
                         },
                         {
-                            "Name": "Setting and Achieving Goals",
-                            "Title": "Academics/Work/Career Development: Setting and Achieving Goals",
+                            "Name": "Workshops and Retreats ",
+                            "Title": "Academics/Work/Career Development: Workshops and Retreats ",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Conditions": [
                                         {
                                             "VariableName": "subdomain_chosen",
-                                            "Value": "Setting_and_Achieving_Goals"
+                                            "Value": "Workshops_and_Retreats_"
                                         }
                                     ],
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "FEAP WorkLife Program\n\nUVA FEAP works to support faculty, staff and team members in navigating the competing demands of their work, personal, and family lives.\n\nhttps://uvafeap.com/\n\n\n\n"
+                                            "Text": "FEAP Workplace Seminars\n\nFEAP Workplace Seminars are a great place to interact with others and improve your worklife and homelife balance!\n\nhttps://uvafeap.com/organizational-services/workplace-seminars\n\n\n\nUVA Faculty Equity, Diversity, and Inclusion Workshops\n\nUVA Faculty Equity, Diversity, and Inclusion Workshops are great ways to foster an inclusive and accepting work environment. Request one today!\n\nhttps://provost.virginia.edu/subsite/faculty-development/equity-diversity-and-inclusion\n\n\n\nUVA Faculty Leadership Development Programs\n\nThe UVA Faculty Leadership Development programs provide a range of opportunities to teach faculty about best practices of inclusive, effective leadership. These workshops are a great way to help you best achieve your leadership goals and serve other people!\n\nhttps://provost.virginia.edu/subsite/faculty-development/leadership-development\n\n\n\n"
                                         }
                                     }
                                 }
                             ]
                         },
                         {
-                            "Name": "Career Development",
-                            "Title": "Academics/Work/Career Development: Career Development",
+                            "Name": "Mentorship and Professional Development",
+                            "Title": "Academics/Work/Career Development: Mentorship and Professional Development",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Conditions": [
                                         {
                                             "VariableName": "subdomain_chosen",
-                                            "Value": "Career_Development"
+                                            "Value": "Mentorship_and_Professional_Development"
                                         }
                                     ],
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "Job Seeker Resources\n\nNavigate specialized modules including how to update and refine your resume, analyze a job description, and use LinkedIn to network and research employers. (Note: This is a Collab site).\n\nhttps://hr.virginia.edu/career-tools\n\n\n\nApplication and Interview Tips\n\nReview best practices and learn to avoid common missteps.\n\n\nhttps://www.youtube.com/watch?v=sLffu1MWzqU\n\n\n\nUVA HR Education and Training Programs \n\nThe UVA HR Education and Training Programs provide resources to support your growth and development so that you can do your best work at UVA. Several programs, team workshops, workday training, and other career tools are available through this resource to develop leadership and critical thinking skills.\n\nhttps://hr.virginia.edu/career-development/education-and-training-0\n\n\n\nCareer Tools\n\nContains job seeker resources and videos containing strategies for success that cover topics such as starting points, networking, job searching, applying, and more.\n\nhttps://hr.virginia.edu/career-tools\n\n\n\n"
+                                            "Text": "UVA School of Medicine Early-Career Faculty Mentoring Program\n\nThe UVA SOM Early-Career Faculty Mentoring Program supports junior faculty and their mentors in building meaningful relationships!\n\nhttps://faculty.med.virginia.edu/facultyaffairs/development/mentoring-program/early-career-faculty-mentoring-program/\n\n\n\nNational Center for Faculty Development & Diversity Membership\n\nLooking for assistance and mentoring as you transition through careers and through life? Become a member of the National Center for Faculty Development and Diversity through UVA!\n\nhttps://provost.virginia.edu/subsite/faculty-development/faculty-development-national-center-faculty-development-diversity\n\n\n\nUVA Faculty Professional Development Retreats & Workshops\n\nThe UVA Faculty Professional Development Retreats & Workshops are a great way to improve career skills and help you thrive in life! Choose from various workshops and retreats and get started today!\n\nhttps://provost.virginia.edu/subsite/faculty-development/professional-development-across-faculty-careers\n\n\n\nMindful Leadership Training\n\nHoos Well has partnered with the UVA Mindfulness Center and eMindful (the provider of eM Life, UVA's online mindfulness platform) to offer, at no cost to participants, a two-part Mindful Leadership Skills Training program. Open to leaders and aspiring leaders who are part of UVA Health, UVA Academic Division, University Physicians Group, and UVA's College at Wise.\n\nhttps://hr.virginia.edu/mindful-leadership-skills-training\n\n\n\n"
                                         }
                                     }
                                 }
@@ -84,7 +84,7 @@
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "The Mediation Process Through FEAP\n\nMediation is a method of third-party intervention in which impartial mediators help parties in conflict identify needs, interests and workable solutions.\n\nhttps://uvafeap.com/organizational-services/mediation-services\n\n\n\nFEAP Management and Supervisor Services\n\nThe Faculty and Employee Assistance Program provides management and organizational consultation on handling employee job performance issues and workplace concerns in accordance with company policy and procedure.\n\nhttps://uvafeap.com/organizational-services/management-and-supervisor-services\n\n\n\nUniversity Ombuds\n\nThis is an independent, confidential resource that can assit staff in resolving problems, complaints, conflicts, and other issues. \n\nhttps://eocr.virginia.edu/ombuds\n\n\n\nUVA HR Career Development\n\nUVA HR provides staff with various resources to develop their careers and enhace their experience in the workplace.\n\nhttps://hr.virginia.edu/career-development\n\n\n\n"
+                                            "Text": "The Mediation Process Through FEAP\n\nMediation is a method of third-party intervention in which impartial mediators help parties in conflict identify needs, interests and workable solutions.\n\nhttps://uvafeap.com/organizational-services/mediation-services\n\n\n\nFEAP Management and Supervisor Services\n\nThe Faculty and Employee Assistance Program provides management and organizational consultation on handling employee job performance issues and workplace concerns in accordance with company policy and procedure.\n\nhttps://uvafeap.com/organizational-services/management-and-supervisor-services\n\n\n\nUniversity Ombuds\n\nThis is an independent, confidential resource that can assit faculty in resolving problems, complaints, conflicts, and other issues. \n\nhttps://eocr.virginia.edu/ombuds\n\n\n\nUVA HR Career Development\n\nUVA HR provides faculty with various resources to develop their careers and enhace their experience in the workplace.\n\nhttps://hr.virginia.edu/career-development\n\n\n\n"
                                         }
                                     }
                                 }
@@ -106,8 +106,7 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Families::Families",
-                                            "Security::Security",
-                                            "Other::Other"
+                                            "Security::Security"
                                         ]
                                     }
                                 }
@@ -128,7 +127,7 @@
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "UVA Child Development Center\n\nOpen to families of employees and students, an. early childhood education center that acts as a high-quality family care solution.\n\nhttps://www.kindercare.com/lp/private-center\n\n\n\nUVA Family Stress Clinic\n\nThe Family Stress Clinic provides counseling services for individuals, couples or families experiencing a variety of difficulties and concerns in their lives.\n\nhttps://uvahealth.com/locations/profile/family-stress-clinic\n\n\n\nHealthy Families of Charlottesville/Albemarle\n\nHealthy Families fosters nurturing family relationships for pregnant moms and safe environments for young children through regular home visiting.\n\nhttps://readykidscville.org/family-support/healthy-families/\n\n\n\nREAL Dads\n\nREAL Dads coaches incarcerated fathers and fathers who want a stronger relationship with their children to have Responsible, Empowered, Available and Loving relationships with their families.\n\nhttps://readykidscville.org/family-support/real-dads/\n\n\n\nRegion Ten Child and Family Services\n\nThe Child and Family Services center provides prevention, substance use and mental health services to the children and families in our community. The goals of these services are to help families build resiliency and keep children/youth safely in their homes and communities when possible.\n\nhttps://regionten.org/service-type/children-family/\n\n\n\nFEAP Parenting Consultations\n\nFEAP provides confidential, face to face consultations for caregivers who are seeking to grow in their role as parents or step-parents. Educational seminars on topics specific to parenting children and teens are also provided upon request. Services are designed to provide information, education, and support, as well as specific tools for navigating the day to day of the ever-changing process that is raising children.\n\nhttps://uvafeap.com/counseling-services/parenting\n\n\n\nUVA Programs and Activities for Kids\n\nLooking for fun things to do with your kid(s)? Check out this resource for activities to do with children at UVA!\n\nhttps://www.law.virginia.edu/charlottesville/family/activities\n\n\n\nCharlottesville Preschools and Daycare \n\nUVA offers two childcare services for students, faculty, and staff and there are over 40 preschool and daycare options in the greater Charlottesville area. \n\nhttps://www.law.virginia.edu/charlottesville/family/preschools-and-daycare\n\n\n\nFEAP Resources for Childchare \n\nFEAP offers a plethora of resources for childcare and day care, child counseling services, and babysitting services. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/resources-children\n\n\n\n"
+                                            "Text": "FEAP Resources for Childcare\n\nCheck this out for local resources for children, including child care, day care, child counseling services, and babysitting services. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/resources-children\n\n\n\nFEAP Education Resources\n\nCheck this out for local resources available to assist with your child's educational needs. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/education-resources\n\n\n\nUVA Programs and Activities for Kids\n\nLooking for fun things to do with your kid(s)? Check out this resource for activities to do with children at UVA!\n\nhttps://www.law.virginia.edu/charlottesville/family/activities\n\n\n\nParent and Guardians Connection\n\nThe connection tool provides a resource to UVA faculty and staff who are parents/guardians of young or school-aged children to find a community and access information.\n\nhttps://provost.virginia.edu/subsite/faculty-affairs/parent-guardian-connections-2021\n\n\n\nUVA Dependent and Back-up Care Services\n\nThis page offers resources on caregiving support for ongoing care, short-term, back-up care, & crisis care, and school & tutoring support.\n\nhttps://hr.virginia.edu/benefits/dependent-care\n\n\n\nHooSitting\n\nHooSitting is a network connecting UVA students to families in the Charlottesville area looking for childcare.\n\nhttp://hoositting.com/\n\n\n\nCharlottesville Preschools and Daycare \n\nUVA offers two childcare services for students, faculty, and staff and there are over 40 preschool and daycare options in the greater Charlottesville area. \n\nhttps://www.law.virginia.edu/charlottesville/family/preschools-and-daycare\n\n\n\n"
                                         }
                                     }
                                 }
@@ -149,28 +148,7 @@
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "FEAP Clothing Resources \n\nFEAP offers resources for general clothing, maternity and baby clothing, and laundry services. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/clothing-resources\n\n\n\nFEAP Housing and Utlility Resources \n\nFEAP offers resources for renting, affordable housing, and utilities. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/housing-and-utility-resources\n\n\n\nFEAP Food Resources\n\nFEAP offers resources for food banks and public meal programs, delivered food resources, and state food assistance. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/food-resources\n\n\n\nGroceries in Charlottesville\n\nLooking for a place to go grocery shopping? Yelp offers a list of all of the grocery store options here in Charlottesville!\n\nhttps://gradstudies.virginia.edu/uva-and-charlottesville-guide\n\n\n\nmyPlan App\n\nA free app to help with safety decisions if you, or someone  you care about, is experiencing abuse in their intimate relationship.  It\u2019s private, secure, personalized, & backed by research.\n\nhttps://www.myplanapp.org/\n\n\n\n"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "Other",
-                            "Title": "Family & Home Life: Other",
-                            "Type": "Survey",
-                            "Pages": [
-                                {
-                                    "Conditions": [
-                                        {
-                                            "VariableName": "subdomain_chosen",
-                                            "Value": "Other"
-                                        }
-                                    ],
-                                    "Inputs": {
-                                        "Type": "Text",
-                                        "Parameters": {
-                                            "Text": "FEAP Workplace Seminars\n\nFEAP offers a variety of workplace seminars.\n\nBroad topic areas include: content for supervisors/managers, balancing work and life, caregiving/eldercare, communication and relationships, mindfulness/compassion, parenting and positive practices.\n\nhttps://uvafeap.com/organizational-services/workplace-seminars\n\n\n\nGrieving: TIPS for living in a time of loss\n\nAdvice for people struggling with the loss of a loved one.\n\nhttps://womenscenter.virginia.edu/2021/03/grieving-tips-living-time-loss\n\n\n\n"
+                                            "Text": "SHE: Shelter for Help in Emergency\n\nCheck out SHE for a variety of trauma-informed services for helping victims of domestic violence and to help create a community of support.\n\nhttps://www.shelterforhelpinemergency.org/\n\n\n\nFree Legal Clinic through the Women's Center\n\nOffers professional, pro-bono legal advice to Charlottesville community members every month, regarding topics including divorce, harassment, wills, child custody and visitation rights, eviction, child support, and landlord-tenant disputes. \n\nhttps://womenscenter.virginia.edu/free-legal-clinic\n\n\n\nGroceries in Charlottesville\n\nLooking for a place to go grocery shopping? Yelp offers a list of all of the grocery store options here in Charlottesville!\n\nhttps://gradstudies.virginia.edu/uva-and-charlottesville-guide\n\n\n\nFEAP Clothing Resources \n\nFEAP offers resources for general clothing, maternity and baby clothing, and laundry services. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/clothing-resources\n\n\n\nFEAP Housing and Utlility Resources \n\nFEAP offers resources for renting, affordable housing, and utilities. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/housing-and-utility-resources\n\n\n\nFEAP Food Resources\n\nFEAP offers resources for food banks and public meal programs, delivered food resources, and state food assistance. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/food-resources\n\n\n\n"
                                         }
                                     }
                                 }
@@ -191,52 +169,9 @@
                                     "VariableName": "subdomain_chosen",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Managing_Your_Money::Managing Your Money",
-                                            "Meeting_Financial_Needs::Meeting Financial Needs",
-                                            "Food,_Housing,_etc.::Food, Housing, etc."
+                                            "Food,_Housing,_etc.::Food, Housing, etc.",
+                                            "Money_Management::Money Management"
                                         ]
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "Managing Your Money",
-                            "Title": "Finances: Managing Your Money",
-                            "Type": "Survey",
-                            "Pages": [
-                                {
-                                    "Conditions": [
-                                        {
-                                            "VariableName": "subdomain_chosen",
-                                            "Value": "Managing_Your_Money"
-                                        }
-                                    ],
-                                    "Inputs": {
-                                        "Type": "Text",
-                                        "Parameters": {
-                                            "Text": "Financial Wellness: Shifting from How Much You Have to How You Use It\n\nLearn about what financial wellness means and how to achieve it in your own life \n\nhttps://www.eudaimonicbydesign.com/resilience/financial\n\n\n\nTools from UVA Community Credit Union\n\nInterested in learning about managing your money, investing, or even buying a house? Attend a free, one-hour seminar through UVA Community Credit Union \n\nhttps://www.uvacreditunion.org/content/Education-And-Tools\n\n\n\n"
-                                        }
-                                    }
-                                }
-                            ]
-                        },
-                        {
-                            "Name": "Meeting Financial Needs",
-                            "Title": "Finances: Meeting Financial Needs",
-                            "Type": "Survey",
-                            "Pages": [
-                                {
-                                    "Conditions": [
-                                        {
-                                            "VariableName": "subdomain_chosen",
-                                            "Value": "Meeting_Financial_Needs"
-                                        }
-                                    ],
-                                    "Inputs": {
-                                        "Type": "Text",
-                                        "Parameters": {
-                                            "Text": "Financial Resources\n\nThis comprehensive list cultivated by the UVA Faculty and Employee Assistance Program (FEAP) can help you meet your financial needs. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/financial-resources\n\n\n\nHoosWell Financial Resources\n\nHaving financial stress or just want to start focusing on your financial well-being? UVA offers a variety of financial resources from counseling to webinars which can help with all of your financial needs!\n\nhttps://hr.virginia.edu/wellness/financial-wellness\n\n\n\n"
-                                        }
                                     }
                                 }
                             ]
@@ -256,7 +191,28 @@
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "FEAP Food Resources\n\nFood assistance, delivered food resources.\n\nhttps://uvafeap.com/counseling-services/community-resources-support/food-resources\n\n\n\nFEAP Housing and Utilities Resources\n\nHousing and utility resources available in the Charlottesville and Albemarle County area.\n\nhttps://uvafeap.com/counseling-services/community-resources-support/housing-and-utility-resources\n\n\n\nFEAP Transportation Resources\n\nBus and other transportation services.\n\nhttps://uvafeap.com/counseling-services/community-resources-support/transportation-resources\n\n\n\nFEAP Clothing Resources\n\nLooking for discounted or affordable clothing? Check out this list of local clothing resources. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/clothing-resources\n\n\n\n"
+                                            "Text": "FEAP Food Resources\n\nFood assistance, delivered food resources.\n\nhttps://uvafeap.com/counseling-services/community-resources-support/food-resources\n\n\n\nFEAP Housing and Utilities Resources\n\nResources available in the Charlottesville and Albemarle County area.\n\nhttps://uvafeap.com/counseling-services/community-resources-support/housing-and-utility-resources\n\n\n\nFEAP Financial Resources\n\nResources to help with financial issues such as money and debt management, personal or family budgeting, and financial aid. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/financial-resources\n\n\n\nFEAP Transportation Resources\n\nBus and other transportation services.\n\nhttps://uvafeap.com/counseling-services/community-resources-support/transportation-resources\n\n\n\nFEAP Clothing Resources\n\nLooking for discounted or affordable clothing? Check out this list of local clothing resources. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/clothing-resources\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Money Management",
+                            "Title": "Finances: Money Management",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Money_Management"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Free financial planning tools\n\nCheck this out to view beginner investing tips and strategies, financial tools and calculators, and learn how to protect your investments. \n\nhttps://www.investor.gov/free-financial-planning-tools\n\n\n\nFinancial Wellness: Shifting from How Much You Have to How You Use It\n\nLearn about what financial wellness means and how to achieve it in your own life \n\nhttps://www.eudaimonicbydesign.com/resilience/financial\n\n\n\nHoosWell Financial Resources\n\nHaving financial stress or just want to start focusing on your financial well-being? UVA offers a variety of financial resources from counseling to webinars which can help with all of your financial needs!\n\nhttps://hr.virginia.edu/wellness/financial-wellness\n\n\n\n"
                                         }
                                     }
                                 }
@@ -277,72 +233,72 @@
                                     "VariableName": "subdomain_chosen",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Mindfulness_and_Meditation::Mindfulness and Meditation",
-                                            "Stress_Management_and_Self-Care::Stress Management and Self-Care",
-                                            "Treatment_Options_and_Additional_Resources::Treatment Options and Additional Resources"
+                                            "Mindfulness::Mindfulness",
+                                            "Treatment_Options::Treatment Options",
+                                            "Additional_Resources_::Additional Resources "
                                         ]
                                     }
                                 }
                             ]
                         },
                         {
-                            "Name": "Mindfulness and Meditation",
-                            "Title": "Mental Health: Mindfulness and Meditation",
+                            "Name": "Mindfulness",
+                            "Title": "Mental Health: Mindfulness",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Conditions": [
                                         {
                                             "VariableName": "subdomain_chosen",
-                                            "Value": "Mindfulness_and_Meditation"
+                                            "Value": "Mindfulness"
                                         }
                                     ],
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "Mindfulness Meditation Group\n\nEach week there is a 30-minute guided meditation, followed by open discussion and questions.\n\nhttps://med.virginia.edu/mindfulness-center/continue-your-practice/\n\n\n\nMindfulness Information Videos\n\nLearn more about mindfulness from two of UVA\u2019s Mindfulness Center Instructors.\n\nhttps://med.virginia.edu/mindfulness-center/about/intro-to-mindfulness/\n\n\n\nMindfulness Recommended Reading\n\nReadings, videos, and transcripts with information on mindfulness and how to incorporate it into your lifestyle.\n\nhttps://med.virginia.edu/mindfulness-center/continue-your-practice/recommended-reading/\n\n\n\nA Place to Breathe Meditation Studio\n\nOffers classes in meditation, yoga, and other mindful practices for adults and children. In addition to their classes and workshops, they offer a private meditation room that is open during business hours for anyone to use free of charge.\n\nhttp://www.aplacetobreathe.com/ (that website is a bit weird but info can also be found here : https://med.virginia.edu/mindfulness-center/continue-your-practice/ongoing-meetings/ )\n\n\n\nCompassionate Care Initiative\n\nThe UVA School of Nursing\u2019s Compassionate Care Initiative (CCI) offers ongoing, weekly sessions on mindfulness meditation, mindful movement, yoga, and more. All drop-in sessions are free; no registration or previous experience required!\n\nhttps://cci.nursing.virginia.edu/activities/calendar/\n\n\n\nTools of Transformation from eMindful\n\nInterested in practicing mindfulness? Try eM Life, a free online mindfulness platform for UVA employees and spouses!\n\nhttps://hr.virginia.edu/wellness/emotional-well-being/mindfulness-resources/emlife\n\n\n\nUVA Mindfulness Center\n\nCheck out the Mindfulness Center for meditation and other stress-reduction online classes, events, recordings, and resources. \n\nhttps://med.virginia.edu/mindfulness-center/programs/\n\n\n\nUVA Contemplative Sciences Center\n\nCheck out the CSC for various yoga and mindfulness courses. \n\nhttps://csc.virginia.edu/feature/contemplative-classes-yoga-mindfulness-and-more\n\n\n\nUVA HR Mindfulness Resources\n\nBoth online and in person mindfulness courses that provide you with resources that are applicable and useful, support your emotional well-being, and help you thrive.\n\nhttps://hr.virginia.edu/wellness/emotional-well-being/mindfulness-resources\n\n\n\nHealthy Minds @Work program\n\nBuild mental skills that increase resilience and well-being in 5-7 minutes a day with an evidence-based program and mobile app built by neuroscientists. Open to all UVA employees.\n\nhttps://hr.virginia.edu/wellness/emotional-well-being/healthy-minds-work\n\n\n\n"
+                                            "Text": "UVA Mindfulness Center\n\nCheck out the Mindfulness Center for meditation and other stress-reduction online classes, events, recordings, and resources. \n\nhttps://med.virginia.edu/mindfulness-center/programs/\n\n\n\nUVA Contemplative Sciences Center\n\nCheck out the CSC for various yoga and mindfulness courses. \n\nhttps://csc.virginia.edu/feature/contemplative-classes-yoga-mindfulness-and-more\n\n\n\nUVA HR Mindfulness Resources\n\nBoth online and in person mindfulness courses that provide you with resources that are applicable and useful, support your emotional well-being, and help you thrive.\n\nhttps://hr.virginia.edu/wellness/emotional-well-being/mindfulness-resources\n\n\n\nMindfulness Meditation Group\n\nEach week there is a 30-minute guided meditation, followed by open discussion and questions.\n\nhttps://med.virginia.edu/mindfulness-center/continue-your-practice/\n\n\n\nMindfulness Information Videos\n\nLearn more about mindfulness from two of UVA\u2019s Mindfulness Center Instructors.\n\nhttps://med.virginia.edu/mindfulness-center/about/intro-to-mindfulness/\n\n\n\nMindfulness Recommended Reading\n\nReadings, videos, and transcripts with information on mindfulness and how to incorporate it into your lifestyle.\n\nhttps://med.virginia.edu/mindfulness-center/continue-your-practice/recommended-reading/\n\n\n\nA Place to Breathe Meditation Studio\n\nOffers classes in meditation, yoga, and other mindful practices for adults and children. In addition to their classes and workshops, they offer a private meditation room that is open during business hours for anyone to use free of charge.\n\nhttp://www.aplacetobreathe.com/ (that website is a bit weird but info can also be found here : https://med.virginia.edu/mindfulness-center/continue-your-practice/ongoing-meetings/ )\n\n\n\nCompassionate Care Initiative\n\nThe UVA School of Nursing\u2019s Compassionate Care Initiative (CCI) offers ongoing, weekly sessions on mindfulness meditation, mindful movement, yoga, and more. All drop-in sessions are free; no registration or previous experience required!\n\nhttps://cci.nursing.virginia.edu/activities/calendar/\n\n\n\nTools of Transformation from eMindful\n\nInterested in practicing mindfulness? Try eM Life, a free online mindfulness platform for UVA employees and spouses!\n\nhttps://hr.virginia.edu/wellness/emotional-well-being/mindfulness-resources/emlife\n\n\n\n"
                                         }
                                     }
                                 }
                             ]
                         },
                         {
-                            "Name": "Stress Management and Self-Care",
-                            "Title": "Mental Health: Stress Management and Self-Care",
+                            "Name": "Treatment Options",
+                            "Title": "Mental Health: Treatment Options",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Conditions": [
                                         {
                                             "VariableName": "subdomain_chosen",
-                                            "Value": "Stress_Management_and_Self-Care"
+                                            "Value": "Treatment_Options"
                                         }
                                     ],
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "FEAP Self Care\n\nA website with information on physical, spiritual, and emotional self care, as well as links to videos and resources.\n\nhttps://uvafeap.com/counseling-services/self-care\n\n\n\nFEAP Stress Mangement\n\nA website with informtion, resources, and organiztions to assist with stress management.\n\nhttps://uvafeap.com/counseling-services/stress-management\n\n\n\nHow to Stress More Effectively\n\nLearn about how you can think about stress more positively\n\nhttps://uvafeap.com/sites/feap/files/PDFs/Tip%20of%20the%20Month/FEAP%20Tip%20of%20the%20Month_April%2020_2021.pdf\n\n\n\nCultivating Optimism\n\nOptimism is good for you -- and for those around you. Learn how to cultivate it!\n\nhttps://uvafeap.com/sites/feap/files/PDFs/Tip%20of%20the%20Month/FEAP%20Tip%20of%20the%20Month_March%2016_2021_final.pdf\n\n\n\nHoosWell Emotional Well-Being Programs\n\nUVA has a variety of programs that offer you different outlets to cultivate emotional well-being, from free yoga classes to counseling!\n\nhttps://hr.virginia.edu/wellness/emotional-wellness\n\n\n\n"
+                                            "Text": "FEAP Counseling Services\n\nFEAP is available for individual consultation and short term, focused counseling for a variety of personal issues and common concerns.\n\nhttps://uvafeap.com/counseling-services\n\n\n\nFEAP Critical Incident Services\n\nA critical incident is defined as any event that has the power to overwhelm usually effective coping mechanisms. Examples are the death of a coworker, suicide, traumatic workplace incident, severe or cumulative workplace stress or workplace or community disaster.\n\nhttps://uvafeap.com/counseling-services/critical-incidents\n\n\n\nHELP Line\n\nCheck out this free and confidential telephone hotline serving Albemarle County where volunteers can provide judgement-free listening and help refer you to long-term services.\n\nhttp://www.helplineuva.com/\n\n\n\nPartner for Mental Health\n\nLooking for mental illness support, referrals, or educational opportunities? Check out this resource that stands up for the rights and dignity of those with mental illness as they engage in treatment or in the justice system, while supporting creative solutions to interpersonal and legal challenges caused by mental illness. \n\nhttps://partnerformentalhealth.org/\n\n\n\nThe Counseling Alliance of Virginia (CAVA)\n\nCheck out CAVA for counseling needs regarding the impact of mental illness, substance abuse, trauma, and/or other life stressors. CAVA offers a variety of clinical specialists who practice several different approaches to treatment. \n\nhttps://www.cavahelps.com/\n\n\n\nRegion Ten\n\nLooking for mental health support? Region Ten offers several services for mental health, including case management, intellectual disability, substance use, rehabilitation, and counseling. \n\nhttps://regionten.org/services/\n\n\n\nFEAP Positive Psychology\n\nA FEAP counseling with a Positive Psychology Practitioner can provide you with information on the field of Positive Psychology and how you can learn to thrive more in your life.\n\nhttps://uvafeap.com/counseling-services/positive-psychology\n\n\n\nCentral Virginia Clinicans of Color Network (CVCCN)\n\nCVCCN is a supportive network that empowers clinicians of color and builds capacity for providing culturally responsive mental health treatment.\n\nhttps://cvccn.org/\n\n\n\n"
                                         }
                                     }
                                 }
                             ]
                         },
                         {
-                            "Name": "Treatment Options and Additional Resources",
-                            "Title": "Mental Health: Treatment Options and Additional Resources",
+                            "Name": "Additional Resources ",
+                            "Title": "Mental Health: Additional Resources ",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Conditions": [
                                         {
                                             "VariableName": "subdomain_chosen",
-                                            "Value": "Treatment_Options_and_Additional_Resources"
+                                            "Value": "Additional_Resources_"
                                         }
                                     ],
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "The Sister Circle Program\n\nThrough the Women's Initiative, the Sister Circle program aims to address the needs of Black women living in Charlottesville.\n\nhttps://thewomensinitiative.org/sister-circle/\n\n\n\nTeladoc\n\nIf you need help, it's only a click away! Receive confidential, online therapy through Teladoc. \n\nhttps://www.teladoc.com/aetna/\n\n\n\nBIPOC Mental Health and Wellness Resources \n\nCheck out this comprehensive guide for BIPOC mental health and wellness resources compiled by the Women's Center \n\nhttps://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRgOeNjoY8vXHxjgmwdBRyOvyB0-H9rTf5VW43__XrrDpYKW5tnyjltcor6F4vEYgX-82hW9LLJ7NSp/pubhtml?gid=1529019313&single=true\n\n\n\nLGBTQ+ Mental Health and Wellness Resources \n\nCheck out this comprehensive guide for LGBTQ+ mental health and wellness resources compiled by the Women's Center\n\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vRgOeNjoY8vXHxjgmwdBRyOvyB0-H9rTf5VW43__XrrDpYKW5tnyjltcor6F4vEYgX-82hW9LLJ7NSp/pubhtml?gid=1628978054&single=true\n\n\n\nFEAP Positive Psychology\n\nA FEAP counseling with a Positive Psychology Practitioner can provide you with information on the field of Positive Psychology and how you can learn to thrive more in your life.\n\nhttps://uvafeap.com/counseling-services/positive-psychology\n\n\n\nFEAP Counseling Services\n\nFEAP is available for individual consultation and short term, focused counseling for a variety of personal issues and common concerns.\n\nhttps://uvafeap.com/counseling-services\n\n\n\nFEAP Critical Incident Services\n\nA critical incident is defined as any event that has the power to overwhelm usually effective coping mechanisms. Examples are the death of a coworker, suicide, traumatic workplace incident, severe or cumulative workplace stress or workplace or community disaster.\n\nhttps://uvafeap.com/counseling-services/critical-incidents\n\n\n\nHELP Line\n\nCheck out this free and confidential telephone hotline serving Albemarle County where volunteers can provide judgement-free listening and help refer you to long-term services.\n\nhttp://www.helplineuva.com/\n\n\n\nPartner for Mental Health\n\nLooking for mental illness support, referrals, or educational opportunities? Check out this resource that stands up for the rights and dignity of those with mental illness as they engage in treatment or in the justice system, while supporting creative solutions to interpersonal and legal challenges caused by mental illness. \n\nhttps://partnerformentalhealth.org/\n\n\n\nThe Counseling Alliance of Virginia (CAVA)\n\nCheck out CAVA for counseling needs regarding the impact of mental illness, substance abuse, trauma, and/or other life stressors. CAVA offers a variety of clinical specialists who practice several different approaches to treatment. \n\nhttps://www.cavahelps.com/\n\n\n\nRegion Ten\n\nLooking for mental health support? Region Ten offers several services for mental health, including case management, intellectual disability, substance use, rehabilitation, and counseling. \n\nhttps://regionten.org/services/\n\n\n\nFEAP Resources in Support of Social Justice \n\nCheck out these virtual resources regarding education, action, reflection, and self-care to help acknowledge the pain of injustices suffered, offer support to those hurting or distressed, and offfer resources for those who want to learn and respond to foster social justice. \n\nhttps://uvafeap.com/services/virtual-resources-library/resources-support-social-justice\n\n\n\nFEAP Virtual Resources for Stress Management \n\nCheck out these resources to help support your mental and emotional wellness.\n\nhttps://uvafeap.com/services/virtual-resources-library/virtual-resources-support-stress-management\n\n\n\nCentral Virginia Clinicans of Color Network (CVCCN)\n\nCVCCN is a supportive network that empowers clinicians of color and builds capacity for providing culturally responsive mental health treatment.\n\nhttps://cvccn.org/\n\n\n\nHoosWell Portal and Rewards \n\nIt's already important to focus on your well-being, but did you know that you can be rewarded for it, too? By participating in HoosWell, you can meet new people, feel healthier, and even win monetary rewards! \n\nhttps://hr.virginia.edu/wellness/earn-rewards\n\n\n\nLive health coaching with Virgin Pulse\n\nTake advantage of unlimited access to certified Health Coaches through one-on-one conversations to establish personalized well-being goals. Open to employees (and spouses) enrolled in the UVA Health Plan or UPG Anthem Health Plan.\n \n\nhttps://app.member.virginpulse.com/#/live-services-coaching/topics \n\n\n\n"
+                                            "Text": "BIPOC Mental Health and Wellness Resources \n\nCheck out this comprehensive guide for BIPOC mental health and wellness resources compiled by the Women's Center \n\nhttps://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRgOeNjoY8vXHxjgmwdBRyOvyB0-H9rTf5VW43__XrrDpYKW5tnyjltcor6F4vEYgX-82hW9LLJ7NSp/pubhtml?gid=1529019313&single=true\n\n\n\nLGBTQ+ Mental Health and Wellness Resources \n\nCheck out this comprehensive guide for LGBTQ+ mental health and wellness resources compiled by the Women's Center\n\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vRgOeNjoY8vXHxjgmwdBRyOvyB0-H9rTf5VW43__XrrDpYKW5tnyjltcor6F4vEYgX-82hW9LLJ7NSp/pubhtml?gid=1628978054&single=true\n\n\n\nFEAP Resources in Support of Social Justice \n\nCheck out these virtual resources regarding education, action, reflection, and self-care to help acknowledge the pain of injustices suffered, offer support to those hurting or distressed, and offfer resources for those who want to learn and respond to foster social justice. \n\nhttps://uvafeap.com/services/virtual-resources-library/resources-support-social-justice\n\n\n\nFEAP Virtual Resources for Stress Management \n\nCheck out these resources to help support your mental and emotional wellness.\n\nhttps://uvafeap.com/services/virtual-resources-library/virtual-resources-support-stress-management\n\n\n\nThe Sister Circle Program\n\nThrough the Women's Initiative, the Sister Circle program aims to address the needs of Black women living in Charlottesville.\n\nhttps://thewomensinitiative.org/sister-circle/\n\n\n\nHoosWell Emotional Well-Being Programs\n\nUVA has a variety of programs that offer you different outlets to cultivate emotional well-being, from free yoga classes to counseling!\n\nhttps://hr.virginia.edu/wellness/emotional-wellness\n\n\n\nHoosWell Portal and Rewards\n\nIt's already important to focus on your well-being, but did you know that you can be rewarded for it, too? By participating in HoosWell, you can meet new people, feel healthier, and even win monetary rewards! \n\nhttps://hr.virginia.edu/wellness/earn-rewards\n\n\n\nLive health coaching with Virgin Pulse\n\nTake advantage of unlimited access to certified Health Coaches through one-on-one conversations to establish personalized well-being goals. Open to employees (and spouses) enrolled in the UVA Health Plan or UPG Anthem Health Plan.\n\nhttps://app.member.virginpulse.com/#/live-services-coaching/topics\n\n\n\n"
                                         }
                                     }
                                 }
@@ -365,7 +321,7 @@
                                         "Buttons": [
                                             "Substance_Use::Substance Use",
                                             "Physical_Health_and_Exercise::Physical Health and Exercise",
-                                            "Relationship_with_Food::Relationship with Food",
+                                            "Nutrition::Nutrition",
                                             "Reproductive_Health::Reproductive Health"
                                         ]
                                     }
@@ -408,28 +364,28 @@
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "UVA Walking Trails\n\nThere are a lot of places to walk around Grounds. This map will help you explore all of them!\n\nhttps://hr.virginia.edu/wellness/physical-well-being/uva-walking-paths\n\n\n\nFree Group Exercise and Fitness Classes\n\nIM-Rec Sports is a proud partner with Hoos Well to help you be stronger today than you were yesterday. The gyms are open and safe, there is instructor led fitness outside, in the gym and at home. Is today the right day to start a health journey? Explore virtual and in-person drop-in classes and enrollment-based instructional programs. All Hoos Well sponsored drop-in classes and instructional programs are free for employees. Spouses enrolled in the UVA Health Plan or UPG Anthem Health Plan may also participate.\n\nhttps://recsports.virginia.edu/hoos-well\n\n\n\nFEAP Healthcare Resources\n\nCheck out this comprehensive list of local resources for various healthcare needs, including free medical and dental clinics, family planning, and prescription assistance. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/healthcare-resources\n\n\n\nHoosWell Physical Well-Being Programs\n\nLooking to develop a passion for a healthy lifestyle? HoosWell Physical Well-being Programs provide all types of tools to improve your physical well-being. \n\nhttps://hr.virginia.edu/physical-wellness\n\n\n\nHoosWell Portal and Rewards \n\nIt's already important to focus on your well-being, but did you know that you can be rewarded for it, too? By participating in HoosWell, you can meet new people, feel healthier, and even win monetary rewards! \n\nhttps://hr.virginia.edu/wellness/earn-rewards\n\n\n\nFEAP Aging Resources\n\nResources for aging needs including temporary in-home care.\n\nhttps://uvafeap.com/counseling-services/community-resources-support/aging-resources\n\n\n\nLive health coaching with Virgin Pulse\n\nTake advantage of unlimited access to certified Health Coaches through one-on-one conversations to establish personalized well-being goals. Open to employees (and spouses) enrolled in the UVA Health Plan or UPG Anthem Health Plan.\n\nhttps://app.member.virginpulse.com/#/live-services-coaching/topics\n\n\n\n"
+                                            "Text": "FEAP Healthcare Resources\n\nCheck out this comprehensive list of local resources for various healthcare needs, including free medical and dental clinics, family planning, and prescription assistance. \n\nhttps://uvafeap.com/counseling-services/community-resources-support/healthcare-resources\n\n\n\nFEAP Aging Resources\n\nResources for aging needs including temporary in-home care.\n\nhttps://uvafeap.com/counseling-services/community-resources-support/aging-resources\n\n\n\nLive health coaching with Virgin Pulse\n\nTake advantage of unlimited access to certified Health Coaches through one-on-one conversations to establish personalized well-being goals. Open to employees (and spouses) enrolled in the UVA Health Plan or UPG Anthem Health Plan.\n\nhttps://app.member.virginpulse.com/#/live-services-coaching/topics\n\n\n\nUVA Walking Trails\n\nThere are a lot of places to walk around Grounds. This map will help you explore all of them!\n\nhttps://hr.virginia.edu/wellness/physical-well-being/uva-walking-paths\n\n\n\nHoosWell Physical Well-Being Programs\n\nLooking to switch up your exercise routine or focus on your physical well-being? HoosWell offers a variety of free physical education programs, nutrition education programs, and many more strategies for prioritizing your health and well-being!\n\nhttps://hr.virginia.edu/physical-wellness\n\n\n\nHoosWell Portal & Rewards\n\nIt's already important to focus on your well-being, but did you know that you can be rewarded for it, too? By participating in HoosWell, you can meet new people, feel healthier, and even win monetary rewards! \n\nhttps://hr.virginia.edu/wellness/earn-rewards\n\n\n\nFree Group Exercise and Fitness Classes\n\nIM-Rec Sports is a proud partner with Hoos Well to help you be stronger today than you were yesterday. The gyms are open and safe, there is instructor led fitness outside, in the gym and at home. Is today the right day to start a health journey? Explore virtual and in-person drop-in classes and enrollment-based instructional programs. All Hoos Well sponsored drop-in classes and instructional programs are free for employees. Spouses enrolled in the UVA Health Plan or UPG Anthem Health Plan may also participate.\n\nhttps://recsports.virginia.edu/hoos-well\n\n\n\n"
                                         }
                                     }
                                 }
                             ]
                         },
                         {
-                            "Name": "Relationship with Food",
-                            "Title": "Physical Health: Relationship with Food",
+                            "Name": "Nutrition",
+                            "Title": "Physical Health: Nutrition",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Conditions": [
                                         {
                                             "VariableName": "subdomain_chosen",
-                                            "Value": "Relationship_with_Food"
+                                            "Value": "Nutrition"
                                         }
                                     ],
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "One-on-One Virtual Nutrition Counseling Consultation:\n\nEmployees & Spouses covered on the UVA Health Plan or UPG Anthem Health Plan receive one free, 60-minute virtual consultation with a Registered Dietitian each year! Follow up visits may be covered by your insurance and can be scheduled after the initial consultation. Visits will be conducted virtually until further notice.\n\nhttps://uvahealth.com/services/nutrition\n\n\n\nVirtual Prenatal Nutrition Counseling:\n\nMeet with a Registered Dietitian for individualized guidance on how to nourish yourself during and after pregnancy. Two free visits are included for all employees and spouses covered by the UVA Health Plan or UPG Anthem Health Plan.\n\nhttps://uvahealth.com/services/nutrition/classes\n\n\n\n"
+                                            "Text": "One-on-One Virtual Nutrition Counseling Consultation:\n\nEmployees & Spouses covered on the UVA Health Plan or UPG Anthem Health Plan receive one free, 60-minute virtual consultation with a Registered Dietitian each year! Follow up visits may be covered by your insurance and can be scheduled after the initial consultation. Visits will be conducted virtually until further notice.\n\nhttps://uvahealth.com/services/nutrition\n\n\n\n"
                                         }
                                     }
                                 }
@@ -450,7 +406,7 @@
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "Planned Parenthood\n\nCheck out Planned Parenthood for both informational resources on STDs, pregnancy, birth control options, and more, or to schedule an in-person or telehealth appointment with a medical professional. \n\nhttps://www.plannedparenthood.org/\n\n\n\nPlanned Parenthood: Pregnancy Information\n\nCheck out this resource on prenatal care, fertility treatments, pregnancy options, postpartum depression, and more! \n\nhttps://www.plannedparenthood.org/learn/pregnancy\n\n\n\nThrive Central Virginia\n\nCheck out this center for both its 24/7 helpline and both walk-in or scheduled appointments regarding pregnancy testing, confidential options counseling, abortion information, ultrasounds, pregnancy support, post-abortion care and support, and more!  \n\nhttps://thrivecentralva.org/\n\n\n\n"
+                                            "Text": "Planned Parenthood\n\nCheck out Planned Parenthood for both informational resources on STDs, pregnancy, birth control options, and more, or to schedule an in-person or telehealth appointment with a medical professional. \n\nhttps://www.plannedparenthood.org/\n\n\n\nPlanned Parenthood: Pregnancy Information\n\nCheck out this resource on prenatal care, fertility treatments, pregnancy options, postpartum depression, and more! \n\nhttps://www.plannedparenthood.org/learn/pregnancy\n\n\n\nThrive Central Virginia\n\nCheck out this center for both its 24/7 helpline and both walk-in or scheduled appointments regarding pregnancy testing, confidential options counseling, abortion information, ultrasounds, pregnancy support, post-abortion care and support, and more!  \n\nhttps://thrivecentralva.org/\n\n\n\nVirtual Prenatal Nutrition Counseling:\n\nMeet with a Registered Dietitian for individualized guidance on how to nourish yourself during and after pregnancy. Two free visits are included for all employees and spouses covered by the UVA Health Plan or UPG Anthem Health Plan.\n\nhttps://uvahealth.com/services/nutrition/classes\n\n\n\n"
                                         }
                                     }
                                 }
@@ -579,7 +535,7 @@
                                     "Inputs": {
                                         "Type": "Text",
                                         "Parameters": {
-                                            "Text": "UVA FEAP Events\n\nFEAP offers opportunities to connect with other UVA employees through events, currently over Zoom. \n\nhttps://uvafeap.com/events\n\n\n\nUVA Employee Volunteer Resource Hub\n\nVolunteering can offer a great opportunity to connect with other people across your community. The UVA Employee Volunteer Resource Hub provides a variety of volunteering opportunities within Charlottesville and beyond. \n\nhttps://hr.virginia.edu/time/volunteer-center\n\n\n\n"
+                                            "Text": "UVA FEAP Events\n\nFEAP offers opportunities to connect with other UVA employess through events, currently over Zoom. \n\nhttps://uvafeap.com/events\n\n\n\nUVA Employee Volunteer Resource Hub\n\nVolunteering can offer a great opportunity to connect with other people across your community. The UVA Employee Volunteer Resource Hub provides a variety of volunteering opportunities within Charlottesville and beyond. \n\nhttps://hr.virginia.edu/time/volunteer-center\n\n\n\n"
                                         }
                                     }
                                 }

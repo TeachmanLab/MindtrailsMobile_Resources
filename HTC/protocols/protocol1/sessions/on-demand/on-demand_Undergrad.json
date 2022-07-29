@@ -1,0 +1,788 @@
+{
+    "Name": "Undergrad",
+    "Title": "Hoos Think Calmly Resources",
+    "Sections": [
+        {
+            "Name": "Domains",
+            "Description": "The domains listed here are some areas that may cause you to feel anxious. Please select the one from which you'd like to see resources. ",
+            "Domains": [
+                {
+                    "Name": "Academics/Work/Career Development",
+                    "Title": "Academics/Work/Career Development Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Inputs": [
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "subdomain_chosen",
+                                    "VariableName": "subdomain_chosen",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Classes,_Tutoring,_and_Accomodations_::Classes, Tutoring, and Accomodations ",
+                                            "Major_and_Career_Planning_::Major and Career Planning ",
+                                            "Mentorship_and_Advising_::Mentorship and Advising ",
+                                            "Navigating_Life_at_UVA_::Navigating Life at UVA "
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Classes, Tutoring, and Accomodations ",
+                            "Title": "Academics/Work/Career Development: Classes, Tutoring, and Accomodations ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Classes,_Tutoring,_and_Accomodations_"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Lou's List \n\nDeciding what classes to enroll in next semester? Made for UVA students, Lou's List gives you an extensive list of class options. \n\nhttps://louslist.org/index.php?Semester=1212\n\n\n\nCLAS Tutoring \n\nStruggling in a chemistry, economics, math, or spanish class? This website provides information on tutoring for those subjects. \n\nhttps://college.as.virginia.edu/acad_achievement_class\n\n\n\nSchool of Engineering Tutoring \n\nStruggling in an engineering course? This website provides information on tutoring in various engineering classes. \n\nhttps://engineering.virginia.edu/current-students/current-undergraduate-students/student-support/tutoring\n\n\n\nVA Grades\n\nCurious about the grades that previous students earned in a class? VA Grades is a database that provides the typical grade earned by students in specific classes.  \n\nhttps://vagrades.com/uva\n\n\n\nThe Course Forum\n\nDeciding what classes to enroll in next semester? Created by and for UVA students, The Course Forum allows students to browse potential courses and read other students' reviews.   \n\nhttps://thecourseforum.com\n\n\n\nUVA Writing Center\n\nDon't stay stuck working on a paper! Reach out to a consultant at the UVA Writing Center.\n\nhttps://writingrhetoric.as.virginia.edu/welcome-writing-center\n\n\n\nStudent Disability Access Center\n\nThe Student Disability Access Center (SDAC) provides students with accomodations for students to ensure that all students can participate in opportunities around Grounds.  \n\nhttps://studenthealth.virginia.edu/sdac\n\n\n\nCollege Life Skills Coach\n\nHaving trouble figuring out how to make the most of your time here at UVA? Get in touch with the College Life Skills Coach who will help support and guide you. Available only for UVA students in the College of Arts and Sciences.\n\nhttps://uva.theopenscholar.com/christy-rotman\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Major and Career Planning ",
+                            "Title": "Academics/Work/Career Development: Major and Career Planning ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Major_and_Career_Planning_"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Program and Major Requirements, College of Arts and Sciences \n\nHave questions about your major requirements? Contact the Head of the Department at this link. \n\nhttps://college.as.virginia.edu/ugrad-directors\n\n\n\nProgram and Major Requirements, School of Engineering and Applied Sciences  \n\nHave questions about your major requirements? Explore them here!\n\nhttps://engineering.virginia.edu/current-students/current-undergraduate-students/degree-information/majors-and-minors; https://engineering.virginia.edu/degree-programs#accordion10660\n\n\n\nProgram and Major Requirements, School of Architecture \n\nHave questions about your major requirements? Explore them here!\n\nhttps://www.arch.virginia.edu/programs/architecture/undergraduate\n\n\n\nProgram and Major Requirements, School of Nursing\n\nHave questions about your major requirements? Explore them here!\n\nhttps://www.nursing.virginia.edu/academics/bsn/\n\n\n\nProgram and Major Requirements, School of Education and Human Development\n\nHave questions about your major requirements? Explore them here!\n\nhttps://education.virginia.edu/academic-programs\n\n\n\nProgram and Major Requirements, Frank Batten School of Leadership and Public Policy\n\nHave questions about your major requirements? Explore them here!\n\nhttps://batten.virginia.edu/academics/undergraduate-programs/bachelor-arts-public-policy-leadership/bachelor-arts-public-policy\n\n\n\nProgram and Major Requirements, McIntire School of Commerce\n\nHave questions about your major requirements? Explore them here!\n\nhttps://www.commerce.virginia.edu/bs-commerce/admissions/eligibility; http://records.ureg.virginia.edu/preview_degree_planner.php?catoid=31&poid=2754&print\n\n\n\nHandshake\n\nCareer Counseling appointments help strengthen your academic and career path. Sign up now using Handshake!\n\nhttps://career.virginia.edu/handshake\n\n\n\nUVA Career Center\n\nThe UVA Career Center houses information, tips, and job or internship ideas depending on your chosen career.\n\nhttps://career.virginia.edu/communities\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Mentorship and Advising ",
+                            "Title": "Academics/Work/Career Development: Mentorship and Advising ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Mentorship_and_Advising_"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "ODOS: FGLI Student Support\n\nSupport for first generation students is available with student groups, mentoring, and other resources here at UVA.\n\nhttps://access.odos.virginia.edu/fgli-student-support\n\n\n\nAssociation Deans' Contact Page \n\nDo you know who your Association Dean is? Similar to an academic advisor, your Dean and the department's Dean of the Day are available to support you academically. This website provides the contact information for all Association Deans at UVA (your Association Dean is based on where you lived first-year). \n\nhttps://college.as.virginia.edu/association-deans\n\n\n\nOffice of African American Affairs Peer Advisor Program\n\nThe Office of African American Affairs (OAAA) offers peer advising for Black first-year and transfer students with their college transition. \n\nhttps://oaaa.virginia.edu/peer-advisor-program-0\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Navigating Life at UVA ",
+                            "Title": "Academics/Work/Career Development: Navigating Life at UVA ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Navigating_Life_at_UVA_"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "ODOS: General Information\n\nThe Office of the Dean of Students' focus is the well-being and success of students. With access to a wide range of resources from engagement too safety, even having a dean-on-call for afterhours, they are an option for any university/student life concerns.\n\nhttps://odos.virginia.edu/about\n\n\n\nThe Undergraduate Record\n\nHave questions about being a student at UVA? Explore them here!\n\nhttp://records.ureg.virginia.edu\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Family & Home Life",
+                    "Title": "Family & Home Life Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Inputs": [
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "subdomain_chosen",
+                                    "VariableName": "subdomain_chosen",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Safety_&_Security_::Safety & Security ",
+                                            "First-Generation_Student_Support::First-Generation Student Support",
+                                            "Navigating_Family_Life_::Navigating Family Life "
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Safety & Security ",
+                            "Title": "Family & Home Life: Safety & Security ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Safety_&_Security_"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "SHE: Shelter for Help in Emergency\n\nCheck out SHE for a variety of trauma-informed services for helping victims of domestic violence and to help create a community of support.\n\nhttps://www.shelterforhelpinemergency.org/\n\n\n\nmyPlan App\n\nA free app to help with safety decisions if you, or someone  you care about, is experiencing abuse in their intimate relationship.  It\u2019s private, secure, personalized, & backed by research.\n\nhttps://www.myplanapp.org/\n\n\n\nBond- Personal Security App\n\nA free app which helps you and your loved ones stay safe with personal security services.\n\nhttps://www.ourbond.com/\n\n\n\nFree Legal Clinic through the Women's Center\n\nOffers professional, pro-bono legal advice to Charlottesville community members every month, regarding topics including harassment, eviction, landlord-tenant disputes, etc. \n\nhttps://womenscenter.virginia.edu/free-legal-clinic\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "First-Generation Student Support",
+                            "Title": "Family & Home Life: First-Generation Student Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "First-Generation_Student_Support"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Hoos First - Support for First-Gen Students\n\nFrom the Office of the Dean of Students (ODOS), Hoos First offers support for first-generation students through programming, social events, and building a network of connection.  \n\nhttps://advising.virginia.edu/resources/hoos-first-support-for-first-gen-students/\n\n\n\nFirst Generation Low Income Student Support \n\nFrom the Office of the Dean of Students (ODOS), First Generation Low Income Student Support promotes a sense of belonging, community, and connection for first-generation, low income, and military-affiliated/veteran students through programs such as one-on-one meetings, panels, and financial assistance. \n\nhttps://access.odos.virginia.edu\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Navigating Family Life ",
+                            "Title": "Family & Home Life: Navigating Family Life ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Navigating_Family_Life_"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Groceries in Charlottesville\n\nLooking for a place to go grocery shopping? Yelp offers a list of all of the grocery store options here in Charlottesville!\n\nhttps://gradstudies.virginia.edu/uva-and-charlottesville-guide\n\n\n\nGrieving: TIPS for living in a time of loss\n\nAdvice for people struggling with the loss of a loved one. Know you are never alone.\n\nhttps://womenscenter.virginia.edu/2021/03/grieving-tips-living-time-loss\n\n\n\nResources for Students with Children\n\nThe UVA Career Center offers resources to help students who have children navigate academics and career development. \n\nhttps://career.virginia.edu/specific-populations/students-children\n\n\n\nIf You're Reading This, It's Okay to Miss Home\n\nAre you struggling with homesickness? This story from a UVA student may help you feel less alone. \n\nhttp://www.ifyourereadingthis.org/letters/sarahp\n\n\n\nDealing with Homesickness\n\nThis comprehensive guide from the University of Kansas gives advice on how to cope with homesickness. \n\nhttps://caps.ku.edu/homesickness\n\n\n\nCAPS Group Therapy: Interpresonal Process Group\n\nHaving issues with family? This group helps students to understand their identity and self-worth while also learning how to improve their connections and communication with others. \n\nhttps://www.studenthealth.virginia.edu/CAPS-groups\n\n\n\nSilvercloud - Improving Relationships\n\nThrough the unversity, undegraduate students have free access to Silvercloud, an interactive mental health resource. If you're struggling with family relationships, try out their \"improving relatiinships\" goal. \n\nhttps://www.studenthealth.virginia.edu/caps-online-self-help\n\n\n\nBetter Health Channel - Family Conflict\n\nThis guide from from the Better Help Channel can help you navigate conflict that might arise with your family. \n\nhttps://www.betterhealth.vic.gov.au/health/healthyliving/family-conflict\n\n\n\nUVA International Students and Scholars Program\n\nDo you have questions about being an international student? This division of the International Studies office has a plethora of resources that can help answer all of your questions. \n\nhttps://issp.virginia.edu/purpose\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Finances",
+                    "Title": "Finances Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Inputs": [
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "subdomain_chosen",
+                                    "VariableName": "subdomain_chosen",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Loans,_Scholarships,_and_Employment::Loans, Scholarships, and Employment",
+                                            "Food_Assistance::Food Assistance"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Loans, Scholarships, and Employment",
+                            "Title": "Finances: Loans, Scholarships, and Employment",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Loans,_Scholarships,_and_Employment"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "SFS\n\nApply for scholarships and grants available through UVA!\n\nhttps://sfs.virginia.edu/financial-aid-new-applicants/financial-aid-basics/types-aid/scholarships-and-grants\n\n\n\nUVA Parents Fund\n\nIf you are facing unexpected financial hardships, the Parents Rainy Day Fund may help cover for you. \n\nhttps://giving.virginia.edu/where-to-give/parents-fund/what-we-do/grants/rainy-day-fund\n\n\n\nODOS\n\nShort-term, interest-free loans are available to help tide you over.\n\nhttps://odos.virginia.edu/emergency-financial-resources\n\n\n\nODOS\n\nEmployment opportunities are available on- and off-grounds. Check out listings that may be the right fit for you!\n\nhttps://odos.virginia.edu/employment-opportunities\n\n\n\nStudent Health and Wellness\n\nCheck out these tips to help improve your financial security.\n\nhttps://www.studenthealth.virginia.edu/financial-stability\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Food Assistance",
+                            "Title": "Finances: Food Assistance",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Food_Assistance"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Office of the Dean of Students: Food Insecurity \n\nFood Pantries are available to UVA students in need. Find On Grounds or Community resources that work for you.  \n\nhttps://odos.virginia.edu/food-insecurity\n\n\n\nUVA Community Food Pantry\n\nThe UVA Community Food Pantry, now located in Newcomb Hall, is open to all students during SAC hours. \n\nhttps://pantryatuva.org/\n\n\n\nWomen's Center\n\nThe Women's Center has a food pantry. Check out their website for more information!\n\nhttps://womenscenter.virginia.edu/food-pantry\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Mental Health",
+                    "Title": "Mental Health Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Inputs": [
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "subdomain_chosen",
+                                    "VariableName": "subdomain_chosen",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Treatment_Options::Treatment Options",
+                                            "Mindfulness::Mindfulness",
+                                            "Additional_Resources_::Additional Resources "
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Treatment Options",
+                            "Title": "Mental Health: Treatment Options",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Treatment_Options"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "CAPS Individual Therapy\n\nDon't be afraid reaching out to CAPS for free, individualized therapy.\n\nhttps://studenthealth.virginia.edu/individual-therapy\n\n\n\nCAPS Group Therapy\n\nGroup therapy can help you tackle challenging subjects while building bonds.\n\nhttps://studenthealth.virginia.edu/group-therapy\n\n\n\n CAPS \"Let's Talk\": Drop-In Consults\n\nFree consults are available globally for UVA Students. Please reach out for help if you are struggling.\n\nhttps://www.studenthealth.virginia.edu/lets-talk-drop-consults\n\n\n\nStudent Health Eating Disorders Consultation & Treatment Team\n\nResource list only; Reach out for a consultation with an eating specialist and/or healthcare provider for UVA students!\n\nhttps://studenthealth.virginia.edu/eating-disorders\n\n\n\nTimelyCare\n\nFree scheduled telehealth visits with a mental health provider for UVA students. Access 24/7 virtual care from anywhere!\n\nhttps://www.studenthealth.virginia.edu/timelycare\n\n\n\nStudent Health and Wellness - Care Management\n\nNot sure where to start? A CAPS Care Manager can help you get started and access mental health care.\n\nhttps://www.studenthealth.virginia.edu/caps-care-management\n\n\n\nHELP Line\n\nCheck out this free and confidential telephone hotline serving Albemarle County where volunteers can provide judgement-free listening and help refer you to long-term services.\n\nhttp://www.helplineuva.com/\n\n\n\nPartner for Mental Health\n\nIf you're looking to get help beyond UVA, Partner for Mental Health is a community-focused resource that offers assisstance to those experiencing mental health and addiction issues throughout Charlottesville.  \n\nhttps://partnerformentalhealth.org/\n\n\n\nThe Counseling Alliance of Virginia (CAVA)\n\nCAVA's mission is to provide an environment of support for individuals, couples, and families experiencing a wide range of life stressors in Charlottesville and Richmond. \n\nhttps://www.cavahelps.com/\n\n\n\nRegion Ten\n\nRegion Ten offers a variety of mental health services to people of all ages and backgrounds in the Charlottesville community and beyond. \n\nhttps://regionten.org/\n\n\n\nCentral Virginia Clinicans of Color Network (CVCCN)\n\nCVCCN is a supportive network that empowers clinicians of color and builds capacity for providing culturally responsive mental health treatment.\n\nhttps://cvccn.org/\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Mindfulness",
+                            "Title": "Mental Health: Mindfulness",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Mindfulness"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "UVA Mindfulness Center\n\nCheck out the Mindfulness Center for meditation and other stress-reduction online classes, events, recordings, and resources. \n\nhttps://med.virginia.edu/mindfulness-center/programs/\n\n\n\nUVA Contemplative Sciences Center\n\nCheck out the CSC for various yoga and mindfulness courses. \n\nhttps://csc.virginia.edu/feature/contemplative-classes-yoga-mindfulness-and-more\n\n\n\nCompassionate Care Initiative\n\nThe UVA School of Nursing\u2019s Compassionate Care Initiative (CCI) offers ongoing, weekly sessions on mindfulness meditation, mindful movement, yoga, and more. All drop-in sessions are free; no registration or previous experience required!\n\nhttps://cci.nursing.virginia.edu/activities/calendar/\n\n\n\nTools of Transformation from eMindful\n\nInterested in practicing mindfulness? Try eM Life, a free online mindfulness platform for UVA employees and spouses!\n\nhttps://hr.virginia.edu/wellness/emotional-well-being/mindfulness-resources/emlife\n\n\n\nMindfulness Meditation Group\n\nEach week there is a 30-minute guided meditation, followed by open discussion and questions.\n\nhttps://med.virginia.edu/mindfulness-center/continue-your-practice/\n\n\n\nMindfulness Information Videos\n\nLearn more about mindfulness from two of UVA\u2019s Mindfulness Center Instructors.\n\nhttps://med.virginia.edu/mindfulness-center/about/intro-to-mindfulness/\n\n\n\nMindfulness Recommended Reading\n\nReadings, videos, and transcripts with information on mindfulness and how to incorporate it into your lifestyle.\n\nhttps://med.virginia.edu/mindfulness-center/continue-your-practice/recommended-reading/\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Additional Resources ",
+                            "Title": "Mental Health: Additional Resources ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Additional_Resources_"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "BIPOC Mental Health and Wellness Resources \n\nCheck out this comprehensive guide for BIPOC mental health and wellness resources compiled by the Women's Center \n\nhttps://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRgOeNjoY8vXHxjgmwdBRyOvyB0-H9rTf5VW43__XrrDpYKW5tnyjltcor6F4vEYgX-82hW9LLJ7NSp/pubhtml?gid=1529019313&single=true\n\n\n\nLGBTQ+ Mental Health and Wellness Resources \n\nCheck out this comprehensive guide for LGBTQ+ mental health and wellness resources compiled by the Women's Center\n\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vRgOeNjoY8vXHxjgmwdBRyOvyB0-H9rTf5VW43__XrrDpYKW5tnyjltcor6F4vEYgX-82hW9LLJ7NSp/pubhtml?gid=1628978054&single=true\n\n\n\nIf you're reading this UVA\n\nWant to hear from other UVA students? Check out If You're Reading This UVA. \n\nhttp://www.ifyourereadingthis.org/uva\n\n\n\nUVA SHW Mental Health Emergency and Crisis Services\n\nresource list only - pamphlet of UVA's options for emergency mental health resources for when urgent care is needed.\n\nhttps://www.studenthealth.virginia.edu/sites/studenthealth.virginia.edu/files/UVASHW_MentalHealthEmCrisis.pdf\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Physical Health",
+                    "Title": "Physical Health Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Inputs": [
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "subdomain_chosen",
+                                    "VariableName": "subdomain_chosen",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Substance_Use::Substance Use",
+                                            "Physical_Health_and_Exercise::Physical Health and Exercise",
+                                            "Relationship_with_Food::Relationship with Food",
+                                            "Reproductive_Health::Reproductive Health"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Substance Use",
+                            "Title": "Physical Health: Substance Use",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Substance_Use"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Tobacco Cessation through Student Health \n\nresource list only -- The Office of Health Promotion at UVA's Student Health offers a wide range of resources for students to explore relating to the decisions they make about tobacco use.\n\nhttps://www.studenthealth.virginia.edu/tobacco-cessation\n\n\n\nFormal Substance Abuse Assessment\n\nresource list only -- At UVA\u2019s Student Health, students can receive a free and confidential substance use assessment.  Based on in-person assessment results and recommendations, follow-up care and options can be coordinated.\n\nhttps://studenthealth.virginia.edu/alcohol-tobacco-other-drugs\n\n\n\nTake an Online Self-Assessment about Substance Use\n\nBASICS is available to any UVA student who wants to assess personal risk regarding substance use, explore potential changes, and help reduce the risk for future problems associated with alcohol or other drugs.  BASICS consists of an online survey and a one-on-one conversation with a trained facilitator to receive personalized feedback.  BASICS is confidential and free of charge.\n\nTake an Online Self-Assessment\n\n\n\nCollegiate Recovery Program/Hoos in Recovery \n\nJoin a community of people who offer encouragement, understanding, and accessible tools to support you on your journey.\n\nhttps://crp.virginia.edu/\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Physical Health and Exercise",
+                            "Title": "Physical Health: Physical Health and Exercise",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Physical_Health_and_Exercise"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Mindfulness Center\n\nMindfulness meditiation improves your physical health and wellbeing. These guided meditations offered by the Mindfulness Center here at UVA may help you!\n\nhttps://med.virginia.edu/mindfulness-center/continue-your-practice/audio-recordings/\n\n\n\nUVA Intramurals\n\nPhysical exercise is important. Get involved in an intramural sport or recreation that you enjoy!\n\nhttps://recsports.virginia.edu/index\n\n\n\nWahooWell\n\nWahooWell consists of an online survey and two follow up one on one meetings. In your meetings you will be provided an opportunity to be heard, encouraged, and validated in a way that motivates you to accomplish personally meaningful goals. WahooWell is a positive, free, confidential, and non-judgmental resource.\n\nhttps://studenthealth.virginia.edu/wahoowell\n\n\n\nPeer Health Educators (PHEs)\n\nUVA undergrad students trained in health and wellness topics, deliver presentations to residence halls, fraternity/sororities (FOA approved), and student groups by request, and offer one-on-one health education consultations.\n\nhttps://www.studenthealth.virginia.edu/peer-health-educators\n\n\n\nStudent Health\n\nLook at this website if you need help navigating how to set up health insurance at UVA.\n\nhttps://www.studenthealth.virginia.edu/insurance\n\n\n\nAquatic and Fitness Center\n\nTake a look at some ways to stay active at UVA! The Fitness Center offers group and personal training.\n\nhttps://recsports.virginia.edu/afc\n\n\n\nUVA Walking Trails\n\nThere are a lot of places to walk around Grounds. This map will help you explore all of them!\n\nhttps://hr.virginia.edu/wellness/physical-well-being/uva-walking-paths\n\n\n\nTeaching Kitchen\n\nJoin students at the Teaching Kitchen at Student Health and Wellness, home to the Hoo\u2019s Cooking nutrition education and culinary skills classes, for hands-on cooking classes led by fellow students.\n\nhttps://www.studenthealth.virginia.edu/teaching-kitchen\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Relationship with Food",
+                            "Title": "Physical Health: Relationship with Food",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Relationship_with_Food"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Office of Health Promotion: Nutrition Services\n\nNutrition services are offered to anyone seeking advice and aid. \n\nhttps://studenthealth.virginia.edu/nutrition\n\n\n\nUVA Student Health Eating Disorders Consultation and Treatment Team\n\nresource list only -- Describes Student Health\u2019s team approach to care for students experiencing eating, body image, and/or exercise concerns and lists contact info and instructions for scheduling medical, nutritional, and psychological/psychiatric care appointments.\n\nhttps://www.studenthealth.virginia.edu/eating-disorders\n\n\n\nUVA Coalition on Eating Disorders & Exercise Concerns \n\nresource list only -- Committee of UVA students, faculty, and staff addressing eating disorders and exercise abuse through research, outreach, training, and resources.\n\nhttps://www.studenthealth.virginia.edu/EDEC\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Reproductive Health",
+                            "Title": "Physical Health: Reproductive Health",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Reproductive_Health"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Planned Parenthood\n\nCheck out Planned Parenthood for both informational resources on STDs, pregnancy, birth control options, and more, or to schedule an in-person or telehealth appointment with a medical professional. \n\nhttps://www.plannedparenthood.org/\n\n\n\nPlanned Parenthood: Pregnancy Information\n\nCheck out this resource on prenatal care, fertility treatments, pregnancy options, postpartum depression, and more! \n\nhttps://www.plannedparenthood.org/learn/pregnancy\n\n\n\nThrive Central Virginia\n\nCheck out this center for both its 24/7 helpline and both walk-in or scheduled appointments regarding pregnancy testing, confidential options counseling, abortion information, ultrasounds, pregnancy support, post-abortion care and support, and more!  \n\nhttps://thrivecentralva.org/\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Romantic Relationships",
+                    "Title": "Romantic Relationships Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Inputs": [
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "subdomain_chosen",
+                                    "VariableName": "subdomain_chosen",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Meeting_New_People::Meeting New People",
+                                            "Addressing_Harm_in_Relationships::Addressing Harm in Relationships",
+                                            "Gender_and_Sexuality_in_Relationships::Gender and Sexuality in Relationships",
+                                            "Improving_Relationships_and_Handling_Stress::Improving Relationships and Handling Stress"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Meeting New People",
+                            "Title": "Romantic Relationships: Meeting New People",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Meeting_New_People"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "@UVA Organizations\n\nFriendships you make in UVA clubs and organizations may lead to something more! Sign up, help out, and meet your community!\n\nhttps://atuva.student.virginia.edu/organizations\n\n\n\nJoin a CIO\n\nMeeting people at UVA can be difficult, but trying out different clubs and organizations on grounds can help you find a social circle that has common interests. \n\nhttps://atuva.student.virginia.edu/organizations\n\n\n\nThe Marriage Pact @ UVA\n\nUsing your answers to a form and a computer science algorithm, The Marriage Pact at UVA will try to find your optimal match on grounds! It works to address loneliness by matching users with other students similar to them -- and they say romance is dead!\n\nhttps://marriagepact.typeform.com/to/JyMwqGfX#ref=holdouts\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Addressing Harm in Relationships",
+                            "Title": "Romantic Relationships: Addressing Harm in Relationships",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Addressing_Harm_in_Relationships"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "myPlan App\n\nA free app to help with safety decisions if you, or someone  you care about, is experiencing abuse in their intimate relationship.  It\u2019s private, secure, personalized, & backed by research.\n\nhttps://www.myplanapp.org/\n\n\n\nSexual Assault Resource Agency (SARA)\n\nThe Sexual Assault Resource Agency (SARA) provides free, confidential support services for survivors of all genders.   \n\nhttps://saracville.org\n\n\n\nShelter for Help in Emergency (SHE)\n\nThe Shelter for Help in Emergency (SHE) offers trauma-based resources for survivors of domestic violence and aims at creating a community of empowerment and support. \n\nhttps://www.shelterforhelpinemergency.org\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Gender and Sexuality in Relationships",
+                            "Title": "Romantic Relationships: Gender and Sexuality in Relationships",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Gender_and_Sexuality_in_Relationships"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "LGBTQ+ Support Group\n\nThrough CAPS, the LGBTQ+ Support Group is a space where students can explore their gender and sexuality and is focused on fostering healthier adjustment and self-development. \n\nhttps://www.studenthealth.virginia.edu/CAPS-groups\n\n\n\nThe Women's Center Well-Being/Counseling\n\nThe Women's Center offers empowerment-based counseling that is derived from an evidence-based approach for couples.\n\nhttps://womenscenter.virginia.edu/well-being-counseling\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Improving Relationships and Handling Stress",
+                            "Title": "Romantic Relationships: Improving Relationships and Handling Stress",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Improving_Relationships_and_Handling_Stress"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "The Painful Truth About Breakups \n\nHave you recently gone through a break-up? This resource from the Jed Foundation can help you navigate the process.\n\nhttps://jedfoundation.org/resource/the-painful-truth-about-breakups/?_ga=2.205263056.1953827981.1647476211-1584038384.1647476211\n\n\n\nSmall Things Often Podcast\n\nAvailable on Spotify and Apple Podcasts, Small Things Often offers research-based tips to help you improve your relationship every Monday and Wednesday mornings. \n\nhttps://www.gottman.com/podcast/\n\n\n\nFind a Couples Therapist\n\nLooking for a couples therapist? This guide from the Gottman Institute can guide you in finding the right provider for you and your partner. \n\nhttps://www.gottman.com/couples/find-a-therapist/\n\n\n\nGottman Card Decks App\n\nAvailable on iTunes and the Google Play store, this app from the Gottman Institute offers research-based questions, statements, and ideas from improving your relationship. \n\nhttps://www.gottman.com/couples/apps/\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Social Situations",
+                    "Title": "Social Situations Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Inputs": [
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "subdomain_chosen",
+                                    "VariableName": "subdomain_chosen",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Getting_Involved::Getting Involved",
+                                            "Shared_Identities::Shared Identities",
+                                            "Social_Support::Social Support"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Getting Involved",
+                            "Title": "Social Situations: Getting Involved",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Getting_Involved"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "@UVA\n\nGet involved with an organization that interests you!\n\nhttps://atuva.student.virginia.edu/organizations\n\n\n\nJoin a CIO\n\nMeeting people at UVA can be difficult, but trying out different clubs and organizations on grounds can help you find a social circle that has common interests. \n\nhttps://atuva.student.virginia.edu/organizations\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Shared Identities",
+                            "Title": "Social Situations: Shared Identities",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Shared_Identities"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "LGBTQ Center\n\nGet involved with the LGBTQ Center for the support and new connections you deserve.\n\nhttps://lgbtq.virginia.edu/get-involved\n\n\n\nQueer Student Union\n\nJoin the Queer Student Union to be educated, empowered, and connected with other members through a range of programming and advocacy work. \n\nhttps://atuva.student.virginia.edu/organization/queerstudentunion\n\n\n\nMulticultural Student Services Advising and Personal Support\n\nMSS Professional Staff maintain an open door policy to discuss concerns related to your cultural, social, and personal development during your time at UVA.\n\nhttps://multicultural.virginia.edu/professional-staff\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Social Support",
+                            "Title": "Social Situations: Social Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Social_Support"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Hoos Connected\n\nFeeling lonely is more common than you think. Form new connections while earning credit with Hoos Connected.\n\nhttp://hoosconnecteduva.com/\n\n\n\nWahooWell\n\nComprehensive resource to help explore strengths, goals, motivations related to social wellbeing\n\nhttps://www.studenthealth.virginia.edu/wahoowell\n\n\n\nLean on Me UVA\n\nProvides peer-to-peer text lines that allow for easy access to confidential non-crisis support. Anytime you feel lonely and need someone to talk to, Lean on me will be there.\n\nhttps://lean0n.me/uva/\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Discrimination/Microaggressions",
+                    "Title": "Discrimination/Microaggressions Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Inputs": [
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "subdomain_chosen",
+                                    "VariableName": "subdomain_chosen",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Community_Support::Community Support",
+                                            "Self-Care_and_Wellness::Self-Care and Wellness",
+                                            "Activism::Activism",
+                                            "Reporting_Discrimination_and_Harassment_::Reporting Discrimination and Harassment ",
+                                            "Allyship::Allyship"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Community Support",
+                            "Title": "Discrimination/Microaggressions: Community Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Community_Support"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "LGBTQ Center \n\nGet involved with the LGBTQ Center for the support and new connections you deserve.\n\nhttps://lgbtq.virginia.edu/get-involved\n\n\n\nCultural and Ethnic Organizations @UVA\n\nInterested in joining a cultural and ethnic organization at UVA? Click on this link to discover all clubs you can join!\n\nhttps://atuva.student.virginia.edu/organizations?categories=1347\n\n\n\nMulticultural Student Center\n\nThe Multicultural Student Center offers a safe space for individuals who hold lots of different identities. Check it out!\n\nhttps://multicultural.virginia.edu/multicultural-student-center\n\n\n\nInterfaith Student Center\n\nThe Interfaith Student Center offers a safe space for students with different backgrounds and beliefs. Check it out!\n\nhttps://multicultural.virginia.edu/interfaith-student-center-ifsc\n\n\n\nLatinx Student Center\n\nThe Latinx Student Center offers a safe and inclusive space for students who identify as Latinx. Check it out!\n\nhttps://multicultural.virginia.edu/latinx-student-center\n\n\n\nOffice of African-American Affairs \n\nThe Office of African-American Affairs can offer both academic and non-academic support for students who identify as African-American. Check it out!\n\nhttps://oaaa.virginia.edu/\n\n\n\nThe Activists' Guide\n\nCharlottesville based organization that connects activists across the community and provides activisits with resources\n\nhttps://activistsguide.org\n\n\n\n5 Calls\n\nWant to demand change from your representatives but not sure where to start? 5 Calls can help demystify the process! Just enter your location, choose issues that are important to you, and the website will tell you who to call and what to say. \n\nhttps://5calls.org/\n\n\n\nThe Equity Center\n\nThe UVA Democracy Initiative Center for the Redress of Inequity through Community Engaged Scholarship (aka The Equity Center) represents a new model of community engaged scholarship, imagining the university as not just an anchor institution, but also an authentic community resource. Our community partnerships and advocacy within the University work in tandem to create a more equitable culture. \n\nhttps://virginiaequitycenter.org/\n\n\n\nUVA Voices of Equity\n\nVoices of Equity is an interactive library that contains 50 years of documents addressing racial inequity at UVA. You can explore their interactive timeline, examine trends through their analyses, and even request that additional documents be added to the website. Join the conversation today.\n\nhttps://voicesforequity.virginiaequitycenter.org\n\n\n\nJefferson School African American Heritage Center\n\nLocated in the Jefferson School City Center near the Downtown Mall , the African American Heritage Center works to honor and preserve the history of African Americans in Charlottesville. They host events, exhibitions, education opportunities, and so much more.  \n\nhttps://jeffschoolheritagecenter.org\n\n\n\nMulticultural Student Services Advising and Personal Support\n\nMSS Professional Staff maintain an open door policy to discuss concerns related to your cultural, social, and personal development during your time at UVA.\n\nhttps://multicultural.virginia.edu/professional-staff\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Self-Care and Wellness",
+                            "Title": "Discrimination/Microaggressions: Self-Care and Wellness",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Self-Care_and_Wellness"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "BIPOC Mental Health and Wellness Resources from the UVA Women's Center\n\nCheck out this comprehensive guide for BIPOC mental health and wellness resources compiled by the Women's Center at UVA.\n\nhttps://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vRgOeNjoY8vXHxjgmwdBRyOvyB0-H9rTf5VW43__XrrDpYKW5tnyjltcor6F4vEYgX-82hW9LLJ7NSp/pubhtml?gid=1529019313&single=true\n\n\n\nLGBTQ+ Mental Health and Wellness Resources from the UVA Women's Center\n\nCheck out this comprehensive guide for LGBTQ+ mental health and wellness resources compiled by the Women's Center at UVA. \n\nhttps://docs.google.com/spreadsheets/d/e/2PACX-1vRgOeNjoY8vXHxjgmwdBRyOvyB0-H9rTf5VW43__XrrDpYKW5tnyjltcor6F4vEYgX-82hW9LLJ7NSp/pubhtml?gid=1628978054&single=true\n\n\n\nSister Circle's 10 Self-Care Tips for Black Women\n\nLooking to engage in some self-care? Here's 10 ways you can!\n\nhttps://static1.squarespace.com/static/50a50853e4b013b04b89ffc5/t/5ed80f43b6b8fc226c25e275/1591218015612/2020-06+Sister+Circle+Self-Care+Tips.pdf\n\n\n\nWellness Tools from the Black Emotional and Mental Health Collective \n\nExplore different ways that you can care for your emotional and mental health with these resources compiled by the Black Emotional and Mental Health Collective.\n\nhttps://www.beam.community/tool-kits-education\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Activism",
+                            "Title": "Discrimination/Microaggressions: Activism",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Activism"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "The Charlottesville Activists' Guide\n\nCharlottesville based organization that connects activists across the community and provides activisits with resources\n\nhttps://activistsguide.org\n\n\n\nBlack Lives Matter\n\nA global network of activists whose mission is to eradicate white supremacy and empower Black communities\n\nhttps://blacklivesmatter.com/about/\n\n\n\nHuman Rights Campaign\n\nGroup striving to create equality for the LGBTQ+ community, specifically those who are trans, people of color, and HIV+, in the U.S. and the world as a whole\n\nhttps://www.hrc.org/\n\n\n\nPFLAG\n\n\"First and largest\" organization for connected to the LGTBQ+ community with over 400 chapters, including one in Charlottesvile\n\nhttps://pflag.org/\n\n\n\nNCAAP\n\nOne of the oldest activism groups, NCAAP hopes to achieve equality, both socially and politically, through eradication of discrimination while securing the academic and economic well-being of black people\n\nhttps://naacp.org/\n\n\n\n5 Calls\n\nWant to demand change from your representatives but not sure where to start? 5 Calls can help demystify the process! Just enter your location, choose issues that are important to you, and the website will tell you who to call and what to say. \n\nhttps://5calls.org/\n\n\n\nThe Equity Center\n\nThe UVA Democracy Initiative Center for the Redress of Inequity through Community Engaged Scholarship (aka The Equity Center) represents a new model of community engaged scholarship, imagining the university as not just an anchor institution, but also an authentic community resource. Our community partnerships and advocacy within the University work in tandem to create a more equitable culture. \n\nhttps://virginiaequitycenter.org/\n\n\n\nUVA Voices of Equity\n\nVoices of Equity is an interactive library that contains 50 years of documents addressing racial inequity at UVA. You can explore their interactive timeline, examine trends through their analyses, and even request that additional documents be added to the website. Join the conversation today.\n\nhttps://voicesforequity.virginiaequitycenter.org\n\n\n\nJefferson School African American Heritage Center\n\nLocated in the Jefferson School City Center near the Downtown Mall , the African American Heritage Center works to honor and preserve the history of African Americans in Charlottesville. They host events, exhibitions, education opportunities, and so much more.  \n\nhttps://jeffschoolheritagecenter.org\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Reporting Discrimination and Harassment ",
+                            "Title": "Discrimination/Microaggressions: Reporting Discrimination and Harassment ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Reporting_Discrimination_and_Harassment_"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "University Ombuds\n\nOmbuds is an independent, confidential resource that can assist faculty in resolving problems, complaints, conflicts, and other issues. \n\nhttps://eocr.virginia.edu/ombuds\n\n\n\nTitle IX and Sexual Misconduct\n\nUse this tool to initiate a Title IX or sexual misconduct complaint and/or learn more about the process of filing and the resources that are available to you. \n\nhttps://eocr.virginia.edu/reporting-prohibited-conduct-students\n\n\n\nJust Report It\n\nFaculty, students, staff, and employees may report an incident of bias/discrimination/harassment, hazing, sexual assault, sexual exploitation, intimate partner violence, stalking, sexual or gender-based harassment, complicity, or retaliation using Just Report It, the University's online incident reporting system.\n\nhttps://justreportit.virginia.edu/\n\n\n\nReporting Discrimination and Harassment \n\nUse this tool to learn more about the process of filing a discrmiination or harassment complaint and/or initiate the process of filing a complaint. \n\nhttps://eocr.virginia.edu/discrimination-and-harassment\n\n\n\nOffice for Equal Opportunity and Civil Rights\n\nThe UVA Office for Equal Opportunity and Civil Rights (EOCR) works to ensure equal opportunity and protect the civil rights of all University community members. Through EOCR, you can learn more about the process of reporting instances of mistreatment, discrimination, or harassment and initiate the process of reporting if you choose to do so.\n\nhttps://eocr.virginia.edu/\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Allyship",
+                            "Title": "Discrimination/Microaggressions: Allyship",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Allyship"
+                                        }
+                                    ],
+                                    "Inputs": {
+                                        "Type": "Text",
+                                        "Parameters": {
+                                            "Text": "Talking About Race\n\nConversations about race are important -- here's a guide from the National Museum of African-American History and Culture that can help you navigate them.\n\nhttps://nmaahc.si.edu/learn/talking-about-race\n\n\n\nThe Guide to Allyship\n\nInteretsed in learning what it takes to be an effective ally? Here's a guide. \n\nhttps://guidetoallyship.com/?fbclid=IwAR1TfKMWgVCGshdjbJaT7z5ZgVPGa76i0mzOmSVmzOgEdosOJ0j4UPFKOcQ\n\n\n\nUNC Project READY: Allies and Antiracism\n\nProject Ready is a free online professional development curriculum provides information about how to be an ally and engage in anti-racist work. \n\nhttps://ready.web.unc.edu/section-1-foundations/module-13-allies-antiracism/\n\n\n\nSupporting Asian American Individuals\n\nThis CNBC article provides some ways you can support individuals that identify as Asian American, particularly in the wake of anti-Asian violence during the COVID-19 pandemic.\n\nhttps://www.cnbc.com/2021/02/19/how-to-support-asian-american-colleagues-amid-anti-asian-violence.html\n\n\n\nAllyship and Activism Resources for the Black Community\n\nThis Google doc provides tips and strategies to engage in efffective anti-racist activism as well as educational resources such as books, movies, and podcasts. \n\nhttps://docs.google.com/document/d/1Oh6BuEqhU9y1Zrpp4Z8vVQNDYYjSB_MJTNu18PaAGls/mobilebasic\n\n\n\nLGBTQIA Allyship Tips from UC Davs\n\nThis site provides general resources tied to providing allyship to trans, intersex and asexual communities.  \n\nhttps://lgbtqia.ucdavis.edu/educated/ally-tips\n\n\n\n"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
