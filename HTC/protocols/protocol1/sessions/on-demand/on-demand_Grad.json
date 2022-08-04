@@ -11,11 +11,17 @@
                     "Title": "Academics/Work/Career Development Resources",
                     "PageGroups": [
                         {
-                            "Name": "Click on the specific topic to see associated resources.",
+                            "Name": "Which subdomain?",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
                                         {
                                             "Type": "Buttons",
                                             "Name": "subdomain_chosen",
@@ -84,11 +90,17 @@
                     "Title": "Family & Home Life Resources",
                     "PageGroups": [
                         {
-                            "Name": "Click on the specific topic to see associated resources.",
+                            "Name": "Which subdomain?",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
                                         {
                                             "Type": "Buttons",
                                             "Name": "subdomain_chosen",
@@ -181,11 +193,17 @@
                     "Title": "Finances Resources",
                     "PageGroups": [
                         {
-                            "Name": "Click on the specific topic to see associated resources.",
+                            "Name": "Which subdomain?",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
                                         {
                                             "Type": "Buttons",
                                             "Name": "subdomain_chosen",
@@ -302,11 +320,17 @@
                     "Title": "Mental Health Resources",
                     "PageGroups": [
                         {
-                            "Name": "Click on the specific topic to see associated resources.",
+                            "Name": "Which subdomain?",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
                                         {
                                             "Type": "Buttons",
                                             "Name": "subdomain_chosen",
@@ -399,11 +423,17 @@
                     "Title": "Physical Health Resources",
                     "PageGroups": [
                         {
-                            "Name": "Click on the specific topic to see associated resources.",
+                            "Name": "Which subdomain?",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
                                         {
                                             "Type": "Buttons",
                                             "Name": "subdomain_chosen",
@@ -520,11 +550,17 @@
                     "Title": "Romantic Relationships Resources",
                     "PageGroups": [
                         {
-                            "Name": "Click on the specific topic to see associated resources.",
+                            "Name": "Which subdomain?",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
                                         {
                                             "Type": "Buttons",
                                             "Name": "subdomain_chosen",
@@ -665,11 +701,17 @@
                     "Title": "Social Situations Resources",
                     "PageGroups": [
                         {
-                            "Name": "Click on the specific topic to see associated resources.",
+                            "Name": "Which subdomain?",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
                                         {
                                             "Type": "Buttons",
                                             "Name": "subdomain_chosen",
@@ -786,11 +828,17 @@
                     "Title": "Discrimination/Microaggressions Resources",
                     "PageGroups": [
                         {
-                            "Name": "Click on the specific topic to see associated resources.",
+                            "Name": "Which subdomain?",
                             "Type": "Survey",
                             "Pages": [
                                 {
                                     "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
                                         {
                                             "Type": "Buttons",
                                             "Name": "subdomain_chosen",
