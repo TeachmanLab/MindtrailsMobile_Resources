@@ -424,7 +424,7 @@
                                             "Bipolar disorder",
                                             "Eating disorder",
                                             "Personality disorder",
-                                            "I am not struggling with a mental disorder",
+                                            "^I am not struggling with a mental disorder",
                                             "^Prefer not to answer",
                                             "!Other:"
                                         ],
@@ -452,7 +452,7 @@
                                             "Social::Seeking social support (talking with non-professionals)\n\nExamples: Teacher, family member, friend, religious leader, coach",
                                             "SelfHelp::Self-guided help\n\nExamples: Self-help book, blogs, online intervention (other than Hoos Think Calmly), mobile applications",
                                             "OTC::Over-the-counter medications and/or supplements",
-                                            "None::I am not receiving help",
+                                            "^None::I am not receiving help",
                                             "^Prefer not to answer",
                                             "!Other::Other:"
                                         ],
@@ -798,7 +798,7 @@
                                             "UVA Women's Center",
                                             "UVA Writing Center",
                                             "WahooWell",
-                                            "I have not used any of these UVA resources",
+                                            "^I have not used any of these UVA resources",
                                             "!Other, please specify:"
                                         ],
                                         "Selectable": true,
@@ -1960,8 +1960,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Dislike your ideas. ",
-                                            "Support your ideas."
+                                            "Support your ideas.",
+                                            "Dislike your ideas. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Support your ideas."
@@ -2169,8 +2169,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Get sick. ",
-                                            "Not get sick. "
+                                            "Not get sick. ",
+                                            "Get sick. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Get sick. "
