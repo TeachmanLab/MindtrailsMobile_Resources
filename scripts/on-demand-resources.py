@@ -121,8 +121,6 @@ for group in on_demand_files.keys():
             }
             domain_dict["PageGroups"].append(subdomain_page_group)
 
-            ## add the text, create it as a large string of teh subdomain list separated by \n \n etc  
-
 
 
         json_dict["Sections"][0]["Domains"].append(domain_dict)
