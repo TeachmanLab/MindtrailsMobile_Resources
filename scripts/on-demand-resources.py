@@ -1,6 +1,5 @@
 import csv
 
-#on_demand_files = ["faculty_on-demand.csv", "grad_on-demand.csv", "staff_on-demand.csv", "undergrad_on-demand.csv"]
 import json
 
 on_demand_files = {
