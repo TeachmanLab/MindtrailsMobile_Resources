@@ -123,7 +123,7 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
                 "Parameters": {
                     "Text": lessons_learned_dict[domain].replace("\u2019", "'").replace(
                         "\u2013", "--").replace("\u2014", "--").replace(
-                        "\u201c", '"').replace("\u201d", '"').replace("\\", "/").replace("\u00f4", "ô"). \
+                        "\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u00f4", "ô"). \
                         strip()
                 }
 
@@ -266,6 +266,7 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
 
     page_group = {
         "Name": label,
+        "Title": label,
         "Type": "Scenario",
         "DoseSize": 1,
         "Pages": scenario_list
@@ -303,9 +304,10 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
 
 
 # if it is a resource/EMA/Tip, then we will do this. this can also be favorited
-def create_resource_page_group(type, text, title="Resource"):
+def create_resource_page_group(type, text, title="Resource", domain="noooooone"):
     resource = [{
         "Name": title,
+        "Title": "Resource: " + title,
         "CanBeFavorited": True,
         "Inputs": [{
             "Type": "Text",
@@ -315,17 +317,21 @@ def create_resource_page_group(type, text, title="Resource"):
         }]
     }]
     if type == "Tip":  # this applies to everyone
+        resource[0]["Title"] = "Apply to delay life: make it work for you"
         resource[0]["Inputs"].append({"Type": "Entry",
                                       "Name": title + "_entry"})
         resource[0]["Name"] = "Tip to Apply!"
     elif type == "ER":
+        resource[0]["Title"] = "Manage Your Feelings: " + domain# domain name
         resource[0]["Name"] = "Emotion Regulation Tip"
 
     page_group = {
-        "Name": label,
+        "Name": "Resource/Tip/ER",
+        "Title": "Resource/Tip/ER",
         "Type": "Resource/Tip/ER",
         "DoseSize": 1,
-        "Pages": resource
+        "Pages": resource,
+        "CanBeFavorited": True
     }
 
     return page_group
@@ -354,6 +360,7 @@ def create_discrimination_page(conditions_lst, text, items_lst, input_1,
                     "Value": new_value
                 }
             ],
+            "Title": title,
             "Inputs": [
                 {"Type": "Text",
                  "Parameters": {
@@ -369,8 +376,9 @@ def create_discrimination_page(conditions_lst, text, items_lst, input_1,
         }
 
     if input_1 == "Checkbox":
+        print('yes', input_name)
         add = {"Type": "Buttons",
-               "Name": input_name,
+               "VariableName": input_name,
                "Parameters": {
                    "Buttons": items_list,
                    "Selectable": True,
@@ -389,7 +397,7 @@ def create_discrimination_page(conditions_lst, text, items_lst, input_1,
 # changed show_buttons to none 6/21
 def create_survey_page(text=None, media=None, image_framed=None, other_choices=None, input_1=None, input_2=None,
                        variable_name=None, title=None, page_group=None, input_name=None, minimum=None, maximum=None,
-                       show_buttons=None, conditions_lst=None):
+                       show_buttons=None, conditions_lst=None, timeout=None):
     if conditions_lst != [''] and conditions_lst is not None:  # if conditions list isn't empty
         value = conditions_lst[1].strip()
         if "," in value:
@@ -417,7 +425,9 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
                  }]
         }
     else:
-        page_dict = {"Inputs": [
+        page_dict = {
+            "Title": title,
+            "Inputs": [
             {"Type": "Text",
              "Parameters": {
                  "Text": text}
@@ -448,7 +458,7 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
         if other_choices not in (None, ""):
             items_list = other_choices.replace("\u2019", "'").replace(
                 "\u2013", "--").replace("\u2014", "--").replace(
-                "\u201c", '"').replace("\u201d", '"').replace("\\", "/").replace("\u00f4", "ô"). \
+                "\u201c", '"').replace("\u201d", '"').replace("\\n", '\n').replace("\u00f4", "ô"). \
                 strip().split("; ")
         times = 1
         add = {}
@@ -464,7 +474,6 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
                 }
         if input_1 == "Slider" or input_2 == "Slider":
             if items_list not in (None, [""], ""):
-                print("items list is", items_list)
                 for i in range(times):  # basically if both = slider
                     add = {"Type": "Slider",
                            "Parameters": {
@@ -665,7 +674,7 @@ for group in groups.keys():
                             text = row_str[4].replace("[Scenario_Description]", scenario_description). \
                                 replace("\u2013", " - ").replace("\u2014", " - "). \
                                 replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u2019",
-                                                                                                           "'")
+                                                                                                           "'").replace("  ", " ")
                             input_1 = row_str[6]
                             input_2 = row_str[7]
 
@@ -816,7 +825,9 @@ for group in groups.keys():
                         # print("Label:", label)
                         # print("i", i)
                         # print("Puzzle text: ", puzzle_text_1)
-                        word_1 = row_1[i].split()[-1][:-1]
+                        word_1 = row_1[i].split()[-1]
+                        if row_1[i].strip()[-1] == ".":
+                            word_1 = row_1[i].split()[-1][:-1]
                         word_2 = None
                         puzzle_text_2 = None
                         puzzle_text_1 = puzzle_text_1.replace(" " + word_1, "..")
@@ -826,7 +837,8 @@ for group in groups.keys():
                         else:
                             puzzle_text_2 = row_1[i + 1]  # if there's a second puzzle
                             word_2 = row_1[i + 1].split()[-1][:-1]
-                            puzzle_text_2.replace(word_2, "..")
+                            puzzle_text_2 = puzzle_text_2.replace(" " + word_2, "..")
+                            print(puzzle_text_2)
                         comp_question = row_1[i + 2]
                         answers_lst = [row_1[i + 3], row_1[i + 4]]
                         if row_1[i + 3].strip() == "Yes":
@@ -848,6 +860,28 @@ for group in groups.keys():
                                                                 unique_image=False)
 
                         lookup[lookup_code]["anything" + str(scenario_num)] = page_group
+                        if scenario_num == 0:
+                            page_group = {"Name": "Make it your own!",
+                                          "Title": "Make it your own!",
+                                          "Type": "Survey",
+                                          "Pages": [
+
+                                          ]}
+                            make_it_your_own_text = "We want Hoos Think Calmly to meet your needs. When you complete " \
+                                    "training sessions in the app or browse resources in the on-demand " \
+                                    "resource library, you’ll notice a button that looks like a star on " \
+                                    "the top right-hand corner of your screen. By clicking on the star, " \
+                                    "you can add the info you find most helpful (e.g., short stories, " \
+                                    "tips for managing stress) to your own personal Favorites page. You " \
+                                    "can then revisit your favorite parts of the app whenever you’d like " \
+                                    "by choosing the Favorites tile from the Hoos Think Calmly homepage!"
+                            make_it_your_own_page = create_survey_page(text=make_it_your_own_text,
+                                                                       title="Make it your own!")
+                            page_group["Pages"].append(make_it_your_own_page)
+
+                            lookup[lookup_code]["Make_it_your_own" + str(scenario_num)] = page_group
+
+
                         scenario_num += 1
                 scenario_num = 0
             else:
@@ -890,13 +924,13 @@ for group in groups.keys():
                                               show_buttons=show_buttons, media=media, image_framed=image_framed,
                                               other_choices=other_choices, input_1=input_1, input_2=input_2,
                                               variable_name=variable_name, title=title, page_group=page_group,
-                                              input_name=input_name, minimum=minimum, maximum=maximum)
+                                              input_name=input_name, minimum=minimum, maximum=maximum,
+                                              timeout=timeout)
                     lookup[lookup_code][page_group]["Pages"].append(page)
 
     json_dict = {"Name": group,
                  "Title": "Hoos Think Calmly",
                  "TimeToComplete": "00:10:00",
-                 "DoseSize": 11,
                  "Sections": [
                      {
                          "Name": "BeforeDomain_1",
@@ -911,6 +945,7 @@ for group in groups.keys():
     json_dict = {"Name": group,
                  "Title": "Hoos Think Calmly",
                  "TimeToComplete": "00:10:00",
+                 "DoseSize": 11,
                  "Sections": [
                      {
                          "Name": "BeforeDomain_All",
@@ -918,7 +953,7 @@ for group in groups.keys():
                      },
                      {
                          "Name": "Domains",
-                         "Description": "The domains listed here are some areas that may cause teens to feel "
+                         "Description": "The domains listed here are some areas that may cause you to feel "
                                         "anxious. Please select the one that you'd like to work on during today's "
                                         "training. ",
                          "Domains": []
@@ -989,17 +1024,17 @@ for group in groups.keys():
                 title = d_row[0]
                 text = d_row[1].replace("\u2019", "'").replace(
                     "\u2013", "--").replace("\u2014", "--").replace(
-                    "\u201c", '"').replace("\u201d", '"').replace("\\", "/"). \
-                    strip().split("; ")
+                    "\u201c", '"').replace("\u201d", '"').strip().replace("\\n", "\n") # replace("\\", "\\")
+
                 input_1 = d_row[2]
                 participant_group = d_row[3]
                 input_name = d_row[15]
                 conditions_lst = d_row[14].split('; ')
                 items_list = d_row[7].replace("\u2019", "'").replace(
                     "\u2013", "--").replace("\u2014", "--").replace(
-                    "\u201c", '"').replace("\u201d", '"').replace("\\", "/"). \
+                    "\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
                     strip().split("; ")
-                if participant_group == group:
+                if group in participant_group:
                     discrimination_page = create_discrimination_page(conditions_lst=conditions_lst,
                                                                      text=text,
                                                                      items_lst=items_list,
@@ -1012,8 +1047,12 @@ for group in groups.keys():
             # lookup[lookup_code][page_group]["Pages"].append(page_dict)
 
         row_num = 1
+        current_domain = "Holder"
         for row in csv_reader:
             domain = row[0].strip()
+            if current_domain != domain: # when we change domains, bring row num back to 1 8/29
+                current_domain = domain
+                row_num = 1
             # domain_2 = row[1]
             # domain_3 = row[2]
             label = row[3]  # scenario name
@@ -1030,7 +1069,9 @@ for group in groups.keys():
                         }
                     scenario_num += 1
                     puzzle_text_1 = row[i]
-                    word_1 = row[i].split()[-1][:-1]
+                    word_1 = row[i].split()[-1]
+                    if row[i].strip()[-1] == ".":
+                        word_1 = row[i].split()[-1][:-1]
                     word_2 = None
                     puzzle_text_2 = None
                     puzzle_text_1 = puzzle_text_1.replace(" " + word_1, "..")
@@ -1040,7 +1081,8 @@ for group in groups.keys():
                     else:
                         puzzle_text_2 = row[i + 1]  # if there's a second puzzle
                         word_2 = row[i + 1].split()[-1][:-1]
-                        puzzle_text_2.replace(word_2, "..")
+                        puzzle_text_2 = puzzle_text_2.replace(" " + word_2, "..")
+                        print(puzzle_text_2)
                     comp_question = row[i + 2]
                     answers_lst = [row[i + 3], row[i + 4]]
                     if row[i + 3].strip() == "Yes":
@@ -1097,13 +1139,13 @@ for group in groups.keys():
                                 text = staff_resources_lookup[domain][1][0][1]
                                 staff_resources_lookup[domain][1].pop(0)
                                 staff_resources_lookup[domain][1].append([label, text])
-                            page_group = create_resource_page_group(title=label, type=type[0], text=text)
+                            page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                         if type[0] == "Tip":
                             label = tip_lst[0][0]
                             text = tip_lst[0][1]
-                            page_group = create_resource_page_group(title=label, type=type[0], text=text)
+                            page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                         if type[0] == "ER":
-                            page_group = create_resource_page_group(title=label, type=type[0], text=text)
+                            page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                         domains_dict[domain]["PageGroups"].append(page_group)
                     if row_num % 20 == 0:  # if it's a multiple of 20, add a long scenario and a resource
                         if len(long_page_groups[domain]) != 0:
@@ -1133,13 +1175,13 @@ for group in groups.keys():
                                     text = staff_resources_lookup[domain][1][0][1]
                                     staff_resources_lookup[domain][1].pop(0)
                                     staff_resources_lookup[domain][1].append([label, text])
-                                page_group = create_resource_page_group(title=label, type=type[0], text=text)
+                                page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                             if type[0] == "Tip":
                                 label = tip_lst[0][0]
                                 text = tip_lst[0][1]
-                                page_group = create_resource_page_group(title=label, type=type[0], text=text)
+                                page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                             if type[0] == "ER":
-                                page_group = create_resource_page_group(title=label, type=type[0], text=text)
+                                page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                             domains_dict[domain]["PageGroups"].append(page_group)
                 elif "Write Your Own" in label:
                     page_group = {"Name": "Write Your Own",
@@ -1163,7 +1205,6 @@ for group in groups.keys():
                                                                                                                "...")
                                 input = wyo_row[5]
                                 input_name = wyo_row[18]
-                                print(input_name, "; input name")
                                 page = create_survey_page(text=text, input_1=input, title=title, input_name=input_name)
                                 page_group["Pages"].append(page)
                     domains_dict[domain]["PageGroups"].append(page_group)

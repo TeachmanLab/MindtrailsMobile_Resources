@@ -1,12 +1,13 @@
 import csv
 
+#on_demand_files = ["faculty_on-demand.csv", "grad_on-demand.csv", "staff_on-demand.csv", "undergrad_on-demand.csv"]
 import json
 
 on_demand_files = {
-    "Staff": "staff_on-demand.csv",
-    "Undergrad": "undergrad_on-demand.csv",
-    "Grad": "graduate_on-demand.csv",
-    "Faculty": "faculty_on-demand.csv",
+    "Staff": "/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/on-demand-resources/staff_on-demand.csv",
+    "Undergrad": "/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/on-demand-resources/undergrad_on-demand.csv",
+    "Grad": "/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/on-demand-resources/graduate_on-demand.csv",
+    "Faculty": "/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/on-demand-resources/faculty_on-demand.csv",
 
 }
 
@@ -35,8 +36,12 @@ for group in on_demand_files.keys():
             resource_text = row[4]
             if subdomain not in domains[domain].keys():
                 domains[domain][subdomain] = []
+            # we could make it a list of page groups , each subdomain has a list of page groups
             if resource_text not in (None, ""):
-                domains[domain][subdomain].append("<b><font color='#9769ED'>" + resource_name + "</font></b>" + "<br><br>" + resource_text + "<br><br><a>" + resource_link + "<a><br><br><br><br>")
+                domains[domain][subdomain].append('<b><font color="#9769ED" size=6>' + resource_name + '</font></b>' +
+                                                  '<br /><br />' + resource_text + '<br /><br /><a href="' +
+                                                  resource_link + '">' + resource_link
+                                                  + "</a><br /><br /><br /><br />")
     for domain in domains.keys():
         for subdomain in domains[domain].keys():
             print("..............................................")
@@ -70,8 +75,8 @@ for group in on_demand_files.keys():
             "Name": "Which subdomain?",
             "Type": "Survey",
             "Pages": [{
-                "ShowButton": "Never",
-                "CausesNavigation": True,
+                #"ShowButtons": "Never",
+                #"CausesNavigation": True,
                 "Inputs": [{
                     "Type": "Text",
                     "Parameters": {
@@ -83,8 +88,11 @@ for group in on_demand_files.keys():
                     "Name": "subdomain_chosen",
                     "VariableName": "subdomain_chosen",
                     "Parameters": {
-                        "Buttons": []
-                    }
+                        "Buttons": [],
+                        "Selectable": True,
+                        #"CausesNavigation": True
+                    },
+
                 }]
             }]
         }
@@ -100,7 +108,7 @@ for group in on_demand_files.keys():
             text = ""
             subdomain_page_group =  {
                     "Name": subdomain,
-                    "Title": domain + ': ' + subdomain,
+                    "Title": subdomain,
                     "Type": "Survey",
                     "Pages": [
                         {
@@ -121,11 +129,13 @@ for group in on_demand_files.keys():
             }
             domain_dict["PageGroups"].append(subdomain_page_group)
 
+            ## add the text, create it as a large string of teh subdomain list separated by \n \n etc  
+
 
 
         json_dict["Sections"][0]["Domains"].append(domain_dict)
 
-    json_file = "/HTC/json_files/On-demand/on-demand_" + group + ".json"
+    json_file = "/Users/emmymandm/PycharmProjects/MindTrails/HTC/json_files/On-demand/on-demand_" + group + ".json"
     with open(json_file, 'w') as outfile:
         json.dump(json_dict, outfile, indent=4)  # data instead of json_dict
 
