@@ -2007,8 +2007,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Support your ideas.",
-                                            "Dislike your ideas. "
+                                            "Dislike your ideas. ",
+                                            "Support your ideas."
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Support your ideas."
@@ -2100,7 +2100,7 @@
                             ]
                         },
                         {
-                            "Name": "Puzzle",
+                            "Name": "Puzzle 2",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -2236,8 +2236,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not get sick. ",
-                                            "Get sick. "
+                                            "Get sick. ",
+                                            "Not get sick. "
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Get sick. "
@@ -2270,8 +2270,7 @@
                                             "I want to think more flexibly and less negatively.",
                                             "I want to be able to manage stressful situations more effectively.",
                                             "I want to reduce my stress and/or anxiety.",
-                                            "I want to practice skills",
-                                            "I've learned or am currently learning from a mental healthcare provider.",
+                                            "I want to practice skills I've learned or am currently learning from a mental healthcare provider.",
                                             "I want to maintain the gains I've made during mental health treatment.",
                                             "I want to avoid a return of anxiety and/or stress I've experienced in the past.",
                                             "!Other, please describe:"
