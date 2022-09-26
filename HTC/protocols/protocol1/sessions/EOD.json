@@ -75,10 +75,16 @@
                                     }
                                 },
                                 {
-                                    "Type": "Scheduler"
+                                    "Type": "Scheduler",
+                                    "Parameters": {
+                                        "Message": "It\u2019s time to practice thinking flexibly! Head over to Hoos Think Calmly for your scheduled session."
+                                    }
                                 },
                                 {
-                                    "Type": "Scheduler"
+                                    "Type": "Scheduler",
+                                    "Parameters": {
+                                        "Message": "It\u2019s time to practice thinking flexibly! Head over to Hoos Think Calmly for your scheduled session."
+                                    }
                                 }
                             ]
                         }
