@@ -1800,9 +1800,7 @@
                                         "Text": "Please imagine the situation as vividly as possible (i.e., so that it feels very real). Try to imagine you are actually in the situation. Play out the specific parts of the situation in your head. Try to imagine using all your senses while you think about this situation. Think about the things you would see, hear, and smell if you were really in that situation. Think about the kinds of things you would think or feel if you were actually there."
                                     }
                                 }
-                            ],
-                            "Timeout": 2,
-                            "ShowButtons": "AfterTimeout"
+                            ]
                         },
                         {
                             "Title": "Anxious imagery prime",
@@ -1836,9 +1834,7 @@
                                         ]
                                     }
                                 }
-                            ],
-                            "Timeout": 2,
-                            "ShowButtons": "AfterTimeout"
+                            ]
                         },
                         {
                             "Title": "Anxious imagery prime",
@@ -1864,9 +1860,7 @@
                                         "Selectable": true
                                     }
                                 }
-                            ],
-                            "Timeout": 2,
-                            "ShowButtons": "AfterTimeout"
+                            ]
                         },
                         {
                             "Title": "Anxious imagery prime",
@@ -1892,9 +1886,7 @@
                                         "Selectable": true
                                     }
                                 }
-                            ],
-                            "Timeout": 2,
-                            "ShowButtons": "AfterTimeout"
+                            ]
                         },
                         {
                             "Title": "Anxious imagery prime",
@@ -1920,9 +1912,7 @@
                                         "Selectable": true
                                     }
                                 }
-                            ],
-                            "Timeout": 2,
-                            "ShowButtons": "AfterTimeout"
+                            ]
                         }
                     ]
                 },
@@ -2007,8 +1997,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Support your ideas.",
-                                            "Dislike your ideas. "
+                                            "Dislike your ideas. ",
+                                            "Support your ideas."
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Support your ideas."
@@ -2143,8 +2133,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Considerate for apologizing.",
-                                            "Awkward and uncoordinated."
+                                            "Awkward and uncoordinated.",
+                                            "Considerate for apologizing."
                                         ],
                                         "ColumnCount": 2,
                                         "Answer": "Considerate for apologizing."
