@@ -10,6 +10,9 @@ import pandas as pd
 import csv
 import numpy as np
 
+def rreplace(s, old, new, occurrence):
+    li = s.rsplit(old, occurrence)
+    return new.join(li)
 
 def get_resources(file_path):
     # first do resources
@@ -110,14 +113,15 @@ tip_lst = get_tips("/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/ti
 
 
 # adds a scenario page group to scenario_list (which is passed in)
-def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1, word_1, comp_question,
-                               answers_lst, correct_answer, unique_image, word_2=None, puzzle_text_2=None,
+def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1, word_1,
+                               comp_question, answers_lst, correct_answer, unique_image, row_num, word_2=None, puzzle_text_2=None,
                                can_be_favorited=False,
                                letters_missing=1, lessons_learned=False, lessons_learned_dict=None):
     # to go within pages of the scenario page group
     if lessons_learned == True:
         scenario_list = [{
-            "Name": "Lessons Learned",
+            "Name": "Lessons Learned" + str(row_num),
+            "Title": "Lessons Learned",
             "Inputs": [{
                 "Type": "Text",
                 "Parameters": {
@@ -135,7 +139,21 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
         }]
     else:
         scenario_list = []
-
+    if letters_missing == "all" and (int(row_num) - 1) % 10 == 0: # if all letters missing, and
+        scenario_list.append({
+            "Name": label + " Instructions",
+            "Inputs": [{
+                "Type": "Text",
+                "Parameters": {
+                    "Text": "The stories you're about to see are a little bit different than ones you've "
+                            "seen before. Rather than fill in missing letters to complete the final word, "
+                            "we're going to challenge you to generate your own final word that will complete "
+                            "the story. Your goal is to think of a word that will end the story on a "
+                            "positive note. The ending doesn’t have to be so positive that it doesn’t "
+                            "seem possible, but we want you to imagine you are handling the situation well.",
+                }
+            }]
+        })
     if group == "Undergraduate":
         group_name = "undergrad"
     if group == "Graduate":
@@ -153,7 +171,7 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
                     "media/images/" + label.strip().replace(" ", "_") + ".jpeg"
 
     scenario_list.append({
-        "Name": label,
+        "Name": label + str(row_num),
         "ImageUrl": image_url,
         "ImageType": "image/jpeg",
         "Inputs": [{
@@ -192,7 +210,12 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
         scenario_list[new_index]["Inputs"][1]["Parameters"]["MissingLetterCount"] = int(letters_missing)
     elif letters_missing == "all":
         # change second input of the second page to be an entry, not a word puzzle
-        scenario_list[1]["Inputs"] = [{
+        # 9/8 Added
+        if lessons_learned == True:
+            new_index = 2
+        else:
+            new_index = 1
+        scenario_list[new_index]["Inputs"] = [{
             "Type": "Text",
             "Parameters": {"Text": puzzle_text_1}
         },
@@ -203,7 +226,7 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
         ]
     if word_2:
         scenario_list.append({
-            "Name": "Puzzle",
+            "Name": "Puzzle 2",
             "Inputs": [{
                 "Type": "Text",
 
@@ -228,44 +251,49 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
             scenario_list[2]["Inputs"][1]["Parameters"]["MissingLetterCount"] = int(letters_missing)
         elif letters_missing == "all":
             # change second input of the second page to be an entry, not a word puzzle
-            scenario_list[2]["Inputs"] = [{
+            if lessons_learned == True:
+                new_index = 3
+            else:
+                new_index = 2
+            scenario_list[new_index]["Inputs"] = [{
                 "Type": "Text",
-                "Parameters": {"Text": puzzle_text_1}
+                "Parameters": {"Text": puzzle_text_2}
             },
                 {
                     "Type": "Entry",
-                    "Name": label + "_" + domain + "_entry"
+                    "Name": label + "_" + domain + "_entry2"
                 }
             ]
-    scenario_list.append({
-        "Name": "Question",
-        "ShowButtons": "WhenCorrect",
-        "Inputs": [
-            {
-                "Type": "Text",
-                "Parameters": {
-                    "Text": comp_question
+    if letters_missing != "all":
+        scenario_list.append({
+            "Name": "Question",
+            "ShowButtons": "WhenCorrect",
+            "Inputs": [
+                {
+                    "Type": "Text",
+                    "Parameters": {
+                        "Text": comp_question
+                    }
+                },
+                {
+                    "Type": "Buttons",
+                    "Name": label + "_" + domain + "_comp_question",
+                    "CorrectFeedback": "Correct!",
+                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and "
+                                         "try again.",
+                    "CorrectScore": 0.5,
+                    "IncorrectDelay": 5000,
+                    "Parameters": {
+                        "Buttons": answers_lst,
+                        "ColumnCount": 2,
+                        "Answer": correct_answer
+                    }
                 }
-            },
-            {
-                "Type": "Buttons",
-                "Name": label + "_" + domain + "_comp_question",
-                "CorrectFeedback": "Correct!",
-                "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and "
-                                     "try again.",
-                "CorrectScore": 0.5,
-                "IncorrectDelay": 5000,
-                "Parameters": {
-                    "Buttons": answers_lst,
-                    "ColumnCount": 2,
-                    "Answer": correct_answer
-                }
-            }
-        ]
-    })
+            ]
+        })
 
     page_group = {
-        "Name": label,
+        "Name": label + "_____" + str(row_num),
         "Title": label,
         "Type": "Scenario",
         "DoseSize": 1,
@@ -307,7 +335,7 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
 def create_resource_page_group(type, text, title="Resource", domain="noooooone"):
     resource = [{
         "Name": title,
-        "Title": "Resource: " + title,
+        "Title": "Resource: " + domain,
         "CanBeFavorited": True,
         "Inputs": [{
             "Type": "Text",
@@ -317,7 +345,7 @@ def create_resource_page_group(type, text, title="Resource", domain="noooooone")
         }]
     }]
     if type == "Tip":  # this applies to everyone
-        resource[0]["Title"] = "Apply to delay life: make it work for you"
+        resource[0]["Title"] = "Apply to Daily Life: Make It Work for You!"
         resource[0]["Inputs"].append({"Type": "Entry",
                                       "Name": title + "_entry"})
         resource[0]["Name"] = "Tip to Apply!"
@@ -376,7 +404,6 @@ def create_discrimination_page(conditions_lst, text, items_lst, input_1,
         }
 
     if input_1 == "Checkbox":
-        print('yes', input_name)
         add = {"Type": "Buttons",
                "VariableName": input_name,
                "Parameters": {
@@ -529,7 +556,11 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
             add["Parameters"]["Buttons"] = new_items_list
         if input_1 == "Scheduler":
             add = {
-                "Type": "Scheduler"
+                "Type": "Scheduler",
+                "Parameters": {
+                    "Message": "It’s time to practice thinking flexibly! Head over to Hoos Think Calmly for your "
+                               "scheduled session."
+                }
             }
         if input_1 == "Checkbox" or input_2 == "Checkbox":
             for i in range(times):
@@ -830,15 +861,14 @@ for group in groups.keys():
                             word_1 = row_1[i].split()[-1][:-1]
                         word_2 = None
                         puzzle_text_2 = None
-                        puzzle_text_1 = puzzle_text_1.replace(" " + word_1, "..")
+                        puzzle_text_1 = rreplace(puzzle_text_1, " " + word_1, "..", 1)
                         # print(puzzle_text_1)
                         if "N/A" in row_1[i + 1] or row_1[i + 1] in (None, ""):
                             pass
                         else:
                             puzzle_text_2 = row_1[i + 1]  # if there's a second puzzle
                             word_2 = row_1[i + 1].split()[-1][:-1]
-                            puzzle_text_2 = puzzle_text_2.replace(" " + word_2, "..")
-                            print(puzzle_text_2)
+                            puzzle_text_2 = rreplace(puzzle_text_2, " " + word_2, "..", 1)
                         comp_question = row_1[i + 2]
                         answers_lst = [row_1[i + 3], row_1[i + 4]]
                         if row_1[i + 3].strip() == "Yes":
@@ -857,7 +887,7 @@ for group in groups.keys():
                                                                 comp_question=comp_question, answers_lst=answers_lst,
                                                                 correct_answer=correct_answer, word_2=word_2,
                                                                 puzzle_text_2=puzzle_text_2, can_be_favorited=True,
-                                                                unique_image=False)
+                                                                unique_image=False, row_num = scenario_num)
 
                         lookup[lookup_code]["anything" + str(scenario_num)] = page_group
                         if scenario_num == 0:
@@ -891,9 +921,10 @@ for group in groups.keys():
                     lookup_code = row[3] + "_" + row[2]  # this is BeforeDomain_1 for ex
                     before_after = row[3]
                     text = row[4].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u2026", "...")
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").\
+                        replace("\u2026", "...")
                     page_group = row[0]
-                    title = row[1]
+                    title = row[1].strip()
                     input_1 = row[5]
                     input_2 = row[6]
                     minimum = row[7]
@@ -955,7 +986,8 @@ for group in groups.keys():
                          "Name": "Domains",
                          "Description": "The domains listed here are some areas that may cause you to feel "
                                         "anxious. Please select the one that you'd like to work on during today's "
-                                        "training. ",
+                                        "training. \n\nWe encourage you to choose different domains to practice "
+                                   "thinking flexibly across areas of your life!",
                          "Domains": []
                      },
                      {
@@ -1051,6 +1083,7 @@ for group in groups.keys():
         for row in csv_reader:
             domain = row[0].strip()
             if current_domain != domain: # when we change domains, bring row num back to 1 8/29
+                # print(row[3])
                 current_domain = domain
                 row_num = 1
             # domain_2 = row[1]
@@ -1068,21 +1101,26 @@ for group in groups.keys():
                             "PageGroups": []
                         }
                     scenario_num += 1
-                    puzzle_text_1 = row[i]
+                    puzzle_text_1 = row[i].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").\
+                        replace("\u2026", "...").replace(",..", ",")
                     word_1 = row[i].split()[-1]
                     if row[i].strip()[-1] == ".":
                         word_1 = row[i].split()[-1][:-1]
                     word_2 = None
                     puzzle_text_2 = None
-                    puzzle_text_1 = puzzle_text_1.replace(" " + word_1, "..")
+                    puzzle_text_1 = rreplace(puzzle_text_1, " " + word_1, "..", 1)
+                    #print("last", puzzle_text_1)
+                    #print("word is", word_1)
                     # print(puzzle_text_1)
                     if "N/A" in row[i + 1] or row[i + 1] in (None, ""):
                         pass
                     else:
-                        puzzle_text_2 = row[i + 1]  # if there's a second puzzle
+                        puzzle_text_2 = row[i + 1].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").\
+                        replace("\u2026", "...")  # if there's a second puzzle
                         word_2 = row[i + 1].split()[-1][:-1]
-                        puzzle_text_2 = puzzle_text_2.replace(" " + word_2, "..")
-                        print(puzzle_text_2)
+                        puzzle_text_2 = rreplace(puzzle_text_2, " " + word_2, "..", 1)
                     comp_question = row[i + 2]
                     answers_lst = [row[i + 3], row[i + 4]]
                     if row[i + 3].strip() == "Yes":
@@ -1099,11 +1137,12 @@ for group in groups.keys():
                         letters_missing = row[28]
 
                     lessons_learned = False
-                    if row_num % 30 == 0:  # if it's a multiple of 30, we have to add a lessons learned
+                    if (row_num - 1) % 40 == 0 and (row_num - 1) != 0:  # if it's a multiple of 30, we have to add a lessons learned
                         lessons_learned = True
                     unique_image = False
                     if not (row[9].strip() == row[15].strip() == row[21].strip() == row[27].strip()):
                         unique_image = True
+                    #print("last", puzzle_text_1)
                     page_group = create_scenario_page_group(domain=domain, label=label, scenario_num=scenario_num,
                                                             group=group, puzzle_text_1=puzzle_text_1, word_1=word_1,
                                                             comp_question=comp_question, answers_lst=answers_lst,
@@ -1112,12 +1151,13 @@ for group in groups.keys():
                                                             can_be_favorited=True, letters_missing=letters_missing,
                                                             lessons_learned=lessons_learned,
                                                             lessons_learned_dict=lessons_learned_dict,
-                                                            unique_image=unique_image)
+                                                            unique_image=unique_image,
+                                                            row_num=row_num)
                     domains_dict[domain]["PageGroups"].append(page_group)
                     if row_num % 10 == 0:  # if it's a multiple of 10, add a resource/tip/ER strategy
                         choices = ["Resources", "Tip", "ER"]
                         # figure out weights with % that they make up of the pool
-                        type = random.choices(choices, weights=(50, 25, 25), k=1)
+                        type = random.choices(choices, weights=(34, 33, 33), k=1)
                         if type[0] == "Resources":
                             if group == "Undergraduate":
                                 label = undergrad_resources_lookup[domain][1][0][0]
@@ -1141,13 +1181,21 @@ for group in groups.keys():
                                 staff_resources_lookup[domain][1].append([label, text])
                             page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                         if type[0] == "Tip":
-                            label = tip_lst[0][0]
-                            text = tip_lst[0][1]
+                            tip = tip_lst.pop(0)
+                            label = tip[0]
+                            text = tip[1]
+                            tip_lst.append(tip)
                             page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                         if type[0] == "ER":
+                            ER = ER_lookup[domain][1].pop(0)
+                            label = ER[0]
+                            text = ER[1]
+                            ER_lookup[domain][1].append(ER)
+                            print(label, text)
                             page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                         domains_dict[domain]["PageGroups"].append(page_group)
-                    if row_num % 20 == 0:  # if it's a multiple of 20, add a long scenario and a resource
+                    ## HERE TO CHANGE FOR LONG SCENARIOS 9/29
+                    if row_num % 50 == 0:  # if it's a multiple of 50, add a long scenario and a resource
                         if len(long_page_groups[domain]) != 0:
                             long_page_group = long_page_groups[domain].pop()
                             domains_dict[domain]["PageGroups"].append(long_page_group)
@@ -1183,11 +1231,12 @@ for group in groups.keys():
                             if type[0] == "ER":
                                 page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
                             domains_dict[domain]["PageGroups"].append(page_group)
+                    row_num += 1
                 elif "Write Your Own" in label:
                     page_group = {"Name": "Write Your Own",
                                   "Title": "Write Your Own",
                                   "Type": "Survey",
-                                  "DoseSize": 11,
+                                  "DoseSize": 10,
                                   "Pages": [
 
                                   ]}
@@ -1207,8 +1256,52 @@ for group in groups.keys():
                                 input_name = wyo_row[18]
                                 page = create_survey_page(text=text, input_1=input, title=title, input_name=input_name)
                                 page_group["Pages"].append(page)
+
+                    # TO DO: 9/8
                     domains_dict[domain]["PageGroups"].append(page_group)
-            row_num += 1
+
+                    # now add a resource page
+                    choices = ["Resources", "Tip", "ER"]
+                    # figure out weights with % that they make up of the pool
+                    type = random.choices(choices, weights=(50, 25, 25), k=1)
+                    if type[0] == "Resources":
+                        if group == "Undergraduate":
+                            label = undergrad_resources_lookup[domain][1][0][0]
+                            text = undergrad_resources_lookup[domain][1][0][1]
+                            undergrad_resources_lookup[domain][1].pop(0)  # pop from front
+                            undergrad_resources_lookup[domain][1].append([label, text])  # place at back
+                        elif group == "Graduate":
+                            label = grad_resources_lookup[domain][1][0][0]
+                            text = grad_resources_lookup[domain][1][0][1]
+                            grad_resources_lookup[domain][1].pop(0)
+                            grad_resources_lookup[domain][1].append([label, text])
+                        elif group == "Faculty":
+                            label = faculty_resources_lookup[domain][1][0][0]
+                            text = faculty_resources_lookup[domain][1][0][1]
+                            faculty_resources_lookup[domain][1].pop(0)
+                            faculty_resources_lookup[domain][1].append([label, text])
+                        else:
+                            label = staff_resources_lookup[domain][1][0][0]
+                            text = staff_resources_lookup[domain][1][0][1]
+                            staff_resources_lookup[domain][1].pop(0)
+                            staff_resources_lookup[domain][1].append([label, text])
+                        page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                    if type[0] == "Tip":
+                        tip = tip_lst.pop(0)
+                        label = tip[0]
+                        text = tip[1]
+                        tip_lst.append(tip)
+                        page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                    if type[0] == "ER":
+                        ER = ER_lookup[domain][1].pop(0)
+                        label = ER[0]
+                        text = ER[1]
+                        ER_lookup[domain][1].append(ER)
+                        print(label, text)
+                        page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+
+                    domains_dict[domain]["PageGroups"].append(page_group)
+
 
             # we need to do if it's a multiple of 10, we add both the page group and a resource page group
             # when used, remove that resource and add it to the back
