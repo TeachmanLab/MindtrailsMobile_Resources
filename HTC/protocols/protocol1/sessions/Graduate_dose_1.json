@@ -1997,10 +1997,10 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Support your ideas.",
-                                            "Dislike your ideas. "
+                                            "Dislike your ideas. ",
+                                            "Support your ideas."
                                         ],
-                                        "ColumnCount": 2,
+                                        "ColumnCount": 1,
                                         "Answer": "Support your ideas."
                                     }
                                 }
@@ -2136,7 +2136,7 @@
                                             "Awkward and uncoordinated.",
                                             "Considerate for apologizing."
                                         ],
-                                        "ColumnCount": 2,
+                                        "ColumnCount": 1,
                                         "Answer": "Considerate for apologizing."
                                     }
                                 }
@@ -2226,10 +2226,10 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not get sick. ",
-                                            "Get sick. "
+                                            "Get sick. ",
+                                            "Not get sick. "
                                         ],
-                                        "ColumnCount": 2,
+                                        "ColumnCount": 1,
                                         "Answer": "Get sick. "
                                     }
                                 }

@@ -1997,10 +1997,10 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Support your ideas.",
-                                            "Dislike your ideas. "
+                                            "Dislike your ideas. ",
+                                            "Support your ideas."
                                         ],
-                                        "ColumnCount": 2,
+                                        "ColumnCount": 1,
                                         "Answer": "Support your ideas."
                                     }
                                 }
@@ -2133,10 +2133,10 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Awkward and uncoordinated.",
-                                            "Considerate for apologizing."
+                                            "Considerate for apologizing.",
+                                            "Awkward and uncoordinated."
                                         ],
-                                        "ColumnCount": 2,
+                                        "ColumnCount": 1,
                                         "Answer": "Considerate for apologizing."
                                     }
                                 }
@@ -2226,10 +2226,10 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Get sick. ",
-                                            "Not get sick. "
+                                            "Not get sick. ",
+                                            "Get sick. "
                                         ],
-                                        "ColumnCount": 2,
+                                        "ColumnCount": 1,
                                         "Answer": "Get sick. "
                                     }
                                 }
