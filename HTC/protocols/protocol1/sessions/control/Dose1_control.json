@@ -68,6 +68,7 @@
                                 },
                                 {
                                     "Type": "Picker",
+                                    "Name": "birthyear",
                                     "Parameters": {
                                         "Items": [
                                             "1910",
@@ -850,7 +851,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresThe Elevator",
+                                    "Name": "IBM_elevator_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -898,7 +899,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresThe Wedding Reception",
+                                    "Name": "IBM_wedding_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -946,7 +947,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresThe Job",
+                                    "Name": "IBM_job_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -994,7 +995,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresThe Loud Noise",
+                                    "Name": "IBM_noise_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -1042,7 +1043,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresMeeting a Friend",
+                                    "Name": "IBM_friend_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -1090,7 +1091,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresThe Lunch",
+                                    "Name": "IBM_lunch_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -1138,7 +1139,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresThe Scrape",
+                                    "Name": "IBM_scrape_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -1186,7 +1187,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresThe Shopping Trip",
+                                    "Name": "IBM_shopping_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -1234,7 +1235,7 @@
                                 },
                                 {
                                     "Type": "WordPuzzle",
-                                    "Name": "Interpretation Bias MeasuresThe Blood Test",
+                                    "Name": "IBM_blood_puzzle",
                                     "CorrectFeedback": "Correct!",
                                     "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and try again.",
                                     "CorrectScore": 0.5,
@@ -1267,6 +1268,917 @@
                                         ],
                                         "Selectable": true,
                                         "ColumnCount": 2
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Some questions",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Next, you will see the titles of the nine short stories you just read. After each one, you\nwill see four sentences. None of these sentences are identical to the original story, but\nsome are more similar than others.\n\nThink back to the story you read, and rate how similar each sentence is to what you\nread in the original story. We are interested in your understanding of the original story,\nwhether or not that matches what you would personally think or do in that situation."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Elevator",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE ELEVATOR: The building looks old, and as you get on the elevator...\n\nYou think that the elevator will probably break down while you are on it."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Elevator",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE ELEVATOR: The building looks old, and as you get on the elevator...\n\nYou think that you are going to like your friend's new apartment."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Elevator",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE ELEVATOR: The building looks old, and as you get on the elevator...\n\nYou think about how smelly the lobby is."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Elevator",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE ELEVATOR: The building looks old, and as you get on the elevator...\n\nYou think that riding the elevator will be safe."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Wedding Reception",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE WEDDING RECEPTION: As you enter the room...\n\nPeople in the audience laugh in appreciation."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Wedding Reception",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE WEDDING RECEPTION: As you enter the room...\n\nYou notice a friend you were hoping to see walk into the reception."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Wedding Reception",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE WEDDING RECEPTION: As you enter the room...\n\nPeople in the audience find your efforts laughable."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Wedding Reception",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE WEDDING RECEPTION: As you enter the room...\n\nYou notice someone you do not like just walked into the reception."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Job",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE JOB: You think about not having an income for a few weeks...\n\nAnd know that you can rely on your savings."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Job",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE JOB: You think about not having an income for a few weeks...\n\nAnd are excited about not having to set an alarm."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Job",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE JOB: You think about not having an income for a few weeks...\n\nAnd worry about becoming broke."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Job",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE JOB: You think about not having an income for a few weeks...\n\nAnd are sad about leaving your current coworkers."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Loud Noise",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE LOUD NOISE: As you walk downstairs...\n\nYou feel happy, and think about how lovely your house is."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_loud_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Loud Noise",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE LOUD NOISE: As you walk downstairs...\n\nYou feel afraid, and worry that you cannot handle the fear."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_loud_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Loud Noise",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE LOUD NOISE: As you walk downstairs...\n\nYou feel afraid, but you know that you can tolerate the feeling."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_loud_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Loud Noise",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE LOUD NOISE: As you walk downstairs...\n\nYou feel cold, and think about how the house needs better heating."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_loud_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Meeting a Friend",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "MEETING A FRIEND: You arrive a little late, and...\n\nOrder your favorite snack."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Meeting a Friend",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "MEETING A FRIEND: You arrive a little late, and...\n\nNotice the bar smells gross."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Meeting a Friend",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "MEETING A FRIEND: You arrive a little late, and...\n\nGet a call from your friend who is on her way, but running late."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Meeting a Friend",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "MEETING A FRIEND: You arrive a little late, and...\n\nThink your friend decided she did not want to see you."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Lunch",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE LUNCH: Your friend looks at you...\n\nBecause she thinks you are a slob."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Lunch",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE LUNCH: Your friend looks at you...\n\nAnd you frown because you forgot to bring water to lunch."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Lunch",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE LUNCH: Your friend looks at you...\n\nBecause she is paying attention as you describe your weekend plans."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Lunch",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE LUNCH: Your friend looks at you...\n\nAnd you smile because your lunch tastes good."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Scrape",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE SCRAPE: The scrape hurts a bit...\n\nAnd you think it will probably get seriously infected."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Scrape",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE SCRAPE: The scrape hurts a bit...\n\nAnd you are frustrated because you tore your shorts."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Scrape",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE SCRAPE: The scrape hurts a bit...\n\nBut you know you will be okay."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Scrape",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE SCRAPE: The scrape hurts a bit...\n\nBut you are happy that you are getting exercise."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Shopping Trip",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE SHOPPING TRIP: You think about your recent health...\n\nAnd think you are probably coming down with the strange illness."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Shopping Trip",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE SHOPPING TRIP: You think about your recent health...\n\nAnd think you are unlikely to catch the strange illness."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Shopping Trip",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE SHOPPING TRIP: You think about your recent health...\n\nAnd smile because you enjoy shopping."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Shopping Trip",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE SHOPPING TRIP: You think about your recent health...\n\nAnd feel bored of shopping."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Blood Test",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE BLOOD TEST: The doctor says he will call you in a few weeks...\n\nAnd you think about how nice your doctor is."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Blood Test",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE BLOOD TEST: The doctor says he will call you in a few weeks...\n\nAnd you are annoyed because your doctor is not very friendly."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Blood Test",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE BLOOD TEST: The doctor says he will call you in a few weeks...\n\nAnd you think that you will not be able to stand your anxiety while you wait."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "The Blood Test",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "THE BLOOD TEST: The doctor says he will call you in a few weeks..\n\nAnd you know that you can handle your anxiety while you wait."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Very different",
+                                            "Different",
+                                            "Similar",
+                                            "Very similar",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
                                     }
                                 }
                             ]
