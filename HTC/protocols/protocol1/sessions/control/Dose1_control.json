@@ -17,7 +17,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Welcome to Hoos Think Calmly! This initial session will be a bit longer than future sessions. You'll first be asked to complete some surveys about your mental health and thinking patterns. Then, we'll give you some more information about the rationale for this program and explain how to get the most out of the app. You'll have the opportunity to set up a meeting with the research team at the end of this session if you have any questions or concerns. Ready to get started? Hit the Next button below to begin filling out questionnaires."
+                                        "Text": "Welcome and thank you for participating in the Hoos Think Calmly study! You have been randomly assigned to the control group, which means you will continue to manage your stress as usual for the next eight weeks. You are currently using a more limited version of the app which gives you access to some features but not others. Starting today, you will use the app to complete a brief set of surveys every two weeks for eight weeks (five times total). After your participation in the study ends, you will be given the opportunity to try the Hoos Think Calmly intervention, and all of the app features will be unlocked. Ready to get started? Hit the Next button below to begin filling out questionnaires."
                                     }
                                 }
                             ]
@@ -2482,6 +2482,17 @@
                                             "^Prefer not to answer"
                                         ],
                                         "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Stress Scale",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Thanks for answering our questions! In two weeks, you'll get an app notification reminding you to complete the next set of surveys. In the meantime, you can explore the homepage to learn more about Hoos Think Calmly and find resources tied to different areas that may cause stress. Have any questions for us? Contact the team at HoosThinkCalmly@gmail.com! We would be happy to schedule a Zoom call to address any questions or concerns you may have."
                                     }
                                 }
                             ]
