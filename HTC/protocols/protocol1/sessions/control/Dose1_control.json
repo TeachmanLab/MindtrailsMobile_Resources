@@ -2485,9 +2485,16 @@
                                     }
                                 }
                             ]
-                        },
+                        }
+                    ]
+                },
+                {
+                    "Name": "Next steps",
+                    "Title": "Next steps",
+                    "Type": "Survey",
+                    "Pages": [
                         {
-                            "Title": "Stress Scale",
+                            "Title": "Next Steps",
                             "Inputs": [
                                 {
                                     "Type": "Text",
