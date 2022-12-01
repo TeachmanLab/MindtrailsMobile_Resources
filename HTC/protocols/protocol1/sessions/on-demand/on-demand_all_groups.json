@@ -21,6 +21,7 @@
                                 {
                                     "Type": "Buttons",
                                     "Name": "group_membership",
+                                    "VariableName": "Group_membership",
                                     "Parameters": {
                                         "Buttons": [
                                             "Undergrad::Undergraduate student",
@@ -38,10 +39,12 @@
             ]
         },
         {
-            "Conditions": {
-                "VariableName": "Group_membership",
-                "Value": "Staff"
-            },
+            "Conditions": [
+                {
+                    "VariableName": "Group_membership",
+                    "Value": "Staff"
+                }
+            ],
             "Name": "Domains",
             "Description": "Please click on any topic to learn about resources that can help you manage that part of your life. ",
             "Domains": [
@@ -980,10 +983,12 @@
             ]
         },
         {
-            "Conditions": {
-                "VariableName": "Group_membership",
-                "Value": "Undergrad"
-            },
+            "Conditions": [
+                {
+                    "VariableName": "Group_membership",
+                    "Value": "Undergrad"
+                }
+            ],
             "Name": "Domains",
             "Description": "Please click on any topic to learn about resources that can help you manage that part of your life. ",
             "Domains": [
@@ -1974,10 +1979,12 @@
             ]
         },
         {
-            "Conditions": {
-                "VariableName": "Group_membership",
-                "Value": "Grad"
-            },
+            "Conditions": [
+                {
+                    "VariableName": "Group_membership",
+                    "Value": "Grad"
+                }
+            ],
             "Name": "Domains",
             "Description": "Please click on any topic to learn about resources that can help you manage that part of your life. ",
             "Domains": [
@@ -3020,10 +3027,12 @@
             ]
         },
         {
-            "Conditions": {
-                "VariableName": "Group_membership",
-                "Value": "Faculty"
-            },
+            "Conditions": [
+                {
+                    "VariableName": "Group_membership",
+                    "Value": "Faculty"
+                }
+            ],
             "Name": "Domains",
             "Description": "Please click on any topic to learn about resources that can help you manage that part of your life. ",
             "Domains": [
