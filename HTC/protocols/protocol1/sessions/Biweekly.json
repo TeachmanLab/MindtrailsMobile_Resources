@@ -2,8 +2,6 @@
     "Name": "Track Your Progress",
     "Title": "Track Your Progress",
     "TimeToComplete": "00:5:00",
-    "DoseMethod": "OnRun",
-    "DoseBySection": true,
     "Sections": [
         {
             "Name": "Track Your Progress - Week 2",
@@ -30,7 +28,7 @@
                                             "No anxiety in the past week",
                                             "Infrequent anxiety. Felt anxious a few times.",
                                             "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
-                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Frequent anxiety. Felt anxious most of the time. It was very difficult to relax.",
                                             "Constant anxiety. Felt anxious all of the time and never really relaxed.",
                                             "^Prefer not to answer"
                                         ],
@@ -1912,7 +1910,7 @@
                                             "No anxiety in the past week",
                                             "Infrequent anxiety. Felt anxious a few times.",
                                             "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
-                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Frequent anxiety. Felt anxious most of the time. It was very difficult to relax.",
                                             "Constant anxiety. Felt anxious all of the time and never really relaxed.",
                                             "^Prefer not to answer"
                                         ],
@@ -3820,7 +3818,7 @@
                                             "No anxiety in the past week",
                                             "Infrequent anxiety. Felt anxious a few times.",
                                             "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
-                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Frequent anxiety. Felt anxious most of the time. It was very difficult to relax.",
                                             "Constant anxiety. Felt anxious all of the time and never really relaxed.",
                                             "^Prefer not to answer"
                                         ],
@@ -5776,7 +5774,7 @@
                                             "No anxiety in the past week",
                                             "Infrequent anxiety. Felt anxious a few times.",
                                             "Occasional anxiety. Felt anxious as much of the time as not. It was hard to relax.",
-                                            "Frequent anxiety. Felt anxius most of the time. It was very difficult to relax.",
+                                            "Frequent anxiety. Felt anxious most of the time. It was very difficult to relax.",
                                             "Constant anxiety. Felt anxious all of the time and never really relaxed.",
                                             "^Prefer not to answer"
                                         ],
@@ -7595,5 +7593,7 @@
                 }
             ]
         }
-    ]
+    ],
+    "DoseMethod": "OnRun",
+    "DoseBySection": true
 }

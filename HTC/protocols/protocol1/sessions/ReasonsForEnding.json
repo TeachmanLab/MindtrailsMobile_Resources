@@ -2,7 +2,6 @@
     "Name": "Reasons for Ending",
     "Title": "Reasons for Ending",
     "TimeToComplete": "00:5:00",
-    "CancelButtonText": "Exit",
     "Sections": [
         {
             "Name": "Reasons For Ending",
@@ -864,5 +863,6 @@
                 }
             ]
         }
-    ]
+    ],
+    "CancelButtonText": "Exit"
 }

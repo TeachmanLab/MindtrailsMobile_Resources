@@ -5,101 +5,17 @@ import math
 import random
 import numpy as np
 import pandas as pd
+from HTC_helpers import rreplace
+from HTC_helpers import get_resources
+from HTC_helpers import get_ER
+from HTC_helpers import get_tips
+from HTC_create_pages import create_survey_page, create_resource_page_group_new
+from HTC_create_pages import create_resource_page_group
+from HTC_create_pages import create_discrimination_page
+from HTC_create_pages import create_scenario_page_group
+from HTC_create_pages import create_json_file
 
-## FIRST GET ALL RESOURCES / TIPS
-import csv
-import numpy as np
-
-def rreplace(s, old, new, occurrence):
-    li = s.rsplit(old, occurrence)
-    return new.join(li)
-
-def get_resources(file_path):
-    # first do resources
-    academics = []
-    homelife = []
-    finances = []
-    mental = []
-    physical = []
-    social = []
-    romantic = []
-
-    resources_lookup = {
-        "Academics/Work/Career Development": [1, academics],
-        "Family & Home Life": [3, homelife],
-        "Finances": [5, finances],
-        "Mental Health": [7, mental],
-        "Physical Health": [9, physical],
-        "Social Situations": [11, social],
-        "Romantic Relationships": [13, romantic]
-    }
-
-    for domain in resources_lookup:
-        i = resources_lookup[domain][0]
-        with open(file_path, 'r') as read_obj:
-            reader = csv.reader(read_obj)
-            next(reader)
-            next(reader)
-            for row in reader:
-                resource = row[i].strip()
-                text = row[i + 1].strip() + "\n\n Go to the on-demand library to get the link to this resource."
-                if resource not in (None, ""):
-                    resources_lookup[domain][1].append([resource, text])
-    return resources_lookup
-
-
-def get_ER(file_path):
-    academics = []
-    homelife = []
-    finances = []
-    mental = []
-    physical = []
-    social = []
-    romantic = []
-
-    ER_lookup = {
-        "Academics/Work/Career Development": [1, academics],
-        "Family & Home Life": [2, homelife],
-        "Finances": [3, finances],
-        "Mental Health": [4, mental],
-        "Physical Health": [5, physical],
-        "Social Situations": [6, social],
-        "Romantic Relationships": [7, romantic]
-    }
-
-    for domain in ER_lookup:
-        i = ER_lookup[domain][0]
-        tip_num = 0
-        with open(file_path, "r") as read_obj:
-            reader = csv.reader(read_obj)
-            next(reader)
-            for row in reader:
-
-                er_strategy = row[i]
-                # print(i)
-                # print("row i", er_strategy)
-                if er_strategy not in (None, ""):
-                    tip_num += 1
-                    ER_lookup[domain][1].append(["Emotion Regulation Strategy #" + str(tip_num), er_strategy])
-
-    return ER_lookup
-
-
-def get_tips(file_path):
-    tip_lst = []
-    tip_num = 0
-    with open(file_path, "r") as read_obj:
-        reader = csv.reader(read_obj)
-        next(reader)
-        for row in reader:
-            tip = row[1]
-            if tip not in (None, ""):
-                tip_num += 1
-                tip_lst.append(["Tip #" + str(tip_num), tip])
-
-    return tip_lst
-
-
+## First, read in all resources and tips
 undergrad_resources_lookup = get_resources(file_path="/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/"
                                                      "undergrad_resources.csv")
 grad_resources_lookup = get_resources(file_path="/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/"
@@ -108,490 +24,8 @@ faculty_resources_lookup = get_resources(file_path="/Users/emmymandm/PycharmProj
                                                    "faculty_resources.csv")
 staff_resources_lookup = get_resources(file_path="/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/"
                                                  "staff_resources.csv")
-ER_lookup = get_ER(file_path="/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/ER_strategies.csv")
-tip_lst = get_tips("/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/tips.csv")
 
-
-# adds a scenario page group to scenario_list (which is passed in)
-def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1, word_1,
-                               comp_question, answers_lst, correct_answer, unique_image, row_num, word_2=None, puzzle_text_2=None,
-                               can_be_favorited=False,
-                               letters_missing=1, lessons_learned=False, lessons_learned_dict=None):
-    # to go within pages of the scenario page group
-    if lessons_learned == True:
-        scenario_list = [{
-            "Name": "Lessons Learned" + str(row_num),
-            "Title": "Lessons Learned",
-            "Inputs": [{
-                "Type": "Text",
-                "Parameters": {
-                    "Text": lessons_learned_dict[domain].replace("\u2019", "'").replace(
-                        "\u2013", "--").replace("\u2014", "--").replace(
-                        "\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u00f4", "ô"). \
-                        strip()
-                }
-
-            }, {
-                "Type": "Entry",
-                "Name": "lessons_learned_" + domain + "_" + str(scenario_num)
-            }
-            ]
-        }]
-    else:
-        scenario_list = []
-    if letters_missing == "all" and (int(row_num) - 1) % 10 == 0: # if all letters missing, and
-        scenario_list.append({
-            "Name": label + " Instructions",
-            "Inputs": [{
-                "Type": "Text",
-                "Parameters": {
-                    "Text": "The stories you're about to see are a little bit different than ones you've "
-                            "seen before. Rather than fill in missing letters to complete the final word, "
-                            "we're going to challenge you to generate your own final word that will complete "
-                            "the story. Your goal is to think of a word that will end the story on a "
-                            "positive note. The ending doesn’t have to be so positive that it doesn’t "
-                            "seem possible, but we want you to imagine you are handling the situation well.",
-                }
-            }]
-        })
-    if group == "Undergraduate":
-        group_name = "undergrad"
-    if group == "Graduate":
-        group_name = "grad"
-    if group == "Faculty":
-        group_name = "faculty"
-    else:
-        group_name = "staff"
-
-    if unique_image:
-        image_url = "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/" \
-                    "media/images/" + label.strip().replace(" ", "_") + "_" + group_name + ".jpeg"
-    else:
-        image_url = "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/" \
-                    "media/images/" + label.strip().replace(" ", "_") + ".jpeg"
-
-    scenario_list.append({
-        "Name": label + str(row_num),
-        "ImageUrl": image_url,
-        "ImageType": "image/jpeg",
-        "Inputs": [{
-            "Type": "Label",
-            "Parameters": {
-                "Text": label,
-                "Framed": True,
-            }
-        }]
-    })
-    scenario_list.append({
-        "Name": "Puzzle",
-        "Inputs": [{
-            "Type": "Text",
-            "Parameters": {"Text": puzzle_text_1}
-        },
-            {
-                "Type": "WordPuzzle",
-                "Name": label + "_" + domain + "_puzzle",
-                "CorrectFeedback": "Correct!",
-                "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment "
-                                     "and try again.",
-                "CorrectScore": 0.5,
-                "IncorrectDelay": 5000,
-                "CauseNavigation": True,
-                "Parameters": {
-                    "Words": [word_1]
-                }
-            }]
-    })
-    if letters_missing == "1" or letters_missing == "2":
-        if lessons_learned == True:
-            new_index = 2
-        else:
-            new_index = 1
-        scenario_list[new_index]["Inputs"][1]["Parameters"]["MissingLetterCount"] = int(letters_missing)
-    elif letters_missing == "all":
-        # change second input of the second page to be an entry, not a word puzzle
-        # 9/8 Added
-        if lessons_learned == True:
-            new_index = 2
-        else:
-            new_index = 1
-        scenario_list[new_index]["Inputs"] = [{
-            "Type": "Text",
-            "Parameters": {"Text": puzzle_text_1}
-        },
-            {
-                "Type": "Entry",
-                "Name": label + "_" + domain + "_entry"
-            }
-        ]
-    if word_2:
-        scenario_list.append({
-            "Name": "Puzzle 2",
-            "Inputs": [{
-                "Type": "Text",
-
-                "Parameters": {"Text": puzzle_text_2}
-            },
-                {
-                    "Type": "WordPuzzle",
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a "
-                                         "moment and try again.",
-                    "Name": label + "_" + domain + "_puzzle_word2",
-                    "CorrectScore": 0.5,
-                    "IncorrectDelay": 5000,
-                    "CauseNavigation": True,
-                    "Parameters": {
-                        "Words": [word_2]
-                    }
-
-                }]
-        })
-        if letters_missing == "1" or letters_missing == "2":
-            scenario_list[2]["Inputs"][1]["Parameters"]["MissingLetterCount"] = int(letters_missing)
-        elif letters_missing == "all":
-            # change second input of the second page to be an entry, not a word puzzle
-            if lessons_learned == True:
-                new_index = 3
-            else:
-                new_index = 2
-            scenario_list[new_index]["Inputs"] = [{
-                "Type": "Text",
-                "Parameters": {"Text": puzzle_text_2}
-            },
-                {
-                    "Type": "Entry",
-                    "Name": label + "_" + domain + "_entry2"
-                }
-            ]
-    if letters_missing != "all":
-        scenario_list.append({
-            "Name": "Question",
-            "ShowButtons": "WhenCorrect",
-            "Inputs": [
-                {
-                    "Type": "Text",
-                    "Parameters": {
-                        "Text": comp_question
-                    }
-                },
-                {
-                    "Type": "Buttons",
-                    "Name": label + "_" + domain + "_comp_question",
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and "
-                                         "try again.",
-                    "CorrectScore": 0.5,
-                    "IncorrectDelay": 5000,
-                    "Parameters": {
-                        "Buttons": answers_lst,
-                        "ColumnCount": 2,
-                        "Answer": correct_answer
-                    }
-                }
-            ]
-        })
-
-    page_group = {
-        "Name": label + "_____" + str(row_num),
-        "Title": label,
-        "Type": "Scenario",
-        "DoseSize": 1,
-        "Pages": scenario_list
-    }
-    if can_be_favorited:
-        page_group['CanBeFavorited'] = True
-
-    # TO DO: add resources
-
-    # if "[RESOURCE]" in label and domain in resources_lookup.keys():
-    #     random_i = random.randint(0, len(resources_lookup[domain][1]) - 1)
-    #     name = list(resources_lookup[domain][1])[random_i]
-    #     resource_page = {
-    #         "Name": name,
-    #         "Type": "Resource/Tip",
-    #         "DoseSize": "11",
-    #         "Pages": [{
-    #             "Name": name,
-    #             "Inputs": [{
-    #                 "Type": "Text",
-    #                 "Parameters": {
-    #                     "Text": resources_lookup[domain][1][name]
-    #                 }
-    #             }]
-    #         }]
-    #     }
-    #     if "Tip" in name:
-    #         resource_page["Inputs"].append({
-    #             "Type": "Entry",
-    #             "Name": input_name
-    #         })
-    #     page_group["Pages"].append(resource_page)
-
-    return page_group
-
-
-# if it is a resource/EMA/Tip, then we will do this. this can also be favorited
-def create_resource_page_group(type, text, title="Resource", domain="noooooone"):
-    resource = [{
-        "Name": title,
-        "Title": "Resource: " + domain,
-        "CanBeFavorited": True,
-        "Inputs": [{
-            "Type": "Text",
-            "Parameters": {
-                "Text": text,
-            }
-        }]
-    }]
-    if type == "Tip":  # this applies to everyone
-        resource[0]["Title"] = "Apply to Daily Life: Make It Work for You!"
-        resource[0]["Inputs"].append({"Type": "Entry",
-                                      "Name": title + "_entry"})
-        resource[0]["Name"] = "Tip to Apply!"
-    elif type == "ER":
-        resource[0]["Title"] = "Manage Your Feelings: " + domain# domain name
-        resource[0]["Name"] = "Emotion Regulation Tip"
-
-    page_group = {
-        "Name": "Resource/Tip/ER",
-        "Title": "Resource/Tip/ER",
-        "Type": "Resource/Tip/ER",
-        "DoseSize": 1,
-        "Pages": resource,
-        "CanBeFavorited": True
-    }
-
-    return page_group
-
-
-def create_discrimination_page(conditions_lst, text, items_lst, input_1,
-                               input_name, title):
-    if conditions_lst != ['']:  # if conditions list isn't empty
-        value = conditions_lst[1].strip()
-        if "," in value:
-            value = value.split(", ")
-            new_value = []
-            for each in value:
-                try:
-                    val = int(each)
-                    new_value.append(val)
-                except:
-                    pass
-        else:
-            new_value = value
-
-        page_dict = {
-            "Conditions": [
-                {
-                    "VariableName": conditions_lst[0].strip(),
-                    "Value": new_value
-                }
-            ],
-            "Title": title,
-            "Inputs": [
-                {"Type": "Text",
-                 "Parameters": {
-                     "Text": text}
-                 }]
-        }
-    else:
-        page_dict = {"Inputs": [
-            {"Type": "Text",
-             "Parameters": {
-                 "Text": text}
-             }]
-        }
-
-    if input_1 == "Checkbox":
-        add = {"Type": "Buttons",
-               "VariableName": input_name,
-               "Parameters": {
-                   "Buttons": items_list,
-                   "Selectable": True,
-                   "AllowMultipleSelections": True
-               }}
-        add["Parameters"]["Buttons"] = items_list
-        page_dict["Inputs"].append(add)
-    if input_1 == "Entry":
-        add = {"Type": "Entry",
-               "Name": input_name}
-        page_dict["Inputs"].append(add)
-
-    return page_dict
-
-
-# changed show_buttons to none 6/21
-def create_survey_page(text=None, media=None, image_framed=None, other_choices=None, input_1=None, input_2=None,
-                       variable_name=None, title=None, page_group=None, input_name=None, minimum=None, maximum=None,
-                       show_buttons=None, conditions_lst=None, timeout=None):
-    if conditions_lst != [''] and conditions_lst is not None:  # if conditions list isn't empty
-        value = conditions_lst[1].strip()
-        if "," in value:
-            value = value.split(", ")
-            new_value = []
-            for each in value:
-                try:
-                    val = int(each)
-                    new_value.append(val)
-                except:
-                    pass
-        else:
-            new_value = value
-        page_dict = {
-            "Conditions": [
-                {
-                    "VariableName": conditions_lst[0].strip(),
-                    "Value": new_value
-                }
-            ],
-            "Inputs": [
-                {"Type": "Text",
-                 "Parameters": {
-                     "Text": text}
-                 }]
-        }
-    else:
-        page_dict = {
-            "Title": title,
-            "Inputs": [
-            {"Type": "Text",
-             "Parameters": {
-                 "Text": text}
-             }]
-        }
-    if timeout not in (None, ""):
-        page_dict["Timeout"] = int(timeout)
-        if show_buttons not in (None, ""):
-            page_dict["ShowButtons"] = show_buttons
-    # add media
-    if media not in (None, ""):  # if there is an image/video
-        if media[-3:] == "mp4":
-            type = "video/mp4"
-        if media[-4:] == "jpeg":
-            type = "image/jpeg"
-        # add a media input:
-        media = {"Type": "Media",
-
-                 "Parameters": {
-                     "ImageUrl": media,
-                     "ImageType": type}
-                 }
-        if image_framed == "TRUE":
-            media["Frame"] = True
-        page_dict["Inputs"].append(media)
-    if input_1 not in (None, ""):
-        items_list = ""
-        if other_choices not in (None, ""):
-            items_list = other_choices.replace("\u2019", "'").replace(
-                "\u2013", "--").replace("\u2014", "--").replace(
-                "\u201c", '"').replace("\u201d", '"').replace("\\n", '\n').replace("\u00f4", "ô"). \
-                strip().split("; ")
-        times = 1
-        add = {}
-        if input_1 == input_2:
-            times = 2
-        if input_1 == "Picker" or input_2 == "Picker":
-            for i in range(times):
-                add = {
-                    "Type": "Picker",
-                    "Parameters": {
-                        "Items": items_list
-                    }
-                }
-        if input_1 == "Slider" or input_2 == "Slider":
-            if items_list not in (None, [""], ""):
-                for i in range(times):  # basically if both = slider
-                    add = {"Type": "Slider",
-                           "Parameters": {
-                               "Minimum": minimum,
-                               "Maximum": maximum,
-                               "OtherChoices": items_list
-                           }
-                           }
-            else:
-                for i in range(times):  # basically if both = slider
-                    add = {"Type": "Slider",
-                           "Parameters": {
-                               "Minimum": minimum,
-                               "Maximum": maximum
-                           }
-                           }
-        if input_1 == "Entry" or input_2 == "Entry":
-            for i in range(times):
-                add = {"Type": "Entry",
-                       "Name": input_name}
-        if input_1 == "Puzzle" or input_2 == "Puzzle":
-            for i in range(times):
-                add = {
-                    "Type": "WordPuzzle",
-                    "Name": page_group + title,
-                    "CorrectFeedback": "Correct!",
-                    "IncorrectFeedback": "Whoops! That doesn't look right. Please wait a moment and "
-                                         "try again.",
-                    "CorrectScore": 0.5,
-                    "IncorrectDelay": 5000,
-                    "CauseNavigation": True,
-                    "Parameters": {
-                        "Words": items_list
-                    }
-                }
-        if input_1 == "Buttons" or input_2 == "Buttons":
-            for i in range(times):
-                add = {"Type": "Buttons",
-                       "Name": input_name,
-                       "Parameters": {
-                           "Buttons": items_list,
-                           "Selectable": True
-                       }}
-                if items_list == ["Yes", "No"]:
-                    add["Parameters"]["ColumnCount"] = 2
-            new_items_list = []
-            for each in items_list:
-                if "Other" in each:
-                    new_items_list.append("!" + each)
-                    # add["Parameters"]["OtherValue"] = [each]
-                else:
-                    new_items_list.append(each)
-            add["Parameters"]["Buttons"] = new_items_list
-        if input_1 == "Scheduler":
-            add = {
-                "Type": "Scheduler",
-                "Parameters": {
-                    "Message": "It’s time to practice thinking flexibly! Head over to Hoos Think Calmly for your "
-                               "scheduled session."
-                }
-            }
-        if input_1 == "Checkbox" or input_2 == "Checkbox":
-            for i in range(times):
-                add = {"Type": "Buttons",
-                       "Name": input_name,
-                       "Parameters": {
-                           "Buttons": items_list,
-                           "Selectable": True,
-                           "AllowMultipleSelections": True
-                       }}
-            new_items_list = []
-            for each in items_list:
-                if "Other" in each:
-                    new_items_list.append("!" + each)
-                    # add["Parameters"]["OtherValue"] = [each]
-                elif "Prefer not to answer" in each:
-                    new_items_list.append("^Prefer not to answer")
-                else:
-                    new_items_list.append(each)
-            add["Parameters"]["Buttons"] = new_items_list
-
-        if variable_name not in (None, ""):
-            add["VariableName"] = variable_name
-        if add not in (None, ""):
-            page_dict["Inputs"].append(add)
-            if input_1 == "Scheduler":
-                page_dict["Inputs"].append(add)
-
-    return page_dict
-
-
+# Set up empty JSONs
 undergraduate_json = {}
 graduate_json = {}
 faculty_json = {}
@@ -606,40 +40,10 @@ groups = {
 
 sessionNum = 0
 for group in groups.keys():
-    lessons_learned_dict = {
-        "Academics/Work/Career Development": "Great job! You’re making great progress trying out new "
-                                             "perspectives tied to academics, work, and career development! "
-                                             "Take a few minutes to reflect on the short stories you’ve read so far. "
-                                             "What have you learned? What are your main takeaways? For instance, you "
-                                             "might notice that nobody is perfect and it’s normal to make mistakes "
-                                             "sometimes.",
-        "Family & Home Life": "Great job! You’re making great progress trying out new perspectives tied to family and "
-                              "home life! Take a few minutes to reflect on the short stories you’ve read so far. What "
-                              "have you learned? What are your main takeaways? For instance, you might notice that "
-                              "having difficult conversations can be scary, but doing so can make you feel proud of "
-                              "yourself.",
-        "Finances": "Great job! You’re making great progress trying out new perspectives tied to finances! Take a few"
-                    " minutes to reflect on the short stories you’ve read so far. What have you learned? What are your "
-                    "main takeaways? For instance, you might notice that there are many different ways to approach "
-                    "financial challenges to make them feel more manageable.",
-        "Mental Health": "Great job! You’re making great progress trying out new perspectives tied to mental health! "
-                         "Take a few minutes to reflect on the short stories you’ve read so far. What have you "
-                         "learned? What are your main takeaways? For instance, you might notice that you’re able to "
-                         "function even when you’re feeling anxious.",
-        "Physical Health": "Great job! You’re making great progress trying out new perspectives tied to physical "
-                           "health! Take a few minutes to reflect on the short stories you’ve read so far. What "
-                           "have you learned? What are your main takeaways? For instance, you might notice that "
-                           "uncomfortable sensations in your body, like a racing heartbeat, are often not dangerous.",
-        "Romantic Relationships": "Great job! You’re making great progress trying out new perspectives tied to "
-                                  "romantic relationships! Take a few minutes to reflect on the short stories you’ve "
-                                  "read so far. What have you learned? What are your main takeaways? For instance, "
-                                  "you might notice that occasional conflict is a healthy and normal part of "
-                                  "relationships.",
-        "Social Situations": "Great job! You’re making great progress trying out new perspectives tied to social "
-                             "situations! Take a few minutes to reflect on the short stories you’ve read so far. "
-                             "What have you learned? What are your main takeaways? For instance, you might notice "
-                             "that it’s not helpful to assume what other people are thinking."
-    }
+
+    ER_lookup = get_ER(file_path="/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/ER_strategies.csv")
+    tip_lst = get_tips(file_path="/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/tips.csv")
+
     # deal w/ long scenarios
     # make list of page groups
     long_page_groups = {
@@ -650,7 +54,6 @@ for group in groups.keys():
         "Finances": [],
         "Mental Health": [],
         "Romantic Relationships": [],
-        "Discrimination": []
     }
     with open("/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/HTC_long_scenarios.csv") as read_file:
         reader = csv.reader(read_file)
@@ -658,9 +61,9 @@ for group in groups.keys():
         next(reader)
         i = groups[group][1]
         for row in reader:
+
             domain = row[0].strip()
-            # domain_2 = row[1]
-            # domain_3 = row[2]
+            domain_2 = row[1]
             label = row[3]
             scenario_description = row[i]
             image = row[i + 1]
@@ -705,13 +108,15 @@ for group in groups.keys():
                             text = row_str[4].replace("[Scenario_Description]", scenario_description). \
                                 replace("\u2013", " - ").replace("\u2014", " - "). \
                                 replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u2019",
-                                                                                                           "'").replace("  ", " ")
+                                                                                                           "'").replace(
+                                "  ", " ")
                             input_1 = row_str[6]
                             input_2 = row_str[7]
 
                             if image_bool:
                                 page = {
                                     "Name": label.strip(),
+                                    "Title": label_str,
                                     "ImageUrl": image_url,
                                     "ImageType": "image/jpeg",
                                     "Inputs": [{
@@ -725,6 +130,7 @@ for group in groups.keys():
                                 # print("Creating page", label)
                                 page = {
                                     "Name": label.strip(),
+                                    "Title": label_str,
                                     "Inputs": [{
                                         "Type": "Text",
                                         "Parameters": {
@@ -781,10 +187,14 @@ for group in groups.keys():
                             image_bool = False
                             page_group["Pages"].append(page)
                 long_page_groups[domain].append(page_group)
-    # for domain in long_page_groups:
-    #     print("Domain:", domain)
-    #     for each in long_page_groups[domain]:
-    #         print(each["Name"])
+                if domain_2 not in (None, ""):
+                    long_page_groups[domain_2].append(page_group)
+
+    for domain in long_page_groups:
+        random.shuffle(long_page_groups[domain])
+        for long_scenario in long_page_groups[domain]:
+            print(long_scenario["Title"])
+
     sessionNum += 1
 
     domains_data = []
@@ -806,6 +216,10 @@ for group in groups.keys():
         biweekly_4 = {}
         biweekly_6 = {}
         biweekly_8 = {}
+        biweekly_2_control = {}
+        biweekly_4_control = {}
+        biweekly_6_control = {}
+        biweekly_8_control = {}
         reasons = {}
         control_1 = {}
 
@@ -821,6 +235,10 @@ for group in groups.keys():
                   "Biweekly_Week 4": biweekly_4,
                   "Biweekly_Week 6": biweekly_6,
                   "Biweekly_Week 8": biweekly_8,
+                  "Biweekly_Control_Week 2": biweekly_2_control,
+                  "Biweekly_Control_Week 4": biweekly_4_control,
+                  "Biweekly_Control_Week 6": biweekly_6_control,
+                  "Biweekly_Control_Week 8": biweekly_8_control,
                   "ReasonsForEnding_ReasonsForEnding": reasons
                   }
         scenario_dicts = {}
@@ -853,16 +271,13 @@ for group in groups.keys():
                         domain = row_1[0].strip()
 
                         puzzle_text_1 = row_1[i]
-                        # print("Label:", label)
-                        # print("i", i)
-                        # print("Puzzle text: ", puzzle_text_1)
+
                         word_1 = row_1[i].split()[-1]
                         if row_1[i].strip()[-1] == ".":
                             word_1 = row_1[i].split()[-1][:-1]
                         word_2 = None
                         puzzle_text_2 = None
                         puzzle_text_1 = rreplace(puzzle_text_1, " " + word_1, "..", 1)
-                        # print(puzzle_text_1)
                         if "N/A" in row_1[i + 1] or row_1[i + 1] in (None, ""):
                             pass
                         else:
@@ -887,7 +302,7 @@ for group in groups.keys():
                                                                 comp_question=comp_question, answers_lst=answers_lst,
                                                                 correct_answer=correct_answer, word_2=word_2,
                                                                 puzzle_text_2=puzzle_text_2, can_be_favorited=True,
-                                                                unique_image=False, row_num = scenario_num)
+                                                                unique_image=False, row_num=scenario_num)
 
                         lookup[lookup_code]["anything" + str(scenario_num)] = page_group
                         if scenario_num == 0:
@@ -898,19 +313,18 @@ for group in groups.keys():
 
                                           ]}
                             make_it_your_own_text = "We want Hoos Think Calmly to meet your needs. When you complete " \
-                                    "training sessions in the app or browse resources in the on-demand " \
-                                    "resource library, you’ll notice a button that looks like a star on " \
-                                    "the top right-hand corner of your screen. By clicking on the star, " \
-                                    "you can add the info you find most helpful (e.g., short stories, " \
-                                    "tips for managing stress) to your own personal Favorites page. You " \
-                                    "can then revisit your favorite parts of the app whenever you’d like " \
-                                    "by choosing the Favorites tile from the Hoos Think Calmly homepage!"
+                                                    "training sessions in the app or browse resources in the on-demand " \
+                                                    "resource library, you’ll notice a button that looks like a star on " \
+                                                    "the top right-hand corner of your screen. By clicking on the star, " \
+                                                    "you can add the info you find most helpful (e.g., short stories, " \
+                                                    "tips for managing stress) to your own personal Favorites page. You " \
+                                                    "can then revisit your favorite parts of the app whenever you’d like " \
+                                                    "by choosing the Favorites tile from the Hoos Think Calmly homepage!"
                             make_it_your_own_page = create_survey_page(text=make_it_your_own_text,
                                                                        title="Make it your own!")
                             page_group["Pages"].append(make_it_your_own_page)
 
                             lookup[lookup_code]["Make_it_your_own" + str(scenario_num)] = page_group
-
 
                         scenario_num += 1
                 scenario_num = 0
@@ -921,7 +335,7 @@ for group in groups.keys():
                     lookup_code = row[3] + "_" + row[2]  # this is BeforeDomain_1 for ex
                     before_after = row[3]
                     text = row[4].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").\
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
                         replace("\u2026", "...")
                     page_group = row[0]
                     title = row[1].strip()
@@ -987,7 +401,7 @@ for group in groups.keys():
                          "Description": "The domains listed here are some areas that may cause you to feel "
                                         "anxious. Please select the one that you'd like to work on during today's "
                                         "training. \n\nWe encourage you to choose different domains to practice "
-                                   "thinking flexibly across areas of your life!",
+                                        "thinking flexibly across areas of your life!",
                          "Domains": []
                      },
                      {
@@ -1056,8 +470,8 @@ for group in groups.keys():
                 title = d_row[0]
                 text = d_row[1].replace("\u2019", "'").replace(
                     "\u2013", "--").replace("\u2014", "--").replace(
-                    "\u201c", '"').replace("\u201d", '"').strip().replace("\\n", "\n") # replace("\\", "\\")
-
+                    "\u201c", '"').replace("\u201d", '"').strip().replace("\\n", "\n")  # replace("\\", "\\")
+                text = 'Go to the on-demand library to get the links to these resources.\n\n' + text
                 input_1 = d_row[2]
                 participant_group = d_row[3]
                 input_name = d_row[15]
@@ -1082,8 +496,10 @@ for group in groups.keys():
         current_domain = "Holder"
         for row in csv_reader:
             domain = row[0].strip()
-            if current_domain != domain: # when we change domains, bring row num back to 1 8/29
+            if current_domain != domain and domain not in (
+                    None, ""):  # when we change domains, bring row num back to 1 8/29
                 # print(row[3])
+                print("Domain is...", domain)
                 current_domain = domain
                 row_num = 1
             # domain_2 = row[1]
@@ -1102,7 +518,7 @@ for group in groups.keys():
                         }
                     scenario_num += 1
                     puzzle_text_1 = row[i].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").\
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
                         replace("\u2026", "...").replace(",..", ",")
                     word_1 = row[i].split()[-1]
                     if row[i].strip()[-1] == ".":
@@ -1110,15 +526,14 @@ for group in groups.keys():
                     word_2 = None
                     puzzle_text_2 = None
                     puzzle_text_1 = rreplace(puzzle_text_1, " " + word_1, "..", 1)
-                    #print("last", puzzle_text_1)
-                    #print("word is", word_1)
-                    # print(puzzle_text_1)
+
                     if "N/A" in row[i + 1] or row[i + 1] in (None, ""):
                         pass
                     else:
-                        puzzle_text_2 = row[i + 1].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").\
-                        replace("\u2026", "...")  # if there's a second puzzle
+                        puzzle_text_2 = row[i + 1].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014",
+                                                                                                           " - "). \
+                            replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
+                            replace("\u2026", "...")  # if there's a second puzzle
                         word_2 = row[i + 1].split()[-1][:-1]
                         puzzle_text_2 = rreplace(puzzle_text_2, " " + word_2, "..", 1)
                     comp_question = row[i + 2]
@@ -1137,12 +552,12 @@ for group in groups.keys():
                         letters_missing = row[28]
 
                     lessons_learned = False
-                    if (row_num - 1) % 40 == 0 and (row_num - 1) != 0:  # if it's a multiple of 30, we have to add a lessons learned
+                    if (row_num - 1) % 40 == 0 and (
+                            row_num - 1) != 0:  # if it's a multiple of 30, we have to add a lessons learned
                         lessons_learned = True
                     unique_image = False
                     if not (row[9].strip() == row[15].strip() == row[21].strip() == row[27].strip()):
                         unique_image = True
-                    #print("last", puzzle_text_1)
                     page_group = create_scenario_page_group(domain=domain, label=label, scenario_num=scenario_num,
                                                             group=group, puzzle_text_1=puzzle_text_1, word_1=word_1,
                                                             comp_question=comp_question, answers_lst=answers_lst,
@@ -1150,89 +565,112 @@ for group in groups.keys():
                                                             puzzle_text_2=puzzle_text_2,
                                                             can_be_favorited=True, letters_missing=letters_missing,
                                                             lessons_learned=lessons_learned,
-                                                            lessons_learned_dict=lessons_learned_dict,
                                                             unique_image=unique_image,
                                                             row_num=row_num)
                     domains_dict[domain]["PageGroups"].append(page_group)
                     if row_num % 10 == 0:  # if it's a multiple of 10, add a resource/tip/ER strategy
-                        choices = ["Resources", "Tip", "ER"]
-                        # figure out weights with % that they make up of the pool
-                        type = random.choices(choices, weights=(34, 33, 33), k=1)
-                        if type[0] == "Resources":
-                            if group == "Undergraduate":
-                                label = undergrad_resources_lookup[domain][1][0][0]
-                                text = undergrad_resources_lookup[domain][1][0][1]
-                                undergrad_resources_lookup[domain][1].pop(0)  # pop from front
-                                undergrad_resources_lookup[domain][1].append([label, text])  # place at back
-                            elif group == "Graduate":
-                                label = grad_resources_lookup[domain][1][0][0]
-                                text = grad_resources_lookup[domain][1][0][1]
-                                grad_resources_lookup[domain][1].pop(0)
-                                grad_resources_lookup[domain][1].append([label, text])
-                            elif group == "Faculty":
-                                label = faculty_resources_lookup[domain][1][0][0]
-                                text = faculty_resources_lookup[domain][1][0][1]
-                                faculty_resources_lookup[domain][1].pop(0)
-                                faculty_resources_lookup[domain][1].append([label, text])
-                            else:
-                                label = staff_resources_lookup[domain][1][0][0]
-                                text = staff_resources_lookup[domain][1][0][1]
-                                staff_resources_lookup[domain][1].pop(0)
-                                staff_resources_lookup[domain][1].append([label, text])
-                            page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
-                        if type[0] == "Tip":
-                            tip = tip_lst.pop(0)
-                            label = tip[0]
-                            text = tip[1]
-                            tip_lst.append(tip)
-                            page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
-                        if type[0] == "ER":
-                            ER = ER_lookup[domain][1].pop(0)
-                            label = ER[0]
-                            text = ER[1]
-                            ER_lookup[domain][1].append(ER)
-                            print(label, text)
-                            page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                        # new 12/13
+                        if group == "Undergraduate":
+                            resources_lookup = undergrad_resources_lookup
+                        elif group == "Graduate":
+                            resources_lookup = grad_resources_lookup
+                        elif group == "Staff":
+                            resources_lookup = staff_resources_lookup
+                        else:
+                            resources_lookup = faculty_resources_lookup
+
+                        page_group = create_resource_page_group_new(resources_lookup, tip_lst, ER_lookup, domain)
                         domains_dict[domain]["PageGroups"].append(page_group)
-                    ## HERE TO CHANGE FOR LONG SCENARIOS 9/29
+                        # new 12/13
+
+                        #
+                        # choices = ["Resources", "Tip", "ER"]
+                        # # figure out weights with % that they make up of the pool
+                        # type = random.choices(choices, weights=(34, 33, 33), k=1)
+                        #
+                        #
+                        #
+                        # if type[0] == "Resources":
+                        #     if group == "Undergraduate":
+                        #         label = undergrad_resources_lookup[domain][1][0][0]
+                        #         text = undergrad_resources_lookup[domain][1][0][1]
+                        #         undergrad_resources_lookup[domain][1].pop(0)  # pop from front
+                        #         undergrad_resources_lookup[domain][1].append([label, text])  # place at back
+                        #         text = label + "\n\n" + text
+                        #     elif group == "Graduate":
+                        #         label = grad_resources_lookup[domain][1][0][0]
+                        #         text = grad_resources_lookup[domain][1][0][1]
+                        #         grad_resources_lookup[domain][1].pop(0)
+                        #         grad_resources_lookup[domain][1].append([label, text])
+                        #         text = label + "\n\n" + text
+                        #     elif group == "Faculty":
+                        #         label = faculty_resources_lookup[domain][1][0][0]
+                        #         text = faculty_resources_lookup[domain][1][0][1]
+                        #         faculty_resources_lookup[domain][1].pop(0)
+                        #         faculty_resources_lookup[domain][1].append([label, text])
+                        #         text = label + "\n\n" + text
+                        #     else:
+                        #         label = staff_resources_lookup[domain][1][0][0]
+                        #         text = staff_resources_lookup[domain][1][0][1]
+                        #
+                        #         staff_resources_lookup[domain][1].pop(0)
+                        #         staff_resources_lookup[domain][1].append([label, text])
+                        #         text = label + "\n\n" + text
+                        #     page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                        # elif type[0] == "Tip":
+                        #     tip = tip_lst.pop(0)
+                        #     label = tip[0]
+                        #     text = tip[1]
+                        #     tip_lst.append(tip)
+                        #     page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                        # elif type[0] == "ER":
+                        #     ER = ER_lookup[domain][1].pop(0)
+                        #     label = ER[0]
+                        #     text = ER[1]
+                        #     ER_lookup[domain][1].append(ER)
+                        #     page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                        #domains_dict[domain]["PageGroups"].append(page_group)
+
                     if row_num % 50 == 0:  # if it's a multiple of 50, add a long scenario and a resource
-                        if len(long_page_groups[domain]) != 0:
-                            long_page_group = long_page_groups[domain].pop()
+                        print(len(long_page_groups[domain]))
+                        if len(long_page_groups[domain]) != 0: # check to see there are still long scenarios left
+                            # new
+                            long_page_group = long_page_groups[domain].pop(0)
+                            long_page_groups[domain].append(long_page_group)
+
+                            # new
+
+                            # old , uncomment
+                            # long_page_group = long_page_groups[domain].pop()
+
                             domains_dict[domain]["PageGroups"].append(long_page_group)
-                            choices = ["Resources", "Tip", "ER"]
-                            # figure out weights with % that they make up of the pool
-                            type = random.choices(choices, weights=(50, 25, 25), k=1)
-                            if type[0] == "Resources":
-                                if group == "Undergraduate":
-                                    label = undergrad_resources_lookup[domain][1][0][0]
-                                    text = undergrad_resources_lookup[domain][1][0][1]
-                                    undergrad_resources_lookup[domain][1].pop(0)  # pop from front
-                                    undergrad_resources_lookup[domain][1].append([label, text])  # place at back
-                                elif group == "Graduate":
-                                    label = grad_resources_lookup[domain][1][0][0]
-                                    text = grad_resources_lookup[domain][1][0][1]
-                                    grad_resources_lookup[domain][1].pop(0)
-                                    grad_resources_lookup[domain][1].append([label, text])
-                                elif group == "Faculty":
-                                    label = faculty_resources_lookup[domain][1][0][0]
-                                    text = faculty_resources_lookup[domain][1][0][1]
-                                    faculty_resources_lookup[domain][1].pop(0)
-                                    faculty_resources_lookup[domain][1].append([label, text])
-                                else:
-                                    label = staff_resources_lookup[domain][1][0][0]
-                                    text = staff_resources_lookup[domain][1][0][1]
-                                    staff_resources_lookup[domain][1].pop(0)
-                                    staff_resources_lookup[domain][1].append([label, text])
-                                page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
-                            if type[0] == "Tip":
-                                label = tip_lst[0][0]
-                                text = tip_lst[0][1]
-                                page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
-                            if type[0] == "ER":
-                                page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                            if group == "Undergraduate":
+                                resources_lookup = undergrad_resources_lookup
+                            elif group == "Graduate":
+                                resources_lookup = grad_resources_lookup
+                            elif group == "Staff":
+                                resources_lookup = staff_resources_lookup
+                            else:
+                                resources_lookup = faculty_resources_lookup
+
+                            page_group = create_resource_page_group_new(resources_lookup, tip_lst, ER_lookup, domain)
                             domains_dict[domain]["PageGroups"].append(page_group)
+
+
                     row_num += 1
-                elif "Write Your Own" in label:
+                if "Write Your Own" in label: # 12/13 changed from elif
+                    print("Creating write your own...")
+
+                    if (row_num-1) % 50 == 0:  # if it's a multiple of 50, add a long scenario and a resource
+                        print('Creating long scenario...')
+                        print("row_num is", row_num)
+                        print(len(long_page_groups[domain]))
+                        if len(long_page_groups[domain]) != 0:
+                            long_page_group = long_page_groups[domain].pop(0)
+                            long_page_groups[domain].append(long_page_group)
+                            domains_dict[domain]["PageGroups"].append(long_page_group)
+                    row_num += 10
+                    print("row_num is", row_num)
                     page_group = {"Name": "Write Your Own",
                                   "Title": "Write Your Own",
                                   "Type": "Survey",
@@ -1257,144 +695,98 @@ for group in groups.keys():
                                 page = create_survey_page(text=text, input_1=input, title=title, input_name=input_name)
                                 page_group["Pages"].append(page)
 
-                    # TO DO: 9/8
                     domains_dict[domain]["PageGroups"].append(page_group)
 
                     # now add a resource page
-                    choices = ["Resources", "Tip", "ER"]
-                    # figure out weights with % that they make up of the pool
-                    type = random.choices(choices, weights=(50, 25, 25), k=1)
-                    if type[0] == "Resources":
-                        if group == "Undergraduate":
-                            label = undergrad_resources_lookup[domain][1][0][0]
-                            text = undergrad_resources_lookup[domain][1][0][1]
-                            undergrad_resources_lookup[domain][1].pop(0)  # pop from front
-                            undergrad_resources_lookup[domain][1].append([label, text])  # place at back
-                        elif group == "Graduate":
-                            label = grad_resources_lookup[domain][1][0][0]
-                            text = grad_resources_lookup[domain][1][0][1]
-                            grad_resources_lookup[domain][1].pop(0)
-                            grad_resources_lookup[domain][1].append([label, text])
-                        elif group == "Faculty":
-                            label = faculty_resources_lookup[domain][1][0][0]
-                            text = faculty_resources_lookup[domain][1][0][1]
-                            faculty_resources_lookup[domain][1].pop(0)
-                            faculty_resources_lookup[domain][1].append([label, text])
-                        else:
-                            label = staff_resources_lookup[domain][1][0][0]
-                            text = staff_resources_lookup[domain][1][0][1]
-                            staff_resources_lookup[domain][1].pop(0)
-                            staff_resources_lookup[domain][1].append([label, text])
-                        page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
-                    if type[0] == "Tip":
-                        tip = tip_lst.pop(0)
-                        label = tip[0]
-                        text = tip[1]
-                        tip_lst.append(tip)
-                        page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
-                    if type[0] == "ER":
-                        ER = ER_lookup[domain][1].pop(0)
-                        label = ER[0]
-                        text = ER[1]
-                        ER_lookup[domain][1].append(ER)
-                        print(label, text)
-                        page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                    # new
+                    if group == "Undergraduate":
+                        resources_lookup = undergrad_resources_lookup
+                    elif group == "Graduate":
+                        resources_lookup = grad_resources_lookup
+                    elif group == "Staff":
+                        resources_lookup = staff_resources_lookup
+                    else:
+                        resources_lookup = faculty_resources_lookup
+
+                    page_group = create_resource_page_group_new(resources_lookup, tip_lst, ER_lookup, domain)
+                    # new
+                    # choices = ["Resources", "Tip", "ER"]
+                    # type = random.choices(choices, weights=(34, 33, 33), k=1)
+                    # if type[0] == "Resources":
+                    #     if group == "Undergraduate":
+                    #         label = undergrad_resources_lookup[domain][1][0][0]
+                    #         text = undergrad_resources_lookup[domain][1][0][1]
+                    #         undergrad_resources_lookup[domain][1].pop(0)  # pop from front
+                    #         undergrad_resources_lookup[domain][1].append([label, text])  # place at back
+                    #         text = label + "\n\n" + text
+                    #     elif group == "Graduate":
+                    #         label = grad_resources_lookup[domain][1][0][0]
+                    #         text = grad_resources_lookup[domain][1][0][1]
+                    #         grad_resources_lookup[domain][1].pop(0)
+                    #         grad_resources_lookup[domain][1].append([label, text])
+                    #         text = label + "\n\n" + text
+                    #     elif group == "Faculty":
+                    #         label = faculty_resources_lookup[domain][1][0][0]
+                    #         text = faculty_resources_lookup[domain][1][0][1]
+                    #         faculty_resources_lookup[domain][1].pop(0)
+                    #         faculty_resources_lookup[domain][1].append([label, text])
+                    #         text = label + "\n\n" + text
+                    #     else:
+                    #         label = staff_resources_lookup[domain][1][0][0]
+                    #         text = staff_resources_lookup[domain][1][0][1]
+                    #         staff_resources_lookup[domain][1].pop(0)
+                    #         staff_resources_lookup[domain][1].append([label, text])
+                    #         text = label + "\n\n" + text
+                    #     page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                    # if type[0] == "Tip":
+                    #     tip = tip_lst.pop(0)
+                    #     label = tip[0]
+                    #     text = tip[1]
+                    #     tip_lst.append(tip)
+                    #     page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
+                    # if type[0] == "ER":
+                    #     ER = ER_lookup[domain][1].pop(0)
+                    #     print('popping', ER)
+                    #     label = ER[0]
+                    #     text = ER[1]
+                    #     ER_lookup[domain][1].append(ER)
+                    #     page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
 
                     domains_dict[domain]["PageGroups"].append(page_group)
-
-
-            # we need to do if it's a multiple of 10, we add both the page group and a resource page group
-            # when used, remove that resource and add it to the back
-            # first_element = lst[0]
-            # lst.pop(0) --> remove first element
-            # lst.append(first_element)
-            # choose whether it's ER strategy, resource, or tip based on a random number, favoring resources & ER more
-
-            # if row[1] == "Tips to Apply Lessons Learned" or row[1] == "ER Strategies" or row[1] == "Resources":
-            #     print("yes here")
-            #     if row[1] == "Tips to Apply Lessons Learned":
-            #         type = "Tip"
-            #         text = row[4]  # applies to every group
-            #         label = row[3]
-            #     if row[1] == "ER Strategies":
-            #         type = "ER"
-            #         text = row[4]  # applies to every group
-            #         label = row[3]
-            #     if row[1] == "Resources":
-            #         type = "Resources"
-            #         text = row[i + 1]
-            #         print("text is", text)
-            #         label = row[i]  # different per group
-            #
-            #     page_group = create_resource_page_group(title=label, type=type, text=text)
-            #
-            # domains_dict[domain]["PageGroups"].append(page_group)
-            # if domain_2:
-            #     domains_dict[domain_2]["PageGroups"].append(page_group)
-            # if domain_3:
-            #     domains_dict[domain_2]["PageGroups"].append(page_group)
-
-        # for domain in domains_lookup:
-        #     domains_dict[domain]["PageGroups"] = list(domains_lookup[domain][0].values())
-
-        # print(domain_num, domain)
-        ################### here ##########################
-        # TO DO: resources here
-        # if domain in resources_lookup.keys():
-        #     random_i = random.randint(0, len(resources_lookup[domain][1]) - 1)
-        #     name = list(resources_lookup[domain][1])[random_i]
-        #     resource_page = {
-        #         "Name": name,
-        #         "Type": "Resource/Tip",
-        #         "DoseSize": "11",
-        #         "Pages": [{
-        #             "Name": name,
-        #             "Inputs": [{
-        #                 "Type": "Text",
-        #                 "Parameters": {
-        #                     "Text": resources_lookup[domain][1][name]
-        #                 }
-        #             }]
-        #         }]
-        #     }
-        #     page_group["Pages"].append(resource_page)
-
     json_dict["Sections"][1]["Domains"] = list(domains_dict.values())  # HELLO CHANGED FROM 2
-    # print(range(len(json_dict["Sections"][1]["Domains"])))
-
-    # UNDO THIS
-    # for domain in range(len(json_dict["Sections"][2]["Domains"])): # shuffle page groups
-    #    random.shuffle(json_dict["Sections"][2]["Domains"][domain]["PageGroups"])
-
-    # print(json_dict["Sections"][1]["Domains"][0])
 
     new_json_dict = groups[group][2]
     json_file = "HTC/json_files/" + group + ".json"
     with open(json_file, 'w') as outfile:
         json.dump(json_dict, outfile, indent=4)  # data instead of json_dict
-    # json_dict = {}
 
-json_dict_EOD = {"Name": "Nightly Survey",
-                 "Title": "Nightly Survey",
-                 "TimeToComplete": "00:5:00",
-                 "Sections": [
-                     {
-                         "Name": "Nightly Survey",
-                         "PageGroups": list(end_of_day.values())
-                     },
-                 ]}
 
-json_file = "HTC/json_files/EOD.json"
-with open(json_file, 'w') as outfile:
-    json.dump(json_dict_EOD, outfile, indent=4)  # data instead of json_dict
+#### Now, create each additional json file ####
 
-# to do: make each biweekly survey a different section
-json_dict_biweekly = {"Name": "Track Your Progress",
-                      "Title": "Track Your Progress",
-                      "TimeToComplete": "00:5:00",
-                      "DoseMethod": "OnRun",
-                      "DoseBySection": True,
-                      "Sections": [
+
+
+## Create end of day survey
+file_name = "HTC/json_files/EOD.json"
+name = "Nightly Survey"
+title = "Nightly Survey"
+time_to_complete = "00:5:00"
+sections = [
+    {
+    "Name": "Nightly Survey",
+     "PageGroups": list(end_of_day.values())
+     }
+]
+create_json_file(file_name, name=name, title=title, time_to_complete=time_to_complete, sections=sections)
+
+## Create biweekly survey
+# "Dose by section" means that each section is considered a "dose." The app will therefore
+# skip from section to section every 2 weeks (this timeframe is set by Ben)
+file_name = "HTC/json_files/Biweekly.json"
+name = "Track Your Progress"
+title = "Track Your Progress"
+time_to_complete = "00:5:00"
+dose_by_section = True
+sections = [
                           {
                               "Name": "Track Your Progress - Week 2",
                               "PageGroups": list(biweekly.values()) + list(biweekly_2.values())
@@ -1411,57 +803,56 @@ json_dict_biweekly = {"Name": "Track Your Progress",
                               "Name": "Track Your Progress - Week 8",
                               "PageGroups": list(biweekly.values()) + list(biweekly_8.values())
                           }
-                      ]}
+                      ]
+create_json_file(file_name, name, title, time_to_complete, sections, dose_by_section=dose_by_section)
 
-json_file = "HTC/json_files/Biweekly.json"
-with open(json_file, 'w') as outfile:
-    json.dump(json_dict_biweekly, outfile, indent=4)  # data instead of json_dict
-
-# to do: make each biweekly survey a different section
-json_dict_biweekly_control = {"Name": "Track Your Progress",
-                              "Title": "Track Your Progress",
-                              "TimeToComplete": "00:5:00",
-                              "DoseMethod": "OnRun",
-                              "DoseBySection": True,
-                              "Sections": [
+## Create biweekly survey for control (non-intervention) participants
+file_name = "HTC/json_files/Control/Biweekly_control.json"
+name = "Track Your Progress"
+title = "Track Your Progress"
+time_to_complete = "00:5:00"
+dose_by_section = True
+sections = [
                                   {
                                       "Name": "Track Your Progress - Week 2",
-                                      "PageGroups": list(biweekly.values())
+                                      "PageGroups": list(biweekly.values()) + list(biweekly_2_control.values())
+                                  },
+                                  {
+                                      "Name": "Track Your Progress - Week 4",
+                                      "PageGroups": list(biweekly.values()) + list(biweekly_4_control.values())
+                                  },
+                                  {
+                                      "Name": "Track Your Progress - Week 6",
+                                      "PageGroups": list(biweekly.values()) + list(biweekly_6_control.values())
+                                  },
+                                  {
+                                      "Name": "Track Your Progress - Week 8",
+                                      "PageGroups": list(biweekly.values()) + list(biweekly_8_control.values())
                                   }
-                              ]}
-
-json_file = "HTC/json_files/Control/Biweekly_control.json"
-with open(json_file, 'w') as outfile:
-    json.dump(json_dict_biweekly, outfile, indent=4)  # data instead of json_dict
+                              ]
+create_json_file(file_name, name, title, time_to_complete, sections, dose_by_section=dose_by_section)
 
 
-json_dict_dose1_control = {"Name": "Dose 1",
-                      "Title": "Dose 1",
-                      "TimeToComplete": "00:5:00",
-                      "DoseMethod": "OnRun",
-                      "DoseBySection": True,
-                      "Sections": [
-                          {
-                              "Name": "Dose 1",
-                              "PageGroups": list(control_1.values())
-                          }
-                      ]}
+## Create the first dose file for control
 
-json_file = "HTC/json_files/Control/Dose1_control.json"
-with open(json_file, 'w') as outfile:
-    json.dump(json_dict_dose1_control, outfile, indent=4)  # data instead of json_dict
+file_name = "HTC/json_files/Control/Dose1_control.json"
+name = "Dose 1"
+title = "Get started!"
+time_to_complete = "00:5:00"
+sections = [{"Name": "Dose 1",
+             "PageGroups": list(control_1.values())
+             }]
+create_json_file(file_name, name, title, time_to_complete, sections)
 
 
-json_dict_R4E = {"Name": "Reasons for Ending",
-                 "Title": "Reasons for Ending",
-                 "TimeToComplete": "00:5:00",
-                 "Sections": [
-                     {
-                         "Name": "Reasons For Ending",
-                         "PageGroups": list(reasons.values())
-                     },
-                 ]}
-
-json_file = "HTC/json_files/ReasonsForEnding.json"
-with open(json_file, 'w') as outfile:
-    json.dump(json_dict_R4E, outfile, indent=4)  # data instead of json_dict
+## Create reasons for ending file
+file_name = "HTC/json_files/ReasonsForEnding.json"
+name = "Reasons for Ending"
+title = "Reasons for Ending"
+time_to_complete = "00:5:00"
+cancel_button_text = "Exit"
+sections = [{
+            "Name": "Reasons For Ending",
+            "PageGroups": list(reasons.values())
+            }]
+create_json_file(file_name, name, title, time_to_complete, sections, cancel_button_text=cancel_button_text)
