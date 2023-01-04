@@ -1,7 +1,6 @@
 {
     "Name": "Dose 1",
     "Title": "Get started!",
-    "TimeToComplete": "00:5:00",
     "Sections": [
         {
             "Name": "Dose 1",
@@ -196,7 +195,7 @@
                                             "Native Hawaiian/Pacific Islander",
                                             "Black/African origin",
                                             "White/European origin",
-                                            "!Other or Unknown",
+                                            "Other or Unknown",
                                             "^Prefer not to answer"
                                         ],
                                         "Selectable": true,
@@ -256,7 +255,7 @@
                                             "J.D.",
                                             "M.D.",
                                             "Ph.D.",
-                                            "!Other Advanced Degree",
+                                            "Other Advanced Degree",
                                             "^Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -288,7 +287,7 @@
                                             "Divorced",
                                             "Widow/widower",
                                             "!Other",
-                                            "Prefer not to answer"
+                                            "^Prefer not to answer"
                                         ],
                                         "Selectable": true
                                     }
@@ -463,7 +462,7 @@
                                             "SelfHelp::Self-guided help\n\nExamples: Self-help book, blogs, online intervention (other than Hoos Think Calmly), mobile applications",
                                             "OTC::Over-the-counter medications and/or supplements",
                                             "^None::I am not receiving help",
-                                            "^Prefer not to answer",
+                                            "^NoAnswer::Prefer not to answer",
                                             "!Other::Other:"
                                         ],
                                         "Selectable": true,
@@ -474,12 +473,7 @@
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "Therapy"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -491,18 +485,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Therapy"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "Prescription"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -514,18 +512,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Prescription"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "Social"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -537,18 +539,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Social"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "SelfHelp"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -560,18 +566,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "SelfHelp"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "OTC"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -583,18 +593,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "OTC"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "Other"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -606,18 +620,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Other"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "None"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -649,6 +667,12 @@
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "None"
                                 }
                             ]
                         },
@@ -707,12 +731,7 @@
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "anxiety_or_depression",
-                                    "Value": "Yes"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -739,15 +758,16 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
-                        },
-                        {
+                            ],
                             "Conditions": [
                                 {
                                     "VariableName": "anxiety_or_depression",
-                                    "Value": "Unsure"
+                                    "Value": "Yes"
                                 }
-                            ],
+                            ]
+                        },
+                        {
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -774,6 +794,12 @@
                                         ],
                                         "Selectable": true
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "anxiety_or_depression",
+                                    "Value": "Unsure"
                                 }
                             ]
                         },
