@@ -1,7 +1,6 @@
 {
     "Name": "Nightly Survey",
     "Title": "Nightly Survey",
-    "TimeToComplete": "00:5:00",
     "Sections": [
         {
             "Name": "Nightly Survey",
@@ -24,7 +23,10 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
                                 }
                             ]
@@ -42,7 +44,10 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
                                 }
                             ]
@@ -60,7 +65,10 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
                                 }
                             ]

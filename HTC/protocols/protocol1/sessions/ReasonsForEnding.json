@@ -1,7 +1,6 @@
 {
     "Name": "Reasons for Ending",
     "Title": "Reasons for Ending",
-    "TimeToComplete": "00:5:00",
     "Sections": [
         {
             "Name": "Reasons For Ending",
@@ -43,7 +42,7 @@
                                             "I found the program frustrating to use",
                                             "I no longer needed the program (i.e., I no longer felt anxious)",
                                             "I believe I was assigned to the control condition (i.e., the condition that was not expected to change anxiety)",
-                                            "!Other",
+                                            "Other",
                                             "^Prefer not to answer"
                                         ],
                                         "Selectable": true,
@@ -452,12 +451,40 @@
                             ]
                         },
                         {
+                            "Title": "Reasons for Ending",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
                             "Conditions": [
                                 {
                                     "VariableName": "RFE_anxiety_depression",
                                     "Value": "Yes"
                                 }
-                            ],
+                            ]
+                        },
+                        {
+                            "Title": "Reasons for Ending",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -481,37 +508,11 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
-                        },
-                        {
+                            ],
                             "Conditions": [
                                 {
                                     "VariableName": "RFE_anxiety_depression",
                                     "Value": "Unsure"
-                                }
-                            ],
-                            "Inputs": [
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
-                                    }
-                                },
-                                {
-                                    "Type": "Buttons",
-                                    "Name": "interest_in_therapy",
-                                    "Parameters": {
-                                        "Buttons": [
-                                            "Much more likely",
-                                            "A little more likely",
-                                            "Equally likely",
-                                            "A little less likely",
-                                            "Much less likely",
-                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
-                                            "Prefer not to answer"
-                                        ],
-                                        "Selectable": true
-                                    }
                                 }
                             ]
                         },
@@ -575,7 +576,7 @@
                                             "UVA Women's Center",
                                             "UVA Writing Center",
                                             "WahooWell",
-                                            "!Other",
+                                            "Other",
                                             "^I did not contact any of these resources/referrals since starting this program"
                                         ],
                                         "Selectable": true,
@@ -849,9 +850,9 @@
                                             "I use prescription medication less now",
                                             "I use online computer programs or mobile apps (other than Hoos Think Calmly) more now",
                                             "I use online computer programs or mobile apps (other than Hoos Think Calmly) less now",
-                                            "!Other",
+                                            "Other",
                                             "^I did not change my intervention habits",
-                                            "^Prefer not to answer"
+                                            "Prefer not to answer"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true

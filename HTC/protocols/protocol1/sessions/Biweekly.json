@@ -1,7 +1,6 @@
 {
     "Name": "Track Your Progress",
     "Title": "Track Your Progress",
-    "TimeToComplete": "00:5:00",
     "Sections": [
         {
             "Name": "Track Your Progress - Week 2",
@@ -5618,12 +5617,40 @@
                             ]
                         },
                         {
+                            "Title": "Your Experience",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
                             "Conditions": [
                                 {
                                     "VariableName": "AnxietyDepressionSymptoms",
                                     "Value": "Yes"
                                 }
-                            ],
+                            ]
+                        },
+                        {
+                            "Title": "Your Experience",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -5647,37 +5674,11 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
-                        },
-                        {
+                            ],
                             "Conditions": [
                                 {
                                     "VariableName": "AnxietyDepressionSymptoms",
                                     "Value": "Unsure"
-                                }
-                            ],
-                            "Inputs": [
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
-                                    }
-                                },
-                                {
-                                    "Type": "Buttons",
-                                    "Name": "interest_in_therapy",
-                                    "Parameters": {
-                                        "Buttons": [
-                                            "Much more likely",
-                                            "A little more likely",
-                                            "Equally likely",
-                                            "A little less likely",
-                                            "Much less likely",
-                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
-                                            "Prefer not to answer"
-                                        ],
-                                        "Selectable": true
-                                    }
                                 }
                             ]
                         },
@@ -7483,12 +7484,40 @@
                             ]
                         },
                         {
+                            "Title": "Your Experience",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Much more likely",
+                                            "A little more likely",
+                                            "Equally likely",
+                                            "A little less likely",
+                                            "Much less likely",
+                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
+                                            "Prefer not to answer"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
                             "Conditions": [
                                 {
                                     "VariableName": "AnxietyDepressionSymptoms",
                                     "Value": "Yes"
                                 }
-                            ],
+                            ]
+                        },
+                        {
+                            "Title": "Your Experience",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -7512,37 +7541,11 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
-                        },
-                        {
+                            ],
                             "Conditions": [
                                 {
                                     "VariableName": "AnxietyDepressionSymptoms",
                                     "Value": "Unsure"
-                                }
-                            ],
-                            "Inputs": [
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "How open or interested are you in pursuing other forms of treatment from a mental health professional (e.g., therapy, medication) compared to before you started the program?"
-                                    }
-                                },
-                                {
-                                    "Type": "Buttons",
-                                    "Name": "interest_in_therapy",
-                                    "Parameters": {
-                                        "Buttons": [
-                                            "Much more likely",
-                                            "A little more likely",
-                                            "Equally likely",
-                                            "A little less likely",
-                                            "Much less likely",
-                                            "Not applicable (e.g., I'm currently undergoing another form of treatment)",
-                                            "Prefer not to answer"
-                                        ],
-                                        "Selectable": true
-                                    }
                                 }
                             ]
                         },
@@ -7580,7 +7583,7 @@
                                             "UVA Women's Center",
                                             "UVA Writing Center",
                                             "WahooWell",
-                                            "!Other",
+                                            "Other",
                                             "I did not contact any of these resources/referrals since starting this program"
                                         ],
                                         "Selectable": true,

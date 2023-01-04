@@ -1,10 +1,9 @@
 {
     "Name": "Faculty",
     "Title": "Hoos Think Calmly",
-    "TimeToComplete": "00:10:00",
     "Sections": [
         {
-            "Name": "BeforeDomain_1",
+            "Name": "dose_1",
             "Doses": [
                 1
             ],
@@ -199,7 +198,7 @@
                                             "Native Hawaiian/Pacific Islander",
                                             "Black/African origin",
                                             "White/European origin",
-                                            "!Other or Unknown",
+                                            "Other or Unknown",
                                             "^Prefer not to answer"
                                         ],
                                         "Selectable": true,
@@ -259,7 +258,7 @@
                                             "J.D.",
                                             "M.D.",
                                             "Ph.D.",
-                                            "!Other Advanced Degree",
+                                            "Other Advanced Degree",
                                             "^Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -290,7 +289,7 @@
                                             "Separated",
                                             "Divorced",
                                             "Widow/widower",
-                                            "!Other",
+                                            "Other",
                                             "Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -319,7 +318,7 @@
                                             "Homemaker/keeping house or raising children full-time",
                                             "Retired",
                                             "Student",
-                                            "!Other",
+                                            "Other",
                                             "Unknown",
                                             "Prefer not to answer"
                                         ],
@@ -466,7 +465,7 @@
                                             "SelfHelp::Self-guided help\n\nExamples: Self-help book, blogs, online intervention (other than Hoos Think Calmly), mobile applications",
                                             "OTC::Over-the-counter medications and/or supplements",
                                             "^None::I am not receiving help",
-                                            "^Prefer not to answer",
+                                            "^NoAnswer::Prefer not to answer",
                                             "!Other::Other:"
                                         ],
                                         "Selectable": true,
@@ -477,12 +476,7 @@
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "Therapy"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -494,18 +488,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Therapy"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "Prescription"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -517,18 +515,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Prescription"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "Social"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -540,18 +542,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Social"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "SelfHelp"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -563,18 +569,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "SelfHelp"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "OTC"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -586,18 +596,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "OTC"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "Other"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -609,18 +623,22 @@
                                     "Type": "Slider",
                                     "Parameters": {
                                         "Minimum": "1",
-                                        "Maximum": "7"
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Other"
                                 }
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "HelpReceived",
-                                    "Value": "None"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -652,6 +670,12 @@
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "None"
                                 }
                             ]
                         },
@@ -710,12 +734,7 @@
                             ]
                         },
                         {
-                            "Conditions": [
-                                {
-                                    "VariableName": "anxiety_or_depression",
-                                    "Value": "Yes"
-                                }
-                            ],
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -742,15 +761,16 @@
                                         "Selectable": true
                                     }
                                 }
-                            ]
-                        },
-                        {
+                            ],
                             "Conditions": [
                                 {
                                     "VariableName": "anxiety_or_depression",
-                                    "Value": "Unsure"
+                                    "Value": "Yes"
                                 }
-                            ],
+                            ]
+                        },
+                        {
+                            "Title": "Mental Health and Treatment Questionnaire",
                             "Inputs": [
                                 {
                                     "Type": "Text",
@@ -777,6 +797,12 @@
                                         ],
                                         "Selectable": true
                                     }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "anxiety_or_depression",
+                                    "Value": "Unsure"
                                 }
                             ]
                         },
@@ -2534,14 +2560,7 @@
                                         "Text": "In this exercise - and throughout the training program - please remember to imagine what is happening through your own eyes, similar to the picture on the left. This is more effective than viewing the situation as an outside observer, like the picture on the right."
                                     }
                                 },
-                                {
-                                    "Type": "Media",
-                                    "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic1.jpeg",
-                                        "ImageType": "image/jpeg"
-                                    },
-                                    "Frame": true
-                                }
+                                "image/jpeg"
                             ],
                             "Timeout": 2,
                             "ShowButtons": "AfterTimeout"
@@ -2555,14 +2574,7 @@
                                         "Text": "Okay...let's begin! Imagine you are holding the lemon in your right hand, and you can feel its shape and its weight."
                                     }
                                 },
-                                {
-                                    "Type": "Media",
-                                    "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic2.jpeg",
-                                        "ImageType": "image/jpeg"
-                                    },
-                                    "Frame": true
-                                }
+                                "image/jpeg"
                             ],
                             "Timeout": 2,
                             "ShowButtons": "AfterTimeout"
@@ -2576,14 +2588,7 @@
                                         "Text": "Now imagine you are shining a light on the lemon, and you can see the waxy and lumpy texture of the yellow skin."
                                     }
                                 },
-                                {
-                                    "Type": "Media",
-                                    "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic3.jpeg",
-                                        "ImageType": "image/jpeg"
-                                    },
-                                    "Frame": true
-                                }
+                                "image/jpeg"
                             ],
                             "Timeout": 2,
                             "ShowButtons": "AfterTimeout"
@@ -2597,14 +2602,7 @@
                                         "Text": "Now imagine that you scratch the skin with your fingernail, then you bring the lemon up to your nose, and you can smell the fresh zesty juice from the skin."
                                     }
                                 },
-                                {
-                                    "Type": "Media",
-                                    "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic4.jpeg",
-                                        "ImageType": "image/jpeg"
-                                    },
-                                    "Frame": true
-                                }
+                                "image/jpeg"
                             ],
                             "Timeout": 2,
                             "ShowButtons": "AfterTimeout"
@@ -2618,14 +2616,7 @@
                                         "Text": "Now imagine that you cut the lemon in half, and you bring one half of it up for a closer look. You can see the juicy flesh in the shape of segments that look like a wagon wheel."
                                     }
                                 },
-                                {
-                                    "Type": "Media",
-                                    "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic5.jpeg",
-                                        "ImageType": "image/jpeg"
-                                    },
-                                    "Frame": true
-                                }
+                                "image/jpeg"
                             ],
                             "Timeout": 2,
                             "ShowButtons": "AfterTimeout"
@@ -2639,14 +2630,7 @@
                                         "Text": "Now imagine that you squeeze the lemon and some of the juice squirts right into your eyes, and it is really stinging, making your eyes water."
                                     }
                                 },
-                                {
-                                    "Type": "Media",
-                                    "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic6.jpeg",
-                                        "ImageType": "image/jpeg"
-                                    },
-                                    "Frame": true
-                                }
+                                "image/jpeg"
                             ],
                             "Timeout": 2,
                             "ShowButtons": "AfterTimeout"
@@ -2660,14 +2644,7 @@
                                         "Text": "That was the Lemon Exercise! Don't worry if you didn't experience all of the sensations strongly. This is completely normal."
                                     }
                                 },
-                                {
-                                    "Type": "Media",
-                                    "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic7.jpeg",
-                                        "ImageType": "image/jpeg"
-                                    },
-                                    "Frame": true
-                                }
+                                "image/jpeg"
                             ]
                         }
                     ]
@@ -2853,8 +2830,6 @@
                     "Pages": [
                         {
                             "Name": "Contributing to a discussion0",
-                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/Contributing_to_a_discussion.jpeg",
-                            "ImageType": "image/jpeg",
                             "Inputs": [
                                 {
                                     "Type": "Label",
@@ -2862,6 +2837,14 @@
                                         "Text": "Contributing to a discussion",
                                         "Framed": true
                                     }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/Contributing_to_a_discussion.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
                                 }
                             ]
                         },
@@ -2909,8 +2892,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Dislike your ideas. ",
-                                            "Support your ideas."
+                                            "Support your ideas.",
+                                            "Dislike your ideas. "
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Support your ideas."
@@ -2918,8 +2901,7 @@
                                 }
                             ]
                         }
-                    ],
-                    "CanBeFavorited": true
+                    ]
                 },
                 {
                     "Name": "Make it your own!",
@@ -2964,8 +2946,6 @@
                     "Pages": [
                         {
                             "Name": "Attention in store1",
-                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/Attention_in_store.jpeg",
-                            "ImageType": "image/jpeg",
                             "Inputs": [
                                 {
                                     "Type": "Label",
@@ -2973,6 +2953,14 @@
                                         "Text": "Attention in store",
                                         "Framed": true
                                     }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/Attention_in_store.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
                                 }
                             ]
                         },
@@ -3045,8 +3033,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Considerate for apologizing.",
-                                            "Awkward and uncoordinated."
+                                            "Awkward and uncoordinated.",
+                                            "Considerate for apologizing."
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Considerate for apologizing."
@@ -3054,8 +3042,7 @@
                                 }
                             ]
                         }
-                    ],
-                    "CanBeFavorited": true
+                    ]
                 },
                 {
                     "Name": "Video 3",
@@ -3082,8 +3069,6 @@
                     "Pages": [
                         {
                             "Name": "A birthday cake2",
-                            "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/A_birthday_cake.jpeg",
-                            "ImageType": "image/jpeg",
                             "Inputs": [
                                 {
                                     "Type": "Label",
@@ -3091,6 +3076,14 @@
                                         "Text": "A birthday cake",
                                         "Framed": true
                                     }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/A_birthday_cake.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
                                 }
                             ]
                         },
@@ -3147,8 +3140,7 @@
                                 }
                             ]
                         }
-                    ],
-                    "CanBeFavorited": true
+                    ]
                 },
                 {
                     "Name": "Comprehension / Engagement",
