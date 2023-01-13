@@ -483,6 +483,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "therapy_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -510,6 +511,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "prescriptions_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -537,6 +539,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "social_support_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -564,6 +567,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "self-guided_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -591,6 +595,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "OTC_meds_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -618,6 +623,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "other_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
