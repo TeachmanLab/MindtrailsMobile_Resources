@@ -486,6 +486,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "therapy_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -513,6 +514,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "prescriptions_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -540,6 +542,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "social_support_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -567,6 +570,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "self-guided_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -594,6 +598,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "OTC_meds_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -621,6 +626,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "other_helpful",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -2715,6 +2721,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "imagery_anxiety",
                                     "Parameters": {
                                         "Minimum": "0",
                                         "Maximum": "10",
@@ -2892,8 +2899,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Dislike your ideas. ",
-                                            "Support your ideas."
+                                            "Support your ideas.",
+                                            "Dislike your ideas. "
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Support your ideas."

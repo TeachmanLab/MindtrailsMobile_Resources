@@ -21,6 +21,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "EOD_mood",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -42,6 +43,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "EOD_thinking",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
@@ -63,6 +65,7 @@
                                 },
                                 {
                                     "Type": "Slider",
+                                    "Name": "EOD_emotions",
                                     "Parameters": {
                                         "Minimum": "1",
                                         "Maximum": "7",
