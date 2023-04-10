@@ -358,6 +358,12 @@
                                         "ImageType": "video/mp4"
                                     },
                                     "Frame": true
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Click the video to play."
+                                    }
                                 }
                             ]
                         }
@@ -474,6 +480,12 @@
                                         "ImageType": "video/mp4"
                                     },
                                     "Frame": true
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Click the video to play."
+                                    }
                                 }
                             ]
                         }
@@ -597,6 +609,12 @@
                                         "ImageType": "video/mp4"
                                     },
                                     "Frame": true
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Click the video to play."
+                                    }
                                 }
                             ]
                         }
