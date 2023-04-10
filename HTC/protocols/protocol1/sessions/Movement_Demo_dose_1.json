@@ -352,19 +352,19 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Click the video below to play it."
+                                    },
+                                    "Frame": false
+                                },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Staff/video1.mp4",
                                         "ImageType": "video/mp4"
                                     },
                                     "Frame": true
-                                },
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "Click the video to play."
-                                    },
-                                    "Frame": false
                                 }
                             ]
                         }
@@ -475,19 +475,19 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Click the video below to play it."
+                                    },
+                                    "Frame": false
+                                },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Staff/video2.mp4",
                                         "ImageType": "video/mp4"
                                     },
                                     "Frame": true
-                                },
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "Click the video to play."
-                                    },
-                                    "Frame": false
                                 }
                             ]
                         }
@@ -605,19 +605,19 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Click the video below to play it."
+                                    },
+                                    "Frame": false
+                                },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Staff/video3.mp4",
                                         "ImageType": "video/mp4"
                                     },
                                     "Frame": true
-                                },
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "Click the video to play."
-                                    },
-                                    "Frame": false
                                 }
                             ]
                         }
