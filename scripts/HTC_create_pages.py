@@ -9,14 +9,167 @@ file_path = "/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/lessons_l
 
 lessons_learned_dict = get_lessons_learned_text(file_path)
 
+
+def create_long_scenario_page_group(label, scenario_description, unique_image, group,
+                                    thoughts_lst, feelings_lst, behaviors_lst):
+    """
+
+    :param label: The title of the long scenario
+    :param scenario_description: The text for the scenario
+    :param unique_image: Bool, False means that the photos for each group are all the same
+    :param group: Undergraduate, Graduate, Staff, Faculty
+    :param thoughts_lst: list of thoughts to show for long scenarios
+    :param feelings_lst: list of feelings to show for long scenarios
+    :param behaviors_lst: list of behaviors to show for long scenarios
+    :return: a page group for the long scenario
+    """
+    page_group = {"Name": "Long Scenario: " + label.strip(),
+                  "Title": "Long Scenario: " + label.strip(),
+                  "Type": "Scenario",
+                  "DoseSize": 10,  # dose size is 10 because for microdoses with a long scenario, we
+                  # just show one long scenario & one resource (DoseSize=1)
+                  "Pages": [
+
+                  ]}
+
+    # This CSV has the generic structure for each long scenario page group.
+    # We will change Scenario_Name and [Scenario_Description]
+    with open("/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/htc_long_scenarios_structure.csv",
+              "r") as csvfile:
+        csv_reader = csv.reader(csvfile)
+        next(csv_reader)
+        for row_str in csv_reader:
+            label_str = row_str[0].replace("[Scenario_Name]", label)
+            text = row_str[4].replace("[Scenario_Description]", scenario_description). \
+                replace("\u2013", " - ").replace("\u2014", " - "). \
+                replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u2019",
+                                                                                           "'").replace(
+                "  ", " ")
+            input_1 = row_str[6]
+            input_2 = row_str[7]
+            image_bool = row_str[10]
+            if image_bool == "TRUE":
+                image_bool = True
+
+            if group == "Undergraduate":
+                group_name = "undergrad"
+            elif group == "Graduate":
+                group_name = "grad"
+            elif group == "Faculty":
+                group_name = "faculty"
+            else:
+                group_name = "staff"
+
+            if unique_image:
+                image_url = "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols" \
+                            "/protocol1/media/images/" + label.strip().replace(" ", "_") + "_" + group_name + ".jpeg"
+            else:
+                image_url = "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols" \
+                            "/protocol1/media/images/" + label.strip().replace(" ", "_") + ".jpeg"
+
+            if image_bool:
+                page = {
+                    "Name": label.strip(),
+                    "Title": label_str,
+                    "Inputs": [{
+                        "Type": "Text",
+                        "Parameters": {
+                            "Text": text
+                        }
+                    },
+                        {
+                            "Type": "Media",
+                            "Frame": True,
+                            "Parameters": {
+                                "ImageUrl": image_url,
+                                "ImageType": "image/jpeg"
+                            }
+                        }]
+                }
+            else:
+                page = {
+                    "Name": label.strip(),
+                    "Title": label_str,
+                    "Inputs": [{
+                        "Type": "Text",
+                        "Parameters": {
+                            "Text": text
+                        }
+                    }]
+                }
+
+            # if there's a timeout
+            if row_str[13] not in (None, ""):
+                page["Timeout"] = int(row_str[13])
+                page["ShowButtons"] = "AfterTimeout"
+
+            # if there's an entry
+            if "Entry" in input_1:
+                page["Inputs"].append({
+                    "Type": "Entry",
+                    "Name": row_str[0].replace("[Scenario_Name]: ", label + "_")
+                })
+            # if there's timedtext
+            if input_1 == "TimedText":
+                page["ShowButtons"] = "WhenCorrect"
+                if "thoughts" in text:
+                    page["Inputs"].append({
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Text": thoughts_lst,  # corresponds to thoughts in csv
+                            "Duration": 15
+                        }
+                    })
+                elif "feelings" in text:
+                    random.shuffle(feelings_lst)
+                    page["Inputs"].append({
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Text": feelings_lst,
+                            "Duration": 15
+                        }
+                    })
+                elif "behaviors" in text:
+                    random.shuffle(behaviors_lst)
+                    page["Inputs"].append({
+                        "Type": "TimedText",
+                        "Parameters": {
+                            "Text": behaviors_lst,
+                            "Duration": 15
+                        }
+                    })
+
+            image_bool = False
+            page_group["Pages"].append(page)
+    return page_group
+
+
 # adds a scenario page group to scenario_list (which is passed in)
 def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1, word_1,
-                               comp_question, answers_lst, correct_answer, unique_image, row_num, word_2=None, puzzle_text_2=None,
-                               can_be_favorited=False,
+                               comp_question, answers_lst, correct_answer, unique_image, row_num, word_2=None,
+                               puzzle_text_2=None,
                                letters_missing=1, lessons_learned=False, lessons_learned_dict=lessons_learned_dict):
-    # to go within pages of the scenario page group
-    if lessons_learned == True:
-        scenario_list = [{
+    """
+    :param domain: domain (e.g., "Romantic Relationships" or "Physical Health")
+    :param label:
+    :param scenario_num:
+    :param group: group membership (e.g., "undergrad" or "faculty")
+    :param puzzle_text_1: text for the first puzzle
+    :param word_1: missing word for the first puzzle
+    :param comp_question: comprehension question
+    :param answers_lst: list of possible answers to the comprehension question
+    :param correct_answer: correct answer from answers_lst
+    :param unique_image: if there is a different photo for faculty, staff, undergrad, and/or grad, then this is TRUE
+    :param row_num:
+    :param word_2: missing word for the second puzzle
+    :param puzzle_text_2: text for the second puzzle
+    :param letters_missing:
+    :param lessons_learned:
+    :param lessons_learned_dict:
+    :return:
+    """
+    if lessons_learned:  # if it should include a "lessons learned" page
+        scenario_list = [{  # create list of dictionaries, starting with lessons learned page. Each dictionary is a page
             "Name": "Lessons Learned" + str(row_num),
             "Title": "Lessons Learned",
             "Inputs": [{
@@ -35,8 +188,9 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
             ]
         }]
     else:
-        scenario_list = []
-    if letters_missing == "all" and (int(row_num) - 1) % 10 == 0: # if all letters missing, and it's the first scenario
+        scenario_list = []  # create an empty list, this will eventually be a list of dictionaries (scenarios)
+    if letters_missing == "all" and (int(row_num) - 1) % 10 == 0:
+        # if all letters missing, and it's the first scenario, add an instructions page to
         scenario_list.append({
             "Name": label + " Instructions",
             "Title": "Instructions",
@@ -54,9 +208,9 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
         })
     if group == "Undergraduate":
         group_name = "undergrad"
-    if group == "Graduate":
+    elif group == "Graduate":
         group_name = "grad"
-    if group == "Faculty":
+    elif group == "Faculty":
         group_name = "faculty"
     else:
         group_name = "staff"
@@ -70,14 +224,20 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
 
     scenario_list.append({
         "Name": label + str(row_num),
-        "ImageUrl": image_url,
-        "ImageType": "image/jpeg",
         "Inputs": [{
             "Type": "Label",
             "Parameters": {
                 "Text": label,
                 "Framed": True,
             }
+        },
+        {
+            "Type": "Media",
+            "Parameters": {
+                "ImageUrl": image_url,
+                "ImageType": "image/jpeg"
+            },
+            "Frame": True
         }]
     })
     scenario_list.append({
@@ -101,24 +261,23 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
             }]
     })
     if letters_missing == "1" or letters_missing == "2":
-        if lessons_learned == True:
+        if lessons_learned:
             new_index = 2
         else:
             new_index = 1
         scenario_list[new_index]["Inputs"][1]["Parameters"]["MissingLetterCount"] = int(letters_missing)
     elif letters_missing == "all":
         # change second input of the second page to be an entry, not a word puzzle
-        # 9/8 Added
         if (int(row_num) - 1) % 10 == 0:
             if lessons_learned == True:
-                new_index = 3 # 2
+                new_index = 3  # 2
             else:
-                new_index = 2 # 1
+                new_index = 2  # 1
         else:
             if lessons_learned == True:
-                new_index = 2 # 2
+                new_index = 2  # 2
             else:
-                new_index = 1 # 1
+                new_index = 1  # 1
         scenario_list[new_index]["Inputs"] = [{
             "Type": "Text",
             "Parameters": {"Text": puzzle_text_1}
@@ -128,7 +287,7 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
                 "Name": label + "_" + domain + "_entry"
             }
         ]
-    if word_2:
+    if word_2 not in (None, "", "NA") and puzzle_text_2 not in (None, "", "NA"):
         scenario_list.append({
             "Name": "Puzzle 2",
             "Inputs": [{
@@ -209,55 +368,33 @@ def create_scenario_page_group(domain, label, scenario_num, group, puzzle_text_1
         "DoseSize": 1,
         "Pages": scenario_list
     }
-    if can_be_favorited:
-        page_group['CanBeFavorited'] = True
-
-    # TO DO: add resources
-
-    # if "[RESOURCE]" in label and domain in resources_lookup.keys():
-    #     random_i = random.randint(0, len(resources_lookup[domain][1]) - 1)
-    #     name = list(resources_lookup[domain][1])[random_i]
-    #     resource_page = {
-    #         "Name": name,
-    #         "Type": "Resource/Tip",
-    #         "DoseSize": "11",
-    #         "Pages": [{
-    #             "Name": name,
-    #             "Inputs": [{
-    #                 "Type": "Text",
-    #                 "Parameters": {
-    #                     "Text": resources_lookup[domain][1][name]
-    #                 }
-    #             }]
-    #         }]
-    #     }
-    #     if "Tip" in name:
-    #         resource_page["Inputs"].append({
-    #             "Type": "Entry",
-    #             "Name": input_name
-    #         })
-    #     page_group["Pages"].append(resource_page)
 
     return page_group
 
 
 def create_resource_page_group_new(resources_lookup, tip_lst, ER_lookup, domain):
+    """
+    Create a resource page group (Resource, ER strategy, or Tip)
+    :param resources_lookup: Object created by get_resources()
+    :param tip_lst: List created by get_tips()
+    :param ER_lookup: Object created by get_ER()
+    :param domain: the domain
+    :return: a page group for a resource, ER strategy, or tip
+    """
     choices = ["Resources", "Tip", "ER"]
-    # figure out weights with % that they make up of the pool
-    type = random.choices(choices, weights=(34, 33, 33), k=1)
-    if type[0] == "Resources":
+    resource_type = random.choices(choices, weights=(33, 33, 33), k=1)  # randomly choose one resource type
+    if resource_type[0] == "Resources":
         label = resources_lookup[domain][1][0][0]
         text = resources_lookup[domain][1][0][1]
         resources_lookup[domain][1].pop(0)  # pop from front
         resources_lookup[domain][1].append([label, text])  # place at back
         text = label + "\n\n" + text
-        #page_group = create_resource_page_group(title=label, type=type[0], text=text, domain=domain)
-    elif type[0] == "Tip":
+    elif resource_type[0] == "Tip":
         tip = tip_lst.pop(0)
         label = tip[0]
         text = tip[1]
         tip_lst.append(tip)
-    elif type[0] == "ER":
+    elif resource_type[0] == "ER":
         ER = ER_lookup[domain][1].pop(0)
         label = ER[0]
         text = ER[1]
@@ -265,7 +402,7 @@ def create_resource_page_group_new(resources_lookup, tip_lst, ER_lookup, domain)
     resource = [{
         "Name": label,
         "Title": "Resource: " + domain,
-        "CanBeFavorited": True,
+        # "CanBeFavorited": True, # 12/20
         "Inputs": [{
             "Type": "Text",
             "Parameters": {
@@ -273,12 +410,12 @@ def create_resource_page_group_new(resources_lookup, tip_lst, ER_lookup, domain)
             }
         }]
     }]
-    if type[0] == "Tip":  # this applies to everyone
+    if resource_type[0] == "Tip":  # this applies to everyone
         resource[0]["Title"] = "Apply to Daily Life: Make It Work for You!"
         resource[0]["Inputs"].append({"Type": "Entry",
                                       "Name": label + "_entry"})
         resource[0]["Name"] = "Tip to Apply!"
-    elif type[0] == "ER":
+    elif resource_type[0] == "ER":
         resource[0]["Title"] = "Manage Your Feelings: " + domain  # domain name
         resource[0]["Name"] = "Emotion Regulation Tip"
 
@@ -288,42 +425,7 @@ def create_resource_page_group_new(resources_lookup, tip_lst, ER_lookup, domain)
         "Type": "Resource/Tip/ER",
         "DoseSize": 1,
         "Pages": resource,
-        "CanBeFavorited": True
     }
-    return page_group
-
-# if it is a resource/EMA/Tip, then we will do this. this can also be favorited
-def create_resource_page_group(type, text, title="Resource", domain="noooooone"):
-
-    resource = [{
-        "Name": title,
-        "Title": "Resource: " + domain,
-        "CanBeFavorited": True,
-        "Inputs": [{
-            "Type": "Text",
-            "Parameters": {
-                "Text": text,
-            }
-        }]
-    }]
-    if type == "Tip":  # this applies to everyone
-        resource[0]["Title"] = "Apply to Daily Life: Make It Work for You!"
-        resource[0]["Inputs"].append({"Type": "Entry",
-                                      "Name": title + "_entry"})
-        resource[0]["Name"] = "Tip to Apply!"
-    elif type == "ER":
-        resource[0]["Title"] = "Manage Your Feelings: " + domain# domain name
-        resource[0]["Name"] = "Emotion Regulation Tip"
-
-    page_group = {
-        "Name": "Resource/Tip/ER",
-        "Title": "Resource/Tip/ER",
-        "Type": "Resource/Tip/ER",
-        "DoseSize": 1,
-        "Pages": resource,
-        "CanBeFavorited": True
-    }
-
     return page_group
 
 
@@ -383,78 +485,93 @@ def create_discrimination_page(conditions_lst, text, items_lst, input_1,
     return page_dict
 
 
-# changed show_buttons to none 6/21
-def create_survey_page(text=None, media=None, image_framed=None, other_choices=None, input_1=None, input_2=None,
-                       variable_name=None, title=None, page_group=None, input_name=None, minimum=None, maximum=None,
+def create_survey_page(text=None, media=None, image_framed=None, items=None, input_1=None, input_2=None,
+                       variable_name=None, title=None, input_name=None, minimum=None, maximum=None,
                        show_buttons=None, conditions_lst=None, timeout=None):
-    if conditions_lst != [''] and conditions_lst is not None:  # if conditions list isn't empty
-        value = conditions_lst[1].strip()
-        if "," in value:
-            value = value.split(", ")
-            new_value = []
-            for each in value:
-                try:
-                    val = int(each)
-                    new_value.append(val)
-                except:
-                    pass
-        else:
-            new_value = value
-        page_dict = {
-            "Conditions": [
-                {
-                    "VariableName": conditions_lst[0].strip(),
-                    "Value": new_value
-                }
-            ],
-            "Inputs": [
-                {"Type": "Text",
-                 "Parameters": {
-                     "Text": text}
-                 }]
-        }
-    else:
-        page_dict = {
-            "Title": title,
-            "Inputs": [
+    """
+    This function creates a page with a survey question.
+    :param text: Text to go on the page
+    :param media: Link to image or video that should be shown on that page
+    :param image_framed: True/False if the image should be framed in the middle of the page (as opposed to taking up the entire screen)
+    :param items: Options for buttons, or other text options ("OtherChoices") for slider questions (usually 'Prefer not to answer')
+    :param input_1:  Buttons, Picker, Checkbox, Puzzle, Entry, Slider, Scheduler
+    :param input_2: Second input on the page:  Buttons, Picker, Checkbox, Puzzle, Entry, Slider, Scheduler
+    :param variable_name: If later pages being shown depend on the answer to this page, you need to set a VariableName for it
+    :param title: title of the page
+    :param input_name: the name that will pair with the survey question when the participant's data from the app is downloaded. This is very important to have for each page that you want to save a participant's response to
+    :param minimum: minimum value for sliders
+    :param maximum: maximum value for sliders
+    :param show_buttons: "WhenCorrect" if next button is shown only after the participant answers it correctly,
+                         "AfterTimeout" if next button is shown after a certain time (timeout) has happened,
+                         "Never" if the next button is never shown, &  the page will automatically go to next page after timeout
+    :param conditions_lst: conditions that need to be met to view the page. For example
+                            "StressLevel; 6, 7" will be parsed to ["StressLevel", "6, 7"]
+                            The first item in the list is the VariableName, the second item are the answers that need
+                            to have been selected in order for teh page to appear.
+                            In this case, someone has to pick "6" or "7" for the StressLevel question in order to
+                            see the page
+    :param timeout: see show_buttons "AfterTimeout"
+    :return: a page for a survey question / text page
+    """
+    ### Create generic page with text ###
+    page_dict = {
+        "Title": title,
+        "Inputs": [
             {"Type": "Text",
              "Parameters": {
                  "Text": text}
              }]
-        }
-    if timeout not in (None, ""):
+    }
+    ### Add page-level fields: conditions, media, timeouts, etc. ###
+    if conditions_lst != [''] and conditions_lst is not None:  # if conditions list isn't empty
+        value = conditions_lst[1].strip()  # value that needs to be met is the second item in the list
+        if "," in value:  # if there are multiple values
+            value = value.split(", ")  # split into a list
+            new_value = []
+            for each in value:
+                try:
+                    val = int(each)  # may have to cast to int
+                    new_value.append(val)
+                except (Exception,):
+                    pass
+            value = new_value
+        page_dict["Conditions"] = [{
+            "VariableName": conditions_lst[0].strip(),  # VariableName is first item in the list
+            "Value": value
+        }]
+
+    if timeout not in (None, ""):  # add time out if it's necessary
         page_dict["Timeout"] = int(timeout)
         if show_buttons not in (None, ""):
             page_dict["ShowButtons"] = show_buttons
-    # add media
-    if media not in (None, ""):  # if there is an image/video
+
+    if media not in (None, ""):  # add image/video if it's there
         if media[-3:] == "mp4":
-            type = "video/mp4"
-        if media[-4:] == "jpeg":
-            type = "image/jpeg"
+            media_type = "video/mp4"
+        elif media[-4:] == "jpeg":
+            media_type = "image/jpeg"
         # add a media input:
         media = {"Type": "Media",
-
                  "Parameters": {
                      "ImageUrl": media,
-                     "ImageType": type}
+                     "ImageType": media_type}
                  }
         if image_framed == "TRUE":
             media["Frame"] = True
+        print('Appending media for...', title)
         page_dict["Inputs"].append(media)
-    if input_1 not in (None, ""):
-        items_list = ""
-        if other_choices not in (None, ""):
-            items_list = other_choices.replace("\u2019", "'").replace(
-                "\u2013", "--").replace("\u2014", "--").replace(
-                "\u201c", '"').replace("\u201d", '"').replace("\\n", '\n').replace("\u00f4", "ô"). \
-                strip().split("; ")
-        times = 1
-        add = {}
-        if input_1 == input_2:
-            times = 2
-        if input_1 == "Picker" or input_2 == "Picker":
-            for i in range(times):
+
+    #### ADD INPUT ####
+    for app_input in [input_1, input_2]:
+        if app_input not in (None, ""):  # if there's an input
+            add = {}  # input to add
+            items_list = ""
+            if items not in (None, ""):  # if there are button or other choices, clean it up and split into a list
+                items_list = items.replace("\u2019", "'").replace("\u2013", "--").replace("\u2014", "--").replace(
+                    "\u201c", '"').replace("\u201d", '"').replace("\\n", '\n').replace("\u00f4", "ô").strip().split(
+                    "; ")
+            ## Based on what the input is, create input "add"
+            if app_input == "Picker":
                 add = {
                     "Type": "Picker",
                     "Name": input_name,
@@ -462,30 +579,27 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
                         "Items": items_list
                     }
                 }
-        if input_1 == "Slider" or input_2 == "Slider":
-            if items_list not in (None, [""], ""):
-                for i in range(times):  # basically if both = slider
+            elif app_input == "Slider":
+                if items_list not in (None, [""], ""):
                     add = {"Type": "Slider",
+                           "Name": input_name,
                            "Parameters": {
                                "Minimum": minimum,
                                "Maximum": maximum,
                                "OtherChoices": items_list
-                           }
-                           }
-            else:
-                for i in range(times):  # basically if both = slider
+                           }}
+                else:
                     add = {"Type": "Slider",
+                           "Name": input_name,
                            "Parameters": {
                                "Minimum": minimum,
-                               "Maximum": maximum
-                           }
-                           }
-        if input_1 == "Entry" or input_2 == "Entry":
-            for i in range(times):
+                               "Maximum": maximum,
+                               "OtherChoices": ["^Prefer not to answer"]
+                           }}
+            elif app_input == "Entry":
                 add = {"Type": "Entry",
                        "Name": input_name}
-        if input_1 == "Puzzle" or input_2 == "Puzzle":
-            for i in range(times):
+            elif app_input == "Puzzle":
                 add = {
                     "Type": "WordPuzzle",
                     "Name": input_name,
@@ -499,8 +613,7 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
                         "Words": items_list
                     }
                 }
-        if input_1 == "Buttons" or input_2 == "Buttons":
-            for i in range(times):
+            elif app_input == "Buttons":
                 add = {"Type": "Buttons",
                        "Name": input_name,
                        "Parameters": {
@@ -509,25 +622,16 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
                        }}
                 if items_list == ["Yes", "No"]:
                     add["Parameters"]["ColumnCount"] = 2
-            new_items_list = []
-            for each in items_list:
-                if "Other" in each:
-                    new_items_list.append("!" + each)
-                    # add["Parameters"]["OtherValue"] = [each]
-                else:
-                    new_items_list.append(each)
-            add["Parameters"]["Buttons"] = new_items_list
-        if input_1 == "Scheduler":
-            add = {
-                "Type": "Scheduler",
-                "Name": "schedule_session",
-                "Parameters": {
-                    "Message": "It’s time to practice thinking flexibly! Head over to Hoos Think Calmly for your "
-                               "scheduled session."
+            elif app_input == "Scheduler":
+                add = {
+                    "Type": "Scheduler",
+                    "Name": "schedule_session",
+                    "Parameters": {
+                        "Message": "It’s time to practice thinking flexibly! Head over to Hoos Think Calmly for your "
+                                   "scheduled session."
+                    }
                 }
-            }
-        if input_1 == "Checkbox" or input_2 == "Checkbox":
-            for i in range(times):
+            elif app_input == "Checkbox":
                 add = {"Type": "Buttons",
                        "Name": input_name,
                        "Parameters": {
@@ -535,34 +639,32 @@ def create_survey_page(text=None, media=None, image_framed=None, other_choices=N
                            "Selectable": True,
                            "AllowMultipleSelections": True
                        }}
-            new_items_list = []
-            for each in items_list:
-                if "Other" in each:
-                    new_items_list.append("!" + each)
-                    # add["Parameters"]["OtherValue"] = [each]
-                elif "Prefer not to answer" in each:
-                    new_items_list.append("^Prefer not to answer")
-                else:
-                    new_items_list.append(each)
-            add["Parameters"]["Buttons"] = new_items_list
 
-        if variable_name not in (None, ""):
-            add["VariableName"] = variable_name
-        if add not in (None, ""):
-            page_dict["Inputs"].append(add)
-            if input_1 == "Scheduler":
+            if variable_name not in (None, ""):
+                add["VariableName"] = variable_name
+            if add not in (None, ""):
                 page_dict["Inputs"].append(add)
-
+                if app_input == "Scheduler":
+                    page_dict["Inputs"].append(add)
     return page_dict
 
 
-# page groups per section --> include a page group for each section
-# sections should be a list of dicts
-def create_json_file(file_name, name, title, time_to_complete, sections, dose_by_section=False, cancel_button_text=None):
+def create_json_file(file_name, name, title, sections, dose_by_section=False,
+                     cancel_button_text=None):
+    """
+    Create a JSON file.
+    :param file_name: File name for the json file
+    :param name: name of json file
+    :param title: title that appears when user opens it
+    :param sections: Sections & all the information for the JSON files
+    :param dose_by_section: If true, each dose is a full section. This is used specifically for the Biweekly surveys,
+    as each time it's administered a user sees the next sectino
+    :param cancel_button_text: text for the "exit" or "cancel" button
+    :return: outputs a json file
+    """
     json_dict = {
         "Name": name,
         "Title": title,
-        "TimeToComplete": time_to_complete,
         "Sections": sections  # list of dicts
     }
     if dose_by_section:
