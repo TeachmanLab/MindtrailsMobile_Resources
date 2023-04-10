@@ -1,6 +1,4 @@
 import csv
-
-#on_demand_files = ["faculty_on-demand.csv", "grad_on-demand.csv", "staff_on-demand.csv", "undergrad_on-demand.csv"]
 import json
 
 on_demand_files = {
@@ -10,9 +8,53 @@ on_demand_files = {
     "Faculty": "/Users/emmymandm/PycharmProjects/MindTrails/HTC/csv_files/on-demand-resources/faculty_on-demand.csv",
 
 }
+json_dict = {
+    "Name": "On-demand resources",
+    "Title": "Resources",
+    "Sections": []
+}
+first_section =  {
+        "Name": "Group_membership",
+        "PageGroups": [
+            {
+                "Name": "Group Membership",
+                "Title": "Group Membership",
+                "Type": "Survey",
+                "Pages": [
+                    {
+                        "Inputs": [
+                            {
+                                "Type": "Text",
+                                "Parameters": {
+                                    "Text": "I am a..."
+                                }
+                            },
+                            {
+                                "Type": "Buttons",
+                                "Name": "group_membership",
+                                "VariableName": "group_membership",
+                                "Parameters": {
+                                    "Buttons": [
+                                        "Undergrad::Undergraduate student",
+                                        "Grad::Graduate student",
+                                        "Staff::Staff member",
+                                        "Faculty::Faculty member"
+                                    ],
+                                    "Selectable": True
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+       ]
+    }
+json_dict["Sections"].append(first_section)
 
 
+group_num = 0
 for group in on_demand_files.keys():
+    group_num += 1
     file = on_demand_files[group]
     domains = {
         "Academics/Work/Career Development": {},
@@ -50,18 +92,18 @@ for group in on_demand_files.keys():
             for resource in domains[domain][subdomain]:
                 subdomain_text = subdomain_text + resource
             domains[domain][subdomain] = subdomain_text
-    json_dict = {
-            "Name": group,
-            "Title": "Resources",
-            "Sections": [
-                {
-                    "Name": "Domains",
-                    "Description": "Please click on any topic to learn about resources that can help you manage that "
-                                   "part of your life.",
-                    "Domains": []
-                }
-            ]
+    json_dict["Sections"].append(
+        {
+            "Conditions": [{
+                "VariableName": "Group_membership",
+                "Value": group
+            }],
+            "Name": "Domains",
+            "Description": "Please click on any topic to learn about resources that can help you manage that "
+                           "part of your life. ",
+            "Domains": []
         }
+    )
     for domain in domains.keys():
         domain_dict = {
                 "Name": domain,
@@ -131,11 +173,9 @@ for group in on_demand_files.keys():
 
             ## add the text, create it as a large string of teh subdomain list separated by \n \n etc  
 
+        json_dict["Sections"][group_num]["Domains"].append(domain_dict)
 
-
-        json_dict["Sections"][0]["Domains"].append(domain_dict)
-
-    json_file = "/Users/emmymandm/PycharmProjects/MindTrails/HTC/json_files/On-demand/on-demand_" + group + ".json"
-    with open(json_file, 'w') as outfile:
-        json.dump(json_dict, outfile, indent=4)  # data instead of json_dict
+json_file = "/Users/emmymandm/PycharmProjects/MindTrails/HTC/json_files/On-demand/on-demand_all_groups.json"
+with open(json_file, 'w') as outfile:
+    json.dump(json_dict, outfile, indent=4)  # data instead of json_dict
 
