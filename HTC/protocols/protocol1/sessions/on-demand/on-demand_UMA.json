@@ -1,0 +1,892 @@
+{
+    "Name": "UMA On-demand resources",
+    "Title": "Resources",
+    "Sections": [
+        {
+            "Name": "Domains",
+            "Description": "Please click on any topic to learn about resources that can help you manage that part of your life. \n\n  Though resources were carefully selected by our team of researchers and clinicians, the University of Virginia does not endorse these resources.",
+            "Domains": [
+                {
+                    "Name": "Academics/Work/Career Development",
+                    "Title": "Academics/Work/Career Development Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Setting_and_Achieving_Goals::Setting and Achieving Goals",
+                                                    "Career_Development_::Career Development ",
+                                                    "Workplace_Issues_and_Conflict_Management::Workplace Issues and Conflict Management"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Setting and Achieving Goals",
+                            "Title": "Setting and Achieving Goals",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Setting_and_Achieving_Goals"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>A How-to Guide for Setting Better Goals</font></b><br /><br />Setting your own goals can be done in just four simple steps. <br /><br /><a href=\"https://advanced-hindsight.com/blog/a-how-to-guide-for-setting-better-goals/\">https://advanced-hindsight.com/blog/a-how-to-guide-for-setting-better-goals/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Career Development ",
+                            "Title": "Career Development ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Career_Development_"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Virginia Workforce Connection</font></b><br /><br />Your gateway to employment and labor market information in Virginia.<br /><br /><a href=\"https://vawc.virginia.gov/vosnet/Default.aspx\">https://vawc.virginia.gov/vosnet/Default.aspx</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Application and Interview Tips</font></b><br /><br />Review best practices and learn to avoid common missteps.\n<br /><br /><a href=\"https://www.youtube.com/watch?v=sLffu1MWzqU\">https://www.youtube.com/watch?v=sLffu1MWzqU</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Virginia Career Works</font></b><br /><br />Virginia Career Works is Virginia\u2019s vital link between meaningful employment and growing businesses. Learn more about what they provide.<br /><br /><a href=\"https://virginiacareerworks.com/\">https://virginiacareerworks.com/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Workplace Issues and Conflict Management",
+                            "Title": "Workplace Issues and Conflict Management",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Workplace_Issues_and_Conflict_Management"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>How to Handle Conflict in the Workplace</font></b><br /><br />Learn about some practical strategies you can use to handle conflict in the workplace.<br /><br /><a href=\"https://blink.ucsd.edu/HR/supervising/conflict/handle.html#8.-Build-on-your-success.\">https://blink.ucsd.edu/HR/supervising/conflict/handle.html#8.-Build-on-your-success.</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>How to Interact With Difficult People</font></b><br /><br />Learn practical strategies you can use to develop better working relationships with difficult people.\n<br /><br /><a href=\"https://blink.ucsd.edu/HR/supervising/conflict/interact.html\">https://blink.ucsd.edu/HR/supervising/conflict/interact.html</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>How to Handle Conflict at Work</font></b><br /><br />You don't have to figure out workplace conflict alone; a team of conflict-resolution experts have assembled tips to help you face workplace conflict head-on.<br /><br /><a href=\"https://www.npr.org/2022/04/07/1091455113/how-to-handle-conflict-at-work\">https://www.npr.org/2022/04/07/1091455113/how-to-handle-conflict-at-work</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Contact Your HR Department</font></b><br /><br />Don't hesitate to reach out to your Human Resources department when faced with workplace conflict; you are not alone. <br /><br /><a href=\"\"></a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Family & Home Life",
+                    "Title": "Family & Home Life Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Families::Families",
+                                                    "Security::Security",
+                                                    "Other::Other"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Families",
+                            "Title": "Families",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Families"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Healthy Families of Charlottesville/Albemarle</font></b><br /><br />Healthy Families fosters nurturing family relationships for pregnant moms and safe environments for young children through regular home visiting.<br /><br /><a href=\"https://readykidscville.org/family-support/healthy-families/\">https://readykidscville.org/family-support/healthy-families/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>REAL Dads</font></b><br /><br />REAL Dads coaches incarcerated fathers and fathers who want a stronger relationship with their children to have Responsible, Empowered, Available and Loving relationships with their families.<br /><br /><a href=\"https://readykidscville.org/family-support/real-dads/\">https://readykidscville.org/family-support/real-dads/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Region Ten Child and Family Services</font></b><br /><br />The Child and Family Services center provides prevention, substance use and mental health services to the children and families in our community. The goals of these services are to help families build resiliency and keep children/youth safely in their homes and communities when possible.<br /><br /><a href=\"https://regionten.org/service-type/children-family/\">https://regionten.org/service-type/children-family/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Virginia Association of Community Service Boards - CSB Directory</font></b><br /><br />Use this Community Service Board directory to find locally-provided mental health services in your area. <br /><br /><a href=\"https://vacsb.org/csb-bha-directory/\">https://vacsb.org/csb-bha-directory/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Virginia Department of Social Services</font></b><br /><br />VDSS is one of the largest Commonwealth agencies, partnering with 120 local departments of social services, along with faith-based and non-profit organizations, to promote the well-being of children and families statewide.<br /><br /><a href=\"https://www.dss.virginia.gov/\">https://www.dss.virginia.gov/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Child Youth, and Family Services Offices in Virginia</font></b><br /><br />Search here to find Virginia's child, youth, and family services offices.<br /><br /><a href=\"https://www.countyoffice.org/va-child-family-youth-services/\">https://www.countyoffice.org/va-child-family-youth-services/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Security",
+                            "Title": "Security",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Security"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>FEAP Clothing Resources </font></b><br /><br />FEAP offers resources for general clothing, maternity and baby clothing, and laundry services. <br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/clothing-resources\">https://uvafeap.com/counseling-services/community-resources-support/clothing-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>FEAP Housing and Utlility Resources </font></b><br /><br />FEAP offers resources for renting, affordable housing, and utilities. <br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/housing-and-utility-resources\">https://uvafeap.com/counseling-services/community-resources-support/housing-and-utility-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>FEAP Food Resources</font></b><br /><br />FEAP offers resources for food banks and public meal programs, delivered food resources, and state food assistance. <br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/food-resources\">https://uvafeap.com/counseling-services/community-resources-support/food-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UMA Social Worker</font></b><br /><br />Contact a social worker through UMA to help with security needs.<br /><br /><a href=\"\"></a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>myPlan App</font></b><br /><br />A free app to help with safety decisions if you, or someone  you care about, is experiencing abuse in their intimate relationship.  It\u2019s private, secure, personalized, & backed by research.<br /><br /><a href=\"https://www.myplanapp.org/\">https://www.myplanapp.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Food Stamp Offices in Virginia</font></b><br /><br />Search here to find Virginia's food stamp offices.<br /><br /><a href=\"https://www.countyoffice.org/food-stamp-office/\">https://www.countyoffice.org/food-stamp-office/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Other",
+                            "Title": "Other",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Other"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Piedmont Hospice</font></b><br /><br />Hospice of the Piedmont is a community-based nonprofit hospice that has offered expert care and peaceful resolution to Virginia families for over 40 years.<br /><br /><a href=\"https://hopva.org/\">https://hopva.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Grieving: TIPS for living in a time of loss</font></b><br /><br />Advice for people struggling with the loss of a loved one.<br /><br /><a href=\"https://womenscenter.virginia.edu/2021/03/grieving-tips-living-time-loss\">https://womenscenter.virginia.edu/2021/03/grieving-tips-living-time-loss</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Finances",
+                    "Title": "Finances Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Managing_Your_Money::Managing Your Money",
+                                                    "Meeting_Financial_Needs::Meeting Financial Needs",
+                                                    "Food,_Housing,_etc.::Food, Housing, etc."
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Managing Your Money",
+                            "Title": "Managing Your Money",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Managing_Your_Money"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Financial Wellness: Shifting from How Much You Have to How You Use It</font></b><br /><br />Learn about what financial wellness means and how to achieve it in your own life <br /><br /><a href=\"https://www.eudaimonicbydesign.com/resilience/financial\">https://www.eudaimonicbydesign.com/resilience/financial</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Tools from UVA Community Credit Union</font></b><br /><br />Interested in learning about managing your money, investing, or even buying a house? Attend a free, one-hour seminar through UVA Community Credit Union <br /><br /><a href=\"https://www.uvacreditunion.org/content/Education-And-Tools\">https://www.uvacreditunion.org/content/Education-And-Tools</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Meeting Financial Needs",
+                            "Title": "Meeting Financial Needs",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Meeting_Financial_Needs"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Financial Resources</font></b><br /><br />This comprehensive list cultivated by the UVA Faculty and Employee Assistance Program (FEAP) can help you meet your financial needs. <br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/financial-resources\">https://uvafeap.com/counseling-services/community-resources-support/financial-resources</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Food, Housing, etc.",
+                            "Title": "Food, Housing, etc.",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Food,_Housing,_etc."
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>FEAP Food Resources</font></b><br /><br />Food assistance, delivered food resources.<br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/food-resources\">https://uvafeap.com/counseling-services/community-resources-support/food-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>FEAP Housing and Utilities Resources</font></b><br /><br />Resources available in the Charlottesville and Albemarle County area.<br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/housing-and-utility-resources\">https://uvafeap.com/counseling-services/community-resources-support/housing-and-utility-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>FEAP Transportation Resources</font></b><br /><br />Bus and other transportation services.<br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/transportation-resources\">https://uvafeap.com/counseling-services/community-resources-support/transportation-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>FEAP Clothing Resources</font></b><br /><br />Looking for discounted or affordable clothing? Check out this list of local clothing resources. <br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/clothing-resources\">https://uvafeap.com/counseling-services/community-resources-support/clothing-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UMA Social Worker</font></b><br /><br />Contact a social worker through UMA to help with food and housing needs.<br /><br /><a href=\"\"></a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Food Stamp Offices in Virginia</font></b><br /><br />Search here to find Virginia's food stamp offices.<br /><br /><a href=\"https://www.countyoffice.org/food-stamp-office/\">https://www.countyoffice.org/food-stamp-office/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>211</font></b><br /><br />Call 211 for essential community services; 211 connects you to expert, caring help. Every call is completely confidential.<br /><br /><a href=\"https://www.211.org/\">https://www.211.org/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Mental Health",
+                    "Title": "Mental Health Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Mindfulness_and_Meditation::Mindfulness and Meditation",
+                                                    "Stress_Management_and_Self-Care::Stress Management and Self-Care",
+                                                    "Treatment_Options_and_Additional_Resources::Treatment Options and Additional Resources"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Mindfulness and Meditation",
+                            "Title": "Mindfulness and Meditation",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Mindfulness_and_Meditation"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Mindfulness Information Videos</font></b><br /><br />Learn more about mindfulness from two of UVA\u2019s Mindfulness Center Instructors.<br /><br /><a href=\"https://med.virginia.edu/mindfulness-center/about/intro-to-mindfulness/\">https://med.virginia.edu/mindfulness-center/about/intro-to-mindfulness/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Mindfulness Recommended Reading</font></b><br /><br />Readings, videos, and transcripts with information on mindfulness and how to incorporate it into your lifestyle.<br /><br /><a href=\"https://med.virginia.edu/mindfulness-center/continue-your-practice/recommended-reading/\">https://med.virginia.edu/mindfulness-center/continue-your-practice/recommended-reading/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UCSD Mindfulness & Compassion Resources</font></b><br /><br />The UC San Diego Center for Mindfulness resource page offers the various resources, in the form of information and links, in their continued efforts to provide individual and community support. <br /><br /><a href=\"https://cih.ucsd.edu/mindfulness/mindfulness-compassion-resources\">https://cih.ucsd.edu/mindfulness/mindfulness-compassion-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Compassionate Care Initiative</font></b><br /><br />The UVA School of Nursing\u2019s Compassionate Care Initiative (CCI) offers ongoing, weekly sessions on mindfulness meditation, mindful movement, yoga, and more. All drop-in sessions are free; no registration or previous experience required!<br /><br /><a href=\"https://cci.nursing.virginia.edu/activities/calendar/\">https://cci.nursing.virginia.edu/activities/calendar/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UVA Mindfulness Center</font></b><br /><br />Check out the Mindfulness Center for meditation and other stress-reduction online classes, events, recordings, and resources. <br /><br /><a href=\"https://med.virginia.edu/mindfulness-center/programs/\">https://med.virginia.edu/mindfulness-center/programs/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UVA Contemplative Sciences Center</font></b><br /><br />Check out the CSC for various yoga and mindfulness courses. <br /><br /><a href=\"https://csc.virginia.edu/feature/contemplative-classes-yoga-mindfulness-and-more\">https://csc.virginia.edu/feature/contemplative-classes-yoga-mindfulness-and-more</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Stress Management and Self-Care",
+                            "Title": "Stress Management and Self-Care",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Stress_Management_and_Self-Care"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>FEAP Resources in Support of Social Justice </font></b><br /><br />Check out these virtual resources regarding education, action, reflection, and self-care to help acknowledge the pain of injustices suffered, offer support to those hurting or distressed, and offfer resources for those who want to learn and respond to foster social justice. <br /><br /><a href=\"https://uvafeap.com/services/virtual-resources-library/resources-support-social-justice\">https://uvafeap.com/services/virtual-resources-library/resources-support-social-justice</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>FEAP Positive Psychology</font></b><br /><br />A FEAP counseling with a Positive Psychology Practitioner can provide you with information on the field of Positive Psychology and how you can learn to thrive more in your life.<br /><br /><a href=\"https://uvafeap.com/counseling-services/positive-psychology\">https://uvafeap.com/counseling-services/positive-psychology</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>How to Stress More Effectively</font></b><br /><br />Learn about how you can think about stress more positively<br /><br /><a href=\"https://uvafeap.com/sites/feap/files/PDFs/Tip%20of%20the%20Month/FEAP%20Tip%20of%20the%20Month_April%2020_2021.pdf\">https://uvafeap.com/sites/feap/files/PDFs/Tip%20of%20the%20Month/FEAP%20Tip%20of%20the%20Month_April%2020_2021.pdf</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Cultivating Optimism</font></b><br /><br />Optimism is good for you -- and for those around you. Learn how to cultivate it!<br /><br /><a href=\"https://uvafeap.com/sites/feap/files/PDFs/Tip%20of%20the%20Month/FEAP%20Tip%20of%20the%20Month_March%2016_2021_final.pdf\">https://uvafeap.com/sites/feap/files/PDFs/Tip%20of%20the%20Month/FEAP%20Tip%20of%20the%20Month_March%2016_2021_final.pdf</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>FEAP Virtual Resources for Stress Management </font></b><br /><br />Check out these resources to help support your mental and emotional wellness.<br /><br /><a href=\"https://uvafeap.com/services/virtual-resources-library/virtual-resources-support-stress-management\">https://uvafeap.com/services/virtual-resources-library/virtual-resources-support-stress-management</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Treatment Options and Additional Resources",
+                            "Title": "Treatment Options and Additional Resources",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Treatment_Options_and_Additional_Resources"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Women's Initiative</font></b><br /><br />Through the Women's Initiative, the Sister Circle program aims to address the needs of Black women living in Charlottesville.<br /><br /><a href=\"https://thewomensinitiative.org/sister-circle/\">https://thewomensinitiative.org/sister-circle/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Virginia Association of Community Service Boards - CSB Directory</font></b><br /><br />Use this Community Service Board directory to find locally-provided mental health services in your area. <br /><br /><a href=\"https://vacsb.org/csb-bha-directory/\">https://vacsb.org/csb-bha-directory/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>BIPOC Mental Health and Wellness Resources </font></b><br /><br />Check out this comprehensive guide for BIPOC mental health and wellness resources compiled by the Women's Center <br /><br /><a href=\"https://docs.google.com/spreadsheets/d/1n9R7BpHPj4o_3bgKccSUVqVNwNgyIccfrMXJjYSHgxo/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/1n9R7BpHPj4o_3bgKccSUVqVNwNgyIccfrMXJjYSHgxo/edit?usp=sharing</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>LGBTQ+ Mental Health and Wellness Resources </font></b><br /><br />Check out this comprehensive guide for LGBTQ+ mental health and wellness resources compiled by the Women's Center<br /><br /><a href=\"https://docs.google.com/spreadsheets/d/16Nix5xJKv6Zpik1ZM0qDNCXOfHTcHp9KGgdvCVTYSPY/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/16Nix5xJKv6Zpik1ZM0qDNCXOfHTcHp9KGgdvCVTYSPY/edit?usp=sharing</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UMA Primary Care Physician</font></b><br /><br />Talk to your primary care physician about ways to work through mental health concerns. You are not alone<br /><br /><a href=\"\"></a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>988</font></b><br /><br />The 988 Lifeline provides 24/7, free and confidential support for people in distress, prevention and crisis resources for you or your loved ones, and best practices for professionals in the United States.<br /><br /><a href=\"https://988lifeline.org/\">https://988lifeline.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Partner for Mental Health</font></b><br /><br />Looking for mental illness support, referrals, or educational opportunities? Check out this resource that stands up for the rights and dignity of those with mental illness as they engage in treatment or in the justice system, while supporting creative solutions to interpersonal and legal challenges caused by mental illness. <br /><br /><a href=\"https://partnerformentalhealth.org/\">https://partnerformentalhealth.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>The Counseling Alliance of Virginia (CAVA)</font></b><br /><br />Check out CAVA for counseling needs regarding the impact of mental illness, substance abuse, trauma, and/or other life stressors. CAVA offers a variety of clinical specialists who practice several different approaches to treatment. <br /><br /><a href=\"https://www.cavahelps.com/\">https://www.cavahelps.com/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Region Ten</font></b><br /><br />Looking for mental health support? Region Ten offers several services for mental health, including case management, intellectual disability, substance use, rehabilitation, and counseling. <br /><br /><a href=\"https://regionten.org/services/\">https://regionten.org/services/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Central Virginia Clinicans of Color Network (CVCCN)</font></b><br /><br />CVCCN is a supportive network that empowers clinicians of color and builds capacity for providing culturally responsive mental health treatment.<br /><br /><a href=\"https://cvccn.org/\">https://cvccn.org/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Physical Health",
+                    "Title": "Physical Health Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Substance_Use::Substance Use",
+                                                    "Physical_Health_and_Exercise::Physical Health and Exercise",
+                                                    "Relationship_With_Food::Relationship With Food",
+                                                    "Reproductive_Health::Reproductive Health"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Substance Use",
+                            "Title": "Substance Use",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Substance_Use"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Quit Now Virginia - Tobacco Free Living</font></b><br /><br />Since 2005, Quit Now Virginia has been a leading tool for helping tobacco and nicotine users quit their addiction. Thousands of people have contacted 1.800.Quit Now!<br /><br /><a href=\"https://www.vdh.virginia.gov/tobacco-free-living/quit-now-virginia/\">https://www.vdh.virginia.gov/tobacco-free-living/quit-now-virginia/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Drink Less - Better Help</font></b><br /><br />Any reduction in the amount you drink every week will be beneficial \u2013 and with the right help, it's easier than you think.\n<br /><br /><a href=\"https://www.nhs.uk/better-health/drink-less/\">https://www.nhs.uk/better-health/drink-less/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Quit Smoking - Better Help</font></b><br /><br />Even if you\u2019ve tried before, maybe more than once, you can still succeed. What you\u2019ve already learned will help you reach your goal of becoming an ex-smoker. Check out advice, tools and tips here.<br /><br /><a href=\"https://www.nhs.uk/better-health/quit-smoking/\">https://www.nhs.uk/better-health/quit-smoking/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UMA Primary Care Physician</font></b><br /><br />Talk to your primary care physician about ways to work through substance use and addiction.<br /><br /><a href=\"\"></a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>SAMHSA National Helpline</font></b><br /><br />The Substance Abuse and Mental Health Services Administration's National Helpline is a free, confidential, 24/7, 365-day-a-year treatment referral and information service (in English and Spanish) for individuals and families facing mental and/or substance use disorders.<br /><br /><a href=\"https://www.samhsa.gov/find-help/national-helpline\">https://www.samhsa.gov/find-help/national-helpline</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Physical Health and Exercise",
+                            "Title": "Physical Health and Exercise",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Physical_Health_and_Exercise"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>VDH Physical Activity Recommendations</font></b><br /><br />Visit the Virginia Department of Health Physical Activity site for physical activity information and recommendations.<br /><br /><a href=\"https://www.vdh.virginia.gov/healthy-communities/physical-activity/\">https://www.vdh.virginia.gov/healthy-communities/physical-activity/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>How to Be More Active</font></b><br /><br />Here are some simple ideas to build more activity into your day, tips to stick with it and free exercise plans to help you get going.\n<br /><br /><a href=\"https://www.nhs.uk/better-health/get-active/how-to-be-more-active/\">https://www.nhs.uk/better-health/get-active/how-to-be-more-active/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Getting Active</font></b><br /><br />The American Heart Association has the tools and resources to get you on the right path to a healthier lifestyle.\n<br /><br /><a href=\"https://www.heart.org/en/healthy-living/fitness/getting-active\">https://www.heart.org/en/healthy-living/fitness/getting-active</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>What Doctors Wish Patients Knew About Increasing Physical Activity</font></b><br /><br />This installment of the AMA\u2019s \"What Doctors WIsh Patient's Knew\" discusses what patients need to know about physical activity.<br /><br /><a href=\"https://www.ama-assn.org/delivering-care/public-health/what-doctors-wish-patients-knew-about-increasing-physical-activity\">https://www.ama-assn.org/delivering-care/public-health/what-doctors-wish-patients-knew-about-increasing-physical-activity</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Physical Activity Basics</font></b><br /><br />Regular physical activity is one of the most important things you can do for your health. Learn more about it here.\n\n<br /><br /><a href=\"https://www.cdc.gov/physicalactivity/basics/index.htm\">https://www.cdc.gov/physicalactivity/basics/index.htm</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>FEAP Aging Resources</font></b><br /><br />Resources for aging needs including temporary in-home care.<br /><br /><a href=\"https://uvafeap.com/counseling-services/community-resources-support/aging-resources\">https://uvafeap.com/counseling-services/community-resources-support/aging-resources</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>5 Easy Ways to Get More Active</font></b><br /><br />This site outlines 5 easy ways to start and sustain a more active lifestyle that have been tested in countless research studies.\n\n<br /><br /><a href=\"https://www.sbm.org/healthy-living/5-easy-ways-to-get-more-active?gad=1&gclid=EAIaIQobChMI-4nLx9P_gAMVELXICh27dQ44EAAYAyAAEgIV8fD_BwE\">https://www.sbm.org/healthy-living/5-easy-ways-to-get-more-active?gad=1&gclid=EAIaIQobChMI-4nLx9P_gAMVELXICh27dQ44EAAYAyAAEgIV8fD_BwE</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Relationship With Food",
+                            "Title": "Relationship With Food",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Relationship_With_Food"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Virginia Family Nutrition Program</font></b><br /><br />The Virginia Family Nutrition Program (FNP) empowers Virginians to take charge of their health by eating healthy and living an active lifestyle. We teach limited resource households how to make healthier food choices and become better managers of available food resources for optimal health and growth.<br /><br /><a href=\"https://eatsmartmovemoreva.org/nourish/#:~:text=The%20Virginia%20Family%20Nutrition%20Program,for%20optimal%20health%20and%20growth.\">https://eatsmartmovemoreva.org/nourish/#:~:text=The%20Virginia%20Family%20Nutrition%20Program,for%20optimal%20health%20and%20growth.</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Healthy Eating for a Healthy Weight</font></b><br /><br />An eating plan that helps promote health and manage your weight includes a variety of healthy foods. Learn more about creating the ideal eating plan for you. <br /><br /><a href=\"https://www.cdc.gov/healthyweight/healthy_eating/index.html\">https://www.cdc.gov/healthyweight/healthy_eating/index.html</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Nutrition Counseling:</font></b><br /><br />Meet with a Registered Dietitian for individualized guidance on how to nourish yourself.<br /><br /><a href=\"https://uvahealth.com/services/nutrition/classes\">https://uvahealth.com/services/nutrition/classes</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Reproductive Health",
+                            "Title": "Reproductive Health",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Reproductive_Health"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Planned Parenthood</font></b><br /><br />Check out Planned Parenthood for both informational resources on STDs, pregnancy, birth control options, and more, or to schedule an in-person or telehealth appointment with a medical professional. <br /><br /><a href=\"https://www.plannedparenthood.org/\">https://www.plannedparenthood.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Planned Parenthood: Pregnancy Information</font></b><br /><br />Check out this resource on prenatal care, fertility treatments, pregnancy options, postpartum depression, and more! <br /><br /><a href=\"https://www.plannedparenthood.org/learn/pregnancy\">https://www.plannedparenthood.org/learn/pregnancy</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>VDH Family Planning Resources</font></b><br /><br />Visit the Virginia Department of Health Family Planning site for information and services related to reproductive health.<br /><br /><a href=\"https://www.vdh.virginia.gov/family-planning/\">https://www.vdh.virginia.gov/family-planning/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UMA Primary Care Physician</font></b><br /><br />Don't hesitate to talk to your primary care physician about your reproductive health.<br /><br /><a href=\"\"></a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Thrive Central Virginia</font></b><br /><br />Check out this center for both its 24/7 helpline and both walk-in or scheduled appointments regarding pregnancy testing, confidential options counseling, abortion information, ultrasounds, pregnancy support, post-abortion care and support, and more!  <br /><br /><a href=\"https://thrivecentralva.org/\">https://thrivecentralva.org/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Romantic Relationships",
+                    "Title": "Romantic Relationships Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Addressing_Harm_in_Relationships_::Addressing Harm in Relationships ",
+                                                    "Resources_for_Couples_::Resources for Couples "
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Addressing Harm in Relationships ",
+                            "Title": "Addressing Harm in Relationships ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Addressing_Harm_in_Relationships_"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Sexual Assault Resource Agency</font></b><br /><br />The Sexual Assault Resource Agency (SARA) provides free, confidential support services for survivors of all genders.   <br /><br /><a href=\"https://saracville.org\">https://saracville.org</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>myPlan App</font></b><br /><br />A free app to help with safety decisions if you, or someone  you care about, is experiencing abuse in their intimate relationship.  It\u2019s private, secure, personalized, & backed by research.<br /><br /><a href=\"https://www.myplanapp.org/\">https://www.myplanapp.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>The National Domestic Violence Hotline</font></b><br /><br />Everyone deserves healthy relationships. When you're ready, we're here to listen. <br /><br /><a href=\"https://www.thehotline.org/\">https://www.thehotline.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>988</font></b><br /><br />The 988 Lifeline provides 24/7, free and confidential support for people in distress, prevention and crisis resources for you or your loved ones, and best practices for professionals in the United States.<br /><br /><a href=\"https://988lifeline.org/\">https://988lifeline.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Shelter for Help in Emergency (SHE)</font></b><br /><br />The Shelter for Help in Emergency (SHE) offers trauma-based resources for survivors of domestic violence and aims at creating a community of empowerment and support. <br /><br /><a href=\"https://www.shelterforhelpinemergency.org\">https://www.shelterforhelpinemergency.org</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>myPlan App</font></b><br /><br />A free app to help with safety decisions if you, or someone  you care about, is experiencing abuse in their intimate relationship.  It\u2019s private, secure, personalized, & backed by research.<br /><br /><a href=\"https://www.myplanapp.org/\">https://www.myplanapp.org/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Resources for Couples ",
+                            "Title": "Resources for Couples ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Resources_for_Couples_"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>National Healthy Marriage Resource Center </font></b><br /><br />The Natioanl Healthy Marriage Resource Center offers a variety of resources to help married couples develop a healthier relationship. <br /><br /><a href=\"http://www.healthymarriageinfo.org\">http://www.healthymarriageinfo.org</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>The Gottman Institute</font></b><br /><br />The Gottman Institute is focused on improving the well-being of marriages, families, and relationships through a research-based approach. <br /><br /><a href=\"https://www.gottman.com/about/\">https://www.gottman.com/about/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Social Situations",
+                    "Title": "Social Situations Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Shared_Interests_or_Identities::Shared Interests or Identities",
+                                                    "Events_and_Volunteering::Events and Volunteering",
+                                                    "Safety::Safety"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Shared Interests or Identities",
+                            "Title": "Shared Interests or Identities",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Shared_Interests_or_Identities"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Events in Virginia</font></b><br /><br />Virginia is home to countless events and festivals no matter what the season. Mark your calendar and make this a year to remember.<br /><br /><a href=\"https://www.virginia.org/events/\">https://www.virginia.org/events/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>BIPOC Mental Health and Wellness Resources </font></b><br /><br />Check out this comprehensive guide for BIPOC mental health and wellness resources. <br /><br /><a href=\"https://docs.google.com/spreadsheets/d/1n9R7BpHPj4o_3bgKccSUVqVNwNgyIccfrMXJjYSHgxo/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/1n9R7BpHPj4o_3bgKccSUVqVNwNgyIccfrMXJjYSHgxo/edit?usp=sharing</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>LGBTQ+ Mental Health and Wellness Resources </font></b><br /><br />Check out this comprehensive guide for LGBTQ+ mental health and wellness resources compiled by the Women's Center<br /><br /><a href=\"https://docs.google.com/spreadsheets/d/16Nix5xJKv6Zpik1ZM0qDNCXOfHTcHp9KGgdvCVTYSPY/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/16Nix5xJKv6Zpik1ZM0qDNCXOfHTcHp9KGgdvCVTYSPY/edit?usp=sharing</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Events and Volunteering",
+                            "Title": "Events and Volunteering",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Events_and_Volunteering"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Events in Virginia</font></b><br /><br />Virginia is home to countless events and festivals no matter what the season. Mark your calendar and make this a year to remember.<br /><br /><a href=\"https://www.virginia.org/events/\">https://www.virginia.org/events/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>UVA Employee Volunteer Resource Hub</font></b><br /><br />Volunteering can offer a great opportunity to connect with other people across your community. The UVA Employee Volunteer Resource Hub provides a variety of volunteering opportunities within Charlottesville and beyond. <br /><br /><a href=\"https://hr.virginia.edu/time/volunteer-center\">https://hr.virginia.edu/time/volunteer-center</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Safety",
+                            "Title": "Safety",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Safety"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>myPlan App</font></b><br /><br />A free app to help with safety decisions if you, or someone  you care about, is experiencing abuse in their intimate relationship.  It\u2019s private, secure, personalized, & backed by research.<br /><br /><a href=\"https://www.myplanapp.org/\">https://www.myplanapp.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Virginia Department of Criminal Justice Services</font></b><br /><br />Find law enforcement agencies by\nname, type, or location.<br /><br /><a href=\"https://www.dcjs.virginia.gov/law-enforcement/programs/criminal-justice-directory\">https://www.dcjs.virginia.gov/law-enforcement/programs/criminal-justice-directory</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Discrimination/Microaggressions",
+                    "Title": "Discrimination/Microaggressions Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Community_Support::Community Support",
+                                                    "Self-Care_and_Wellness_Guides::Self-Care and Wellness Guides",
+                                                    "Allyship::Allyship"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Community Support",
+                            "Title": "Community Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Community_Support"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Womens Initiative -- Sister Circle</font></b><br /><br />Sister Circle offers a social support group to meet the needs of people from across the African diaspora who identify as women in various ways: one of which being, recognizing the unique mental health challenges and trauma created by anti-Black racism and systemic oppression of BIPOC individuals.<br /><br /><a href=\"https://thewomensinitiative.org/sister-circle\">https://thewomensinitiative.org/sister-circle</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Self-Care and Wellness Guides",
+                            "Title": "Self-Care and Wellness Guides",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Self-Care_and_Wellness_Guides"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>BIPOC Mental Health and Wellness Resources </font></b><br /><br />Check out this comprehensive guide for BIPOC mental health and wellness resources. <br /><br /><a href=\"https://docs.google.com/spreadsheets/d/1n9R7BpHPj4o_3bgKccSUVqVNwNgyIccfrMXJjYSHgxo/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/1n9R7BpHPj4o_3bgKccSUVqVNwNgyIccfrMXJjYSHgxo/edit?usp=sharing</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>LGBTQ+ Mental Health and Wellness Resources </font></b><br /><br />Check out this comprehensive guide for LGBTQ+ mental health and wellness resources compiled by the Women's Center<br /><br /><a href=\"https://docs.google.com/spreadsheets/d/16Nix5xJKv6Zpik1ZM0qDNCXOfHTcHp9KGgdvCVTYSPY/edit?usp=sharing\">https://docs.google.com/spreadsheets/d/16Nix5xJKv6Zpik1ZM0qDNCXOfHTcHp9KGgdvCVTYSPY/edit?usp=sharing</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Sister Circle Presents...10 Self-Care Tips for Black Women</font></b><br /><br />Looking to engage in some self-care? Here's 10 ways you can!<br /><br /><a href=\"https://static1.squarespace.com/static/50a50853e4b013b04b89ffc5/t/5ed80f43b6b8fc226c25e275/1591218015612/2020-06+Sister+Circle+Self-Care+Tips.pdf\">https://static1.squarespace.com/static/50a50853e4b013b04b89ffc5/t/5ed80f43b6b8fc226c25e275/1591218015612/2020-06+Sister+Circle+Self-Care+Tips.pdf</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Tool Kits & Resources from the Black Emotional and Mental Health Collective </font></b><br /><br />Explore different ways that you can care for your emotional and mental health<br /><br /><a href=\"https://www.beam.community/tool-kits-education\">https://www.beam.community/tool-kits-education</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Allyship",
+                            "Title": "Allyship",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Allyship"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Talking About Race</font></b><br /><br />Conversations about race are important -- here's how you can do them right.<br /><br /><a href=\"https://nmaahc.si.edu/learn/talking-about-race\">https://nmaahc.si.edu/learn/talking-about-race</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>The Guide to Allyship</font></b><br /><br />Interetsed in learning what it takes to be an effective ally? Here's a guide. <br /><br /><a href=\"https://guidetoallyship.com/?fbclid=IwAR1TfKMWgVCGshdjbJaT7z5ZgVPGa76i0mzOmSVmzOgEdosOJ0j4UPFKOcQ\">https://guidetoallyship.com/?fbclid=IwAR1TfKMWgVCGshdjbJaT7z5ZgVPGa76i0mzOmSVmzOgEdosOJ0j4UPFKOcQ</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>How Organizations Can Support the Mental Health of Black Employees</font></b><br /><br />Here's how you can support the mental health of your colleagues that identify as Black<br /><br /><a href=\"https://hbr.org/2020/06/how-organizations-can-support-the-mental-health-of-black-employees\">https://hbr.org/2020/06/how-organizations-can-support-the-mental-health-of-black-employees</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Workplace Mental Health for Asian American Professionals</font></b><br /><br />Learn about the challenges that people who identify as Asian American face in the workplace -- and how they overcome them <br /><br /><a href=\"https://www.mindsharepartners.org/post/workplace-mental-health-for-asian-american-professionals-featuring-insights-from-employees-at-adobe\">https://www.mindsharepartners.org/post/workplace-mental-health-for-asian-american-professionals-featuring-insights-from-employees-at-adobe</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>How to Support Asian American colleagues amid the recent wave of anti-Asian violence </font></b><br /><br />Here's how you can support your colleagues that identify as Asian American<br /><br /><a href=\"https://www.cnbc.com/2021/02/19/how-to-support-asian-american-colleagues-amid-anti-asian-violence.html\">https://www.cnbc.com/2021/02/19/how-to-support-asian-american-colleagues-amid-anti-asian-violence.html</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
