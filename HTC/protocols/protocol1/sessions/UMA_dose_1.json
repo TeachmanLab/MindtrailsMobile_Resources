@@ -411,6 +411,29 @@
                                     }
                                 }
                             ]
+                        },
+                        {
+                            "Title": "Demographics",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "How did you hear about the program?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "My provider told me about it",
+                                            "I saw a sign on the wall in the lobby or patient room",
+                                            "!Other:"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
                         }
                     ]
                 },
@@ -3170,8 +3193,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not get sick. ",
-                                            "Get sick. "
+                                            "Get sick. ",
+                                            "Not get sick. "
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Get sick. "
