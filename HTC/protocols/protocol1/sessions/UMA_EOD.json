@@ -1,0 +1,109 @@
+{
+    "Name": "Nightly Survey",
+    "Title": "Nightly Survey",
+    "Sections": [
+        {
+            "Name": "Nightly Survey",
+            "PageGroups": [
+                {
+                    "Name": "EOD",
+                    "Title": "EOD",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Nightly Survey",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Overall, today I felt...\n\n1 = Very bad/negative\n\n7 = Very good/positive"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "EOD_mood",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Nightly Survey",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "I was able to think about stressful or upsetting situations in a new or different way today.\n\n1 = Not at all true\n\n7 = Very true"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "EOD_thinking",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Nightly Survey",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "I was able to manage my emotions today.\n\n1 = Not at all effectively\n\n7 = Very effectively"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "EOD_emotions",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefer not to answer"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Nightly Survey",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "You are encouraged to complete 2 short Hoos Think Calmly programs tomorrow. Thinking ahead to your day tomorrow, are there specific times you would like to receive a notification to complete a ~5 minute program to help manage a stressful or upsetting situation?"
+                                    }
+                                },
+                                {
+                                    "Type": "Scheduler",
+                                    "Name": "schedule_session",
+                                    "Parameters": {
+                                        "Message": "It\u2019s time to practice thinking flexibly! Head over to Hoos Think Calmly for your scheduled session."
+                                    }
+                                },
+                                {
+                                    "Type": "Scheduler",
+                                    "Name": "schedule_session",
+                                    "Parameters": {
+                                        "Message": "It\u2019s time to practice thinking flexibly! Head over to Hoos Think Calmly for your scheduled session."
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
