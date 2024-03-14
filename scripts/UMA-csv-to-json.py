@@ -19,39 +19,6 @@ for group in uma_groups.keys():
     ER_lookup = get_ER(file_path=r"C:\Users\maddie\Desktop\python\ER_strategies.csv")
     tip_lst = get_tips(file_path=r"C:\Users\maddie\Desktop\python\tips.csv")
 
-    unique = []
-    others = []
-    with open(r"C:\Users\maddie\Desktop\python\HTC_long_scenarios.csv", "r", encoding="utf-8") as file_read:
-        reader2 = csv.reader(file_read)
-        next(reader2)
-        next(reader2)
-        for rows in reader2:
-            label = rows[3]
-            if not (rows[5].strip() == rows[22].strip() == rows[39].strip() == rows[56].strip()):
-                unique.append(label)
-            else:
-                others.append(label)
-    with open(r"C:\Users\maddie\Desktop\python\HTC_scenarios.csv", "r", encoding="utf-8") as file_read:
-        reader3 = csv.reader(file_read)
-        next(reader3)
-        next(reader3)
-        for rows in reader3:
-            label = rows[3]
-            if not (rows[9].strip() == rows[15].strip() == rows[21].strip() == rows[27].strip()):
-                unique.append(label)
-            else:
-                others.append(label)
-    with open(r"C:\Users\maddie\Desktop\python\dose1_scenarios.csv", "r", encoding="utf-8") as file_read:
-        reader2 = csv.reader(file_read)
-        next(reader2)
-        next(reader2)
-        for rows in reader2:
-            label = rows[3]
-            if not (rows[9].strip() == rows[15].strip() == rows[21].strip() == rows[27].strip()):
-                unique.append(label)
-            else:
-                others.append(label)
-
     long_page_groups ={
         "Social Situations": [],
         "Physical Health": [],
@@ -235,9 +202,9 @@ for group in uma_groups.keys():
             else:
                 # create survey page
                 if row[2]:  # if it's not blank
-                    text = row[4].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
-                        replace("\u2026", "...")
+                    text = row[4].replace("\u2019", "'").replace("\u00e2\u20ac\u2122", "'").replace("\u2013", " - ")\
+                        .replace("\u2014", " - ").replace("\u201c", '"').replace("\u201d", '"').replace("\u00e9", "é")\
+                        .replace("\\n", "\n").replace("\u2026", "...").replace("\u00e9", "é")
                     page_group_name = row[0]
                     title = row[1].strip()
                     input_1 = row[5]
@@ -319,6 +286,7 @@ for group in uma_groups.keys():
         scenario_num = 0
         page_groups_dict = {}
         titles_list = []
+        titles_count = {}
 
         domains_lookup = {
             "Social Situations": [{}, 0],  # {} will have all the page groups, 0 is the counter of scenarios
@@ -349,9 +317,9 @@ for group in uma_groups.keys():
             next(discrimination_reader)
             for d_row in discrimination_reader:
                 title = d_row[0]
-                text = d_row[1].replace("\u2019", "'").replace(
-                    "\u2013", "--").replace("\u2014", "--").replace(
-                    "\u201c", '"').replace("\u201d", '"').strip().replace("\\n", "\n")  # replace("\\", "\\")
+                text = d_row[1].replace("\u2019", "'").replace("\u00e2\u20ac\u2122", "'").replace(
+                    "\u2013", "--").replace("\u2014", "--").replace("\u00e9", "é")\
+                    .replace("\u201c", '"').replace("\u201d", '"').strip().replace("\\n", "\n")  # replace("\\", "\\")
                 text = 'Go to the on-demand library to get the links to these resources.\n\n' + text
                 input_1 = d_row[2]
                 # each group (undergrad, grad, etc.) has slightly different text
@@ -359,9 +327,9 @@ for group in uma_groups.keys():
                 participant_group = d_row[3]  # this is the participant group
                 input_name = d_row[15]
                 conditions_lst = d_row[14].split('; ')
-                items_list = d_row[7].replace("\u2019", "'").replace(
-                    "\u2013", "--").replace("\u2014", "--").replace(
-                    "\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
+                items_list = d_row[7].replace("\u2019", "'").replace("\u00e2\u20ac\u2122", "'")\
+                    .replace("\u2013", "--").replace("\u2014", "--").replace("\u201c", '"')\
+                    .replace("\u201d", '"').replace("\\n", "\n"). \
                     strip().split("; ")
                 if group in participant_group:  # checking if it corresponds to the group we're dealing with
                     discrimination_page = create_discrimination_page(conditions_lst=conditions_lst,
@@ -387,10 +355,14 @@ for group in uma_groups.keys():
             # domain_3 = row[2]
             label = row[3]  # scenario name, Hoos TC title column
             if domain not in (None, "") and domain:  # if there is a domain
+                #if label not in titles_count.keys():
+                 #       titles_count[label] = 1
+                #else:
+                 #   titles_count[label] += 1
 
                 ## CREATE scenario pages
                 if label not in (None, "") and row[i] not in (None, "") and row[i] != "NA" and row[i] != "N/A" and \
-                        "Write Your Own" not in label and titles_list.count(label) < 3:  # if it's a scenario that hasn't already been added 3 times
+                        "Write Your Own" not in label:  # if it's a scenario that hasn't already been added 3 times
                     if domain not in domains_dict.keys():  # first, create domains. Every time you enter a new domain have to create a new key-value pair
                         domains_dict[domain] = {
                             "Name": domain,
@@ -398,10 +370,11 @@ for group in uma_groups.keys():
                             "PageGroups": [] #same set-up as discrimination key-value pair
                         }
                         #if titles_list.count(label) <= 3:  # NEW 6/12
-                    titles_list.append(label)
+                    #titles_list.append(label)
                     scenario_num += 1 #increase this counter with every scenario
-                    puzzle_text_1 = row[i].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
+                    puzzle_text_1 = row[i].replace("\u2019", "'").replace("\u00e2\u20ac\u2122", "'")\
+                        .replace("\u2013", " - ").replace("\u2014", " - ").replace("\u00e9", "é")\
+                        .replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
                         replace("\u2026", "...").replace(",..", ",") #getting scenario body
                     word_1 = row[i].split()[-1] #getting last word in scenario body
                     if row[i].strip()[-1] == ".":
@@ -414,9 +387,9 @@ for group in uma_groups.keys():
                     if "N/A" in row[i + 1] or row[i + 1] in (None, ""):
                         pass
                     else:
-                        puzzle_text_2 = row[i + 1].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014",
-                                                                                                           " - "). \
-                            replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
+                        puzzle_text_2 = row[i + 1].replace("\u2019", "'").replace("\u00e2\u20ac\u2122", "'")\
+                            .replace("\u2013", " - ").replace("\u2014"," - ").replace("\u00e9", "é")\
+                            .replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
                             replace("\u2026", "...")  # if there's a second scenario body
                         word_2 = row[i + 1].split()[-1][:-1]
                         puzzle_text_2 = rreplace(puzzle_text_2, " " + word_2, "..", 1) #replacing last word with ...
@@ -493,9 +466,9 @@ for group in uma_groups.keys():
                             name = wyo_row[0]
                             title = wyo_row[1]
                             if text not in (None, ""):
-                                text = wyo_row[4].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014",
-                                                                                                          " - "). \
-                                    replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u2026",
+                                text = wyo_row[4].replace("\u2019", "'").replace("\u00e2\u20ac\u2122", "'")\
+                                    .replace("\u2013", " - ").replace("\u2014"," - ").replace("\u00e9", "é")\
+                                    .replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n").replace("\u2026",
                                                                                                                "...")
                                 input = wyo_row[5]
                                 input_name = wyo_row[18]
@@ -522,7 +495,7 @@ for group in uma_groups.keys():
 #### Now, create each additional json file that are not group-specific ####
 
 ## Create end of day survey
-file_name = "EOD.json"
+file_name = "UMA_EOD.json"
 name = "Nightly Survey"
 title = "Nightly Survey"
 sections = [
@@ -536,7 +509,7 @@ create_json_file(file_name, name=name, title=title, sections=sections)
 ## Create biweekly survey
 # "Dose by section" means that each section is considered a "dose." The app will therefore
 # skip from section to section every 2 weeks (this timeframe is set by Ben)
-file_name = "Biweekly.json"
+file_name = "UMA_Biweekly.json"
 name = "Track Your Progress"
 title = "Track Your Progress"
 dose_by_section = True
@@ -561,7 +534,7 @@ sections = [
 create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
 ## Create biweekly survey for control (non-intervention) participants
-file_name = "Biweekly_control.json"
+file_name = "UMA_Biweekly_control.json"
 name = "Track Your Progress"
 title = "Track Your Progress"
 dose_by_section = True
@@ -595,7 +568,7 @@ sections = [{"Name": "Dose 1",
 create_json_file(file_name, name, title, sections)
 
 ## Create reasons for ending file
-file_name = "ReasonsForEnding.json"
+file_name = "UMA_ReasonsForEnding.json"
 name = "Reasons for Ending"
 title = "Reasons for Ending"
 cancel_button_text = "Exit"
@@ -604,3 +577,5 @@ sections = [{
     "PageGroups": list(reasons.values())
 }]
 create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
+
+
