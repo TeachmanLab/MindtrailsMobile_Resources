@@ -2867,6 +2867,12 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Please press play on the training video below to learn more!"
+                                    }
+                                    },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video1.mp4",
@@ -2874,7 +2880,8 @@
                                     },
                                     "Frame": true
                                 }
-                            ]
+                            ],
+                            "ShowButtons": "WhenComplete"
                         }
                     ]
                 },
@@ -2948,8 +2955,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Support your ideas.",
-                                            "Dislike your ideas. "
+                                            "Dislike your ideas. ",
+                                            "Support your ideas."
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Support your ideas."
@@ -2983,6 +2990,12 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Please press play on the training video below to learn more!"
+                                    }
+                                    },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video2.mp4",
@@ -2990,7 +3003,8 @@
                                     },
                                     "Frame": true
                                 }
-                            ]
+                            ],
+                            "ShowButtons": "WhenComplete"
                         }
                     ]
                 },
@@ -3106,6 +3120,12 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Please press play on the training video below to learn more!"
+                                    }
+                                    },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Faculty/video3.mp4",
@@ -3113,7 +3133,8 @@
                                     },
                                     "Frame": true
                                 }
-                            ]
+                            ],
+                            "ShowButtons": "WhenComplete"
                         }
                     ]
                 },
@@ -3187,8 +3208,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Not get sick. ",
-                                            "Get sick. "
+                                            "Get sick. ",
+                                            "Not get sick. "
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Get sick. "

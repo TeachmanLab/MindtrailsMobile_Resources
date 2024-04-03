@@ -2873,6 +2873,12 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Please press play on the training video below to learn more!"
+                                    }
+                                    },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Staff/video1.mp4",
@@ -2880,7 +2886,8 @@
                                     },
                                     "Frame": true
                                 }
-                            ]
+                            ],
+                            "ShowButtons": "WhenComplete"
                         }
                     ]
                 },
@@ -2989,6 +2996,12 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Please press play on the training video below to learn more!"
+                                    }
+                                    },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Staff/video2.mp4",
@@ -2996,7 +3009,8 @@
                                     },
                                     "Frame": true
                                 }
-                            ]
+                            ],
+                            "ShowButtons": "WhenComplete"
                         }
                     ]
                 },
@@ -3112,6 +3126,12 @@
                         {
                             "Inputs": [
                                 {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Please press play on the training video below to learn more!"
+                                    }
+                                    },
+                                {
                                     "Type": "Media",
                                     "Parameters": {
                                         "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/videos/Staff/video3.mp4",
@@ -3119,7 +3139,8 @@
                                     },
                                     "Frame": true
                                 }
-                            ]
+                            ],
+                            "ShowButtons": "WhenComplete"
                         }
                     ]
                 },
