@@ -749,7 +749,7 @@
                                             "I had treatment previously and didn't find it helpful",
                                             "10::I don't need help at this time",
                                             "!11::Other",
-                                            "^99::Prefer not to anwer"
+                                            "^99::Prefer not to answer"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -785,7 +785,7 @@
                                             "5::I stopped a prescription medication",
                                             "^6::I haven't had any changes",
                                             "!7::Other",
-                                            "^99:Prefer not to answer"
+                                            "^99::Prefer not to answer"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -1010,7 +1010,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "At the grocery store, you see a recent acquaintance but are unable to remember her name. Why? /n/nYou could not hear her name clearly the first time she said it."
+                                        "Text": "At the grocery store, you see a recent acquaintance but are unable to remember her name. Why? \n\nYou could not hear her name clearly the first time she said it."
                                     }
                                 },
                                 {
@@ -1036,7 +1036,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "At the grocery store, you see a recent acquaintance but are unable to remember her name. Why? /n/nYou are getting dementia from your disease."
+                                        "Text": "At the grocery store, you see a recent acquaintance but are unable to remember her name. Why? \n\nYou are getting dementia from your disease."
                                     }
                                 },
                                 {
@@ -1062,7 +1062,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "At the grocery store, you see a recent acquaintance but are unable to remember her name. Why? /n/nIt is normal to forget the name of someone you have only met once."
+                                        "Text": "At the grocery store, you see a recent acquaintance but are unable to remember her name. Why? \n\nIt is normal to forget the name of someone you have only met once."
                                     }
                                 },
                                 {
@@ -1088,7 +1088,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While eating with your family at a local restaurant, your server rarely stops by your table to check on you. Why? /n/nThey are scared by your movements and avoiding you."
+                                        "Text": "While eating with your family at a local restaurant, your server rarely stops by your table to check on you. Why? \n\nThey are scared by your movements and avoiding you."
                                     }
                                 },
                                 {
@@ -1114,7 +1114,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While eating with your family at a local restaurant, your server rarely stops by your table to check on you. Why? /n/nThe restaurant is under-staffed and the server is busy."
+                                        "Text": "While eating with your family at a local restaurant, your server rarely stops by your table to check on you. Why? \n\nThe restaurant is under-staffed and the server is busy."
                                     }
                                 },
                                 {
@@ -1140,7 +1140,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While eating with your family at a local restaurant, your server rarely stops by your table to check on you. Why? /n/nThe server is new and probably needs additional training."
+                                        "Text": "While eating with your family at a local restaurant, your server rarely stops by your table to check on you. Why? \n\nThe server is new and probably needs additional training."
                                     }
                                 },
                                 {
@@ -1166,7 +1166,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are playing a game for the first time with friends and new acquaintances. On your turn, you ask for a reminder of the rules, and the others become quiet. What are they thinking? /n/nThey are thinking that they also had a tough time learning this game at first."
+                                        "Text": "You are playing a game for the first time with friends and new acquaintances. On your turn, you ask for a reminder of the rules, and the others become quiet. What are they thinking? \n\nThey are thinking that they also had a tough time learning this game at first."
                                     }
                                 },
                                 {
@@ -1192,7 +1192,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are playing a game for the first time with friends and new acquaintances. On your turn, you ask for a reminder of the rules, and the others become quiet. What are they thinking? /n/nThey are thinking of how best to explain the rules."
+                                        "Text": "You are playing a game for the first time with friends and new acquaintances. On your turn, you ask for a reminder of the rules, and the others become quiet. What are they thinking? \n\nThey are thinking of how best to explain the rules."
                                     }
                                 },
                                 {
@@ -1218,7 +1218,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are playing a game for the first time with friends and new acquaintances. On your turn, you ask for a reminder of the rules, and the others become quiet. What are they thinking? /n/nThey are thinking your disease makes you slow and wishing you had not been invited to play."
+                                        "Text": "You are playing a game for the first time with friends and new acquaintances. On your turn, you ask for a reminder of the rules, and the others become quiet. What are they thinking? \n\nThey are thinking your disease makes you slow and wishing you had not been invited to play."
                                     }
                                 },
                                 {
@@ -1244,7 +1244,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While cleaning up with a family member after dinner, you drop a glass and it shatters. Why? /n/nYour family member made a joke that distracted you while you were reaching for the glass."
+                                        "Text": "While cleaning up with a family member after dinner, you drop a glass and it shatters. Why? \n\nYour family member made a joke that distracted you while you were reaching for the glass."
                                     }
                                 },
                                 {
@@ -1270,7 +1270,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While cleaning up with a family member after dinner, you drop a glass and it shatters. Why? /n/nThe glass was slippery after being washed."
+                                        "Text": "While cleaning up with a family member after dinner, you drop a glass and it shatters. Why? \n\nThe glass was slippery after being washed."
                                     }
                                 },
                                 {
@@ -1296,7 +1296,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While cleaning up with a family member after dinner, you drop a glass and it shatters. Why? /n/nYour disease is progressing faster than normal, and you should no longer help with chores."
+                                        "Text": "While cleaning up with a family member after dinner, you drop a glass and it shatters. Why? \n\nYour disease is progressing faster than normal, and you should no longer help with chores."
                                     }
                                 },
                                 {
@@ -1322,7 +1322,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are talking to a neighbor and have difficulty saying a word. What is your neighbor thinking? /n/nThey are thinking that something must be wrong with you."
+                                        "Text": "You are talking to a neighbor and have difficulty saying a word. What is your neighbor thinking? \n\nThey are thinking that something must be wrong with you."
                                     }
                                 },
                                 {
@@ -1348,7 +1348,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are talking to a neighbor and have difficulty saying a word. What is your neighbor thinking? /n/nThey are thinking about the next thing they want to tell you."
+                                        "Text": "You are talking to a neighbor and have difficulty saying a word. What is your neighbor thinking? \n\nThey are thinking about the next thing they want to tell you."
                                     }
                                 },
                                 {
@@ -1374,7 +1374,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are talking to a neighbor and have difficulty saying a word. What is your neighbor thinking? /n/nThey are trying to figure out which word you are trying to say so that they can help you."
+                                        "Text": "You are talking to a neighbor and have difficulty saying a word. What is your neighbor thinking? \n\nThey are trying to figure out which word you are trying to say so that they can help you."
                                     }
                                 },
                                 {
@@ -1400,7 +1400,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You receive an email from your bank that you forgot to pay a bill. What does this mean? /n/nYou should set up bill pay reminders - lots of people need reminders like this."
+                                        "Text": "You receive an email from your bank that you forgot to pay a bill. What does this mean? \n\nYou should set up bill pay reminders - lots of people need reminders like this."
                                     }
                                 },
                                 {
@@ -1426,7 +1426,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You receive an email from your bank that you forgot to pay a bill. What does this mean? /n/nYou are no long fit to manage your own finances."
+                                        "Text": "You receive an email from your bank that you forgot to pay a bill. What does this mean? \n\nYou are no long fit to manage your own finances."
                                     }
                                 },
                                 {
@@ -1452,7 +1452,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You receive an email from your bank that you forgot to pay a bill. What does this mean? /n/nYou will have to pay a fee for late payment."
+                                        "Text": "You receive an email from your bank that you forgot to pay a bill. What does this mean? \n\nYou will have to pay a fee for late payment."
                                     }
                                 },
                                 {
@@ -1478,7 +1478,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your doctor recommends a new type of exercise class to help your symptoms. You are hesitant. Why? /n/nYou will probably be bad at it and embarass yourself."
+                                        "Text": "Your doctor recommends a new type of exercise class to help your symptoms. You are hesitant. Why? \n\nYou will probably be bad at it and embarass yourself."
                                     }
                                 },
                                 {
@@ -1504,7 +1504,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your doctor recommends a new type of exercise class to help your symptoms. You are hesitant. Why? /n/nYou are worried that it will be too expensive."
+                                        "Text": "Your doctor recommends a new type of exercise class to help your symptoms. You are hesitant. Why? \n\nYou are worried that it will be too expensive."
                                     }
                                 },
                                 {
@@ -1530,7 +1530,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your doctor recommends a new type of exercise class to help your symptoms. You are hesitant. Why? /n/nThe class is far away, and you are not sure you can make it on a regular basis."
+                                        "Text": "Your doctor recommends a new type of exercise class to help your symptoms. You are hesitant. Why? \n\nThe class is far away, and you are not sure you can make it on a regular basis."
                                     }
                                 },
                                 {
@@ -1556,7 +1556,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You receive an unexpected message from your doctor that they want to talk to you about starting a new medication. Why? /n/nA new medication that might help you was just approved by the FDA."
+                                        "Text": "You receive an unexpected message from your doctor that they want to talk to you about starting a new medication. Why? \n\nA new medication that might help you was just approved by the FDA."
                                     }
                                 },
                                 {
@@ -1582,7 +1582,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You receive an unexpected message from your doctor that they want to talk to you about starting a new medication. Why? /n/nYour symptoms are uncontrollable, and they do not know what else to try."
+                                        "Text": "You receive an unexpected message from your doctor that they want to talk to you about starting a new medication. Why? \n\nYour symptoms are uncontrollable, and they do not know what else to try."
                                     }
                                 },
                                 {
@@ -1608,7 +1608,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You receive an unexpected message from your doctor that they want to talk to you about starting a new medication. Why? /n/nThe new medication may have fewer side effects than your current medication."
+                                        "Text": "You receive an unexpected message from your doctor that they want to talk to you about starting a new medication. Why? \n\nThe new medication may have fewer side effects than your current medication."
                                     }
                                 },
                                 {
@@ -1634,7 +1634,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You ask your family member to go for a walk with you, but they do not want to go. Why? /n/nThey are tired."
+                                        "Text": "You ask your family member to go for a walk with you, but they do not want to go. Why? \n\nThey are tired."
                                     }
                                 },
                                 {
@@ -1660,7 +1660,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You ask your family member to go for a walk with you, but they do not want to go. Why? /n/nThey have a prior commitment."
+                                        "Text": "You ask your family member to go for a walk with you, but they do not want to go. Why? \n\nThey have a prior commitment."
                                     }
                                 },
                                 {
@@ -1686,7 +1686,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You ask your family member to go for a walk with you, but they do not want to go. Why? /n/nThey are embarrased to be seen with you because of the way you walk."
+                                        "Text": "You ask your family member to go for a walk with you, but they do not want to go. Why? \n\nThey are embarrased to be seen with you because of the way you walk."
                                     }
                                 },
                                 {
@@ -1712,7 +1712,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your younger family member is applying for a job. You offer to help with the application, and they decline. Why? /n/nThey think your disease makes your opinion less relevant."
+                                        "Text": "Your younger family member is applying for a job. You offer to help with the application, and they decline. Why? \n\nThey think your disease makes your opinion less relevant."
                                     }
                                 },
                                 {
@@ -1738,7 +1738,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your younger family member is applying for a job. You offer to help with the application, and they decline. Why? /n/nThey do not really want this job."
+                                        "Text": "Your younger family member is applying for a job. You offer to help with the application, and they decline. Why? \n\nThey do not really want this job."
                                     }
                                 },
                                 {
@@ -1764,7 +1764,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your younger family member is applying for a job. You offer to help with the application, and they decline. Why? /n/nSeveral other people have already helped them, and they are ready to submit the application."
+                                        "Text": "Your younger family member is applying for a job. You offer to help with the application, and they decline. Why? \n\nSeveral other people have already helped them, and they are ready to submit the application."
                                     }
                                 },
                                 {
@@ -1790,7 +1790,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A person in the grocery store stares at you blankly as you stumble and knock over a display. What are they thinking? /n/nThey are thinking that you must have mis-stepped which can happen to anyone."
+                                        "Text": "A person in the grocery store stares at you blankly as you stumble and knock over a display. What are they thinking? \n\nThey are thinking that you must have mis-stepped which can happen to anyone."
                                     }
                                 },
                                 {
@@ -1816,7 +1816,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A person in the grocery store stares at you blankly as you stumble and knock over a display. What are they thinking? /n/nThey are thinking about their grocery list and did not notice."
+                                        "Text": "A person in the grocery store stares at you blankly as you stumble and knock over a display. What are they thinking? \n\nThey are thinking about their grocery list and did not notice."
                                     }
                                 },
                                 {
@@ -1842,7 +1842,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A person in the grocery store stares at you blankly as you stumble and knock over a display. What are they thinking? /n/nThey are thinking that something is wrong with you."
+                                        "Text": "A person in the grocery store stares at you blankly as you stumble and knock over a display. What are they thinking? \n\nThey are thinking that something is wrong with you."
                                     }
                                 },
                                 {
@@ -1868,7 +1868,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While eating breakfast, you cough while trying to swallow. Why? /n/nYou took a bite that was too large."
+                                        "Text": "While eating breakfast, you cough while trying to swallow. Why? \n\nYou took a bite that was too large."
                                     }
                                 },
                                 {
@@ -1894,7 +1894,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While eating breakfast, you cough while trying to swallow. Why? /n/nYou have lost your ability to swallow and will soon have to get a feeding tube."
+                                        "Text": "While eating breakfast, you cough while trying to swallow. Why? \n\nYou have lost your ability to swallow and will soon have to get a feeding tube."
                                     }
                                 },
                                 {
@@ -1920,7 +1920,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "While eating breakfast, you cough while trying to swallow. Why? /n/nBecause of your disease, it has become more difficult for your body to cooridnate swallowing."
+                                        "Text": "While eating breakfast, you cough while trying to swallow. Why? \n\nBecause of your disease, it has become more difficult for your body to cooridnate swallowing."
                                     }
                                 },
                                 {
@@ -1964,7 +1964,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You have visitors over for dinner, and they leave sooner than expected. Why? /n/nThey did not wish to outstay their welcome."
+                                        "Text": "You have visitors over for dinner, and they leave sooner than expected. Why? \n\nThey did not wish to outstay their welcome."
                                     }
                                 },
                                 {
@@ -1990,7 +1990,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You have visitors over for dinner, and they leave sooner than expected. Why? /n/nThey have another pressing engagement to go to."
+                                        "Text": "You have visitors over for dinner, and they leave sooner than expected. Why? \n\nThey have another pressing engagement to go to."
                                     }
                                 },
                                 {
@@ -2016,7 +2016,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You have visitors over for dinner, and they leave sooner than expected. Why? /n/nThey did not enjoy the visit and were bored with your company."
+                                        "Text": "You have visitors over for dinner, and they leave sooner than expected. Why? \n\nThey did not enjoy the visit and were bored with your company."
                                     }
                                 },
                                 {
@@ -2042,7 +2042,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You feel short of breath. Why? /n/nYou are developing the flu."
+                                        "Text": "You feel short of breath. Why? \n\nYou are developing the flu."
                                     }
                                 },
                                 {
@@ -2068,7 +2068,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You feel short of breath. Why? /n/nYou are about to suffocate or stop breathing."
+                                        "Text": "You feel short of breath. Why? \n\nYou are about to suffocate or stop breathing."
                                     }
                                 },
                                 {
@@ -2094,7 +2094,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You feel short of breath. Why? /n/nYou are physically \"out of shape.\""
+                                        "Text": "You feel short of breath. Why? \n\nYou are physically \"out of shape.\""
                                     }
                                 },
                                 {
@@ -2120,7 +2120,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your vision has become slightly blurred. Why? /n/nYou have strained your eyes slightly."
+                                        "Text": "Your vision has become slightly blurred. Why? \n\nYou have strained your eyes slightly."
                                     }
                                 },
                                 {
@@ -2146,7 +2146,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your vision has become slightly blurred. Why? /n/nYou need to get glasses or change your existing glasses."
+                                        "Text": "Your vision has become slightly blurred. Why? \n\nYou need to get glasses or change your existing glasses."
                                     }
                                 },
                                 {
@@ -2172,7 +2172,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your vision has become slightly blurred. Why? /n/nThis is the sign of a serious illness."
+                                        "Text": "Your vision has become slightly blurred. Why? \n\nThis is the sign of a serious illness."
                                     }
                                 },
                                 {
@@ -2198,7 +2198,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You go into a shop, and the assistant ignores you. Why? /n/nThey are bored with their job and this makes them rude."
+                                        "Text": "You go into a shop, and the assistant ignores you. Why? \n\nThey are bored with their job and this makes them rude."
                                     }
                                 },
                                 {
@@ -2224,7 +2224,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You go into a shop, and the assistant ignores you. Why? /n/nThey are concentrating very hard on something else."
+                                        "Text": "You go into a shop, and the assistant ignores you. Why? \n\nThey are concentrating very hard on something else."
                                     }
                                 },
                                 {
@@ -2250,7 +2250,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You go into a shop, and the assistant ignores you. Why? /n/nThey find you irritating and resent your presence."
+                                        "Text": "You go into a shop, and the assistant ignores you. Why? \n\nThey find you irritating and resent your presence."
                                     }
                                 },
                                 {
@@ -2276,7 +2276,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You feel light-headed and weak. Why? /n/nYou are about to faint."
+                                        "Text": "You feel light-headed and weak. Why? \n\nYou are about to faint."
                                     }
                                 },
                                 {
@@ -2302,7 +2302,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You feel light-headed and weak. Why? /n/nYou need to get something to eat."
+                                        "Text": "You feel light-headed and weak. Why? \n\nYou need to get something to eat."
                                     }
                                 },
                                 {
@@ -2328,7 +2328,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You feel light-headed and weak. Why? /n/nYou didn't get enough sleep last night."
+                                        "Text": "You feel light-headed and weak. Why? \n\nYou didn't get enough sleep last night."
                                     }
                                 },
                                 {
@@ -2354,7 +2354,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You smell smoke. What's burning? /n/nYour house is on fire."
+                                        "Text": "You smell smoke. What's burning? \n\nYour house is on fire."
                                     }
                                 },
                                 {
@@ -2380,7 +2380,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You feel light-headed and weak. Why? /n/nSome food is burning."
+                                        "Text": "You feel light-headed and weak. Why? \n\nSome food is burning."
                                     }
                                 },
                                 {
@@ -2406,7 +2406,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You feel light-headed and weak. Why? /n/nSomeone is smoking a cigarette."
+                                        "Text": "You feel light-headed and weak. Why? \n\nSomeone is smoking a cigarette."
                                     }
                                 },
                                 {
@@ -2432,7 +2432,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A friend suggests that you change the way you're doing a job in your house. Why? /n/nThey are trying to be helpful."
+                                        "Text": "A friend suggests that you change the way you're doing a job in your house. Why? \n\nThey are trying to be helpful."
                                     }
                                 },
                                 {
@@ -2458,7 +2458,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A friend suggests that you change the way you're doing a job in your house. Why? /n/nThey think you're incompetent."
+                                        "Text": "A friend suggests that you change the way you're doing a job in your house. Why? \n\nThey think you're incompetent."
                                     }
                                 },
                                 {
@@ -2484,7 +2484,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A friend suggests that you change the way you're doing a job in your house. Why? /n/nThey have done the job more often and know an easier way."
+                                        "Text": "A friend suggests that you change the way you're doing a job in your house. Why? \n\nThey have done the job more often and know an easier way."
                                     }
                                 },
                                 {
@@ -2510,7 +2510,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your chest feels uncomfortable and tight. Why? /n/nYou have indigestion."
+                                        "Text": "Your chest feels uncomfortable and tight. Why? \n\nYou have indigestion."
                                     }
                                 },
                                 {
@@ -2536,7 +2536,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your chest feels uncomfortable and tight. Why? /n/nYou have a sore muscle."
+                                        "Text": "Your chest feels uncomfortable and tight. Why? \n\nYou have a sore muscle."
                                     }
                                 },
                                 {
@@ -2562,7 +2562,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Your chest feels uncomfortable and tight. Why? /n/nSomething is wrong with your heart."
+                                        "Text": "Your chest feels uncomfortable and tight. Why? \n\nSomething is wrong with your heart."
                                     }
                                 },
                                 {
@@ -2588,7 +2588,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You wake up with a jolt in the middle of the night, thinking you heard a noise, but all is quiet. Why woke you up? /n/nYou were woken by a dream."
+                                        "Text": "You wake up with a jolt in the middle of the night, thinking you heard a noise, but all is quiet. Why woke you up? \n\nYou were woken by a dream."
                                     }
                                 },
                                 {
@@ -2614,7 +2614,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You wake up with a jolt in the middle of the night, thinking you heard a noise, but all is quiet. Why woke you up? /n/nA burgler broke into your house."
+                                        "Text": "You wake up with a jolt in the middle of the night, thinking you heard a noise, but all is quiet. Why woke you up? \n\nA burgler broke into your house."
                                     }
                                 },
                                 {
@@ -2640,7 +2640,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You wake up with a jolt in the middle of the night, thinking you heard a noise, but all is quiet. Why woke you up? /n/nA door or window rattled in the wind."
+                                        "Text": "You wake up with a jolt in the middle of the night, thinking you heard a noise, but all is quiet. Why woke you up?\n\nA door or window rattled in the wind."
                                     }
                                 },
                                 {
@@ -2666,7 +2666,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are introduced to someone at a party. The person fails to reply to a question you ask. Why? /n/nThey did not hear the question."
+                                        "Text": "You are introduced to someone at a party. The person fails to reply to a question you ask. Why? \n\nThey did not hear the question."
                                     }
                                 },
                                 {
@@ -2692,7 +2692,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are introduced to someone at a party. The person fails to reply to a question you ask. Why? /n/nThey think you are uninteresting and boring."
+                                        "Text": "You are introduced to someone at a party. The person fails to reply to a question you ask. Why? \n\nThey think you are uninteresting and boring."
                                     }
                                 },
                                 {
@@ -2718,7 +2718,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You are introduced to someone at a party. The person fails to reply to a question you ask. Why? /n/nThey were preoccupied with something elsea t the time."
+                                        "Text": "You are introduced to someone at a party. The person fails to reply to a question you ask. Why? \n\nThey were preoccupied with something else at the time."
                                     }
                                 },
                                 {
@@ -2744,7 +2744,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You notice that your heart is beating quickly and pounding. Why? /n/nBecause you have been physically active."
+                                        "Text": "You notice that your heart is beating quickly and pounding. Why? \n\nBecause you have been physically active."
                                     }
                                 },
                                 {
@@ -2770,7 +2770,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You notice that your heart is beating quickly and pounding. Why? /n/nBecause there is something wrong with you heart."
+                                        "Text": "You notice that your heart is beating quickly and pounding. Why? \n\nBecause there is something wrong with your heart."
                                     }
                                 },
                                 {
@@ -2796,7 +2796,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You notice that your heart is beating quickly and pounding. Why? /n/nBecause you are feeling really excited."
+                                        "Text": "You notice that your heart is beating quickly and pounding. Why? \n\nBecause you are feeling really excited."
                                     }
                                 },
                                 {
@@ -2822,7 +2822,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Suddenly, you feel confused and find it hard to think straight. Why? /n/nYou are going our of your mind."
+                                        "Text": "Suddenly, you feel confused and find it hard to think straight. Why? \n\nYou are going out of your mind."
                                     }
                                 },
                                 {
@@ -2848,7 +2848,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Suddenly, you feel confused and find it hard to think straight. Why? /n/nYou are coming down with a cold."
+                                        "Text": "Suddenly, you feel confused and find it hard to think straight. Why? \n\nYou are coming down with a cold."
                                     }
                                 },
                                 {
@@ -2874,7 +2874,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Suddenly, you feel confused and find it hard to think straight. Why? /n/nYou've been working too hard and need a rest."
+                                        "Text": "Suddenly, you feel confused and find it hard to think straight. Why? \n\nYou've been working too hard and need a rest."
                                     }
                                 },
                                 {
@@ -2900,7 +2900,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A letter marked \"URGENT\" arrives. What is in the letter? /n/nIt is junk mail designed to attract your attention."
+                                        "Text": "A letter marked \"URGENT\" arrives. What is in the letter? \n\nIt is junk mail designed to attract your attention."
                                     }
                                 },
                                 {
@@ -2926,7 +2926,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A letter marked \"URGENT\" arrives. What is in the letter? /n/nYou forgot to pay a bill."
+                                        "Text": "A letter marked \"URGENT\" arrives. What is in the letter? \n\nYou forgot to pay a bill."
                                     }
                                 },
                                 {
@@ -2952,7 +2952,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A letter marked \"URGENT\" arrives. What is in the letter? /n/nIt is news that someone you know has died or is seriously ill."
+                                        "Text": "A letter marked \"URGENT\" arrives. What is in the letter? \n\nIt is news that someone you know has died or is seriously ill."
                                     }
                                 },
                                 {
@@ -2978,7 +2978,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You notice your heart is pounding, and you feel breathless, dizzy, and unreal. Why? /n/nYou have been overdoing it and are overtired."
+                                        "Text": "You notice your heart is pounding, and you feel breathless, dizzy, and unreal. Why? \n\nYou have been overdoing it and are overtired."
                                     }
                                 },
                                 {
@@ -3004,7 +3004,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You notice your heart is pounding, and you feel breathless, dizzy, and unreal. Why? /n/nSomething you ate disagreed with you."
+                                        "Text": "You notice your heart is pounding, and you feel breathless, dizzy, and unreal. Why? \n\nSomething you ate disagreed with you."
                                     }
                                 },
                                 {
@@ -3030,7 +3030,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "You notice your heart is pounding, and you feel breathless, dizzy, and unreal. Why? /n/nYou are dangerously ill or going mad."
+                                        "Text": "You notice your heart is pounding, and you feel breathless, dizzy, and unreal. Why? \n\nYou are dangerously ill or going mad."
                                     }
                                 },
                                 {
@@ -3086,7 +3086,7 @@
                                             "1::Rarely",
                                             "2::Sometimes",
                                             "3::Often",
-                                            "4:;Always",
+                                            "4::Always",
                                             "99::Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -3112,7 +3112,7 @@
                                             "1::Rarely",
                                             "2::Sometimes",
                                             "3::Often",
-                                            "4:;Always",
+                                            "4::Always",
                                             "99::Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -3138,7 +3138,7 @@
                                             "1::Rarely",
                                             "2::Sometimes",
                                             "3::Often",
-                                            "4:;Always",
+                                            "4::Always",
                                             "99::Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -3164,7 +3164,7 @@
                                             "1::Rarely",
                                             "2::Sometimes",
                                             "3::Often",
-                                            "4:;Always",
+                                            "4::Always",
                                             "99::Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -3190,7 +3190,7 @@
                                             "1::Rarely",
                                             "2::Sometimes",
                                             "3::Often",
-                                            "4:;Always",
+                                            "4::Always",
                                             "99::Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -3216,7 +3216,7 @@
                                             "1::Rarely",
                                             "2::Sometimes",
                                             "3::Often",
-                                            "4:;Always",
+                                            "4::Always",
                                             "99::Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -3242,7 +3242,7 @@
                                             "1::Rarely",
                                             "2::Sometimes",
                                             "3::Often",
-                                            "4:;Always",
+                                            "4::Always",
                                             "99::Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -3268,7 +3268,7 @@
                                             "1::Rarely",
                                             "2::Sometimes",
                                             "3::Often",
-                                            "4:;Always",
+                                            "4::Always",
                                             "99::Prefer not to answer"
                                         ],
                                         "Selectable": true
@@ -3300,7 +3300,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? /n/nFeeling anxious or nervous"
+                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? \n\nFeeling anxious or nervous"
                                     }
                                 },
                                 {
@@ -3325,7 +3325,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? /n/nFeeling tense or stressed"
+                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? \n\nFeeling tense or stressed"
                                     }
                                 },
                                 {
@@ -3350,7 +3350,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? /n/nBeing unable to relax"
+                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? \n\nBeing unable to relax"
                                     }
                                 },
                                 {
@@ -3375,7 +3375,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? /n/nExcessive worrying about everyday matters"
+                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? \n\nExcessive worrying about everyday matters"
                                     }
                                 },
                                 {
@@ -3400,7 +3400,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? /n/nFear of something bad, or even the worst, happening"
+                                        "Text": "In the past four weeks, to what extent did you experience the following symptoms? \n\nFear of something bad, or even the worst, happening"
                                     }
                                 },
                                 {
@@ -3425,7 +3425,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, did you experience episodes of the following symptoms? /n/nPanic or intense fear"
+                                        "Text": "In the past four weeks, did you experience episodes of the following symptoms? \n\nPanic or intense fear"
                                     }
                                 },
                                 {
@@ -3450,7 +3450,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, did you experience episodes of the following symptoms? /n/nShortness of breath"
+                                        "Text": "In the past four weeks, did you experience episodes of the following symptoms? \n\nShortness of breath"
                                     }
                                 },
                                 {
@@ -3475,7 +3475,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, did you experience episodes of the following symptoms? /n/nHeart palpitations or heart beating too fast (not related to physical effort or activity)"
+                                        "Text": "In the past four weeks, did you experience episodes of the following symptoms? \n\nHeart palpitations or heart beating too fast (not related to physical effort or activity)"
                                     }
                                 },
                                 {
@@ -3500,7 +3500,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, did you experience episodes of the following symptoms? /n/nFear of losing control"
+                                        "Text": "In the past four weeks, did you experience episodes of the following symptoms? \n\nFear of losing control"
                                     }
                                 },
                                 {
@@ -3525,7 +3525,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, to what extent did you fear or avoid the following situations? /n/nSocial situations (where one may be observed, or evaluated by others, such as speaking in public, or talking to unknown people)"
+                                        "Text": "In the past four weeks, to what extent did you fear or avoid the following situations? \n\nSocial situations (where one may be observed, or evaluated by others, such as speaking in public, or talking to unknown people)"
                                     }
                                 },
                                 {
@@ -3550,7 +3550,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, to what extent did you fear or avoid the following situations? /n/nPublic situations (situations from which it may be difficult or embarrassing to escape, such as queues or lines, crowds, bridges, or public transportation)"
+                                        "Text": "In the past four weeks, to what extent did you fear or avoid the following situations? \n\nPublic situations (situations from which it may be difficult or embarrassing to escape, such as queues or lines, crowds, bridges, or public transportation)"
                                     }
                                 },
                                 {
@@ -3575,7 +3575,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "In the past four weeks, to what extent did you fear or avoid the following situations? /n/nSpecific objects or situations (such as flying, heights, spiders or other animals, needles or blood)"
+                                        "Text": "In the past four weeks, to what extent did you fear or avoid the following situations? \n\nSpecific objects or situations (such as flying, heights, spiders or other animals, needles or blood)"
                                     }
                                 },
                                 {
@@ -3836,7 +3836,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "SPEECH /n/nOver the past week, have you had any problems with your speech?"
+                                        "Text": "SPEECH \n\nOver the past week, have you had any problems with your speech?"
                                     }
                                 },
                                 {
@@ -3861,7 +3861,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "SALIVA AND DROOLING /n/nOver the past week, have you usually had too much saliva during when you are awake or when you sleep?"
+                                        "Text": "SALIVA AND DROOLING \n\nOver the past week, have you usually had too much saliva during when you are awake or when you sleep?"
                                     }
                                 },
                                 {
@@ -3886,7 +3886,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "CHEWING AND SWALLOWING /n/nOver the past week, have you usually had problems swallowing pills or eating meals? Do you need your pills cut or crushed or your meals to be made soft, chopped, or blended to avoid choking?"
+                                        "Text": "CHEWING AND SWALLOWING \n\nOver the past week, have you usually had problems swallowing pills or eating meals? Do you need your pills cut or crushed or your meals to be made soft, chopped, or blended to avoid choking?"
                                     }
                                 },
                                 {
@@ -3911,7 +3911,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "EATING TASKS /n/nOver the past week, have you usually had troubles handling your food and using eating utensils? For example, do you have trouble handling finger foods or using forks, knives, spoons, chopsticks?"
+                                        "Text": "EATING TASKS \n\nOver the past week, have you usually had troubles handling your food and using eating utensils? For example, do you have trouble handling finger foods or using forks, knives, spoons, chopsticks?"
                                     }
                                 },
                                 {
@@ -3936,7 +3936,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "DRESSING /n/nOver the past week, have you usually had problems dressing? For example, are you slow or do you need help with buttoning, using zippers, putting on or taking off your clothes or jewlery?"
+                                        "Text": "DRESSING \n\nOver the past week, have you usually had problems dressing? For example, are you slow or do you need help with buttoning, using zippers, putting on or taking off your clothes or jewlery?"
                                     }
                                 },
                                 {
@@ -3961,7 +3961,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "HYGIENE /n/nOver the past week, have you usually been slow or need help with washing, bathing, shaving, brushing teeth, combing your hair or with other personal hygiene?"
+                                        "Text": "HYGIENE \n\nOver the past week, have you usually been slow or need help with washing, bathing, shaving, brushing teeth, combing your hair or with other personal hygiene?"
                                     }
                                 },
                                 {
@@ -3986,7 +3986,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "HANDWRITING /n/nOver the past week, have people usually had trouble reading your handwriting?"
+                                        "Text": "HANDWRITING \n\nOver the past week, have people usually had trouble reading your handwriting?"
                                     }
                                 },
                                 {
@@ -4011,7 +4011,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "DOING HOBBIES AND OTHER ACTIVTIES /n/nOver the past week, have you usually had trouble doing your hobbies or other things that you like to do?"
+                                        "Text": "DOING HOBBIES AND OTHER ACTIVTIES \n\nOver the past week, have you usually had trouble doing your hobbies or other things that you like to do?"
                                     }
                                 },
                                 {
@@ -4036,7 +4036,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "TURNING IN BED /n/nOver the past week, do you usually have trouble turning over in bed?"
+                                        "Text": "TURNING IN BED \n\nOver the past week, do you usually have trouble turning over in bed?"
                                     }
                                 },
                                 {
@@ -4061,7 +4061,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "TREMOR /n/nOver the past week, have you usually had shaking or tremor?"
+                                        "Text": "TREMOR \n\nOver the past week, have you usually had shaking or tremor?"
                                     }
                                 },
                                 {
@@ -4086,7 +4086,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "GETTING OUT OF BED, A CAR, OR A DEEP CHAIR /n/nOver the past week, have you usually had trouble getting out of a bed, a car seat, or a deep chair?"
+                                        "Text": "GETTING OUT OF BED, A CAR, OR A DEEP CHAIR \n\nOver the past week, have you usually had trouble getting out of a bed, a car seat, or a deep chair?"
                                     }
                                 },
                                 {
@@ -4111,7 +4111,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "WALKING AND BALANCE /n/nOver the past week, have you usually had problems with balance and walking?"
+                                        "Text": "WALKING AND BALANCE \n\nOver the past week, have you usually had problems with balance and walking?"
                                     }
                                 },
                                 {
@@ -4136,7 +4136,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "FREEZING /n/nOver the past week, on your usual day when walking, do you suddenly stop or freeze as if your feet are stuck to the floor?"
+                                        "Text": "FREEZING \n\nOver the past week, on your usual day when walking, do you suddenly stop or freeze as if your feet are stuck to the floor?"
                                     }
                                 },
                                 {
