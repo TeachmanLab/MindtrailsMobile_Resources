@@ -1,0 +1,877 @@
+{
+    "Name": "Reasons For Ending",
+    "Title": "Razones Para Terminar",
+    "Sections": [
+        {
+            "Name": "Reasons For Ending",
+            "PageGroups": [
+                {
+                    "Name": "Reasons for Ending",
+                    "Title": "Reasons for Ending",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Estamos interesados en mejorar MindTrails Espa\u00f1ol y nos gustar\u00eda saber por qu\u00e9 decidiste detener el programa. \u00a1Agradecemos tus comentarios!"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfPor qu\u00e9 decidiste terminar el programa? Por favor, marca todas las opciones que correspondan."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "reasons_for_ending",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No tuve suficiente tiempo para completar el programa",
+                                            "No encontr\u00e9 el programa \u00fatil para reducir mi ansiedad",
+                                            "No encontr\u00e9 el programa interesante",
+                                            "No cre\u00ed que un programa como este pudiera funcionar",
+                                            "Encontr\u00e9 frustrante usar el programa",
+                                            "Ya no necesitaba el programa (es decir, ya no me sent\u00eda ansioso)",
+                                            "Otro",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En la medida en que completaste el programa:"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan \u00fatil encontraste MindTrails Espa\u00f1ol para reducir tu ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "reduce_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada \u00fatil",
+                                            "Un poco \u00fatil",
+                                            "Algo \u00fatil",
+                                            "Mayormente \u00fatil",
+                                            "Muy \u00fatil",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfCu\u00e1nto mantuvo tu inter\u00e9s y atenci\u00f3n MindTrails Espa\u00f1ol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "keep_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfCu\u00e1nto pudiste relacionarte con las historias presentadas durante las sesiones de entrenamiento?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfHasta qu\u00e9 punto los escenarios del entrenamiento reflejan situaciones que son importantes para ti?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfHasta qu\u00e9 punto los escenarios del entrenamiento reflejan situaciones que son importantes para tu familia y comunidad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan cre\u00edbles encontraste los finales de las historias en t\u00e9rminos de que esos resultados ocurran en tu vida?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "believable_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfCu\u00e1nto te gust\u00f3 la apariencia de MindTrails Espa\u00f1ol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "UI",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan f\u00e1cil fue usar MindTrails Espa\u00f1ol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "easy_to_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Encontr\u00e9 que las sesiones de entrenamiento eran:"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "find_sessions",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Demasiado cortas",
+                                            "Algo cortas",
+                                            "La longitud adecuada",
+                                            "Algo largas",
+                                            "Demasiado largas",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 \u00fatil encontraste la encuesta de noche que te permit\u00eda elegir cu\u00e1ndo completar el entrenamiento al d\u00eda siguiente?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "nightly_survey_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada \u00fatil",
+                                            "Un poco \u00fatil",
+                                            "Algo \u00fatil",
+                                            "Mayormente \u00fatil",
+                                            "Muy \u00fatil",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan preocupado estuviste por tu privacidad al usar MindTrails Espa\u00f1ol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "privacy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan cansadoras encontraste las sesiones de entrenamiento?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tiring_training",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan cansadores encontraste las evaluaciones?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tiring_assessments",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan \u00fatiles encontraste los recursos y referencias proporcionados en la aplicaci\u00f3n?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tips_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan probable ser\u00eda que recomiendes MindTrails Espa\u00f1ol a otras personas con dificultades similares de ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "recommend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan probable es que recomiendes MindTrails a otras personas hispanohablantes que tienen problemas con la ansiedad? "
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "recommend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfTienes s\u00edntomas de ansiedad o depresi\u00f3n de moderados a graves?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "anxiety_or_depression",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Si::Si",
+                                            "No::No",
+                                            "No estoy seguro::No estoy seguro"
+                                        ],
+                                        "Selectable": true
+                                    },
+                                    "VariableName": "RFE_anxiety_depression"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan abierto o interesado est\u00e1s en buscar otras formas de tratamiento de un profesional de salud mental (por ejemplo, terapia, medicaci\u00f3n) en comparaci\u00f3n con antes de comenzar el programa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Mucho m\u00e1s probable",
+                                            "Un poco m\u00e1s probable",
+                                            "Igualmente probable",
+                                            "Un poco menos probable",
+                                            "Mucho menos probable",
+                                            "No aplica (por ejemplo, actualmente estoy recibiendo otro tipo de tratamiento)",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "RFE_anxiety_depression",
+                                    "Value": "Yes"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan abierto o interesado est\u00e1s en buscar otras formas de tratamiento de un profesional de salud mental (por ejemplo, terapia, medicaci\u00f3n) en comparaci\u00f3n con antes de comenzar el programa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Mucho m\u00e1s probable",
+                                            "Un poco m\u00e1s probable",
+                                            "Igualmente probable",
+                                            "Un poco menos probable",
+                                            "Mucho menos probable",
+                                            "No aplica (por ejemplo, actualmente estoy recibiendo otro tipo de tratamiento)",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "RFE_anxiety_depression",
+                                    "Value": "Unsure"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "\u00bfQu\u00e9 tan \u00fatiles encontraste los recursos y referencias proporcionados en la aplicaci\u00f3n?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "resources_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Algunas personas tienen problemas al intentar usar una aplicaci\u00f3n m\u00f3vil. Por favor, lee las siguientes afirmaciones y dinos qu\u00e9 tan problem\u00e1tico fue para ti usar la aplicaci\u00f3n."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Los problemas t\u00e9cnicos con la aplicaci\u00f3n m\u00f3vil (por ejemplo, la aplicaci\u00f3n se bloqueaba o se congelaba) dificultaron su uso."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tech_problems",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Simplemente olvid\u00e9 abrir la aplicaci\u00f3n."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "forgot",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Asuntos personales me impidieron usar la aplicaci\u00f3n."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "personal_issues",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La aplicaci\u00f3n era demasiado dif\u00edcil de navegar."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "navigate",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La aplicaci\u00f3n era demasiado dif\u00edcil de entender."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "hard_to_understand",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La aplicaci\u00f3n no parec\u00eda ser muy \u00fatil."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "not_useful",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Pens\u00e9 que el programa iba a llevar demasiado tiempo."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "too_long",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La aplicaci\u00f3n ten\u00eda demasiadas palabras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "too_many_words",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La pantalla era dif\u00edcil de leer (por ejemplo, las palabras eran demasiado peque\u00f1as)."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "difficult_to_read",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para Terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante este programa, \u00bfcambiaste alguna dosis de medicamento, terapia u otra intervenci\u00f3n para ayudar a tu salud mental? Marca todas las que correspondan."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "change_mental_health",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Ahora busco terapia en persona m\u00e1s seguido",
+                                            "Ahora busco terapia en persona menos seguido",
+                                            "Ahora uso m\u00e1s medicaci\u00f3n recetada",
+                                            "Ahora uso menos medicaci\u00f3n recetada",
+                                            "Ahora uso m\u00e1s programas de computadora en l\u00ednea o aplicaciones m\u00f3viles (que no sean MindTrails Espa\u00f1ol)",
+                                            "Ahora uso menos programas de computadora en l\u00ednea o aplicaciones m\u00f3viles (que no sean MindTrails Espa\u00f1ol)",
+                                            "Otro",
+                                            "No cambi\u00e9 mis h\u00e1bitos de intervenci\u00f3n",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "CancelButtonText": "Salir"
+}
