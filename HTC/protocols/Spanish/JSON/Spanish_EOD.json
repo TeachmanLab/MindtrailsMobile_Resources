@@ -1,0 +1,109 @@
+{
+    "Name": "Nightly Survey",
+    "Title": "Encuesta Nocturna",
+    "Sections": [
+        {
+            "Name": "Nightly Survey",
+            "PageGroups": [
+                {
+                    "Name": "EOD",
+                    "Title": "EOD",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Encuesta de Noche",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En general, hoy me sentí: \n\n1 = Muy mal/negativo\n\n7 = Muy bien/positivo"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "EOD_mood",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Encuesta de Noche",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Hoy pude pensar sobre situaciones estresantes o preocupantes de una manera nueva o diferente.\n\n1 = Nada verdadero\n\n7 = Muy verdadero"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "EOD_thinking",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Encuesta de Noche",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Pude manejar mis emociones hoy.\n\n1 = Nada efectivamente\n\n7 = Muy efectivamente"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "EOD_emotions",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Encuesta de Noche",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Se te anima a completar 2 programas cortos de MindTrails Espanol manana. Pensando en tu día de manana, ¿hay momentos específicos en los que te gustaría recibir una notificación para completar un programa de ~5 minutos para ayudar a manejar una situación estresante o preocupante?"
+                                    }
+                                },
+                                {
+                                    "Type": "Scheduler",
+                                    "Name": "schedule_session",
+                                    "Parameters": {
+                                        "Message": "¡Es hora de practicar el pensamiento flexible! Dirígete a MindTrails Español para tu sesión programada."
+                                    }
+                                },
+                                {
+                                    "Type": "Scheduler",
+                                    "Name": "schedule_session",
+                                    "Parameters": {
+                                        "Message": "¡Es hora de practicar el pensamiento flexible! Dirígete a MindTrails Español para tu sesión programada."
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
