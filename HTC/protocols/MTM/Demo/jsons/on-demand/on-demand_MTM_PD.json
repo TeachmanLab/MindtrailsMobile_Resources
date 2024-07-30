@@ -1,0 +1,258 @@
+{
+    "Name": "On-demand resources",
+    "Title": "Resources",
+    "Sections": [
+        {
+            "Name": "Domains",
+            "Description": "Please click on any topic to learn about resources that can help you manage that part of your life. \n\n  Though resources were carefully selected by our team of researchers and clinicians, the University of Virginia does not endorse these resources.",
+            "Domains": [
+                {
+                    "Name": "Parkinson's Disease",
+                    "Title": "Parkinson's Disease Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "PD_Support_Resources::PD Support Resources",
+                                                    "Research::Research",
+                                                    "Disability_Support::Disability Support"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "PD Support Resources",
+                            "Title": "PD Support Resources",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "PD_Support_Resources"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Davis Phinney Foundation</font></b><br /><br />The Davis Phinney Foundation is a patient-led organization that focuses on strategies for improving quality of life. They provide education, tools, and resources for people with PD and their families, empowering them to live well today.<br /><br /><a href=\"https://davisphinneyfoundation.org/\">https://davisphinneyfoundation.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>The American Parkinson Disease Association (APDA)</font></b><br /><br />APDA is a leading grassroots organization dedicated to supporting individuals impacted by PD through education, research, and advocacy. They strive to enhance quality of life for people with PD.<br /><br /><a href=\"https://www.apdaparkinson.org/\">https://www.apdaparkinson.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>The Michael J. Fox Foundation</font></b><br /><br />MJJF offers resources and support for individuals diagnosed with PD, including free educational resources and opportunities to participate in research studies. They provide practical tips and guidance for navigating PD, from seeing a movement disorder specialist to joining a support group.<br /><br /><a href=\"https://www.michaeljfox.org/\">https://www.michaeljfox.org/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Parkinson's Buddy Network</font></b><br /><br />Join the Parkinson's Buddy Network, a free online platform connecting individuals within the PD community. The Buddy Network facilitates meaningful connections, resource sharing, and engagement through personal connections, interest-based groups, discussion spaces, and events.<br /><br /><a href=\"https://parkinsonsbuddynetwork.michaeljfox.org/v2/\">https://parkinsonsbuddynetwork.michaeljfox.org/v2/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Parkinson's Foundation PD Library</font></b><br /><br />The Parkinson's Foundation offers a wide range of resources and support for individuals living with PD, including a helpline, local chapters, and online events. Check out their comprehensive PD library for valuable information. <br /><br /><a href=\"https://www.parkinson.org/resources-support/pd-library\">https://www.parkinson.org/resources-support/pd-library</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Parkinson's Foundation Helpline</font></b><br /><br />Staffed by nurses, social workers, and health educators, the Parkinson's Foundation Helpline provides support and information on PD topics such as disease updates, medical issues, referrals, and community resources. Open Monday \u2013 Friday, 9 a.m. \u2013 7 p.m., EST. Email support is available at Helpline@Parkinson.org. Call the helpline at 1-800-4PD-INFO (473-4636). <br /><br /><a href=\"https://www.parkinson.org/resources-support/helpline\">https://www.parkinson.org/resources-support/helpline</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Great Speech</font></b><br /><br />Great Speech offers HIPAA-compliant speech therapy online. Get help with communication challenges such as soft speech, slurred speech, and more.<br /><br /><a href=\"https://greatspeech.com/services/parkinsons-disease/\">https://greatspeech.com/services/parkinsons-disease/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Research",
+                            "Title": "Research",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Research"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>NIH ClinicalTrials.gov</font></b><br /><br />Discover clinical studies worldwide on ClinicalTrials.gov. You can focus your search by condition, intervention, location, and study status to find relevant research opportunities.<br /><br /><a href=\"https://clinicaltrials.gov/\">https://clinicaltrials.gov/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Disability Support",
+                            "Title": "Disability Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Disability_Support"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>ADA National Network</font></b><br /><br />ADA National Network provides a regional locator for ADA resource centers offering a range of services for people with disabilities, including accommodations, training, employment, and school-to-work transitions. Click on the map to find your ADA Center.<br /><br /><a href=\"https://adata.org/find-your-region\">https://adata.org/find-your-region</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Mental Health",
+                    "Title": "Mental Health Resources",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Click on the specific topic to see associated resources."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Crisis_Support::Crisis Support",
+                                                    "Emotional_Support::Emotional Support",
+                                                    "LGBTQIA+_Support::LGBTQIA+ Support",
+                                                    "Substance_Use_Support::Substance Use Support"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Crisis Support",
+                            "Title": "Crisis Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Crisis_Support"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>988 Suicide & Crisis Lifeline</font></b><br /><br />The 988 Suicide & Crisis Lifeline offers free and confidential support 24/7 for mental health-related distress. If you or someone you know is struggling or in crisis, call or text 988 or chat 988lifeline.org/chat to connect with a trained crisis counselor.<br /><br /><a href=\"https://988lifeline.org\">https://988lifeline.org</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Emotional Support",
+                            "Title": "Emotional Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Emotional_Support"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>National Alliance on Mental Illness (NAMI) Helpline</font></b><br /><br />NAMI provides vital resources and raises public awareness to combat stigma. If you are struggling with your mental health, connect with a NAMI volunteer Monday \u2013 Friday, 10 a.m. \u2013 10 p.m., EST by calling 1-800-950-NAMI (6264), texting \"HelpLine\" to 62640, or clicking \"Chat with us\" on their site.<br /><br /><a href=\"https://www.nami.org/help\">https://www.nami.org/help</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Healthline: Grounding Techniques</font></b><br /><br />Explore 30 effective grounding techniques, including physical and mental soothing practices, designed to help you navigate distressing thoughts and emotions. These exercises offer practical tools to anchor yourself in the present moment and foster a sense of calm.<br /><br /><a href=\"https://www.healthline.com/health/grounding-techniques\">https://www.healthline.com/health/grounding-techniques</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Destress Monday: Breathing Techniques </font></b><br /><br />Discover the transformative power of deep breathing with DeStress Monday Deep Breathing Exercises \u2014 to alleviate stress and foster a sense of serenity in both body and mind. Embark on a journey of self-care and relaxation.<br /><br /><a href=\"https://www.mondaycampaigns.org/destress-monday/deep-breathing-practices\">https://www.mondaycampaigns.org/destress-monday/deep-breathing-practices</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Anxiety and Depression Association of America (ADAA)</font></b><br /><br />ADAA offers in-depth information on treatment and resources for anxiety, depression, and co-occurring disorders. Find free online peer-to-peer communities, a support group locator, and a \u201cSearch for an ADAA Member Telemental Health Provider in Your Area\u201d function on their site.<br /><br /><a href=\"https://adaa.org/\">https://adaa.org/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "LGBTQIA+ Support",
+                            "Title": "LGBTQIA+ Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "LGBTQIA+_Support"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>LGBT National Hotline</font></b><br /><br />The LGBT National Hotline provides free, confidential support for callers dealing with sexual orientation or gender identity issues, including coming out issues and relationship concerns. Hours of operation can be found on their site. Call 888-843-4564 to speak to a trained LGBTQIA+ volunteer. <br /><br /><a href=\"https://lgbthotline.org/national-hotline/\">https://lgbthotline.org/national-hotline/</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>LGBT National Senior Hotline</font></b><br /><br />The LGBT National Senior Hotline offers a free confidential space for seniors to discuss sexual orientation or gender identity issues, including elder abuse and family dynamics. Hours of operation can be found on their site. Call 888-234-7243 to speak to a trained LGBTQIA+ volunteer. <br /><br /><a href=\"https://lgbthotline.org/senior-hotline/\">https://lgbthotline.org/senior-hotline/</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Substance Use Support",
+                            "Title": "Substance Use Support",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Substance_Use_Support"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Substance Abuse and Mental Health Services Administration's (SAMHSA's) National Helpline</font></b><br /><br />SAMHSA\u2019s National Helpline, 1-800-662-HELP (4357) or TTY: 1-800-487-4889 is a confidential, free, 24/7 information service for individuals and family members facing mental and/or substance use disorders. Get referrals to local treatment facilities, support groups, and community-based organizations.<br /><br /><a href=\"https://www.samhsa.gov/find-help/national-helpline\">https://www.samhsa.gov/find-help/national-helpline</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

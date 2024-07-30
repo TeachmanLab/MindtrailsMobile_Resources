@@ -1,0 +1,2573 @@
+{
+    "Name": "Follow Your Progress",
+    "Title": "Sigue Tu Progreso",
+    "Sections": [
+        {
+            "Name": "Sigue Tu Progreso - Semana 2",
+            "PageGroups": [
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque piensa que eres desalinado/a."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nY frunces el ceno porque olvidaste traer agua para el almuerzo"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque está prestando atención mientras describes tus planes de fin de semana."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nY sonríes porque tu almuerzo sabe rico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nY piensas que probablemente se infectará gravemente."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nY te frustras porque rasgaste tus pantalones cortos."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nPero sabes que estarás bien."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nPero estás feliz de que estás haciendo ejercicio."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY piensas que probablemente estás empezando a sentir los síntomas de la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY piensas que es poco probable que contraigas la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY sonríes porque disfrutas ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY te sientes aburrido/a de ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas en lo amable que es tu médico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY estás molesto/a porque tu médico no es muy amable."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas que no podrás soportar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY sabes que puedes manejar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Track Your Progress",
+                    "Title": "Track Your Progress",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útil encuentras MindTrails Espanol para reducir tu ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "reduce_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada útil",
+                                            "Un poco útil",
+                                            "Algo útil",
+                                            "Mayormente útil",
+                                            "Muy útil",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto mantiene tu interés y atención MindTrails Espanol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "keep_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto pudiste relacionarte con las historias presentadas durante las sesiones de entrenamiento?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Hasta qué punto los escenarios del entrenamiento reflejan situaciones que son importantes para ti?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Hasta qué punto los escenarios del entrenamiento reflejan situaciones que son importantes para tu familia y comunidad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan creíbles encontraste los finales de las historias en términos de que esos resultados ocurran en tu vida?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "believable_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto te gusta la apariencia de MindTrails Espanol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "UI",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan fácil es usar MindTrails Espanol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "easy_to_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Encuentro que las sesiones de entrenamiento son:"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "find_sessions",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Demasiado cortas",
+                                            "Algo cortas",
+                                            "La longitud adecuada",
+                                            "Algo largas",
+                                            "Demasiado largas",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué útil te resulta la encuesta de noche que te permite elegir cuándo completar el entrenamiento al día siguiente?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "nightly_survey_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada útil",
+                                            "Un poco útil",
+                                            "Algo útil",
+                                            "Mayormente útil",
+                                            "Muy útil",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto te identificas con los pronombres y conjugaciones utilizados en el programa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Sigue Tu Progreso - Semana 4",
+            "PageGroups": [
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque piensa que eres desalinado/a."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nY frunces el ceno porque olvidaste traer agua para el almuerzo"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque está prestando atención mientras describes tus planes de fin de semana."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nY sonríes porque tu almuerzo sabe rico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nY piensas que probablemente se infectará gravemente."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nY te frustras porque rasgaste tus pantalones cortos."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nPero sabes que estarás bien."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nPero estás feliz de que estás haciendo ejercicio."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY piensas que probablemente estás empezando a sentir los síntomas de la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY piensas que es poco probable que contraigas la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY sonríes porque disfrutas ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY te sientes aburrido/a de ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas en lo amable que es tu médico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY estás molesto/a porque tu médico no es muy amable."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas que no podrás soportar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY sabes que puedes manejar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Track Your Progress",
+                    "Title": "Track Your Progress",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útil encuentras MindTrails Espanol para reducir tu ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "reduce_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada útil",
+                                            "Un poco útil",
+                                            "Algo útil",
+                                            "Mayormente útil",
+                                            "Muy útil",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto mantiene tu interés y atención MindTrails Espanol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "keep_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto pudiste relacionarte con las historias presentadas durante las sesiones de entrenamiento?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Hasta qué punto los escenarios del entrenamiento reflejan situaciones que son importantes para ti?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Hasta qué punto los escenarios del entrenamiento reflejan situaciones que son importantes para tu familia y comunidad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan creíbles encontraste los finales de las historias en términos de que esos resultados ocurran en tu vida?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "believable_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan preocupado estás por tu privacidad al usar MindTrails Espanol?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "privacy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan cansadoras encuentras las sesiones de entrenamiento?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tiring_training",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan cansadores encuentras las evaluaciones?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tiring_assessments",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útiles encuentras las estrategias y consejos proporcionados por la aplicación?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tips_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto te identificas con los pronombres y conjugaciones utilizados en el programa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Sigue Tu Progreso - Semana 6",
+            "PageGroups": [
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque piensa que eres desalinado/a."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nY frunces el ceno porque olvidaste traer agua para el almuerzo"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque está prestando atención mientras describes tus planes de fin de semana."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nY sonríes porque tu almuerzo sabe rico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nY piensas que probablemente se infectará gravemente."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nY te frustras porque rasgaste tus pantalones cortos."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nPero sabes que estarás bien."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nPero estás feliz de que estás haciendo ejercicio."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY piensas que probablemente estás empezando a sentir los síntomas de la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY piensas que es poco probable que contraigas la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY sonríes porque disfrutas ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY te sientes aburrido/a de ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas en lo amable que es tu médico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY estás molesto/a porque tu médico no es muy amable."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas que no podrás soportar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY sabes que puedes manejar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Track Your Progress",
+                    "Title": "Track Your Progress",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útil encuentras MindTrails Espanol para reducir tu ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "reduce_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada útil",
+                                            "Un poco útil",
+                                            "Algo útil",
+                                            "Mayormente útil",
+                                            "Muy útil",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto pudiste relacionarte con las historias presentadas durante las sesiones de entrenamiento?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Hasta qué punto los escenarios del entrenamiento reflejan situaciones que son importantes para ti?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Hasta qué punto los escenarios del entrenamiento reflejan situaciones que son importantes para tu familia y comunidad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan creíbles encontraste los finales de las historias en términos de que esos resultados ocurran en tu vida?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "believable_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan probable sería que recomiendes MindTrails Espanol a otras personas con dificultades similares de ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "recommend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan probable es que recomiendes MindTrails a otras personas hispanohablantes que tienen problemas con la ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "recommend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Tienes síntomas de ansiedad o depresión de moderados a graves?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "anxiety_or_depression",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Si::Si",
+                                            "No::No",
+                                            "No estoy seguro::No estoy seguro"
+                                        ],
+                                        "Selectable": true
+                                    },
+                                    "VariableName": "AnxietyDepressionSymptoms"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan abierto o interesado estás en buscar otras formas de tratamiento de un profesional de salud mental (por ejemplo, terapia, medicación) en comparación con antes de comenzar el programa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Mucho más probable",
+                                            "Un poco más probable",
+                                            "Igualmente probable",
+                                            "Un poco menos probable",
+                                            "Mucho menos probable",
+                                            "No aplica (por ejemplo, actualmente estoy recibiendo otro tipo de tratamiento)",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan abierto o interesado estás en buscar otras formas de tratamiento de un profesional de salud mental (por ejemplo, terapia, medicación) en comparación con antes de comenzar el programa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Mucho más probable",
+                                            "Un poco más probable",
+                                            "Igualmente probable",
+                                            "Un poco menos probable",
+                                            "Mucho menos probable",
+                                            "No aplica (por ejemplo, actualmente estoy recibiendo otro tipo de tratamiento)",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útiles encontraste los recursos y referencias proporcionados en la aplicación?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "resources_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada",
+                                            "Un poco",
+                                            "Algo",
+                                            "Mayormente",
+                                            "Mucho",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Te gustaría proporcionar comentarios sobre tu experiencia usando MindTrails Espanol (por ejemplo, formas en que el programa ha sido útil o formas en que podemos mejorar el programa)?"
+                                    }
+                                },
+                                {
+                                    "Type": "Entry",
+                                    "Name": "feedback"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Tu Experiencia",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Tenemos tu permiso para utilizar todo o parte de los comentarios que proporcionaste como un testimonio de participante desidentificado (por ejemplo, como parte del programa MindTrails Espanol, o en boletines u otros materiales promocionales)? Si es así, no se usaría tu nombre ni ninguna otra información identificativa."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "permission",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Si",
+                                            "No"
+                                        ],
+                                        "Selectable": true,
+                                        "ColumnCount": 2
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Name": "Sigue Tu Progreso - Semana 8",
+            "PageGroups": [
+                {
+                    "Name": "Interpretation Bias Measures",
+                    "Title": "Interpretation Bias Measures",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque piensa que eres desalinado/a."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nY frunces el ceno porque olvidaste traer agua para el almuerzo"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque está prestando atención mientras describes tus planes de fin de semana."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El Almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nY sonríes porque tu almuerzo sabe rico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nY piensas que probablemente se infectará gravemente."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nY te frustras porque rasgaste tus pantalones cortos."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nPero sabes que estarás bien."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Raspadura",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RASPADURA: La raspadura duele un poco...\n\nPero estás feliz de que estás haciendo ejercicio."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY piensas que probablemente estás empezando a sentir los síntomas de la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY piensas que es poco probable que contraigas la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY sonríes porque disfrutas ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Excursión de Compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA EXCURSIÓN DE COMPRAS: Piensas en tu salud reciente...\n\nY te sientes aburrido/a de ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas en lo amable que es tu médico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY estás molesto/a porque tu médico no es muy amable."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas que no podrás soportar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La Prueba de Sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA PRUEBA DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY sabes que puedes manejar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "DoseMethod": "OnRun",
+    "DoseBySection": true
+}

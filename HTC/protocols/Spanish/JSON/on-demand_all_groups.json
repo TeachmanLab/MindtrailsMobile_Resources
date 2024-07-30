@@ -1,0 +1,840 @@
+{
+    "Name": "On-demand resources",
+    "Title": "Recursos",
+    "Sections": [
+        {
+            "Name": "Domains",
+            "Description": "Haga clic en cualquier tema para conocer los recursos que pueden ayudarle a gestionar esa.parte de tu vida.",
+            "Domains": [
+                {
+                    "Name": "Académicos/Trabajo/Desarrollo Profesional",
+                    "Title": "Académicos/Trabajo/Desarrollo Profesional Recursos",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Haga clic en el tema específico para ver los recursos asociados."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Desempleo::Desempleo"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Desempleo",
+                            "Title": "Desempleo",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Desempleo"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>CareerOneStop: Reempleo del trabajador</font></b><br /><br />El portal de reempleo del trabajador incluye información estatal, capacitaciones, ayuda con la búsqueda de empleo, y más beneficios.<br /><br /><a href=\"http://bit.ly/COS_espr\">http://bit.ly/COS_espr</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Vida Familiar y Doméstica",
+                    "Title": "Vida Familiar y Doméstica Recursos",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Haga clic en el tema específico para ver los recursos asociados."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Familias::Familias",
+                                                    "Seguridad::Seguridad",
+                                                    "Otro::Otro"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Familias",
+                            "Title": "Familias",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Familias"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Centro de información y recursos para familias</font></b><br /><br />Center for Parent Information & Resources ofrece una lista de recursos y guías informativas acerca de discapacidades, derechos educativos, y más.<br /><br /><a href=\"http://bit.ly/CPIR_espr\">http://bit.ly/CPIR_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Cómo afrontar el cuidado de un padre que se está haciendo mayor</font></b><br /><br />Esta página de MHA comparte información acerca la generación “sándwich” quienes a menudo son padres de familia cuidando de sus padres y sus hijos menores de edad. Contiene una lista de consejos de como dar prioridad a las tareas del hogar, como cuidar de sí mismo, y más.<br /><br /><a href=\"https://bit.ly/acpm_es\">https://bit.ly/acpm_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Familias Cambian: Guía de Separación y Divorcio</font></b><br /><br />Actividades y guías para afrontar la separación y divorcio creadas para edades diversas.<br /><br /><a href=\"http://bit.ly/FaC_espr\">http://bit.ly/FaC_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Kid's Health</font></b><br /><br />Kid's Health es una organización sin fines de lucro que ofrece información revisada por doctores y con fuentes sustentadas. Hay secciones para padres, niños, y adolescentes.<br /><br /><a href=\"https://bit.ly/3zOgFg0\">https://bit.ly/3zOgFg0</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Los niños y la salud mental</font></b><br /><br />Este sitio web creado por el Instituto Nacional de la Salud Mental (NIH, por sus siglas en inglés) ofrece mucha información acerca de la salud mental en la niñez. Indica señales cuando sería necesario buscar ayuda externa, medidas de apoyo que pueden tomar los cuidadores, como trabajar con las escuelas, y más.<br /><br /><a href=\"https://bit.ly/nsm_es\">https://bit.ly/nsm_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Departamento de Educación</font></b><br /><br />Recursos en Español acerca de información escolar y derechos educativos.<br /><br /><a href=\"https://bit.ly/3zPK9Kq\">https://bit.ly/3zPK9Kq</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Entendiendo Experiencias Infantiles Adversas (ACE)</font></b><br /><br />Esta guía explica lo que son las experiencias infantiles adversas y cómo estas influyen en el desarrollo. Ofrece breves consejos para cuidadores y guardianes.<br /><br /><a href=\"https://bit.ly/3zKLX7H\">https://bit.ly/3zKLX7H</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Autoevaluación de cuidadores</font></b><br /><br />Esta actividad ayuda a cuidadores a auto-evaluarse para agotamiento y fatiga de compasión para que de esa forma puedan buscar apoyos adicionales<br /><br /><a href=\"https://bit.ly/3vO3Jnm\">https://bit.ly/3vO3Jnm</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Centro de información y recursos para familias</font></b><br /><br />Centro de información y recursos para familias ofrece una lista de recursos y guías informativas acerca de discapacidades, derechos educativos, y más<br /><br /><a href=\"http://bit.ly/CPIR_espr\">http://bit.ly/CPIR_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Child Mind Institute</font></b><br /><br />Recursos en español para los adultos y guardianes. Información proveída sobre temas en salud mental, desafíos del aprendizaje y tipos de tratamientos para apoyar a sus hijos.<br /><br /><a href=\"http://bit.ly/CMI_espr\">http://bit.ly/CMI_espr</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Seguridad",
+                            "Title": "Seguridad",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Seguridad"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Ayuda con Pagos de Facturas</font></b><br /><br />Proporciona información acerca de programas gubernamentales que ayudan con pago de facturas y asistencia temporal.\n<br /><br /><a href=\"https://bit.ly/3cX7CiX\">https://bit.ly/3cX7CiX</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Asociación Nacional de Clínicas Gratuitas y Benéficas (NAFCC, por sus siglas en inglés)</font></b><br /><br />La Asociación Nacional de Clínicas Gratuitas y Benéficas es un directorio de clínicas que ofrecen servicios de salud gratuitos o de bajo costo para trabajadores pobres, sin seguro y/o con seguro insuficiente en los Estados Unidos. La organización también realiza actividades a nivel nacional con el fin de ampliar el acceso a la atención médica. Es posible cambiar el idioma usando la barra en la parte superior de la página a la derecha.<br /><br /><a href=\"https://bit.ly/nafcc_enr\">https://bit.ly/nafcc_enr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Feeding America</font></b><br /><br />Feeding America ofrece esta página informativa para que las personas puedan acceder a los recursos alimenticios.<br /><br /><a href=\"http://bit.ly/FeeA_espr\">http://bit.ly/FeeA_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Hunger Free America</font></b><br /><br />Hunger Free America es una organización nacional cuál se enfoca en programas necesarios para acabar con el hambre en EE. UU. Puede buscar banco de comida en línea o por teléfono a 1-877-8-HAMBRE.<br /><br /><a href=\"https://bit.ly/3xJzDmd\">https://bit.ly/3xJzDmd</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>HealthWell Foundation</font></b><br /><br />HealthWell Foundation es una organización sin fines de lucro que ayuda a mejorar el acceso a la atención médica para personas con seguro médico inadecuado o que no cubre todos los costos. La organización tiene varios fondos para enfermedades, incluyendo ciertos cánceres, COVID-19, hepatitis, y más. HealthWell ayuda con diferencias en copagos, gastos médicos directos, primas de seguro, y deducibles. Puede solicitar ayuda aplicando en línea o llamando a (800) 675-8416.<br /><br /><a href=\"https://bit.ly/HWF_espr\">https://bit.ly/HWF_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>InsureKidsNow</font></b><br /><br />Insure Kids Now ayuda a familias a buscar cobertura médica u odontológica a través de Medicaid y del Programa de Seguro Médico para Niños. Ofrece recursos y apoyo para buscar servicios gratuitos o de bajo costo.<br /><br /><a href=\"https://bit.ly/3gRELzj\">https://bit.ly/3gRELzj</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Otro",
+                            "Title": "Otro",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Otro"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Dougy Center</font></b><br /><br />Brinda información sobre el duelo y formas de encontrar grupos de apoyo locales, especialmente para niños, adolescentes y sus familias. La página ofrecida por el enlace tiene recursos en español, pero el idioma de todo el sitio también puede ser cambiado al español usando la barra en la parte superior de la página.<br /><br /><a href=\"https://bit.ly/dc_esp\">https://bit.ly/dc_esp</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Guías de autoayuda: ¿Cómo afrontar el duelo?</font></b><br /><br />El duelo puede ser una experiencia difícil y estresante. Esta guía da información sobre el duelo y cómo apoyar a seres queridos, o incluso a uno mismo, a sobrellevarlo.<br /><br /><a href=\"https://bit.ly/ad_espr\">https://bit.ly/ad_espr</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Finanzas",
+                    "Title": "Finanzas Recursos",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Haga clic en el tema específico para ver los recursos asociados."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Apoyo_y_Consejo_Financiero::Apoyo y Consejo Financiero"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Apoyo y Consejo Financiero",
+                            "Title": "Apoyo y Consejo Financiero",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Apoyo_y_Consejo_Financiero"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>211 (EEUU) en español</font></b><br /><br />211 conecta a personas en EEUU con recursos económicos locales.<br /><br /><a href=\"https://bit.ly/211_esprm \">https://bit.ly/211_esprm </a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Money Smart de la FDIC</font></b><br /><br />El programa “Money Smart” de la FDIC ayuda a las personas a aprender más habilidades financieras y a crear relaciones bancarias positivas. También incluye información para apoyar a los padres/cuidadores de niños de todas las edades.<br /><br /><a href=\"https://bit.ly/ams_es\">https://bit.ly/ams_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Deudores Anónimos</font></b><br /><br />Ofrece programa de 12 pasos para personas que quieren dejar de incurrir en deudas.<br /><br /><a href=\"http://bit.ly/DeAn_espr\">http://bit.ly/DeAn_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Mi Dinero: Herramientas</font></b><br /><br />Mi Dinero: Herramientas es una página que ofrece información y plantillas para ayudar con la educación y la planificación financiera. Cada sección tiene herramientas para temas como la elaboración de presupuestos, manejo de deudas, y más.<br /><br /><a href=\"https://bit.ly/mdh_espr \">https://bit.ly/mdh_espr </a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Cómo dar prioridad a las deudas: ¿Cuáles pago primero?</font></b><br /><br />Este sitio explica las prioridades que uno mismo puede tener al decidir salir de deudas. Ofrece consejos e ideas para recursos<br /><br /><a href=\"https://bit.ly/3gQ8VCR\">https://bit.ly/3gQ8VCR</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Salud Mental",
+                    "Title": "Salud Mental Recursos",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Haga clic en el tema específico para ver los recursos asociados."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Conciencia_y_Meditación::Conciencia y Meditación",
+                                                    "Mindfulness_and_Meditation::Mindfulness and Meditation",
+                                                    "Manejo_del_Estrés_y_Autocuidado::Manejo del Estrés y Autocuidado",
+                                                    "Opciones_de_Tratamiento_y_Recursos_Adicionales::Opciones de Tratamiento y Recursos Adicionales"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Conciencia y Meditación",
+                            "Title": "Conciencia y Meditación",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Conciencia_y_Meditación"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Calma (Calm)</font></b><br /><br />La aplicación Calm proporcionó esta página que ofrece estrategias de afrontamiento, momentos meditativos, y más para lidiar con el estrés solo y acompañado.<br /><br /><a href=\"http://bit.ly/calm_espr\">http://bit.ly/calm_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>54321 Ejercicio Calmante</font></b><br /><br />El ejercicio calmante 54321 te guía a través de cinco pasos para encontrar la calma.<br /><br /><a href=\"https://bit.ly/tec_espr\">https://bit.ly/tec_espr</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Mindfulness and Meditation",
+                            "Title": "Mindfulness and Meditation",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Mindfulness_and_Meditation"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Yana app</font></b><br /><br />Yana ofrece herramientas para mejorar la salud mental, incluyendo afirmaciones personales, técnicas de relajación, diario para registrar las emociones, y un chat para trabajar en metas o combatir pensamientos intrusivos.<br /><br /><a href=\"https://bit.ly/yai_es (IOS) O https://bit.ly/yanaa_es (Android)\">https://bit.ly/yai_es (IOS) O https://bit.ly/yanaa_es (Android)</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Manejo del Estrés y Autocuidado",
+                            "Title": "Manejo del Estrés y Autocuidado",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Manejo_del_Estrés_y_Autocuidado"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Creando rutinas saludables</font></b><br /><br />Esta página de Mental Health America ofrece datos sobre la salud física, mental y la importancia de las rutinas. Contiene consejos y una guía con preguntas que ayudan a las personas a darle prioridad a lo más importante de sus vidas para poder crear rutinas saludables.<br /><br /><a href=\"https://bit.ly/cra_es\">https://bit.ly/cra_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>La Respiración Profunda</font></b><br /><br />Explica la respiración profunda paso a paso para lidiar con estrés y pánico.<br /><br /><a href=\"https://bit.ly/3zM8bGt\">https://bit.ly/3zM8bGt</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Técnicas de relajación</font></b><br /><br />MedlinePlus.Gov ofrece información de todo tipo. Esta página ofrece ideas para técnicas de relajación para lidiar con el estrés.<br /><br /><a href=\"https://bit.ly/3zU9EKW\">https://bit.ly/3zU9EKW</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Salud mental/corporal: Cómo manejar el estrés de la temporada festiva</font></b><br /><br />Esta página de APA incluye habilidades de afrontamiento y consejos para manejar el estrés de las temporadas festivas.<br /><br /><a href=\"https://bit.ly/mes_es\">https://bit.ly/mes_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>7 técnicas de relajación para un alivio eficaz del estrés y la ansiedad</font></b><br /><br />Esta guía ofrece una lista de 7 técnicas de relajación con explicaciones claras para poder sobrellevar el estrés y la ansiedad.<br /><br /><a href=\"https://bit.ly/7te_es\">https://bit.ly/7te_es</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Opciones de Tratamiento y Recursos Adicionales",
+                            "Title": "Opciones de Tratamiento y Recursos Adicionales",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Opciones_de_Tratamiento_y_Recursos_Adicionales"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Anxiety and Depression Association of America</font></b><br /><br />ADAA es una organización dedicada a la prevención, tratamiento y cura de la ansiedad, depresión, el trastorno obsesivo-compulsivo y trastornos similares a través de la educación, grupo de apoyo, y gráficos informativos.<br /><br /><a href=\"http://bit.ly/ADAA_espr\">http://bit.ly/ADAA_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>988/Lifeline (Línea Nacional de Prevención del Suicidio)</font></b><br /><br />Proporciona una línea de ayuda 24/7 donde personas pueden llamar por teléfono y tener conversaciones gratuitas y confidenciales. La línea apoya a personas en crisis o aquellos pensando en el suicidio. Para texters que prefieren hablar por teléfono. Llama a 988 o visita el enlace.<br /><br /><a href=\"https://bit.ly/988ll_esr\">https://bit.ly/988ll_esr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Cuaderno: Guía de salud mental</font></b><br /><br />Esta guía cubre todo tipo de información acerca de la salud mental, incluyendo secciones sobre trastornos, recursos, y consejos para sobrellevar síntomas y estrés.<br /><br /><a href=\"https://bit.ly/csalud_es\">https://bit.ly/csalud_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Cuidado de Salud (Healthcare.gov)\n</font></b><br /><br />Proporciona servicios relacionados con obtener seguro médico a través del Affordable Care Act.<br /><br /><a href=\"https://bit.ly/3d0T2Ho\">https://bit.ly/3d0T2Ho</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Latinx Therapists Action Network (LTAN)</font></b><br /><br />Conecta a personas Latinas con terapeutas inclusivos y que promueven los derechos humanos y la dignidad para la comunidad Latina y de migrantes.<br /><br /><a href=\"https://bit.ly/2UnFtLA\">https://bit.ly/2UnFtLA</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Mental Health America</font></b><br /><br />El sitio general de MHA ofrece guías informativas, pruebas interactivas, y más acerca de la salud mental y trastornos/preocupaciones diversas.<br /><br /><a href=\"https://bit.ly/3d5cZwH\">https://bit.ly/3d5cZwH</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>MentalHealth.Gov</font></b><br /><br />El sitio Web proporciona información acerca de todo tipo de cuestiones de salud mental. Incluye información que abarca desde los trastornos alimenticios hasta la ansiedad.<br /><br /><a href=\"https://bit.ly/2TWLxKJ\">https://bit.ly/2TWLxKJ</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>National Alliance on Mental Illness</font></b><br /><br />Proporciona educación, información, y apoyo y Defensa para aquellos afectados por enfermedades mentales. Los recursos de esta página son específicos a la comunidad Latina.<br /><br /><a href=\"https://bit.ly/3gUNe3h\">https://bit.ly/3gUNe3h</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Proveedores de atención de la salud mental: consejos para encontrar uno</font></b><br /><br />Esta página web proporciona consejos e información a tener en cuenta cuando alguien busca un proveedor de salud mental. Cubre los diferentes tipos de proveedores, qué tener en cuenta en cuanto a condiciones/necesidades médicas y dónde se puede buscar proveedores.<br /><br /><a href=\"https://bit.ly/mcp_es\">https://bit.ly/mcp_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Therapy for Latinx</font></b><br /><br />Conecta a personas Latinas con terapeutas inclusivos y sintonizados culturalmente. Es posible cambiar el idioma de la página utilizando la barra en la parte superior. <br /><br /><a href=\"https://bit.ly/3pSHWJj\">https://bit.ly/3pSHWJj</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Salud Física",
+                    "Title": "Salud Física Recursos",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Haga clic en el tema específico para ver los recursos asociados."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Consumo_de_Sustancias::Consumo de Sustancias",
+                                                    "Salud_Física_y_Ejecicio::Salud Física y Ejecicio",
+                                                    "Relación_con_la_Comida::Relación con la Comida",
+                                                    "Salud_Reproductiva::Salud Reproductiva",
+                                                    "Apoyo_Médico::Apoyo Médico"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Consumo de Sustancias",
+                            "Title": "Consumo de Sustancias",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Consumo_de_Sustancias"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>BecomeAnEX (ES)</font></b><br /><br />BecomeAnEX te brinda orientación y apoyo comunitario para dejar la nicotina, incluyendo el fumar, vapear, o masticar tabaco.<br /><br /><a href=\"https://bit.ly/bex_esp\">https://bit.ly/bex_esp</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>SmokeFree - ES</font></b><br /><br />SmokeFree ofrece consejos y apoyo para dejar de fumar. Brinda formas alternativas de lidiar con el estrés, lidiar con los factores desencadenantes del tabaquismo y puede ayudar a los Texters a contar cuánto tiempo han estado sin fumar<br /><br /><a href=\"https://bit.ly/sf_espr\">https://bit.ly/sf_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Alcohólicos Anónimos</font></b><br /><br />Proporciona apoyo para personas que luchan contra el alcoholismo usando un programa de 12 pasos, incluyendo asistencia regular a reuniones en grupo.<br /><br /><a href=\"https://bit.ly/aa_espr\">https://bit.ly/aa_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Habilidades para afrontar las adicciones</font></b><br /><br />Este PDF comparte varias estrategias de afrontamiento que se pueden usar como parte de la recuperación de diversas adicciones, incluida la búsqueda y el desarrollo de apoyos sociales, el manejo de las emociones y el uso de distracciones.<br /><br /><a href=\"https://bit.ly/hpa_es\">https://bit.ly/hpa_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Partnership to End Addiction</font></b><br /><br />Proporciona información y apoyo para familias lidiando con problemas de jóvenes con abuso de sustancias.<br /><br /><a href=\"https://bit.ly/3qjoiqI\">https://bit.ly/3qjoiqI</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Substance Abuse and Mental Health Services Administration (SAMHSA) - Lista de Recursos bilingües en español</font></b><br /><br />SAMHSA tiene sitio Web, pero no todo está traducido. La organización ofrece esta página de recursos que tienen servicios bilingües o tienen traducción. <br /><br /><a href=\"https://bit.ly/2SXU3sR\">https://bit.ly/2SXU3sR</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Salud Física y Ejecicio",
+                            "Title": "Salud Física y Ejecicio",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Salud_Física_y_Ejecicio"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>División de Nutrición, Actividad Física y Obesidad (DNPAO) de los CDC</font></b><br /><br />Ofrece información sobre actividad física, peso saludable, lactancia materna y nutrición para bebés y niños pequeños.<br /><br /><a href=\"https://www.cdc.gov/nccdphp/dnpao/spanish/index.html\">https://www.cdc.gov/nccdphp/dnpao/spanish/index.html</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Relación con la Comida",
+                            "Title": "Relación con la Comida",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Relación_con_la_Comida"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Tratamiento para un trastorno de la alimentación: infórmate sobre tus opciones</font></b><br /><br />Esta página comparte información acerca de trastornos alimenticios y los tipos de tratamientos disponibles. Ofrece pasos a seguir para comenzar a buscar apoyo y crear un plan de recuperación.<br /><br /><a href=\"https://mayocl.in/3U1TPeI\">https://mayocl.in/3U1TPeI</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Los trastornos de la alimentación: Un problema que va más allá de la comida</font></b><br /><br />Esta guía explica lo difícil que es batallar con un trastorno alimenticio y explica qué tipo de trastornos existen y cómo buscar ayuda.<br /><br /><a href=\"https://bit.ly/LTA_espr\">https://bit.ly/LTA_espr</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Salud Reproductiva",
+                            "Title": "Salud Reproductiva",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Salud_Reproductiva"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Planned Parenthood</font></b><br /><br />Brinda atención a la salud reproductiva, educación sexual e información a adultos y jóvenes.<br /><br /><a href=\"https://bit.ly/3j2qe56\">https://bit.ly/3j2qe56</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Línea de Apoyo de All Options</font></b><br /><br />All Options es una organización que apoya a las personas embarazadas mientras deciden qué opción es mejor para su situación (por ejemplo, aborto, mantener el embarazo, etc.). La línea de ayuda tiene voluntarios bilingües que hablan español, aunque el sitio aún no es completamente bilingüe. Llama al 1-888-493-0092 o haz clic en el enlace para obtener más información.<br /><br /><a href=\"https://bit.ly/ao_espr\">https://bit.ly/ao_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Consejos Para Madres Embarazadas</font></b><br /><br />Este PDF ofrece información para madres embarazadas y describe cosas importantes que necesitan saber para un embarazo saludable.<br /><br /><a href=\"https://bit.ly/3j2TNDL\">https://bit.ly/3j2TNDL</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Guía de Métodos Anticonceptivos por el FDA</font></b><br /><br />Guía de métodos anticonceptivos proporcionada por el FDA que compara todo tipo de anticonceptivos.<br /><br /><a href=\"http://bit.ly/GMA_espr\">http://bit.ly/GMA_espr</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Apoyo Médico",
+                            "Title": "Apoyo Médico",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Apoyo_Médico"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Alianza Nacional para la Salud Hispana</font></b><br /><br />Alianza Nacional para la Salud Hispana ofrece información y recursos bilingües acerca de la salud física y mental. También tienen una línea telefónica (1-866-783-2645) que ofrece información de salud gratuita, confiable, y confidencial.<br /><br /><a href=\"https://bit.ly/3wQgtuN\">https://bit.ly/3wQgtuN</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Oficina para la Salud de la Mujer</font></b><br /><br />La Oficina para la Salud de la Mujer es la oficina gubernamental encargada de preservar y promover la buena salud y el bienestar de las mujeres. Ofrecen información y recursos.<br /><br /><a href=\"https://bit.ly/3wWcugo\">https://bit.ly/3wWcugo</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>MiBuscadorDeSalud</font></b><br /><br />Operado por el Departamento de Salud de los EE. UU., brinda información, artículos sobre cuestiones de salud, servicios de búsqueda para recursos de salud nacionales y locales.<br /><br /><a href=\"https://bit.ly/mhf_es\">https://bit.ly/mhf_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Cuidado de Salud (Healthcare.gov)</font></b><br /><br />Proporciona servicios relacionados con obtener seguro médico a través del Affordable Care Act<br /><br /><a href=\"https://bit.ly/3d0T2Ho\">https://bit.ly/3d0T2Ho</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Fundación Defensora del Paciente (Patient Advocate Foundation)</font></b><br /><br />Brinda a los pacientes de bajos ingresos y sin seguro médico servicios de administración de casos y ayuda financiera para acceder al tratamiento de atención médica para enfermedades crónicas, potencialmente mortales y debilitantes.<br /><br /><a href=\"https://bit.ly/35HeBIW\">https://bit.ly/35HeBIW</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Hablar con su médico (NIH)</font></b><br /><br />Esta página web proporcionada por NIH ofrece guías sobre cómo comunicarse con los médicos y proveedores de atención médica para tomar decisiones colaborativas e informadas sobre tu salud.<br /><br /><a href=\"http://bit.ly/NIHm_es\">http://bit.ly/NIHm_es</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Relaciones Románticas",
+                    "Title": "Relaciones Románticas Recursos",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Haga clic en el tema específico para ver los recursos asociados."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Abordando_el_Abuso_en_las_Relaciones_::Abordando el Abuso en las Relaciones ",
+                                                    "Recursos_para_las_parejas::Recursos para las parejas",
+                                                    "Otro::Otro"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Abordando el Abuso en las Relaciones ",
+                            "Title": "Abordando el Abuso en las Relaciones ",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Abordando_el_Abuso_en_las_Relaciones_"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Ayuda a las Víctimas de Abuso Doméstico (AVDA)</font></b><br /><br />Recursos AVDA promueve relaciones sanas y libres de violencia. Brindan apoyo a personas de todos los géneros y ofrecen recursos y programas para que sobrevivientes en crisis puedan salir adelante. Cambia el idioma usando el botón en la parte superior de la página a la derecha.<br /><br /><a href=\"http://bit.ly/AVDA_espr\">http://bit.ly/AVDA_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>El Centro Nacional de Recursos sobre Violencia Sexual  (The National Sexual Violence Resource Center)</font></b><br /><br />Defensores del liderazgo y la prevención de la violencia sexual a través de sus recursos.<br /><br /><a href=\"https://bit.ly/3xCCLjI\">https://bit.ly/3xCCLjI</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Casa de Esperanza</font></b><br /><br />Casa Esperanza se enfoca en apoyar y ayudar a personas hispanas que sufren violencia doméstica, trata humana, y más. Ofrece recursos para personas sufriendo el abuso y para terceras personas tratando de ayudar a un amigo o conocido.<br /><br /><a href=\"http://bit.ly/CE_espr\">http://bit.ly/CE_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Encuentro Latino: National Institute on Family Violence</font></b><br /><br />Encuentro Latino proporciona información acerca de derechos de sobrevivientes de abuso y violencia y también ofrece folletos y presentaciones acerca de los efectos de la violencia reconociendo las barreras y diferencias culturales.<br /><br /><a href=\"https://bit.ly/3wMUzJ1\">https://bit.ly/3wMUzJ1</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Recursos para las parejas",
+                            "Title": "Recursos para las parejas",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Recursos_para_las_parejas"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Love is Respect (El Amor es Respeto)</font></b><br /><br />Love is Respect incluye mucha información apropiada para edades diversas acerca del consentimiento y relaciones sanas. También ofrece una línea de ayuda.<br /><br /><a href=\"https://bit.ly/3wQKNFH\">https://bit.ly/3wQKNFH</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Inicios suaves: habilidad de comunicación</font></b><br /><br />Esta hoja informativa ofrece consejos y ejemplos para mejorar la comunicación efectiva entre pareja.<br /><br /><a href=\"https://bit.ly/isc_es\">https://bit.ly/isc_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Consentimiento 101</font></b><br /><br />Consentimiento 101 describe lo que es el consentimiento entusiasta y lo que no constituye consentimiento, como la vestimenta o el coqueteo<br /><br /><a href=\"https://bit.ly/3gR9rRc\">https://bit.ly/3gR9rRc</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Otro",
+                            "Title": "Otro",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Otro"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Cómo manejar la soledad después de un divorcio o una separación</font></b><br /><br />Esta página brinda información para personas que buscan sobrellevar la soledad después de un divorcio o separación. Contiene preguntas frecuentes y consejos para mejorar la salud mental mientras la persona se adapta a su nueva circunstancia.<br /><br /><a href=\"https://bit.ly/div_es\">https://bit.ly/div_es</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Situaciones Sociales",
+                    "Title": "Situaciones Sociales Recursos",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Haga clic en el tema específico para ver los recursos asociados."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Intereses_o_Identidades_Compartidas::Intereses o Identidades Compartidas"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Intereses o Identidades Compartidas",
+                            "Title": "Intereses o Identidades Compartidas",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Intereses_o_Identidades_Compartidas"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Acceso Latino</font></b><br /><br />Acceso Latino, parte de la Fundación Carlos Slim, comparte ofrece páginas para orientación legal, información acerca de apoyos sociales, trámites legales, y más asesorías para inmigrantes en Estados Unidos. También contiene enlaces directos a los consulados de países latinoamericanos.<br /><br /><a href=\"https://bit.ly/al_es\">https://bit.ly/al_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Amaze</font></b><br /><br />Brinda información y videos divertidos y animados que responden a preguntas sobre el sexo, el cuerpo y las relaciones sanas. Útil para personas de todas las edades, incluyendo niños, adolescentes, y adultos. También puede ser utilizado por educadores, padres/cuidadores y personas LGBTQ+.<br /><br /><a href=\"https://bit.ly/amaze_es\">https://bit.ly/amaze_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Mijente</font></b><br /><br />Mijente ayuda a personas a fomentar cambios positivos a través de campañas, conectando a personas en su red, aprendizaje, y apoyo y defensa. Temas de interés son el género, raza/etnia, economía, y cambios ambientales.<br /><br /><a href=\"https://bit.ly/35Jg2qh\">https://bit.ly/35Jg2qh</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Personas de la tercera edad</font></b><br /><br />Este sitio Web ilumina situaciones diversas en cuáles las personas de tercera edad podrían necesitar ayuda. Ofrece recursos y guías informativas.<br /><br /><a href=\"https://bit.ly/3A0wVef\">https://bit.ly/3A0wVef</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Alianza Americas: Caja de herramientas</font></b><br /><br />La misión de Alianza Americas, una organización transnacional, es crear una vida “más inclusiva, equitativa, y sostenible” para inmigrantes latinoamericanos en los Estados Unidos. Su Caja de herramientas contiene toolkits (guías) informativas y enlaces a recursos para temas de interés a personas latinoamericanas.<br /><br /><a href=\"https://bit.ly/aah_es\">https://bit.ly/aah_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>La Unión Americana de Libertades Civiles (American Civil Liberties Union)</font></b><br /><br />Proporciona información y recursos acerca de los derechos de las personas estadunidenses en una variedad de situaciones: libertad religiosa, libertad de expresión, derechos de inmigrantes, derechos de las personas LGBT y más.<br /><br /><a href=\"http://bit.ly/ACLUEsp_espr\">http://bit.ly/ACLUEsp_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Sobre Conversaciones Interseccionales - The Trevor Project</font></b><br /><br />Este PDF hecho por Trevor Project informa sobre la importancia de conversaciones interseccionales y cómo la identidad queer/cuir se conecta a la identidad de raza y etnia.<br /><br /><a href=\"https://bit.ly/3xQodNL\">https://bit.ly/3xQodNL</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Discriminación/Microagresiones",
+                    "Title": "Discriminación/Microagresiones Recursos",
+                    "PageGroups": [
+                        {
+                            "Name": "Which subdomain?",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "Text": "Haga clic en el tema específico para ver los recursos asociados."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Buttons",
+                                            "Name": "subdomain_chosen",
+                                            "VariableName": "subdomain_chosen",
+                                            "Parameters": {
+                                                "Buttons": [
+                                                    "Apoyo_Comunitario::Apoyo Comunitario",
+                                                    "Alianza::Alianza",
+                                                    "Apoyo_Legal::Apoyo Legal",
+                                                    "Otro::Otro"
+                                                ],
+                                                "Selectable": true
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Apoyo Comunitario",
+                            "Title": "Apoyo Comunitario",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Apoyo_Comunitario"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Mijente</font></b><br /><br />Mijente ayuda a personas a fomentar cambios positivos a través de campañas, conectando a personas en su red, aprendizaje, y apoyo y defensa. Temas de interés son el género, raza/etnia, economía, y cambios ambientales.<br /><br /><a href=\"https://bit.ly/35Jg2qh\">https://bit.ly/35Jg2qh</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Alianza",
+                            "Title": "Alianza",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Alianza"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Maneras de ayudar con la justicia racial</font></b><br /><br />Enumera formas viables de ayudar con la justicia racial.<br /><br /><a href=\"https://bit.ly/35IoYfs\">https://bit.ly/35IoYfs</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Cómo hablar con los niños sobre los prejuicios raciales</font></b><br /><br />Información con fuentes sustentadas de cómo niños aprenden prejuicios y como adultos en su vida pueden enfrentar sus propios prejuicios y cómo conversar efectivamente con niños de edades diversas.<br /><br /><a href=\"http://bit.ly/PrR_espr\">http://bit.ly/PrR_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Cómo hablar con los niños sobre el racismo en Estados Unidos</font></b><br /><br />“Cómo hablar con los niños sobre el racismo en Estados Unidos” comparte consejos para hablar con los niños sobre el racismo y la discriminación. El PDF está estructurado por edades, indicando preguntas y pautas que pueden seguir los adultos para guiar las conversaciones.<br /><br /><a href=\"https://bit.ly/rac_es\">https://bit.ly/rac_es</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Apoyo Legal",
+                            "Title": "Apoyo Legal",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Apoyo_Legal"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Citizenshipworks</font></b><br /><br />Citizenshipworks hace que la solicitud de ciudadanía sea equitativa y accesible para todos. Ofrece asesoramiento legal gratuito.<br /><br /><a href=\"http://bit.ly/CW_espr\">http://bit.ly/CW_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Immigrant Justice</font></b><br /><br />Guía diseñada para jóvenes que explica los derechos del inmigrante en la manera más apropiada para esas edades.<br /><br /><a href=\"https://bit.ly/3qo89Ag\">https://bit.ly/3qo89Ag</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Immigration & American Citizenship Organization Inc., IACO, por sus siglas en inglés</font></b><br /><br />IACO es una organización sin fines de lucro reconocida por el Departamento de Justicia de los Estados Unidos. Miembros de la organización están autorizados para representar a personas de bajos ingresos en sus trámites de inmigración, proveer asesoría legal a sus clientes, y también representación en trámites como declaraciones de impuestos.<br /><br /><a href=\"https://bit.ly/iaco_es\">https://bit.ly/iaco_es</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Immigration Advocates Network</font></b><br /><br />Immigration Advocates Network ofrece un directorio para servicios legales. Seleccionando el idioma español y eligiendo el código postal o centro de detención permite a las personas encontrar organizaciones sin fines de lucro que proporcionan servicios legales gratuitos o bajo costo.<br /><br /><a href=\"https://bit.ly/3d2hVCC\">https://bit.ly/3d2hVCC</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>IRAP - International Refugee Assistance Project: Ayuda Legal</font></b><br /><br />RAP brinda ayuda legal gratuita a algunos refugiados y personas desplazadas y su sitio Web proporciona información sobre los servicios para preparar solicitudes de visa y refugio. IRAP también proporciona información sobre programas de admisión de refugiados y reunificación familiar.<br /><br /><a href=\"https://bit.ly/irap_espr\">https://bit.ly/irap_espr</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>Lambda Legal</font></b><br /><br />Proporciona información acerca de derechos legales para personas LGBTQIA+ y sus familias a nivel nacional y estatal.<br /><br /><a href=\"https://bit.ly/3gSDWot\">https://bit.ly/3gSDWot</a><br /><br /><br /><br /><b><font color=\"#9769ED\" size=6>RAICES</font></b><br /><br />RAICES es una agencia sin fines de lucro que promueve la justicia proporcionando servicios legales gratuitos y de bajo costo a niños inmigrantes desatendidos, familias y refugiados.<br /><br /><a href=\"https://bit.ly/2T1QtxQ\">https://bit.ly/2T1QtxQ</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Otro",
+                            "Title": "Otro",
+                            "Type": "Survey",
+                            "Pages": [
+                                {
+                                    "Conditions": [
+                                        {
+                                            "VariableName": "subdomain_chosen",
+                                            "Value": "Otro"
+                                        }
+                                    ],
+                                    "Inputs": [
+                                        {
+                                            "Type": "Text",
+                                            "Parameters": {
+                                                "IsHtml": true,
+                                                "Text": "<b><font color=\"#9769ED\" size=6>Recuperación y Resiliencia: Un Libro de Actividades para Niños Latine Impactados por la Deportación</font></b><br /><br />Este sitio ha designado una guía de actividades para niños que han sufrido la detención o deportación de sus padres o cuidadores.<br /><br /><a href=\"https://bit.ly/3vPLXjq\">https://bit.ly/3vPLXjq</a><br /><br /><br /><br />"
+                                            }
+                                        }
+                                    ],
+                                    "CanBeFavorited": true
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

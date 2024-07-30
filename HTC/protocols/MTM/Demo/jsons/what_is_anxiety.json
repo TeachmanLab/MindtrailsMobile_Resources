@@ -13,11 +13,17 @@
                     "Pages": [
                         {
                             "Inputs": [
+ 				{
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Please press play on the training video below to learn more!"
+                                    }
+                                },
                                 {
                                     "Type": "Media",
                                     "Frame": false,
                                     "Parameters": {
-                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/MTM/media/videos/video4.mp4",
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/blob/main/HTC/protocols/MTM/media/videos/video4.mp4",
                                         "ImageType": "video/mp4"
                                     }
                                 },
