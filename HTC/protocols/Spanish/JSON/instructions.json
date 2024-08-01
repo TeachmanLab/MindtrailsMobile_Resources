@@ -1,0 +1,70 @@
+{
+    "Name": "instructions",
+    "Title": "Instrucciones",
+    "Sections": [
+        {
+            "Name": "Instructions",
+            "Doses": [
+                1
+            ],
+            "PageGroups": [
+                {
+                    "Name": "Instructions",
+                    "Title": "Instrucciones",
+                    "Type": "Survey",
+                    "SubmitButtonText": "OK",
+                    "Pages": [
+                        {
+                            "Inputs": [
+ 				{
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Por favor presiona play en el video de entrenamiento a continuación para aprender más!"
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Frame": false,
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/Spanish/media/videos/video2.mp4",
+                                        "ImageType": "video/mp4"
+                                    }
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Frame": false,
+                                    "Parameters": {
+                                        "IsHtml": true,
+                                        "Text": "<p>No hay una única forma correcta de usar MindTrails-Movement. Ya sea que te hayan diagnosticado un trastorno de ansiedad además de un trastorno del movimiento, o simplemente quieras ayuda para manejar tu estrés, MindTrails-Movement está diseñado para ser una herramienta útil disponible siempre que la necesites.</p><br><p>MindTrails-Movement se puede usar junto con otros tratamientos, como terapia o medicación, como un programa para practicar habilidades que ya has aprendido y agregar herramientas adicionales a tu caja de herramientas. Si no has tenido experiencia con tratamiento de salud mental en el pasado, MindTrails es un excelente lugar para empezar. Las habilidades enseñadas en MindTrails-Movement se superponen con las habilidades enseñadas en otros tratamientos basados en evidencia para la ansiedad. MindTrails-Movement puede ser un paso importante para manejar la ansiedad usando tu smartphone o tableta.</p><br><p>Si has tenido experiencia con tratamiento de salud mental en el pasado, MindTrails-Movement puede ayudarte a mantener lo que ganaste con el tratamiento y continuar practicando habilidades para mantener la ansiedad a raya. Independientemente, MindTrails enfatiza el pensamiento flexible en tu vida cotidiana a través de sesiones cortas de 5 a 10 minutos.</p><br><p>Esta es una forma de manejar la ansiedad y el estrés, ¡y hay muchas otras herramientas para ayudarte también! Si estás interesado en herramientas adicionales para manejar varios aspectos de tu diagnóstico, como el estrés y la ansiedad, por favor visita la pestaña de Recursos en la página principal de la aplicación.</p><br><p>De la forma en que planees usar la aplicación, esperamos que puedas ganar nuevas estrategias y recursos para ayudarte en tu vida diaria.</p>"
+                                    }
+                                },
+ 				{
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Por favor presiona play en el video de entrenamiento a continuación para aprender más!"
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Frame": false,
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/Spanish/media/videos/video3.mp4",
+                                        "ImageType": "video/mp4"
+                                    }
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Frame": false,
+                                    "Parameters": {
+                                        "IsHtml": true,
+                                        "Text": "<p>P1: Nos encantaría saber cómo te va ahora que has completado algunas historias de entrenamiento. ¿Pudiste imaginarte en las diferentes situaciones?</p><br><p><b>P2: Eso fue complicado al principio, pero luego traté de ir más despacio y usar mis sentidos, pensando en lo que vería, oiría y sentiría si la historia terminara como lo hizo una vez que llené las letras faltantes. Fue nuevo para mí porque generalmente pienso de manera más negativa que los finales reales de las historias. Fue interesante pensar en diferentes formas en que las situaciones pueden desarrollarse.</b></p><br><p>P1: ¡Genial! Nuestro programa está diseñado para ayudarte a practicar nuevas formas de pensar, para abordar las situaciones con más flexibilidad y menos pensamiento catastrófico. ¿Qué preguntas tuviste al usar nuestra aplicación o al pensar en cada situación?</p><br><p><b>P2: ¿Por qué hay algunos finales negativos en las historias?</b></p><br><p>P1: El objetivo de mostrar diferentes tipos de historias y finales es enseñarte a pensar de manera flexible y considerar múltiples resultados. Sabemos que las cosas no terminan positivamente el 100 por ciento del tiempo. También sabemos que algunos de los finales pueden parecerte un poco extremos, siendo más positivos o más negativos de lo que esperabas, o no parecer realistas de alguna otra manera. Está bien, puedes pensar en ellos como desafíos más grandes para imaginar finales que sean muy diferentes de cómo piensas habitualmente. Queremos que practiques pensar en situaciones de muchas formas diferentes. A medida que continúas con la aplicación, eventualmente podrás llenar los espacios en blanco con tu propio final para asegurarte de que los finales se ajusten a los tipos de experiencias que te importan. Nuestro objetivo es simplemente hacerte pensar en diferentes formas de ver las situaciones.</p><br><p><b>P2: A veces sentí que los escenarios eran repetitivos, ¿había alguna razón para eso?</b></p><br><p>P1: Definitivamente no eres el único que se siente así, pero hay una razón detrás de esto. Cambiar tu forma de pensar lleva tiempo y práctica, así que aunque parece que estás haciendo lo mismo una y otra vez, estás construyendo una nueva forma de pensar. Puedes pensar en ello como construir un nuevo músculo: necesitas repetir los ejercicios para hacer ese músculo fuerte para que puedas usarlo en tu vida diaria. Estamos construyendo un nuevo músculo de pensamiento y llevará algo de repetición hacerlo fuerte.</p><br><p><b>P2: ¿Por qué el texto aparece lentamente, en lugar de aparecer todo de una vez?</b></p><br><p>P1: El texto aparece a la velocidad promedio de lectura para ayudarte a sumergirte más en la historia, casi como si estuvieras viendo cómo se desarrolla la historia. Usar tu imaginación plenamente lleva tiempo, pero cuanto más puedas imaginar vívidamente la historia, más efectivo será probablemente el entrenamiento.</p><br><p><b>P2: Encuentro que algunas de las historias y escenarios no son relevantes para mi situación de vida actual. ¿Este programa puede ayudarme todavía?</b></p><br><p>P1: ¡En realidad, sí puede! A medida que uses la aplicación, te preguntaremos sobre tus estresores personales y te daremos historias más personalizadas. Sin embargo, también queremos que aprendas a aplicar el pensamiento flexible a muchas situaciones estresantes para que luego puedas aplicar esa habilidad a cualquier situación estresante que pueda surgir en tu vida algún día.</p><br><p>P1: ¡Ahora es tu turno! Nuestro objetivo es aplicar nuevas formas de pensar en tu vida diaria.</p>"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
