@@ -1,0 +1,45 @@
+{
+    "Name": "WhatIsAnxiety?",
+    "Title": "¿Qué es la Ansiedad?",
+    "Sections": [
+        {
+            "Name": "WhatIsAnxiety?",
+            "PageGroups": [
+                {
+                    "Name": "WhatIsAnxiety?",
+                    "Title": "¿Qué es la Ansiedad?",
+                    "Type": "Survey",
+                    "SubmitButtonText": "OK",
+                    "Pages": [
+                        {
+                            "Inputs": [
+ 				{
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Por favor presiona play en el video de entrenamiento a continuación para aprender más!"
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Frame": false,
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/blob/main/HTC/protocols/Spanish/media/videos/video4.mp4",
+                                        "ImageType": "video/mp4"
+                                    }
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Frame": false,
+                                    "Parameters": {
+                                        "IsHtml": true,
+                                        "Text": "<p>La ansiedad es una de las emociones humanas más básicas, y es una experiencia normal y común. En algún momento, todos es probable que nos sintamos estresados y preocupados por el trabajo, la salud o la familia. Podemos sentir miedo en situaciones potencialmente peligrosas, como conducir en mal tiempo o antes de una cirugía. También puede haber sentimientos de ansiedad sobre lo que otros piensan de nosotros, como si la gente pensará que estamos actuando de manera anormal o si los demás serán críticos. Los sentimientos de ansiedad generalmente vienen acompañados de una variedad de cambios en los pensamientos, reacciones corporales y comportamiento.</p><br><p>¿Cuándo es útil la ansiedad?</p><p>¡La ansiedad puede ser una emoción útil! Ha ayudado a los humanos a sobrevivir en situaciones peligrosas durante miles de años. Por ejemplo, si notas que tus piernas se sienten débiles, podrías empezar a sentir ansiedad. Ese sentimiento de ansiedad puede ser la señal de tu cuerpo de que debes sentarte y descansar. Al escuchar lo que tu cuerpo te está diciendo, podrías evitar una caída potencialmente peligrosa. La ansiedad ayuda a las personas a manejar amenazas a su propia salud y bienestar, y al bienestar de quienes las rodean. Un nivel razonable de ansiedad aumenta la atención, la concentración y el rendimiento.</p><br><p>Por supuesto, también experimentamos ansiedad que no está directamente relacionada con nuestra salud física.</p><br><p>Entonces, ¿cuándo es un problema la ansiedad?</p><p>Aunque la ansiedad puede ser útil en situaciones peligrosas, también puede ser perjudicial cuando no hay una amenaza real. Demasiada ansiedad puede interferir en la vida cotidiana de las personas y puede hacer más daño que bien. Puede volverse difícil controlar lo que desencadena la ansiedad y cuánto dura, incluso si una persona sabe que no hay un peligro real. Estos son signos de una ansiedad perjudicial. Las personas diagnosticadas con trastornos del movimiento como la enfermedad de Huntington o el Parkinson tienen más probabilidades que otras de experimentar ansiedad perjudicial. Pueden sentirse especialmente preocupadas cuando notan un síntoma nuevo o que empeora de su enfermedad, resultando en patrones de pensamiento ansiosos y negativos.</p><br><p>Esta intervención tiene como objetivo fomentar patrones de pensamiento flexibles, minimizando la posibilidad de que exageres el riesgo de peligro en tu vida. Al cambiar tu forma de pensar para ser más flexible, la ansiedad puede volverse más útil que perjudicial y permitirte abordar situaciones con una mente más clara.</p>"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

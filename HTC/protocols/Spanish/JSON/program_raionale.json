@@ -1,0 +1,45 @@
+{
+    "Name": "ProgramRationale",
+    "Title": "Justificación del Programa",
+    "Sections": [
+        {
+            "Name": "ProgramRationale",
+            "PageGroups": [
+                {
+                    "Name": "ProgramRationale",
+                    "Title": "Justificación del Programa",
+                    "Type": "Survey",
+                    "SubmitButtonText": "OK",
+                    "Pages": [
+                        {
+                            "Inputs": [
+ 				{
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Por favor presiona play en el video de entrenamiento a continuación para aprender más!"
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Frame": false,
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/blob/main/HTC/protocols/Spanish/media/videos/video1.mp4",
+                                        "ImageType": "video/mp4"
+                                    }
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Frame": false,
+                                    "Parameters": {
+                                        "IsHtml": true,
+                                        "Text": "<p>Imagina que estás pidiendo un café y hay una larga fila detrás de ti. Cuando llegas al mostrador, tienes problemas para agarrar tu dinero, ya que tus manos comienzan a moverse incontrolablemente. Saltas al peor escenario posible, pensando: Todas las personas detrás de mí van a mirarme. ¿Qué pasa si piensan que soy raro?</p><br><p>¿Por qué tienes esos pensamientos?</p><br><p>Las personas con ansiedad tienen patrones de pensamiento rígidos y negativos que pueden hacerles interpretar situaciones inciertas como amenazantes. Las personas con trastornos del movimiento, como la enfermedad de Huntington y el Parkinson, tienen un mayor riesgo de desarrollar ansiedad y depresión, lo que significa que estos patrones de pensamiento negativos pueden ser aún más comunes. Lidiar con la ansiedad además de tu enfermedad puede ser extremadamente estresante.</p><br><p>¡Aquí es donde entra MindTrails! MindTrails-Movement es un programa que puede ayudarte a lidiar con altos niveles de estrés y ansiedad desarrollando tus habilidades de pensamiento flexible.</p><br><p>A lo largo del programa, estarás expuesto a situaciones ambiguas, como el ejemplo de la cafetería, y practicarás responder a ellas de diferentes maneras.</p><br><p>Las situaciones tendrán una mezcla de finales positivos, neutros y negativos. A medida que practiques, verás que hay muchas formas diferentes de interpretar una situación, y el peor escenario posible es solo una de ellas.</p><br><p>Es importante que te imagines vívidamente en la historia que se describe, para que puedas practicar el pensamiento flexible en una variedad de situaciones para aplicarlas a tu propia vida. Los trastornos del movimiento pueden causar mucho estrés, por lo que aprender a usar estas habilidades de pensamiento flexible en tu vida diaria puede aliviar la carga que causa la ansiedad.</p><br><p>Puede que sientas que el programa es repetitivo. Eso es de esperar porque necesitas practicar repetidamente las nuevas habilidades de pensamiento. Cambiar nuestros hábitos de pensamiento lleva tiempo, así que sé paciente y sigue adelante. La investigación muestra que programas como MindTrails-Movement pueden ser efectivos para cambiar el pensamiento negativo rígido y reducir la ansiedad.</p> <br><p>A medida que comiences MindTrails-Movement, te animamos a pensar en lo que esperas obtener del programa. No hay respuestas incorrectas. ¿Cómo podría mejorar tu vida si reduces tu pensamiento ansioso? ¡Esperamos que MindTrails pueda ayudarte a alcanzar tus objetivos!</p>"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
