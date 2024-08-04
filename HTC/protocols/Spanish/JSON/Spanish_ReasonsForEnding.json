@@ -1,0 +1,869 @@
+{
+    "Name": "Reasons For Ending",
+    "Title": "Razones Para Terminar",
+    "Sections": [
+        {
+            "Name": "Reasons For Ending",
+            "PageGroups": [
+                {
+                    "Name": "Razones para terminar",
+                    "Title": "Razones para terminar",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Estamos interesados ​​en mejorar Hoos Think Calmly y nos gustaría saber por qué decidió suspender el programa. ¡Agradecemos sus comentarios!"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Por qué decidiste terminar el programa? Por favor marque todos los que apliquen."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "reasons_for_ending",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No tuve tiempo suficiente para completar el programa",
+                                            "No encontré el programa útil para reducir mi ansiedad",
+                                            "No encontré el programa interesante",
+                                            "No creía que un programa como este pudiera funcionar",
+                                            "Encontré el programa frustrante de usar",
+                                            "Ya no necesitaba el programa (es decir, ya no me sentía ansioso)",
+                                            "Creo que me asignaron la condición de control (es decir, la condición que no se esperaba que cambiara la ansiedad)",
+                                            "Otro",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En la medida en que hayas completado el programa..."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útil le resultó Hoos Think Calmly para reducir su ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "reduce_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿En qué medida Hoos Think Calmly mantuvo su interés y atención?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "keep_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿En qué medida podría identificarse con las historias presentadas durante las sesiones de capacitación?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relate_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan creíbles te parecieron los finales de las historias en términos de los resultados que suceden en tu vida?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "believable_scenarios",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto te gustó el aspecto de Hoos Think Calmly?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "UI",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan fácil fue usar Hoos Think Calmly?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "easy_to_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Las sesiones de formación me parecieron:"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "find_sessions",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útil te pareció la encuesta nocturna que te permitió elegir cuándo completar el entrenamiento al día siguiente?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "nightly_survey_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan preocupado estaba por su privacidad al usar Hoos Think Calmly?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "privacy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan agotadoras te parecieron las sesiones de entrenamiento?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tiring_training",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan agotadoras te parecieron las evaluaciones?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tiring_assessments",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto te gustó la función \"favoritos\" de la aplicación?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "favorites",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útiles te parecieron las estrategias y consejos proporcionados por la aplicación?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tips_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué probabilidades hay de que recomiende Hoos Think Calmly a otras personas con dificultades de ansiedad similares?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "recommend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Tiene síntomas de ansiedad o depresión de moderados a graves?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "anxiety_or_depression",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí::Sí",
+                                            "No::no",
+                                            "Inseguro::Inseguro"
+                                        ],
+                                        "Selectable": true
+                                    },
+                                    "VariableName": "RFE_anxiety_depression"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan abierto o interesado está en buscar otras formas de tratamiento por parte de un profesional de salud mental (por ejemplo, terapia, medicación) en comparación con antes de comenzar el programa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Mucho más probable",
+                                            "Un poco más probable",
+                                            "Igualmente probable",
+                                            "Un poco menos probable",
+                                            "Mucho menos probable",
+                                            "No aplicable (por ejemplo, actualmente estoy recibiendo otra forma de tratamiento)",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "RFE_anxiety_depression",
+                                    "Value": "Si"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan abierto o interesado está en buscar otras formas de tratamiento por parte de un profesional de salud mental (por ejemplo, terapia, medicación) en comparación con antes de comenzar el programa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "interest_in_therapy",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Mucho más probable",
+                                            "Un poco más probable",
+                                            "Igualmente probable",
+                                            "Un poco menos probable",
+                                            "Mucho menos probable",
+                                            "No aplicable (por ejemplo, actualmente estoy recibiendo otra forma de tratamiento)",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "RFE_anxiety_depression",
+                                    "Value": "Inseguro"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan útiles le parecieron los recursos y referencias proporcionados en la aplicación?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "resources_use",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Se comunicó con alguno de los siguientes recursos o referencias en algún momento desde que comenzó a usar Hoos Think Calmly? Por favor seleccione todas las respuestas válidas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "resources_contacted",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Clubes y organizaciones (por ejemplo, grupos culturales, voluntariado)",
+                                            "Servicios de Consejería y Psicología (CAPS)",
+                                            "Programa de asistencia a profesores y empleados (FEAP)",
+                                            "Línea de AYUDA",
+                                            "HoosBueno",
+                                            "Centros de estudiantes multiculturales (por ejemplo, interreligiosos, latinos, LGBTQ)",
+                                            "Oficina de Igualdad de Oportunidades y Derechos Civiles (EOCR)",
+                                            "Oficina de Asuntos Afroamericanos (OAAA)",
+                                            "Oficina de Asuntos de Graduados y Postdoctorados",
+                                            "Oficina del Decano de Estudiantes (ODOS)",
+                                            "Doctorado Plus",
+                                            "Centro de Acceso para Estudiantes con Discapacidades (SDAC)",
+                                            "Servicios financieros para estudiantes",
+                                            "Salud y Bienestar Estudiantil",
+                                            "atención oportuna",
+                                            "Centro de Carreras UVA",
+                                            "Recursos Humanos (RR.HH.) UVA",
+                                            "Centro de la Mujer UVA",
+                                            "Centro de Escritura UVA",
+                                            "WahooBueno",
+                                            "Otro",
+                                            "^No me comuniqué con ninguno de estos recursos/referencias desde que comencé este programa."
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Algunas personas tienen problemas al intentar utilizar una aplicación móvil. Lea las siguientes declaraciones y díganos qué problema tuvo al intentar utilizar la aplicación."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Los problemas técnicos con la aplicación móvil (por ejemplo, la aplicación falla o se congela) dificultaron la tarea.\n usar."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "tech_problems",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Simplemente olvidé abrir la aplicación."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "forgot",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Problemas personales me impidieron usar la aplicación."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "personal_issues",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La aplicación era demasiado difícil de navegar."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "navigate",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La aplicación era demasiado difícil de entender."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "hard_to_understand",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La aplicación no me pareció muy útil."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "not_useful",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Pensé que el programa iba a durar demasiado."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "too_long",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La aplicación tenía demasiadas palabras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "too_many_words",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La pantalla era difícil de leer (por ejemplo, las palabras eran demasiado pequenas)."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "difficult_to_read",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Levemente",
+                                            "Un poco",
+                                            "Principalmente",
+                                            "Muy",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Razones para terminar",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante este programa, ¿cambió alguna dosis de medicamento, terapia u otra intervención para ayudar a su salud mental? Por favor marque todos los que apliquen."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "change_mental_health",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Busco más terapia presencial ahora",
+                                            "Ahora busco menos terapia en persona",
+                                            "Ahora uso más medicamentos recetados",
+                                            "Ahora uso menos medicamentos recetados",
+                                            "Ahora uso más programas informáticos en línea o aplicaciones móviles (aparte de Hoos Think Calmly)",
+                                            "Ahora uso menos programas informáticos en línea o aplicaciones móviles (aparte de Hoos Think Calmly)",
+                                            "Otro",
+                                            "^No cambié mis hábitos de intervención",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "CancelButtonText": "Salir"
+}
