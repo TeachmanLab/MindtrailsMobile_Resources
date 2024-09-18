@@ -259,7 +259,9 @@ for group in groups.keys():  # Go through files for each group
                             pass
                         else:
                             puzzle_text_2 = row_1[i + 1]  # if there's a second puzzle
-                            word_2 = row_1[i + 1].split()[-1][:-1]
+                            word_2 = row_1[i + 1].split()[-1]
+                            if row_1[i + 1].strip()[-1] == ".": # checking for period
+                                word_2 = row_1[i + 1].split()[-1][:-1]
                             puzzle_text_2 = rreplace(puzzle_text_2, " " + word_2, "..", 1)
                         comp_question = row_1[i + 2]
                         answers_lst = [row_1[i + 3], row_1[i + 4]]
@@ -507,14 +509,13 @@ for group in groups.keys():  # Go through files for each group
                     puzzle_text_1 = rreplace(puzzle_text_1, " " + word_1, "..",
                                              1)  # replacing the last word in scenario body with ...
 
-
-                    if "N/A" in row_1[i + 1] or row_1[i + 1] in (None, ""):
+                    if "N/A" in row[i + 1] or row[i + 1] in (None, ""):
                         pass
-                    elif "N/a" in row_1[i + 1] or row_1[i + 1] in (None, ""):
+                    elif "N/a" in row[i + 1] or row[i + 1] in (None, ""):
                         pass
-                    elif "n/A" in row_1[i + 1] or row_1[i + 1] in (None, ""):
+                    elif "n/A" in row[i + 1] or row[i + 1] in (None, ""):
                         pass
-                    elif "n/a" in row_1[i + 1] or row_1[i + 1] in (None, ""):
+                    elif "n/a" in row[i + 1] or row[i + 1] in (None, ""):
                         pass
 
                     else:
@@ -523,7 +524,9 @@ for group in groups.keys():  # Go through files for each group
                             replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
                             replace("\u2026", "...")  # if there's a second scenario body
                         word_2 = row[i + 1].split()[-1][:-1]
-                        puzzle_text_2 = rreplace(puzzle_text_2, " " + word_2, "..", 1)  # replacing last word with ...
+                        if row[i + 1].strip()[-1] == ".":  # checking for period
+                            word_2 = row[i + 1].split()[-1][:-1]
+                        puzzle_text_2 = rreplace(puzzle_text_2, " " + word_2, "..", 1)
                     comp_question = row[i + 2]
                     answers_lst = [row[i + 3], row[i + 4]]
                     if row[i + 3].strip() == "Yes" or row[i + 3].strip() == "yes":
@@ -837,9 +840,4 @@ for group in groups.keys():  # Go through files for each group
         file_name = "PD_ReasonsForEnding.json"
         name = "Reasons for Ending"
         title = "Reasons for Ending"
-        cancel_button_text = "Exit"
-        sections = [{
-            "Name": "Reasons For Ending",
-            "PageGroups": list(PD_reasons.values())
-        }]
-        create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
+        cance
