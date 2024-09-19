@@ -1,0 +1,9 @@
+name: Image Resizer Action
+  uses: sharadcodes/img-resizer@v1.1
+  with:
+  image-folder: '/tree/main/HTC/protocols/MTM/media' # This is a Required field & this folder has original images
+  new-resolution: '1300x2600' # This is Required field
+  output-folder: "/tree/main/HTC/protocols/MTM/media/new_images" # This is Required field & this folder will be used to store resized images
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
