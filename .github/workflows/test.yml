@@ -1,0 +1,14 @@
+name: Image Resizer Action tester
+
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+jobs:
+  image_resize_job:
+    name: Image Resize Job
+    runs-on: ubuntu-latest
+    steps:
+     - name: checkout
+       uses: actions/checkout@v4
+     - name: list directory
+       run: ls .
