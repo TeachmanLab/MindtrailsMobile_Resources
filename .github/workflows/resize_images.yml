@@ -10,10 +10,13 @@ jobs:
     steps:
      - name: checkout
        uses: actions/checkout@v4
-     - name: resize
-       uses: sharadcodes/img-resizer@v1.1
-       with:
-         image-folder: 'HTC/protocols/MTM/media' # This is a Required field & this folder has original images
-         new-resolution: '1300x2600' # This is Required field
-         output-folder: "HTC/protocols/MTM/media/new_images" # This is Required field & this folder will be used to store resized images
-
+     - name: Install ImageMagick
+       run: sudo apt-get install imagemagick
+     - name: resize jpeg images
+       run:  mogrify -path "./HTC/protocols/MTM/media/resized_images/" -resize 1300x2600 "./HTC/protocols/MTM/media/*.jpeg"
+     - name: Commit
+       run: |
+        git add -A
+        git commit -m "adding resized photos"
+        git push
+       
