@@ -13,7 +13,7 @@ jobs:
      - name: Install ImageMagick
        run: sudo apt-get install imagemagick
      - name: resize jpeg images
-       run:  mogrify -path "./HTC/protocols/MTM/media/resized_images/" -resize 1300x2600 "./HTC/protocols/MTM/media/*.jpeg"
+       run:  mogrify -path "./HTC/protocols/MTM/media/resized_images/" "./HTC/protocols/MTM/media/*.jpeg[1300x2600]"
      - name: Commit
        run: |
         git add -A
