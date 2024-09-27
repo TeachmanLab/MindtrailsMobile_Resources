@@ -11,4 +11,4 @@ jobs:
      - name: checkout
        uses: actions/checkout@v4
      - name: list directory
-       run: ls .
+       run: ls ~
