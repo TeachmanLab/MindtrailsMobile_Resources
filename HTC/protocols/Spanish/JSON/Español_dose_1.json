@@ -1,0 +1,2951 @@
+{
+    "Name": "Español",
+    "Title": "MindTrails Español",
+    "Sections": [
+        {
+            "Name": "dose_1",
+            "Doses": [
+                1
+            ],
+            "PageGroups": [
+                {
+                    "Name": "¡Bienvenido!",
+                    "Title": "¡Bienvenido!",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "¡Bienvenido!",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Bienvenidos a Hoos Piensa con Calma! Esta sesión inicial será un poco más larga que las sesiones futuras. Primero se le pedirá que complete algunas encuestas sobre su salud mental y sus patrones de pensamiento. Luego, le brindaremos más información sobre el fundamento de este programa y le explicaremos cómo aprovechar al máximo la aplicación. Tendrá la oportunidad de programar una reunión con el equipo de investigación al final de esta sesión si tiene alguna pregunta o inquietud. ¿Listo para comenzar? Presione el botón Siguiente a continuación para comenzar a completar cuestionarios."
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Demografía",
+                    "Title": "Demografía",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuál es tu identidad de género?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "gender",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Mujer",
+                                            "Hombre",
+                                            "Mujer Transgénero",
+                                            "Hombre transgénero",
+                                            "!Otra identidad",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuál es tu ano de nacimiento?"
+                                    }
+                                },
+                                {
+                                    "Type": "Picker",
+                                    "Name": "birthyear",
+                                    "Parameters": {
+                                        "Items": [
+                                            "1910",
+                                            "1911",
+                                            "1912",
+                                            "1913",
+                                            "1914",
+                                            "1915",
+                                            "1916",
+                                            "1917",
+                                            "1918",
+                                            "1919",
+                                            "1920",
+                                            "1921",
+                                            "1922",
+                                            "1923",
+                                            "1924",
+                                            "1925",
+                                            "1926",
+                                            "1927",
+                                            "1928",
+                                            "1929",
+                                            "1930",
+                                            "1931",
+                                            "1932",
+                                            "1933",
+                                            "1934",
+                                            "1935",
+                                            "1936",
+                                            "1937",
+                                            "1938",
+                                            "1939",
+                                            "1940",
+                                            "1941",
+                                            "1942",
+                                            "1943",
+                                            "1944",
+                                            "1945",
+                                            "1946",
+                                            "1947",
+                                            "1948",
+                                            "1949",
+                                            "1950",
+                                            "1951",
+                                            "1952",
+                                            "1953",
+                                            "1954",
+                                            "1955",
+                                            "1956",
+                                            "1957",
+                                            "1958",
+                                            "1959",
+                                            "1960",
+                                            "1961",
+                                            "1962",
+                                            "1963",
+                                            "1964",
+                                            "1965",
+                                            "1966",
+                                            "1967",
+                                            "1968",
+                                            "1969",
+                                            "1970",
+                                            "1971",
+                                            "1972",
+                                            "1973",
+                                            "1974",
+                                            "1975",
+                                            "1976",
+                                            "1977",
+                                            "1978",
+                                            "1979",
+                                            "1980",
+                                            "1981",
+                                            "mil novecientos ochenta y dos",
+                                            "1983",
+                                            "1984",
+                                            "1985",
+                                            "1986",
+                                            "1987",
+                                            "1988",
+                                            "1989",
+                                            "1990",
+                                            "1991",
+                                            "1992",
+                                            "1993",
+                                            "1994",
+                                            "1995",
+                                            "1996",
+                                            "1997",
+                                            "1998",
+                                            "1999",
+                                            "2000",
+                                            "2001",
+                                            "2002",
+                                            "2003",
+                                            "2004",
+                                            "2005",
+                                            "2006",
+                                            "2007",
+                                            "2008",
+                                            "2009",
+                                            "2010",
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuál es su raza?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "race",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Indio americano/nativo de Alaska",
+                                            "Asiático del este",
+                                            "Asia del Sur",
+                                            "Nativo de Hawái/Isleno del Pacífico",
+                                            "Origen negro/africano",
+                                            "Origen blanco/europeo",
+                                            "Otro o Desconocido",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Cuál es tu etnia?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "ethnicity",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Hispano o latino",
+                                            "No Hispano o Latino",
+                                            "Desconocido",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuál es su máximo nivel educativo?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "education",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Escuela primaria",
+                                            "Secundaria",
+                                            "Algún instituto",
+                                            "Graduado de preparatoria",
+                                            "Alguna educación superior",
+                                            "Grado Asociado",
+                                            "Licenciatura",
+                                            "Alguna escuela de posgrado",
+                                            "Maestría",
+                                            "MBA",
+                                            "JD",
+                                            "MARYLAND.",
+                                            "Doctor.",
+                                            "Otros Títulos Avanzados",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuál es su estado civil?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "relationship",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Soltero",
+                                            "Soltero, pero saliendo casualmente",
+                                            "Soltero, pero actualmente comprometido para casarse",
+                                            "Soltero, pero actualmente vive con alguien en una relación similar a un matrimonio",
+                                            "Casado",
+                                            "En unión doméstica o civil",
+                                            "Apartado",
+                                            "Divorciado",
+                                            "Viuda/viudo",
+                                            "Otro",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuál es tu situacion laboral?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "employment",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Trabajando a tiempo completo",
+                                            "Trabajar a tiempo parcial",
+                                            "Desempleado o despedido",
+                                            "Buscando trabajo",
+                                            "Ama de casa/cuidando la casa o criando hijos a tiempo completo",
+                                            "Jubilado",
+                                            "Alumno",
+                                            "Otro",
+                                            "Desconocido",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuál es el ingreso anual de su hogar, antes de impuestos y otras deducciones (en dólares estadounidenses o su equivalente)?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "income",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Menos de $5,000",
+                                            "$5,000 a $11,999",
+                                            "$12,000 a $15,999",
+                                            "$16,000 a $24,999",
+                                            "$25,000 a $34,999",
+                                            "$35,000 a $49,999",
+                                            "$50,000 a $74,999",
+                                            "$75,000 a $99,999",
+                                            "$100,000 a $149,999",
+                                            "$150,000 a $199,999",
+                                            "$200,000 a $249,999",
+                                            "$250,000 o más",
+                                            "No lo sé",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Demografía",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cómo se enteró de Hoos Think Calmly? (Seleccione todas las que correspondan)"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "learn_abt_HTC",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Del sitio web de un recurso comunitario de la UVA (por ejemplo, Servicios de asesoramiento y psicología)",
+                                            "De un boletín informativo asociado con un recurso comunitario de la UVA",
+                                            "De un folleto sobre Grounds",
+                                            "Un amigo o colega",
+                                            "Lo recomendó un profesional de salud mental",
+                                            "^Prefiero no responder",
+                                            "!Otro:"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Cuestionario de tratamiento y salud mental",
+                    "Title": "Cuestionario de tratamiento y salud mental",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Nos gustaría hacerle algunas preguntas sobre su salud mental y su historial de tratamiento. Las respuestas a estas preguntas personales se mantienen confidenciales, pero nos ayudan a mejorar Hoos Think Calmly al descubrir para quién funciona bien."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Está actualmente luchando con alguno de los siguientes trastornos mentales? Por favor seleccione todas las respuestas válidas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "mental_health_disorders",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Trastorno de ansiedad generalizada (TAG)",
+                                            "Trastorno obsesivo-compulsivo (TOC)",
+                                            "Trastorno de pánico",
+                                            "Agorafobia",
+                                            "Trastorno de estrés postraumático (TEPT)",
+                                            "Desorden de ansiedad social",
+                                            "Fobias específicas",
+                                            "Demencia u otro trastorno cognitivo",
+                                            "Trastorno por uso de sustancias",
+                                            "Esquizofrenia u otro trastorno psicótico",
+                                            "Depresión",
+                                            "Trastorno bipolar",
+                                            "Desorden alimenticio",
+                                            "Desorden de personalidad",
+                                            "^No estoy luchando contra un trastorno mental",
+                                            "^Prefiero no responder",
+                                            "!Otro:"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Recibes actualmente alguna ayuda por temas relacionados con la salud mental? Seleccione todo lo que corresponda o \"No recibo ayuda\"."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "help",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Terapia::Terapia (hablar con un profesional capacitado)\n\nEjemplos: psicólogo, profesional de salud mental autorizado (LMHC), consejero escolar, trabajador social, terapeuta matrimonial y familiar, terapeuta de grupo",
+                                            "Prescripción:: Medicamentos recetados\n\nEjemplos: psiquiatra, médico",
+                                            "Social::Buscar apoyo social (hablar con personas no profesionales)\n\nEjemplos: maestro, familiar, amigo, líder religioso, entrenador",
+                                            "Autoayuda::Ayuda autoguiada\n\nEjemplos: libros de autoayuda, blogs, intervención en línea (que no sean Hoos Think Calmly), aplicaciones móviles",
+                                            "De Venta Libre::Medicamentos y/o suplementos sin receta",
+                                            "^Ninguno::No recibo ayuda",
+                                            "^NoAnswer::Prefiero no responder",
+                                            "!Otro::otro:"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    },
+                                    "VariableName": "HelpReceived"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Ha sido útil la terapia (hablar con un profesional capacitado)? \n\n1 = Nada útil\n4 = Algo útil\n7=Extremadamente útil"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "therapy_helpful",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Terapia"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Han sido útiles los prescripciónes recetados? \n\n1 = Nada útil\n4 = Algo útil\n7=Extremadamente útil"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "prescriptions_helpful",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Prescripción"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Ha sido útil buscar apoyo social (hablar con personas no profesionales)? \n\n1 = Nada útil\n4 = Algo útil\n7=Extremadamente útil"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "social_support_helpful",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Social"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Ha resultado útil la ayuda autoguiada? \n\n1 = Nada útil\n4 = Algo útil\n7=Extremadamente útil"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "self-guided_helpful",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Autoayuda"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Han sido útiles los medicamentos y/o suplementos de venta libre? \n\n1 = Nada útil\n4 = Algo útil\n7=Extremadamente útil"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "OTC_meds_helpful",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "De Venta Libre"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Te ha resultado útil lo que has especificado en \"otro\"? \n\n1 = Nada útil\n4 = Algo útil\n7=Extremadamente útil"
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "other_helpful",
+                                    "Parameters": {
+                                        "Minimum": "1",
+                                        "Maximum": "7",
+                                        "OtherChoices": [
+                                            "^Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Otro"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Hay muchas razones por las que las personas no reciben ayuda. ¿Por qué no recibe tratamiento de salud mental? Por favor seleccione todas las respuestas válidas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "reasons_not_receiving_help",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No creo que un medicamento recetado me ayude",
+                                            "No me gusta la idea de tomar medicamentos recetados",
+                                            "No puedo permitirme pagar el tratamiento",
+                                            "No quiero hablar con un profesional de salud mental (por ejemplo, un terapeuta)",
+                                            "No creo que un profesional de la salud mental pueda ayudarme",
+                                            "Es difícil encontrar un profesional de salud mental cerca de mí",
+                                            "No sé cómo encontrar un profesional de salud mental",
+                                            "Me da vergüenza buscar tratamiento",
+                                            "No quiero que me pidan que enfrente mis miedos (por ejemplo, no querer interactuar con una arana para una persona que tiene miedo a las aranas)",
+                                            "No quiero hablar de mis sentimientos",
+                                            "No tengo tiempo",
+                                            "Tuve tratamiento anteriormente y no lo encontré útil",
+                                            "No necesito ayuda en este momento",
+                                            "^Prefiero no responder",
+                                            "!Otro:"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "HelpReceived",
+                                    "Value": "Ninguno"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En los últimos dos meses, ¿ha habido algún cambio en su tratamiento de salud mental? Marque todo lo que corresponda."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "changes_treatment",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Empecé terapia",
+                                            "Terminé la terapia",
+                                            "Cambié de terapeuta",
+                                            "Mi médico cambió mi dosis recetada",
+                                            "Comencé a tomar medicamentos recetados",
+                                            "Dejé de tomar un medicamento recetado",
+                                            "No he tenido ningún cambio",
+                                            "^Prefiero no responder",
+                                            "!Otro:"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Tiene síntomas de ansiedad o depresión de moderados a graves?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "anxiety_or_depression",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí::Sí",
+                                            "No::no",
+                                            "Inseguro::Inseguro"
+                                        ],
+                                        "Selectable": true
+                                    },
+                                    "VariableName": "anxiety_or_depression"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto tiempo lleva experimentando síntomas de ansiedad o depresión de moderados a graves?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "length_anxiety_symptoms",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Una semana",
+                                            "Entre 1 semana y 1 mes",
+                                            "Entre 1-3 meses",
+                                            "Entre 3-6 meses",
+                                            "Entre 6-12 meses",
+                                            "Entre 1-2 anos",
+                                            "Entre 2-5 anos",
+                                            "Entre 5 y 10 anos",
+                                            "Más de 10 anos",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "anxiety_or_depression",
+                                    "Value": "Si"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuánto tiempo lleva experimentando síntomas de ansiedad o depresión de moderados a graves?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "length_anxiety_symptoms",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Una semana",
+                                            "Entre 1 semana y 1 mes",
+                                            "Entre 1-3 meses",
+                                            "Entre 3-6 meses",
+                                            "Entre 6-12 meses",
+                                            "Entre 1-2 anos",
+                                            "Entre 2-5 anos",
+                                            "Entre 5 y 10 anos",
+                                            "Más de 10 anos",
+                                            "No estoy experimentando ansiedad de moderada a severa",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ],
+                            "Conditions": [
+                                {
+                                    "VariableName": "anxiety_or_depression",
+                                    "Value": "Inseguro"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Cuestionario de tratamiento y salud mental",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Cuáles de los siguientes recursos en la UVA has utilizado anteriormente? Por favor seleccione todas las respuestas válidas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "UVA_resources",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Clubes y organizaciones (por ejemplo, grupos culturales, voluntariado)",
+                                            "Servicios de Consejería y Psicología (CAPS)",
+                                            "Programa de asistencia a profesores y empleados (FEAP)",
+                                            "Línea de AYUDA",
+                                            "HoosBueno",
+                                            "Centros de estudiantes multiculturales (por ejemplo, interreligiosos, latinos, LGBTQ)",
+                                            "Oficina de Igualdad de Oportunidades y Derechos Civiles (EOCR)",
+                                            "Oficina de Asuntos Afroamericanos (OAAA)",
+                                            "Oficina de Asuntos de Graduados y Postdoctorados",
+                                            "Oficina del Decano de Estudiantes (ODOS)",
+                                            "Doctorado Plus",
+                                            "Centro de Acceso para Estudiantes con Discapacidades (SDAC)",
+                                            "Servicios financieros para estudiantes",
+                                            "Salud y Bienestar Estudiantil",
+                                            "atención oportuna",
+                                            "Centro de Carreras UVA",
+                                            "Recursos Humanos (RR.HH.) UVA",
+                                            "Centro de la Mujer UVA",
+                                            "Centro de Escritura UVA",
+                                            "WahooBueno",
+                                            "^No he utilizado ninguno de estos recursos UVA",
+                                            "!Otros (especificar:"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Medidas de sesgo de interpretación",
+                    "Title": "Medidas de sesgo de interpretación",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Un breve ejercicio",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se le hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ascensor",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Estás en el vestíbulo del nuevo edificio de apartamentos de tu amigo. Pulsas el botón del ascensor para subir. El edificio parece viejo. Al subir al ascensor piensas en..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_elevator_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "seguridad"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ascensor",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Pensaste en la seguridad del ascensor?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La recepción de la boda",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Tu amiga te pide que des un discurso en la recepción de su boda. Preparas algunas observaciones y cuando llega el momento te pones de pie. Mientras hablas, notas que algunas personas en la audiencia comienzan a..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_wedding_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "reír"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La recepción de la boda",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿El público se ríe cuando hablas?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Actualmente trabaja como contratista para una empresa. Una vez finalizado este trabajo, quedará sin empleo hasta que pueda encontrar su próximo trabajo. Piensas en no tener ingresos durante unas semanas y en tu futuro..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_job_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "finanzas"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Te quedarás pronto sin ingresos?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ruido fuerte",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Te despierta en mitad de la noche un ruido fuerte. No estás seguro de qué causó el ruido y sal de tu habitación para ver qué pasó. Tú caminas..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_noise_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "abajo"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ruido fuerte",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Te han despertado en mitad de la noche?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_noise",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Conociendo a un amigo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En la calle te encuentras con un viejo amigo al que no ves desde hace mucho tiempo. Ella está demasiado ocupada para detenerse, así que quedan para encontrarse más tarde en un bar. Llegas un poco tarde pero el bar está vacío y unos minutos después ella todavía no está..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_friend_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "allá"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Conociendo a un amigo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Tu amigo se detuvo?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Estás almorzando con un amigo. Cuando empiezas a comer tu ensalada, describe tus planes para el fin de semana. Accidentalmente se te cae un trozo de lechuga y tu amigo mira..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_lunch_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "tú"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Tienes ensalada para el almuerzo?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El raspado",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Estás jugando baloncesto con unos amigos. Mientras corres hacia la pelota, te tropiezas y te raspas la rodilla. El rasguno duele un poco, pero no..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_scrape_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "sangrar"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El raspado",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Estás jugando fútbol con tu amigo?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El viaje de compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Estás en el centro comercial con tu amigo. Mientras compras, ella te cuenta cómo varios de sus amigos han contraído recientemente una extrana enfermedad. Piensas en tu salud reciente y te preguntas si obtendrás..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_shopping_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "enfermo"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El viaje de compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Estás comprando solo?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El análisis de sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Estás en una cita médica de rutina. En la cita, el médico decide realizar algunos análisis de sangre para comprobar su salud. El médico dice que lo llamará en unas semanas y que en ese momento conocerá los resultados de sus pruebas..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "IBM_blood_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "tiempo"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El análisis de sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Te hiciste análisis de sangre?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sí",
+                                            "No"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Algunas preguntas",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "A continuación, verás los títulos de los nueve cuentos que acabas de leer. Después de cada una, verás cuatro frases. Ninguna de estas oraciones es idéntica a la historia original, pero algunas son más similares que otras.\n\nPiensa en la historia que leíste y califica qué tan similar es cada oración a lo que leíste en la historia original. Estamos interesados ​​en su comprensión de la historia original, ya sea que coincida o no con lo que usted personalmente pensaría o haría en esa situación."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ascensor",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ASCENSOR: El edificio parece viejo, y cuando subes al ascensor...\n\nCrees que el ascensor probablemente se estropeará mientras estás en él."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ascensor",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ASCENSOR: El edificio parece viejo y cuando subes al ascensor...\n\nCrees que te va a gustar el nuevo apartamento de tu amigo."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ascensor",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ASCENSOR: El edificio parece viejo y cuando subes al ascensor...\n\nPiensas en lo mal que huele el vestíbulo."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ascensor",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ASCENSOR: El edificio parece viejo y cuando subes al ascensor...\n\nCrees que viajar en el ascensor será seguro."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_elevator_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La recepción de la boda",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RECEPCIÓN DE BODA: Al entrar en la sala...\n\nLa gente del público se ríe con agradecimiento."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La recepción de la boda",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RECEPCIÓN DE BODAS: Al entrar en la habitación...\n\nTe das cuenta de que un amigo al que esperabas ver entra en la recepción."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La recepción de la boda",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RECEPCIÓN DE BODA: Al entrar en la sala...\n\nLa gente del público considera ridículos sus esfuerzos."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "La recepción de la boda",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "LA RECEPCIÓN DE BODAS: Al entrar en la habitación...\n\nTe das cuenta de que alguien que no te agrada acaba de entrar a la recepción."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_wedding_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL TRABAJO: Piensas en no tener ingresos durante algunas semanas...\n\nY sabes que puedes confiar en tus ahorros."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL TRABAJO: Piensas en no tener ingresos durante unas semanas...\n\nY te entusiasma no tener que poner una alarma."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL TRABAJO: Piensas en no tener ingresos durante unas semanas...\n\nY te preocupa quedarte en quiebra."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL TRABAJO: Piensas en no tener ingresos durante unas semanas...\n\nY estás triste por dejar a tus companeros de trabajo actuales."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_job_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ruido fuerte",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nTe sientes feliz y piensas en lo hermosa que es tu casa."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_loud_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ruido fuerte",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nSientes miedo y te preocupa no poder controlar el miedo."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_loud_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ruido fuerte",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nSientes miedo, pero sabes que puedes tolerar esa sensación."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_loud_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El ruido fuerte",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nSientes frío y piensas que la casa necesita una mejor calefacción."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_loud_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Conociendo a un amigo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "CONOCER A UN AMIGO: Llegas un poco tarde y...\n\nPide tu snack favorito."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Conociendo a un amigo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "CONOCER A UN AMIGO: Llegas un poco tarde y...\n\nNotas que el bar huele asqueroso."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Conociendo a un amigo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "CONOCER A UN AMIGO: Llegas un poco tarde y...\n\nRecibes una llamada de tu amiga que está en camino, pero llega tarde."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Conociendo a un amigo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "CONOCER A UNA AMIGA: Llegas un poco tarde y...\n\nCrees que tu amiga decidió que no quería verte."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_friend_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque piensa que eres un vago."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amigo te mira...\n\nY tú frunces el ceno porque olvidaste llevar agua al almuerzo."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amiga te mira...\n\nPorque está prestando atención mientras le describes tus planes para el fin de semana."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El almuerzo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ALMUERZO: Tu amigo te mira...\n\nY sonríes porque tu almuerzo sabe bien."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_lunch_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El raspado",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL RASPÓN: El raspado duele un poco...\n\nY crees que probablemente se infectará gravemente."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El raspado",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL RASPÓN: El rasguno duele un poco...\n\nY estás frustrado porque te rasgaste los pantalones cortos."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El raspado",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL RASPÓN: El rasguno duele un poco...\n\nPero sabes que estarás bien."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El raspado",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL RASPÓN: El raspado duele un poco...\n\nPero estás contento de estar haciendo ejercicio."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_scrape_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El viaje de compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL VIAJE DE COMPRAS: Piensas en tu salud reciente...\n\nY crees que probablemente estés contrayendo esa extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El viaje de compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL VIAJE DE COMPRAS: Piensas en tu salud reciente...\n\nY crees que es poco probable que contraigas la extrana enfermedad."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El viaje de compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL VIAJE DE COMPRAS: Piensas en tu salud reciente...\n\nY sonríes porque disfrutas comprando."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El viaje de compras",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL VIAJE DE COMPRAS: Piensas en tu salud reciente...\n\nY te aburres de ir de compras."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_shopping_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El análisis de sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ANÁLISIS DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY piensas en lo amable que es tu médico."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_1",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El análisis de sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ANÁLISIS DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY estás molesto porque tu médico no es muy amable."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_2",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El análisis de sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ANÁLISIS DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY crees que no podrás soportar la ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_3",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "El análisis de sangre",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "EL ANÁLISIS DE SANGRE: El médico dice que te llamará en unas semanas...\n\nY sabes que puedes manejar tu ansiedad mientras esperas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "IBM_blood_interpretation_4",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy diferente",
+                                            "Diferente",
+                                            "Similar",
+                                            "Muy similar",
+                                            "Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Escala de ansiedad",
+                    "Title": "Escala de ansiedad",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Escala de ansiedad",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante la semana pasada, ¿con qué frecuencia se sintió ansioso?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "OASIS_frequency_anxious",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Sin ansiedad en la última semana",
+                                            "Ansiedad poco frecuente. Me sentí ansioso algunas veces.",
+                                            "Ansiedad ocasional. Me sentí ansioso la mayor parte del tiempo. Fue difícil relajarse.",
+                                            "Ansiedad frecuente. Me sentí ansioso la mayor parte del tiempo. Fue muy difícil relajarse.",
+                                            "Ansiedad constante. Me sentí ansioso todo el tiempo y nunca realmente relajado.",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Escala de ansiedad",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante la semana pasada, cuando se sintió ansioso, ¿qué tan intensa o grave fue su ansiedad?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "OASIS_intensity_anxiety",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Poco o nada: la ansiedad estaba ausente o apenas se notaba",
+                                            "Leve: La ansiedad estaba en un nivel bajo. Fue posible relajarme cuando lo intenté. Los síntomas físicos fueron sólo levemente incómodos.",
+                                            "Moderada: la ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
+                                            "Severo: La ansiedad fue intensa la mayor parte del tiempo. Era muy difícil relajarse o concentrarse en cualquier otra cosa. Los síntomas físicos fueron incómodos.",
+                                            "Extremo: la ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Escala de ansiedad",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante la semana pasada, ¿con qué frecuencia evitaste situaciones, lugares, objetos o actividades debido a ansiedad o miedo?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "OASIS_avoid",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Ninguno: No evito lugares, situaciones, actividades o cosas por miedo.",
+                                            "Poco frecuente: evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
+                                            "Ocasional: tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
+                                            "Frecuente: Tengo un miedo considerable y realmente trato de evitar las cosas que me asustan. He realizado cambios significativos en mi estilo de vida para evitar el objeto, situación, actividad o lugar",
+                                            "Todo el tiempo: Evitar objetos, situaciones o lugares se ha apoderado de mi vida. Mi estilo de vida se ha visto muy afectado y ya no hago las cosas que antes disfrutaba.",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Escala de ansiedad",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "OASIS_work",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Ninguno: No hay interferencia en el trabajo/hogar/escuela debido a la ansiedad",
+                                            "Leve: Mi ansiedad ha causado alguna interferencia en el trabajo/casa/escuela. Las cosas son más difíciles, pero aún se está haciendo todo lo que hay que hacer",
+                                            "Moderada: Mi ansiedad definitivamente interfiere con las tareas. La mayoría de las cosas todavía se están haciendo, pero pocas se están haciendo tan bien como en el pasado.",
+                                            "Grave: Mi ansiedad realmente ha cambiado debido a mi capacidad para hacer las cosas. Algunas tareas todavía se están haciendo, pero muchas cosas no. Mi desempeno definitivamente se ha visto afectado.",
+                                            "Extremo: Mi ansiedad se ha vuelto incapacitante. No he podido completar tareas y he tenido que dejar la escuela, he renunciado o me han despedido de mi trabajo, o no he podido completar tareas en casa y he enfrentado consecuencias como cobradores, desalojo, etc.",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Escala de ansiedad",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante la semana pasada, ¿en qué medida la ansiedad interfirió con su vida social y sus relaciones?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "OASIS_social",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Ninguno: Mi ansiedad no afecta mis relaciones.",
+                                            "Leve: Mi ansiedad interfiere levemente con mis relaciones. Algunas de mis amistades y otras relaciones han sufrido, pero, en general, mi vida social sigue siendo satisfactoria.",
+                                            "Moderado: He experimentado cierta interferencia en mi vida social, pero todavía tengo algunas relaciones cercanas. Ya no paso tanto tiempo con los demás como antes, pero a veces todavía socializo.",
+                                            "Severo: Mis amistades y otras relaciones han sufrido mucho debido a la ansiedad. No disfruto de las actividades sociales. Socializo muy poco.",
+                                            "Extremo: Mi ansiedad ha trastornado por completo mis actividades sociales. Todas mis relaciones han sufrido o terminado. Mi vida familiar es extremadamente tensa.",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Escala de tristeza",
+                    "Title": "Escala de tristeza",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Escala de tristeza",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "OASIS_little_interest",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Varios dias",
+                                            "Más de la mitad de los días",
+                                            "Casi todos los dias",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Escala de tristeza",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "OASIS_depressed",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "De nada",
+                                            "Varios dias",
+                                            "Más de la mitad de los días",
+                                            "Casi todos los dias",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Escala de estrés",
+                    "Title": "Escala de estrés",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Escala de estrés",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que no podía controlar las cosas importantes de su vida?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "PSS-4_control",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nunca",
+                                            "Casi nunca",
+                                            "A veces",
+                                            "Bastante a menudo",
+                                            "Muy a menudo",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Escala de estrés",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En el último mes, ¿con qué frecuencia se ha sentido seguro de su capacidad para manejar sus problemas personales?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "PSS-4_confident",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nunca",
+                                            "Casi nunca",
+                                            "A veces",
+                                            "Bastante a menudo",
+                                            "Muy a menudo",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Escala de estrés",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las cosas iban como quería?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "PSS-4_your_way",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nunca",
+                                            "Casi nunca",
+                                            "A veces",
+                                            "Bastante a menudo",
+                                            "Muy a menudo",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Escala de estrés",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las dificultades se acumulaban tanto que no podía superarlas?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "PSS-4_difficulties",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nunca",
+                                            "Casi nunca",
+                                            "A veces",
+                                            "Bastante a menudo",
+                                            "Muy a menudo",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Tu primera sesión",
+                    "Title": "Tu primera sesión",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Tu primera sesión",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Hoos Think Calmly está disenado para ayudarlo a cambiar su forma de pensar sobre situaciones comunes pero potencialmente estresantes para reducir la ansiedad y el estrés. Cuando complete las sesiones en la aplicación, se le pedirá que lea historias breves sobre situaciones que a menudo producen ansiedad y que complete las letras que faltan para completar palabras, complete palabras completas o invente nuevas historias que sean personalmente relevantes para usted. Para ayudarlo a familiarizarse con el programa y ayudarlo a aprovechar al máximo esta experiencia, nos gustaría que complete algunos ejercicios cortos y vea algunos videos breves que explican cómo funciona Hoos Think Calmly. También se le presentarán tres historias de ejemplo para que pueda comenzar a dominar la capacitación. ¡Haga clic en Siguiente para comenzar!"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Ejercicio de limón",
+                    "Title": "Ejercicio de limón",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Ejercicio de limón",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "El propósito de este rápido ejercicio es demostrar qué es el pensamiento basado en la imaginación. Te imaginarás cómo es ver, tocar y oler un limón. Por favor imagina esto como si realmente lo estuvieras experimentando."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Ejercicio de limón",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En este ejercicio, y durante todo el programa de entrenamiento, recuerde imaginar lo que sucede a través de sus propios ojos, de forma similar a la imagen de la izquierda. Esto es más eficaz que ver la situación desde un observador externo, como en la imagen de la derecha."
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic1.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
+                        },
+                        {
+                            "Title": "Ejercicio de limón",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Bien... ¡comencemos! Imagina que sostienes el limón en tu mano derecha y puedes sentir su forma y su peso."
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic2.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
+                        },
+                        {
+                            "Title": "Ejercicio de limón",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Ahora imagina que estás iluminando el limón con una luz y puedes ver la textura cerosa y grumosa de la piel amarilla."
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic3.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
+                        },
+                        {
+                            "Title": "Ejercicio de limón",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Ahora imagina que te rascas la piel con la una, luego te llevas el limón a la nariz y puedes oler el jugo fresco y picante de la piel."
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic4.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
+                        },
+                        {
+                            "Title": "Ejercicio de limón",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Ahora imagina que cortas el limón por la mitad y levantas la mitad para verlo más de cerca. Puedes ver la pulpa jugosa en forma de gajos que parecen una rueda de carreta."
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic5.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
+                        },
+                        {
+                            "Title": "Ejercicio de limón",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Ahora imagina que exprimes el limón y un poco del jugo te cae directamente a los ojos, y te pica mucho y te lloran."
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic6.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ],
+                            "Timeout": 2,
+                            "ShowButtons": "AfterTimeout"
+                        },
+                        {
+                            "Title": "Ejercicio de limón",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Ese fue el Ejercicio del Limón! No te preocupes si no experimentaste todas las sensaciones con fuerza. Esto es completamente normal."
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/protocol1/media/images/lemon/pic7.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Imágenes ansiosas principales",
+                    "Title": "Imágenes ansiosas principales",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Imágenes ansiosas principales",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "En este ejercicio, piense en una PRÓXIMA situación que espera que lo haga sentir ansioso, preocupado o asustado. Elija una situación que le preocupe que pueda salir mal o que espere que provoque síntomas relacionados con la ansiedad (p. ej., palpitaciones, sudoración). Cualquier situación que te haga sentir bastante ansioso o asustado funcionará, siempre y cuando sea una situación que sea probable que realmente suceda."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Imágenes ansiosas principales",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Describa la situación en pocas palabras:"
+                                    }
+                                },
+                                {
+                                    "Type": "Entry",
+                                    "Name": "entry_anxious_imagery"
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Imágenes ansiosas principales",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Imagine la situación lo más vívidamente posible (es decir, que parezca muy real). Intenta imaginar que realmente estás en esa situación. Representa las partes específicas de la situación en tu cabeza. Intenta imaginarte usando todos tus sentidos mientras piensas en esta situación. Piensa en las cosas que verías, oirías y olerías si realmente estuvieras en esa situación. Piensa en el tipo de cosas que pensarías o sentirías si realmente estuvieras allí."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Imágenes ansiosas principales",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Juega esta situación en tu cabeza durante los próximos 20 segundos. \n\nLa pantalla cambiará en 20 segundos."
+                                    }
+                                }
+                            ],
+                            "Timeout": 20,
+                            "ShowButtons": "Never"
+                        },
+                        {
+                            "Title": "Imágenes ansiosas principales",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan ansioso se sintió (en el nivel más alto de ansiedad) al completar la tarea de visualización? Presione en la barra para ver el control deslizante. \n\n0 = Absolutamente ninguna ansiedad. \n\n10 = Totalmente ansioso."
+                                    }
+                                },
+                                {
+                                    "Type": "Slider",
+                                    "Name": "imagery_anxiety",
+                                    "Parameters": {
+                                        "Minimum": "0",
+                                        "Maximum": "10",
+                                        "OtherChoices": [
+                                            "Prefiero no responder"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Imágenes ansiosas principales",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué tan vívidamente imaginaste la situación?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "imagery_vivid",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Nada vívido",
+                                            "Algo vívido",
+                                            "Moderadamente vívido",
+                                            "Muy vívido",
+                                            "Totalmente vívido",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Imágenes ansiosas principales",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué posibilidades hay de que la situación o tarea salga bien o mal?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "imagery_well",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Es muy probable que salga bien",
+                                            "Es algo probable que salga bien",
+                                            "Neutral",
+                                            "Es algo probable que salga mal",
+                                            "Es muy probable que salga mal",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Imágenes ansiosas principales",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Si esta situación terminara mal, ¿qué tan bien o mal serías capaz de manejarla?"
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "imagery_handling",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Muy bien",
+                                            "Algo bien",
+                                            "Neutral",
+                                            "Algo mal",
+                                            "Muy mal",
+                                            "^Prefiero no responder"
+                                        ],
+                                        "Selectable": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Practica CBM-I",
+                    "Title": "Practica CBM-I",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Practica CBM-I",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": ""
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Comprensión / Compromiso",
+                    "Title": "Comprensión / Compromiso",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Comprensión / Compromiso",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Qué espera obtener del programa Hoos Think Calmly? Seleccione todas las que correspondan."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "gain_from_HTC",
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Quiero pensar con más flexibilidad y menos negativamente.",
+                                            "Quiero poder gestionar situaciones estresantes de forma más eficaz.",
+                                            "Quiero reducir mi estrés y/o ansiedad.",
+                                            "Quiero practicar habilidades que he aprendido o estoy aprendiendo actualmente de un proveedor de atención de salud mental.",
+                                            "Quiero mantener los avances que he logrado durante el tratamiento de salud mental.",
+                                            "Quiero evitar que vuelva la ansiedad y/o el estrés que he experimentado en el pasado.",
+                                            "!Otros, descríbalos:"
+                                        ],
+                                        "Selectable": true,
+                                        "AllowMultipleSelections": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Gran trabajo",
+                    "Title": "Gran trabajo",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "Gran trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Gran trabajo! Esperamos que esta breve capacitación haya ayudado a aclarar el propósito de estas historias cortas y lo que podría obtener de Hoos Think Calmly. En el futuro, podrá elegir áreas de la vida que le causen mayor estrés para que las historias que lea sean más relevantes para usted. Durante sesiones futuras, también recibirá consejos disenados para ayudarlo a manejar sus emociones, conectarse con recursos de la UVA y aplicar lo que aprenda de los cuentos en su propia vida."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Gran trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Durante las próximas 6 semanas, recibirá notificaciones que le solicitarán que abra la aplicación para completar actividades y encuestas. Esperamos que utilice la aplicación 1 o 2 veces al día, pero entendemos que la vida puede interponerse en su camino y que es posible que deba saltarse algunas sesiones. Está bien, pero recuerda que el programa sólo dura 6 semanas. También podrás acceder a los contenidos de la aplicación (actividades, recursos, etc.) en cualquier momento visitando la biblioteca bajo demanda desde la página de inicio."
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Title": "Gran trabajo",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¿Aún tienes preguntas? ¡Póngase en contacto con el equipo en HoosThinkCalmly@gmail.com! Estaremos encantados de programar una llamada de Zoom para abordar cualquier pregunta o inquietud que pueda tener."
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
