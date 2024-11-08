@@ -116,7 +116,7 @@ for group in spanish_groups.keys():  # changed
         next(reader)  # skip first line
         for row in reader:  # each row is a page
             lookup_code = row[3] + "_" + row[2]
-            if row[0] == "Práctica de CBM-I": # changed
+            if row[0] == "Práctica CBM-I": # changed
                 # In the special case that it's "Practice CBM-I", then we have to create scenarios
 
                 with open("/Users/valentinamendoza/Downloads/MT Spanish/Spanish_dose1_scenarios.csv", "r", encoding="utf-8") as dose1_read_obj:  # scenarios for first dose in file
