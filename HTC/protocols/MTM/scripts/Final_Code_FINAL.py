@@ -573,7 +573,7 @@ for group in groups.keys():  # Go through files for each group
                             page_group)  # adding resource page group to PageGroups list
 
                     # added
-                    if row_num % 30 == 0:  # if it's a multiple of 30, add a long scenario and a resource
+                    if row_num % 50 == 0:  # if it's a multiple of 50, add a long scenario and a resource
                         if len(long_page_groups[domain]) != 0:  # check to see there are still long scenarios left
                                     # new
                             long_page_group = long_page_groups[domain].pop(0)
