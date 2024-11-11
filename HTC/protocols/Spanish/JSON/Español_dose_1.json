@@ -2853,17 +2853,354 @@
                     ]
                 },
                 {
-                    "Name": "Practica CBM-I",
-                    "Title": "Practica CBM-I",
-                    "Type": "Survey",
+                    "Name": "Video 1",
                     "Pages": [
                         {
-                            "Title": "Practica CBM-I",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": ""
+                                        "Text": "¡Presione play en el video de entrenamiento a continuación para obtener más información!"
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/Spanish/media/videos/video1.mp4",
+                                        "ImageType": "video/mp4"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Contribuyendo a una discusión_____0",
+                    "Title": "Contribuyendo a una discusión",
+                    "Type": "Scenario",
+                    "DoseSize": 1,
+                    "Pages": [
+                        {
+                            "Name": "Contribuyendo a una discusión0",
+                            "Inputs": [
+                                {
+                                    "Type": "Label",
+                                    "Parameters": {
+                                        "Text": "Contribuyendo a una discusión",
+                                        "Framed": true
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/tree/main/HTC/protocols/Spanish/media/images/Contribuyendo_a_una_discusión.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Puzzle",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Su jefe convoca una reunión para discutir un nuevo proyecto que involucrará a la mayor parte del personal de su oficina. De repente se le pide que contribuya con sus ideas a la discusión. Rápidamente se te ocurren algunas ideas sobre el terreno y crees que tus colegas encontrarán tus ideas..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Contribuyendo a una discusión_Académicos/Trabajo/Desarrollo Profesional_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "interesantes"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Question",
+                            "ShowButtons": "WhenCorrect",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "La gente de su oficina probablemente..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "Contribuyendo a una discusión_Académicos/Trabajo/Desarrollo Profesional_comp_question",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No le gustan tus ideas.",
+                                            "Apoye sus ideas."
+                                        ],
+                                        "ColumnCount": 1,
+                                        "Answer": "Apoye sus ideas."
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Make it your own!",
+                    "Title": "¡Hazlo tuyo!",
+                    "Type": "Survey",
+                    "Pages": [
+                        {
+                            "Title": "¡Hazlo tuyo!",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Queremos que MindTrails Español satisfaga sus necesidades. Cuando complete sesiones de capacitación en la aplicación o buscar recursos en biblioteca de recursos bajo demanda, verá un botón que parece como una estrella en la esquina superior derecha de la pantalla. Por haciendo clic en la estrella, puedes agregar la información que más te parezca útil (por ejemplo, historias cortas, consejos para controlar el estrés) para su propia página personal de Favoritos. Luego podrás volver a visitar tu favorito partes de la aplicación cuando quieras eligiendo Favoritos ¡mosaico de la página de inicio de MindTrails Español!"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Video 2",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Presione play en el video de entrenamiento a continuación para obtener más información!"
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/Spanish/media/videos/video2.mp4",
+                                        "ImageType": "video/mp4"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Atención en una tienda_____1",
+                    "Title": "Atención en una tienda",
+                    "Type": "Scenario",
+                    "DoseSize": 1,
+                    "Pages": [
+                        {
+                            "Name": "Atención en una tienda1",
+                            "Inputs": [
+                                {
+                                    "Type": "Label",
+                                    "Parameters": {
+                                        "Text": "Atención en una tienda",
+                                        "Framed": true
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/tree/main/HTC/protocols/Spanish/media/images/Atención_en_una_tienda.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Puzzle",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Estás en una tienda y accidentalmente derribas algunos marcos de fotos en uno de los pasillos. Sientes que tus mejillas se calientan cuando la gente en la tienda se gira y te mira. Cuando el dueño de la tienda se acerca para reorganizar los marcos de los cuadros, frunce el..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Atención en una tienda_Situaciones Sociales_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "ceño"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Puzzle 2",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Después de unos momentos, los demás compradores se dan la vuelta; simplemente se sorprendieron por el fuerte ruido. El dueño de la tienda acepta amablemente tus disculpas y te dice que no te preocupes por el desorden, para que luego te sientas..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Atención en una tienda_Situaciones Sociales_puzzle_word2",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "tranquilo"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Question",
+                            "ShowButtons": "WhenCorrect",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Los otros compradores probablemente piensen que usted es..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "Atención en una tienda_Situaciones Sociales_comp_question",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "Considerado para disculparse.",
+                                            "Torpe y descoordinado."
+                                        ],
+                                        "ColumnCount": 1,
+                                        "Answer": "Considerado para disculparse."
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Video 3",
+                    "Pages": [
+                        {
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "¡Presione play en el video de entrenamiento a continuación para obtener más información!"
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://github.com/TeachmanLab/MindtrailsMobile_Resources/raw/main/HTC/protocols/Spanish/media/videos/video3.mp4",
+                                        "ImageType": "video/mp4"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Name": "Una pastel de cumpleaños_____2",
+                    "Title": "Una pastel de cumpleaños",
+                    "Type": "Scenario",
+                    "DoseSize": 1,
+                    "Pages": [
+                        {
+                            "Name": "Una pastel de cumpleaños2",
+                            "Inputs": [
+                                {
+                                    "Type": "Label",
+                                    "Parameters": {
+                                        "Text": "Una pastel de cumpleaños",
+                                        "Framed": true
+                                    }
+                                },
+                                {
+                                    "Type": "Media",
+                                    "Parameters": {
+                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/tree/main/HTC/protocols/Spanish/media/images/Una_pastel_de_cumpleaños.jpeg",
+                                        "ImageType": "image/jpeg"
+                                    },
+                                    "Frame": true
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Puzzle",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Tu amigo te compra un pastel para tu cumpleaños. Cuando lo traen por la noche, se dan cuenta de que recientemente se han recuperado de su enfermedad. Al sostener el pastel, crees que tus posibilidades de enfermarte son bastante..."
+                                    }
+                                },
+                                {
+                                    "Type": "WordPuzzle",
+                                    "Name": "Una pastel de cumpleaños_Salud Física_puzzle",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "CauseNavigation": true,
+                                    "Parameters": {
+                                        "Words": [
+                                            "altas"
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Name": "Question",
+                            "ShowButtons": "WhenCorrect",
+                            "Inputs": [
+                                {
+                                    "Type": "Text",
+                                    "Parameters": {
+                                        "Text": "Si te comes el pastel, probablemente..."
+                                    }
+                                },
+                                {
+                                    "Type": "Buttons",
+                                    "Name": "Una pastel de cumpleaños_Salud Física_comp_question",
+                                    "CorrectFeedback": "Correcto!",
+                                    "IncorrectFeedback": "¡Vaya! Eso no parece correcto. Por favor, espere un momento y intenta de nuevo.",
+                                    "CorrectScore": 0.5,
+                                    "IncorrectDelay": 5000,
+                                    "Parameters": {
+                                        "Buttons": [
+                                            "No enfermarme.",
+                                            "Enfermarse."
+                                        ],
+                                        "ColumnCount": 1,
+                                        "Answer": "Enfermarse."
                                     }
                                 }
                             ]
