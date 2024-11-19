@@ -19,7 +19,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¡Bienvenidos a Hoos Piensa con Calma! Esta sesión inicial será un poco más larga que las sesiones futuras. Primero se le pedirá que complete algunas encuestas sobre su salud mental y sus patrones de pensamiento. Luego, le brindaremos más información sobre el fundamento de este programa y le explicaremos cómo aprovechar al máximo la aplicación. Tendrá la oportunidad de programar una reunión con el equipo de investigación al final de esta sesión si tiene alguna pregunta o inquietud. ¿Listo para comenzar? Presione el botón Siguiente a continuación para comenzar a completar cuestionarios."
+                                        "Text": "¡Bienvenidos a MindTrails Espanol! Esta sesión inicial será un poco más larga que las sesiones futuras. Primero te pedirá que complete algunas encuestas sobre tu salud mental y tus patrones de pensamiento. Luego, te brindaremos más información sobre el fundamento de este programa y te explicaremos cómo aprovechar al máximo la aplicación. Tendrás la oportunidad de programar una reunión con el equipo de investigación al final de esta sesión si tienes alguna pregunta o inquietud. ¿Listo para comenzar? Presione el botón Siguiente a continuación para comenzar a completar cuestionarios."
                                     }
                                 }
                             ]
@@ -47,7 +47,7 @@
                                         "Buttons": [
                                             "Mujer",
                                             "Hombre",
-                                            "Mujer Transgénero",
+                                            "Mujer transgénera",
                                             "Hombre transgénero",
                                             "!Otra identidad",
                                             "^Prefiero no responder"
@@ -143,7 +143,7 @@
                                             "1979",
                                             "1980",
                                             "1981",
-                                            "mil novecientos ochenta y dos",
+                                            "1982",
                                             "1983",
                                             "1984",
                                             "1985",
@@ -184,7 +184,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Cuál es su raza?"
+                                        "Text": "¿Cuál es tu raza?"
                                     }
                                 },
                                 {
@@ -193,8 +193,8 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Indio americano/nativo de Alaska",
-                                            "Asiático del este",
-                                            "Asia del Sur",
+                                            "Asiático del Este",
+                                            "Asiático del Sur",
                                             "Nativo de Hawái/Isleno del Pacífico",
                                             "Origen negro/africano",
                                             "Origen blanco/europeo",
@@ -221,7 +221,7 @@
                                     "Name": "ethnicity",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Hispano o latino",
+                                            "Hispano o Latino",
                                             "No Hispano o Latino",
                                             "Desconocido",
                                             "^Prefiero no responder"
@@ -237,7 +237,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Cuál es su máximo nivel educativo?"
+                                        "Text": "¿Cuál es tu máximo nivel educativo?"
                                     }
                                 },
                                 {
@@ -250,14 +250,14 @@
                                             "Algún instituto",
                                             "Graduado de preparatoria",
                                             "Alguna educación superior",
-                                            "Grado Asociado",
+                                            "Grado asociado",
                                             "Licenciatura",
                                             "Alguna escuela de posgrado",
                                             "Maestría",
                                             "MBA",
                                             "JD",
-                                            "MARYLAND.",
-                                            "Doctor.",
+                                            "MD.",
+                                            "Doctor",
                                             "Otros Títulos Avanzados",
                                             "^Prefiero no responder"
                                         ],
@@ -272,7 +272,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Cuál es su estado civil?"
+                                        "Text": "¿Cuál es tu estado civil?"
                                     }
                                 },
                                 {
@@ -303,7 +303,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Cuál es tu situacion laboral?"
+                                        "Text": "¿Cuál es tu situación laboral?"
                                     }
                                 },
                                 {
@@ -333,7 +333,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Cuál es el ingreso anual de su hogar, antes de impuestos y otras deducciones (en dólares estadounidenses o su equivalente)?"
+                                        "Text": "¿Cuál es el ingreso anual de tu hogar, antes de impuestos y otras deducciones (en dólares estadounidenses o su equivalente)?"
                                     }
                                 },
                                 {
@@ -367,7 +367,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Cómo se enteró de Hoos Think Calmly? (Seleccione todas las que correspondan)"
+                                        "Text": "¿Cómo te enteraste de MindTrails Espanol? (Seleccione todas las que correspondan)"
                                     }
                                 },
                                 {
@@ -402,7 +402,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Nos gustaría hacerle algunas preguntas sobre su salud mental y su historial de tratamiento. Las respuestas a estas preguntas personales se mantienen confidenciales, pero nos ayudan a mejorar Hoos Think Calmly al descubrir para quién funciona bien."
+                                        "Text": "Nos gustaría hacerle algunas preguntas sobre tu salud mental y tu historial de tratamiento. Las respuestas a estas preguntas personales se mantienen confidenciales, pero nos ayudan a mejorar MindTrails Espanol al descubrir para quién funciona bien."
                                     }
                                 }
                             ]
@@ -462,11 +462,11 @@
                                             "Terapia::Terapia (hablar con un profesional capacitado)\n\nEjemplos: psicólogo, profesional de salud mental autorizado (LMHC), consejero escolar, trabajador social, terapeuta matrimonial y familiar, terapeuta de grupo",
                                             "Prescripción:: Medicamentos recetados\n\nEjemplos: psiquiatra, médico",
                                             "Social::Buscar apoyo social (hablar con personas no profesionales)\n\nEjemplos: maestro, familiar, amigo, líder religioso, entrenador",
-                                            "Autoayuda::Ayuda autoguiada\n\nEjemplos: libros de autoayuda, blogs, intervención en línea (que no sean Hoos Think Calmly), aplicaciones móviles",
+                                            "Autoayuda::Ayuda autoguiada\n\nEjemplos: libros de autoayuda, blogs, intervención en línea (que no sean MindTrails Espanol  ), aplicaciones móviles",
                                             "De Venta Libre::Medicamentos y/o suplementos sin receta",
                                             "^Ninguno::No recibo ayuda",
                                             "^NoAnswer::Prefiero no responder",
-                                            "!Otro::otro:"
+                                            "!Otro::Otro:"
                                         ],
                                         "Selectable": true,
                                         "AllowMultipleSelections": true
@@ -649,7 +649,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Hay muchas razones por las que las personas no reciben ayuda. ¿Por qué no recibe tratamiento de salud mental? Por favor seleccione todas las respuestas válidas."
+                                        "Text": "Hay muchas razones por las que las personas no reciben ayuda. ¿Por qué no recibes tratamiento de salud mental? Por favor seleccione todas las respuestas válidas."
                                     }
                                 },
                                 {
@@ -691,7 +691,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En los últimos dos meses, ¿ha habido algún cambio en su tratamiento de salud mental? Marque todo lo que corresponda."
+                                        "Text": "En los últimos dos meses, ha habido algún cambio en tu tratamiento de salud mental? Marque todo lo que corresponda."
                                     }
                                 },
                                 {
@@ -730,7 +730,7 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Sí::Sí",
-                                            "No::no",
+                                            "No::No",
                                             "Inseguro::Inseguro"
                                         ],
                                         "Selectable": true
@@ -868,7 +868,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se le hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
+                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, te hará unas preguntas sobre la historia. Responde la pregunta basándote en la información del cuento."
                                     }
                                 }
                             ]
@@ -879,7 +879,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Estás en el vestíbulo del nuevo edificio de apartamentos de tu amigo. Pulsas el botón del ascensor para subir. El edificio parece viejo. Al subir al ascensor piensas en..."
+                                        "Text": "Estás en el vestíbulo del nuevo edificio de apartamentos de tu amigo. Pulsas el botón del ascensor para subir. El edificio parece viejo. Al subir al ascensor piensas en la..."
                                     }
                                 },
                                 {
@@ -1114,7 +1114,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Estás almorzando con un amigo. Cuando empiezas a comer tu ensalada, describe tus planes para el fin de semana. Accidentalmente se te cae un trozo de lechuga y tu amigo mira..."
+                                        "Text": "Estás almorzando con un amigo. Cuando empiezas a comer tu ensalada, describes tus planes para el fin de semana. Accidentalmente se te cae un trozo de lechuga y tu amigo mira..."
                                     }
                                 },
                                 {
@@ -1255,7 +1255,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Estás en una cita médica de rutina. En la cita, el médico decide realizar algunos análisis de sangre para comprobar su salud. El médico dice que lo llamará en unas semanas y que en ese momento conocerá los resultados de sus pruebas..."
+                                        "Text": "Estás en una cita médica de rutina. En la cita, el médico decide realizar algunos análisis de sangre para comprobar tu salud. El médico dice que te llamará en unas semanas y que en ese momento conocerás los resultados de tus pruebas..."
                                     }
                                 },
                                 {
@@ -1302,7 +1302,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "A continuación, verás los títulos de los nueve cuentos que acabas de leer. Después de cada una, verás cuatro frases. Ninguna de estas oraciones es idéntica a la historia original, pero algunas son más similares que otras.\n\nPiensa en la historia que leíste y califica qué tan similar es cada oración a lo que leíste en la historia original. Estamos interesados ​​en su comprensión de la historia original, ya sea que coincida o no con lo que usted personalmente pensaría o haría en esa situación."
+                                        "Text": "A continuación, verás los títulos de los nueve cuentos que acabas de leer. Después de cada una, verás cuatro frases. Ninguna de estas oraciones es idéntica a la historia original, pero algunas son más similares que otras.\n\nPiensa en la historia que leíste y califica qué tan similar es cada oración a lo que leíste en la historia original. Estamos interesados ​​en tu comprensión de la historia original, ya sea que coincida o no con lo que tu personalmente pensaría o haría en esa situación."
                                     }
                                 }
                             ]
@@ -1463,7 +1463,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "LA RECEPCIÓN DE BODA: Al entrar en la sala...\n\nLa gente del público considera ridículos sus esfuerzos."
+                                        "Text": "LA RECEPCIÓN DE BODA: Al entrar en la sala...\n\nLa gente del público considera ridículos tus esfuerzos."
                                     }
                                 },
                                 {
@@ -1638,7 +1638,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nSientes miedo y te preocupa no poder controlar el miedo."
+                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nTienes miedo y te preocupa no poder controlar el miedo."
                                     }
                                 },
                                 {
@@ -1663,7 +1663,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nSientes miedo, pero sabes que puedes tolerar esa sensación."
+                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nTienes miedo, pero sabes que puedes tolerar esa sensación."
                                     }
                                 },
                                 {
@@ -1688,7 +1688,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nSientes frío y piensas que la casa necesita una mejor calefacción."
+                                        "Text": "EL RUIDO FUERTE: Mientras bajas las escaleras...\n\nTienes frío y piensas que la casa necesita una mejor calefacción."
                                     }
                                 },
                                 {
@@ -1713,7 +1713,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "CONOCER A UN AMIGO: Llegas un poco tarde y...\n\nPide tu snack favorito."
+                                        "Text": "CONOCER A UN AMIGO: Llegas un poco tarde y...\n\nPides tu snack favorito."
                                     }
                                 },
                                 {
@@ -1913,7 +1913,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "EL RASPÓN: El raspado duele un poco...\n\nY crees que probablemente se infectará gravemente."
+                                        "Text": "EL RASPÓN: El rasguno duele un poco...\n\nY crees que probablemente se infectará gravemente."
                                     }
                                 },
                                 {
@@ -1988,7 +1988,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "EL RASPÓN: El raspado duele un poco...\n\nPero estás contento de estar haciendo ejercicio."
+                                        "Text": "EL RASPÓN: El rasguno duele un poco...\n\nPero estás contento de estar haciendo ejercicio."
                                     }
                                 },
                                 {
@@ -2220,7 +2220,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿con qué frecuencia se sintió ansioso?"
+                                        "Text": "Durante la semana pasada, ¿con qué frecuencia te sentiste ansioso?"
                                     }
                                 },
                                 {
@@ -2246,7 +2246,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, cuando se sintió ansioso, ¿qué tan intensa o grave fue su ansiedad?"
+                                        "Text": "Durante la semana pasada, cuando te sentiste ansioso, ¿qué tan intensa o grave fue tu ansiedad?"
                                     }
                                 },
                                 {
@@ -2254,11 +2254,11 @@
                                     "Name": "OASIS_intensity_anxiety",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Poco o nada: la ansiedad estaba ausente o apenas se notaba",
+                                            "Poco o nada: La ansiedad estaba ausente o apenas se notaba",
                                             "Leve: La ansiedad estaba en un nivel bajo. Fue posible relajarme cuando lo intenté. Los síntomas físicos fueron sólo levemente incómodos.",
-                                            "Moderada: la ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
+                                            "Moderada: La ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
                                             "Severo: La ansiedad fue intensa la mayor parte del tiempo. Era muy difícil relajarse o concentrarse en cualquier otra cosa. Los síntomas físicos fueron incómodos.",
-                                            "Extremo: la ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
+                                            "Extremo: La ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
                                             "^Prefiero no responder"
                                         ],
                                         "Selectable": true
@@ -2281,7 +2281,7 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Ninguno: No evito lugares, situaciones, actividades o cosas por miedo.",
-                                            "Poco frecuente: evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
+                                            "Poco frecuente: Evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
                                             "Ocasional: tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
                                             "Frecuente: Tengo un miedo considerable y realmente trato de evitar las cosas que me asustan. He realizado cambios significativos en mi estilo de vida para evitar el objeto, situación, actividad o lugar",
                                             "Todo el tiempo: Evitar objetos, situaciones o lugares se ha apoderado de mi vida. Mi estilo de vida se ha visto muy afectado y ya no hago las cosas que antes disfrutaba.",
@@ -2298,7 +2298,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
                                     }
                                 },
                                 {
@@ -2324,7 +2324,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida la ansiedad interfirió con su vida social y sus relaciones?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida la ansiedad interfirió con tu vida social y sus relaciones?"
                                     }
                                 },
                                 {
@@ -2382,7 +2382,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
                                     }
                                 },
                                 {
@@ -2414,7 +2414,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que no podía controlar las cosas importantes de su vida?"
+                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que no podía controlar las cosas importantes de tu vida?"
                                     }
                                 },
                                 {
@@ -2440,7 +2440,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia se ha sentido seguro de su capacidad para manejar sus problemas personales?"
+                                        "Text": "En el último mes, ¿con qué frecuencia se ha sentido seguro de tu capacidad para manejar tus problemas personales?"
                                     }
                                 },
                                 {
@@ -2466,7 +2466,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las cosas iban como quería?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las cosas iban como quería?"
                                     }
                                 },
                                 {
@@ -2492,7 +2492,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las dificultades se acumulaban tanto que no podía superarlas?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las dificultades se acumulaban tanto que no podías superarlas?"
                                     }
                                 },
                                 {
@@ -2525,7 +2525,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Hoos Think Calmly está disenado para ayudarlo a cambiar su forma de pensar sobre situaciones comunes pero potencialmente estresantes para reducir la ansiedad y el estrés. Cuando complete las sesiones en la aplicación, se le pedirá que lea historias breves sobre situaciones que a menudo producen ansiedad y que complete las letras que faltan para completar palabras, complete palabras completas o invente nuevas historias que sean personalmente relevantes para usted. Para ayudarlo a familiarizarse con el programa y ayudarlo a aprovechar al máximo esta experiencia, nos gustaría que complete algunos ejercicios cortos y vea algunos videos breves que explican cómo funciona Hoos Think Calmly. También se le presentarán tres historias de ejemplo para que pueda comenzar a dominar la capacitación. ¡Haga clic en Siguiente para comenzar!"
+                                        "Text": "MindTrails Espanol está disenado para ayudarlo a cambiar tu forma de pensar sobre situaciones comunes pero potencialmente estresantes para reducir la ansiedad y el estrés. Cuando completas las sesiones en la aplicación, te pedirá que lea historias breves sobre situaciones que a menudo producen ansiedad y que entras las letras que faltan para completar palabras. Para ayudarte a familiarizarte con el programa y ayudarte a aprovechar al máximo esta experiencia, nos gustaría que completaras algunos ejercicios cortos y vea algunos videos breves que explican cómo funciona MindTrails Espanol. También se le presentarán tres historias para que pueda comenzar a dominar la capacitación. ¡Haga clic en Siguiente para comenzar!"
                                     }
                                 }
                             ]
@@ -2554,7 +2554,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En este ejercicio, y durante todo el programa de entrenamiento, recuerde imaginar lo que sucede a través de sus propios ojos, de forma similar a la imagen de la izquierda. Esto es más eficaz que ver la situación desde un observador externo, como en la imagen de la derecha."
+                                        "Text": "En este ejercicio, y durante todo el programa de entrenamiento, recuerde imaginar lo que sucede a través de tus propios ojos, de forma similar a la imagen de la izquierda. Esto es más eficaz que ver la situación desde un observador externo, como en la imagen de la derecha."
                                     }
                                 },
                                 {
@@ -2575,7 +2575,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Bien... ¡comencemos! Imagina que sostienes el limón en tu mano derecha y puedes sentir su forma y su peso."
+                                        "Text": "Bien... ¡comencemos! Imagina que sostienes el limón en tu mano derecha y puedes sentir la forma y peso."
                                     }
                                 },
                                 {
@@ -2945,8 +2945,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "No le gustan tus ideas.",
-                                            "Apoye sus ideas."
+                                            "Apoye sus ideas.",
+                                            "No le gustan tus ideas."
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Apoye sus ideas."
@@ -3092,8 +3092,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Considerado para disculparse.",
-                                            "Torpe y descoordinado."
+                                            "Torpe y descoordinado.",
+                                            "Considerado para disculparse."
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Considerado para disculparse."
@@ -3196,8 +3196,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "No enfermarme.",
-                                            "Enfermarse."
+                                            "Enfermarse.",
+                                            "No enfermarme."
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Enfermarse."
@@ -3218,7 +3218,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué espera obtener del programa Hoos Think Calmly? Seleccione todas las que correspondan."
+                                        "Text": "¿Qué espera obtener del programa MindTrails Espanol? Seleccione todas las que correspondan."
                                     }
                                 },
                                 {
@@ -3253,7 +3253,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¡Gran trabajo! Esperamos que esta breve capacitación haya ayudado a aclarar el propósito de estas historias cortas y lo que podría obtener de Hoos Think Calmly. En el futuro, podrá elegir áreas de la vida que le causen mayor estrés para que las historias que lea sean más relevantes para usted. Durante sesiones futuras, también recibirá consejos disenados para ayudarlo a manejar sus emociones, conectarse con recursos de la UVA y aplicar lo que aprenda de los cuentos en su propia vida."
+                                        "Text": "¡Gran trabajo! Esperamos que esta breve capacitación haya ayudado a aclarar el propósito de estas historias cortas y lo que podría obtener de MindTrails Espanol. En el futuro, podrá elegir áreas de la vida que le causen mayor estrés para que las historias que lea sean más relevantes para usted. Durante sesiones futuras, también recibirá consejos disenados para ayudarlo a manejar sus emociones, conectarse con recursos de la UVA y aplicar lo que aprenda de los cuentos en su propia vida."
                                     }
                                 }
                             ]

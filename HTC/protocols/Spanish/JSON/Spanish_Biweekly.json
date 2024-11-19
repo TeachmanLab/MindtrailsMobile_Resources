@@ -16,7 +16,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿con qué frecuencia se sintió ansioso?"
+                                        "Text": "Durante la semana pasada, ¿con qué frecuencia te sentiste ansioso?"
                                     }
                                 },
                                 {
@@ -50,11 +50,11 @@
                                     "Name": "biweekly_intensity_anxiety",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Poco o nada: la ansiedad estaba ausente o apenas se notaba",
+                                            "Poco o nada: La ansiedad estaba ausente o apenas se notaba",
                                             "Leve: La ansiedad estaba en un nivel bajo. Fue posible relajarme cuando lo intenté. Los síntomas físicos fueron sólo levemente incómodos.",
-                                            "Moderada: la ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
+                                            "Moderada: La ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
                                             "Severo: La ansiedad fue intensa la mayor parte del tiempo. Era muy difícil relajarse o concentrarse en cualquier otra cosa. Los síntomas físicos fueron incómodos.",
-                                            "Extremo: la ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
+                                            "Extremo: La ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
                                             "^Prefiero no responder"
                                         ],
                                         "Selectable": true
@@ -77,8 +77,8 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Ninguno: No evito lugares, situaciones, actividades o cosas por miedo.",
-                                            "Poco frecuente: evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
-                                            "Ocasional: tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
+                                            "Poco frecuente: Evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
+                                            "Ocasional: Tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
                                             "Frecuente: Tengo un miedo considerable y realmente trato de evitar las cosas que me asustan. He realizado cambios significativos en mi estilo de vida para evitar el objeto, situación, actividad o lugar",
                                             "Todo el tiempo: Evitar objetos, situaciones o lugares se ha apoderado de mi vida. Mi estilo de vida se ha visto muy afectado y ya no hago las cosas que antes disfrutaba.",
                                             "^Prefiero no responder"
@@ -94,7 +94,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
                                     }
                                 },
                                 {
@@ -120,7 +120,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su vida social y sus relaciones?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu vida social y sus relaciones?"
                                     }
                                 },
                                 {
@@ -143,17 +143,17 @@
                     ]
                 },
                 {
-                    "Name": "escala de tristeza",
-                    "Title": "escala de tristeza",
+                    "Name": "Escala de tristeza",
+                    "Title": "Escala de tristeza",
                     "Type": "Survey",
                     "Pages": [
                         {
-                            "Title": "escala de tristeza",
+                            "Title": "Escala de tristeza",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
                                     }
                                 },
                                 {
@@ -173,12 +173,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de tristeza",
+                            "Title": "Escala de tristeza",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
                                     }
                                 },
                                 {
@@ -200,17 +200,17 @@
                     ]
                 },
                 {
-                    "Name": "escala de estrés",
-                    "Title": "escala de estrés",
+                    "Name": "Escala de estrés",
+                    "Title": "Escala de estrés",
                     "Type": "Survey",
                     "Pages": [
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que no podía controlar las cosas importantes de su vida?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que no podías controlar las cosas importantes de su vida?"
                                     }
                                 },
                                 {
@@ -230,12 +230,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia se ha sentido seguro de su capacidad para manejar sus problemas personales?"
+                                        "Text": "En el último mes, ¿con qué frecuencia te has sentido seguro de tu capacidad para manejar tus problemas personales?"
                                     }
                                 },
                                 {
@@ -255,12 +255,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las cosas iban como quería?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las cosas iban como querías?"
                                     }
                                 },
                                 {
@@ -280,12 +280,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las dificultades se acumulaban tanto que no podía superarlas?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las dificultades se acumulaban tanto que no podías superarlas?"
                                     }
                                 },
                                 {
@@ -317,7 +317,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se le hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
+                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se te hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
                                     }
                                 }
                             ]
@@ -1669,7 +1669,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué tan útil considera Hoos Think Calmly para reducir su ansiedad?"
+                                        "Text": "¿Qué tan útil considera MindTrails Espanol para reducir su ansiedad?"
                                     }
                                 },
                                 {
@@ -1695,7 +1695,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿En qué medida Hoos Think Calmly mantiene su interés y atención?"
+                                        "Text": "¿En qué medida MindTrails Espanol mantiene su interés y atención?"
                                     }
                                 },
                                 {
@@ -1773,7 +1773,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Cuánto te gusta el aspecto de Hoos Think Calmly?"
+                                        "Text": "¿Cuánto te gusta el aspecto de MindTrails Espanol?"
                                     }
                                 },
                                 {
@@ -1799,7 +1799,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué tan fácil es usar Hoos Think Calmly?"
+                                        "Text": "¿Qué tan fácil es usar MindTrails Espanol?"
                                     }
                                 },
                                 {
@@ -1889,7 +1889,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿con qué frecuencia se sintió ansioso?"
+                                        "Text": "Durante la semana pasada, ¿con qué frecuencia te sentiste ansioso?"
                                     }
                                 },
                                 {
@@ -1923,11 +1923,11 @@
                                     "Name": "biweekly_intensity_anxiety",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Poco o nada: la ansiedad estaba ausente o apenas se notaba",
+                                            "Poco o nada: La ansiedad estaba ausente o apenas se notaba",
                                             "Leve: La ansiedad estaba en un nivel bajo. Fue posible relajarme cuando lo intenté. Los síntomas físicos fueron sólo levemente incómodos.",
-                                            "Moderada: la ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
+                                            "Moderada: La ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
                                             "Severo: La ansiedad fue intensa la mayor parte del tiempo. Era muy difícil relajarse o concentrarse en cualquier otra cosa. Los síntomas físicos fueron incómodos.",
-                                            "Extremo: la ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
+                                            "Extremo: La ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
                                             "^Prefiero no responder"
                                         ],
                                         "Selectable": true
@@ -1950,8 +1950,8 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Ninguno: No evito lugares, situaciones, actividades o cosas por miedo.",
-                                            "Poco frecuente: evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
-                                            "Ocasional: tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
+                                            "Poco frecuente: Evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
+                                            "Ocasional: Tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
                                             "Frecuente: Tengo un miedo considerable y realmente trato de evitar las cosas que me asustan. He realizado cambios significativos en mi estilo de vida para evitar el objeto, situación, actividad o lugar",
                                             "Todo el tiempo: Evitar objetos, situaciones o lugares se ha apoderado de mi vida. Mi estilo de vida se ha visto muy afectado y ya no hago las cosas que antes disfrutaba.",
                                             "^Prefiero no responder"
@@ -1967,7 +1967,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
                                     }
                                 },
                                 {
@@ -1993,7 +1993,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su vida social y sus relaciones?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu vida social y sus relaciones?"
                                     }
                                 },
                                 {
@@ -2016,17 +2016,17 @@
                     ]
                 },
                 {
-                    "Name": "escala de tristeza",
-                    "Title": "escala de tristeza",
+                    "Name": "Escala de tristeza",
+                    "Title": "Escala de tristeza",
                     "Type": "Survey",
                     "Pages": [
                         {
-                            "Title": "escala de tristeza",
+                            "Title": "Escala de tristeza",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
                                     }
                                 },
                                 {
@@ -2046,12 +2046,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de tristeza",
+                            "Title": "Escala de tristeza",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
                                     }
                                 },
                                 {
@@ -2073,17 +2073,17 @@
                     ]
                 },
                 {
-                    "Name": "escala de estrés",
-                    "Title": "escala de estrés",
+                    "Name": "Escala de estrés",
+                    "Title": "Escala de estrés",
                     "Type": "Survey",
                     "Pages": [
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que no podía controlar las cosas importantes de su vida?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que no podías controlar las cosas importantes de su vida?"
                                     }
                                 },
                                 {
@@ -2103,12 +2103,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia se ha sentido seguro de su capacidad para manejar sus problemas personales?"
+                                        "Text": "En el último mes, ¿con qué frecuencia te has sentido seguro de tu capacidad para manejar tus problemas personales?"
                                     }
                                 },
                                 {
@@ -2128,12 +2128,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las cosas iban como quería?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las cosas iban como querías?"
                                     }
                                 },
                                 {
@@ -2153,12 +2153,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las dificultades se acumulaban tanto que no podía superarlas?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las dificultades se acumulaban tanto que no podías superarlas?"
                                     }
                                 },
                                 {
@@ -2190,7 +2190,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se le hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
+                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se te hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
                                     }
                                 }
                             ]
@@ -3542,7 +3542,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué tan útil considera Hoos Think Calmly para reducir su ansiedad?"
+                                        "Text": "¿Qué tan útil considera MindTrails Espanol para reducir su ansiedad?"
                                     }
                                 },
                                 {
@@ -3568,7 +3568,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿En qué medida Hoos Think Calmly mantiene su interés y atención?"
+                                        "Text": "¿En qué medida MindTrails Espanol mantiene su interés y atención?"
                                     }
                                 },
                                 {
@@ -3646,7 +3646,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué tan preocupado está por su privacidad al usar Hoos Think Calmly?"
+                                        "Text": "¿Qué tan preocupado está por su privacidad al usar MindTrails Espanol?"
                                     }
                                 },
                                 {
@@ -3788,7 +3788,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿con qué frecuencia se sintió ansioso?"
+                                        "Text": "Durante la semana pasada, ¿con qué frecuencia te sentiste ansioso?"
                                     }
                                 },
                                 {
@@ -3822,11 +3822,11 @@
                                     "Name": "biweekly_intensity_anxiety",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Poco o nada: la ansiedad estaba ausente o apenas se notaba",
+                                            "Poco o nada: La ansiedad estaba ausente o apenas se notaba",
                                             "Leve: La ansiedad estaba en un nivel bajo. Fue posible relajarme cuando lo intenté. Los síntomas físicos fueron sólo levemente incómodos.",
-                                            "Moderada: la ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
+                                            "Moderada: La ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
                                             "Severo: La ansiedad fue intensa la mayor parte del tiempo. Era muy difícil relajarse o concentrarse en cualquier otra cosa. Los síntomas físicos fueron incómodos.",
-                                            "Extremo: la ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
+                                            "Extremo: La ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
                                             "^Prefiero no responder"
                                         ],
                                         "Selectable": true
@@ -3849,8 +3849,8 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Ninguno: No evito lugares, situaciones, actividades o cosas por miedo.",
-                                            "Poco frecuente: evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
-                                            "Ocasional: tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
+                                            "Poco frecuente: Evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
+                                            "Ocasional: Tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
                                             "Frecuente: Tengo un miedo considerable y realmente trato de evitar las cosas que me asustan. He realizado cambios significativos en mi estilo de vida para evitar el objeto, situación, actividad o lugar",
                                             "Todo el tiempo: Evitar objetos, situaciones o lugares se ha apoderado de mi vida. Mi estilo de vida se ha visto muy afectado y ya no hago las cosas que antes disfrutaba.",
                                             "^Prefiero no responder"
@@ -3866,7 +3866,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
                                     }
                                 },
                                 {
@@ -3892,7 +3892,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su vida social y sus relaciones?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu vida social y sus relaciones?"
                                     }
                                 },
                                 {
@@ -3915,17 +3915,17 @@
                     ]
                 },
                 {
-                    "Name": "escala de tristeza",
-                    "Title": "escala de tristeza",
+                    "Name": "Escala de tristeza",
+                    "Title": "Escala de tristeza",
                     "Type": "Survey",
                     "Pages": [
                         {
-                            "Title": "escala de tristeza",
+                            "Title": "Escala de tristeza",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
                                     }
                                 },
                                 {
@@ -3945,12 +3945,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de tristeza",
+                            "Title": "Escala de tristeza",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
                                     }
                                 },
                                 {
@@ -3972,17 +3972,17 @@
                     ]
                 },
                 {
-                    "Name": "escala de estrés",
-                    "Title": "escala de estrés",
+                    "Name": "Escala de estrés",
+                    "Title": "Escala de estrés",
                     "Type": "Survey",
                     "Pages": [
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que no podía controlar las cosas importantes de su vida?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que no podías controlar las cosas importantes de su vida?"
                                     }
                                 },
                                 {
@@ -4002,12 +4002,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia se ha sentido seguro de su capacidad para manejar sus problemas personales?"
+                                        "Text": "En el último mes, ¿con qué frecuencia te has sentido seguro de tu capacidad para manejar tus problemas personales?"
                                     }
                                 },
                                 {
@@ -4027,12 +4027,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las cosas iban como quería?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las cosas iban como querías?"
                                     }
                                 },
                                 {
@@ -4052,12 +4052,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las dificultades se acumulaban tanto que no podía superarlas?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las dificultades se acumulaban tanto que no podías superarlas?"
                                     }
                                 },
                                 {
@@ -4089,7 +4089,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se le hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
+                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se te hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
                                     }
                                 }
                             ]
@@ -5441,7 +5441,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué tan útil le resultó Hoos Think Calmly para reducir su ansiedad?"
+                                        "Text": "¿Qué tan útil le resultó MindTrails Espanol para reducir su ansiedad?"
                                     }
                                 },
                                 {
@@ -5467,7 +5467,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿En qué medida Hoos Think Calmly mantuvo su interés y atención?"
+                                        "Text": "¿En qué medida MindTrails Espanol mantuvo su interés y atención?"
                                     }
                                 },
                                 {
@@ -5545,7 +5545,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué probabilidades hay de que recomiende Hoos Think Calmly a otras personas con dificultades de ansiedad similares?"
+                                        "Text": "¿Qué probabilidades hay de que recomiende MindTrails Espanol a otras personas con dificultades de ansiedad similares?"
                                     }
                                 },
                                 {
@@ -5683,7 +5683,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Le gustaría brindar comentarios sobre su experiencia al utilizar Hoos Think Calmly (por ejemplo, formas en que el programa ha sido útil o formas en que podemos mejorarlo)?"
+                                        "Text": "¿Le gustaría brindar comentarios sobre su experiencia al utilizar MindTrails Espanol(por ejemplo, formas en que el programa ha sido útil o formas en que podemos mejorarlo)?"
                                     }
                                 },
                                 {
@@ -5698,7 +5698,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Tenemos su permiso para utilizar todo o parte de los comentarios que proporcionó como testimonio de un participante anónimo (por ejemplo, como parte del programa Hoos Think Calmly, o en boletines informativos u otros materiales promocionales)? De ser así, no se utilizaría ni su nombre ni ninguna otra información de identificación."
+                                        "Text": "¿Tenemos su permiso para utilizar todo o parte de los comentarios que proporcionó como testimonio de un participante anónimo (por ejemplo, como parte del programa MindTrails Espanol , o en boletines informativos u otros materiales promocionales)? De ser así, no se utilizaría ni su nombre ni ninguna otra información de identificación."
                                     }
                                 },
                                 {
@@ -5732,7 +5732,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿con qué frecuencia se sintió ansioso?"
+                                        "Text": "Durante la semana pasada, ¿con qué frecuencia te sentiste ansioso?"
                                     }
                                 },
                                 {
@@ -5766,11 +5766,11 @@
                                     "Name": "biweekly_intensity_anxiety",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Poco o nada: la ansiedad estaba ausente o apenas se notaba",
+                                            "Poco o nada: La ansiedad estaba ausente o apenas se notaba",
                                             "Leve: La ansiedad estaba en un nivel bajo. Fue posible relajarme cuando lo intenté. Los síntomas físicos fueron sólo levemente incómodos.",
-                                            "Moderada: la ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
+                                            "Moderada: La ansiedad era angustiosa en ocasiones. Era difícil relajarme o concentrarme, pero podía hacerlo si lo intentaba. Los síntomas físicos fueron incómodos.",
                                             "Severo: La ansiedad fue intensa la mayor parte del tiempo. Era muy difícil relajarse o concentrarse en cualquier otra cosa. Los síntomas físicos fueron incómodos.",
-                                            "Extremo: la ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
+                                            "Extremo: La ansiedad era abrumadora. Era imposible relajarse en absoluto. Los síntomas físicos eran insoportables.",
                                             "^Prefiero no responder"
                                         ],
                                         "Selectable": true
@@ -5793,8 +5793,8 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Ninguno: No evito lugares, situaciones, actividades o cosas por miedo.",
-                                            "Poco frecuente: evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
-                                            "Ocasional: tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
+                                            "Poco frecuente: Evito algo de vez en cuando, pero normalmente afronto la situación o el objeto. Mi estilo de vida no se ve afectado.",
+                                            "Ocasional: Tengo cierto miedo ante determinadas situaciones, lugares u objetos, pero aún es manejable. Mi estilo de vida sólo ha cambiado en aspectos menores. Siempre o casi siempre evito las cosas que temo cuando estoy solo, pero puedo manejarlas si alguien viene conmigo.",
                                             "Frecuente: Tengo un miedo considerable y realmente trato de evitar las cosas que me asustan. He realizado cambios significativos en mi estilo de vida para evitar el objeto, situación, actividad o lugar",
                                             "Todo el tiempo: Evitar objetos, situaciones o lugares se ha apoderado de mi vida. Mi estilo de vida se ha visto muy afectado y ya no hago las cosas que antes disfrutaba.",
                                             "^Prefiero no responder"
@@ -5810,7 +5810,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu capacidad para hacer las cosas que necesitaba hacer en el trabajo, en la escuela o en casa?"
                                     }
                                 },
                                 {
@@ -5836,7 +5836,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió su ansiedad con su vida social y sus relaciones?"
+                                        "Text": "Durante la semana pasada, ¿en qué medida interfirió tu ansiedad con tu vida social y sus relaciones?"
                                     }
                                 },
                                 {
@@ -5859,17 +5859,17 @@
                     ]
                 },
                 {
-                    "Name": "escala de tristeza",
-                    "Title": "escala de tristeza",
+                    "Name": "Escala de tristeza",
+                    "Title": "Escala de tristeza",
                     "Type": "Survey",
                     "Pages": [
                         {
-                            "Title": "escala de tristeza",
+                            "Title": "Escala de tristeza",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nPoco interés o placer en hacer cosas."
                                     }
                                 },
                                 {
@@ -5889,12 +5889,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de tristeza",
+                            "Title": "Escala de tristeza",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia le han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
+                                        "Text": "Durante las últimas 2 semanas, ¿con qué frecuencia te han molestado alguno de los siguientes problemas?\n\nSentirse deprimido, deprimido o desesperado."
                                     }
                                 },
                                 {
@@ -5916,17 +5916,17 @@
                     ]
                 },
                 {
-                    "Name": "escala de estrés",
-                    "Title": "escala de estrés",
+                    "Name": "Escala de estrés",
+                    "Title": "Escala de estrés",
                     "Type": "Survey",
                     "Pages": [
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que no podía controlar las cosas importantes de su vida?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que no podías controlar las cosas importantes de su vida?"
                                     }
                                 },
                                 {
@@ -5946,12 +5946,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia se ha sentido seguro de su capacidad para manejar sus problemas personales?"
+                                        "Text": "En el último mes, ¿con qué frecuencia te has sentido seguro de tu capacidad para manejar tus problemas personales?"
                                     }
                                 },
                                 {
@@ -5971,12 +5971,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las cosas iban como quería?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las cosas iban como querías?"
                                     }
                                 },
                                 {
@@ -5996,12 +5996,12 @@
                             ]
                         },
                         {
-                            "Title": "escala de estrés",
+                            "Title": "Escala de estrés",
                             "Inputs": [
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En el último mes, ¿con qué frecuencia ha sentido que las dificultades se acumulaban tanto que no podía superarlas?"
+                                        "Text": "En el último mes, ¿con qué frecuencia has sentido que las dificultades se acumulaban tanto que no podías superarlas?"
                                     }
                                 },
                                 {
@@ -6033,7 +6033,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se le hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
+                                        "Text": "En este breve ejercicio, leerás varias historias cortas.\n\nLee cada una de ellas con atención e intenta imaginarte en la situación.\n\nLa última palabra de cada historia está incompleta. Haga clic en la letra que falta para completar la palabra.\n\nDespués de completar correctamente la palabra, se te hará una pregunta sobre la historia. Responde la pregunta basándose en la información del cuento."
                                     }
                                 }
                             ]
@@ -7385,7 +7385,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué tan útil le resultó Hoos Think Calmly para reducir su ansiedad?"
+                                        "Text": "¿Qué tan útil le resultó MindTrails Espanol para reducir su ansiedad?"
                                     }
                                 },
                                 {
@@ -7411,7 +7411,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Qué probabilidades hay de que recomiende Hoos Think Calmly a otras personas con dificultades de ansiedad similares?"
+                                        "Text": "¿Qué probabilidades hay de que recomiende MindTrails Espanol a otras personas con dificultades de ansiedad similares?"
                                     }
                                 },
                                 {
@@ -7514,7 +7514,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¿Se comunicó con alguno de los siguientes recursos o referencias en algún momento desde que comenzó a usar Hoos Think Calmly? Por favor seleccione todas las respuestas válidas."
+                                        "Text": "¿Se comunicó con alguno de los siguientes recursos o referencias en algún momento desde que comenzó a usar MindTrails Espanol ? Por favor seleccione todas las respuestas válidas."
                                     }
                                 },
                                 {
