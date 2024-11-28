@@ -3,7 +3,7 @@ import json
 import random
 import numpy as np
 from MTM_helpers import get_motivation, get_ER, get_tips, rreplace
-from MTM_create_pages_DEMO import clean_json, create_long_scenario_page_group, create_survey_page, create_resource_page_group_new, create_scenario_page_group, create_json_file
+from MTM_create_pages_final import *
 
 HD_motivation_lookup = get_motivation(r"/Users/xinyinzhang/Desktop/PACT Lab Training/MTM_csv/HD Motivational Statements.csv")
 PD_motivation_lookup = get_motivation(r"/Users/xinyinzhang/Desktop/PACT Lab Training/MTM_csv/PD Motivational Statements.csv")
@@ -458,6 +458,7 @@ for group in groups.keys():  # Go through files for each group
                 "Romantic Relationships": [{}, 0],
                 "Presymptomatic": [{}, 0],
                 "Early/Mid-Stage Symptoms": [{}, 0],
+                "Discrimination": [{}, 0]
             }
         else:
             domains_lookup = {
@@ -469,8 +470,70 @@ for group in groups.keys():  # Go through files for each group
                 "Mental Health": [{}, 0],
                 "Romantic Relationships": [{}, 0],
                 "Early/Mid-Stage Symptoms": [{}, 0],
+                "Discrimination": [{}, 0]
             }
 
+        domains_dict["Discrimination"] = {
+            "Name": "Discrimination",
+            "Title": "Discrimination",
+            "PageGroups": [{
+                "Name": "Discrimination",
+                "Title": "Discrimination",
+                "Type": "Discrimination",
+                "DoseSize": 11,
+                "Pages": []
+            }]# same set-up as discrimination key-value pair
+        }
+
+        if group == "HD":
+            with open(r"/Users/xinyinzhang/Desktop/PACT Lab Training/MTM_csv/MTM-discrimination-HD.csv", "r", encoding="utf-8") as read_obj:
+                discrimination_reader = csv.reader(read_obj)
+                next(discrimination_reader)
+                for d_row in discrimination_reader:
+                    title = d_row[0]
+                    text = d_row[1].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
+                        replace("\u2026", "...").replace(",..", ",")
+                    input_1 = d_row[2]
+                    participant_group = d_row[3]
+                    input_name = d_row[15]
+                    conditions_lst = d_row[14].split('; ')
+                    items_lst = d_row[7].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
+                        replace("\u2026", "...").replace(",..", ",")
+                    if group in participant_group:
+                        discrimination_page = create_discrimination_page(conditions_lst=conditions_lst,
+                                                                         text=text,
+                                                                         items_lst=items_lst,
+                                                                         input_1=input_1,
+                                                                         input_name=input_name,
+                                                                         title=title)
+                        domains_dict["Discrimination"]["PageGroups"][0]["Pages"].append(discrimination_page)
+
+        if group == "PD":
+            with open(r"/Users/xinyinzhang/Desktop/PACT Lab Training/MTM_csv/MTM-discrimination-PD.csv", "r", encoding="utf-8") as read_obj:
+                discrimination_reader = csv.reader(read_obj)
+                next(discrimination_reader)
+                for d_row in discrimination_reader:
+                    title = d_row[0]
+                    text = d_row[1].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
+                        replace("\u2026", "...").replace(",..", ",")
+                    input_1 = d_row[2]
+                    participant_group = d_row[3]
+                    input_name = d_row[15]
+                    conditions_lst = d_row[14].split('; ')
+                    items_lst = d_row[7].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
+                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
+                        replace("\u2026", "...").replace(",..", ",")
+                    if group in participant_group:
+                        discrimination_page = create_discrimination_page(conditions_lst=conditions_lst,
+                                                                         text=text,
+                                                                         items_lst=items_lst,
+                                                                         input_1=input_1,
+                                                                         input_name=input_name,
+                                                                         title=title)
+                        domains_dict["Discrimination"]["PageGroups"][0]["Pages"].append(discrimination_page)
 
         row_num = 1
         current_domain = "Holder"
@@ -753,100 +816,103 @@ for group in groups.keys():  # Go through files for each group
         create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
         # Create biweekly survey for HD participants
-    if group == "HD":
-        file_name = "HD_Biweekly_control.json"
-        name = "Track Your Progress"
-        title = "Track Your Progress"
-        dose_by_section = True
-        sections = [
-            {
-                "Name": "Track Your Progress - Week 2",
-                "PageGroups": list(HD_biweekly.values()) + list(HD_biweekly_2_control.values())
-            },
-            {
-                "Name": "Track Your Progress - Week 4",
-                "PageGroups": list(HD_biweekly.values()) + list(HD_biweekly_4_control.values())
-            },
-            {
-                "Name": "Track Your Progress - Week 6",
-                "PageGroups": list(HD_biweekly.values()) + list(HD_biweekly_6_control.values())
-            },
-            {
-                "Name": "Follow-up - Week 10",
-                "PageGroups": list(HD_biweekly.values()) + list(HD_follow_up_control.values())
-            }
-        ]
-        create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
+        if group == "HD":
+            file_name = "HD_Biweekly_control.json"
+            name = "Track Your Progress"
+            title = "Track Your Progress"
+            dose_by_section = True
+            sections = [
+                {
+                    "Name": "Track Your Progress - Week 2",
+                    "PageGroups": list(HD_biweekly.values()) + list(HD_biweekly_2_control.values())
+                },
+                {
+                    "Name": "Track Your Progress - Week 4",
+                    "PageGroups": list(HD_biweekly.values()) + list(HD_biweekly_4_control.values())
+                },
+                {
+                    "Name": "Track Your Progress - Week 6",
+                    "PageGroups": list(HD_biweekly.values()) + list(HD_biweekly_6_control.values())
+                },
+                {
+                    "Name": "Follow-up - Week 10",
+                    "PageGroups": list(HD_biweekly.values()) + list(HD_follow_up_control.values())
+                }
+            ]
+            create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
-        # Create biweekly survey for PD participants
-    else:
-        file_name = "PD_Biweekly_control.json"
-        name = "Track Your Progress"
-        title = "Track Your Progress"
-        dose_by_section = True
-        sections = [
-            {
-                "Name": "Track Your Progress - Week 2",
-                "PageGroups": list(PD_biweekly.values()) + list(PD_biweekly_2_control.values())
-            },
-            {
-                "Name": "Track Your Progress - Week 4",
-                "PageGroups": list(PD_biweekly.values()) + list(PD_biweekly_4_control.values())
-            },
-            {
-                "Name": "Track Your Progress - Week 6",
-                "PageGroups": list(PD_biweekly.values()) + list(PD_biweekly_6_control.values())
-            },
-            {
-                "Name": "Follow-up - Week 10",
-                "PageGroups": list(PD_biweekly.values()) + list(PD_follow_up_control.values())
-            }
-        ]
-        create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
+            # Create biweekly survey for PD participants
+        else:
+            file_name = "PD_Biweekly_control.json"
+            name = "Track Your Progress"
+            title = "Track Your Progress"
+            dose_by_section = True
+            sections = [
+                {
+                    "Name": "Track Your Progress - Week 2",
+                    "PageGroups": list(PD_biweekly.values()) + list(PD_biweekly_2_control.values())
+                },
+                {
+                    "Name": "Track Your Progress - Week 4",
+                    "PageGroups": list(PD_biweekly.values()) + list(PD_biweekly_4_control.values())
+                },
+                {
+                    "Name": "Track Your Progress - Week 6",
+                    "PageGroups": list(PD_biweekly.values()) + list(PD_biweekly_6_control.values())
+                },
+                {
+                    "Name": "Follow-up - Week 10",
+                    "PageGroups": list(PD_biweekly.values()) + list(PD_follow_up_control.values())
+                }
+            ]
+            create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
-    """
+        """
 
-    ## Create the first dose file for HD control
-    """
-    if group == "HD":
-        file_name = "HD_Dose1_control.json"
-        name = "Dose 1"
-        title = "Get started!"
-        sections = [{"Name": "Dose 1",
-                     "CanBeFavorited": True,
-                     "PageGroups": list(HD_control_dose_1.values())
-                     }]
-        create_json_file(file_name, name, title, sections)
-    # Create the first does file for PD control
-    else:
-        file_name = "PD_Dose1_control.json"
-        name = "Dose 1"
-        title = "Get started!"
-        sections = [{"Name": "Dose 1",
-                     "CanBeFavorited": True,
-                     "PageGroups": list(PD_control_dose_1.values())
-                     }]
-        create_json_file(file_name, name, title, sections)
+          ## Create the first dose file for HD control
+        """
 
-    # Create reasons for ending for HD
-    if group == "HD":
-        file_name = "HD_ReasonsForEnding.json"
-        name = "Reasons for Ending"
-        title = "Reasons for Ending"
-        cancel_button_text = "Exit"
-        sections = [{
-            "Name": "Reasons For Ending",
-            "PageGroups": list(HD_reasons.values())
-        }]
-        create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
+        if group == "HD":
+            file_name = "HD_Dose1_control.json"
+            name = "Dose 1"
+            title = "Get started!"
+            sections = [{"Name": "Dose 1",
+                         "CanBeFavorited": True,
+                         "PageGroups": list(HD_control_dose_1.values())
+                         }]
+            create_json_file(file_name, name, title, sections)
+            # Create the first does file for PD control
+        else:
+            file_name = "PD_Dose1_control.json"
+            name = "Dose 1"
+            title = "Get started!"
+            sections = [{"Name": "Dose 1",
+                         "CanBeFavorited": True,
+                         "PageGroups": list(PD_control_dose_1.values())
+                         }]
+            create_json_file(file_name, name, title, sections)
 
-    else:
-        file_name = "PD_ReasonsForEnding.json"
-        name = "Reasons for Ending"
-        title = "Reasons for Ending"
-        cancel_button_text = "Exit"
-        sections = [{
-            "Name": "Reasons For Ending",
-            "PageGroups": list(PD_reasons.values())
-        }]
-        create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
+            # Create reasons for ending for HD
+        if group == "HD":
+            file_name = "HD_ReasonsForEnding.json"
+            name = "Reasons for Ending"
+            title = "Reasons for Ending"
+            cancel_button_text = "Exit"
+            sections = [{
+                "Name": "Reasons For Ending",
+                "PageGroups": list(HD_reasons.values())
+            }]
+            create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
+
+        else:
+            file_name = "PD_ReasonsForEnding.json"
+            name = "Reasons for Ending"
+            title = "Reasons for Ending"
+            cancel_button_text = "Exit"
+            sections = [{
+                "Name": "Reasons For Ending",
+                "PageGroups": list(PD_reasons.values())
+            }]
+            create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
+
+

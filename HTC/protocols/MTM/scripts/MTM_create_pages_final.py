@@ -426,6 +426,7 @@ def create_discrimination_page(conditions_lst, text, items_lst, input_1,
             "Inputs": [
                 {"Type": "Text",
                  "Parameters": {
+                     "IsHtml": True,
                      "Text": text}
                  }]
         }
@@ -433,6 +434,7 @@ def create_discrimination_page(conditions_lst, text, items_lst, input_1,
         page_dict = {"Inputs": [
             {"Type": "Text",
              "Parameters": {
+                 "IsHtml": True,
                  "Text": text}
              }]
         }
