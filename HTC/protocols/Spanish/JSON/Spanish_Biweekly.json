@@ -7507,49 +7507,6 @@
                                     "Value": "Inseguro"
                                 }
                             ]
-                        },
-                        {
-                            "Title": "Tu experiencia",
-                            "Inputs": [
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "¿Se comunicó con alguno de los siguientes recursos o referencias en algún momento desde que comenzó a usar MindTrails Espanol ? Por favor seleccione todas las respuestas válidas."
-                                    }
-                                },
-                                {
-                                    "Type": "Buttons",
-                                    "Name": "resources_contacted",
-                                    "Parameters": {
-                                        "Buttons": [
-                                            "Clubes y organizaciones (por ejemplo, grupos culturales, voluntariado)",
-                                            "Servicios de Consejería y Psicología (CAPS)",
-                                            "Programa de asistencia a profesores y empleados (FEAP)",
-                                            "Línea de AYUDA",
-                                            "HoosBueno",
-                                            "Centros de estudiantes multiculturales (por ejemplo, interreligiosos, latinos, LGBTQ)",
-                                            "Oficina de Igualdad de Oportunidades y Derechos Civiles (EOCR)",
-                                            "Oficina de Asuntos Afroamericanos (OAAA)",
-                                            "Oficina de Asuntos de Graduados y Postdoctorados",
-                                            "Oficina del Decano de Estudiantes (ODOS)",
-                                            "Doctorado Plus",
-                                            "Centro de Acceso para Estudiantes con Discapacidades (SDAC)",
-                                            "Servicios financieros para estudiantes",
-                                            "Salud y Bienestar Estudiantil",
-                                            "atención oportuna",
-                                            "Centro de Carreras UVA",
-                                            "Recursos Humanos (RR.HH.) UVA",
-                                            "Centro de la Mujer UVA",
-                                            "Centro de Escritura UVA",
-                                            "WahooBueno",
-                                            "Otro",
-                                            "No me comuniqué con ninguno de estos recursos/referencias desde que comencé este programa."
-                                        ],
-                                        "Selectable": true,
-                                        "AllowMultipleSelections": true
-                                    }
-                                }
-                            ]
                         }
                     ]
                 }

@@ -193,7 +193,7 @@
                                     "Parameters": {
                                         "Buttons": [
                                             "Indio americano/nativo de Alaska",
-                                            "Asiático del Este",
+                                            "Asiático del este",
                                             "Asiático del Sur",
                                             "Nativo de Hawái/Isleno del Pacífico",
                                             "Origen negro/africano",
@@ -375,9 +375,9 @@
                                     "Name": "learn_abt_HTC",
                                     "Parameters": {
                                         "Buttons": [
-                                            "Del sitio web de un recurso comunitario de la UVA (por ejemplo, Servicios de asesoramiento y psicología)",
-                                            "De un boletín informativo asociado con un recurso comunitario de la UVA",
-                                            "De un folleto sobre Grounds",
+                                            "Del sitio web de un recurso comunitario",
+                                            "De un boletín informativo asociado con un recurso comunitario",
+                                            "De un folleto",
                                             "Un amigo o colega",
                                             "Lo recomendó un profesional de salud mental",
                                             "^Prefiero no responder",
@@ -809,49 +809,6 @@
                                 {
                                     "VariableName": "anxiety_or_depression",
                                     "Value": "Inseguro"
-                                }
-                            ]
-                        },
-                        {
-                            "Title": "Cuestionario de tratamiento y salud mental",
-                            "Inputs": [
-                                {
-                                    "Type": "Text",
-                                    "Parameters": {
-                                        "Text": "¿Cuáles de los siguientes recursos en la UVA has utilizado anteriormente? Por favor seleccione todas las respuestas válidas."
-                                    }
-                                },
-                                {
-                                    "Type": "Buttons",
-                                    "Name": "UVA_resources",
-                                    "Parameters": {
-                                        "Buttons": [
-                                            "Clubes y organizaciones (por ejemplo, grupos culturales, voluntariado)",
-                                            "Servicios de Consejería y Psicología (CAPS)",
-                                            "Programa de asistencia a profesores y empleados (FEAP)",
-                                            "Línea de AYUDA",
-                                            "HoosBueno",
-                                            "Centros de estudiantes multiculturales (por ejemplo, interreligiosos, latinos, LGBTQ)",
-                                            "Oficina de Igualdad de Oportunidades y Derechos Civiles (EOCR)",
-                                            "Oficina de Asuntos Afroamericanos (OAAA)",
-                                            "Oficina de Asuntos de Graduados y Postdoctorados",
-                                            "Oficina del Decano de Estudiantes (ODOS)",
-                                            "Doctorado Plus",
-                                            "Centro de Acceso para Estudiantes con Discapacidades (SDAC)",
-                                            "Servicios financieros para estudiantes",
-                                            "Salud y Bienestar Estudiantil",
-                                            "atención oportuna",
-                                            "Centro de Carreras UVA",
-                                            "Recursos Humanos (RR.HH.) UVA",
-                                            "Centro de la Mujer UVA",
-                                            "Centro de Escritura UVA",
-                                            "WahooBueno",
-                                            "^No he utilizado ninguno de estos recursos UVA",
-                                            "!Otros (especificar:"
-                                        ],
-                                        "Selectable": true,
-                                        "AllowMultipleSelections": true
-                                    }
                                 }
                             ]
                         }
@@ -2894,7 +2851,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/main/HTC/protocols/Spanish/media/new_images/Contribuyendo_a_una_discusi%C3%B3n.jpeg",
+                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/tree/main/HTC/protocols/Spanish/media/images/Contribuyendo_a_una_discusión.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -2945,8 +2902,8 @@
                                     "IncorrectDelay": 5000,
                                     "Parameters": {
                                         "Buttons": [
-                                            "Apoye sus ideas.",
-                                            "No le gustan tus ideas."
+                                            "No le gustan tus ideas.",
+                                            "Apoye sus ideas."
                                         ],
                                         "ColumnCount": 1,
                                         "Answer": "Apoye sus ideas."
@@ -3016,7 +2973,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/main/HTC/protocols/Spanish/media/new_images/Atenci%C3%B3n_en_una_tienda.jpg",
+                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/tree/main/HTC/protocols/Spanish/media/images/Atención_en_una_tienda.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -3145,7 +3102,7 @@
                                 {
                                     "Type": "Media",
                                     "Parameters": {
-                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/main/HTC/protocols/Spanish/media/new_images/Una_pastel_de_cumplea%C3%B1os.jpg",
+                                        "ImageUrl": "https://raw.githubusercontent.com/TeachmanLab/MindtrailsMobile_Resources/tree/main/HTC/protocols/Spanish/media/images/Una_pastel_de_cumpleaños.jpeg",
                                         "ImageType": "image/jpeg"
                                     },
                                     "Frame": true
@@ -3253,7 +3210,7 @@
                                 {
                                     "Type": "Text",
                                     "Parameters": {
-                                        "Text": "¡Gran trabajo! Esperamos que esta breve capacitación haya ayudado a aclarar el propósito de estas historias cortas y lo que podría obtener de MindTrails Espanol. En el futuro, podrá elegir áreas de la vida que le causen mayor estrés para que las historias que lea sean más relevantes para usted. Durante sesiones futuras, también recibirá consejos disenados para ayudarlo a manejar sus emociones, conectarse con recursos de la UVA y aplicar lo que aprenda de los cuentos en su propia vida."
+                                        "Text": "¡Gran trabajo! Esperamos que esta breve capacitación haya ayudado a aclarar el propósito de estas historias cortas y lo que podría obtener de MindTrails Espanol. En el futuro, podrá elegir áreas de la vida que le causen mayor estrés para que las historias que lea sean más relevantes para usted. Durante sesiones futuras, también recibirá consejos disenados para ayudarlo a manejar sus emociones, conectarse con recursos y aplicar lo que aprenda de los cuentos en su propia vida."
                                     }
                                 }
                             ]
