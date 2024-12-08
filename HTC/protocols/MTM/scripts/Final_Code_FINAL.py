@@ -491,24 +491,18 @@ for group in groups.keys():  # Go through files for each group
                 next(discrimination_reader)
                 for d_row in discrimination_reader:
                     title = d_row[0]
-                    text = d_row[1].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
-                        replace("\u2026", "...").replace(",..", ",")
+                    text = d_row[1]
                     input_1 = d_row[2]
-                    participant_group = d_row[3]
                     input_name = d_row[15]
                     conditions_lst = d_row[14].split('; ')
-                    items_lst = d_row[7].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
-                        replace("\u2026", "...").replace(",..", ",")
-                    if group in participant_group:
-                        discrimination_page = create_discrimination_page(conditions_lst=conditions_lst,
-                                                                         text=text,
-                                                                         items_lst=items_lst,
-                                                                         input_1=input_1,
-                                                                         input_name=input_name,
-                                                                         title=title)
-                        domains_dict["Discrimination"]["PageGroups"][0]["Pages"].append(discrimination_page)
+                    items_lst = d_row[7]
+                    discrimination_page = create_discrimination_page(conditions_lst=conditions_lst,
+                                                                     text=text,
+                                                                     items_lst=items_lst,
+                                                                     input_1=input_1,
+                                                                     input_name=input_name,
+                                                                     title=title)
+                    domains_dict["Discrimination"]["PageGroups"][0]["Pages"].append(discrimination_page)
 
         if group == "PD":
             with open(r"/Users/xinyinzhang/Desktop/PACT Lab Training/MTM_csv/MTM-discrimination-PD.csv", "r", encoding="utf-8") as read_obj:
@@ -516,25 +510,18 @@ for group in groups.keys():  # Go through files for each group
                 next(discrimination_reader)
                 for d_row in discrimination_reader:
                     title = d_row[0]
-                    text = d_row[1].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
-                        replace("\u2026", "...").replace(",..", ",")
+                    text = d_row[1]
                     input_1 = d_row[2]
-                    participant_group = d_row[3]
                     input_name = d_row[15]
                     conditions_lst = d_row[14].split('; ')
-                    items_lst = d_row[7].replace("\u2019", "'").replace("\u2013", " - ").replace("\u2014", " - "). \
-                        replace("\u201c", '"').replace("\u201d", '"').replace("\\n", "\n"). \
-                        replace("\u2026", "...").replace(",..", ",")
-                    if group in participant_group:
-                        discrimination_page = create_discrimination_page(conditions_lst=conditions_lst,
-                                                                         text=text,
-                                                                         items_lst=items_lst,
-                                                                         input_1=input_1,
-                                                                         input_name=input_name,
-                                                                         title=title)
-                        domains_dict["Discrimination"]["PageGroups"][0]["Pages"].append(discrimination_page)
-
+                    items_lst = d_row[7]
+                    discrimination_page = create_discrimination_page(conditions_lst=conditions_lst,
+                                                                     text=text,
+                                                                     items_lst=items_lst,
+                                                                     input_1=input_1,
+                                                                     input_name=input_name,
+                                                                     title=title)
+                    domains_dict["Discrimination"]["PageGroups"][0]["Pages"].append(discrimination_page)
         row_num = 1
         current_domain = "Holder"
         for row in csv_reader:
