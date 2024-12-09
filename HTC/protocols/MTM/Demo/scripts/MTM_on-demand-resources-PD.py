@@ -2,7 +2,7 @@ import csv
 import json
 
 on_demand_files = { #come from the excel resources for on-demand library (for app tabs)
-    "MTM-HD": r"/Users/xinyinzhang/Desktop/PACT Lab Training/MTM_csv/MTM on demand PD.csv"
+    "MTM-PD": r"/Users/xinyinzhang/Desktop/PACT Lab Training/MTM_csv/MTM on demand PD.csv"
 }
 
 json_dict = {
