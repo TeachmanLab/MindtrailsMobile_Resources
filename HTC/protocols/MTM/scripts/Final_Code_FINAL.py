@@ -351,7 +351,7 @@ for group in groups.keys():  # Go through files for each group
                     lookup[lookup_code][page_group_name]["Pages"].append(page)  # add to proper page group
 
     #### Create dose 1 JSON files ####
-    file_name = group + "_dose_1_DEMO.json"
+    file_name = group + "_dose_1_FINAL.json"
     name = group
     title = "Mindtrails Movement"
     if group == "HD":
@@ -704,8 +704,8 @@ for group in groups.keys():  # Go through files for each group
     control_json_dict["Sections"][0]["Domains"] = list(domains_dict.values())
 
     new_json_dict = groups[group][2]
-    json_file = group + " DEMO.json"
-    #control_json_file = group + "_control_DEMO.json"
+    json_file = group + " FINAL.json"
+    #control_json_file = group + "_control_FINAL.json"
 
     # replacing '
     json_dict = clean_json(json_dict)
@@ -724,7 +724,7 @@ for group in groups.keys():  # Go through files for each group
 
     ## Create HD end of day survey
     if group == "HD":
-        file_name = "HD_EOD_DEMO.json"
+        file_name = "HD_EOD_FINAL.json"
         name = "Nightly Survey"
         title = "Nightly Survey"
         sections = [
@@ -737,7 +737,7 @@ for group in groups.keys():  # Go through files for each group
 
     ## Create PD end of day survery
     else:
-        file_name = "PD_EOD_DEMO.json"
+        file_name = "PD_EOD_FINAL.json"
         name = "Nightly Survey"
         title = "Nightly Survey"
         sections = [
@@ -752,7 +752,7 @@ for group in groups.keys():  # Go through files for each group
     # "Dose by section" means that each section is considered a "dose." The app will therefore
     # skip from section to section every 2 weeks (this timeframe is set by Ben)
     if group == "HD":
-        file_name = "HD_Biweekly_DEMO.json"
+        file_name = "HD_Biweekly_FINAL.json"
         name = "Track Your Progress"
         title = "Track Your Progress"
         dose_by_section = True
@@ -777,8 +777,8 @@ for group in groups.keys():  # Go through files for each group
         create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
         # Create biweekly survey for PD participants
-    else:
-        file_name = "PD_Biweekly_DEMO.json"
+    if group == "PD":
+        file_name = "PD_Biweekly_FINAL.json"
         name = "Track Your Progress"
         title = "Track Your Progress"
         dose_by_section = True
@@ -829,7 +829,7 @@ for group in groups.keys():  # Go through files for each group
             create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
             # Create biweekly survey for PD participants
-        else:
+        if group == "PD":
             file_name = "PD_Biweekly_control.json"
             name = "Track Your Progress"
             title = "Track Your Progress"
@@ -854,32 +854,29 @@ for group in groups.keys():  # Go through files for each group
             ]
             create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
+
         """
 
-          ## Create the first dose file for HD control
+        ## Create the first dose file for HD control
         """
-
         if group == "HD":
             file_name = "HD_Dose1_control.json"
             name = "Dose 1"
             title = "Get started!"
             sections = [{"Name": "Dose 1",
-                         "CanBeFavorited": True,
                          "PageGroups": list(HD_control_dose_1.values())
                          }]
             create_json_file(file_name, name, title, sections)
-            # Create the first does file for PD control
+        # Create the first does file for PD control
         else:
             file_name = "PD_Dose1_control.json"
             name = "Dose 1"
             title = "Get started!"
             sections = [{"Name": "Dose 1",
-                         "CanBeFavorited": True,
                          "PageGroups": list(PD_control_dose_1.values())
                          }]
             create_json_file(file_name, name, title, sections)
 
-            # Create reasons for ending for HD
         if group == "HD":
             file_name = "HD_ReasonsForEnding.json"
             name = "Reasons for Ending"
