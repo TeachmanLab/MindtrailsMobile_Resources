@@ -803,12 +803,12 @@ for group in groups.keys():  # Go through files for each group
         create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
         # Create biweekly survey for HD participants
-        if group == "HD":
-            file_name = "HD_Biweekly_control.json"
-            name = "Track Your Progress"
-            title = "Track Your Progress"
-            dose_by_section = True
-            sections = [
+    if group == "HD":
+        file_name = "HD_Biweekly_control.json"
+        name = "Track Your Progress"
+        title = "Track Your Progress"
+        dose_by_section = True
+        sections = [
                 {
                     "Name": "Track Your Progress - Week 2",
                     "PageGroups": list(HD_biweekly.values()) + list(HD_biweekly_2_control.values())
@@ -826,15 +826,15 @@ for group in groups.keys():  # Go through files for each group
                     "PageGroups": list(HD_biweekly.values()) + list(HD_follow_up_control.values())
                 }
             ]
-            create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
+        create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
             # Create biweekly survey for PD participants
-        if group == "PD":
-            file_name = "PD_Biweekly_control.json"
-            name = "Track Your Progress"
-            title = "Track Your Progress"
-            dose_by_section = True
-            sections = [
+    if group == "PD":
+        file_name = "PD_Biweekly_control.json"
+        name = "Track Your Progress"
+        title = "Track Your Progress"
+        dose_by_section = True
+        sections = [
                 {
                     "Name": "Track Your Progress - Week 2",
                     "PageGroups": list(PD_biweekly.values()) + list(PD_biweekly_2_control.values())
@@ -852,51 +852,51 @@ for group in groups.keys():  # Go through files for each group
                     "PageGroups": list(PD_biweekly.values()) + list(PD_follow_up_control.values())
                 }
             ]
-            create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
+        create_json_file(file_name, name, title, sections, dose_by_section=dose_by_section)
 
 
         """
 
         ## Create the first dose file for HD control
         """
-        if group == "HD":
-            file_name = "HD_Dose1_control.json"
-            name = "Dose 1"
-            title = "Get started!"
-            sections = [{"Name": "Dose 1",
+    if group == "HD":
+        file_name = "HD_Dose1_control.json"
+        name = "Dose 1"
+        title = "Get started!"
+        sections = [{"Name": "Dose 1",
                          "PageGroups": list(HD_control_dose_1.values())
                          }]
-            create_json_file(file_name, name, title, sections)
+        create_json_file(file_name, name, title, sections)
         # Create the first does file for PD control
-        else:
-            file_name = "PD_Dose1_control.json"
-            name = "Dose 1"
-            title = "Get started!"
-            sections = [{"Name": "Dose 1",
-                         "PageGroups": list(PD_control_dose_1.values())
-                         }]
-            create_json_file(file_name, name, title, sections)
+    else:
+        file_name = "PD_Dose1_control.json"
+        name = "Dose 1"
+        title = "Get started!"
+        sections = [{"Name": "Dose 1",
+                     "PageGroups": list(PD_control_dose_1.values())
+                     }]
+        create_json_file(file_name, name, title, sections)
 
-        if group == "HD":
-            file_name = "HD_ReasonsForEnding.json"
-            name = "Reasons for Ending"
-            title = "Reasons for Ending"
-            cancel_button_text = "Exit"
-            sections = [{
+    if group == "HD":
+        file_name = "HD_ReasonsForEnding.json"
+        name = "Reasons for Ending"
+        title = "Reasons for Ending"
+        cancel_button_text = "Exit"
+        sections = [{
                 "Name": "Reasons For Ending",
                 "PageGroups": list(HD_reasons.values())
             }]
-            create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
+        create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
 
-        else:
-            file_name = "PD_ReasonsForEnding.json"
-            name = "Reasons for Ending"
-            title = "Reasons for Ending"
-            cancel_button_text = "Exit"
-            sections = [{
+    else:
+        file_name = "PD_ReasonsForEnding.json"
+        name = "Reasons for Ending"
+        title = "Reasons for Ending"
+        cancel_button_text = "Exit"
+        sections = [{
                 "Name": "Reasons For Ending",
                 "PageGroups": list(PD_reasons.values())
             }]
-            create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
+        create_json_file(file_name, name, title, sections, cancel_button_text=cancel_button_text)
 
 
